@@ -15,7 +15,7 @@ jobs:
               run: |
                 sudo apt install python3.8
                 python3.8 -m pip install setuptools
-                python3.8 -m pip install -e git://github.com/ddionrails/paneldata_pipeline.git@master#egg=paneldata_pipeline
+                python3.8 -m pip install git+https://github.com/ddionrails/paneldata_pipeline@master#egg=paneldata_pipeline
             - name: Process Data
               run: |
                 python3.8 -m paneldata_pipeline -i metadata/ -o ddionrails/ -s soep-core-preview -w ${{ secrets.study_version }} -g -u
