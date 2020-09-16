@@ -19,14 +19,6 @@ jobs:
             - name: Process Data
               run: |
                 python3.8 -m paneldata_pipeline -i metadata/ -o ddionrails/ -s soep-core-preview -w ${{ secrets.study_version }} -g -u
-            - name: update file and push to remote
-              run: |
-                git config --global user.name "GitHub Action"
-                git config --global user.email "github-actions@users.noreply.github.com"
-
-                git add -A
-                git commit -m "Update generated data with data-pipeline"
-                git push
             - name: Install data compliance check
               run: |
                 python3 -m pip install setuptools
@@ -34,3 +26,18 @@ jobs:
             - name: Test
               run: |
                 python3 -m goodtables ddionrails/datapackage.json
+
+            - name: Update file and push to remote
+              run: |
+                CHANGES_TO_COMMIT=$(git diff-index --quiet HEAD --) | exit 0
+                if [ $CHANGES_TO_COMMIT -eq 1 ]
+                then 
+                  git config --global user.name "GitHub Action"
+                  git config --global user.email "github-actions@users.noreply.github.com"
+
+                  git add -A
+                  git commit -m "Update generated data with data-pipeline"
+                  git push
+                else
+                  exit 0
+                fi
