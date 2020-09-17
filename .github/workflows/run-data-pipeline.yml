@@ -29,6 +29,7 @@ jobs:
 
             - name: Update file and push to remote
               run: |
+                git ls-files --others --exclude-standard | xargs git add
                 CHANGES_TO_COMMIT=$(git diff-index --quiet HEAD --) | exit 0
                 if [ $CHANGES_TO_COMMIT -eq 1 ]
                 then 
