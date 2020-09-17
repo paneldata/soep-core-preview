@@ -1,0 +1,2354 @@
+{
+  "study": "soep-core-preview",
+  "name": "soep-core-2019-e2-lgb",
+  "label": "Mother and Child (2-3-year-olds, CAPI) 2019",
+  "analysis_unit": "p",
+  "period": 2019,
+  "author": "SOEP Group",
+  "label_de": "Mutter und Kind (2-3 Jahre, CAPI) 2019",
+  "publish": 1,
+  "qtyp": "e2",
+  "instrument": "soep-core-2019-e2-lgb",
+  "questions": {
+    "Intro": {
+      "question": "Intro",
+      "name": "Intro",
+      "items": [
+        {
+          "text_de": "Die ersten Lebensjahre eines Kindes sind geprägt von einer Vielfalt von Entwicklungsschritten. Für die Wissenschaft ist diese wichtige Lebensspanne von großem Interesse. In diesem kurzen Fragebogen geht es um Kinder, die im Jahr 2016 geboren wurden. Unsere Fragen beziehen sich auf Ihre persönlichen Erfahrungen und die Entwicklung des Kindes. Die Fragen werden von einem Elternteil oder gegebenfalls von einer anderen Betreuungsperson beantwortet.\n\nIhre Mitarbeit ist freiwillig.\n\nWir bitten Sie aber herzlich,\n\n- unserem Mitarbeiter / unserer Mitarbeiterin die Fragen zu beantworten\n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "0": {
+      "question": "0",
+      "name": "0",
+      "items": [
+        {
+          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "hnr",
+          "text_de": "Nr. des Haushalts",
+          "scale": "int",
+          "concept": "hnr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "mname",
+          "text_de": "Vorname der Befragungsperson",
+          "scale": "chr",
+          "concept": "mname",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "pnr",
+          "text_de": "Personen Nr.",
+          "scale": "int",
+          "concept": "pnr",
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "1": {
+      "question": "1",
+      "name": "1",
+      "label": "What’s your child’s name?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie heißt das Kind?",
+          "text": "What’s your child’s name?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bname",
+          "text_de": "Vorname des Kindes:",
+          "instruction_de": "Bitte in Druckbuchstaben",
+          "text": "Child's first name",
+          "instruction": "Please print in capital letters.",
+          "scale": "chr",
+          "concept": "bname",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "bpnr",
+          "text_de": "Personen Nr",
+          "text": "Person ID",
+          "scale": "int",
+          "concept": "bpnr",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "2": {
+      "question": "2",
+      "name": "2",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Geburtsdatum und Geschlecht Ihres Kindes",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bgebt",
+          "text_de": "Tag",
+          "scale": "int",
+          "concept": "bgebt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "bgebm",
+          "text_de": "Monat",
+          "scale": "int",
+          "concept": "bgebm",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "bgebj",
+          "text_de": "Jahr",
+          "scale": "int",
+          "concept": "bgebj",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "bsex",
+          "text_de": "…",
+          "scale": "cat",
+          "concept": "bsex",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Männlich"
+            },
+            {
+              "value": 2,
+              "label_de": "Weiblich"
+            },
+            {
+              "value": 3,
+              "label_de": "Divers"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "3": {
+      "question": "3",
+      "name": "3",
+      "items": [
+        {
+          "item": "bbez",
+          "text_de": "In welcher Beziehung stehen Sie zu diesem Kind: sind Sie …?",
+          "scale": "cat",
+          "concept": "bbez",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Leibliche Mutter"
+            },
+            {
+              "value": 2,
+              "label_de": "Leiblicher Vater"
+            },
+            {
+              "value": 3,
+              "label_de": "Zweite, soziale Mutter / zweiter, sozialer Vater bei gleichgeschlechtlichen Paaren"
+            },
+            {
+              "value": 4,
+              "label_de": "Adoptiv-, Pflegemutter / Adoptiv-, Pflegevater"
+            },
+            {
+              "value": 5,
+              "label_de": "Stiefmutter / Stiefvater"
+            },
+            {
+              "value": 6,
+              "label_de": "Großmutter / Großvater / Tante / Onkel"
+            },
+            {
+              "value": 7,
+              "label_de": "Nichts davon, andere Beziehung zum Kind"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "3a": {
+      "question": "3a",
+      "name": "3a",
+      "label": "Did you breastfeed your baby? If so, how long?",
+      "items": [
+        {
+          "item": "bstil1",
+          "text_de": "Wurde das Kind gestillt, und wenn ja, wie lange? ",
+          "text": "Did you breastfeed your baby? If so, how long?",
+          "scale": "cat",
+          "concept": "bstil1",
+          "answers": [
+            {
+              "value": 3,
+              "label_de": "Wird immer noch gestillt"
+            },
+            {
+              "value": 1,
+              "label_de": "Wurde nur in den ersten vier Wochen gestillt"
+            },
+            {
+              "value": 2,
+              "label_de": "Nein, wurde nicht gestillt"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bstil2",
+          "text_de": "Wurde länger gestillt und zwar ... Monate",
+          "text": "I breastfed for a longer period: … months",
+          "scale": "int",
+          "concept": "bstil2",
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "4": {
+      "question": "4",
+      "name": "4",
+      "label": "What’s your current impression of your child? To what extent do you agree with the following statements?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie sehen Sie das Kind heute? Inwieweit treffen die folgenden Aussagen zu?",
+          "text": "What’s your current impression of your child? To what extent do you agree with the following statements?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bakt1",
+          "text_de": "Das Kind ist meist fröhlich und zufrieden",
+          "text": "The child is generally cheerful and happy",
+          "scale": "cat",
+          "concept": "bakt1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Trifft voll zu",
+              "label": "Agree completely"
+            },
+            {
+              "value": 2,
+              "label_de": "Trifft eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 3,
+              "label_de": "Trifft eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "Trifft gar nicht zu",
+              "label": "Disagree completely"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "bakt2",
+          "text_de": "Das Kind ist leicht erregbar und weint häufig",
+          "text": "The child is easily irritated and cries a lot",
+          "scale": "cat",
+          "concept": "bakt2",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Trifft voll zu",
+              "label": "Agree completely"
+            },
+            {
+              "value": 2,
+              "label_de": "Trifft eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 3,
+              "label_de": "Trifft eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "Trifft gar nicht zu",
+              "label": "Disagree completely"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "bakt3",
+          "text_de": "Das Kind ist schwer zu trösten",
+          "text": "The child is difficult to comfort when upset",
+          "scale": "cat",
+          "concept": "bakt3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Trifft voll zu",
+              "label": "Agree completely"
+            },
+            {
+              "value": 2,
+              "label_de": "Trifft eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 3,
+              "label_de": "Trifft eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "Trifft gar nicht zu",
+              "label": "Disagree completely"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "bakt4",
+          "text_de": "Das Kind ist neugierig und aktiv",
+          "text": "The child is curious and active",
+          "scale": "cat",
+          "concept": "bakt4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Trifft voll zu",
+              "label": "Agree completely"
+            },
+            {
+              "value": 2,
+              "label_de": "Trifft eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 3,
+              "label_de": "Trifft eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "Trifft gar nicht zu",
+              "label": "Disagree completely"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "bakt5",
+          "text_de": "Das Kind ist gesprächig, redet gern ",
+          "text": "The child is communicative and likes to talk",
+          "scale": "cat",
+          "concept": "bakt5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Trifft voll zu",
+              "label": "Agree completely"
+            },
+            {
+              "value": 2,
+              "label_de": "Trifft eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 3,
+              "label_de": "Trifft eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "Trifft gar nicht zu",
+              "label": "Disagree completely"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "bakt6",
+          "text_de": "Das Kind zeigt Mitgefühl, wenn andere traurig sind ",
+          "text": "The child shows empathy when others are sad",
+          "scale": "cat",
+          "concept": "bakt6",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Trifft voll zu",
+              "label": "Agree completely"
+            },
+            {
+              "value": 2,
+              "label_de": "Trifft eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 3,
+              "label_de": "Trifft eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "Trifft gar nicht zu",
+              "label": "Disagree completely"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "bakt7",
+          "text_de": "Die Gesundheit meines Kindes macht mir Sorgen",
+          "text": "I’m worried about my child’s health",
+          "scale": "cat",
+          "concept": "bakt7",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Trifft voll zu",
+              "label": "Agree completely"
+            },
+            {
+              "value": 2,
+              "label_de": "Trifft eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 3,
+              "label_de": "Trifft eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "Trifft gar nicht zu",
+              "label": "Disagree completely"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "5": {
+      "question": "5",
+      "name": "5",
+      "label": "Did your child experience health problems in the last 12 months that required a hospital stay?",
+      "items": [
+        {
+          "item": "bges1",
+          "text_de": "Gab es bei Ihrem Kind in den letzten 12 Monaten gesundheitliche Probleme, die einen Krankenhausaufenthalt notwendig machten? ",
+          "text": "Did your child experience health problems in the last 12 months that required a hospital stay?",
+          "scale": "cat",
+          "concept": "bges1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bges2",
+          "text_de": "[Ja] und zwar ... Tage",
+          "text": "[Yes], … days",
+          "scale": "int",
+          "concept": "bges2",
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "6": {
+      "question": "6",
+      "name": "6",
+      "label": "Has your child been diagnosed by a doctor as having one of the following health conditions or impairments?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Ist von einem Arzt bei Ihrem Kind einmal eine der folgenden Erkrankungen oder Störungen festgestellt worden?",
+          "instruction_de": "Bitte alles Zutreffende ankreuzen!",
+          "text": "Has your child been diagnosed by a doctor as having one of the following health conditions or impairments?",
+          "instruction": "Please mark all that apply.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bstor01",
+          "text_de": "Asthma",
+          "text": "Asthma",
+          "scale": "bin",
+          "concept": "bstor01",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "bstor02",
+          "text_de": "Chronische Bronchitis",
+          "text": "Chronic bronchitis",
+          "scale": "bin",
+          "concept": "bstor02",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "bstor03",
+          "text_de": "Spastische / akute Bronchitis",
+          "text": "Spastic / acute bronchitis",
+          "scale": "bin",
+          "concept": "bstor03",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "bstor04",
+          "text_de": "Pseudokrupp / Kruppsyndrom",
+          "text": "Pseudocroup / Croup syndrome",
+          "scale": "bin",
+          "concept": "bstor04",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "bstor05",
+          "text_de": "Mittelohrentzündung",
+          "text": "Middle-ear inflammation",
+          "scale": "bin",
+          "concept": "bstor05",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "bstor06",
+          "text_de": "Heuschnupfen",
+          "text": "Hay fever",
+          "scale": "bin",
+          "concept": "bstor06",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "bstor07",
+          "text_de": "Neurodermitis",
+          "text": "Neurodermatitis",
+          "scale": "bin",
+          "concept": "bstor07",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "bstor08",
+          "text_de": "Fehlsichtigkeit (z.B. Kurz- bzw. Weitsichtigkeit, Schielen)",
+          "text": "Vision impairment (e.g., far-sightedness, near-sightedness, crossed eyes)",
+          "scale": "bin",
+          "concept": "bstor08",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "bstor09",
+          "text_de": "Schwerhörigkeit",
+          "text": "Hearing impairment",
+          "scale": "bin",
+          "concept": "bstor09",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "bstor10",
+          "text_de": "Ernährungsstörungen",
+          "text": "Nutritional disorder",
+          "scale": "bin",
+          "concept": "bstor10",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "bstor11",
+          "text_de": "Störungen der Motorik, des Bewegungsapparates ",
+          "text": "Motor impairment (disorder of the locomotor apparatus)",
+          "scale": "bin",
+          "concept": "bstor11",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "bstor12",
+          "text_de": "Sonstige Störungen / Behinderungen",
+          "text": "Other impairment or disorder",
+          "scale": "bin",
+          "concept": "bstor12",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "bstor14",
+          "text_de": "Nein, nichts davon ",
+          "text": "No, none of the above",
+          "scale": "bin",
+          "concept": "bstor14",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "bstor13",
+          "text_de": "[Sonstige Störungen / Behinderungen] und zwar:",
+          "text": "[other disorders]:",
+          "scale": "chr",
+          "concept": "bstor13",
+          "filter": "bstor12=1",
+          "sn": 14,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "7": {
+      "question": "7",
+      "name": "7",
+      "label": "What is your child’s current height and weight?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie sind gegenwärtig Größe und Gewicht Ihres Kindes?",
+          "text": "What is your child’s current height and weight?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bgew",
+          "text_de": "Gewicht in Kilogramm",
+          "text": "Weight in kilograms",
+          "scale": "int",
+          "concept": "bgew",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "bgro",
+          "text_de": "Körpergröße in cm",
+          "text": "Height in centimeters",
+          "scale": "int",
+          "concept": "bgro",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "8": {
+      "question": "8",
+      "name": "8",
+      "label": "If you think about a normal week, is there anybody else who regularly spends time looking after your child? If so, who is it and how many hours a week do they spend looking after the child?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen oder Einrichtungen sind das und wie viele Stunden pro Woche übernehmen sie die Betreuung? ",
+          "text": "If you think about a normal week, is there anybody else who regularly spends time looking after your child? If so, who is it and how many hours a week do they spend looking after the child?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bsit1",
+          "text_de": "Partner / Partnerin",
+          "text": "Spouse / Partner",
+          "scale": "bin",
+          "concept": "bsit1",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "bsit10",
+          "text_de": "Vater / Mutter des Kindes (falls er nicht Ihr Partner / sie nicht Ihre Partnerin ist)",
+          "text": "The child’s father / mother",
+          "scale": "bin",
+          "concept": "bsit2",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "bsit3",
+          "text_de": "Großeltern des Kindes",
+          "text": "The child’s grandparents",
+          "scale": "bin",
+          "concept": "bsit3",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "bsit4",
+          "text_de": "Ältere Geschwister des Kindes",
+          "text": "Older siblings of the child",
+          "scale": "bin",
+          "concept": "bsit4",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "bsit5",
+          "text_de": "Andere Verwandte",
+          "text": "Other relatives",
+          "scale": "bin",
+          "concept": "bsit5",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "bsit6",
+          "text_de": "Tagesmutter (außer Haus)",
+          "text": "Paid caregiver (outside the home)",
+          "scale": "bin",
+          "concept": "bsit6",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "bsit7",
+          "text_de": "Kinderfrau (in Ihrem Haushalt)",
+          "text": "Paid caregiver (comes into your home)",
+          "scale": "bin",
+          "concept": "bsit7",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "bsit8",
+          "text_de": "Krippe, Kindergarten, Kindertageseinrichtung ",
+          "text": "Nursery school (creche, kindergarten)",
+          "scale": "bin",
+          "concept": "bsit8",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "bsit9",
+          "text_de": "Andere (z.B. Babysitter, Nachbarn) ",
+          "text": "Other (friends, acquaintances, neighbors, etc.)",
+          "scale": "bin",
+          "concept": "bsit9",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "bsitno",
+          "text_de": "Nein, niemand",
+          "text": "No, nobody",
+          "scale": "bin",
+          "concept": "bsitno",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "bstd1",
+          "text_de": "[Partner / Partnerin] Stunden",
+          "text": "Hours [spouse / partner]",
+          "scale": "int",
+          "concept": "bstd1",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "bstd10",
+          "text_de": "[Vater / Mutter des Kindes (falls er nicht Ihr Partner / sie nicht Ihre Partnerin ist)] Stunden",
+          "text": "Hours [father]",
+          "scale": "int",
+          "concept": "bstd2",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "bstd3",
+          "text_de": "[Großeltern des Kindes] Stunden",
+          "text": "Hours [grandparents]",
+          "scale": "int",
+          "concept": "bstd3",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "bstd4",
+          "text_de": "[Ältere Geschwister des Kindes] Stunden",
+          "text": "Hours [siblings]",
+          "scale": "int",
+          "concept": "bstd4",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "bstd5",
+          "text_de": "[Andere Verwandte] Stunden",
+          "text": "Hours [other relatives]",
+          "scale": "int",
+          "concept": "bstd5",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "bstd6",
+          "text_de": "[Tagesmutter (außer Haus)] Stunden",
+          "text": "Hours [paid caregiver outside home]",
+          "scale": "int",
+          "concept": "bstd6",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "bstd7",
+          "text_de": "[Kinderfrau (in Ihrem Haushalt)] Stunden",
+          "text": "Hours [paid caregiver inside home]",
+          "scale": "int",
+          "concept": "bstd7",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "bstd8",
+          "text_de": "[Krippe, Kindergarten, Kindertageseinrichtung] Stunden",
+          "text": "Hours [nursery school]",
+          "scale": "int",
+          "concept": "bstd8",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "bstd9",
+          "text_de": "[Andere (z.B. Babysitter, Nachbarn)] Stunden",
+          "text": "Hours [other]",
+          "scale": "int",
+          "concept": "bstd9",
+          "sn": 19,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "9": {
+      "question": "9",
+      "name": "9",
+      "label": "How many times in the last 14 days have you or the main caregiver engaged in the following activities with this child?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie oft haben Sie oder die Hauptbetreuungsperson in den letzten 14 Tagen gemeinsam mit diesem Kind folgende Aktivitäten ausgeführt?",
+          "text": "How many times in the last 14 days have you or the main caregiver engaged in the following activities with this child?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "baktiv1",
+          "text_de": "(Vor-)Singen von Kinderliedern",
+          "text": "Singing children’s songs with or to the child",
+          "scale": "cat",
+          "concept": "baktiv1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "baktiv2",
+          "text_de": "Spaziergänge an der frischen Luft",
+          "text": "Walking outside in the fresh air",
+          "scale": "cat",
+          "concept": "baktiv2",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "baktiv3",
+          "text_de": "Malen oder Basteln",
+          "text": "Painting or doing arts and crafts",
+          "scale": "cat",
+          "concept": "baktiv3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "baktiv4",
+          "text_de": "Geschichten vorlesen oder erzählen",
+          "text": "Reading or telling stories",
+          "scale": "cat",
+          "concept": "baktiv4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "baktiv5",
+          "text_de": "Bilderbücher anschauen",
+          "text": "Looking at picture books",
+          "scale": "cat",
+          "concept": "baktiv5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "baktiv6",
+          "text_de": "Zum Spielplatz gehen",
+          "text": "Going to the playground",
+          "scale": "cat",
+          "concept": "baktiv6",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "baktiv7",
+          "text_de": "Besuch bei anderen Familien mit Kindern",
+          "text": "Visiting other families with children",
+          "scale": "cat",
+          "concept": "baktiv7",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "baktiv8",
+          "text_de": "Mit dem Kind einkaufen gehen",
+          "text": "Going shopping with the child",
+          "scale": "cat",
+          "concept": "baktiv8",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "baktiv9",
+          "text_de": "Zusammen Fernsehen / Videos ansehen",
+          "text": "Watching television or videos with the child",
+          "scale": "cat",
+          "concept": "baktiv9",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals die Woche",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Mindestens einmal die Woche",
+              "label": "At least once a week"
+            },
+            {
+              "value": 4,
+              "label_de": "Gar nicht",
+              "label": "Not at all"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "10": {
+      "question": "10",
+      "name": "10",
+      "label": "Is your child allowed to watch television or videos alone, without adult supervision?",
+      "items": [
+        {
+          "item": "btv1",
+          "text_de": "Darf das Kind schon alleine, also ohne Erwachsene, Fernsehen oder Videos schauen? ",
+          "text": "Is your child allowed to watch television or videos alone, without adult supervision?",
+          "scale": "cat",
+          "concept": "btv1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Nur selten, ausnahmsweise ",
+              "label": "Rarely, as an exception"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein, grundsätzlich nicht ",
+              "label": "No, never"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "btv2",
+          "text_de": "[Ja / Nur selten, ausnahmsweise] und zwar ... Stunden pro Woche",
+          "text": "[Yes/rarely]: … hours per week",
+          "scale": "int",
+          "concept": "btv2",
+          "filter": "btv1=1,2",
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "11": {
+      "question": "11",
+      "name": "11",
+      "label": "How would you rank your child in comparison to other children of the same age? My child is …",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie würden Sie das Kind im Vergleich zu Kindern gleichen Alters beurteilen?",
+          "instruction_de": "Je weiter links Sie Ihr Kreuz machen, um so mehr trifft die linke Eigenschaft zu, je weiter rechts Sie Ihr Kreuz machen, um so mehr trifft die rechte Eigenschaft zu! ",
+          "text": "How would you rank your child in comparison to other children of the same age? My child is …",
+          "instruction": "The further to the left you make the X, the more the characteristic on the left side applies. The further to the right you make the X, the more the characteristic on the right side applies.",
+          "scale": "txt",
+          "description": "Veränderung der Skalatexte: eher schüchtern = zurückhaltend, eher wurde immer gestrichen",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bvergl1",
+          "scale": "cat",
+          "concept": "bvergl1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist zurückgezogen",
+              "label": "is withdrawn"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist kontaktfreudig",
+              "label": "is sociable"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "bvergl2",
+          "scale": "cat",
+          "concept": "bvergl2",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist konzentriert",
+              "label": "is focused"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist leicht ablenkbar",
+              "label": "is easily distracted"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "bvergl3",
+          "scale": "cat",
+          "concept": "bvergl3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist trotzig",
+              "label": "is defiant"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist folgsam",
+              "label": "is obedient"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "bvergl4",
+          "scale": "cat",
+          "concept": "bvergl4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "begreift schnell",
+              "label": "understands quickly"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "braucht mehr Zeit",
+              "label": "needs more time"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "bvergl5",
+          "scale": "cat",
+          "concept": "bvergl5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist ängstlich",
+              "label": "is timidly"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist unängstlich",
+              "label": "is fearless"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "12": {
+      "question": "12",
+      "name": "12",
+      "label": "For parents, it is always a big event when their child learns something new. Please tell us what those new things were in your child’s case.",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Für Eltern ist es immer ein großes Erlebnis, wenn das Kind schon wieder etwas Neues kann. Bitte geben Sie an, welche Dinge das bei Ihrem Kind sind. ",
+          "text": "For parents, it is always a big event when their child learns something new. Please tell us what those new things were in your child’s case.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "Sprechen:",
+          "text": "Speaking:",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "bspr3",
+          "text_de": "Spricht in ganzen Sätzen (mit vier oder mehr Wörtern)",
+          "text": "Speaks in full sentences (with four or more words)",
+          "scale": "cat",
+          "concept": "bspr3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "bspr6",
+          "text_de": "Folgt Anweisungen, die es fünf Minuten zuvor gehört hat",
+          "text": "Follows instructions, five minutes after hearing them.",
+          "scale": "cat",
+          "concept": "bspr6",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "bspr7",
+          "text_de": "Nennt seinen Vor- und Nachnamen, wenn es danach gefragt wird",
+          "text": "Can state his/her first and last name if someone asks for it.",
+          "scale": "cat",
+          "concept": "bspr7",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "bspr4",
+          "text_de": "Hört in der Regel Geschichten mindestens 15 Min. aufmerksam zu",
+          "text": "Listens attentively to a story for 15 minutes or longer",
+          "scale": "cat",
+          "concept": "bspr4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "bspr5",
+          "text_de": "Überbringt einfache Nachrichten wie z.B. „Essen ist fertig“",
+          "text": "Passes on simple messages such as “dinner is ready”",
+          "scale": "cat",
+          "concept": "bspr5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text_de": "Alltagsfertigkeiten:",
+          "text": "Everyday skills:",
+          "scale": "txt",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "ball1",
+          "text_de": "Isst selbständig mit dem Löffel, ohne zu kleckern",
+          "text": "Uses a spoon to eat, without assistance and without dripping",
+          "scale": "cat",
+          "concept": "ball1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "ball2",
+          "text_de": "Putzt sich selbst die Nase",
+          "text": "Blows his/her nose without assistance",
+          "scale": "cat",
+          "concept": "ball2",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "ball3",
+          "text_de": "Benutzt für „großes Geschäft“ die Toilette",
+          "text": "Uses the toilet to do “number two”",
+          "scale": "cat",
+          "concept": "ball3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "ball4",
+          "text_de": "Zieht sich Hosen und Unterhosen selbst richtig herum an",
+          "text": "Put on pants and underpants the right way around",
+          "scale": "cat",
+          "concept": "ball4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "ball5",
+          "text_de": "Putzt sich selbst die Zähne",
+          "text": "Brushes his/her teeth without assistance",
+          "scale": "cat",
+          "concept": "ball5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text_de": "Bewegung:",
+          "text": "Movement:",
+          "scale": "txt",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "bbew1",
+          "text_de": "Läuft Treppen vorwärts hinunter",
+          "text": "Walks forwards down the stairs",
+          "scale": "cat",
+          "concept": "bbew1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "bbew3",
+          "text_de": "Klettert auf Klettergerüste und andere hohe Spielgeräte",
+          "text": "Climbs up playground climbing equipment and other high playground structures",
+          "scale": "cat",
+          "concept": "bbew3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "bbew4",
+          "text_de": "Schneidet mit einer Schere Papier durch",
+          "text": "Cuts paper with scissors",
+          "scale": "cat",
+          "concept": "bbew4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "bbew5",
+          "text_de": "Malt auf Papier erkennbare Formen",
+          "text": "Paints/draws recognizable shapes on paper",
+          "scale": "cat",
+          "concept": "bbew5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "bbew7",
+          "text_de": "Hält Stifte richtig (nicht mit der Faust), um zu malen",
+          "text": "Can hold a pencil correctly",
+          "scale": "cat",
+          "concept": "bbew7",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text_de": "Soziale Beziehungen:",
+          "text": "Social relationships",
+          "scale": "txt",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "bsoz2",
+          "text_de": "Nimmt an Spielen mit anderen Kindern teil",
+          "text": "Participates in games with other children",
+          "scale": "cat",
+          "concept": "bsoz2",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "bsoz3",
+          "text_de": "Beschäftigt sich mit Rollenspielen (\"tun als ob\")",
+          "text": "Gets involved in role-playing games (“playing pretend”)",
+          "scale": "cat",
+          "concept": "bsoz3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "bsoz4",
+          "text_de": "Zeigt eine Vorliebe für bestimmte Spielgefährten oder Freunde",
+          "text": "Shows a special liking for particular playmates or friends",
+          "scale": "cat",
+          "concept": "bsoz4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 22,
+          "number": ""
+        },
+        {
+          "item": "bsoz5",
+          "text_de": "Benennt eigene Gefühle, z.B. „traurig“, „freuen“, „Angst“",
+          "text": "Is able to name his/her own feelings, e.g., “sad”, “happy”, “scared”",
+          "scale": "cat",
+          "concept": "bsoz5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 23,
+          "number": ""
+        },
+        {
+          "item": "bsoz7",
+          "text_de": "Wechselt sich mit anderen beim Spielen ab, ohne darum gebeten zu werden ",
+          "text": "Takes turns when playing playing without being asked.",
+          "scale": "cat",
+          "concept": "bsoz7",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Teilweise",
+              "label": "Partly"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein",
+              "label": "No"
+            }
+          ],
+          "sn": 24,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "13": {
+      "question": "13",
+      "name": "13",
+      "label": "\nDo you or other household members speak only German to your child, or do you also speak another language to him/her?",
+      "items": [
+        {
+          "item": "bdtsch1",
+          "text_de": "Sprechen Sie oder andere Haushaltsmitglieder mit Ihrem Kind nur Deutsch oder auch in einer anderen Sprache?",
+          "text": "\nDo you or other household members speak only German to your child, or do you also speak another language to him/her?",
+          "scale": "cat",
+          "concept": "bdtsch1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Nur in Deutsch",
+              "label": "German only"
+            },
+            {
+              "value": 2,
+              "label_de": "Auch in einer anderen Sprache",
+              "label": "Another language as well"
+            },
+            {
+              "value": 3,
+              "label_de": "Nur in der anderen Sprache",
+              "label": "Only another language"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "bdtsch2",
+          "text_de": "[Auch/Nur in anderer Sprache] und zwar:",
+          "text": "Other language:",
+          "scale": "chr",
+          "concept": "bdtsch2",
+          "filter": "bdtsch1=2,3",
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "A": {
+      "question": "A",
+      "name": "A",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wann waren Sie mit dem Ausfüllen des Fragebogens fertig?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "Datum",
+          "text": "Date",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "datt",
+          "text_de": "Tag",
+          "text": "Day",
+          "scale": "int",
+          "concept": "datt",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "datm",
+          "text_de": "Monat",
+          "text": "Month",
+          "scale": "int",
+          "concept": "datm",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text_de": "Uhrzeit",
+          "text": "Time",
+          "scale": "txt",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "datst",
+          "text_de": "Stunde",
+          "text": "Hour",
+          "scale": "int",
+          "concept": "datst",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "datmi",
+          "text_de": "Minute",
+          "text": "Minute",
+          "scale": "int",
+          "concept": "datmi",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "form",
+          "text_de": "Form",
+          "text": "Form",
+          "scale": "int",
+          "concept": "form",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "text",
+          "text_de": "Sonstige Hinweise",
+          "scale": "chr",
+          "concept": "text",
+          "sn": 8,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "Int": {
+      "question": "Int",
+      "name": "Int",
+      "label": "Interviewer:",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Interviewer:",
+          "text": "Interviewer:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "listnr",
+          "text_de": "Listen-Nr.",
+          "text": "List ID",
+          "scale": "int",
+          "concept": "listnr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "lfdnr",
+          "text_de": "Lfd.Nr.",
+          "text": "Lfd ID",
+          "scale": "int",
+          "concept": "lfdnr",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "intnr",
+          "text_de": "Abrechnungs-Nummer",
+          "text": "Account number",
+          "scale": "int",
+          "concept": "intnr",
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    },
+    "14": {
+      "question": "14",
+      "name": "14",
+      "label": "Interviewer signature",
+      "items": [
+        {
+          "item": "3",
+          "text_de": "Unterschrift des Interviewers",
+          "text": "Interviewer signature",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "soep-core-2019-e2-lgb",
+      "study": "soep-core-preview"
+    }
+  }
+}

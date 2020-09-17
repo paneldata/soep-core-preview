@@ -1,0 +1,3144 @@
+{
+  "study": "soep-core-preview",
+  "name": "soep-core-2019-e4-2",
+  "label": "Parents and Child (7-8-year-olds, CAPI) 2019",
+  "analysis_unit": "p",
+  "period": 2019,
+  "author": "SOEP Group",
+  "label_de": "Eltern und Kind (7-8 Jahre, CAPI) 2019",
+  "publish": 1,
+  "qtyp": "e4",
+  "instrument": "soep-core-2019-e4-2",
+  "questions": {
+    "Intro": {
+      "question": "Intro",
+      "name": "Intro",
+      "label": "This questionnaire aims to mothers and fathers of children, they were born in 2008 and living in the household.\n\nPlease answer the questions even if the child is not biological, but adopted or fostered child, or the child of your partner, who lives in the household. Our questions refer to your personal attitudes and estimates to education goals and concepts as well as education and care.\n\nWe request both parents in each case to answer the questionnaire. Your participation is entirely voluntary.\n\nWe therefore cordially request that\n\n- you allow our staff member to interview you\n\n- or you fill out the questionnaire independently.",
+      "items": [
+        {
+          "text_de": "Dieser Fragebogen richtet sich an Mütter und Väter von Kindern, die im Jahr 2011 geboren sind und die hier im Haushalt leben.\n\nBitte beantworten Sie die Fragen auch dann, wenn das Kind nicht Ihr leibliches, sondern ein Adoptiv- oder Pflegekind ist, oder das Kind Ihres Partners, der hier im Haushalt lebt. \nUnsere Fragen beziehen sich auf Ihre persönlichen Einstellungen und Einschätzungen zu Themen wie Erziehungsziele und -stile sowie Bildung und Betreuung.\n\nWir bitten beide Elternteile jeweils einen Fragebogen zu beantworten. Ihre Mitarbeit ist freiwillig, wir möchten Sie aber herzlich darum bitten \n\n– unserem Mitarbeiter das Interview zu gewähren\n\n– oder den Fragebogen sorgfältig selbst auszufüllen.",
+          "text": "This questionnaire aims to mothers and fathers of children, they were born in 2008 and living in the household.\n\nPlease answer the questions even if the child is not biological, but adopted or fostered child, or the child of your partner, who lives in the household. Our questions refer to your personal attitudes and estimates to education goals and concepts as well as education and care.\n\nWe request both parents in each case to answer the questionnaire. Your participation is entirely voluntary.\n\nWe therefore cordially request that\n\n- you allow our staff member to interview you\n\n- or you fill out the questionnaire independently.",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "0": {
+      "question": "0",
+      "name": "0",
+      "label": "Before handing in the questionnaire, please enter in accordance with the address log:",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
+          "text": "Before handing in the questionnaire, please enter in accordance with the address log:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "hnr",
+          "text_de": "Nr. des Haushalts",
+          "text": "Household ID",
+          "scale": "int",
+          "concept": "hnr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "name",
+          "text_de": "Vorname der Befragungsperson:",
+          "instruction_de": "Bitte in Druckbuchstaben",
+          "text": "First name interviewee:",
+          "instruction": "Please print",
+          "scale": "chr",
+          "concept": "name",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "pnr",
+          "text_de": "Personen Nr.",
+          "text": "Person ID",
+          "scale": "int",
+          "concept": "pnr",
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "1": {
+      "question": "1",
+      "name": "1",
+      "label": "What's your child’s name?",
+      "items": [
+        {
+          "text_de": "Wie heißt das Kind?",
+          "text": "What's your child’s name?",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "kname",
+          "text_de": "Vorname des Kindes:",
+          "instruction_de": "Bitte in Druckbuchstaben",
+          "text": "First name:",
+          "instruction": "Please print in capital letters.",
+          "scale": "chr",
+          "concept": "kname",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "kpnr",
+          "text_de": "Personen Nr:",
+          "text": "Person ID:",
+          "scale": "int",
+          "concept": "kpnr",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "2": {
+      "question": "2",
+      "name": "2",
+      "label": "In which year and month was your child born?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "In welchem Jahr und Monat wurde das Kind geboren?",
+          "text": "In which year and month was your child born?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "kgebt",
+          "text_de": "Tag",
+          "text": "Day:",
+          "scale": "int",
+          "concept": "kgebt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "kgebm",
+          "text_de": "Monat:",
+          "text": "Month:",
+          "scale": "int",
+          "concept": "kgebm",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "kgebj",
+          "text_de": "Jahr",
+          "text": "Year",
+          "scale": "int",
+          "concept": "kgebj",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "ksex",
+          "text_de": "…",
+          "text": "sex",
+          "scale": "cat",
+          "concept": "ksex",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Männlich",
+              "label": "Male"
+            },
+            {
+              "value": 2,
+              "label_de": "Weiblich",
+              "label": "Female"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "3": {
+      "question": "3",
+      "name": "3",
+      "label": "Are you the child’s mother or father?",
+      "items": [
+        {
+          "text_de": "Sind Sie die Mutter oder der Vater des Kindes?",
+          "text": "Are you the child’s mother or father?",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "dleib",
+          "text_de": "Ja, und zwar:",
+          "text": "Yes:",
+          "scale": "cat",
+          "concept": "dleib",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "die leibliche Mutter",
+              "label": "Biological mother"
+            },
+            {
+              "value": 2,
+              "label_de": "der leibliche Vater",
+              "label": "Biological father"
+            },
+            {
+              "value": 3,
+              "label_de": "die Adoptiv-/Pflegemutter",
+              "label": "Adoptive/foster mother"
+            },
+            {
+              "value": 4,
+              "label_de": "der Adoptiv-/Pflegevater",
+              "label": "Adoptive/foster father"
+            },
+            {
+              "value": 5,
+              "label_de": "Nein, es handelt sich um das Kind meines Partners/meiner Partnerin ",
+              "label": "No, he/she is my partner’s child"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "4": {
+      "question": "4",
+      "name": "4",
+      "label": "When did the child start school?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wann wurde das Kind eingeschult?",
+          "text": "When did the child start school?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "dschm",
+          "text_de": "Monat",
+          "text": "Month",
+          "scale": "int",
+          "concept": "dschm",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "dschj",
+          "text_de": "Jahr",
+          "text": "Year",
+          "scale": "int",
+          "concept": "dschj",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "dschno",
+          "text_de": "Trifft nicht zu, Kind geht (noch) nicht zur Schule ",
+          "text": "Does not apply. Has not started school yet.",
+          "scale": "bin",
+          "concept": "dschno",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "dschgr",
+          "text_de": "[Trifft nicht zu, Kind geht (noch) nicht zu Schule] Bitte Grund angeben:",
+          "text": "Please state the reason",
+          "scale": "chr",
+          "concept": "dschgr",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 8,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "5": {
+      "question": "5",
+      "name": "5",
+      "label": "To what extent do the following secondary school-leaving certificates correspond to the ideal education you would like for your child?",
+      "items": [
+        {
+          "text_de": "Inwieweit entsprechen die folgenden Schulabschlüsse Ihrer persönlichen Idealvorstellung für die schulische Ausbildung des Kindes?",
+          "instruction_de": "Antworten Sie bitte anhand einer Skala von 1 bis 7.\nDer Wert 1 bedeutet, dass der Abschluss „überhaupt nicht“, der Wert 7 „voll und ganz\" Ihren persönlichen Vorstellungen entspricht.\nMit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
+          "text": "To what extent do the following secondary school-leaving certificates correspond to the ideal education you would like for your child?",
+          "instruction": "Please answer on a scale from 1 to 7, where 1 means “not at all” and 7 means “completely”",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "dsch1",
+          "text_de": "Hauptschulabschluss",
+          "text": "Lower secondary school-leaving certificate (Hauptschulabschluss)",
+          "scale": "cat",
+          "concept": "dsch1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht 1",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "voll und ganz 7",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "dsch2",
+          "text_de": "Mittlerer Schulabschluss (z.B. Realschulabschluss)",
+          "text": "Intermediate secondary school-leaving certificate (Mittlere Reife, Realschulabschluss)",
+          "scale": "cat",
+          "concept": "dsch2",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht 1",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "voll und ganz 7",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "dsch3",
+          "text_de": "Abitur",
+          "text": "Upper secondary school-leaving certificate (Abitur)",
+          "scale": "cat",
+          "concept": "dsch3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht 1",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "voll und ganz 7",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "6": {
+      "question": "6",
+      "name": "6",
+      "label": "How likely do you think it is that your child will obtain one of the following school-leaving certificates?",
+      "items": [
+        {
+          "text_de": "Und für wie wahrscheinlich halten Sie es, dass das Kind die Schule mit einem der folgenden Abschlüsse verlassen wird?",
+          "instruction_de": "Antworten Sie bitte wieder anhand einer Skala von 1 bis 7.\nDer Wert 1 bedeutet dieses Mal „ausgeschlossen“ und der Wert 7 bedeutet „ganz sicher\".",
+          "text": "How likely do you think it is that your child will obtain one of the following school-leaving certificates?",
+          "instruction": "Please answer again on a scale from 1 to 7, where 1 means “not at all”, and 7 means “completely”",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "dsch4",
+          "text_de": "Hauptschulabschluss",
+          "text": "Lower secondary school-leaving certificate (Hauptschulabschluss)",
+          "scale": "cat",
+          "concept": "dsch4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ausgeschlossen 1",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "ganz sicher 7",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "dsch5",
+          "text_de": "Mittlerer Schulabschluss (z.B. Realschulabschluss)",
+          "text": "Intermediate secondary school-leaving certificate (Mittlere Reife, Realschulabschluss)",
+          "scale": "cat",
+          "concept": "dsch5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ausgeschlossen 1",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "ganz sicher 7",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "dsch6",
+          "text_de": "Abitur",
+          "text": "Upper secondary school-leaving certificate (Abitur)",
+          "scale": "cat",
+          "concept": "dsch6",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ausgeschlossen 1",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "ganz sicher 7",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "7": {
+      "question": "7",
+      "name": "7",
+      "label": "Below are some of the personality and skill influenced by child rearing. In your opinion, how important are the following education aims?",
+      "items": [
+        {
+          "text_de": "Im Folgenden werden einige Eigenschaften und Fähigkeiten genannt, die man durch Erziehung fördern kann. Für wie wichtig halten Sie persönlich die folgenden Erziehungsziele?",
+          "instruction_de": "Bitte eine Angabe pro Zeile!",
+          "text": "Below are some of the personality and skill influenced by child rearing. In your opinion, how important are the following education aims?",
+          "instruction": "Please one option per line!",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "1",
+          "text_de": "Dass das Kind …",
+          "text": "That the child …",
+          "scale": "txt",
+          "concept": "1",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "derz01",
+          "text_de": "ein guter Schüler wird",
+          "text": "become a good student",
+          "scale": "cat",
+          "concept": "derz01",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "derz02",
+          "text_de": "sich gut mit anderen Kindern versteht",
+          "text": "gets quite well with other children",
+          "scale": "cat",
+          "concept": "derz02",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "derz03",
+          "text_de": "sich dafür interessiert, wie und warum bestimmte Dinge passieren ",
+          "text": "is interested in how and why certain things happen",
+          "scale": "cat",
+          "concept": "derz03",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "derz04",
+          "text_de": "sich wie ein normales Mädchen bzw. wie ein normaler Junge verhält",
+          "text": "behaves like a normal girl or a normal boy",
+          "scale": "cat",
+          "concept": "derz04",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "derz05",
+          "text_de": "ehrlich ist",
+          "text": "is honest",
+          "scale": "cat",
+          "concept": "derz05",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "derz06",
+          "text_de": "gute Umgangsformen hat",
+          "text": "has good manners",
+          "scale": "cat",
+          "concept": "derz06",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "derz07",
+          "text_de": "Selbstbeherrschung besitzt",
+          "text": "has self-control",
+          "scale": "cat",
+          "concept": "derz07",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "derz08",
+          "text_de": "verantwortungsbewusst ist",
+          "text": "is responsible",
+          "scale": "cat",
+          "concept": "derz08",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "derz09",
+          "text_de": "auf andere Rücksicht nimmt",
+          "text": "shows consideration of others",
+          "scale": "cat",
+          "concept": "derz09",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "derz10",
+          "text_de": "seinen Eltern gehorcht",
+          "text": "obeys his/her parents",
+          "scale": "cat",
+          "concept": "derz10",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "derz11",
+          "text_de": "ein gutes Urteilsvermögen besitzt",
+          "text": "uses good judgment",
+          "scale": "cat",
+          "concept": "derz11",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "derz12",
+          "text_de": "ordentlich und sauber ist",
+          "text": "is clean and tidy",
+          "scale": "cat",
+          "concept": "derz12",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "derz13",
+          "text_de": "sich bemüht, seine Ziele zu erreichen ",
+          "text": "makes an effort to achieve his/her goals",
+          "scale": "cat",
+          "concept": "derz13",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "derz14",
+          "text_de": "sich gut in Gruppen einfügen kann",
+          "text": "is able to integrate into a group",
+          "scale": "cat",
+          "concept": "derz14",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "derz15",
+          "text_de": "lernt, sich im Leben auch gegen Widerstände durchzusetzen ",
+          "text": "learns to overcome resistances in life",
+          "scale": "cat",
+          "concept": "derz15",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "derz16",
+          "text_de": "zufrieden mit dem ist, was es hat und kann ",
+          "text": "is satisfied with the things he/she has and is able to do",
+          "scale": "cat",
+          "concept": "derz16",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "derz17",
+          "text_de": "lernt, Risiken im Leben zu meiden ",
+          "text": "learns to avoid risks",
+          "scale": "cat",
+          "concept": "derz17",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "derz18",
+          "text_de": "von anderen gemocht wird, liebenswert ist ",
+          "text": "is liked by others, is likeable",
+          "scale": "cat",
+          "concept": "derz18",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "überhaupt nicht wichtig",
+              "label": "Very unimportant"
+            },
+            {
+              "value": 2,
+              "label_de": "eher unwichtig",
+              "label": "Unimportant"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neutral"
+            },
+            {
+              "value": 4,
+              "label_de": "eher wichtig",
+              "label": "Important"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr wichtig",
+              "label": "Very important"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 19,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "8": {
+      "question": "8",
+      "name": "8",
+      "label": "How frequently do the following things occur?",
+      "items": [
+        {
+          "text_de": "Wie häufig kommen folgende Dinge vor?",
+          "instruction_de": "Die folgenden Aussagen beziehen sich wieder auf Ihr Kind, oder das Kind Ihrer Partnerin/Ihres Partners hier im Haushalt. Bitte eine Angabe pro Zeile! ",
+          "text": "How frequently do the following things occur?",
+          "instruction": "The following statements refer to your child, or the child of your partner living in household. Please one option per line!",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "derz21",
+          "text_de": "Ich zeige meinem Kind mit Worten und Gesten, dass ich es gerne habe ",
+          "text": "I use words and gestures to show my child that I love him/her",
+          "scale": "cat",
+          "concept": "derz21",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "derz22",
+          "text_de": "Ich kritisiere mein Kind",
+          "text": "I criticize my child",
+          "scale": "cat",
+          "concept": "derz22",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "derz23",
+          "text_de": "Wenn mein Kind unterwegs war, frage ich nach, was es getan und erlebt hat.",
+          "text": "I talk to my child about things he/she has done, seen, or experienced when he/she was out.",
+          "scale": "cat",
+          "concept": "derz23",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "derz24",
+          "text_de": "Wenn mein Kind etwas gegen meinen Willen tut, bestrafe ich es ",
+          "text": "I punish my child when he/she is disobedient.",
+          "scale": "cat",
+          "concept": "derz24",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "derz25",
+          "text_de": "Ich drohe meinem Kind eine Strafe an, bestrafe es aber dann doch nicht ",
+          "text": "I threaten my child with punishment, but don't actually follow through with it.",
+          "scale": "cat",
+          "concept": "derz25",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "derz26",
+          "text_de": "Wenn mein Kind außer Haus ist, weiß ich genau, wo es sich aufhält ",
+          "text": "When my child is outside the home, I know exactly where he/she is.",
+          "scale": "cat",
+          "concept": "derz26",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "derz27",
+          "text_de": "Ich bin eher streng zu meinem Kind",
+          "text": "I tend to be strict with my child.",
+          "scale": "cat",
+          "concept": "derz27",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "derz28",
+          "text_de": "Ich tröste mein Kind, wenn es traurig ist ",
+          "text": "I comfort my child when he/she feels sad.",
+          "scale": "cat",
+          "concept": "derz28",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "derz29",
+          "text_de": "Ich schreie mein Kind an, wenn es etwas falsch gemacht hat ",
+          "text": "I shout at my child when he/she did something wrong.",
+          "scale": "cat",
+          "concept": "derz29",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "derz30",
+          "text_de": "Ich halte mein Kind für undankbar, weil es mir nicht gehorcht ",
+          "text": "I feel that my child is ungrateful because he/she disobeys.",
+          "scale": "cat",
+          "concept": "derz30",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "derz31",
+          "text_de": "Ich rede eine Zeit lang nicht mit meinem Kind, wenn es etwas angestellt hat... ",
+          "text": "I stop talking to my child for a while when he/she did something wrong...",
+          "scale": "cat",
+          "concept": "derz31",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "derz32",
+          "text_de": "Ich gebe meinem Kind zu verstehen, dass es sich meinen Anordnungen und Entscheidungen nicht widersetzen soll ",
+          "text": "I make it clear to my child that he/she should not oppose orders and decisions.",
+          "scale": "cat",
+          "concept": "derz32",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "derz33",
+          "text_de": "Ich lobe mein Kind",
+          "text": "I praise my child.",
+          "scale": "cat",
+          "concept": "derz33",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "derz34",
+          "text_de": "Ich beschimpfe mein Kind, weil ich wütend auf es bin ",
+          "text": "I scold my child when I am angry at him/her.",
+          "scale": "cat",
+          "concept": "derz34",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "derz35",
+          "text_de": "Ich versuche den Freundeskreis meines Kindes aktiv zu beeinflussen",
+          "text": "I try to actively influence my child's circle of friends.",
+          "scale": "cat",
+          "concept": "derz35",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "derz36",
+          "text_de": "Ich schwäche eine Bestrafung ab oder hebe sie vorzeitig auf",
+          "text": "I reduce punishments or lift them ahead of time.",
+          "scale": "cat",
+          "concept": "derz36",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "derz37",
+          "text_de": "Ich bin enttäuscht und traurig, wenn mein Kind sich schlecht benommen hat ",
+          "text": "I am disappointed and sad when my child misbehaves.",
+          "scale": "cat",
+          "concept": "derz37",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "derz38",
+          "text_de": "Es fällt mir schwer in meiner Erziehung konsequent zu sein",
+          "text": "It is hard for me to be consistent in my childrearing.",
+          "scale": "cat",
+          "concept": "derz38",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "nie",
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label_de": "selten",
+              "label": "Seldom"
+            },
+            {
+              "value": 3,
+              "label_de": "manchmal",
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label_de": "häufig",
+              "label": "Frequently"
+            },
+            {
+              "value": 5,
+              "label_de": "sehr häufig",
+              "label": "Very frequently"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 18,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "9": {
+      "question": "9",
+      "name": "9",
+      "label": "How do you feel in your role as a parent and to what extent do you agree with the following statements?",
+      "items": [
+        {
+          "text_de": "Wie fühlen Sie sich in Ihrer Elternrolle und inwieweit stimmen Sie den folgenden Aussagen zu oder nicht zu?",
+          "instruction_de": "Die folgenden Aussagen beziehen sich wieder auf Ihr Kind, oder das Kind Ihrer Partnerin/Ihres Partners hier im Haushalt. Bitte eine Angabe pro Zeile! ",
+          "text": "How do you feel in your role as a parent and to what extent do you agree with the following statements?",
+          "instruction": "The following statements refer to your child, or the child of your partner living in household. Please one option per line!",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "delt01",
+          "text_de": "Ich bin bereit, meine eigenen Wünsche denen meines Kindes zu opfern ",
+          "text": "I am willing to put my child's desires ahead of my own.",
+          "scale": "cat",
+          "concept": "delt01",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "delt02",
+          "text_de": "Wenn mein Kind nicht gehorcht und etwas Verbotenes tut, will es mich ärgern ",
+          "text": "When my child refuses to obey or does something she/he is not supposed to, it's because he/she is trying to annoy me.",
+          "scale": "cat",
+          "concept": "delt02",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "delt03",
+          "text_de": "Ich habe das Gefühl, dass Betreuung und Erziehung meines Kindes mich völlig in Beschlag nehmen, mein ganzes Leben bestimmen ",
+          "text": "I feel that childcare and bringing takes up all of my time and dominates my life.",
+          "scale": "cat",
+          "concept": "delt03",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "delt04",
+          "text_de": "Ich wünschte, ich würde durch meine Elternpflichten nicht so gefangen genommen.",
+          "text": "I wish my parental responsibilities didn't tie me up so much.",
+          "scale": "cat",
+          "concept": "delt04",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "delt05",
+          "text_de": "Wenn es Probleme in der Erziehung gibt, liegt das an meinem Kind ",
+          "text": "When there are problems with childrearing, my child is to blame.",
+          "scale": "cat",
+          "concept": "delt05",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "delt06",
+          "text_de": "Wenn ich mit meinem Kind zusammen bin, gibt es nichts anderes, was ich lieber täte ",
+          "text": "When I am with my child, there’s nothing I would rather be doing.",
+          "scale": "cat",
+          "concept": "delt06",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "delt07",
+          "text_de": "Für das Wohl meines Kindes würde ich alles aushalten.",
+          "text": "I would put up with anything in my child's best interests.",
+          "scale": "cat",
+          "concept": "delt07",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "delt08",
+          "text_de": "Ich denke, wenn mein Kind sich falsch verhält, macht es das mit Absicht ",
+          "text": "I think when my child misbehaves he/she is doing it intentionally",
+          "scale": "cat",
+          "concept": "delt08",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "delt09",
+          "text_de": "Ich lasse oft alles stehen und liegen, um mein Kind zu unterstützen ",
+          "text": "I often drop everything to help my child",
+          "scale": "cat",
+          "concept": "delt09",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "delt10",
+          "text_de": "Ich freue mich darauf, mit meinem Kind zusammen zu sein ",
+          "text": "I look forward to being with my child",
+          "scale": "cat",
+          "concept": "delt10",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "stimme überhaupt nicht zu",
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label_de": "stimme eher nicht zu",
+              "label": "Disagree"
+            },
+            {
+              "value": 3,
+              "label_de": "weder noch",
+              "label": "Neither agree nor disagree"
+            },
+            {
+              "value": 4,
+              "label_de": "stimme eher zu",
+              "label": "Agree"
+            },
+            {
+              "value": 5,
+              "label_de": "stimme voll und ganz zu",
+              "label": "Strongly agree"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "10": {
+      "question": "10",
+      "name": "10",
+      "label": "Are you your child’s main caregiver?",
+      "items": [
+        {
+          "item": "dhbet",
+          "text_de": "Sind Sie selbst die Hauptbetreuungsperson des Kindes?",
+          "text": "Are you your child’s main caregiver?",
+          "scale": "cat",
+          "concept": "dhbet",
+          "goto": "2 @ A",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Nein",
+              "label": "No"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "11": {
+      "question": "11",
+      "name": "11",
+      "label": "If you think about a normal week: are there any other people besides you who take care of your child? If so, who is it and how many hours per week do they help?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen oder Einrichtungen sind das und wie viele Stunden pro Woche übernehmen sie die Betreuung? ",
+          "text": "If you think about a normal week: are there any other people besides you who take care of your child? If so, who is it and how many hours per week do they help?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "Folgende Personen:",
+          "text": "The following persons:",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "dsit01",
+          "text_de": "(Ehe) Partner/in",
+          "text": "Spouse / Partner",
+          "scale": "bin",
+          "concept": "dsit01",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "dsit02",
+          "text_de": "Vater / Mutter des Kindes, der / die außerhalb des Haushalts lebt.",
+          "text": "The child’s father/mother (living outside the household)",
+          "scale": "bin",
+          "concept": "dsit02",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "dsit03",
+          "text_de": "Großeltern des Kindes",
+          "text": "The child’s grandparents",
+          "scale": "bin",
+          "concept": "dsit03",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "dsit04",
+          "text_de": "Ältere Geschwister des Kindes",
+          "text": "The child’s older brother/sister",
+          "scale": "bin",
+          "concept": "dsit04",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "dsit05",
+          "text_de": "Andere Verwandte",
+          "text": "Other relatives",
+          "scale": "bin",
+          "concept": "dsit05",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "dsit06",
+          "text_de": "Kinderfrau, Au-pair ",
+          "text": "childcare provider, Au-pair",
+          "scale": "bin",
+          "concept": "dsit06",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "dsit07",
+          "text_de": "Andere (z.B. „Babysitter“, Eltern von Freunden des Kindes, Freunde oder Nachbarn) ",
+          "text": "Other (babysitter, parents of the child's friends, friends or neighbors)",
+          "scale": "bin",
+          "concept": "dsit07",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text_de": "Folgende Einrichtungen / Organisationen:",
+          "text": "Following institutions / organizations",
+          "scale": "txt",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "dsit08",
+          "text_de": "Schule (Unterricht, AGs, frei betreute Zeit) ",
+          "text": "School (classes, after school groups)",
+          "scale": "bin",
+          "concept": "dsit08",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "dsit09",
+          "text_de": "Hort (Schulhort oder andere hortähnliche Einrichtungen)",
+          "text": "After-school center",
+          "scale": "bin",
+          "concept": "dsit09",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "dsit10",
+          "text_de": "Soziale Einrichtungen, Zentren, Freizeitorganisationen ",
+          "text": "Social service organization",
+          "scale": "bin",
+          "concept": "dsit10",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "dsitno",
+          "text_de": "Nein, niemand ",
+          "text": "No, nobody",
+          "scale": "bin",
+          "concept": "dsitno",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "4",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "dstd01",
+          "text_de": "[(Ehe) Partner/in] Stunden",
+          "text": "Hours [spouse/partner]",
+          "scale": "int",
+          "concept": "dstd01",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "5",
+          "text_de": "keine Angabe",
+          "scale": "int",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "dstd02",
+          "text_de": "[Vater / Mutter des Kindes, der / die außerhalb des Haushalts lebt] Stunden ",
+          "text": "Hours [child's father/mother living outside the household]",
+          "scale": "int",
+          "concept": "dstd02",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "dstd03",
+          "text_de": "[Großeltern des Kindes] Stunden",
+          "text": "Hours [child's grandparents]",
+          "scale": "int",
+          "concept": "dstd03",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "7",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "dstd04",
+          "text_de": "[Ältere Geschwister des Kindes] Stunden",
+          "text": "Hours [child's older siblings]",
+          "scale": "int",
+          "concept": "dstd04",
+          "sn": 21,
+          "number": ""
+        },
+        {
+          "item": "8",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 22,
+          "number": ""
+        },
+        {
+          "item": "dstd05",
+          "text_de": "[Andere Verwandte] Stunden",
+          "text": "Hours [other relatives]",
+          "scale": "int",
+          "concept": "dstd05",
+          "sn": 23,
+          "number": ""
+        },
+        {
+          "item": "9",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 24,
+          "number": ""
+        },
+        {
+          "item": "dstd06",
+          "text_de": "[Kinderfrau, Au-pair] Stunden ",
+          "text": "Hours [childcare provider/au pair]",
+          "scale": "int",
+          "concept": "dstd06",
+          "sn": 25,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 26,
+          "number": ""
+        },
+        {
+          "item": "dstd07",
+          "text_de": "[Andere (z.B. „Babysitter\", Eltern von Freunden des Kindes, Freunde oder Nachbarn)] Stunden ",
+          "text": "Hours [other, e.g., babysitter, parents of a friend of the child, friends or neighbors]",
+          "scale": "int",
+          "concept": "dstd07",
+          "sn": 27,
+          "number": ""
+        },
+        {
+          "item": "11",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 28,
+          "number": ""
+        },
+        {
+          "item": "dstd08",
+          "text_de": "[Schule (Unterricht, AGs, frei betreute Zeit)] Stunden ",
+          "text": "Hours [school (classes, after-school activities]",
+          "scale": "int",
+          "concept": "dstd08",
+          "sn": 29,
+          "number": ""
+        },
+        {
+          "item": "12",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 30,
+          "number": ""
+        },
+        {
+          "item": "dstd09",
+          "text_de": "[Hort (Schulhort oder andere hortähnliche Einrichtungen)] Stunden",
+          "text": "Hours [after-school daycare center]",
+          "scale": "int",
+          "concept": "dstd09",
+          "sn": 31,
+          "number": ""
+        },
+        {
+          "item": "13",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 32,
+          "number": ""
+        },
+        {
+          "item": "dstd10",
+          "text_de": "[Soziale Einrichtungen, Zentren, Freizeitorganisationen] Stunden ",
+          "text": "Hours [social service organization, centers, recreational organizations]",
+          "scale": "int",
+          "concept": "dstd10",
+          "sn": 33,
+          "number": ""
+        },
+        {
+          "item": "14",
+          "text_de": "keine Angabe",
+          "scale": "bin",
+          "sn": 34,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "A": {
+      "question": "A",
+      "name": "A",
+      "label": "What date do we have today?",
+      "items": [
+        {
+          "text_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
+          "text": "What date do we have today?",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "datt",
+          "text_de": "Tag",
+          "text": "Day",
+          "scale": "int",
+          "concept": "datt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "datm",
+          "text_de": "Monat",
+          "text": "Month",
+          "scale": "int",
+          "concept": "datm",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "datst",
+          "text_de": "Stunde",
+          "text": "Hour",
+          "scale": "int",
+          "concept": "datst",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "datmi",
+          "text_de": "Minute",
+          "text": "Minute",
+          "scale": "int",
+          "concept": "datmi",
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "B": {
+      "question": "B",
+      "name": "B",
+      "label": "How was the interview conducted?",
+      "items": [
+        {
+          "item": "form",
+          "text_de": "Wie wurde die Befragung durchgeführt?",
+          "text": "How was the interview conducted?",
+          "scale": "cat",
+          "concept": "form",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Mündliches Interview",
+              "label": "Oral Interview"
+            },
+            {
+              "value": 2,
+              "label_de": "[Befragter hat den Fragebogen selbst ausgefüllt, und zwar] in Anwesenheit des Interviewers ",
+              "label": "Respondent completed the questionnaire him/herself in the presence of the interviewer"
+            },
+            {
+              "value": 3,
+              "label_de": "[Befragter hat den Fragebogen selbst ausgefüllt, und zwar] in Abwesenheit des Interviewers ",
+              "label": "Respondent completed the questionnaire him/herself in the absence of the interviewer"
+            },
+            {
+              "value": 4,
+              "label_de": "Teils mündlich, teils selbst ausgefüllt",
+              "label": "Partly as an oral interview, partly him/herself"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "C": {
+      "question": "C",
+      "name": "C",
+      "label": "Duration of the interview:",
+      "items": [
+        {
+          "text_de": "Interviewdauer",
+          "text": "Duration of the interview:",
+          "instruction": "Please ask.",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "dauer1",
+          "text_de": "Das mündliche (Teil-)Interview dauert … Minuten",
+          "text": "The oral (complete or partial) interview lasted … minutes",
+          "scale": "int",
+          "concept": "dauer1",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "dauer2",
+          "text_de": "Befragter brauchte zum Selbstausfüllen … Minuten",
+          "instruction_de": "(bitte erfragen)",
+          "text": "The respondent needed … minutes to complete the questionnaire",
+          "instruction": "(Please ask)",
+          "scale": "int",
+          "concept": "dauer2",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "D": {
+      "question": "D",
+      "name": "D",
+      "label": "Other notes:",
+      "items": [
+        {
+          "item": "text",
+          "text_de": "Sonstige Hinweise",
+          "text": "Other notes:",
+          "scale": "chr",
+          "concept": "text",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    },
+    "Interviewer": {
+      "question": "Interviewer",
+      "name": "Interviewer",
+      "items": [
+        {
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "listnr",
+          "text_de": "Listen-Nr.",
+          "text": "List ID",
+          "scale": "int",
+          "concept": "listnr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "lfdnr",
+          "text_de": "Lfd. Nr.",
+          "text": "Lfd ID",
+          "scale": "int",
+          "concept": "lfdnr",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text_de": "Ich bestätige die korrekte Durchführung des Interviews:",
+          "text": "I confirm the proper execution of the interview.",
+          "scale": "txt",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "intnr",
+          "text_de": "Abrechnungs-Nummer",
+          "text": "Account number",
+          "scale": "int",
+          "concept": "intnr",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "66",
+          "text_de": "Unterschrift des Interviewers",
+          "text": "Interviewer signature",
+          "scale": "txt",
+          "sn": 5,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "soep-core-2019-e4-2",
+      "study": "soep-core-preview"
+    }
+  }
+}

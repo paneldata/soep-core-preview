@@ -1,0 +1,12 @@
+{
+  "study": "soep-core-preview",
+  "name": "soep-core-1984-pe",
+  "label": "Individual 1984",
+  "period": 1984,
+  "author": "SOEP Group",
+  "label_de": "Person 1984",
+  "publish": 2,
+  "qtyp": "pe",
+  "instrument": "soep-core-1984-pe",
+  "questions": {}
+}
