@@ -1,0 +1,4949 @@
+{
+  "study": "soep-core-preview",
+  "name": "soep-core-2019-e5-lgb",
+  "label": "Mother and Child (9-10-year-olds, CAPI) 2019",
+  "analysis_unit": "p",
+  "period": 2019,
+  "author": "SOEP Group",
+  "label_de": "Mutter und Kind (9-10 Jahre, CAPI) ",
+  "publish": 1,
+  "qtyp": "e5",
+  "instrument": "soep-core-2019-e5-lgb",
+  "questions": {
+    "Intro": {
+      "question": "Intro",
+      "name": "Intro",
+      "label": "\nYour participation is entirely voluntary. \n\nWe therefore cordially request that \n- you allow our staff member to interview you \n- or you fill out the questionnaire independently.",
+      "items": [
+        {
+          "text_de": "In diesem kurzen Fragebogen geht es um Kinder, die im Jahr 2009 geboren wurden. Unsere Fragen\nbeziehen sich auf Ihre persönlichen Erfahrungen und die Entwicklung des Kindes. Die Fragen werden\nvon einem Elternteil oder gegebenenfalls von einer anderen Betreuungsperson beantwortet.\n\nIhre Mitarbeit ist freiwillig.\n\nWir bitten Sie herzlich, \n\n- unserem Mitarbeiter / unserer Mitarbeiterin das Interview zu gewähren\n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
+          "text": "\nYour participation is entirely voluntary. \n\nWe therefore cordially request that \n- you allow our staff member to interview you \n- or you fill out the questionnaire independently.",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        }
+      ],
+      "sn": 0,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "0": {
+      "question": "0",
+      "name": "0",
+      "label": "Before handing in the questionnaire, please enter in accordance with the address log:",
+      "items": [
+        {
+          "item": "0",
+          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
+          "text": "Before handing in the questionnaire, please enter in accordance with the address log:",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "hnr",
+          "text_de": "Nr. des Haushalts",
+          "text": "Household ID",
+          "scale": "int",
+          "concept": "hnr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "name",
+          "text_de": "Vorname der Befragungsperson:",
+          "instruction_de": "Bitte in Druckbuchstaben",
+          "text": "First name interviewee:",
+          "instruction": "Please print",
+          "scale": "chr",
+          "concept": "name",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "pnr",
+          "text_de": "Personen Nr.",
+          "text": "Person ID",
+          "scale": "int",
+          "concept": "pnr",
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 1,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "1": {
+      "question": "1",
+      "name": "1",
+      "label": "What's your child‘s name?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie heißt das Kind?",
+          "text": "What's your child‘s name?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "ename",
+          "text_de": "Vorname des Kindes:",
+          "instruction_de": "Bitte in Druckbuchstaben",
+          "text": "First name:",
+          "instruction": "Please print in capital letters.",
+          "scale": "chr",
+          "concept": "ename",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "epnr",
+          "text_de": "Personen Nr:",
+          "text": "Person ID:",
+          "scale": "int",
+          "concept": "epnr",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 2,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "2": {
+      "question": "2",
+      "name": "2",
+      "label": "Birth date and sex of you child",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Geburtsdatum und Geschlecht des Kindes",
+          "text": "Birth date and sex of you child",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "egebt",
+          "text_de": "Tag",
+          "text": "Day",
+          "scale": "int",
+          "concept": "egebt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "egebm",
+          "text_de": "Monat:",
+          "text": "Month:",
+          "scale": "int",
+          "concept": "egebm",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "egebj",
+          "text_de": "Jahr 2009",
+          "text": "Year:",
+          "scale": "int",
+          "concept": "egebj",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "esex",
+          "text_de": "…",
+          "text": "sex",
+          "scale": "cat",
+          "concept": "esex",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Männlich"
+            },
+            {
+              "value": 2,
+              "label_de": "Weiblich"
+            },
+            {
+              "value": 3,
+              "label_de": "Divers"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        }
+      ],
+      "sn": 3,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "3": {
+      "question": "3",
+      "name": "3",
+      "items": [
+        {
+          "item": "ebez",
+          "text_de": "In welcher Beziehung stehen Sie zu diesem Kind: sind Sie ...?",
+          "scale": "cat",
+          "concept": "ebez",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Leibliche Mutter"
+            },
+            {
+              "value": 2,
+              "label_de": "Leiblicher Vater"
+            },
+            {
+              "value": 3,
+              "label_de": "Zweite, soziale Mutter / zweiter, sozialer Vater bei gleichgeschlechtlichen Paaren"
+            },
+            {
+              "value": 4,
+              "label_de": "Adoptiv-, Pflegemutter / Adoptiv-, Pfl egevater"
+            },
+            {
+              "value": 5,
+              "label_de": "Stiefmutter / Stiefvater"
+            },
+            {
+              "value": 6,
+              "label_de": "Großmutter / Großvater / Tante / Onkel"
+            },
+            {
+              "value": 7,
+              "label_de": "Nichts davon, andere Beziehung zum Kind"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 4,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "4": {
+      "question": "4",
+      "name": "4",
+      "label": "Do you or other household members speak German with your child or another language as well?",
+      "items": [
+        {
+          "item": "edtsch1",
+          "text_de": "Sprechen Sie oder andere Haushaltsmitglieder mit Ihrem Kind nur Deutsch oder auch in einer anderen Sprache?",
+          "text": "Do you or other household members speak German with your child or another language as well?",
+          "scale": "cat",
+          "concept": "edtsch1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Nur in Deutsch",
+              "label": "German only"
+            },
+            {
+              "value": 2,
+              "label_de": "Auch in einer anderen Sprache",
+              "label": "Another language as well"
+            },
+            {
+              "value": 3,
+              "label_de": "Nur in der anderen Sprache",
+              "label": "Only another language"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "edtsch2",
+          "text_de": "[andere Sprache] und zwar:",
+          "text": "[other language]:",
+          "scale": "chr",
+          "concept": "edtsch2",
+          "filter": "edtsch1=2,3",
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 5,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "5": {
+      "question": "5",
+      "name": "5",
+      "label": "To what extent do the following secondary school-leaving certificates correspond to the ideal education you would like for your child?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Inwieweit entsprechen die folgenden Schulabschlüsse Ihrer persönlichen Idealvorstellung für die schulische Ausbildung des Kindes?",
+          "instruction_de": "Antworten Sie bitte anhand einer Skala von 1 bis 7.\nDer Wert 1 bedeutet, dass der Abschluss überhaupt nicht, der Wert 7 voll und ganz\" Ihren persönlichen Vorstellungen entspricht.\nMit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
+          "text": "To what extent do the following secondary school-leaving certificates correspond to the ideal education you would like for your child?",
+          "instruction": "Please answer on a scale from 1 to 7, where 1 means “not at all” and 7 means “completely”",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "esch1",
+          "text_de": "Hauptschulabschluss",
+          "text": "Lower secondary school-leaving certificate (Hauptschulabschluss)",
+          "scale": "cat",
+          "concept": "esch1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 überhaupt nicht",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 voll und ganz",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "esch2",
+          "text_de": "Mittlerer Schulabschluss (z.B. Realschulabschluss)",
+          "text": "Intermediate secondary school-leaving certificate (Mittlere Reife, Realschulabschluss)",
+          "scale": "cat",
+          "concept": "esch2",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 überhaupt nicht",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 voll und ganz",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "esch3",
+          "text_de": "Abitur",
+          "text": "Upper secondary school-leaving certificate (Abitur)",
+          "scale": "cat",
+          "concept": "esch3",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 überhaupt nicht",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 voll und ganz",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 6,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "6": {
+      "question": "6",
+      "name": "6",
+      "label": "How likely do you think it is that your child will obtain one of the following school-leaving certificates?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Und für wie wahrscheinlich halten Sie es, dass das Kind die Schule mit einem der folgenden Abschlüsse verlassen wird?",
+          "instruction_de": "Der Wert 1 bedeutet dieses Mal ausgeschlossen und der Wert 7 bedeutet ganz sicher.",
+          "text": "How likely do you think it is that your child will obtain one of the following school-leaving certificates?",
+          "instruction": "Please answer again on a scale from 1 to 7, where 1 means “not at all”, and 7 means “completely”",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "esch4",
+          "text_de": "Hauptschulabschluss",
+          "text": "Lower secondary school-leaving certificate (Hauptschulabschluss)",
+          "scale": "cat",
+          "concept": "esch4",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 ausgeschlossen",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 ganz sicher",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "esch5",
+          "text_de": "Mittlerer Schulabschluss (z.B. Realschulabschluss)",
+          "text": "Intermediate secondary school-leaving certificate (Mittlere Reife, Realschulabschluss)",
+          "scale": "cat",
+          "concept": "esch5",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 ausgeschlossen",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 ganz sicher",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "esch6",
+          "text_de": "Abitur",
+          "text": "Upper secondary school-leaving certificate (Abitur)",
+          "scale": "cat",
+          "concept": "esch6",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 ausgeschlossen",
+              "label": "Not at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 ganz sicher",
+              "label": "Completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 7,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "7": {
+      "question": "7",
+      "name": "7",
+      "label": "What school does/did your child attend in 2018/2019?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Welche Schule besucht bzw. besuchte das Kind im Schuljahr 2018/2019?",
+          "text": "What school does/did your child attend in 2018/2019?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "esch7",
+          "text_de": "Grundschule",
+          "text": "Primary school",
+          "scale": "bin",
+          "concept": "esch7",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "esch12",
+          "text_de": "Hauptschule",
+          "text": "general school",
+          "scale": "bin",
+          "concept": "esch12",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "esch13",
+          "text_de": "Realschule",
+          "text": "Intermediate school (Realschule)",
+          "scale": "bin",
+          "concept": "esch13",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "esch14",
+          "text_de": "Gymnasium",
+          "text": "Upper Secondary (Gymnasium)",
+          "scale": "bin",
+          "concept": "esch14",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "esch15",
+          "text_de": "Gesamtschule",
+          "text": "comprehensive school",
+          "scale": "bin",
+          "concept": "esch15",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "esch8",
+          "text_de": "Schule mit einem speziellen pädagogischen Konzept, z.B. Montessori, Waldorf",
+          "text": "School with special pedagogic concept (Montessori, Waldorf)",
+          "scale": "bin",
+          "concept": "esch8",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "esch9",
+          "text_de": "Förderschule, Sonderschule, Sprachheilschule",
+          "text": "School for children with learn difficulties (Förderschule, Sonderschule, Sprachheilschule)",
+          "scale": "bin",
+          "concept": "esch9",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "esch10",
+          "text_de": "Sonstige Schule",
+          "text": "Other schools",
+          "scale": "bin",
+          "concept": "esch10",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "esch11",
+          "text_de": "[Sonstige Schule] und zwar:",
+          "text": "[Other school]:",
+          "scale": "chr",
+          "concept": "esch11",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "Wann wurde das Kind eingeschult?",
+          "text": "When did the child start school?",
+          "scale": "txt",
+          "filter": "esch7:esch10=1 or esch12:esch15=1",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "eschmo",
+          "text_de": "Monat",
+          "text": "Month",
+          "scale": "int",
+          "concept": "eschmo",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "eschj",
+          "text_de": "Jahr",
+          "text": "Year",
+          "scale": "int",
+          "concept": "eschj",
+          "sn": 12,
+          "number": ""
+        }
+      ],
+      "sn": 8,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "8": {
+      "question": "8",
+      "name": "8",
+      "label": "What was the child's grade in the following two subjects on his/her last report card?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Welche Note hatte das Kind in seinem letzten Zeugnis in den folgenden zwei Fächern?",
+          "text": "What was the child's grade in the following two subjects on his/her last report card?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "enot1",
+          "text_de": "Schulnote von 1 bis 6 [Deutsch]",
+          "text": "German [grade from 1 to 6]",
+          "scale": "int",
+          "concept": "enot1",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "enot2",
+          "text_de": "Schulnote von 1 bis 6 [Mathematik]",
+          "text": "Mathematics [grade from 1 to 6]",
+          "scale": "int",
+          "concept": "enot2",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "enot3",
+          "text_de": "Trifft nicht zu, keine Schulnoten im Zeugnis enthalten ",
+          "text": "Does not apply, no grades on report card.",
+          "scale": "bin",
+          "concept": "enot3",
+          "sn": 3,
+          "number": ""
+        }
+      ],
+      "sn": 9,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "9": {
+      "question": "9",
+      "name": "9",
+      "label": "In which way are you looking for contact with school?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "In welcher Weise suchen Sie oder ein anderes Familienmitglied den Kontakt mit der Schule?",
+          "instruction_de": "Bitte alles Zutreffende angeben!",
+          "text": "In which way are you looking for contact with school?",
+          "instruction": "Please state all that apply!",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "eelt11",
+          "text_de": "Regelmäßige Teilnahme am Elternabend",
+          "text": "Regular participation to parent's meetings at school",
+          "scale": "bin",
+          "concept": "eelt11",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "eelt12",
+          "text_de": "Regelmäßige Besuche von Elternsprechtagen",
+          "text": "Regular visits to parent's meetings at school",
+          "scale": "bin",
+          "concept": "eelt12",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "eelt13",
+          "text_de": "Aufsuchen des Lehrers / der Lehrerin auch außerhalb von Sprechtagen",
+          "text": "Visiting teachers outside consultation hours",
+          "scale": "bin",
+          "concept": "eelt13",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "eelt14",
+          "text_de": "Engagement als Elternvertreter",
+          "text": "Engagement as parent representatives",
+          "scale": "bin",
+          "concept": "eelt14",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "eelt16",
+          "text_de": "Sonstige Unterstützung der Lehrer / Schule (wie Unterstützung bei Schulfesten, Ausflügen, Pausenraumgestaltung etc.)",
+          "text": "Other support of teachers / school ( supporting to school events, excursions, breaking room design etc.)",
+          "scale": "bin",
+          "concept": "eelt16",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "eelt17",
+          "text_de": "Mitglied im Förderverein",
+          "text": "Member of booster club",
+          "scale": "bin",
+          "concept": "eelt17",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "eelt15",
+          "text_de": "Nichts davon",
+          "text": "None Of These",
+          "scale": "bin",
+          "concept": "eelt15",
+          "sn": 7,
+          "number": ""
+        }
+      ],
+      "sn": 10,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "10": {
+      "question": "10",
+      "name": "10",
+      "label": "To what extent do the following statements apply to your child?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Inwieweit treffen die folgenden Aussagen auf das Kind zu?",
+          "text": "To what extent do the following statements apply to your child?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "Das Kind ...",
+          "text": "My child …",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "esch22",
+          "text_de": "geht gerne in die Schule",
+          "text": "gets along with his/her classmates.",
+          "scale": "cat",
+          "concept": "esch22",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "trifft voll zu",
+              "label": "Applies completely"
+            },
+            {
+              "value": 2,
+              "label_de": "trifft eher zu",
+              "label": "Applies partly"
+            },
+            {
+              "value": 3,
+              "label_de": "trifft eher nicht zu",
+              "label": "Does not apply"
+            },
+            {
+              "value": 4,
+              "label_de": "trifft gar nicht zu",
+              "label": "Does not apply at all"
+            },
+            {
+              "value": 5,
+              "label_de": "weiß nicht",
+              "label": "Don’t know"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "esch26",
+          "text_de": "versteht sich nicht gut mit seinen Klassenkameraden",
+          "text": "thinks school is a waste of time.",
+          "scale": "cat",
+          "concept": "esch26",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "trifft voll zu",
+              "label": "Applies completely"
+            },
+            {
+              "value": 2,
+              "label_de": "trifft eher zu",
+              "label": "Applies partly"
+            },
+            {
+              "value": 3,
+              "label_de": "trifft eher nicht zu",
+              "label": "Does not apply"
+            },
+            {
+              "value": 4,
+              "label_de": "trifft gar nicht zu",
+              "label": "Does not apply at all"
+            },
+            {
+              "value": 5,
+              "label_de": "weiß nicht",
+              "label": "Don’t know"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "esch27",
+          "text_de": "empfindet Schule als reine Zeitverschwendung",
+          "text": "thinks school is a waste of time.",
+          "scale": "cat",
+          "concept": "esch27",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "trifft voll zu",
+              "label": "Applies completely"
+            },
+            {
+              "value": 2,
+              "label_de": "trifft eher zu",
+              "label": "Applies partly"
+            },
+            {
+              "value": 3,
+              "label_de": "trifft eher nicht zu",
+              "label": "Does not apply"
+            },
+            {
+              "value": 4,
+              "label_de": "trifft gar nicht zu",
+              "label": "Does not apply at all"
+            },
+            {
+              "value": 5,
+              "label_de": "weiß nicht",
+              "label": "Don’t know"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "esch28",
+          "text_de": "nimmt Arbeit in der Schule nie ernst",
+          "text": "does not take school seriously.",
+          "scale": "cat",
+          "concept": "esch28",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "trifft voll zu",
+              "label": "Applies completely"
+            },
+            {
+              "value": 2,
+              "label_de": "trifft eher zu",
+              "label": "Applies partly"
+            },
+            {
+              "value": 3,
+              "label_de": "trifft eher nicht zu",
+              "label": "Does not apply"
+            },
+            {
+              "value": 4,
+              "label_de": "trifft gar nicht zu",
+              "label": "Does not apply at all"
+            },
+            {
+              "value": 5,
+              "label_de": "weiß nicht",
+              "label": "Don’t know"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "esch23",
+          "text_de": "kommt im Unterricht gut mit",
+          "text": "keeps up in his/her classes.",
+          "scale": "cat",
+          "concept": "esch23",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "trifft voll zu",
+              "label": "Applies completely"
+            },
+            {
+              "value": 2,
+              "label_de": "trifft eher zu",
+              "label": "Applies partly"
+            },
+            {
+              "value": 3,
+              "label_de": "trifft eher nicht zu",
+              "label": "Does not apply"
+            },
+            {
+              "value": 4,
+              "label_de": "trifft gar nicht zu",
+              "label": "Does not apply at all"
+            },
+            {
+              "value": 5,
+              "label_de": "weiß nicht",
+              "label": "Don’t know"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "esch29",
+          "text_de": "kommt mit dem jetzigen Lehrer oder der Lehrerin nicht gut aus",
+          "text": "does not get along well with the teacher.",
+          "scale": "cat",
+          "concept": "esch29",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "trifft voll zu",
+              "label": "Applies completely"
+            },
+            {
+              "value": 2,
+              "label_de": "trifft eher zu",
+              "label": "Applies partly"
+            },
+            {
+              "value": 3,
+              "label_de": "trifft eher nicht zu",
+              "label": "Does not apply"
+            },
+            {
+              "value": 4,
+              "label_de": "trifft gar nicht zu",
+              "label": "Does not apply at all"
+            },
+            {
+              "value": 5,
+              "label_de": "weiß nicht",
+              "label": "Don’t know"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "esch25",
+          "text_de": "lernt gerne",
+          "text": "enjoys learning.",
+          "scale": "cat",
+          "concept": "esch25",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "trifft voll zu",
+              "label": "Applies completely"
+            },
+            {
+              "value": 2,
+              "label_de": "trifft eher zu",
+              "label": "Applies partly"
+            },
+            {
+              "value": 3,
+              "label_de": "trifft eher nicht zu",
+              "label": "Does not apply"
+            },
+            {
+              "value": 4,
+              "label_de": "trifft gar nicht zu",
+              "label": "Does not apply at all"
+            },
+            {
+              "value": 5,
+              "label_de": "weiß nicht",
+              "label": "Don’t know"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        }
+      ],
+      "sn": 11,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "11": {
+      "question": "11",
+      "name": "11",
+      "label": "Where does your child do his/her homework most of the time? At home, at relative's/friend's home, in after-school care, or elsewhere?",
+      "items": [
+        {
+          "item": "ehaus1",
+          "text_de": "Wo macht das Kind meistens seine Hausaufgaben? Zu Hause, bei Verwandten / Freunden, in der Nachmittagsbetreuung / im Hort oder woanders? ",
+          "text": "Where does your child do his/her homework most of the time? At home, at relative's/friend's home, in after-school care, or elsewhere?",
+          "scale": "cat",
+          "concept": "ehaus1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zu Hause",
+              "label": "At home"
+            },
+            {
+              "value": 2,
+              "label_de": "Bei Verwandten / Freunden",
+              "label": "At relative's / friend's home"
+            },
+            {
+              "value": 3,
+              "label_de": "In der Nachmittagsbetreuung / Im Hort",
+              "label": "After school care"
+            },
+            {
+              "value": 4,
+              "label_de": "Woanders",
+              "label": "Elsewhere"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 12,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "12": {
+      "question": "12",
+      "name": "12",
+      "label": "How often do you or your partner help your child with his/her homework?",
+      "items": [
+        {
+          "item": "ehaus2",
+          "text_de": "Wie häufig wird das Kind von Ihnen selbst oder Ihrem Partner bei den Hausaufgaben unterstützt (d.h. Sie erklären, kontrollieren, oder sitzen dabei)? ",
+          "text": "How often do you or your partner help your child with his/her homework?",
+          "scale": "cat",
+          "concept": "ehaus2",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Mehrmals wöchentlich",
+              "label": "Several times a week"
+            },
+            {
+              "value": 3,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 4,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 13,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "13": {
+      "question": "13",
+      "name": "13",
+      "label": "How often does your child take part in the following leisure activities?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie häufig übt das Kind die folgenden Freizeitbeschäftigungen aus?",
+          "text": "How often does your child take part in the following leisure activities?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "efz01",
+          "text_de": "Fernsehen / DVD / Internet-Streams (z.B. YouTube)",
+          "text": "Watching TV / DVD / Internet-Streams (e.g. YouTube)",
+          "scale": "cat",
+          "concept": "efz01",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "efz02",
+          "text_de": "Computer- / Online- / Konsolen oder Smartphonespiele",
+          "text": "Computer- / Online- / consoles or gaming smartphone",
+          "scale": "cat",
+          "concept": "efz02",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "efz21",
+          "text_de": "Nutzen sozialer Online-Netzwerke",
+          "text": "Making use of online-networks",
+          "scale": "cat",
+          "concept": "efz21",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "efz22",
+          "text_de": "Telefonieren (einschließlich Skypen o.ä.)",
+          "text": "Phoning (Skype etc.)",
+          "scale": "cat",
+          "concept": "efz22",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "efz23",
+          "text_de": "Austausch per SMS oder Messenger",
+          "text": "Texting (sending and receiving text messages)",
+          "scale": "cat",
+          "concept": "efz23",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "efz14",
+          "text_de": "Sonstiges Surfen im Internet",
+          "text": "Other internet surfing",
+          "scale": "cat",
+          "concept": "efz14",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "efz03",
+          "text_de": "Musik hören",
+          "text": "Listen to music",
+          "scale": "cat",
+          "concept": "efz03",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "efz04",
+          "text_de": "Musik machen",
+          "text": "Making music",
+          "scale": "cat",
+          "concept": "efz04",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "efz05",
+          "text_de": "Sport treiben",
+          "text": "Doing sport",
+          "scale": "cat",
+          "concept": "efz05",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "efz17",
+          "text_de": "Mit der Familie etwas unternehmen z.B. Ausflüge oder Ähnliches",
+          "text": "Doing something together with the whole family e.g. tours etc.",
+          "scale": "cat",
+          "concept": "efz17",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "efz19",
+          "text_de": "Mit Freundinnen / Freunden zusammen sein",
+          "text": "Spending time with friends",
+          "scale": "cat",
+          "concept": "efz19",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "efz06",
+          "text_de": "Tanz, Theater oder Ãhnliches",
+          "text": "Dancing, theatre etc.",
+          "scale": "cat",
+          "concept": "efz06",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "efz07",
+          "text_de": "Technisches Werken und Arbeiten",
+          "text": "Technical working",
+          "scale": "cat",
+          "concept": "efz07",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "efz18",
+          "text_de": "Malen und Basteln",
+          "text": "Painting or doing arts and crafts",
+          "scale": "cat",
+          "concept": "efz18",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "efz08",
+          "text_de": "Lesen",
+          "text": "Reading",
+          "scale": "cat",
+          "concept": "efz08",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "efz10",
+          "text_de": "Einfach nichts tun / abhängen / träumen",
+          "text": "simply do nothing / hanging out / dreaming",
+          "scale": "cat",
+          "concept": "efz10",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "efz16",
+          "text_de": "Zur Kirche gehen, religiöse Veranstaltungen besuchen",
+          "text": "Going to church, visiting religious events",
+          "scale": "cat",
+          "concept": "efz16",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "efz20",
+          "text_de": "In eine Jugendgruppe gehen (z.B. Pfadfinder, kirchliche Gruppen, Umweltgruppen)",
+          "text": "Youth groups (for example, Pathfinders, church youth groups, environmental groups, etc.)",
+          "scale": "cat",
+          "concept": "efz20",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "efz25",
+          "text_de": "Sozial engagieren / Hilfsprojekte unterstützen",
+          "text": "Doing social work / supporting aid projects",
+          "scale": "cat",
+          "concept": "efz25",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "efz24",
+          "text_de": "Um ein Haustier / Tiere kümmern",
+          "text": "Taking care of pets / animals",
+          "scale": "cat",
+          "concept": "efz24",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Täglich",
+              "label": "Daily"
+            },
+            {
+              "value": 2,
+              "label_de": "Jede Woche",
+              "label": "Every week"
+            },
+            {
+              "value": 3,
+              "label_de": "Jeden Monat",
+              "label": "Every month"
+            },
+            {
+              "value": 4,
+              "label_de": "Seltener",
+              "label": "Less often"
+            },
+            {
+              "value": 5,
+              "label_de": "Nie",
+              "label": "Never"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 20,
+          "number": ""
+        }
+      ],
+      "sn": 14,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "14": {
+      "question": "14",
+      "name": "14",
+      "label": "Where and with whom does your child eat his/her meals? Please answer for normal weekdays and weekends.",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wo und mit wem nimmt ihr Kind die folgenden Mahlzeiten gewöhnlich ein? Auch wenn es nicht immer gleich ist, geben Sie bitte an, wie das an Wochentagen, an Samstagen und an Sonntagen meistens ist. ",
+          "text": "Where and with whom does your child eat his/her meals? Please answer for normal weekdays and weekends.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "unter der Woche",
+          "text": "during the week",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "eessfw",
+          "text_de": "[unter der Woche] Frühstück",
+          "text": "[during the week] breakfast",
+          "scale": "cat",
+          "concept": "eessfw",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "eessmw",
+          "text_de": "[unter der Woche] Mittagessen",
+          "text": "[during the week] lunch",
+          "scale": "cat",
+          "concept": "eessmw",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "eessaw",
+          "text_de": "[unter der Woche] Abendessen",
+          "text": "[during the week] dinner",
+          "scale": "cat",
+          "concept": "eessaw",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "6",
+          "text_de": "am Samstag",
+          "text": "on saturdays",
+          "scale": "txt",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "eessfsa",
+          "text_de": "[am Samstag] Frühstück",
+          "text": "[saturdays] breakfast",
+          "scale": "cat",
+          "concept": "eessfsa",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "eessmsa",
+          "text_de": "[am Samstag] Mittagessen",
+          "text": "[saturdays] lunch",
+          "scale": "cat",
+          "concept": "eessmsa",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "eessasa",
+          "text_de": "[am Samstag] Abendessen",
+          "text": "[saturdays] dinner",
+          "scale": "cat",
+          "concept": "eessasa",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "10",
+          "text_de": "am Sonntag",
+          "text": "on sundays",
+          "scale": "txt",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "eessfso",
+          "text_de": "[am Sonntag] Frühstück",
+          "text": "[sundays] breakfast",
+          "scale": "cat",
+          "concept": "eessfso",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "eessmso",
+          "text_de": "[am Sonntag] Mittagessen",
+          "text": "[sundays] lunch",
+          "scale": "cat",
+          "concept": "eessmso",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "eessaso",
+          "text_de": "[am Sonntag] Abendessen",
+          "text": "[sundays] dinner",
+          "scale": "cat",
+          "concept": "eessaso",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Zuhause gemeinsam mit der gesamten Familie",
+              "label": "At home with the whole family"
+            },
+            {
+              "value": 2,
+              "label_de": "Zuhause gemeinsam mit Teilen der Familie",
+              "label": "At home with part of the family"
+            },
+            {
+              "value": 3,
+              "label_de": "Zuhause alleine",
+              "label": "At home alone"
+            },
+            {
+              "value": 4,
+              "label_de": "Nicht zu Hause (z.B. Schule, Hort, Freunde/Bekannte, Großeltern)",
+              "label": "Not at home (e.g., in school, after-school care, with friends/relatives, grandparents)"
+            },
+            {
+              "value": 5,
+              "label_de": "Fällt in der Regel aus",
+              "label": "Is usually canceled"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 12,
+          "number": ""
+        }
+      ],
+      "sn": 15,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "15": {
+      "question": "15",
+      "name": "15",
+      "label": "How would you rank your child in comparison to other children of the same age? My child …",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie würden Sie das Kind im Vergleich zu anderen Kindern gleichen Alters beurteilen?",
+          "instruction_de": "Je weiter links Sie Ihr Kreuz machen, um so mehr trifft die linke Eigenschaft zu, je weiter rechts Sie Ihr Kreuz machen, um so mehr trifft die rechte Eigenschaft zu! ",
+          "text": "How would you rank your child in comparison to other children of the same age? My child …",
+          "instruction": "The further to the left you make the X, the more the characteristic on the left side applies. The further to the right you make the X, the more the characteristic on the right side applies.",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "everg01",
+          "scale": "cat",
+          "concept": "everg01",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist eher gesprächig",
+              "label": "is rather talkative"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist eher still",
+              "label": "is rather quiet"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "everg02",
+          "scale": "cat",
+          "concept": "everg02",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist unordentlich",
+              "label": "is messy"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist ordentlich",
+              "label": "is neat"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "everg03",
+          "scale": "cat",
+          "concept": "everg03",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist gutmütig",
+              "label": "is good-natured"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist leicht reizbar",
+              "label": "is easy irritated"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "everg04",
+          "scale": "cat",
+          "concept": "everg04",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist wenig interessiert",
+              "label": "… is disinterested"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist wissendurstig",
+              "label": "… is curious to learn"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "everg05",
+          "scale": "cat",
+          "concept": "everg05",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "hat Selbstvertrauen",
+              "label": "is self-confident"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist unsicher",
+              "label": "is insecure"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "everg06",
+          "scale": "cat",
+          "concept": "everg06",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist zurückgezogen",
+              "label": "is withdrawn"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist kontaktfreudig",
+              "label": "is sociable"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "everg07",
+          "scale": "cat",
+          "concept": "everg07",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist konzentriert",
+              "label": "is focused"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist leicht ablenkbar",
+              "label": "is easily distracted"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "everg08",
+          "scale": "cat",
+          "concept": "everg08",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist trotzig",
+              "label": "is defiant"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist folgsam",
+              "label": "is obedient"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "everg09",
+          "scale": "cat",
+          "concept": "everg09",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "begreift schnell",
+              "label": "understands quickly"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "braucht mehr Zeit",
+              "label": "needs more time"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "everg10",
+          "scale": "cat",
+          "concept": "everg10",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "ist ängstlich",
+              "label": "is timidly"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7",
+              "label": "7"
+            },
+            {
+              "value": 8,
+              "label_de": "8",
+              "label": "8"
+            },
+            {
+              "value": 9,
+              "label_de": "9",
+              "label": "9"
+            },
+            {
+              "value": 10,
+              "label_de": "10",
+              "label": "10"
+            },
+            {
+              "value": 11,
+              "label_de": "ist unängstlich",
+              "label": "is fearless"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        }
+      ],
+      "sn": 16,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "16": {
+      "question": "16",
+      "name": "16",
+      "label": "Has your child been diagnosed by a doctor as having one of the following health conditions or impairments?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Ist im Rahmen einer ärztlichen Untersuchung bei dem Kind einmal eine der folgenden Erkrankungen oder Störungen festgestellt worden?",
+          "instruction_de": "Bitte alles Zutreffende angeben!",
+          "text": "Has your child been diagnosed by a doctor as having one of the following health conditions or impairments?",
+          "instruction": "Please state all that apply!",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "estor1",
+          "text_de": "Atemwegserkrankungen (Asthma, Bronchitis oder Ähnliches)",
+          "text": "Respiratory disease (asthma, bronchitis or similar)",
+          "scale": "bin",
+          "concept": "estor1",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "estor15",
+          "text_de": "Allergien",
+          "text": "Allergies",
+          "scale": "bin",
+          "concept": "estor15",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "estor3",
+          "text_de": "Neurodermitis",
+          "text": "Neurodermatitis",
+          "scale": "bin",
+          "concept": "estor3",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "estor4",
+          "text_de": "Fehlsichtigkeit (z.B. Kurz- bzw. Weitsichtigkeit, Schielen)",
+          "text": "Vision impairment (e.g., far-sightedness, near-sightedness, crossed eyes)",
+          "scale": "bin",
+          "concept": "estor4",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "estor5",
+          "text_de": "Ernährungsstörungen",
+          "text": "Nutritional disorder",
+          "scale": "bin",
+          "concept": "estor5",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "estor6",
+          "text_de": "Störungen der Motorik, des Bewegungsapparates",
+          "text": "Motor impairment (disorder of the locomotor apparatus)",
+          "scale": "bin",
+          "concept": "estor6",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "estor7",
+          "text_de": "Sonstige Störungen / Behinderungen",
+          "text": "Other impairment or disorder",
+          "scale": "bin",
+          "concept": "estor7",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "estor9",
+          "text_de": "Nein, nichts davon",
+          "text": "No, none of the above",
+          "scale": "bin",
+          "concept": "estor9",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "estor8",
+          "text_de": "[Sonstige Störungen / Behinderungen] und zwar:",
+          "text": "Other impairment or disorder",
+          "scale": "chr",
+          "concept": "estor8",
+          "filter": "estor7=1",
+          "sn": 9,
+          "number": ""
+        }
+      ],
+      "sn": 17,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "17": {
+      "question": "17",
+      "name": "17",
+      "label": "How would you describe your child's current state of health?",
+      "items": [
+        {
+          "item": "eges01",
+          "text_de": "Wie würden Sie den allgemeinen Gesundheitszustand des Kindes beschreiben?",
+          "text": "How would you describe your child's current state of health?",
+          "scale": "cat",
+          "concept": "eges01",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Sehr gut",
+              "label": "Very good"
+            },
+            {
+              "value": 2,
+              "label_de": "Gut",
+              "label": "Good"
+            },
+            {
+              "value": 3,
+              "label_de": "Zufriedenstellend",
+              "label": "Satisfactory"
+            },
+            {
+              "value": 4,
+              "label_de": "Weniger gut",
+              "label": "Poor"
+            },
+            {
+              "value": 5,
+              "label_de": "Schlecht",
+              "label": "Bad"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 18,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "18": {
+      "question": "18",
+      "name": "18",
+      "label": "Did your child experience health problems in the last 12 months that necessitated a hospital stay?",
+      "items": [
+        {
+          "item": "eges1",
+          "text_de": "Gab es bei dem Kind in den letzten 12 Monaten gesundheitliche Probleme, die einen Krankenhausaufenthalt notwendig machten? ",
+          "text": "Did your child experience health problems in the last 12 months that necessitated a hospital stay?",
+          "scale": "cat",
+          "concept": "eges1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Nein",
+              "label": "No"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "eges2",
+          "text_de": "[Ja] und zwar ... Tage",
+          "text": "[Yes] … days",
+          "scale": "int",
+          "concept": "eges2",
+          "filter": "eges1=1",
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 19,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "19": {
+      "question": "19",
+      "name": "19",
+      "label": "Did you have to go to or call a doctor in the last 3 months because of your child's health problems?",
+      "items": [
+        {
+          "item": "earz1",
+          "text_de": "Mussten Sie in den letzten 3 Monaten wegen gesundheitlicher Probleme des Kindes einen Arzt bzw. eine Ärztin aufsuchen oder rufen?",
+          "text": "Did you have to go to or call a doctor in the last 3 months because of your child's health problems?",
+          "scale": "cat",
+          "concept": "earz1",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Nein",
+              "label": "No"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "earz2",
+          "text_de": "[Ja] und zwar ... mal",
+          "text": "[Yes] … times",
+          "scale": "int",
+          "concept": "earz2",
+          "filter": "earz1=1",
+          "sn": 1,
+          "number": ""
+        }
+      ],
+      "sn": 20,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "20": {
+      "question": "20",
+      "name": "20",
+      "label": "Now to the subject circle of friend. How many close friends has you child? Can be children and adults",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Nun zum Thema Freundes- und Bekanntenkreis: Sagen Sie uns bitte zunächst, wie viele enge Freundinnen und Freunde hat das Kind? Es kann sich sowohl um Kinder als auch um Erwachsene handeln. ",
+          "text": "Now to the subject circle of friend. How many close friends has you child? Can be children and adults",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "efreu",
+          "text_de": "… Anzahl Kinder",
+          "text": "Number children:",
+          "scale": "int",
+          "concept": "efreu",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "efreua",
+          "text_de": "… Anzahl Erwachsene",
+          "text": "Number adults:",
+          "scale": "int",
+          "concept": "efreua",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 21,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "21": {
+      "question": "21",
+      "name": "21",
+      "label": "To what extent do you agree with the following statements about your child? For each answer, think about your child’s behavior in the last six months. ",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Im Folgenden haben wir eine Reihe von Aussagen aufgelistet: Inwieweit treffen diese Aussagen auf das Kind zu oder nicht zu? Bitte berücksichtigen Sie bei der Antwort das Verhalten des Kindes in den letzten sechs Monaten.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
+          "text": "To what extent do you agree with the following statements about your child? For each answer, think about your child’s behavior in the last six months. ",
+          "instruction": "Please answer on a scale from 1 to 7, where 1 means “does not apply at all” and 7 means “applies completely”",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "Das Kind ...",
+          "text": "The child ...¦",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "ever01",
+          "text_de": "ist rücksichtsvoll",
+          "text": "is thoughtful",
+          "scale": "cat",
+          "concept": "ever01",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "ever02",
+          "text_de": "ist unruhig, überaktiv, kann nicht lange stillsitzen ",
+          "text": "is restless, hyperactive, can not sit still long",
+          "scale": "cat",
+          "concept": "ever02",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "ever03",
+          "text_de": "teilt gerne mit anderen Kindern",
+          "text": "likes to share with other children",
+          "scale": "cat",
+          "concept": "ever03",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "ever04",
+          "text_de": "hat oft Wutanfälle, ist aufbrausend ",
+          "text": "often has tantrums, is short-tempered",
+          "scale": "cat",
+          "concept": "ever04",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "ever05",
+          "text_de": "ist ein Einzelgänger, spielt meist alleine ",
+          "text": "is a loner, usually plays alone",
+          "scale": "cat",
+          "concept": "ever05",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "ever06",
+          "text_de": "ist hilfsbereit, wenn andere verletzt, krank oder betrübt sind ",
+          "text": "is helpful when others are hurt, sick, or sad",
+          "scale": "cat",
+          "concept": "ever06",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "ever07",
+          "text_de": "ist ständig zappelig",
+          "text": "is always fidgety",
+          "scale": "cat",
+          "concept": "ever07",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "ever08",
+          "text_de": "streitet sich oft mit anderen Kindern oder schikaniert sie",
+          "text": "often fights with or picks on other children",
+          "scale": "cat",
+          "concept": "ever08",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "ever09",
+          "text_de": "ist oft unglücklich oder niedergeschlagen, weint häufig ",
+          "text": "is often unhappy or downcast, cries a lot",
+          "scale": "cat",
+          "concept": "ever09",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "ever10",
+          "text_de": "ist im Allgemeinen bei anderen Kindern beliebt",
+          "text": "is generally well-liked by other children",
+          "scale": "cat",
+          "concept": "ever10",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "ever11",
+          "text_de": "ist leicht ablenkbar, unkonzentriert ",
+          "text": "is easily distracted, unfocused",
+          "scale": "cat",
+          "concept": "ever11",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "ever12",
+          "text_de": "ist nervös oder anklammernd in neuen Situationen, verliert leicht das Selbstvertrauen ",
+          "text": "is nervous or clingy in new situations, easily loses self-confidence",
+          "scale": "cat",
+          "concept": "ever12",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "ever13",
+          "text_de": "wird von anderen gehänselt oder schikaniert.",
+          "text": "is often teased or picked on by others",
+          "scale": "cat",
+          "concept": "ever13",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "ever14",
+          "text_de": "hilft anderen oft freiwillig (Eltern, Lehrern, anderen Kindern) ",
+          "text": "often helps others of his/her own accord (parents, teachers, other children)",
+          "scale": "cat",
+          "concept": "ever14",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "ever15",
+          "text_de": "kommt besser mit Erwachsenen aus als mit anderen Kindern.",
+          "text": "gets along better with adults than with children",
+          "scale": "cat",
+          "concept": "ever15",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "ever16",
+          "text_de": "hat viele Ãngste, fürchtet sich leicht.",
+          "text": "has a lot of fears, gets scared easily",
+          "scale": "cat",
+          "concept": "ever16",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "ever17",
+          "text_de": "führt Aufgaben zu Ende, kann sich lange konzentrieren ",
+          "text": "finishes what he/she starts, can concentrate for a long time",
+          "scale": "cat",
+          "concept": "ever17",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "ever25",
+          "text_de": "denkt nach bevor es handelt",
+          "text": "thinks before acting",
+          "scale": "cat",
+          "concept": "ever25",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "1 trifft überhaupt nicht zu",
+              "label": "Does not apply at all 1"
+            },
+            {
+              "value": 2,
+              "label_de": "2",
+              "label": "2"
+            },
+            {
+              "value": 3,
+              "label_de": "3",
+              "label": "3"
+            },
+            {
+              "value": 4,
+              "label_de": "4",
+              "label": "4"
+            },
+            {
+              "value": 5,
+              "label_de": "5",
+              "label": "5"
+            },
+            {
+              "value": 6,
+              "label_de": "6",
+              "label": "6"
+            },
+            {
+              "value": 7,
+              "label_de": "7 trifft voll zu",
+              "label": "Applies completely 7"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 19,
+          "number": ""
+        }
+      ],
+      "sn": 22,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "22": {
+      "question": "22",
+      "name": "22",
+      "label": "Are you the child's main caregiver?",
+      "items": [
+        {
+          "item": "ehbet",
+          "text_de": "Sind Sie selbst die Hauptbetreuungsperson des Kindes?",
+          "text": "Are you the child's main caregiver?",
+          "scale": "cat",
+          "concept": "ehbet",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Nein, eine andere Person ist die Hauptbetreuungsperson ",
+              "label": "No, another person is the main caregiver"
+            },
+            {
+              "value": 3,
+              "label_de": "Nein, eine andere Person trägt zu gleichen Teilen wie ich zur Betreuung bei ",
+              "label": "No,  another person shares equally with me in caregiving "
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 23,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "23": {
+      "question": "23",
+      "name": "23",
+      "label": "If you think about a normal week, is there anybody else who regularly spends time looking after your child? If so, who is it and how many hours a week do they spend looking after the child?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen bzw. Einrichtungen sind das und wie viele Stunden pro Woche übernehmen sie die Betreuung? ",
+          "text": "If you think about a normal week, is there anybody else who regularly spends time looking after your child? If so, who is it and how many hours a week do they spend looking after the child?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "esit1",
+          "text_de": "Partner / Partnerin",
+          "text": "Spouse / partner",
+          "scale": "bin",
+          "concept": "esit1",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "esit13",
+          "text_de": "Vater / Mutter des Kindes (falls er nicht Ihr Partner / sie nicht Ihre Partnerin ist)",
+          "text": "Child/ father/ mother",
+          "scale": "bin",
+          "concept": "esit13",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "esit3",
+          "text_de": "Großeltern des Kindes",
+          "text": "Child's grandparents",
+          "scale": "bin",
+          "concept": "esit3",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "esit4",
+          "text_de": "Ältere Geschwister des Kindes",
+          "text": "Older siblings",
+          "scale": "bin",
+          "concept": "esit4",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "esit5",
+          "text_de": "Andere Verwandte",
+          "text": "Other relatives",
+          "scale": "bin",
+          "concept": "esit5",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "esit7",
+          "text_de": "Kinderfrau, Au-pair ",
+          "text": "Childcare provide, au-pair",
+          "scale": "bin",
+          "concept": "esit7",
+          "sn": 6,
+          "number": ""
+        },
+        {
+          "item": "esit9",
+          "text_de": "Andere (z.B. Babysitter, Eltern von Freunden des Kindes, Freunde oder Nachbarn) ",
+          "text": "Other (babysitter, parents of the child's friends, friends or neighbors)",
+          "scale": "bin",
+          "concept": "esit9",
+          "sn": 7,
+          "number": ""
+        },
+        {
+          "item": "esit10",
+          "text_de": "Schule (Unterricht, AGs, frei betreute Zeit) ",
+          "text": "School (classes, clubs, after-school groups)",
+          "scale": "bin",
+          "concept": "esit10",
+          "sn": 8,
+          "number": ""
+        },
+        {
+          "item": "esit11",
+          "text_de": "Hort (Schulhort oder andere hortähnliche Einrichtungen)",
+          "text": "After-school center",
+          "scale": "bin",
+          "concept": "esit11",
+          "sn": 9,
+          "number": ""
+        },
+        {
+          "item": "esit12",
+          "text_de": "Soziale Einrichtungen, Zentren, Freizeitorganisationen ",
+          "text": "Social service organization",
+          "scale": "bin",
+          "concept": "esit12",
+          "sn": 10,
+          "number": ""
+        },
+        {
+          "item": "esitno",
+          "text_de": "Nein, keine dieser Personen oder Einrichtungen",
+          "text": "No, nobody",
+          "scale": "bin",
+          "concept": "esitno",
+          "sn": 11,
+          "number": ""
+        },
+        {
+          "item": "estd1",
+          "text_de": "Stunden [Partner / Partnerin]",
+          "text": "Hours [spouse / partner]",
+          "scale": "int",
+          "concept": "estd1",
+          "sn": 12,
+          "number": ""
+        },
+        {
+          "item": "estd13",
+          "text_de": "Stunden [Vater / Mutter des Kindes (falls er nicht Ihr Partner / sie nicht Ihre Partnerin ist) ]",
+          "text": "Hours [father / mother]",
+          "scale": "int",
+          "concept": "estd13",
+          "sn": 13,
+          "number": ""
+        },
+        {
+          "item": "estd3",
+          "text_de": "Stunden [Großeltern des Kindes]",
+          "text": "Hours [grandparents]",
+          "scale": "int",
+          "concept": "estd3",
+          "sn": 14,
+          "number": ""
+        },
+        {
+          "item": "estd4",
+          "text_de": "Stunden [Ältere Geschwister des Kindes]",
+          "text": "Hours [siblings]",
+          "scale": "int",
+          "concept": "estd4",
+          "sn": 15,
+          "number": ""
+        },
+        {
+          "item": "estd5",
+          "text_de": "Stunden [Andere Verwandte]",
+          "text": "Hours [other relatives]",
+          "scale": "int",
+          "concept": "estd5",
+          "sn": 16,
+          "number": ""
+        },
+        {
+          "item": "estd7",
+          "text_de": "Stunden [Kinderfrau, Au-pair] ",
+          "text": "Hours [childcare provider / au pair]",
+          "scale": "int",
+          "concept": "estd7",
+          "sn": 17,
+          "number": ""
+        },
+        {
+          "item": "estd9",
+          "text_de": "Stunden [Andere (z.B. Babysitter, Eltern von Freunden des Kindes, Freunde oder Nachbarn)] ",
+          "text": "Hours [other]",
+          "scale": "int",
+          "concept": "estd9",
+          "sn": 18,
+          "number": ""
+        },
+        {
+          "item": "estd10",
+          "text_de": "Stunden [Schule (Unterricht, AGs, frei betreute Zeit)] ",
+          "text": "Hours [school]",
+          "scale": "int",
+          "concept": "estd10",
+          "sn": 19,
+          "number": ""
+        },
+        {
+          "item": "estd11",
+          "text_de": "Stunden [Hort (Schulhort oder andere hortähnliche Einrichtungen)]",
+          "text": "Hours [after-school daycare center]",
+          "scale": "int",
+          "concept": "estd11",
+          "sn": 20,
+          "number": ""
+        },
+        {
+          "item": "estd12",
+          "text_de": "Stunden [Soziale Einrichtungen, Zentren, Freizeitorganisationen] ",
+          "text": "Hours [social service organization, centers, recreational organizations]",
+          "scale": "int",
+          "concept": "estd12",
+          "sn": 21,
+          "number": ""
+        }
+      ],
+      "sn": 24,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "24": {
+      "question": "24",
+      "name": "24",
+      "label": "Gets your child pocket money?",
+      "items": [
+        {
+          "item": "etg1",
+          "text_de": "Erhält das Kind Taschengeld?",
+          "text": "Gets your child pocket money?",
+          "scale": "cat",
+          "concept": "etg1",
+          "goto": "2@letzte Seite",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Ja",
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label_de": "Nein",
+              "label": "No"
+            },
+            {
+              "value": -1,
+              "label_de": "keine Angabe"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 25,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "25": {
+      "question": "25",
+      "name": "25",
+      "label": "How much allowance does your child get?",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wie viel Taschengeld erhält das Kind?",
+          "text": "How much allowance does your child get?",
+          "scale": "txt",
+          "filter": "etg1=1",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "etg2",
+          "text_de": "Pro Woche ... Euro oder",
+          "text": "Euros per week",
+          "scale": "int",
+          "concept": "etg2",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "etg3",
+          "text_de": "pro Monat ... Euro",
+          "text": "Euros per month",
+          "scale": "int",
+          "concept": "etg3",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 26,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "A": {
+      "question": "A",
+      "name": "A",
+      "items": [
+        {
+          "item": "1",
+          "text_de": "Wann waren Sie mit dem Ausfüllen des Fragebogens fertig?",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "2",
+          "text_de": "Datum",
+          "scale": "txt",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "datt",
+          "text_de": "Tag",
+          "text": "Day",
+          "scale": "int",
+          "concept": "datt",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "datm",
+          "text_de": "Monat",
+          "text": "Month",
+          "scale": "int",
+          "concept": "datm",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text_de": "Uhrzeit",
+          "scale": "txt",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "datst",
+          "text_de": "Stunde",
+          "text": "Hour",
+          "scale": "int",
+          "concept": "datst",
+          "sn": 5,
+          "number": ""
+        },
+        {
+          "item": "datmi",
+          "text_de": "Minute",
+          "text": "Minute",
+          "scale": "int",
+          "concept": "datmi",
+          "sn": 6,
+          "number": ""
+        }
+      ],
+      "sn": 27,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "B": {
+      "question": "B",
+      "name": "B",
+      "label": "How was the interview conducted?",
+      "items": [
+        {
+          "item": "form",
+          "text_de": "Wie wurde die Befragung durchgeführt?",
+          "text": "How was the interview conducted?",
+          "scale": "cat",
+          "concept": "form",
+          "answers": [
+            {
+              "value": 1,
+              "label_de": "Mündliches Interview",
+              "label": "Oral Interview"
+            },
+            {
+              "value": 2,
+              "label_de": "[Befragter hat den Fragebogen selbst ausgefüllt, und zwar] in Anwesenheit des Interviewers ",
+              "label": "Respondent completed the questionnaire him/herself in the presence of the interviewer"
+            },
+            {
+              "value": 3,
+              "label_de": "[Befragter hat den Fragebogen selbst ausgefüllt, und zwar] in Abwesenheit des Interviewers ",
+              "label": "Respondent completed the questionnaire him/herself in the absence of the interviewer"
+            },
+            {
+              "value": 4,
+              "label_de": "Teils mündlich, teils selbst ausgefüllt",
+              "label": "Partly as an oral interview, partly him/herself"
+            }
+          ],
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 28,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "C": {
+      "question": "C",
+      "name": "C",
+      "label": "Duration of the interview:",
+      "items": [
+        {
+          "text_de": "Interviewdauer",
+          "text": "Duration of the interview:",
+          "instruction": "Please ask.",
+          "scale": "txt",
+          "sn": 0,
+          "item": "root",
+          "number": ""
+        },
+        {
+          "item": "dauer1",
+          "text_de": "Das mündliche (Teil-)Interview dauerte … Minuten",
+          "text": "The oral (complete or partial) interview lasted … minutes",
+          "scale": "int",
+          "concept": "dauer1",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "dauer2",
+          "text_de": "Befragter brauchte zum Selbstausfüllen … Minuten",
+          "instruction_de": "(bitte erfragen)",
+          "text": "The respondent needed … minutes to complete the questionnaire",
+          "instruction": "(Please ask)",
+          "scale": "int",
+          "concept": "dauer2",
+          "sn": 2,
+          "number": ""
+        }
+      ],
+      "sn": 29,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "D": {
+      "question": "D",
+      "name": "D",
+      "label": "Other notes:",
+      "items": [
+        {
+          "item": "etext",
+          "text_de": "Sonstige Hinweise",
+          "text": "Other notes:",
+          "scale": "chr",
+          "concept": "etext",
+          "sn": 0,
+          "number": ""
+        }
+      ],
+      "sn": 30,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    },
+    "Interviewer": {
+      "question": "Interviewer",
+      "name": "Interviewer",
+      "items": [
+        {
+          "item": "1",
+          "scale": "txt",
+          "sn": 0,
+          "number": ""
+        },
+        {
+          "item": "listnr",
+          "text_de": "Listen-Nr.",
+          "text": "List ID",
+          "scale": "int",
+          "concept": "listnr",
+          "sn": 1,
+          "number": ""
+        },
+        {
+          "item": "lfdnr",
+          "text_de": "Lfd. Nr.",
+          "text": "Lfd ID",
+          "scale": "int",
+          "concept": "lfdnr",
+          "sn": 2,
+          "number": ""
+        },
+        {
+          "item": "3",
+          "text_de": "Ich bestätige die korrekte Durchführung des Interviews:",
+          "text": "I confirm the proper execution of the interview.",
+          "scale": "txt",
+          "sn": 3,
+          "number": ""
+        },
+        {
+          "item": "intnr",
+          "text_de": "Abrechnungs-Nummer",
+          "text": "Account number",
+          "scale": "int",
+          "concept": "intnr",
+          "sn": 4,
+          "number": ""
+        },
+        {
+          "item": "66",
+          "text_de": "Unterschrift des Interviewers",
+          "text": "Interviewer signature",
+          "scale": "txt",
+          "sn": 5,
+          "number": ""
+        }
+      ],
+      "sn": 31,
+      "instrument": "soep-core-2019-e5-lgb",
+      "study": "soep-core-preview"
+    }
+  }
+}
