@@ -16,4 +16,4 @@ jobs:
                 python3 -m pip install goodtables	
             - name: Test	
               run: |	
-                python3 -m goodtables ddionrails/datapackage.json
+                python3 -m goodtables validate --order-fields ddionrails/datapackage.json
