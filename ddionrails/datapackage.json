@@ -149,7 +149,7 @@
             "format": "default",
             "constraints": {
               "required": true,
-              "maxLength": 40
+              "maxLength": 80
             }
           }
         ],
