@@ -1,7 +1,6 @@
 name: Check-Data-Compliance	
 
 on:	
-    pull_request:
     push:
 
 jobs:	
@@ -16,4 +15,4 @@ jobs:
                 python3 -m pip install goodtables	
             - name: Test	
               run: |	
-                python3 -m goodtables validate --order-fields ddionrails/datapackage.json
+                python3 -m goodtables validate --skip-checks extra-header ddionrails/datapackage.json
