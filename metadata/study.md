@@ -13,7 +13,7 @@ config:
 
 # SOEP-Core
 
-Preview for version v36. Metadata exported: Wed Sep 23 11:51:14 2020
+Preview for version v36. Metadata exported: Mon Sep 28 15:30:18 2020
 
 ## Citation
 

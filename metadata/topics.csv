@@ -1,390 +1,389 @@
-parent_old,topic_old,label,label_de,name,parent_name,study
-,t0000000000000000,not assigned!,not assigned! [DE],na,,-preview
-,t0100000000000000,demography and population,Demographie und Bevoelkerung,dp,,-preview
-,t1000000000000000,"integration, migration, transnationalization","Integration, Migration und Transnationalisierung",im,,-preview
-,t0500000000000000,health and care,Gesundheit und Pflege,hc,,-preview
-,t0200000000000000,work and employment,Arbeit und Beschaeftigung,we,,-preview
-,t0700000000000000,education and qualification,Bildung und Qualifikation,ed,,-preview
-,t0400000000000000,family and social networks,Familie und soziale Netzwerke,fn,,-preview
-,t0800000000000000,"attitudes, values, and personality","Einstellungen, Werte und Persoenlichkeit",at,,-preview
-,t0600000000000000,"home, amenities, and contributions of private hh","Wohnen, Ausstattung und Leistungen privater HH",ha,,-preview
-,t0900000000000000,time use and environmental behavior,Zeitverwendung und Umweltverhalten,tu,,-preview
-,t0300000000000000,"income, taxes, and social security","Einkommen, Steuern und Soziale Sicherung",it,,-preview
-,t1100000000000000,survey methodology,Surveymethodik,sm,,-preview
-t0100000000000000,t0101000000000000,birth date / age / year of death,Geburtsdatum / Alter / Todesjahr,bad,dp,-preview
-t0100000000000000,t0103000000000000,household size and structure,Haushaltsgroesse und -struktur,hhs,dp,-preview
-t0100000000000000,t0104000000000000,birth history,Geburtsbiographie,bih,dp,-preview
-t0100000000000000,t0102000000000000,sex,Geschlecht,sex,dp,-preview
-t0200000000000000,t0207000000000000,career plans and expectations,Berufliche Zukunftsplaene und Erwartungen,cpe,we,-preview
-t0200000000000000,t0205000000000000,occupational mobility,Berufliche Mobilitaet,ocm,we,-preview
-t0200000000000000,t0208000000000000,wages / salary,Lohn/Gehalt,was,we,-preview
-t0200000000000000,t0209000000000000,cnef equivalent file -employment-,CNEF Equivalent File -Employment-,cne,we,-preview
-t0200000000000000,t0202000000000000,employment status,Erwerbsstatus,est,we,-preview
-t0200000000000000,t0201000000000000,employment and career history,Erwerbs- und Berufsbiographie,ech,we,-preview
-t0200000000000000,t0203000000000000,characteristics of job with current employer,Beschaeftigungsmerkmale beim derzeitigen Arbeitgeber,cce,we,-preview
-t0200000000000000,t0204000000000000,working hours,Arbeitszeit,whs,we,-preview
-t0200000000000000,t0206000000000000,side job,Nebenerwerbstaetigkeit,sej,we,-preview
-t0201000000000000,t0201030000000000,job change,Berufliche Wechsel,joc,ech,-preview
-t0201000000000000,t0201050000000000,labor market experience,Arbeitsmarkterfahrung,lme,ech,-preview
-t0201000000000000,t0201040000000000,employment history since the age of 15 on an annual basis (spell data),Erwerbsbiographie seit dem 15. Lebensjahr auf Jahresbasis (Spelldaten),eha,ech,-preview
-t0201000000000000,t0201010000000000,last job,Erste Erwerbstaetigkeit,ljo,ech,-preview
-t0201000000000000,t0201020000000000,last job (at the point in time of the biography questionnaire),Letzte Erwerbstaetigkeit (zum Zeitpunkt der Biographie-Befragung),ljb,ech,-preview
-t0202000000000000,t0202020000000000,employment status in previous (calendar) year on monthly basis,Erwerbsstatus im Vorjahr auf Monatsbasis (Kalendarium),esp,est,-preview
-t0202000000000000,t0202010000000000,current employment status,aktueller Erwerbsstatus,esc,est,-preview
-t0202000000000000,t0202030000000000,employment status on monthly basis (spell data),Erwerbsstatus auf Monatsbasis (Spelldaten),esm,est,-preview
-t0202020000000000,t0202020400000000,side job in previous (calendar) year,Nebenberufliche Taetigkeit im Vorjahr (Kalendarium),sjp,esp,-preview
-t0202020000000000,t0202021100000000,mini-jobs in previous (calendar) year,Mini-Jobs im Vorjahr (Kalendarium),min,esp,-preview
-t0202020000000000,t0202020700000000,on leave from work in previous (calendar) year,Freistellung im Vorjahr (Kalendarium),onl,esp,-preview
-t0202020000000000,t0202020800000000,military / civil service in previous (calendar) year,Wehr-/Zivildienst im Vorjahr (Kalendarium),mcv,esp,-preview
-t0202020000000000,t0202020100000000,employed full-time in previous (calendar) year,Voll erwerbstaetig im Vorjahr(Kalendarium),esf,esp,-preview
-t0202020000000000,t0202020900000000,homemaker in previous (calendar) year,Hausfrau/Hausmann im Vorjahr (Kalendarium),hom,esp,-preview
-t0202020000000000,t0202021000000000,occupational further training / retraining in previous (calendar) year,Berufl. Fortbildung/Umschulung im Vorjahr (Kalendarium),oft,esp,-preview
-t0202020000000000,t0202021200000000,other in previous (calendar) year,Sonstiges im Vorjahr (Kalendarium),oth,esp,-preview
-t0202020000000000,t0202020200000000,employed part-time in previous (calendar) year,Teilzeitarbeit im Vorjahr (Kalendarium),ept,esp,-preview
-t0202020000000000,t0202020500000000,registered unemployed in previous (calendar) year,Arbeitslos gemeldet im Vorjahr (Kalendarium),rue,esp,-preview
-t0202020000000000,t0202020300000000,short-time work in previous (calendar) year,Kurzarbeit im Vorjahr (Kalendarium),stw,esp,-preview
-t0202020000000000,t0202021300000000,school / university in previous (calendar) year,Schule / Hochschule im Vorjahr (Kalendarium),scp,esp,-preview
-t0202020000000000,t0202020600000000,retirement / pension in previous (calendar) year,Rente/Pension im Vorjahr (Kalendarium),rep,esp,-preview
-t0203000000000000,t0203010000000000,"start, duration, and end date of current job","Beginn, Dauer und Befristung der Beschaeftigung",sde,cce,-preview
-t0203000000000000,t0203030000000000,current occupation,Ausgeuebter Beruf,cuo,cce,-preview
-t0203000000000000,t0203040000000000,work environment,Arbeitsumfeld,woe,cce,-preview
-t0203000000000000,t0203050000000000,travel to work,Arbeitsweg,ttw,cce,-preview
-t0203000000000000,t0203020000000000,company / employer characteristics,Unternehmensmerkmale,cec,cce,-preview
-t0203020000000000,t0203020300000000,type and size of company,Unternehmensform und -groesse,cts,cec,-preview
-t0203020000000000,t0203020100000000,sector,Branche,ind,cec,-preview
-t0203020000000000,t0203020200000000,age of company,Alter des Unternehmens,cag,cec,-preview
-t0203020000000000,t0203020400000000,company development,Betriebliche Entwicklung,cdv,cec,-preview
-t0203030000000000,t0203030200000000,occupational activity and prestige,Berufliche Taetigkeit und Prestige,oap,cuo,-preview
-t0203030000000000,t0203030300000000,required qualifications,Erforderliche Qualifikation,req,cuo,-preview
-t0203030000000000,t0203030100000000,occupational status,Berufliche Stellung,ocs,cuo,-preview
-t0203040000000000,t0203040200000000,"subjective importance of occupational activity, occupational strain, and recognition","Subjektive Bedeutung der Berufstaetigkeit, berufliche Belastung und Anerkennung",sim,woe,-preview
-t0203040000000000,t0203040100000000,working conditions,Arbeitsbedingungen,wkc,woe,-preview
-t0203050000000000,t0203050100000000,distance to work,Entfernung zum Arbeitsplatz,dtw,ttw,-preview
-t0203050000000000,t0203050200000000,means of transportation used to reach workplace,Genutztes Verkehrsmittel zum Arbeitsplatz,mtr,ttw,-preview
-t0204000000000000,t0204040000000000,absenteeism,Fehlzeiten,abs,whs,-preview
-t0204000000000000,t0204030000000000,working hours preferences and work-family balance,Arbeitszeitpraeferenzen und Vereinbarkeit von Familie und Beruf,whb,whs,-preview
-t0204000000000000,t0204010000000000,number of working hours,Arbeitszeitvolumen,whn,whs,-preview
-t0204000000000000,t0204020000000000,distribution of working hours,Lage der Arbeitszeit,whd,whs,-preview
-t0204010000000000,t0204010300000000,special type of working hour possibilities,Besondere Arbeitszeitregelungen,whp,whn,-preview
-t0204010000000000,t0204010100000000,regular working hours,Regelarbeitszeit,whr,whn,-preview
-t0204010000000000,t0204010200000000,overtime,Ueberstunden,who,whn,-preview
-t0204040000000000,t0204040100000000,days missed in the last month,Ausfallzeiten im letzten Monat,dmm,abs,-preview
-t0204040000000000,t0204040200000000,days missed in the last two halves of the year,Ausfallzeiten in den letzten beiden Halbjahren,dmy,abs,-preview
-t0204040000000000,t0204040300000000,vacation days,Urlaubstage,vac,abs,-preview
-t0205000000000000,t0205010000000000,type and point in time of occupational change,Art und Zeitpunkt der beruflichen Veraenderung,oct,ocm,-preview
-t0205000000000000,t0205020000000000,reasons for occupational change,Gruende fuer berufliche Veraenderung,ocr,ocm,-preview
-t0205000000000000,t0205050000000000,job characteristics with last employer,Beschaeftigungsmerkmale beim letzten Arbeitgeber,jcl,ocm,-preview
-t0205000000000000,t0205030000000000,comparison of current job characteristics to previous job,Vergleich der Arbeitplatzmerkmale zu voriger Stelle,occ,ocm,-preview
-t0205000000000000,t0205040000000000,type of job search,Art der Stellenfindung,tjs,ocm,-preview
-t0206000000000000,t0206010000000000,field of work in side job,Bereich der Nebentaetigkeit,sef,sej,-preview
-t0206000000000000,t0206020000000000,hours and earnings in side job,Umfang und Verdienst der Nebentaetigkeit,see,sej,-preview
-t0207000000000000,t0207010000000000,re-entry to labor market and future work plans (for non-employed respondents),Wiedereintritt in den Arbeitsmarkt und Erwerbsplaene (bei Nichterwerbstaetigkeit),rlm,cpe,-preview
-t0207000000000000,t0207030000000000,plans of older working people for the future,Zukunftsplaene aelterer Erwerbstaetiger,pow,cpe,-preview
-t0207000000000000,t0207020000000000,career expectations (employed respondents),Berufliche Zukunftserwartungen (Erwerbstaetige),cex,cpe,-preview
-t0208000000000000,t0208020000000000,earnings in previous year,Arbeitsverdienst Vorjahr,epy,was,-preview
-t0208000000000000,t0208010000000000,current earnings,Aktueller Arbeitsverdienst,cue,was,-preview
-t0208010000000000,t0208010100000000,basic wages,Grundverguetung,wab,cue,-preview
-t0208010000000000,t0208010200000000,additional benefits,Zusatzleistungen,adb,cue,-preview
-t0208010000000000,t0208010300000000,subjective perception of fairness,Subjektives Gerechtigkeitsempfinden,spf,cue,-preview
-t0208020000000000,t0208020100000000,wages / salary in previous year,Lohn/Gehalt im Vorjahr,wsp,epy,-preview
-t0208020000000000,t0208020300000000,income from side jobs in previous year,Einkommen aus Nebenerwerbstaetigkeit im Vorjahr,isj,epy,-preview
-t0208020000000000,t0208020400000000,additional benefits in previous year,Zusatzleistungen im Vorjahr,abp,epy,-preview
-t0208020000000000,t0208020200000000,income from self-employment in previous year,Einkommen aus selbstaendiger Taetigkeit im Vorjahr,ise,epy,-preview
-t0300000000000000,t0302000000000000,transfers,Transfer,trf,it,-preview
-t0300000000000000,t0303000000000000,pensions,Renten,pen,it,-preview
-t0300000000000000,t0304000000000000,assets,Vermoegen,ass,it,-preview
-t0300000000000000,t0305000000000000,consumption and savings,Konsum und Sparen,cos,it,-preview
-t0300000000000000,t0301000000000000,income,Einkommen,inc,it,-preview
-t0301000000000000,t0301020000000000,personal income,Persoenliche Einkommen,pin,inc,-preview
-t0301000000000000,t0301010000000000,household income,Haushaltseinkommen,hhi,inc,-preview
-t0301000000000000,t0301030000000000,taxes,Steuern,tax,inc,-preview
-t0301010000000000,t0301010100000000,monthly income,Monatseinkommen,moi,hhi,-preview
-t0301010000000000,t0301010200000000,income in previous year,Vorjahreseinkommen,ipy,hhi,-preview
-t0301010000000000,t0301010300000000,subjective evaluation,Subjektive Bewertung,sue,hhi,-preview
-t0301010200000000,t0301010201000000,income from rentals and leasing,Einkommen aus Vermietung und Verpachtung,irl,ipy,-preview
-t0301010200000000,t0301010203000000,money earned from domestic and livestock production,Geldeinkuenfte aus Haus- und Viehwirtschaft,idl,ipy,-preview
-t0301010200000000,t0301010202000000,income from interest and dividends,Zinseinkommen und Dividenden,iid,ipy,-preview
-t0301020000000000,t0301020200000000,self-employment,Selbststaendige  Taetigkeit,sem,pin,-preview
-t0301020000000000,t0301020100000000,wages and salary,Lohn und Gehalt,wsa,pin,-preview
-t0301020100000000,t0301020102000000,side jobs,Nebenerwerbstaetigkeit,sij,wsa,-preview
-t0301020100000000,t0301020103000000,military / civil service pay,Wehrsold/Zivildienstsold,mic,wsa,-preview
-t0301020100000000,t0301020101000000,additional benefits,Sonderverguetungen,ads,wsa,-preview
-t0302000000000000,t0302010000000000,household-related transfers,Haushaltsbezogene Transfers,hht,trf,-preview
-t0302000000000000,t0302020000000000,personal transfers,Persoenliche Transfers,ptr,trf,-preview
-t0302010000000000,t0302010100000000,child benefit / supplementary child benefit,Kindergeld/ Kinderzuschlag,cbe,hht,-preview
-t0302010000000000,t0302010500000000,long-term care insurance,Pflegeversicherung,ltc,hht,-preview
-t0302010000000000,t0302010400000000,housing allowance,Wohngeld,hal,hht,-preview
-t0302010000000000,t0302010300000000,basic income support in old age,Grundsicherung im Alter,bis,hht,-preview
-t0302010000000000,t0302010200000000,alg ii / social assistance,ALG II/ Sozialhilfe,sas,hht,-preview
-t0302020000000000,t0302020200000000,"parental, maternity, and child-raising allowance","Eltern-, Mutterschafts-, Erziehungsgeld",pmc,ptr,-preview
-t0302020000000000,t0302020600000000,private transfers,Privat empfangene Transfers,prt,ptr,-preview
-t0302020000000000,t0302020300000000,early retirement benefits,"Altersuebergangsgeld, Vorruhestandszahlungen",erb,ptr,-preview
-t0302020000000000,t0302020500000000,spousal/child support payments,Unterhaltszahlungen,sup,ptr,-preview
-t0302020000000000,t0302020100000000,unemployment benefits,Arbeitslosengeld und -hilfe,ueb,ptr,-preview
-t0302020000000000,t0302020400000000,bafoeg student grants / scholarships,BafoeG / Stipendien,bfg,ptr,-preview
-t0303000000000000,t0303020000000000,riester pension,Riesterrente,rir,pen,-preview
-t0303000000000000,t0303010000000000,old-age and disability pensions,Alters- und Invalidenrente,old,pen,-preview
-t0303000000000000,t0303050000000000,pension contribution,Beitragsentrichtung,pcn,pen,-preview
-t0303000000000000,t0303040000000000,pension fund,Rententraeger,pfd,pen,-preview
-t0303000000000000,t0303030000000000,widow's / orphan's pension,Witwen/Waisenrente,wid,pen,-preview
-t0304000000000000,t0304020000000000,asset categories,Vermoegensarten,asc,ass,-preview
-t0304000000000000,t0304010000000000,total assets,Gesamtvermoegen,ast,ass,-preview
-t0304000000000000,t0304030000000000,original responses,Original Angaben,ori,ass,-preview
-t0304010000000000,t0304010100000000,personal assets,Personenangaben,asp,ast,-preview
-t0304010000000000,t0304010200000000,household assets,Haushaltsangaben,ash,ast,-preview
-t0304020000000000,t0304020400000000,business assets,Betriebsvermoegen,bas,asc,-preview
-t0304020000000000,t0304020300000000,other properties,Sonstige Immobilien,opr,asc,-preview
-t0304020000000000,t0304020100000000,monetary assets,Geldvermoegen,asm,asc,-preview
-t0304020000000000,t0304020700000000,other investments,Sonstige Wertanlagen,oin,asc,-preview
-t0304020000000000,t0304020600000000,private insurance,Private Versicherung,pri,asc,-preview
-t0304020000000000,t0304020500000000,investments in home savings,Bausparen,ihs,asc,-preview
-t0304020000000000,t0304020800000000,debts / loans,Verpflichtungen / Kredite,dtl,asc,-preview
-t0304020000000000,t0304020200000000,owner-occupied housing,Selbstgenutztes Wohneigentum,ooh,asc,-preview
-t0304020300000000,t0304020301000000,claims for restitution of house/property rights,Rueckuebertragungsansprueche (Haus/Grundstueck),prr,opr,-preview
-t0304020600000000,t0304020601000000,investments in pension plans,Altersvorsorgevermoegen,ipp,pri,-preview
-t0304030000000000,t0304030200000000,inheritances,Erbschaften,inh,ori,-preview
-t0304030000000000,t0304030100000000,other investments xxxxxxxxxxxxxxx,Sonstige Wertanlagen,oti,ori,-preview
-t0304030000000000,t0304030300000000,debts,Verpflichtungen,dbt,ori,-preview
-t0305000000000000,t0305010000000000,possession and purchase of consumer goods,Besitz und Anschaffung von Konsumguetern,ppc,cos,-preview
-t0305000000000000,t0305020000000000,regular expenditures,Regelmaessige Ausgaben,rex,cos,-preview
-t0305000000000000,t0305040000000000,savings,Sparen,sav,cos,-preview
-t0305000000000000,t0305030000000000,financial transfers to persons outside hh,Geleistete Zahlungen an Personen ausserhalb des HH,fto,cos,-preview
-t0400000000000000,t0409000000000000,socialization & relationships,Sozialisation & Beziehungen,sor,fn,-preview
-t0400000000000000,t0405000000000000,transfers and support,Transfers und Unterstuetzung,tas,fn,-preview
-t0400000000000000,t0401000000000000,family networks - outside own household,Familiennetzwerke - ausserhalb des eigenen Haushalts,fno,fn,-preview
-t0400000000000000,t0402000000000000,marital status and family events,"Familienstand, Familienereignisse sowie Eltern-Kind-Verhaeltnis",mse,fn,-preview
-t0400000000000000,t0404000000000000,friends,Freunde,fri,fn,-preview
-t0400000000000000,t0403000000000000,socialization and relationships,Beziehungen zu den Eltern in der Jugend,scr,fn,-preview
-t0400000000000000,t0407000000000000,family history - first waves - integrated into biography,Familienbiographie - der Erstwellen - integriert in Biographie,fhf,fn,-preview
-t0400000000000000,t0406000000000000,parenting,Familie und Erziehung,par,fn,-preview
-t0402000000000000,t0402010000000000,marital status,Verwandte in Ost-/Westdeutschland,mst,mse,-preview
-t0402000000000000,t0402020000000000,family events and relationship history,Familienangehoerige in der Heimat,feh,mse,-preview
-t0402020000000000,t0402020800000000,death of child,Tod des Kindes,doc,feh,-preview
-t0402020000000000,t0402021200000000,no family event,keine familiaeres Ereignis,nfv,feh,-preview
-t0402020000000000,t0402021100000000,other family event,sonstiges familiaeres Ereignis,ofv,feh,-preview
-t0402020000000000,t0402020600000000,birth of a child,Geburt eines Kindes,boc,feh,-preview
-t0402020000000000,t0402020400000000,separation from partner,Trennung von Partner/in,sep,feh,-preview
-t0402020000000000,t0402020700000000,child moved out of household,Kind hat Haushalt verlassen,cmo,feh,-preview
-t0402020000000000,t0402020500000000,death of partner,Tod des Partner/in,dos,feh,-preview
-t0402020000000000,t0402020900000000,death of parents,Tod der Eltern,dop,feh,-preview
-t0402020000000000,t0402021000000000,death of person living in hh,Tod im HH lebenden Person,doi,feh,-preview
-t0402020000000000,t0402020200000000,moved in together with partner,Zusammenzug mit Partner,mip,feh,-preview
-t0402020000000000,t0402020100000000,marriage,Hochzeit,mar,feh,-preview
-t0402020000000000,t0402020300000000,divorce,Scheidung,div,feh,-preview
-t0404000000000000,t0404060000000000,contact with neighbors,Kontakte zu Nachbarn,con,fri,-preview
-t0404000000000000,t0404020000000000,friends in east/west germany,Freunde in Ost-/Westdeutschland,frr,fri,-preview
-t0404000000000000,t0404030000000000,friendship networks that can be relied upon for help,Freundesnetzwerke auf deren Hilfe man rechnen kann,fnw,fri,-preview
-t0404000000000000,t0404050000000000,"contact with friends, relatives abroad","Kontakt zu Freunden, Verwandten im Ausland",cfa,fri,-preview
-t0404000000000000,t0404010000000000,number of friends,Zahl der Freunde,frn,fri,-preview
-t0404000000000000,t0404040000000000,networks - three friends,Netzwerke - drei Freunde,ntf,fri,-preview
-t0405000000000000,t0405020000000000,regular gifts from friends / relatives from the frg,Regelmaessige Geschenke von Freunden/Verwandten aus der BRD,rgw,tas,-preview
-t0405000000000000,t0405010000000000,financial support to persons,Geleistete Zahlungen und Unterstuetzungen an Personen,fsp,tas,-preview
-t0405010000000000,t0405010200000000,foreign-born respondents only,speziell Auslaenderstichprobe,fbr,fsp,-preview
-t0405010000000000,t0405010100000000,in general,allgemein,ing,fsp,-preview
-t0406000000000000,t0406050000000000,experiences with the birth of a child,Erfahrungen bei der Geburt eines Kindes,exb,par,-preview
-t0406000000000000,t0406030000000000,parenting goal,Erziehungziel,pgo,par,-preview
-t0406000000000000,t0406040000000000,experiences with the birth of a child,Erfahrungen bei der Geburt eines Kindes,ebc,par,-preview
-t0406000000000000,t0406020000000000,parental role,Elternrolle,prl,par,-preview
-t0406000000000000,t0406010000000000,parenting style,Erziehungsstil,pst,par,-preview
-t0406010000000000,t0406010300000000,"parenting style (bioage long, mother or father)","Erziehungsstil (bioage long, Mutter oder Vater)",psp,pst,-preview
-t0406010000000000,t0406010200000000,"parenting style, second caregiver (usually father)",Erziehungsstil zweite betreuende Person (in der Regel Vater),pss,pst,-preview
-t0406010000000000,t0406010100000000,"parenting style, main caregiver (usually mother)",Erziehungsstil Hauptbetreuungsperson (in der Regel Mutter),psm,pst,-preview
-t0406020000000000,t0406020200000000,parental role of second caregiver (usually father),Elternrolle (in der Regel Vater),prs,prl,-preview
-t0406020000000000,t0406020300000000,"parental role (bioage long, mother or father)","Elternrolle (bioage long, Mutter oder Vater)",prp,prl,-preview
-t0406020000000000,t0406020100000000,parental role of main caregiver (usually mother),Elternrolle (in der Regel Mutter),prm,prl,-preview
-t0406030000000000,t0406030300000000,"parenting goal (bioage long, mother or father)","Erziehungziel (bioage long, Mutter oder Vater)",pgp,pgo,-preview
-t0406030000000000,t0406030100000000,parenting goal of main caregiver (usually mother),Erziehungziel (in der Regel Mutter),pgm,pgo,-preview
-t0406030000000000,t0406030200000000,parenting goal of second caregiver (usually father),Erziehungziel (in der Regel Vater),pgs,pgo,-preview
-t0406040000000000,t0406040900000000,other family event,sonstiges familiaeres Ereignis,ofe,ebc,-preview
-t0406040000000000,t0406041000000000,no family event,keine familiaeres Ereignis,nfe,ebc,-preview
-t0406040000000000,t0406041300000000,death of a close friend/relative,Tod eines engen Bekannten/Verwandten,dcf,ebc,-preview
-t0406040000000000,t0406041200000000,death of child,Tod des Kindes,dch,ebc,-preview
-t0406040000000000,t0406040400000000,divorce,Scheidung,dvr,ebc,-preview
-t0406040000000000,t0406040800000000,child left household,Kind hat Haushalt verlassen,clh,ebc,-preview
-t0406040000000000,t0406040300000000,moved in together with partner,Zusammenzug mit Partner,mwp,ebc,-preview
-t0406040000000000,t0406040200000000,married,Verheiratet,mas,ebc,-preview
-t0406040000000000,t0406040600000000,death of partner,Tod des Partner/in,dpa,ebc,-preview
-t0406040000000000,t0406041100000000,death of parent,Tod des Eltern,dfm,ebc,-preview
-t0406040000000000,t0406040500000000,separation from partner,Trennung von Partner/in,spa,ebc,-preview
-t0406040000000000,t0406040100000000,cohabitating,Zusammenlebend,coh,ebc,-preview
-t0409000000000000,t0409020000000000,relationships with peers / other relatives,"Beziehungen mit Peers, sonstigen Verwandten",rpo,sor,-preview
-t0409000000000000,t0409030000000000,socialization conditions,Sozialisationsbedingungen,soc,sor,-preview
-t0409000000000000,t0409010000000000,generational relationships,Generationenbeziehungen,ger,sor,-preview
-t0409000000000000,t0409040000000000,contexts shortly before death,Kontexte kurz vor dem Tod,sbd,sor,-preview
-t0500000000000000,t0502000000000000,health care,Gesundheitsversorgung,hec,hc,-preview
-t0500000000000000,t0503000000000000,health behavior,Gesundheitsverhalten,heb,hc,-preview
-t0500000000000000,t0504000000000000,health insurance,Krankenversicherung (KV),hei,hc,-preview
-t0500000000000000,t0501000000000000,health situation,Gesundheitslage,hes,hc,-preview
-t0501000000000000,t0501050000000000,work missed due to illness,Krankheitsbedingte Arbeitsausfaelle,wdi,hes,-preview
-t0501000000000000,t0501010000000000,health condition,Gesundheitszustand,hco,hes,-preview
-t0501000000000000,t0501080000000000,cause of death,Todesursache,cad,hes,-preview
-t0501000000000000,t0501040000000000,invalidity - severe disability,Invaliditaet - Schwerbehinderung,isd,hes,-preview
-t0501000000000000,t0501030000000000,sf-12 questionnaire,SF-12 Fragebogen,sft,hes,-preview
-t0501000000000000,t0501020000000000,illnesses diagnosed by doctor,Vom Arzt festgestellte Krankheiten,idd,hes,-preview
-t0501000000000000,t0501120000000000,grip strength measurement,Greifkraftmessung,gsm,hes,-preview
-t0501000000000000,t0501090000000000,pregnancy and breastfeeding,Schwangerschaft und Stillzeit,pbr,hes,-preview
-t0501000000000000,t0501100000000000,child's health,Gesundheit des Kindes,chh,hes,-preview
-t0501000000000000,t0501070000000000,health of deceased persons,Gesundheit verstorbener Personen,hdp,hes,-preview
-t0501000000000000,t0501110000000000,illnesses of child diagnosed by doctor,Vom Arzt festgestellte Krankheiten des Kindes,icd,hes,-preview
-t0501000000000000,t0501130000000000,strengths and difficulties questionnaire (sdq),Strenghts and Difficulties Questionnaire (SDQ),sdq,hes,-preview
-t0501000000000000,t0501060000000000,physical and mental health,Physische und Mentale Gesundheit (generiert),pmh,hes,-preview
-t0502000000000000,t0502040000000000,medical rehabilitation,Medizinische Rehamassnahme,mer,hec,-preview
-t0502000000000000,t0502070000000000,childbirth,Entbindung,chb,hec,-preview
-t0502000000000000,t0502030000000000,health spa stays,Kuraufenthalte,hss,hec,-preview
-t0502000000000000,t0502020000000000,doctor visits,Arztbesuche,dov,hec,-preview
-t0502000000000000,t0502060000000000,health care for children,Gesundheitsversorgung von Kindern,hcc,hec,-preview
-t0502000000000000,t0502050000000000,care for deceased persons,Pflege verstorbener Personen,cdp,hec,-preview
-t0502000000000000,t0502010000000000,hospital stay,Krankenhausaufenthalt,hsp,hec,-preview
-t0503000000000000,t0503030000000000,sports and nutrition,Sport und Ernaehrung,spn,heb,-preview
-t0503000000000000,t0503020000000000,alcohol use,Alkohol Konsum,alc,heb,-preview
-t0503000000000000,t0503010000000000,tabacco use,Tabak-Konsum,tab,heb,-preview
-t0504000000000000,t0504020000000000,type of health insurance,Art der Krankenversicherung,tin,hei,-preview
-t0504000000000000,t0504010000000000,insurance status,Versichertenstatus,ist,hei,-preview
-t0504000000000000,t0504030000000000,change of health insurance,Krankenversicherungswechsel,chi,hei,-preview
-t0600000000000000,t0602000000000000,quality of dwelling,Wohnungsqualitaet,qob,ha,-preview
-t0600000000000000,t0610000000000000,contributions and expenditures of private households,Leistungen und Ausgaben privater Haushalte,cep,ha,-preview
-t0600000000000000,t0604000000000000,moving,Umzug,mov,ha,-preview
-t0600000000000000,t0608000000000000,household amenities,Haushaltsausstattung,hoa2,ha,-preview
-t0600000000000000,t0601000000000000,home ownership status,Wohnstatus,hos,ha,-preview
-t0600000000000000,t0609000000000000,residence: region,Wohnen: Region,rer,ha,-preview
-t0600000000000000,t0607000000000000,type of dwelling,Wohntyp,tod,ha,-preview
-t0600000000000000,t0606000000000000,residential history,Wohnbiographie,reh,ha,-preview
-t0600000000000000,t0605000000000000,neighborhood surroundings and residential environment,Wohnumfeld und -umwelt,nsr,ha,-preview
-t0600000000000000,t0603000000000000,housing costs,Wohnkosten,hoc,ha,-preview
-t0601000000000000,t0601020000000000,tenant,Mieter,ten,hos,-preview
-t0601000000000000,t0601030000000000,property management of building,Verwaltung des Hauses,pmb,hos,-preview
-t0601000000000000,t0601040000000000,owner of building,Eigentuemer des Hauses,oob,hos,-preview
-t0601000000000000,t0601010000000000,owner / tenant,Eigentuemer / Mieter,own,hos,-preview
-t0602000000000000,t0602050000000000,condition of building / need for renovation,Zustand/Renovierungsbeduerftigkeit des Hauses,cbu,qob,-preview
-t0602000000000000,t0602030000000000,household amenities,Wohnungsausstattung,hoa,qob,-preview
-t0602000000000000,t0602040000000000,modernization measures in dwelling,Modernisierungsmassnahmen in Wohnung,mmd,qob,-preview
-t0602000000000000,t0602010000000000,year of building construction,Erbauungsjahr des Hauses,ybc,qob,-preview
-t0602000000000000,t0602020000000000,size of dwelling,Wohnungsgroesse,sod,qob,-preview
-t0603000000000000,t0603010000000000,for tenants,fuer Mieter,fte,hoc,-preview
-t0603000000000000,t0603020000000000,for owners,fuer Eigentuemer,fow,hoc,-preview
-t0604000000000000,t0604040000000000,subjective assessment of new dwelling compared to former dwelling,Subjektive Beurteilung der neuen Wohnung im Vergl. zur,dcm,mov,-preview
-t0604000000000000,t0604010000000000,is anyone in the hh planning to move?,Plant jemand im Haushalt Umzug?,mpl,mov,-preview
-t0604000000000000,t0604030000000000,reasons for moving,Gruende fuer Wohnungswechsel,mre,mov,-preview
-t0604000000000000,t0604020000000000,moving date,Umzugsdatum,mdt,mov,-preview
-t0605000000000000,t0605010000000000,region,Region,reg,nsr,-preview
-t0606000000000000,t0606020000000000,type of locality,Ortstyp in dem Kindheit verbracht wurde,tol,reh,-preview
-t0606000000000000,t0606010000000000,year of move out of parental home,Jahr des Auszugs aus elterlicher Wohnung,ymo,reh,-preview
-t0606000000000000,t0606030000000000,country of birth,Geburtsland,cob,reh,-preview
-t0607000000000000,t0607010000000000,private household - type of institution,Privathaushalt - Anstaltstyp,prh,tod,-preview
-t0607000000000000,t0607020000000000,second home,Zweitwohnung,seh,tod,-preview
-t0608000000000000,t0608010000000000,consumer durables,Langlebige Gebrauchsgueter,cod,hoa2,-preview
-t0608000000000000,t0608020000000000,house pets,Haustiere,hop,hoa2,-preview
-t0610000000000000,t0610040000000000,expenditures,Ausgaben,exp,cep,-preview
-t0610000000000000,t0610010000000000,"own labor, care","Eigenarbeit, Betreuung",olc,cep,-preview
-t0610000000000000,t0610020000000000,parenting and social support,Erziehung und soziale Unterstuetzung,pso,cep,-preview
-t0610000000000000,t0610030000000000,assistance with shopping,Hilfe bei der Beschaffung,aws,cep,-preview
-t0610010000000000,t0610010200000000,motives for own labor,Motive fuer Eigenarbeit,olm,olc,-preview
-t0610010000000000,t0610010100000000,own labor,Eigenarbeit,ola,olc,-preview
-t0610020000000000,t0610020200000000,invalidity,Pflegebeduerfigkeit,inv,pso,-preview
-t0610020000000000,t0610020400000000,assistance when requiring long-term care - who would one turn to,Hilfe bei langfristiger Pflege - an wen wuerde man sich,alt,pso,-preview
-t0610020000000000,t0610020100000000,childcare,Kinderbetreuung,chc,pso,-preview
-t0610020000000000,t0610020300000000,assistance when ill with flu - who would one turn to,Hilfe bei Grippe - an wen wuerde man sich wenden,afl,pso,-preview
-t0610020200000000,t0610020203000000,care for invalid hh member,Betreuung der Pflegebeduerftigen Person durch:,ihc,inv,-preview
-t0610020200000000,t0610020201000000,invalid in hh,Pflegebeduerftige im Haushalt,iih,inv,-preview
-t0610020200000000,t0610020204000000,strain on hh due to care for invalid,Belastung des HH durch Pflege,ins,inv,-preview
-t0610020200000000,t0610020205000000,monthly level and bearer of care costs,Monatliche Hoehe und Traeger der Pflegekosten,cac,inv,-preview
-t0610020200000000,t0610020206000000,support for the hh (wave 8 focus),Unterstuetzung des HH (Schwerpunkt W8),suh,inv,-preview
-t0610020200000000,t0610020202000000,type of invalidity,Art der Pflegebeduerftigkeit,ity,inv,-preview
-t0700000000000000,t0703000000000000,qualifications attained last year,Im letzten Jahr erworbene Qualifikationen,qly,ed,-preview
-t0700000000000000,t0705000000000000,further training,Weiterbildung,fut,ed,-preview
-t0700000000000000,t0701000000000000,educational participation,Bildungsbeteiligung,edp,ed,-preview
-t0700000000000000,t0704000000000000,child care and school,Kinderbetreuung und Schule,ccs,ed,-preview
-t0700000000000000,t0707000000000000,intergenerational mobility,Intergenerationale Mobilitaet,inm,ed,-preview
-t0700000000000000,t0706000000000000,general further training in last year,Allgemeine Weiterbildung im letzten Jahr,ftg,ed,-preview
-t0700000000000000,t0702000000000000,highest attained qualification,Hoechste erworbene Qualifikation,haq,ed,-preview
-t0700000000000000,t0708000000000000,cognitive competency,Kognitive Kompetenz,coc,ed,-preview
-t0701000000000000,t0701030000000000,generated educational biography (beta),Generierte Bildungsbiographie (beta),geb,edp,-preview
-t0701000000000000,t0701020000000000,educational calendar,Bildungskalendarium,edc,edp,-preview
-t0701000000000000,t0701010000000000,training and further education at point in time of survey,Ausbildung und Weiterbildung zum Befragungszeitpunkt,tft,edp,-preview
-t0701020000000000,t0701020200000000,company in-house training / further training / retraining,Betriebliche Ausbildung/Fortbildung/Umschulung,ojt,edc,-preview
-t0701020000000000,t0701020100000000,school / university,Schule/Hochschule,scu,edc,-preview
-t0702000000000000,t0702040000000000,vocational degree (foreigners),Berufsabschluss Auslaender,vof,haq,-preview
-t0702000000000000,t0702020000000000,cnef equivalent -education-,CNEF Equivalent -Education-,cnd,haq,-preview
-t0702000000000000,t0702010000000000,school-leaving certificate / graduation,Schulabschluss,slc,haq,-preview
-t0702000000000000,t0702030000000000,vocational degree,Berufsabschluss,vod,haq,-preview
-t0703000000000000,t0703010000000000,school completion,Schulabschluss,scc,qly,-preview
-t0703000000000000,t0703020000000000,vocational degree completion,Berufsabschluss,vdc,qly,-preview
-t0703000000000000,t0703030000000000,vocational training in last year,Berufliche Ausbildung im letzten Jahr,vly,qly,-preview
-t0704000000000000,t0704030000000000,educational goals,Bildungsbestrebungen,edg,ccs,-preview
-t0704000000000000,t0704020000000000,"abilities, achievements, and socio-emotional development","Faehigkeiten, Leistungen und Sozio-emotionale Entwicklung",aad,ccs,-preview
-t0704000000000000,t0704010000000000,participation and activities,Teilnahme und Aktivitaeten,paa,ccs,-preview
-t0705000000000000,t0705030000000000,subjective assessment of the further training,Subjektive Bewertung der Weiterbildung,saf,fut,-preview
-t0705000000000000,t0705010000000000,further vocational training,Berufliche Weiterbildung,fvt,fut,-preview
-t0705000000000000,t0705020000000000,attendance of further vocational training programs in last 3 years,Besuch beruflicher Weiterbildung in den letzten 3 Jahr,fva,fut,-preview
-t0705020000000000,t0705020400000000,time of day of further training course,Zeitliche Lage der Weiterbildungsveranstaltung,fvd,fva,-preview
-t0705020000000000,t0705020800000000,financial support,Finanzielle Unterstuetzung,fvf,fva,-preview
-t0705020000000000,t0705020500000000,content of further training course,Inhalt des Weiterbildungskurses,fvc,fva,-preview
-t0705020000000000,t0705020200000000,length of course,Umfang,fvl,fva,-preview
-t0705020000000000,t0705020700000000,initiative to participate,Initiative zur Teilnahme,fvi,fva,-preview
-t0705020000000000,t0705020100000000,number,Anzahl,fvn,fva,-preview
-t0705020000000000,t0705020300000000,goal of further training,Ziel der Weiterbildung,fvg,fva,-preview
-t0705020000000000,t0705020600000000,organization providing the training,Veranstalter,fvo,fva,-preview
-t0705020000000000,t0705020900000000,official certificate of participation,Qualifizierte Teilnahmebestaetigung,ocp,fva,-preview
-t0706000000000000,t0706020000000000,courses attended since start of 1988,Besuchte Kurse seit Anfang 1988,coa,ftg,-preview
-t0706000000000000,t0706010000000000,type of general further training,Art der allg. Weiterblidung,ftt,ftg,-preview
-t0707000000000000,t0707030000000000,family history,Familienbiographie,fah,inm,-preview
-t0707000000000000,t0707040000000000,parents' nationality,Nationalitaet der Eltern,pan,inm,-preview
-t0707000000000000,t0707020000000000,labor market participation of father and mother,Erwerbsbeteiligung von Vater und Mutter,lpp,inm,-preview
-t0707000000000000,t0707010000000000,parental education,Bildung der Eltern,ped,inm,-preview
-t0800000000000000,t0804000000000000,memberships,Mitgliedschaften,mbr,at,-preview
-t0800000000000000,t0801000000000000,political orientations,Politische Orientierungen,pol,at,-preview
-t0800000000000000,t0802000000000000,values,Werte,val,at,-preview
-t0800000000000000,t0803000000000000,personality,Persoenlichkeit,per,at,-preview
-t0801000000000000,t0801050000000000,introduction of euro,Euro-Einfuehrung,eur,pol,-preview
-t0801000000000000,t0801010000000000,voting and attitudes,Wahlen und Einstellungen,vot,pol,-preview
-t0801000000000000,t0801030000000000,government tasks,Staatliche Aufgaben,gov,pol,-preview
-t0801000000000000,t0801040000000000,worries,Sorgen,wry,pol,-preview
-t0801000000000000,t0801020000000000,party identification,Parteiidentifikation,pty,pol,-preview
-t0802000000000000,t0802030000000000,importance of life areas (kluckhohn),Bedeutung von Lebensbereichen (Kluckhohn),ila,val,-preview
-t0802000000000000,t0802020000000000,values of duty and acceptance (klages),Pflicht- und Akzeptanzwerte (Klages),vda,val,-preview
-t0802000000000000,t0802040000000000,fairness / justice,Gerechtigkeit,fju,val,-preview
-t0802000000000000,t0802010000000000,post-materialism (inglehart),Post/Materialismus (Inglehart),pom,val,-preview
-t0803000000000000,t0803050000000000,willingness to take risks,Risikobereitschaft,wtr,per,-preview
-t0803000000000000,t0803090000000000,impulse control,Impulskontrolle,imc,per,-preview
-t0803000000000000,t0803020000000000,affective well-being,Affektives Wohlbefinden,awb,per,-preview
-t0803000000000000,t0803070000000000,big 5 personality inventory,Big-5 Persoenlichkeitsinventar,bfi,per,-preview
-t0803000000000000,t0803080000000000,control orientation,Kontrollorientierung,cor,per,-preview
-t0803000000000000,t0803040000000000,trust,Vertrauen,trt,per,-preview
-t0803000000000000,t0803010000000000,satisfaction,Zufriedenheit,sat,per,-preview
-t0803000000000000,t0803110000000000,"time preference, discounting the future (experiment)","Zeitpraeferenz, Abdiskontierung (Experiment)",tpd,per,-preview
-t0803000000000000,t0803030000000000,anomie / normlessness,Anomie,ano,per,-preview
-t0803000000000000,t0803100000000000,thirst for knowledge,Wissbegierigkeit,tfn,per,-preview
-t0803000000000000,t0803060000000000,reciprocity,Reziprozitaet,rec,per,-preview
-t0803040000000000,t0803040100000000,trust (survey),Vertrauen (Befragung),trs,trt,-preview
-t0803040000000000,t0803040200000000,trust (experiment),Vertrauen (Experiment),tre,trt,-preview
-t0803060000000000,t0803060200000000,reciprocity (experiment),Reziprozitaet (Experiment),ree,rec,-preview
-t0803060000000000,t0803060100000000,reciprocity (survey),Reziprozitaet (Befragung),res,rec,-preview
-t0900000000000000,t0904000000000000,energy use,Energieverbrauch,enu,tu,-preview
-t0900000000000000,t0901000000000000,time use,Zeitverwendung,tim,tu,-preview
-t0900000000000000,t0903000000000000,mobility,Mobilitaet,mob,tu,-preview
-t0900000000000000,t0902000000000000,leisure time,Freizeit,ltm,tu,-preview
-t1000000000000000,t1002000000000000,integration,Integration,itg,im,-preview
-t1000000000000000,t1001000000000000,migration,Migration,mig,im,-preview
-t1000000000000000,t1003000000000000,transnationalization,Transnationalisierung,trn,im,-preview
-t1001000000000000,t1001040000000000,emigration,Auswanderung,emi,mig,-preview
-t1001000000000000,t1001010000000000,migration background,Migrationshintergrund,mib,mig,-preview
-t1001000000000000,t1001030000000000,inner-german migration,innerdeutsche Migration,igm,mig,-preview
-t1001000000000000,t1001020000000000,migration history,Migrationsbiographie,mgh,mig,-preview
-t1001010000000000,t1001010200000000,own nationality,eigene Nationalitaet,ona,mib,-preview
-t1001010000000000,t1001010100000000,broad definition of migration background,weite Definition von Migrationshintergrund,bmi,mib,-preview
-t1002000000000000,t1002040000000000,cultural integration / language,kulturelle Eingliederung/Sprache,cil,itg,-preview
-t1002000000000000,t1002010000000000,education in country of origin,im Herkunftsland erworbene Bildung,eco,itg,-preview
-t1002000000000000,t1002030000000000,interethnic contacts / segregation,interethnische Kontakte/Segregation,ics,itg,-preview
-t1002000000000000,t1002020000000000,discrimination / attitude toward migrants,Diskriminierung/Einstellung zu Migranten,dis,itg,-preview
-t1003000000000000,t1003030000000000,general intentions to emigrate,allgemeine Auswanderungsabsichten,gie,trn,-preview
-t1003000000000000,t1003040000000000,transnational relationships,transnationale Beziehungen,trr,trn,-preview
-t1003000000000000,t1003010000000000,identification,Identifikation,idn,trn,-preview
-t1003000000000000,t1003020000000000,intentions to stay / desires to return,Bleibeabsichten/Rueckkehrwunsch,its,trn,-preview
-t1100000000000000,t1103000000000000,field information,Feldinformationen,fii,sm,-preview
-t1100000000000000,t1101000000000000,identifiers,Identifikatoren,ide,sm,-preview
-t1100000000000000,t1102000000000000,sampling design and random groups,Ziehungsdesign und Random Groups,sdr,sm,-preview
-t1100000000000000,t1107000000000000,interviewer questionnaire,Interviewer-Befragung,inq,sm,-preview
-t1100000000000000,t1104000000000000,influx / outflux of panel members,Zu- und Auszuege,iom,sm,-preview
-t1100000000000000,t1105000000000000,interview,Befragung,int,sm,-preview
-t1100000000000000,t1106000000000000,weighting and imputation,Gewichtung und Hochrechnung,wim,sm,-preview
-,,Gender,Gender,gender,dp,-preview
+parent_old,topic_old,label,label_de,name,parent_name,description,description_de,study
+,t0100000000000000,demography and population,Demographie und Bevoelkerung,dp,,,,-preview
+,t1000000000000000,"integration, migration, transnationalization","Integration, Migration und Transnationalisierung",im,,,,-preview
+,t0500000000000000,health and care,Gesundheit und Pflege,hc,,,,-preview
+,t0200000000000000,work and employment,Arbeit und Beschaeftigung,we,,,,-preview
+,t0700000000000000,education and qualification,Bildung und Qualifikation,ed,,,,-preview
+,t0400000000000000,family and social networks,Familie und soziale Netzwerke,fn,,,,-preview
+,t0800000000000000,"attitudes, values, and personality","Einstellungen, Werte und Persoenlichkeit",at,,,,-preview
+,t0600000000000000,"home, amenities, and contributions of private hh","Wohnen, Ausstattung und Leistungen privater HH",ha,,,,-preview
+,t0900000000000000,time use and environmental behavior,Zeitverwendung und Umweltverhalten,tu,,,,-preview
+,t0300000000000000,"income, taxes, and social security","Einkommen, Steuern und Soziale Sicherung",it,,,,-preview
+,t1100000000000000,survey methodology,Surveymethodik,sm,,,,-preview
+t0100000000000000,t0101000000000000,birth date / age / year of death,Geburtsdatum / Alter / Todesjahr,bad,dp,,,-preview
+t0100000000000000,t0103000000000000,household size and structure,Haushaltsgroesse und -struktur,hhs,dp,,,-preview
+t0100000000000000,t0104000000000000,birth history,Geburtsbiographie,bih,dp,,,-preview
+t0100000000000000,t0102000000000000,sex,Geschlecht,sex,dp,,,-preview
+t0200000000000000,t0207000000000000,career plans and expectations,Berufliche Zukunftsplaene und Erwartungen,cpe,we,,,-preview
+t0200000000000000,t0205000000000000,occupational mobility,Berufliche Mobilitaet,ocm,we,,,-preview
+t0200000000000000,t0208000000000000,wages / salary,Lohn/Gehalt,was,we,,,-preview
+t0200000000000000,t0209000000000000,cnef equivalent file -employment-,CNEF Equivalent File -Employment-,cne,we,,,-preview
+t0200000000000000,t0202000000000000,employment status,Erwerbsstatus,est,we,,,-preview
+t0200000000000000,t0201000000000000,employment and career history,Erwerbs- und Berufsbiographie,ech,we,,,-preview
+t0200000000000000,t0203000000000000,characteristics of job with current employer,Beschaeftigungsmerkmale beim derzeitigen Arbeitgeber,cce,we,,,-preview
+t0200000000000000,t0204000000000000,working hours,Arbeitszeit,whs,we,,,-preview
+t0200000000000000,t0206000000000000,side job,Nebenerwerbstaetigkeit,sej,we,,,-preview
+t0201000000000000,t0201030000000000,job change,Berufliche Wechsel,joc,ech,,,-preview
+t0201000000000000,t0201050000000000,labor market experience,Arbeitsmarkterfahrung,lme,ech,,,-preview
+t0201000000000000,t0201040000000000,employment history since the age of 15 on an annual basis (spell data),Erwerbsbiographie seit dem 15. Lebensjahr auf Jahresbasis (Spelldaten),eha,ech,,,-preview
+t0201000000000000,t0201010000000000,last job,Erste Erwerbstaetigkeit,ljo,ech,,,-preview
+t0201000000000000,t0201020000000000,last job (at the point in time of the biography questionnaire),Letzte Erwerbstaetigkeit (zum Zeitpunkt der Biographie-Befragung),ljb,ech,,,-preview
+t0202000000000000,t0202020000000000,employment status in previous (calendar) year on monthly basis,Erwerbsstatus im Vorjahr auf Monatsbasis (Kalendarium),esp,est,,,-preview
+t0202000000000000,t0202010000000000,current employment status,aktueller Erwerbsstatus,esc,est,,,-preview
+t0202000000000000,t0202030000000000,employment status on monthly basis (spell data),Erwerbsstatus auf Monatsbasis (Spelldaten),esm,est,,,-preview
+t0202020000000000,t0202020400000000,side job in previous (calendar) year,Nebenberufliche Taetigkeit im Vorjahr (Kalendarium),sjp,esp,,,-preview
+t0202020000000000,t0202021100000000,mini-jobs in previous (calendar) year,Mini-Jobs im Vorjahr (Kalendarium),min,esp,,,-preview
+t0202020000000000,t0202020700000000,on leave from work in previous (calendar) year,Freistellung im Vorjahr (Kalendarium),onl,esp,,,-preview
+t0202020000000000,t0202020800000000,military / civil service in previous (calendar) year,Wehr-/Zivildienst im Vorjahr (Kalendarium),mcv,esp,,,-preview
+t0202020000000000,t0202020100000000,employed full-time in previous (calendar) year,Voll erwerbstaetig im Vorjahr(Kalendarium),esf,esp,,,-preview
+t0202020000000000,t0202020900000000,homemaker in previous (calendar) year,Hausfrau/Hausmann im Vorjahr (Kalendarium),hom,esp,,,-preview
+t0202020000000000,t0202021000000000,occupational further training / retraining in previous (calendar) year,Berufl. Fortbildung/Umschulung im Vorjahr (Kalendarium),oft,esp,,,-preview
+t0202020000000000,t0202021200000000,other in previous (calendar) year,Sonstiges im Vorjahr (Kalendarium),oth,esp,,,-preview
+t0202020000000000,t0202020200000000,employed part-time in previous (calendar) year,Teilzeitarbeit im Vorjahr (Kalendarium),ept,esp,,,-preview
+t0202020000000000,t0202020500000000,registered unemployed in previous (calendar) year,Arbeitslos gemeldet im Vorjahr (Kalendarium),rue,esp,,,-preview
+t0202020000000000,t0202020300000000,short-time work in previous (calendar) year,Kurzarbeit im Vorjahr (Kalendarium),stw,esp,,,-preview
+t0202020000000000,t0202021300000000,school / university in previous (calendar) year,Schule / Hochschule im Vorjahr (Kalendarium),scp,esp,,,-preview
+t0202020000000000,t0202020600000000,retirement / pension in previous (calendar) year,Rente/Pension im Vorjahr (Kalendarium),rep,esp,,,-preview
+t0203000000000000,t0203010000000000,"start, duration, and end date of current job","Beginn, Dauer und Befristung der Beschaeftigung",sde,cce,,,-preview
+t0203000000000000,t0203030000000000,current occupation,Ausgeuebter Beruf,cuo,cce,,,-preview
+t0203000000000000,t0203040000000000,work environment,Arbeitsumfeld,woe,cce,,,-preview
+t0203000000000000,t0203050000000000,travel to work,Arbeitsweg,ttw,cce,,,-preview
+t0203000000000000,t0203020000000000,company / employer characteristics,Unternehmensmerkmale,cec,cce,,,-preview
+t0203020000000000,t0203020300000000,type and size of company,Unternehmensform und -groesse,cts,cec,,,-preview
+t0203020000000000,t0203020100000000,sector,Branche,ind,cec,,,-preview
+t0203020000000000,t0203020200000000,age of company,Alter des Unternehmens,cag,cec,,,-preview
+t0203020000000000,t0203020400000000,company development,Betriebliche Entwicklung,cdv,cec,,,-preview
+t0203030000000000,t0203030200000000,occupational activity and prestige,Berufliche Taetigkeit und Prestige,oap,cuo,,,-preview
+t0203030000000000,t0203030300000000,required qualifications,Erforderliche Qualifikation,req,cuo,,,-preview
+t0203030000000000,t0203030100000000,occupational status,Berufliche Stellung,ocs,cuo,,,-preview
+t0203040000000000,t0203040200000000,"subjective importance of occupational activity, occupational strain, and recognition","Subjektive Bedeutung der Berufstaetigkeit, berufliche Belastung und Anerkennung",sim,woe,,,-preview
+t0203040000000000,t0203040100000000,working conditions,Arbeitsbedingungen,wkc,woe,,,-preview
+t0203050000000000,t0203050100000000,distance to work,Entfernung zum Arbeitsplatz,dtw,ttw,,,-preview
+t0203050000000000,t0203050200000000,means of transportation used to reach workplace,Genutztes Verkehrsmittel zum Arbeitsplatz,mtr,ttw,,,-preview
+t0204000000000000,t0204040000000000,absenteeism,Fehlzeiten,abs,whs,,,-preview
+t0204000000000000,t0204030000000000,working hours preferences and work-family balance,Arbeitszeitpraeferenzen und Vereinbarkeit von Familie und Beruf,whb,whs,,,-preview
+t0204000000000000,t0204010000000000,number of working hours,Arbeitszeitvolumen,whn,whs,,,-preview
+t0204000000000000,t0204020000000000,distribution of working hours,Lage der Arbeitszeit,whd,whs,,,-preview
+t0204010000000000,t0204010300000000,special type of working hour possibilities,Besondere Arbeitszeitregelungen,whp,whn,,,-preview
+t0204010000000000,t0204010100000000,regular working hours,Regelarbeitszeit,whr,whn,,,-preview
+t0204010000000000,t0204010200000000,overtime,Ueberstunden,who,whn,,,-preview
+t0204040000000000,t0204040100000000,days missed in the last month,Ausfallzeiten im letzten Monat,dmm,abs,,,-preview
+t0204040000000000,t0204040200000000,days missed in the last two halves of the year,Ausfallzeiten in den letzten beiden Halbjahren,dmy,abs,,,-preview
+t0204040000000000,t0204040300000000,vacation days,Urlaubstage,vac,abs,,,-preview
+t0205000000000000,t0205010000000000,type and point in time of occupational change,Art und Zeitpunkt der beruflichen Veraenderung,oct,ocm,,,-preview
+t0205000000000000,t0205020000000000,reasons for occupational change,Gruende fuer berufliche Veraenderung,ocr,ocm,,,-preview
+t0205000000000000,t0205050000000000,job characteristics with last employer,Beschaeftigungsmerkmale beim letzten Arbeitgeber,jcl,ocm,,,-preview
+t0205000000000000,t0205030000000000,comparison of current job characteristics to previous job,Vergleich der Arbeitplatzmerkmale zu voriger Stelle,occ,ocm,,,-preview
+t0205000000000000,t0205040000000000,type of job search,Art der Stellenfindung,tjs,ocm,,,-preview
+t0206000000000000,t0206010000000000,field of work in side job,Bereich der Nebentaetigkeit,sef,sej,,,-preview
+t0206000000000000,t0206020000000000,hours and earnings in side job,Umfang und Verdienst der Nebentaetigkeit,see,sej,,,-preview
+t0207000000000000,t0207010000000000,re-entry to labor market and future work plans (for non-employed respondents),Wiedereintritt in den Arbeitsmarkt und Erwerbsplaene (bei Nichterwerbstaetigkeit),rlm,cpe,,,-preview
+t0207000000000000,t0207030000000000,plans of older working people for the future,Zukunftsplaene aelterer Erwerbstaetiger,pow,cpe,,,-preview
+t0207000000000000,t0207020000000000,career expectations (employed respondents),Berufliche Zukunftserwartungen (Erwerbstaetige),cex,cpe,,,-preview
+t0208000000000000,t0208020000000000,earnings in previous year,Arbeitsverdienst Vorjahr,epy,was,,,-preview
+t0208000000000000,t0208010000000000,current earnings,Aktueller Arbeitsverdienst,cue,was,,,-preview
+t0208010000000000,t0208010100000000,basic wages,Grundverguetung,wab,cue,,,-preview
+t0208010000000000,t0208010200000000,additional benefits,Zusatzleistungen,adb,cue,,,-preview
+t0208010000000000,t0208010300000000,subjective perception of fairness,Subjektives Gerechtigkeitsempfinden,spf,cue,,,-preview
+t0208020000000000,t0208020100000000,wages / salary in previous year,Lohn/Gehalt im Vorjahr,wsp,epy,,,-preview
+t0208020000000000,t0208020300000000,income from side jobs in previous year,Einkommen aus Nebenerwerbstaetigkeit im Vorjahr,isj,epy,,,-preview
+t0208020000000000,t0208020400000000,additional benefits in previous year,Zusatzleistungen im Vorjahr,abp,epy,,,-preview
+t0208020000000000,t0208020200000000,income from self-employment in previous year,Einkommen aus selbstaendiger Taetigkeit im Vorjahr,ise,epy,,,-preview
+t0300000000000000,t0302000000000000,transfers,Transfer,trf,it,,,-preview
+t0300000000000000,t0303000000000000,pensions,Renten,pen,it,,,-preview
+t0300000000000000,t0304000000000000,assets,Vermoegen,ass,it,,,-preview
+t0300000000000000,t0305000000000000,consumption and savings,Konsum und Sparen,cos,it,,,-preview
+t0300000000000000,t0301000000000000,income,Einkommen,inc,it,,,-preview
+t0301000000000000,t0301020000000000,personal income,Persoenliche Einkommen,pin,inc,,,-preview
+t0301000000000000,t0301010000000000,household income,Haushaltseinkommen,hhi,inc,,,-preview
+t0301000000000000,t0301030000000000,taxes,Steuern,tax,inc,,,-preview
+t0301010000000000,t0301010100000000,monthly income,Monatseinkommen,moi,hhi,,,-preview
+t0301010000000000,t0301010200000000,income in previous year,Vorjahreseinkommen,ipy,hhi,,,-preview
+t0301010000000000,t0301010300000000,subjective evaluation,Subjektive Bewertung,sue,hhi,,,-preview
+t0301010200000000,t0301010201000000,income from rentals and leasing,Einkommen aus Vermietung und Verpachtung,irl,ipy,,,-preview
+t0301010200000000,t0301010203000000,money earned from domestic and livestock production,Geldeinkuenfte aus Haus- und Viehwirtschaft,idl,ipy,,,-preview
+t0301010200000000,t0301010202000000,income from interest and dividends,Zinseinkommen und Dividenden,iid,ipy,,,-preview
+t0301020000000000,t0301020200000000,self-employment,Selbststaendige  Taetigkeit,sem,pin,,,-preview
+t0301020000000000,t0301020100000000,wages and salary,Lohn und Gehalt,wsa,pin,,,-preview
+t0301020100000000,t0301020102000000,side jobs,Nebenerwerbstaetigkeit,sij,wsa,,,-preview
+t0301020100000000,t0301020103000000,military / civil service pay,Wehrsold/Zivildienstsold,mic,wsa,,,-preview
+t0301020100000000,t0301020101000000,additional benefits,Sonderverguetungen,ads,wsa,,,-preview
+t0302000000000000,t0302010000000000,household-related transfers,Haushaltsbezogene Transfers,hht,trf,,,-preview
+t0302000000000000,t0302020000000000,personal transfers,Persoenliche Transfers,ptr,trf,,,-preview
+t0302010000000000,t0302010100000000,child benefit / supplementary child benefit,Kindergeld/ Kinderzuschlag,cbe,hht,,,-preview
+t0302010000000000,t0302010500000000,long-term care insurance,Pflegeversicherung,ltc,hht,,,-preview
+t0302010000000000,t0302010400000000,housing allowance,Wohngeld,hal,hht,,,-preview
+t0302010000000000,t0302010300000000,basic income support in old age,Grundsicherung im Alter,bis,hht,,,-preview
+t0302010000000000,t0302010200000000,alg ii / social assistance,ALG II/ Sozialhilfe,sas,hht,,,-preview
+t0302020000000000,t0302020200000000,"parental, maternity, and child-raising allowance","Eltern-, Mutterschafts-, Erziehungsgeld",pmc,ptr,,,-preview
+t0302020000000000,t0302020600000000,private transfers,Privat empfangene Transfers,prt,ptr,,,-preview
+t0302020000000000,t0302020300000000,early retirement benefits,"Altersuebergangsgeld, Vorruhestandszahlungen",erb,ptr,,,-preview
+t0302020000000000,t0302020500000000,spousal/child support payments,Unterhaltszahlungen,sup,ptr,,,-preview
+t0302020000000000,t0302020100000000,unemployment benefits,Arbeitslosengeld und -hilfe,ueb,ptr,,,-preview
+t0302020000000000,t0302020400000000,bafoeg student grants / scholarships,BafoeG / Stipendien,bfg,ptr,,,-preview
+t0303000000000000,t0303020000000000,riester pension,Riesterrente,rir,pen,,,-preview
+t0303000000000000,t0303010000000000,old-age and disability pensions,Alters- und Invalidenrente,old,pen,,,-preview
+t0303000000000000,t0303050000000000,pension contribution,Beitragsentrichtung,pcn,pen,,,-preview
+t0303000000000000,t0303040000000000,pension fund,Rententraeger,pfd,pen,,,-preview
+t0303000000000000,t0303030000000000,widow's / orphan's pension,Witwen/Waisenrente,wid,pen,,,-preview
+t0304000000000000,t0304020000000000,asset categories,Vermoegensarten,asc,ass,,,-preview
+t0304000000000000,t0304010000000000,total assets,Gesamtvermoegen,ast,ass,,,-preview
+t0304000000000000,t0304030000000000,original responses,Original Angaben,ori,ass,,,-preview
+t0304010000000000,t0304010100000000,personal assets,Personenangaben,asp,ast,,,-preview
+t0304010000000000,t0304010200000000,household assets,Haushaltsangaben,ash,ast,,,-preview
+t0304020000000000,t0304020400000000,business assets,Betriebsvermoegen,bas,asc,,,-preview
+t0304020000000000,t0304020300000000,other properties,Sonstige Immobilien,opr,asc,,,-preview
+t0304020000000000,t0304020100000000,monetary assets,Geldvermoegen,asm,asc,,,-preview
+t0304020000000000,t0304020700000000,other investments,Sonstige Wertanlagen,oin,asc,,,-preview
+t0304020000000000,t0304020600000000,private insurance,Private Versicherung,pri,asc,,,-preview
+t0304020000000000,t0304020500000000,investments in home savings,Bausparen,ihs,asc,,,-preview
+t0304020000000000,t0304020800000000,debts / loans,Verpflichtungen / Kredite,dtl,asc,,,-preview
+t0304020000000000,t0304020200000000,owner-occupied housing,Selbstgenutztes Wohneigentum,ooh,asc,,,-preview
+t0304020300000000,t0304020301000000,claims for restitution of house/property rights,Rueckuebertragungsansprueche (Haus/Grundstueck),prr,opr,,,-preview
+t0304020600000000,t0304020601000000,investments in pension plans,Altersvorsorgevermoegen,ipp,pri,,,-preview
+t0304030000000000,t0304030200000000,inheritances,Erbschaften,inh,ori,,,-preview
+t0304030000000000,t0304030100000000,other investments xxxxxxxxxxxxxxx,Sonstige Wertanlagen,oti,ori,,,-preview
+t0304030000000000,t0304030300000000,debts,Verpflichtungen,dbt,ori,,,-preview
+t0305000000000000,t0305010000000000,possession and purchase of consumer goods,Besitz und Anschaffung von Konsumguetern,ppc,cos,,,-preview
+t0305000000000000,t0305020000000000,regular expenditures,Regelmaessige Ausgaben,rex,cos,,,-preview
+t0305000000000000,t0305040000000000,savings,Sparen,sav,cos,,,-preview
+t0305000000000000,t0305030000000000,financial transfers to persons outside hh,Geleistete Zahlungen an Personen ausserhalb des HH,fto,cos,,,-preview
+t0400000000000000,t0409000000000000,socialization & relationships,Sozialisation & Beziehungen,sor,fn,,,-preview
+t0400000000000000,t0405000000000000,transfers and support,Transfers und Unterstuetzung,tas,fn,,,-preview
+t0400000000000000,t0401000000000000,family networks - outside own household,Familiennetzwerke - ausserhalb des eigenen Haushalts,fno,fn,,,-preview
+t0400000000000000,t0402000000000000,marital status and family events,"Familienstand, Familienereignisse sowie Eltern-Kind-Verhaeltnis",mse,fn,,,-preview
+t0400000000000000,t0404000000000000,friends,Freunde,fri,fn,,,-preview
+t0400000000000000,t0403000000000000,socialization and relationships,Beziehungen zu den Eltern in der Jugend,scr,fn,,,-preview
+t0400000000000000,t0407000000000000,family history - first waves - integrated into biography,Familienbiographie - der Erstwellen - integriert in Biographie,fhf,fn,,,-preview
+t0400000000000000,t0406000000000000,parenting,Familie und Erziehung,par,fn,,,-preview
+t0402000000000000,t0402010000000000,marital status,Verwandte in Ost-/Westdeutschland,mst,mse,,,-preview
+t0402000000000000,t0402020000000000,family events and relationship history,Familienangehoerige in der Heimat,feh,mse,,,-preview
+t0402020000000000,t0402020800000000,death of child,Tod des Kindes,doc,feh,,,-preview
+t0402020000000000,t0402021200000000,no family event,keine familiaeres Ereignis,nfv,feh,,,-preview
+t0402020000000000,t0402021100000000,other family event,sonstiges familiaeres Ereignis,ofv,feh,,,-preview
+t0402020000000000,t0402020600000000,birth of a child,Geburt eines Kindes,boc,feh,,,-preview
+t0402020000000000,t0402020400000000,separation from partner,Trennung von Partner/in,sep,feh,,,-preview
+t0402020000000000,t0402020700000000,child moved out of household,Kind hat Haushalt verlassen,cmo,feh,,,-preview
+t0402020000000000,t0402020500000000,death of partner,Tod des Partner/in,dos,feh,,,-preview
+t0402020000000000,t0402020900000000,death of parents,Tod der Eltern,dop,feh,,,-preview
+t0402020000000000,t0402021000000000,death of person living in hh,Tod im HH lebenden Person,doi,feh,,,-preview
+t0402020000000000,t0402020200000000,moved in together with partner,Zusammenzug mit Partner,mip,feh,,,-preview
+t0402020000000000,t0402020100000000,marriage,Hochzeit,mar,feh,,,-preview
+t0402020000000000,t0402020300000000,divorce,Scheidung,div,feh,,,-preview
+t0404000000000000,t0404060000000000,contact with neighbors,Kontakte zu Nachbarn,con,fri,,,-preview
+t0404000000000000,t0404020000000000,friends in east/west germany,Freunde in Ost-/Westdeutschland,frr,fri,,,-preview
+t0404000000000000,t0404030000000000,friendship networks that can be relied upon for help,Freundesnetzwerke auf deren Hilfe man rechnen kann,fnw,fri,,,-preview
+t0404000000000000,t0404050000000000,"contact with friends, relatives abroad","Kontakt zu Freunden, Verwandten im Ausland",cfa,fri,,,-preview
+t0404000000000000,t0404010000000000,number of friends,Zahl der Freunde,frn,fri,,,-preview
+t0404000000000000,t0404040000000000,networks - three friends,Netzwerke - drei Freunde,ntf,fri,,,-preview
+t0405000000000000,t0405020000000000,regular gifts from friends / relatives from the frg,Regelmaessige Geschenke von Freunden/Verwandten aus der BRD,rgw,tas,,,-preview
+t0405000000000000,t0405010000000000,financial support to persons,Geleistete Zahlungen und Unterstuetzungen an Personen,fsp,tas,,,-preview
+t0405010000000000,t0405010200000000,foreign-born respondents only,speziell Auslaenderstichprobe,fbr,fsp,,,-preview
+t0405010000000000,t0405010100000000,in general,allgemein,ing,fsp,,,-preview
+t0406000000000000,t0406050000000000,experiences with the birth of a child,Erfahrungen bei der Geburt eines Kindes,exb,par,,,-preview
+t0406000000000000,t0406030000000000,parenting goal,Erziehungziel,pgo,par,,,-preview
+t0406000000000000,t0406040000000000,experiences with the birth of a child,Erfahrungen bei der Geburt eines Kindes,ebc,par,,,-preview
+t0406000000000000,t0406020000000000,parental role,Elternrolle,prl,par,,,-preview
+t0406000000000000,t0406010000000000,parenting style,Erziehungsstil,pst,par,,,-preview
+t0406010000000000,t0406010300000000,"parenting style (bioage long, mother or father)","Erziehungsstil (bioage long, Mutter oder Vater)",psp,pst,,,-preview
+t0406010000000000,t0406010200000000,"parenting style, second caregiver (usually father)",Erziehungsstil zweite betreuende Person (in der Regel Vater),pss,pst,,,-preview
+t0406010000000000,t0406010100000000,"parenting style, main caregiver (usually mother)",Erziehungsstil Hauptbetreuungsperson (in der Regel Mutter),psm,pst,,,-preview
+t0406020000000000,t0406020200000000,parental role of second caregiver (usually father),Elternrolle (in der Regel Vater),prs,prl,,,-preview
+t0406020000000000,t0406020300000000,"parental role (bioage long, mother or father)","Elternrolle (bioage long, Mutter oder Vater)",prp,prl,,,-preview
+t0406020000000000,t0406020100000000,parental role of main caregiver (usually mother),Elternrolle (in der Regel Mutter),prm,prl,,,-preview
+t0406030000000000,t0406030300000000,"parenting goal (bioage long, mother or father)","Erziehungziel (bioage long, Mutter oder Vater)",pgp,pgo,,,-preview
+t0406030000000000,t0406030100000000,parenting goal of main caregiver (usually mother),Erziehungziel (in der Regel Mutter),pgm,pgo,,,-preview
+t0406030000000000,t0406030200000000,parenting goal of second caregiver (usually father),Erziehungziel (in der Regel Vater),pgs,pgo,,,-preview
+t0406040000000000,t0406040900000000,other family event,sonstiges familiaeres Ereignis,ofe,ebc,,,-preview
+t0406040000000000,t0406041000000000,no family event,keine familiaeres Ereignis,nfe,ebc,,,-preview
+t0406040000000000,t0406041300000000,death of a close friend/relative,Tod eines engen Bekannten/Verwandten,dcf,ebc,,,-preview
+t0406040000000000,t0406041200000000,death of child,Tod des Kindes,dch,ebc,,,-preview
+t0406040000000000,t0406040400000000,divorce,Scheidung,dvr,ebc,,,-preview
+t0406040000000000,t0406040800000000,child left household,Kind hat Haushalt verlassen,clh,ebc,,,-preview
+t0406040000000000,t0406040300000000,moved in together with partner,Zusammenzug mit Partner,mwp,ebc,,,-preview
+t0406040000000000,t0406040200000000,married,Verheiratet,mas,ebc,,,-preview
+t0406040000000000,t0406040600000000,death of partner,Tod des Partner/in,dpa,ebc,,,-preview
+t0406040000000000,t0406041100000000,death of parent,Tod des Eltern,dfm,ebc,,,-preview
+t0406040000000000,t0406040500000000,separation from partner,Trennung von Partner/in,spa,ebc,,,-preview
+t0406040000000000,t0406040100000000,cohabitating,Zusammenlebend,coh,ebc,,,-preview
+t0409000000000000,t0409020000000000,relationships with peers / other relatives,"Beziehungen mit Peers, sonstigen Verwandten",rpo,sor,,,-preview
+t0409000000000000,t0409030000000000,socialization conditions,Sozialisationsbedingungen,soc,sor,,,-preview
+t0409000000000000,t0409010000000000,generational relationships,Generationenbeziehungen,ger,sor,,,-preview
+t0409000000000000,t0409040000000000,contexts shortly before death,Kontexte kurz vor dem Tod,sbd,sor,,,-preview
+t0500000000000000,t0502000000000000,health care,Gesundheitsversorgung,hec,hc,,,-preview
+t0500000000000000,t0503000000000000,health behavior,Gesundheitsverhalten,heb,hc,,,-preview
+t0500000000000000,t0504000000000000,health insurance,Krankenversicherung (KV),hei,hc,,,-preview
+t0500000000000000,t0501000000000000,health situation,Gesundheitslage,hes,hc,,,-preview
+t0501000000000000,t0501050000000000,work missed due to illness,Krankheitsbedingte Arbeitsausfaelle,wdi,hes,,,-preview
+t0501000000000000,t0501010000000000,health condition,Gesundheitszustand,hco,hes,,,-preview
+t0501000000000000,t0501080000000000,cause of death,Todesursache,cad,hes,,,-preview
+t0501000000000000,t0501040000000000,invalidity - severe disability,Invaliditaet - Schwerbehinderung,isd,hes,,,-preview
+t0501000000000000,t0501030000000000,sf-12 questionnaire,SF-12 Fragebogen,sft,hes,,,-preview
+t0501000000000000,t0501020000000000,illnesses diagnosed by doctor,Vom Arzt festgestellte Krankheiten,idd,hes,,,-preview
+t0501000000000000,t0501120000000000,grip strength measurement,Greifkraftmessung,gsm,hes,,,-preview
+t0501000000000000,t0501090000000000,pregnancy and breastfeeding,Schwangerschaft und Stillzeit,pbr,hes,,,-preview
+t0501000000000000,t0501100000000000,child's health,Gesundheit des Kindes,chh,hes,,,-preview
+t0501000000000000,t0501070000000000,health of deceased persons,Gesundheit verstorbener Personen,hdp,hes,,,-preview
+t0501000000000000,t0501110000000000,illnesses of child diagnosed by doctor,Vom Arzt festgestellte Krankheiten des Kindes,icd,hes,,,-preview
+t0501000000000000,t0501130000000000,strengths and difficulties questionnaire (sdq),Strenghts and Difficulties Questionnaire (SDQ),sdq,hes,,,-preview
+t0501000000000000,t0501060000000000,physical and mental health,Physische und Mentale Gesundheit (generiert),pmh,hes,,,-preview
+t0502000000000000,t0502040000000000,medical rehabilitation,Medizinische Rehamassnahme,mer,hec,,,-preview
+t0502000000000000,t0502070000000000,childbirth,Entbindung,chb,hec,,,-preview
+t0502000000000000,t0502030000000000,health spa stays,Kuraufenthalte,hss,hec,,,-preview
+t0502000000000000,t0502020000000000,doctor visits,Arztbesuche,dov,hec,,,-preview
+t0502000000000000,t0502060000000000,health care for children,Gesundheitsversorgung von Kindern,hcc,hec,,,-preview
+t0502000000000000,t0502050000000000,care for deceased persons,Pflege verstorbener Personen,cdp,hec,,,-preview
+t0502000000000000,t0502010000000000,hospital stay,Krankenhausaufenthalt,hsp,hec,,,-preview
+t0503000000000000,t0503030000000000,sports and nutrition,Sport und Ernaehrung,spn,heb,,,-preview
+t0503000000000000,t0503020000000000,alcohol use,Alkohol Konsum,alc,heb,,,-preview
+t0503000000000000,t0503010000000000,tabacco use,Tabak-Konsum,tab,heb,,,-preview
+t0504000000000000,t0504020000000000,type of health insurance,Art der Krankenversicherung,tin,hei,,,-preview
+t0504000000000000,t0504010000000000,insurance status,Versichertenstatus,ist,hei,,,-preview
+t0504000000000000,t0504030000000000,change of health insurance,Krankenversicherungswechsel,chi,hei,,,-preview
+t0600000000000000,t0602000000000000,quality of dwelling,Wohnungsqualitaet,qob,ha,,,-preview
+t0600000000000000,t0610000000000000,contributions and expenditures of private households,Leistungen und Ausgaben privater Haushalte,cep,ha,,,-preview
+t0600000000000000,t0604000000000000,moving,Umzug,mov,ha,,,-preview
+t0600000000000000,t0608000000000000,household amenities,Haushaltsausstattung,hoa2,ha,,,-preview
+t0600000000000000,t0601000000000000,home ownership status,Wohnstatus,hos,ha,,,-preview
+t0600000000000000,t0609000000000000,residence: region,Wohnen: Region,rer,ha,,,-preview
+t0600000000000000,t0607000000000000,type of dwelling,Wohntyp,tod,ha,,,-preview
+t0600000000000000,t0606000000000000,residential history,Wohnbiographie,reh,ha,,,-preview
+t0600000000000000,t0605000000000000,neighborhood surroundings and residential environment,Wohnumfeld und -umwelt,nsr,ha,,,-preview
+t0600000000000000,t0603000000000000,housing costs,Wohnkosten,hoc,ha,,,-preview
+t0601000000000000,t0601020000000000,tenant,Mieter,ten,hos,,,-preview
+t0601000000000000,t0601030000000000,property management of building,Verwaltung des Hauses,pmb,hos,,,-preview
+t0601000000000000,t0601040000000000,owner of building,Eigentuemer des Hauses,oob,hos,,,-preview
+t0601000000000000,t0601010000000000,owner / tenant,Eigentuemer / Mieter,own,hos,,,-preview
+t0602000000000000,t0602050000000000,condition of building / need for renovation,Zustand/Renovierungsbeduerftigkeit des Hauses,cbu,qob,,,-preview
+t0602000000000000,t0602030000000000,household amenities,Wohnungsausstattung,hoa,qob,,,-preview
+t0602000000000000,t0602040000000000,modernization measures in dwelling,Modernisierungsmassnahmen in Wohnung,mmd,qob,,,-preview
+t0602000000000000,t0602010000000000,year of building construction,Erbauungsjahr des Hauses,ybc,qob,,,-preview
+t0602000000000000,t0602020000000000,size of dwelling,Wohnungsgroesse,sod,qob,,,-preview
+t0603000000000000,t0603010000000000,for tenants,fuer Mieter,fte,hoc,,,-preview
+t0603000000000000,t0603020000000000,for owners,fuer Eigentuemer,fow,hoc,,,-preview
+t0604000000000000,t0604040000000000,subjective assessment of new dwelling compared to former dwelling,Subjektive Beurteilung der neuen Wohnung im Vergl. zur,dcm,mov,,,-preview
+t0604000000000000,t0604010000000000,is anyone in the hh planning to move?,Plant jemand im Haushalt Umzug?,mpl,mov,,,-preview
+t0604000000000000,t0604030000000000,reasons for moving,Gruende fuer Wohnungswechsel,mre,mov,,,-preview
+t0604000000000000,t0604020000000000,moving date,Umzugsdatum,mdt,mov,,,-preview
+t0605000000000000,t0605010000000000,region,Region,reg,nsr,,,-preview
+t0606000000000000,t0606020000000000,type of locality,Ortstyp in dem Kindheit verbracht wurde,tol,reh,,,-preview
+t0606000000000000,t0606010000000000,year of move out of parental home,Jahr des Auszugs aus elterlicher Wohnung,ymo,reh,,,-preview
+t0606000000000000,t0606030000000000,country of birth,Geburtsland,cob,reh,,,-preview
+t0607000000000000,t0607010000000000,private household - type of institution,Privathaushalt - Anstaltstyp,prh,tod,,,-preview
+t0607000000000000,t0607020000000000,second home,Zweitwohnung,seh,tod,,,-preview
+t0608000000000000,t0608010000000000,consumer durables,Langlebige Gebrauchsgueter,cod,hoa2,,,-preview
+t0608000000000000,t0608020000000000,house pets,Haustiere,hop,hoa2,,,-preview
+t0610000000000000,t0610040000000000,expenditures,Ausgaben,exp,cep,,,-preview
+t0610000000000000,t0610010000000000,"own labor, care","Eigenarbeit, Betreuung",olc,cep,,,-preview
+t0610000000000000,t0610020000000000,parenting and social support,Erziehung und soziale Unterstuetzung,pso,cep,,,-preview
+t0610000000000000,t0610030000000000,assistance with shopping,Hilfe bei der Beschaffung,aws,cep,,,-preview
+t0610010000000000,t0610010200000000,motives for own labor,Motive fuer Eigenarbeit,olm,olc,,,-preview
+t0610010000000000,t0610010100000000,own labor,Eigenarbeit,ola,olc,,,-preview
+t0610020000000000,t0610020200000000,invalidity,Pflegebeduerfigkeit,inv,pso,,,-preview
+t0610020000000000,t0610020400000000,assistance when requiring long-term care - who would one turn to,Hilfe bei langfristiger Pflege - an wen wuerde man sich,alt,pso,,,-preview
+t0610020000000000,t0610020100000000,childcare,Kinderbetreuung,chc,pso,,,-preview
+t0610020000000000,t0610020300000000,assistance when ill with flu - who would one turn to,Hilfe bei Grippe - an wen wuerde man sich wenden,afl,pso,,,-preview
+t0610020200000000,t0610020203000000,care for invalid hh member,Betreuung der Pflegebeduerftigen Person durch:,ihc,inv,,,-preview
+t0610020200000000,t0610020201000000,invalid in hh,Pflegebeduerftige im Haushalt,iih,inv,,,-preview
+t0610020200000000,t0610020204000000,strain on hh due to care for invalid,Belastung des HH durch Pflege,ins,inv,,,-preview
+t0610020200000000,t0610020205000000,monthly level and bearer of care costs,Monatliche Hoehe und Traeger der Pflegekosten,cac,inv,,,-preview
+t0610020200000000,t0610020206000000,support for the hh (wave 8 focus),Unterstuetzung des HH (Schwerpunkt W8),suh,inv,,,-preview
+t0610020200000000,t0610020202000000,type of invalidity,Art der Pflegebeduerftigkeit,ity,inv,,,-preview
+t0700000000000000,t0703000000000000,qualifications attained last year,Im letzten Jahr erworbene Qualifikationen,qly,ed,,,-preview
+t0700000000000000,t0705000000000000,further training,Weiterbildung,fut,ed,,,-preview
+t0700000000000000,t0701000000000000,educational participation,Bildungsbeteiligung,edp,ed,,,-preview
+t0700000000000000,t0704000000000000,child care and school,Kinderbetreuung und Schule,ccs,ed,,,-preview
+t0700000000000000,t0707000000000000,intergenerational mobility,Intergenerationale Mobilitaet,inm,ed,,,-preview
+t0700000000000000,t0706000000000000,general further training in last year,Allgemeine Weiterbildung im letzten Jahr,ftg,ed,,,-preview
+t0700000000000000,t0702000000000000,highest attained qualification,Hoechste erworbene Qualifikation,haq,ed,,,-preview
+t0700000000000000,t0708000000000000,cognitive competency,Kognitive Kompetenz,coc,ed,,,-preview
+t0701000000000000,t0701030000000000,generated educational biography (beta),Generierte Bildungsbiographie (beta),geb,edp,,,-preview
+t0701000000000000,t0701020000000000,educational calendar,Bildungskalendarium,edc,edp,,,-preview
+t0701000000000000,t0701010000000000,training and further education at point in time of survey,Ausbildung und Weiterbildung zum Befragungszeitpunkt,tft,edp,,,-preview
+t0701020000000000,t0701020200000000,company in-house training / further training / retraining,Betriebliche Ausbildung/Fortbildung/Umschulung,ojt,edc,,,-preview
+t0701020000000000,t0701020100000000,school / university,Schule/Hochschule,scu,edc,,,-preview
+t0702000000000000,t0702040000000000,vocational degree (foreigners),Berufsabschluss Auslaender,vof,haq,,,-preview
+t0702000000000000,t0702020000000000,cnef equivalent -education-,CNEF Equivalent -Education-,cnd,haq,,,-preview
+t0702000000000000,t0702010000000000,school-leaving certificate / graduation,Schulabschluss,slc,haq,,,-preview
+t0702000000000000,t0702030000000000,vocational degree,Berufsabschluss,vod,haq,,,-preview
+t0703000000000000,t0703010000000000,school completion,Schulabschluss,scc,qly,,,-preview
+t0703000000000000,t0703020000000000,vocational degree completion,Berufsabschluss,vdc,qly,,,-preview
+t0703000000000000,t0703030000000000,vocational training in last year,Berufliche Ausbildung im letzten Jahr,vly,qly,,,-preview
+t0704000000000000,t0704030000000000,educational goals,Bildungsbestrebungen,edg,ccs,,,-preview
+t0704000000000000,t0704020000000000,"abilities, achievements, and socio-emotional development","Faehigkeiten, Leistungen und Sozio-emotionale Entwicklung",aad,ccs,,,-preview
+t0704000000000000,t0704010000000000,participation and activities,Teilnahme und Aktivitaeten,paa,ccs,,,-preview
+t0705000000000000,t0705030000000000,subjective assessment of the further training,Subjektive Bewertung der Weiterbildung,saf,fut,,,-preview
+t0705000000000000,t0705010000000000,further vocational training,Berufliche Weiterbildung,fvt,fut,,,-preview
+t0705000000000000,t0705020000000000,attendance of further vocational training programs in last 3 years,Besuch beruflicher Weiterbildung in den letzten 3 Jahr,fva,fut,,,-preview
+t0705020000000000,t0705020400000000,time of day of further training course,Zeitliche Lage der Weiterbildungsveranstaltung,fvd,fva,,,-preview
+t0705020000000000,t0705020800000000,financial support,Finanzielle Unterstuetzung,fvf,fva,,,-preview
+t0705020000000000,t0705020500000000,content of further training course,Inhalt des Weiterbildungskurses,fvc,fva,,,-preview
+t0705020000000000,t0705020200000000,length of course,Umfang,fvl,fva,,,-preview
+t0705020000000000,t0705020700000000,initiative to participate,Initiative zur Teilnahme,fvi,fva,,,-preview
+t0705020000000000,t0705020100000000,number,Anzahl,fvn,fva,,,-preview
+t0705020000000000,t0705020300000000,goal of further training,Ziel der Weiterbildung,fvg,fva,,,-preview
+t0705020000000000,t0705020600000000,organization providing the training,Veranstalter,fvo,fva,,,-preview
+t0705020000000000,t0705020900000000,official certificate of participation,Qualifizierte Teilnahmebestaetigung,ocp,fva,,,-preview
+t0706000000000000,t0706020000000000,courses attended since start of 1988,Besuchte Kurse seit Anfang 1988,coa,ftg,,,-preview
+t0706000000000000,t0706010000000000,type of general further training,Art der allg. Weiterblidung,ftt,ftg,,,-preview
+t0707000000000000,t0707030000000000,family history,Familienbiographie,fah,inm,,,-preview
+t0707000000000000,t0707040000000000,parents' nationality,Nationalitaet der Eltern,pan,inm,,,-preview
+t0707000000000000,t0707020000000000,labor market participation of father and mother,Erwerbsbeteiligung von Vater und Mutter,lpp,inm,,,-preview
+t0707000000000000,t0707010000000000,parental education,Bildung der Eltern,ped,inm,,,-preview
+t0800000000000000,t0804000000000000,memberships,Mitgliedschaften,mbr,at,,,-preview
+t0800000000000000,t0801000000000000,political orientations,Politische Orientierungen,pol,at,,,-preview
+t0800000000000000,t0802000000000000,values,Werte,val,at,,,-preview
+t0800000000000000,t0803000000000000,personality,Persoenlichkeit,per,at,,,-preview
+t0801000000000000,t0801050000000000,introduction of euro,Euro-Einfuehrung,eur,pol,,,-preview
+t0801000000000000,t0801010000000000,voting and attitudes,Wahlen und Einstellungen,vot,pol,,,-preview
+t0801000000000000,t0801030000000000,government tasks,Staatliche Aufgaben,gov,pol,,,-preview
+t0801000000000000,t0801040000000000,worries,Sorgen,wry,pol,,,-preview
+t0801000000000000,t0801020000000000,party identification,Parteiidentifikation,pty,pol,,,-preview
+t0802000000000000,t0802030000000000,importance of life areas (kluckhohn),Bedeutung von Lebensbereichen (Kluckhohn),ila,val,,,-preview
+t0802000000000000,t0802020000000000,values of duty and acceptance (klages),Pflicht- und Akzeptanzwerte (Klages),vda,val,,,-preview
+t0802000000000000,t0802040000000000,fairness / justice,Gerechtigkeit,fju,val,,,-preview
+t0802000000000000,t0802010000000000,post-materialism (inglehart),Post/Materialismus (Inglehart),pom,val,,,-preview
+t0803000000000000,t0803050000000000,willingness to take risks,Risikobereitschaft,wtr,per,,,-preview
+t0803000000000000,t0803090000000000,impulse control,Impulskontrolle,imc,per,,,-preview
+t0803000000000000,t0803020000000000,affective well-being,Affektives Wohlbefinden,awb,per,,,-preview
+t0803000000000000,t0803070000000000,big 5 personality inventory,Big-5 Persoenlichkeitsinventar,bfi,per,,,-preview
+t0803000000000000,t0803080000000000,control orientation,Kontrollorientierung,cor,per,,,-preview
+t0803000000000000,t0803040000000000,trust,Vertrauen,trt,per,,,-preview
+t0803000000000000,t0803010000000000,satisfaction,Zufriedenheit,sat,per,,,-preview
+t0803000000000000,t0803110000000000,"time preference, discounting the future (experiment)","Zeitpraeferenz, Abdiskontierung (Experiment)",tpd,per,,,-preview
+t0803000000000000,t0803030000000000,anomie / normlessness,Anomie,ano,per,,,-preview
+t0803000000000000,t0803100000000000,thirst for knowledge,Wissbegierigkeit,tfn,per,,,-preview
+t0803000000000000,t0803060000000000,reciprocity,Reziprozitaet,rec,per,,,-preview
+t0803040000000000,t0803040100000000,trust (survey),Vertrauen (Befragung),trs,trt,,,-preview
+t0803040000000000,t0803040200000000,trust (experiment),Vertrauen (Experiment),tre,trt,,,-preview
+t0803060000000000,t0803060200000000,reciprocity (experiment),Reziprozitaet (Experiment),ree,rec,,,-preview
+t0803060000000000,t0803060100000000,reciprocity (survey),Reziprozitaet (Befragung),res,rec,,,-preview
+t0900000000000000,t0904000000000000,energy use,Energieverbrauch,enu,tu,,,-preview
+t0900000000000000,t0901000000000000,time use,Zeitverwendung,tim,tu,,,-preview
+t0900000000000000,t0903000000000000,mobility,Mobilitaet,mob,tu,,,-preview
+t0900000000000000,t0902000000000000,leisure time,Freizeit,ltm,tu,,,-preview
+t1000000000000000,t1002000000000000,integration,Integration,itg,im,,,-preview
+t1000000000000000,t1001000000000000,migration,Migration,mig,im,,,-preview
+t1000000000000000,t1003000000000000,transnationalization,Transnationalisierung,trn,im,,,-preview
+t1001000000000000,t1001040000000000,emigration,Auswanderung,emi,mig,,,-preview
+t1001000000000000,t1001010000000000,migration background,Migrationshintergrund,mib,mig,,,-preview
+t1001000000000000,t1001030000000000,inner-german migration,innerdeutsche Migration,igm,mig,,,-preview
+t1001000000000000,t1001020000000000,migration history,Migrationsbiographie,mgh,mig,,,-preview
+t1001010000000000,t1001010200000000,own nationality,eigene Nationalitaet,ona,mib,,,-preview
+t1001010000000000,t1001010100000000,broad definition of migration background,weite Definition von Migrationshintergrund,bmi,mib,,,-preview
+t1002000000000000,t1002040000000000,cultural integration / language,kulturelle Eingliederung/Sprache,cil,itg,,,-preview
+t1002000000000000,t1002010000000000,education in country of origin,im Herkunftsland erworbene Bildung,eco,itg,,,-preview
+t1002000000000000,t1002030000000000,interethnic contacts / segregation,interethnische Kontakte/Segregation,ics,itg,,,-preview
+t1002000000000000,t1002020000000000,discrimination / attitude toward migrants,Diskriminierung/Einstellung zu Migranten,dis,itg,,,-preview
+t1003000000000000,t1003030000000000,general intentions to emigrate,allgemeine Auswanderungsabsichten,gie,trn,,,-preview
+t1003000000000000,t1003040000000000,transnational relationships,transnationale Beziehungen,trr,trn,,,-preview
+t1003000000000000,t1003010000000000,identification,Identifikation,idn,trn,,,-preview
+t1003000000000000,t1003020000000000,intentions to stay / desires to return,Bleibeabsichten/Rueckkehrwunsch,its,trn,,,-preview
+t1100000000000000,t1103000000000000,field information,Feldinformationen,fii,sm,,,-preview
+t1100000000000000,t1101000000000000,identifiers,Identifikatoren,ide,sm,,,-preview
+t1100000000000000,t1102000000000000,sampling design and random groups,Ziehungsdesign und Random Groups,sdr,sm,,,-preview
+t1100000000000000,t1107000000000000,interviewer questionnaire,Interviewer-Befragung,inq,sm,,,-preview
+t1100000000000000,t1104000000000000,influx / outflux of panel members,Zu- und Auszuege,iom,sm,,,-preview
+t1100000000000000,t1105000000000000,interview,Befragung,int,sm,,,-preview
+t1100000000000000,t1106000000000000,weighting and imputation,Gewichtung und Hochrechnung,wim,sm,,,-preview
+,,Gender,Gender,gender,dp,,,-preview
