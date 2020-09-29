@@ -1,6 +1,6 @@
 ---
-name: soep-core
-label: SOEP-Core
+name: soep-core-preview
+label: SOEP-Core-Preview
 doi: 10.5684/soep-core.v35
 config:
     variables:
@@ -11,7 +11,7 @@ config:
         -   soep-r
 ---
 
-# SOEP-Core
+# SOEP-Core-Preview
 
 Preview for version v36. Metadata exported: Mon Sep 28 15:30:18 2020
 
