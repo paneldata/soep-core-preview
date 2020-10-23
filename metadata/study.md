@@ -1,6 +1,6 @@
 ---
-name: soep-core-preview
-label: SOEP-Core-Preview
+name: soep-core
+label: SOEP-Core
 doi: 10.5684/soep-core.v35
 config:
     variables:
@@ -11,9 +11,9 @@ config:
         -   soep-r
 ---
 
-# SOEP-Core-Preview
+# SOEP-Core
 
-Preview for version v36. Metadata exported: Mon Sep 28 15:30:18 2020
+Preview for version v36. Metadata exported: Fri Oct 23 17:02:25 2020
 
 ## Citation
 
@@ -38,7 +38,7 @@ A more detailled overview can be found in the [SOEP Companion](http://companion.
 * [Contents of SOEP-Core](http://companion.soep.de/Contents%20of%20SOEPcore/)
 * [Survey Design](http://companion.soep.de/Survey%20Design/)
 * [Target Population and Samples](http://companion.soep.de/Target%20Population%20and%20Samples/)
-* [Data Structure of SOEP-Core](http://companion.soep.de/Data%20Structure%20of%20SOEP-Core/)
+* [Data Structure of SOEP-Core](http://companion.soep.de/Data%20Structure%20of%20SOEPcore/)
 * [Working with SOEP Data](http://companion.soep.de/Working%20with%20SOEP%20Data/)
 * [Working with SOEP Documentation](http://companion.soep.de/Working%20with%20SOEP%20Documentation/)
 

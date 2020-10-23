@@ -365,6 +365,7 @@ soep-core-preview,opequiv,Cross-national equivalent file 1998,,,,p,raw-gen,1998
 soep-core-preview,opgen,Generated individual data 1998,,,,p,raw-gen,1998
 soep-core-preview,opkal,Individual calendar 1998,,,,p,raw-gen,1998
 soep-core-preview,opluecke,Data from individual catch-up questionnaire which refers to 1998,,,,p,raw-org/net,1999
+soep-core-preview,P_10_A-H_g,Data from individual questionnaires 2010,,,,p,raw,2010
 soep-core-preview,P-File,,,,,,eu-silc-clone,0
 soep-core-preview,pbiospe,Generated biographical information,,,,p,tl-spell,0
 soep-core-preview,pbr_exit,Cumulated Exit,,"Cumulated register of persons with final exit, mostly due to death or moving abroad.",,p,tl-track,0

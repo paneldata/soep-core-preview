@@ -56,6 +56,7 @@ soep-core-preview,soep-core-2018-ju-m345,"Youth (11-17-year-olds, M3-M5) 2018",,
 soep-core-preview,soep-core-2018-ki-m345,"Childhood (0-10-year-olds, M3-M5) 2018",,p,2018,SOEP Group,"Kindheit (0-10 Jahre, M3-M5) 2018",,1,ki
 soep-core-preview,soep-core-2018-pb-m12-erst,Individual and Biography (M1-M2) 2018,,p,2018,SOEP Group,Personen und Biografie (M1-M2) 2018,,1,pb
 soep-core-preview,soep-core-2018-pe,Individual (PAPI) 2018,,p,2018,SOEP Group,Person (PAPI) 2018,,1,pe
+soep-core-preview,soep-core-2018-ddr,Life in the former GDR 2018,,p,2018,SOEP Group,Leben in der ehemaligen DDR 2018,,2,gdr
 soep-core-preview,soep-core-2018-pe-m12,Individual (M1-M2) 2018,,p,2018,SOEP Group,Person (M1-M2) 2018,,1,pe
 soep-core-preview,soep-core-2018-pb-m345-wieder,"Individual and Biography (M3-M5, Follow-up) 2018",,p,2018,SOEP Group,"Person und Biografie (M3-M5, Wiederbefragte) 2018",,1,pb
 soep-core-preview,soep-core-2018-pb-m345-erst,"Individual and Biography (M3-M5, Initial interview) 2018",,p,2018,SOEP Group,"Person und Biografie (M3-M5, Erstbefragte) 2018",,1,pb
@@ -265,4 +266,3 @@ soep-core-preview,soep-core-2015-ll,Biography (PAPI) 2015,,p,2015,SOEP Group,Bio
 soep-core-preview,soep-core-2012-int,Interviewer (PAPI) 2012,,,2012,SOEP Group,InterviewerIn (PAPI) 2012,,1,int
 soep-core-preview,soep-core-2006-int,Interviewer (PAPI) 2006,,,2006,SOEP Group,InterviewerIn (PAPI) 2006,,1,int
 soep-core-preview,soep-core-1984-pe,Individual 1984,,,1984,SOEP Group,Person 1984,,2,pe
-soep-fid-preview,soep-fid-2013-p,soep-fid-2013-p,,,2013,,Personenfragebogen (2013),"Dieser Fragebogen gehört zur BMFSFJ-geförderten Studie Familien in Deutschland (FiD). Die FiD-Daten stehen in Version 4.0 zur Verfügung. Hierzu gehören in diesem Dokument Datensätze, deren Name mit „f13“ beginnt. Seit v31 wurden diese Informationen auch vollständig in „SOEP Core“ integriert. Dort sind die Informationen in Datensätzen zu finden, deren Namen mit „bd“ beginnt.",1,pe
