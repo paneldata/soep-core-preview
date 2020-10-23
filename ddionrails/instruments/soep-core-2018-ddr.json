@@ -1,0 +1,13 @@
+{
+  "study": "soep-core-preview",
+  "name": "soep-core-2018-ddr",
+  "label": "Life in the former GDR 2018",
+  "analysis_unit": "p",
+  "period": 2018,
+  "author": "SOEP Group",
+  "label_de": "Leben in der ehemaligen DDR 2018",
+  "publish": 2,
+  "qtyp": "gdr",
+  "instrument": "soep-core-2018-ddr",
+  "questions": {}
+}
