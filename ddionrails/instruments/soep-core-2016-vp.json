@@ -14,10 +14,11 @@
       "question": "Intro",
       "name": "Intro",
       "label": "First of all we, the team of “Living in Germany”, want to express our deepest regret for the loss of your family member.\n\nFor many people it is very hard to talk to stranges about dying and death. Nevertheless because of the inadequate knowledge in the scientific community about this topic we would like to aks a couple of questions.\n\nWe would like to know more about the last phase of your relatives live. Therefor we ask you kindly\n\n- to answer our representative the following questions\n\n- or carfully fill out this questionnaire by yourself.",
+      "label_de": "Als erstes möchten wir – das Team „Leben in Deutschland“ – Ihnen unser aufrichtiges Bedauern über den Verlust Ihres Angehörigen zum Ausdruck bringen.\n\nFür viele Menschen ist es schwer, über das Thema Sterben und Tod mit fremden Menschen zu sprechen. Da aber in der Wissenschaft viel zu wenig über dieses Thema bekannt ist, bitten wir Sie, hierzu einige Fragen zu beantworten.\n\nWir würden gerne etwas mehr zum letzten Lebensabschnitt der verstorbenen Person erfahren. Wir bitten Sie herzlich,\n\n- unserem Mitarbeiter die Fragen zu beantworten \n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
       "items": [
         {
-          "text_de": "Als erstes möchten wir – das Team „Leben in Deutschland“ – Ihnen unser aufrichtiges Bedauern über den Verlust Ihres Angehörigen zum Ausdruck bringen.\n\nFür viele Menschen ist es schwer, über das Thema Sterben und Tod mit fremden Menschen zu sprechen. Da aber in der Wissenschaft viel zu wenig über dieses Thema bekannt ist, bitten wir Sie, hierzu einige Fragen zu beantworten.\n\nWir würden gerne etwas mehr zum letzten Lebensabschnitt der verstorbenen Person erfahren. Wir bitten Sie herzlich,\n\n- unserem Mitarbeiter die Fragen zu beantworten \n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
           "text": "First of all we, the team of “Living in Germany”, want to express our deepest regret for the loss of your family member.\n\nFor many people it is very hard to talk to stranges about dying and death. Nevertheless because of the inadequate knowledge in the scientific community about this topic we would like to aks a couple of questions.\n\nWe would like to know more about the last phase of your relatives live. Therefor we ask you kindly\n\n- to answer our representative the following questions\n\n- or carfully fill out this questionnaire by yourself.",
+          "text_de": "Als erstes möchten wir – das Team „Leben in Deutschland“ – Ihnen unser aufrichtiges Bedauern über den Verlust Ihres Angehörigen zum Ausdruck bringen.\n\nFür viele Menschen ist es schwer, über das Thema Sterben und Tod mit fremden Menschen zu sprechen. Da aber in der Wissenschaft viel zu wenig über dieses Thema bekannt ist, bitten wir Sie, hierzu einige Fragen zu beantworten.\n\nWir würden gerne etwas mehr zum letzten Lebensabschnitt der verstorbenen Person erfahren. Wir bitten Sie herzlich,\n\n- unserem Mitarbeiter die Fragen zu beantworten \n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -32,41 +33,42 @@
       "question": "0",
       "name": "0",
       "label": "Please enter according to address protocol.",
+      "label_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
       "items": [
         {
           "item": "1",
-          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
           "text": "Please enter according to address protocol.",
+          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hnr",
-          "text_de": "Nr. des Haushalts:",
           "text": "Household number",
-          "scale": "int",
+          "text_de": "Nr. des Haushalts:",
           "concept": "hnr",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "name",
-          "text_de": "Vorname der Auskunftsperson:",
-          "instruction_de": "Bitte in Druckbuchstaben",
           "text": "First name",
+          "text_de": "Vorname der Auskunftsperson:",
           "instruction": "Please print",
-          "scale": "chr",
+          "instruction_de": "Bitte in Druckbuchstaben",
           "concept": "name",
+          "scale": "chr",
           "sn": 2,
           "number": ""
         },
         {
           "item": "pnr",
-          "text_de": "Personen Nr.",
           "text": "Person number",
-          "scale": "int",
+          "text_de": "Personen Nr.",
           "concept": "pnr",
+          "scale": "int",
           "sn": 3,
           "number": ""
         }
@@ -79,10 +81,11 @@
       "question": "1",
       "name": "1",
       "label": "Please state the first name, sex, and year of birth of the deceased person:",
+      "label_de": "Bitte geben Sie den Vornamen, das Geschlecht und Geburtsjahr der verstorbenen Person an:",
       "items": [
         {
-          "text_de": "Bitte geben Sie den Vornamen, das Geschlecht und Geburtsjahr der verstorbenen Person an:",
           "text": "Please state the first name, sex, and year of birth of the deceased person:",
+          "text_de": "Bitte geben Sie den Vornamen, das Geschlecht und Geburtsjahr der verstorbenen Person an:",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -90,27 +93,27 @@
         },
         {
           "item": "vname",
-          "text_de": "Vorname der verstorbenen Person:",
-          "instruction_de": "Bitte in Druckbuchstaben",
           "text": "First name of the deceased person",
+          "text_de": "Vorname der verstorbenen Person:",
           "instruction": "Please print",
-          "scale": "chr",
+          "instruction_de": "Bitte in Druckbuchstaben",
           "concept": "vname",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "3",
-          "text_de": "Geschlecht und Geburtsjahr:",
           "text": "Sex and year of birth:",
+          "text_de": "Geschlecht und Geburtsjahr:",
           "scale": "txt",
           "sn": 2,
           "number": ""
         },
         {
           "item": "vsex",
-          "scale": "cat",
           "concept": "vsex",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -128,10 +131,10 @@
         },
         {
           "item": "vgebj",
-          "text_de": "Geburtsjahr:",
           "text": "Year of birth:",
-          "scale": "int",
+          "text_de": "Geburtsjahr:",
           "concept": "vgebj",
+          "scale": "int",
           "sn": 4,
           "number": ""
         }
@@ -144,13 +147,14 @@
       "question": "2",
       "name": "2",
       "label": "What was your family relationship with the person passed away?\nHe / She was …",
+      "label_de": "In welchem Verwandtschaftsverhältnis standen Sie zu der verstorbenen Person? \nDer / die Verstorbene war...",
       "items": [
         {
           "item": "vfam",
-          "text_de": "In welchem Verwandtschaftsverhältnis standen Sie zu der verstorbenen Person? \nDer / die Verstorbene war...",
           "text": "What was your family relationship with the person passed away?\nHe / She was …",
-          "scale": "cat",
+          "text_de": "In welchem Verwandtschaftsverhältnis standen Sie zu der verstorbenen Person? \nDer / die Verstorbene war...",
           "concept": "vfam",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -178,10 +182,10 @@
         },
         {
           "item": "vfamso",
-          "text_de": "[andere Person] und zwar:",
           "text": "Other person:",
-          "scale": "chr",
+          "text_de": "[andere Person] und zwar:",
           "concept": "vfamso",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         }
@@ -194,10 +198,11 @@
       "question": "3",
       "name": "3",
       "label": "How old was your relative when he/she passed away?",
+      "label_de": "Wie alt war Ihr(e) Angehörige(r), als er / sie verstarb?",
       "items": [
         {
-          "text_de": "Wie alt war Ihr(e) Angehörige(r), als er / sie verstarb?",
           "text": "How old was your relative when he/she passed away?",
+          "text_de": "Wie alt war Ihr(e) Angehörige(r), als er / sie verstarb?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -205,10 +210,10 @@
         },
         {
           "item": "valt",
-          "text_de": "Jahre",
           "text": "Years",
-          "scale": "int",
+          "text_de": "Jahre",
           "concept": "valt",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -221,13 +226,14 @@
       "question": "4",
       "name": "4",
       "label": "Did the deceased person live in this household?",
+      "label_de": "Hat der / die Verstorbene hier im Haushalt gelebt?",
       "items": [
         {
           "item": "vinhh",
-          "text_de": "Hat der / die Verstorbene hier im Haushalt gelebt?",
           "text": "Did the deceased person live in this household?",
-          "scale": "cat",
+          "text_de": "Hat der / die Verstorbene hier im Haushalt gelebt?",
           "concept": "vinhh",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -252,13 +258,14 @@
       "question": "5",
       "name": "5",
       "label": "Do you know whether he/she ever participated the study “Living in Germany”?",
+      "label_de": "Wissen Sie, ob der / die Verstorbene jemals an der Studie „Leben in Deutschland“ teilgenommen hat?",
       "items": [
         {
           "item": "vlid",
-          "text_de": "Wissen Sie, ob der / die Verstorbene jemals an der Studie „Leben in Deutschland“ teilgenommen hat?",
           "text": "Do you know whether he/she ever participated the study “Living in Germany”?",
-          "scale": "cat",
+          "text_de": "Wissen Sie, ob der / die Verstorbene jemals an der Studie „Leben in Deutschland“ teilgenommen hat?",
           "concept": "vlid",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -288,13 +295,14 @@
       "question": "6",
       "name": "6",
       "label": "What was the main home environment the person who died lived in the last years?",
+      "label_de": "In welchem häuslichen Umfeld hat der / die Verstorbene während des letzten Lebensjahres vorwiegend gelebt?",
       "items": [
         {
           "item": "vleb01",
-          "text_de": "In welchem häuslichen Umfeld hat der / die Verstorbene während des letzten Lebensjahres vorwiegend gelebt?",
           "text": "What was the main home environment the person who died lived in the last years?",
-          "scale": "cat",
+          "text_de": "In welchem häuslichen Umfeld hat der / die Verstorbene während des letzten Lebensjahres vorwiegend gelebt?",
           "concept": "vleb01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -337,10 +345,10 @@
         },
         {
           "item": "vleb02",
-          "text_de": "[Sonstiges Umfeld] und zwar:",
           "text": "Other:",
-          "scale": "chr",
+          "text_de": "[Sonstiges Umfeld] und zwar:",
           "concept": "vleb02",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         }
@@ -353,13 +361,14 @@
       "question": "7",
       "name": "7",
       "label": "Where did he/she live?",
+      "label_de": "Wo hat der / die Verstorbene da gelebt?",
       "items": [
         {
           "item": "vleb03",
-          "text_de": "Wo hat der / die Verstorbene da gelebt?",
           "text": "Where did he/she live?",
-          "scale": "cat",
+          "text_de": "Wo hat der / die Verstorbene da gelebt?",
           "concept": "vleb03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -399,13 +408,14 @@
       "question": "8",
       "name": "8",
       "label": "Within the last 12 month of his/her life: How often did  you have personal contact to the deceased person? (personally, by telephone, by writing)",
+      "label_de": "Während der letzten zwölf Monate ihres / seines Lebens: wie oft hatten Sie da in der Regel\npersönlichen Kontakt zu dem / der Verstorbenen, sei es durch Besuche, telefonisch oder schriftlich?",
       "items": [
         {
           "item": "vkont",
-          "text_de": "Während der letzten zwölf Monate ihres / seines Lebens: wie oft hatten Sie da in der Regel\npersönlichen Kontakt zu dem / der Verstorbenen, sei es durch Besuche, telefonisch oder schriftlich?",
           "text": "Within the last 12 month of his/her life: How often did  you have personal contact to the deceased person? (personally, by telephone, by writing)",
-          "scale": "cat",
+          "text_de": "Während der letzten zwölf Monate ihres / seines Lebens: wie oft hatten Sie da in der Regel\npersönlichen Kontakt zu dem / der Verstorbenen, sei es durch Besuche, telefonisch oder schriftlich?",
           "concept": "vkont",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -445,13 +455,14 @@
       "question": "9",
       "name": "9",
       "label": "Where did he/she decease?",
+      "label_de": "Wo ist Ihr Angehöriger / Ihre Angehörige verstorben?",
       "items": [
         {
           "item": "vwo",
-          "text_de": "Wo ist Ihr Angehöriger / Ihre Angehörige verstorben?",
           "text": "Where did he/she decease?",
-          "scale": "cat",
+          "text_de": "Wo ist Ihr Angehöriger / Ihre Angehörige verstorben?",
           "concept": "vwo",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -494,10 +505,10 @@
         },
         {
           "item": "vwoso",
-          "text_de": "[An einem anderen Ort] und zwar:",
           "text": "Another place:",
-          "scale": "chr",
+          "text_de": "[An einem anderen Ort] und zwar:",
           "concept": "vwoso",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         }
@@ -510,12 +521,13 @@
       "question": "10",
       "name": "10",
       "label": "Can you tell me what the cause of death was?",
+      "label_de": "Können Sie uns bitte sagen, was die Todesursache war?",
       "items": [
         {
-          "text_de": "Können Sie uns bitte sagen, was die Todesursache war?",
-          "instruction_de": "Mehrfachnennung möglich!",
           "text": "Can you tell me what the cause of death was?",
+          "text_de": "Können Sie uns bitte sagen, was die Todesursache war?",
           "instruction": "Multiple responses possible!",
+          "instruction_de": "Mehrfachnennung möglich!",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -523,100 +535,100 @@
         },
         {
           "item": "vurs01",
-          "text_de": "Ein Herzinfarkt",
           "text": "Heart attack",
-          "scale": "bin",
+          "text_de": "Ein Herzinfarkt",
           "concept": "vurs01",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "vurs02",
-          "text_de": "Eine Herz-Kreislauf-Erkrankung",
           "text": "Cardiovascular disease",
-          "scale": "bin",
+          "text_de": "Eine Herz-Kreislauf-Erkrankung",
           "concept": "vurs02",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "vurs03",
-          "text_de": "Eine Krebserkrankung",
           "text": "Cancer",
-          "scale": "bin",
+          "text_de": "Eine Krebserkrankung",
           "concept": "vurs03",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "vurs04",
-          "text_de": "Ein Schlaganfall",
           "text": "Stroke",
-          "scale": "bin",
+          "text_de": "Ein Schlaganfall",
           "concept": "vurs04",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "vurs05",
-          "text_de": "Eine schwere Infektionskrankheit (z.B. Lungenentzündung, Grippe)",
           "text": "Severe infectious disease (such as pneumonia, flu)",
-          "scale": "bin",
+          "text_de": "Eine schwere Infektionskrankheit (z.B. Lungenentzündung, Grippe)",
           "concept": "vurs05",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "vurs06",
-          "text_de": "Krankheit des Magen-Darm-Traktes",
           "text": "Gastrointestinal disease",
-          "scale": "bin",
+          "text_de": "Krankheit des Magen-Darm-Traktes",
           "concept": "vurs06",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "vurs07",
-          "text_de": "Eine Atemwegserkrankung",
           "text": "Respiratory illness",
-          "scale": "bin",
+          "text_de": "Eine Atemwegserkrankung",
           "concept": "vurs07",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "vurs08",
-          "text_de": "Ein Unfall",
           "text": "Accident",
-          "scale": "bin",
+          "text_de": "Ein Unfall",
           "concept": "vurs08",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "vurs09",
-          "text_de": "Sonstige Ursache",
           "text": "Other",
-          "scale": "bin",
+          "text_de": "Sonstige Ursache",
           "concept": "vurs09",
+          "scale": "bin",
           "sn": 9,
           "number": ""
         },
         {
           "item": "vurs11",
-          "text_de": "Weiß nicht",
           "text": "Do not know",
-          "scale": "bin",
+          "text_de": "Weiß nicht",
           "concept": "vurs11",
+          "scale": "bin",
           "sn": 10,
           "number": ""
         },
         {
           "item": "vurs10",
-          "text_de": "[Sonstige Ursache] und zwar:",
           "text": "Other reason:",
-          "scale": "chr",
+          "text_de": "[Sonstige Ursache] und zwar:",
           "concept": "vurs10",
+          "scale": "chr",
           "sn": 11,
           "number": ""
         }
@@ -629,10 +641,11 @@
       "question": "11",
       "name": "11",
       "label": "Had the person who passed away deposited one or some of the following documents?",
+      "label_de": "Hatte der / die Verstorbene vorsorglich eine oder mehrere der folgenden Dokumente hinterlegt?",
       "items": [
         {
-          "text_de": "Hatte der / die Verstorbene vorsorglich eine oder mehrere der folgenden Dokumente hinterlegt?",
           "text": "Had the person who passed away deposited one or some of the following documents?",
+          "text_de": "Hatte der / die Verstorbene vorsorglich eine oder mehrere der folgenden Dokumente hinterlegt?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -640,10 +653,10 @@
         },
         {
           "item": "vdok01",
-          "text_de": "Ein Testament, einen letzten Willen",
           "text": "A testament",
-          "scale": "cat",
+          "text_de": "Ein Testament, einen letzten Willen",
           "concept": "vdok01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -666,10 +679,10 @@
         },
         {
           "item": "vdok02",
-          "text_de": "Eine Patientenverfügung (mit Angaben über mögliche Krankheitsbehandlungen)",
           "text": "A living will (with instruction on medical care)?",
-          "scale": "cat",
+          "text_de": "Eine Patientenverfügung (mit Angaben über mögliche Krankheitsbehandlungen)",
           "concept": "vdok02",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -692,10 +705,10 @@
         },
         {
           "item": "vdok03",
-          "text_de": "Eine Vorsorgevollmacht (z.B. für den Fall eines Verlustes der Einwilligungsfähigkeit)",
           "text": "A power of attorney (in case of loss of capacity for consent)",
-          "scale": "cat",
+          "text_de": "Eine Vorsorgevollmacht (z.B. für den Fall eines Verlustes der Einwilligungsfähigkeit)",
           "concept": "vdok03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -718,10 +731,10 @@
         },
         {
           "item": "vdok04",
-          "text_de": "Eine Sterbeverfügung (z.B. mit Angaben zur Bestattung)",
           "text": "A living will with instructions on use of death-delaying procedures",
-          "scale": "cat",
+          "text_de": "Eine Sterbeverfügung (z.B. mit Angaben zur Bestattung)",
           "concept": "vdok04",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -751,13 +764,14 @@
       "question": "12",
       "name": "12",
       "label": "Did the person who died had a reduced mental capacity?",
+      "label_de": "Hatte der/die Verstorbene unter schwerwiegenden Einschränkungen der geistigen Leistungsfähigkeit (z.B. Gedächtnisverlust) gelitten?",
       "items": [
         {
           "item": "vleist",
-          "text_de": "Hatte der/die Verstorbene unter schwerwiegenden Einschränkungen der geistigen Leistungsfähigkeit (z.B. Gedächtnisverlust) gelitten?",
           "text": "Did the person who died had a reduced mental capacity?",
-          "scale": "cat",
+          "text_de": "Hatte der/die Verstorbene unter schwerwiegenden Einschränkungen der geistigen Leistungsfähigkeit (z.B. Gedächtnisverlust) gelitten?",
           "concept": "vleist",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -787,13 +801,14 @@
       "question": "13",
       "name": "13",
       "label": "How was the state of health of the person who passed away three month before death?",
+      "label_de": "Wie gut würden Sie den Gesundheitszustand der verstorbenen Person etwa drei Monate vor dem Tod beschreiben?",
       "items": [
         {
           "item": "vges01",
-          "text_de": "Wie gut würden Sie den Gesundheitszustand der verstorbenen Person etwa drei Monate vor dem Tod beschreiben?",
           "text": "How was the state of health of the person who passed away three month before death?",
-          "scale": "cat",
+          "text_de": "Wie gut würden Sie den Gesundheitszustand der verstorbenen Person etwa drei Monate vor dem Tod beschreiben?",
           "concept": "vges01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -833,13 +848,14 @@
       "question": "14",
       "name": "14",
       "label": "Was the deceased in need of assistance or care three months before he/she died?",
+      "label_de": "War der / die Verstorbene etwa drei Monate vor dem Tod hilfe- oder pflegebedürftig?",
       "items": [
         {
           "item": "vpfleg",
-          "text_de": "War der / die Verstorbene etwa drei Monate vor dem Tod hilfe- oder pflegebedürftig?",
           "text": "Was the deceased in need of assistance or care three months before he/she died?",
-          "scale": "cat",
+          "text_de": "War der / die Verstorbene etwa drei Monate vor dem Tod hilfe- oder pflegebedürftig?",
           "concept": "vpfleg",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -864,10 +880,11 @@
       "question": "15",
       "name": "15",
       "label": "For which of the following activities did the deceased Person needed assistence in?\nThe person needed help with:",
+      "label_de": "Bei welchen der folgenden Tätigkeiten brauchte der / die Verstorbene Hilfe? Brauchte Hilfe bei ...",
       "items": [
         {
-          "text_de": "Bei welchen der folgenden Tätigkeiten brauchte der / die Verstorbene Hilfe? Brauchte Hilfe bei ...",
           "text": "For which of the following activities did the deceased Person needed assistence in?\nThe person needed help with:",
+          "text_de": "Bei welchen der folgenden Tätigkeiten brauchte der / die Verstorbene Hilfe? Brauchte Hilfe bei ...",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -875,37 +892,37 @@
         },
         {
           "item": "vhil1",
-          "text_de": "Besorgungen und Erledigungen außer Haus",
           "text": "Errands outside the home",
-          "scale": "bin",
+          "text_de": "Besorgungen und Erledigungen außer Haus",
           "concept": "vhil1",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "vhil2",
-          "text_de": "Haushaltsführung, Versorgung mit Mahlzeiten und Getränken",
           "text": "Running the household, preparing meals and drinks",
-          "scale": "bin",
+          "text_de": "Haushaltsführung, Versorgung mit Mahlzeiten und Getränken",
           "concept": "vhil2",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "vhil3",
-          "text_de": "Einfacheren Pflegetätigkeiten, z.B. Hilfe beim An- und Auskleiden, Waschen, Kämmen, Rasieren",
           "text": "Minor care, such as help with getting dressed, washing up, combing hair, shaving ",
-          "scale": "bin",
+          "text_de": "Einfacheren Pflegetätigkeiten, z.B. Hilfe beim An- und Auskleiden, Waschen, Kämmen, Rasieren",
           "concept": "vhil3",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "vhil4",
-          "text_de": "Schwierigeren Pflegetätigkeiten, z.B. Hilfe beim Umbetten, Stuhlgang usw.",
           "text": "Major care, such as getting in and out of bed, bowel movements",
-          "scale": "bin",
+          "text_de": "Schwierigeren Pflegetätigkeiten, z.B. Hilfe beim Umbetten, Stuhlgang usw.",
           "concept": "vhil4",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         }
@@ -918,12 +935,13 @@
       "question": "16",
       "name": "16",
       "label": "\n\nThink about the period of time before your relative passed away. How satisfied do you think he/she was with his/her life overall?",
+      "label_de": "Denken Sie bitte einmal an die Zeit bevor Ihr Angehöriger / Ihre Angehörige verstarb. Was meinen Sie: \nWie zufrieden war er oder sie, alles in allem, mit seinem oder ihrem damaligen Leben?",
       "items": [
         {
-          "text_de": "Denken Sie bitte einmal an die Zeit bevor Ihr Angehöriger / Ihre Angehörige verstarb. Was meinen Sie: \nWie zufrieden war er oder sie, alles in allem, mit seinem oder ihrem damaligen Leben?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala, \nbei der \"0\" ganz und gar unzufrieden, \"10\" ganz und gar zufrieden bedeutet. ",
           "text": "\n\nThink about the period of time before your relative passed away. How satisfied do you think he/she was with his/her life overall?",
+          "text_de": "Denken Sie bitte einmal an die Zeit bevor Ihr Angehöriger / Ihre Angehörige verstarb. Was meinen Sie: \nWie zufrieden war er oder sie, alles in allem, mit seinem oder ihrem damaligen Leben?",
           "instruction": "Please answer on a scale from 0 to 10, where 0 means completely dissatisfied and 10 means completely satisfied.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala, \nbei der \"0\" ganz und gar unzufrieden, \"10\" ganz und gar zufrieden bedeutet. ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -931,10 +949,10 @@
         },
         {
           "item": "vzule1",
-          "text_de": "Etwa ein Jahr vor seinem/ihrem Tod",
           "text": "One year before his/her death",
-          "scale": "cat",
+          "text_de": "Etwa ein Jahr vor seinem/ihrem Tod",
           "concept": "vzule1",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -997,10 +1015,10 @@
         },
         {
           "item": "vzule2",
-          "text_de": "Etwa drei Monate vor seinem/ihrem Tod",
           "text": "About three months before his/her death",
-          "scale": "cat",
+          "text_de": "Etwa drei Monate vor seinem/ihrem Tod",
           "concept": "vzule2",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -1070,13 +1088,14 @@
       "question": "17",
       "name": "17",
       "label": "Finally a personal question to you:\nTo which extend did the death of your relative changed your life?",
+      "label_de": "Zum Schluss eine Frage an Sie persönlich:\nIn welchem Umfang hat sich Ihr Leben durch den Tod Ihres Angehörigen verändert?",
       "items": [
         {
           "item": "vver",
-          "text_de": "Zum Schluss eine Frage an Sie persönlich:\nIn welchem Umfang hat sich Ihr Leben durch den Tod Ihres Angehörigen verändert?",
           "text": "Finally a personal question to you:\nTo which extend did the death of your relative changed your life?",
-          "scale": "cat",
+          "text_de": "Zum Schluss eine Frage an Sie persönlich:\nIn welchem Umfang hat sich Ihr Leben durch den Tod Ihres Angehörigen verändert?",
           "concept": "vver",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1106,10 +1125,11 @@
       "question": "A",
       "name": "A",
       "label": "What is the date today and at what time did you finish filling out the questionnaire?",
+      "label_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
       "items": [
         {
-          "text_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
           "text": "What is the date today and at what time did you finish filling out the questionnaire?",
+          "text_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -1117,72 +1137,72 @@
         },
         {
           "item": "vdatt",
-          "text_de": "Tag",
           "text": "Day",
-          "scale": "int",
+          "text_de": "Tag",
           "concept": "vdatt",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "vdatm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "vdatm",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "vdatst",
-          "text_de": "Stunde",
           "text": "Houre",
-          "scale": "int",
+          "text_de": "Stunde",
           "concept": "vdatst",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "vdatmi",
-          "text_de": "Minute",
           "text": "Minute",
-          "scale": "int",
+          "text_de": "Minute",
           "concept": "vdatmi",
+          "scale": "int",
           "sn": 4,
           "number": ""
         },
         {
           "item": "2",
-          "text_de": "Interviewer",
           "text": "Interviewer",
+          "text_de": "Interviewer",
           "scale": "txt",
           "sn": 5,
           "number": ""
         },
         {
           "item": "listnr",
-          "text_de": "Listen-Nr.",
           "text": "List No.",
-          "scale": "chr",
+          "text_de": "Listen-Nr.",
           "concept": "listnr",
+          "scale": "chr",
           "sn": 6,
           "number": ""
         },
         {
           "item": "lfdnr",
-          "text_de": "Lfd-Nr.",
           "text": "Consecutive no.",
-          "scale": "chr",
+          "text_de": "Lfd-Nr.",
           "concept": "lfdnr",
+          "scale": "chr",
           "sn": 7,
           "number": ""
         },
         {
           "item": "vintnr",
-          "text_de": "Abrechnungs-Nummer",
           "text": "Accounting no.",
-          "scale": "chr",
+          "text_de": "Abrechnungs-Nummer",
           "concept": "vintnr",
+          "scale": "chr",
           "sn": 8,
           "number": ""
         }

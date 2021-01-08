@@ -14,10 +14,11 @@
       "question": "Intro",
       "name": "Intro",
       "label": "Normally the (biological or caring) mother answers the following questions about children, they were born in 2009. Exceptionally, the (biological or caring) father, or rather an other main carer can answer the questions. \nYour participation is entirely voluntary. \n\nWe therefore cordially request that \n- you allow our staff member to interview you \n- or you fill out the questionnaire independently.",
+      "label_de": "In der Regel sollte die (leibliche oder soziale) Mutter die folgenden Fragen für Kinder, die im Jahr 2009 geboren wurden, beantworten. In Ausnahmefällen kann auch der (leibliche oder soziale) Vater, beziehungsweise eine andere Hauptbetreuungsperson, die Fragen beantworten.\n\nIhre Mitarbeit ist freiwillig.\n\nWir bitten Sie herzlich, \n\n- unserem Mitarbeiter das Interview zu gewähren\n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
       "items": [
         {
-          "text_de": "In der Regel sollte die (leibliche oder soziale) Mutter die folgenden Fragen für Kinder, die im Jahr 2009 geboren wurden, beantworten. In Ausnahmefällen kann auch der (leibliche oder soziale) Vater, beziehungsweise eine andere Hauptbetreuungsperson, die Fragen beantworten.\n\nIhre Mitarbeit ist freiwillig.\n\nWir bitten Sie herzlich, \n\n- unserem Mitarbeiter das Interview zu gewähren\n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
           "text": "Normally the (biological or caring) mother answers the following questions about children, they were born in 2009. Exceptionally, the (biological or caring) father, or rather an other main carer can answer the questions. \nYour participation is entirely voluntary. \n\nWe therefore cordially request that \n- you allow our staff member to interview you \n- or you fill out the questionnaire independently.",
+          "text_de": "In der Regel sollte die (leibliche oder soziale) Mutter die folgenden Fragen für Kinder, die im Jahr 2009 geboren wurden, beantworten. In Ausnahmefällen kann auch der (leibliche oder soziale) Vater, beziehungsweise eine andere Hauptbetreuungsperson, die Fragen beantworten.\n\nIhre Mitarbeit ist freiwillig.\n\nWir bitten Sie herzlich, \n\n- unserem Mitarbeiter das Interview zu gewähren\n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -32,39 +33,40 @@
       "question": "0",
       "name": "0",
       "label": "Before handing in the questionnaire, please enter in accordance with the address log:",
+      "label_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
       "items": [
         {
           "item": "0",
-          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
           "text": "Before handing in the questionnaire, please enter in accordance with the address log:",
+          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hnr",
-          "text_de": "Nr. des Haushalts",
           "text": "Household ID",
-          "scale": "int",
+          "text_de": "Nr. des Haushalts",
           "concept": "hnr",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "name",
-          "text_de": "Vorname der Befragungsperson:",
-          "instruction_de": "Bitte in Druckbuchstaben",
           "text": "First name interviewee:",
+          "text_de": "Vorname der Befragungsperson:",
           "instruction": "Please print",
-          "scale": "chr",
+          "instruction_de": "Bitte in Druckbuchstaben",
           "concept": "name",
+          "scale": "chr",
           "sn": 2,
           "number": ""
         },
         {
           "item": "pnr",
-          "text_de": "Personen Nr.",
           "text": "Person ID",
+          "text_de": "Personen Nr.",
           "scale": "int",
           "sn": 3,
           "number": ""
@@ -78,10 +80,11 @@
       "question": "1",
       "name": "1",
       "label": "What's your child‘s name?",
+      "label_de": "Wie heißt das Kind?",
       "items": [
         {
-          "text_de": "Wie heißt das Kind?",
           "text": "What's your child‘s name?",
+          "text_de": "Wie heißt das Kind?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -89,21 +92,21 @@
         },
         {
           "item": "ename",
-          "text_de": "Vorname des Kindes:",
-          "instruction_de": "Bitte in Druckbuchstaben",
           "text": "First name:",
+          "text_de": "Vorname des Kindes:",
           "instruction": "Please print in capital letters.",
-          "scale": "chr",
+          "instruction_de": "Bitte in Druckbuchstaben",
           "concept": "ename",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "epnr",
-          "text_de": "Personen Nr:",
           "text": "Person ID:",
-          "scale": "int",
+          "text_de": "Personen Nr:",
           "concept": "epnr",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -116,10 +119,11 @@
       "question": "2",
       "name": "2",
       "label": "Birth date and sex of you child",
+      "label_de": "Geburtsdatum und Geschlecht des Kindes",
       "items": [
         {
-          "text_de": "Geburtsdatum und Geschlecht des Kindes",
           "text": "Birth date and sex of you child",
+          "text_de": "Geburtsdatum und Geschlecht des Kindes",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -127,10 +131,10 @@
         },
         {
           "item": "egebt",
-          "text_de": "Tag",
           "text": "Day",
-          "scale": "int",
+          "text_de": "Tag",
           "concept": "egebt",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
@@ -143,10 +147,10 @@
         },
         {
           "item": "egebm",
-          "text_de": "Monat:",
           "text": "Month:",
-          "scale": "int",
+          "text_de": "Monat:",
           "concept": "egebm",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
@@ -159,19 +163,19 @@
         },
         {
           "item": "egebj",
-          "text_de": "Jahr 2009",
           "text": "Year:",
-          "scale": "int",
+          "text_de": "Jahr 2009",
           "concept": "egebj",
+          "scale": "int",
           "sn": 5,
           "number": ""
         },
         {
           "item": "esex",
-          "text_de": "…",
           "text": "sex",
-          "scale": "cat",
+          "text_de": "…",
           "concept": "esex",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -200,10 +204,11 @@
       "question": "3",
       "name": "3",
       "label": "Are you the child, mother or father?",
+      "label_de": "Sind Sie die Mutter oder der Vater des Kindes?",
       "items": [
         {
-          "text_de": "Sind Sie die Mutter oder der Vater des Kindes?",
           "text": "Are you the child, mother or father?",
+          "text_de": "Sind Sie die Mutter oder der Vater des Kindes?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -211,10 +216,10 @@
         },
         {
           "item": "eleib",
-          "text_de": "Ja, und zwar:",
           "text": "Yes, I am:",
-          "scale": "cat",
+          "text_de": "Ja, und zwar:",
           "concept": "eleib",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -258,12 +263,13 @@
       "question": "4",
       "name": "4",
       "label": "Do you or other household members speak German with your child or another language as well?",
+      "label_de": "Sprechen Sie oder andere Haushaltsmitglieder mit Ihrem Kind nur Deutsch oder auch in einer anderen Sprache?",
       "items": [
         {
-          "text_de": "Sprechen Sie oder andere Haushaltsmitglieder mit Ihrem Kind nur Deutsch oder auch in einer anderen Sprache?",
           "text": "Do you or other household members speak German with your child or another language as well?",
-          "scale": "cat",
+          "text_de": "Sprechen Sie oder andere Haushaltsmitglieder mit Ihrem Kind nur Deutsch oder auch in einer anderen Sprache?",
           "concept": "edtsch1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -291,10 +297,10 @@
         },
         {
           "item": "edtsch2",
-          "text_de": "[andere Sprache] und zwar:",
           "text": "[other language]:",
-          "scale": "chr",
+          "text_de": "[andere Sprache] und zwar:",
           "concept": "edtsch2",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         }
@@ -307,12 +313,13 @@
       "question": "5",
       "name": "5",
       "label": "To what extent do the following secondary school-leaving certificates correspond to the ideal education you would like for your child?",
+      "label_de": "Inwieweit entsprechen die folgenden Schulabschlüsse Ihrer persönlichen Idealvorstellung für die schulische Ausbildung des Kindes?",
       "items": [
         {
-          "text_de": "Inwieweit entsprechen die folgenden Schulabschlüsse Ihrer persönlichen Idealvorstellung für die schulische Ausbildung des Kindes?",
-          "instruction_de": "Antworten Sie bitte anhand einer Skala von 1 bis 7.\nDer Wert 1 bedeutet, dass der Abschluss überhaupt nicht, der Wert 7 voll und ganz\" Ihren persönlichen Vorstellungen entspricht.\nMit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "text": "To what extent do the following secondary school-leaving certificates correspond to the ideal education you would like for your child?",
+          "text_de": "Inwieweit entsprechen die folgenden Schulabschlüsse Ihrer persönlichen Idealvorstellung für die schulische Ausbildung des Kindes?",
           "instruction": "Please answer on a scale from 1 to 7, where 1 means “not at all” and 7 means “completely”",
+          "instruction_de": "Antworten Sie bitte anhand einer Skala von 1 bis 7.\nDer Wert 1 bedeutet, dass der Abschluss überhaupt nicht, der Wert 7 voll und ganz\" Ihren persönlichen Vorstellungen entspricht.\nMit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -320,10 +327,10 @@
         },
         {
           "item": "esch1",
-          "text_de": "Hauptschulabschluss",
           "text": "Lower secondary school-leaving certificate (Hauptschulabschluss)",
-          "scale": "cat",
+          "text_de": "Hauptschulabschluss",
           "concept": "esch1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -370,10 +377,10 @@
         },
         {
           "item": "esch2",
-          "text_de": "Mittlerer Schulabschluss (z.B. Realschulabschluss)",
           "text": "Intermediate secondary school-leaving certificate (Mittlere Reife, Realschulabschluss)",
-          "scale": "cat",
+          "text_de": "Mittlerer Schulabschluss (z.B. Realschulabschluss)",
           "concept": "esch2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -420,10 +427,10 @@
         },
         {
           "item": "esch3",
-          "text_de": "Abitur",
           "text": "Upper secondary school-leaving certificate (Abitur)",
-          "scale": "cat",
+          "text_de": "Abitur",
           "concept": "esch3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -477,12 +484,13 @@
       "question": "6",
       "name": "6",
       "label": "How likely do you think it is that your child will obtain one of the following school-leaving certificates?",
+      "label_de": "Und für wie wahrscheinlich halten Sie es, dass das Kind die Schule mit einem der folgenden Abschlüsse verlassen wird?",
       "items": [
         {
-          "text_de": "Und für wie wahrscheinlich halten Sie es, dass das Kind die Schule mit einem der folgenden Abschlüsse verlassen wird?",
-          "instruction_de": "Antworten Sie bitte anhand einer Skala von 1 bis 7.\nDer Wert 1 bedeutet, dass der Abschluss überhaupt nicht, der Wert 7 voll und ganz\" Ihren persönlichen Vorstellungen entspricht.\nMit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "text": "How likely do you think it is that your child will obtain one of the following school-leaving certificates?",
+          "text_de": "Und für wie wahrscheinlich halten Sie es, dass das Kind die Schule mit einem der folgenden Abschlüsse verlassen wird?",
           "instruction": "Please answer again on a scale from 1 to 7, where 1 means “not at all”, and 7 means “completely”",
+          "instruction_de": "Antworten Sie bitte anhand einer Skala von 1 bis 7.\nDer Wert 1 bedeutet, dass der Abschluss überhaupt nicht, der Wert 7 voll und ganz\" Ihren persönlichen Vorstellungen entspricht.\nMit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -490,10 +498,10 @@
         },
         {
           "item": "esch4",
-          "text_de": "Hauptschulabschluss",
           "text": "Lower secondary school-leaving certificate (Hauptschulabschluss)",
-          "scale": "cat",
+          "text_de": "Hauptschulabschluss",
           "concept": "esch4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -540,10 +548,10 @@
         },
         {
           "item": "esch5",
-          "text_de": "Mittlerer Schulabschluss (z.B. Realschulabschluss)",
           "text": "Intermediate secondary school-leaving certificate (Mittlere Reife, Realschulabschluss)",
-          "scale": "cat",
+          "text_de": "Mittlerer Schulabschluss (z.B. Realschulabschluss)",
           "concept": "esch5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -590,10 +598,10 @@
         },
         {
           "item": "esch6",
-          "text_de": "Abitur",
           "text": "Upper secondary school-leaving certificate (Abitur)",
-          "scale": "cat",
+          "text_de": "Abitur",
           "concept": "esch6",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -647,10 +655,11 @@
       "question": "7",
       "name": "7",
       "label": "What school does/did your child attend in 2018/2019?",
+      "label_de": "Welche Schule besucht bzw. besuchte das Kind im Schuljahr 2018/2019?",
       "items": [
         {
-          "text_de": "Welche Schule besucht bzw. besuchte das Kind im Schuljahr 2018/2019?",
           "text": "What school does/did your child attend in 2018/2019?",
+          "text_de": "Welche Schule besucht bzw. besuchte das Kind im Schuljahr 2018/2019?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -658,82 +667,82 @@
         },
         {
           "item": "esch7",
-          "text_de": "Grundschule",
           "text": "Primary school",
-          "scale": "bin",
+          "text_de": "Grundschule",
           "concept": "esch7",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "esch12",
-          "text_de": "Hauptschule",
           "text": "general school",
-          "scale": "bin",
+          "text_de": "Hauptschule",
           "concept": "esch12",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "esch13",
-          "text_de": "Realschule",
           "text": "Intermediate school (Realschule)",
-          "scale": "bin",
+          "text_de": "Realschule",
           "concept": "esch13",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "esch14",
-          "text_de": "Gymnasium",
           "text": "Upper Secondary (Gymnasium)",
-          "scale": "bin",
+          "text_de": "Gymnasium",
           "concept": "esch14",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "esch15",
-          "text_de": "Gesamtschule",
           "text": "comprehensive school",
-          "scale": "bin",
+          "text_de": "Gesamtschule",
           "concept": "esch15",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "esch8",
-          "text_de": "Schule mit einem speziellen pädagogischen Konzept, z.B. Montessori, Waldorf",
           "text": "School with special pedagogic concept (Montessori, Waldorf)",
-          "scale": "bin",
+          "text_de": "Schule mit einem speziellen pädagogischen Konzept, z.B. Montessori, Waldorf",
           "concept": "esch8",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "esch9",
-          "text_de": "Förderschule, Sonderschule, Sprachheilschule",
           "text": "School for children with learn difficulties (Förderschule, Sonderschule, Sprachheilschule)",
-          "scale": "bin",
+          "text_de": "Förderschule, Sonderschule, Sprachheilschule",
           "concept": "esch9",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "esch10",
-          "text_de": "Sonstige Schule",
           "text": "Other schools",
-          "scale": "bin",
+          "text_de": "Sonstige Schule",
           "concept": "esch10",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "esch11",
-          "text_de": "[Sonstige Schule] und zwar:",
           "text": "[Other school]:",
-          "scale": "chr",
+          "text_de": "[Sonstige Schule] und zwar:",
           "concept": "esch11",
+          "scale": "chr",
           "sn": 9,
           "number": ""
         },
@@ -746,18 +755,18 @@
         },
         {
           "item": "1",
-          "text_de": "Wann wurde das Kind eingeschult?",
           "text": "When did the child start school?",
+          "text_de": "Wann wurde das Kind eingeschult?",
           "scale": "txt",
           "sn": 11,
           "number": ""
         },
         {
           "item": "eschmo",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "eschmo",
+          "scale": "int",
           "sn": 12,
           "number": ""
         },
@@ -770,10 +779,10 @@
         },
         {
           "item": "eschj",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "eschj",
+          "scale": "int",
           "sn": 14,
           "number": ""
         },
@@ -793,21 +802,22 @@
       "question": "8",
       "name": "8",
       "label": "What was the child's grade in the following two subjects on his/her last report card?",
+      "label_de": "Welche Note hatte das Kind in seinem letzten Zeugnis in den folgenden zwei Fächern?",
       "items": [
         {
           "item": "0",
-          "text_de": "Welche Note hatte das Kind in seinem letzten Zeugnis in den folgenden zwei Fächern?",
           "text": "What was the child's grade in the following two subjects on his/her last report card?",
+          "text_de": "Welche Note hatte das Kind in seinem letzten Zeugnis in den folgenden zwei Fächern?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "enot1",
-          "text_de": "Schulnote von 1 bis 6 [Deutsch]",
           "text": "German [grade from 1 to 6]",
-          "scale": "int",
+          "text_de": "Schulnote von 1 bis 6 [Deutsch]",
           "concept": "enot1",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
@@ -820,10 +830,10 @@
         },
         {
           "item": "enot2",
-          "text_de": "Schulnote von 1 bis 6 [Mathematik]",
           "text": "Mathematics [grade from 1 to 6]",
-          "scale": "int",
+          "text_de": "Schulnote von 1 bis 6 [Mathematik]",
           "concept": "enot2",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
@@ -836,10 +846,10 @@
         },
         {
           "item": "enot3",
-          "text_de": "Trifft nicht zu, keine Schulnoten im Zeugnis enthalten ",
           "text": "Does not apply, no grades on report card.",
-          "scale": "bin",
+          "text_de": "Trifft nicht zu, keine Schulnoten im Zeugnis enthalten ",
           "concept": "enot3",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         }
@@ -852,77 +862,78 @@
       "question": "9",
       "name": "9",
       "label": "In which way are you looking for contact with school?",
+      "label_de": "In welcher Weise suchen Sie den Kontakt mit der Schule?",
       "items": [
         {
           "item": "0",
-          "text_de": "In welcher Weise suchen Sie den Kontakt mit der Schule?",
-          "instruction_de": "Bitte alles Zutreffende angeben!",
           "text": "In which way are you looking for contact with school?",
+          "text_de": "In welcher Weise suchen Sie den Kontakt mit der Schule?",
           "instruction": "Please state all that apply!",
+          "instruction_de": "Bitte alles Zutreffende angeben!",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "eelt11",
-          "text_de": "Regelmäßige Teilnahme am Elternabend",
           "text": "Regular participation to parent's meetings at school",
-          "scale": "bin",
+          "text_de": "Regelmäßige Teilnahme am Elternabend",
           "concept": "eelt11",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "eelt12",
-          "text_de": "Regelmäßige Besuche von Elternsprechtagen",
           "text": "Regular visits to parent's meetings at school",
-          "scale": "bin",
+          "text_de": "Regelmäßige Besuche von Elternsprechtagen",
           "concept": "eelt12",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "eelt13",
-          "text_de": "Aufsuchen des Lehrers / der Lehrerin auch außerhalb von Sprechtagen",
           "text": "Visiting teachers outside consultation hours",
-          "scale": "bin",
+          "text_de": "Aufsuchen des Lehrers / der Lehrerin auch außerhalb von Sprechtagen",
           "concept": "eelt13",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "eelt14",
-          "text_de": "Engagement als Elternvertreter",
           "text": "Engagement as parent representatives",
-          "scale": "bin",
+          "text_de": "Engagement als Elternvertreter",
           "concept": "eelt14",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "eelt16",
-          "text_de": "Sonstige Unterstützung der Lehrer / Schule (wie Unterstützung bei Schulfesten, Ausflügen, Pausenraumgestaltung etc.)",
           "text": "Other support of teachers / school ( supporting to school events, excursions, breaking room design etc.)",
-          "scale": "bin",
+          "text_de": "Sonstige Unterstützung der Lehrer / Schule (wie Unterstützung bei Schulfesten, Ausflügen, Pausenraumgestaltung etc.)",
           "concept": "eelt16",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "eelt17",
-          "text_de": "Mitglied im Förderverein",
           "text": "Member of booster club",
-          "scale": "bin",
+          "text_de": "Mitglied im Förderverein",
           "concept": "eelt17",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "eelt15",
-          "text_de": "Nichts davon",
           "text": "None Of These",
-          "scale": "bin",
+          "text_de": "Nichts davon",
           "concept": "eelt15",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
@@ -942,29 +953,30 @@
       "question": "10",
       "name": "10",
       "label": "To what extent do the following statements apply to your child?",
+      "label_de": "Inwieweit treffen die folgenden Aussagen auf das Kind zu?",
       "items": [
         {
           "item": "0",
-          "text_de": "Inwieweit treffen die folgenden Aussagen auf das Kind zu?",
           "text": "To what extent do the following statements apply to your child?",
+          "text_de": "Inwieweit treffen die folgenden Aussagen auf das Kind zu?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
-          "text_de": "Das Kind ...",
           "text": "My child …",
+          "text_de": "Das Kind ...",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "esch22",
-          "text_de": "geht gerne in die Schule",
           "text": "gets along with his/her classmates.",
-          "scale": "cat",
+          "text_de": "geht gerne in die Schule",
           "concept": "esch22",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1001,10 +1013,10 @@
         },
         {
           "item": "esch26",
-          "text_de": "versteht sich nicht gut mit seinen Klassenkameraden",
           "text": "thinks school is a waste of time.",
-          "scale": "cat",
+          "text_de": "versteht sich nicht gut mit seinen Klassenkameraden",
           "concept": "esch26",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1041,10 +1053,10 @@
         },
         {
           "item": "esch27",
-          "text_de": "empfindet Schule als reine Zeitverschwendung",
           "text": "thinks school is a waste of time.",
-          "scale": "cat",
+          "text_de": "empfindet Schule als reine Zeitverschwendung",
           "concept": "esch27",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1081,10 +1093,10 @@
         },
         {
           "item": "esch28",
-          "text_de": "nimmt Arbeit in der Schule nie ernst",
           "text": "does not take school seriously.",
-          "scale": "cat",
+          "text_de": "nimmt Arbeit in der Schule nie ernst",
           "concept": "esch28",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1121,10 +1133,10 @@
         },
         {
           "item": "esch23",
-          "text_de": "kommt im Unterricht gut mit",
           "text": "keeps up in his/her classes.",
-          "scale": "cat",
+          "text_de": "kommt im Unterricht gut mit",
           "concept": "esch23",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1161,10 +1173,10 @@
         },
         {
           "item": "esch29",
-          "text_de": "kommt mit dem jetzigen Lehrer oder der Lehrerin nicht gut aus",
           "text": "does not get along well with the teacher.",
-          "scale": "cat",
+          "text_de": "kommt mit dem jetzigen Lehrer oder der Lehrerin nicht gut aus",
           "concept": "esch29",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1201,10 +1213,10 @@
         },
         {
           "item": "esch25",
-          "text_de": "lernt gerne",
           "text": "enjoys learning.",
-          "scale": "cat",
+          "text_de": "lernt gerne",
           "concept": "esch25",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1248,13 +1260,14 @@
       "question": "11",
       "name": "11",
       "label": "Where does your child do his/her homework most of the time? At home, at relative's/friend's home, in after-school care, or elsewhere?",
+      "label_de": "Wo macht Ihr Kind meistens seine Hausaufgaben? Zu Hause, bei Verwandten / Freunden, in der Nachmittagsbetreuung / im Hort oder woanders? ",
       "items": [
         {
           "item": "ehaus1",
-          "text_de": "Wo macht Ihr Kind meistens seine Hausaufgaben? Zu Hause, bei Verwandten / Freunden, in der Nachmittagsbetreuung / im Hort oder woanders? ",
           "text": "Where does your child do his/her homework most of the time? At home, at relative's/friend's home, in after-school care, or elsewhere?",
-          "scale": "cat",
+          "text_de": "Wo macht Ihr Kind meistens seine Hausaufgaben? Zu Hause, bei Verwandten / Freunden, in der Nachmittagsbetreuung / im Hort oder woanders? ",
           "concept": "ehaus1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1293,13 +1306,14 @@
       "question": "12",
       "name": "12",
       "label": "How often do you or your partner help your child with his/her homework?",
+      "label_de": "Wie häufig wird Ihr Kind von Ihnen oder Ihrem Partner selbst bei den Hausaufgaben unterstützt (d.h. Sie erklären, kontrollieren, oder sitzen dabei)? ",
       "items": [
         {
           "item": "ehaus2",
-          "text_de": "Wie häufig wird Ihr Kind von Ihnen oder Ihrem Partner selbst bei den Hausaufgaben unterstützt (d.h. Sie erklären, kontrollieren, oder sitzen dabei)? ",
           "text": "How often do you or your partner help your child with his/her homework?",
-          "scale": "cat",
+          "text_de": "Wie häufig wird Ihr Kind von Ihnen oder Ihrem Partner selbst bei den Hausaufgaben unterstützt (d.h. Sie erklären, kontrollieren, oder sitzen dabei)? ",
           "concept": "ehaus2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1338,10 +1352,11 @@
       "question": "13",
       "name": "13",
       "label": "How often does your child take part in the following leisure activities?",
+      "label_de": "Wie häufig übt das Kind die folgenden Freizeitbeschäftigungen aus?",
       "items": [
         {
-          "text_de": "Wie häufig übt das Kind die folgenden Freizeitbeschäftigungen aus?",
           "text": "How often does your child take part in the following leisure activities?",
+          "text_de": "Wie häufig übt das Kind die folgenden Freizeitbeschäftigungen aus?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -1349,10 +1364,10 @@
         },
         {
           "item": "efz01",
-          "text_de": "Fernsehen / DVD / Internet-Streams (z.B. YouTube)",
           "text": "Watching TV / DVD / Internet-Streams (e.g. YouTube)",
-          "scale": "cat",
+          "text_de": "Fernsehen / DVD / Internet-Streams (z.B. YouTube)",
           "concept": "efz01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1389,10 +1404,10 @@
         },
         {
           "item": "efz02",
-          "text_de": "Computer- / Online- / Konsolen oder Smartphonespiele",
           "text": "Computer- / Online- / consoles or gaming smartphone",
-          "scale": "cat",
+          "text_de": "Computer- / Online- / Konsolen oder Smartphonespiele",
           "concept": "efz02",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1429,10 +1444,10 @@
         },
         {
           "item": "efz21",
-          "text_de": "Nutzen sozialer Online-Netzwerke",
           "text": "Making use of online-networks",
-          "scale": "cat",
+          "text_de": "Nutzen sozialer Online-Netzwerke",
           "concept": "efz21",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1469,10 +1484,10 @@
         },
         {
           "item": "efz22",
-          "text_de": "Telefonieren (einschließlich Skypen o.ä.)",
           "text": "Phoning (Skype etc.)",
-          "scale": "cat",
+          "text_de": "Telefonieren (einschließlich Skypen o.ä.)",
           "concept": "efz22",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1509,10 +1524,10 @@
         },
         {
           "item": "efz23",
-          "text_de": "Austausch per SMS oder Messenger",
           "text": "Texting (sending and receiving text messages)",
-          "scale": "cat",
+          "text_de": "Austausch per SMS oder Messenger",
           "concept": "efz23",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1549,10 +1564,10 @@
         },
         {
           "item": "efz14",
-          "text_de": "Sonstiges Surfen im Internet",
           "text": "Other internet surfing",
-          "scale": "cat",
+          "text_de": "Sonstiges Surfen im Internet",
           "concept": "efz14",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1589,10 +1604,10 @@
         },
         {
           "item": "efz03",
-          "text_de": "Musik hören",
           "text": "Listen to music",
-          "scale": "cat",
+          "text_de": "Musik hören",
           "concept": "efz03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1629,10 +1644,10 @@
         },
         {
           "item": "efz04",
-          "text_de": "Musik machen",
           "text": "Making music",
-          "scale": "cat",
+          "text_de": "Musik machen",
           "concept": "efz04",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1669,10 +1684,10 @@
         },
         {
           "item": "efz05",
-          "text_de": "Sport treiben",
           "text": "Doing sport",
-          "scale": "cat",
+          "text_de": "Sport treiben",
           "concept": "efz05",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1709,10 +1724,10 @@
         },
         {
           "item": "efz17",
-          "text_de": "Mit der Familie etwas unternehmen z.B. Ausflüge oder Ähnliches",
           "text": "Doing something together with the whole family e.g. tours etc.",
-          "scale": "cat",
+          "text_de": "Mit der Familie etwas unternehmen z.B. Ausflüge oder Ähnliches",
           "concept": "efz17",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1749,10 +1764,10 @@
         },
         {
           "item": "efz19",
-          "text_de": "Mit Freunden zusammen sein",
           "text": "Spending time with friends",
-          "scale": "cat",
+          "text_de": "Mit Freunden zusammen sein",
           "concept": "efz19",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1789,10 +1804,10 @@
         },
         {
           "item": "efz06",
-          "text_de": "Tanz, Theater oder Ãhnliches",
           "text": "Dancing, theatre etc.",
-          "scale": "cat",
+          "text_de": "Tanz, Theater oder Ãhnliches",
           "concept": "efz06",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1829,10 +1844,10 @@
         },
         {
           "item": "efz07",
-          "text_de": "Technisches Werken und Arbeiten",
           "text": "Technical working",
-          "scale": "cat",
+          "text_de": "Technisches Werken und Arbeiten",
           "concept": "efz07",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1869,10 +1884,10 @@
         },
         {
           "item": "efz18",
-          "text_de": "Malen und Basteln",
           "text": "Painting or doing arts and crafts",
-          "scale": "cat",
+          "text_de": "Malen und Basteln",
           "concept": "efz18",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1909,10 +1924,10 @@
         },
         {
           "item": "efz08",
-          "text_de": "Lesen",
           "text": "Reading",
-          "scale": "cat",
+          "text_de": "Lesen",
           "concept": "efz08",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1949,10 +1964,10 @@
         },
         {
           "item": "efz10",
-          "text_de": "Einfach nichts tun / abhängen / träumen",
           "text": "simply do nothing / hanging out / dreaming",
-          "scale": "cat",
+          "text_de": "Einfach nichts tun / abhängen / träumen",
           "concept": "efz10",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1989,10 +2004,10 @@
         },
         {
           "item": "efz16",
-          "text_de": "Zur Kirche gehen, religiöse Veranstaltungen besuchen",
           "text": "Going to church, visiting religious events",
-          "scale": "cat",
+          "text_de": "Zur Kirche gehen, religiöse Veranstaltungen besuchen",
           "concept": "efz16",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2029,10 +2044,10 @@
         },
         {
           "item": "efz20",
-          "text_de": "In eine Jugendgruppe gehen (z.B. Pfadfinder, kirchliche Gruppen, Umweltgruppen)",
           "text": "Youth groups (for example, Pathfinders, church youth groups, environmental groups, etc.)",
-          "scale": "cat",
+          "text_de": "In eine Jugendgruppe gehen (z.B. Pfadfinder, kirchliche Gruppen, Umweltgruppen)",
           "concept": "efz20",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2069,10 +2084,10 @@
         },
         {
           "item": "efz25",
-          "text_de": "Sozial engagieren / Hilfsprojekte unterstützen",
           "text": "Doing social work / supporting aid projects",
-          "scale": "cat",
+          "text_de": "Sozial engagieren / Hilfsprojekte unterstützen",
           "concept": "efz25",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2109,10 +2124,10 @@
         },
         {
           "item": "efz24",
-          "text_de": "Um ein Haustier / Tiere kümmern",
           "text": "Taking care of pets / animals",
-          "scale": "cat",
+          "text_de": "Um ein Haustier / Tiere kümmern",
           "concept": "efz24",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2156,10 +2171,11 @@
       "question": "14",
       "name": "14",
       "label": "Where and with whom does your child eat his/her meals? Please answer for normal weekdays and weekends.",
+      "label_de": "Wo und mit wem nimmt ihr Kind die folgenden Mahlzeiten gewöhnlich ein? Auch wenn es nicht immer gleich ist, geben Sie bitte an, wie das an Wochentagen, an Samstagen und an Sonntagen meistens ist. ",
       "items": [
         {
-          "text_de": "Wo und mit wem nimmt ihr Kind die folgenden Mahlzeiten gewöhnlich ein? Auch wenn es nicht immer gleich ist, geben Sie bitte an, wie das an Wochentagen, an Samstagen und an Sonntagen meistens ist. ",
           "text": "Where and with whom does your child eat his/her meals? Please answer for normal weekdays and weekends.",
+          "text_de": "Wo und mit wem nimmt ihr Kind die folgenden Mahlzeiten gewöhnlich ein? Auch wenn es nicht immer gleich ist, geben Sie bitte an, wie das an Wochentagen, an Samstagen und an Sonntagen meistens ist. ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -2167,18 +2183,18 @@
         },
         {
           "item": "3",
-          "text_de": "unter der Woche",
           "text": "during the week",
+          "text_de": "unter der Woche",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "eessfw",
-          "text_de": "[unter der Woche] Frühstück",
           "text": "[during the week] breakfast",
-          "scale": "cat",
+          "text_de": "[unter der Woche] Frühstück",
           "concept": "eessfw",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2215,10 +2231,10 @@
         },
         {
           "item": "eessmw",
-          "text_de": "[unter der Woche] Mittagessen",
           "text": "[during the week] lunch",
-          "scale": "cat",
+          "text_de": "[unter der Woche] Mittagessen",
           "concept": "eessmw",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2255,10 +2271,10 @@
         },
         {
           "item": "eessaw",
-          "text_de": "[unter der Woche] Abendessen",
           "text": "[during the week] dinner",
-          "scale": "cat",
+          "text_de": "[unter der Woche] Abendessen",
           "concept": "eessaw",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2295,18 +2311,18 @@
         },
         {
           "item": "4",
-          "text_de": "am Samstag",
           "text": "on saturdays",
+          "text_de": "am Samstag",
           "scale": "txt",
           "sn": 5,
           "number": ""
         },
         {
           "item": "eessfsa",
-          "text_de": "[am Samstag] Frühstück",
           "text": "[saturdays] breakfast",
-          "scale": "cat",
+          "text_de": "[am Samstag] Frühstück",
           "concept": "eessfsa",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2343,10 +2359,10 @@
         },
         {
           "item": "eessmsa",
-          "text_de": "[am Samstag] Mittagessen",
           "text": "[saturdays] lunch",
-          "scale": "cat",
+          "text_de": "[am Samstag] Mittagessen",
           "concept": "eessmsa",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2383,10 +2399,10 @@
         },
         {
           "item": "eessasa",
-          "text_de": "[am Samstag] Abendessen",
           "text": "[saturdays] dinner",
-          "scale": "cat",
+          "text_de": "[am Samstag] Abendessen",
           "concept": "eessasa",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2423,18 +2439,18 @@
         },
         {
           "item": "5",
-          "text_de": "am Sonntag",
           "text": "on sundays",
+          "text_de": "am Sonntag",
           "scale": "txt",
           "sn": 9,
           "number": ""
         },
         {
           "item": "eessfso",
-          "text_de": "[am Sonntag] Frühstück",
           "text": "[sundays] breakfast",
-          "scale": "cat",
+          "text_de": "[am Sonntag] Frühstück",
           "concept": "eessfso",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2471,10 +2487,10 @@
         },
         {
           "item": "eessmso",
-          "text_de": "[am Sonntag] Mittagessen",
           "text": "[sundays] lunch",
-          "scale": "cat",
+          "text_de": "[am Sonntag] Mittagessen",
           "concept": "eessmso",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2511,10 +2527,10 @@
         },
         {
           "item": "eessaso",
-          "text_de": "[am Sonntag] Abendessen",
           "text": "[sundays] dinner",
-          "scale": "cat",
+          "text_de": "[am Sonntag] Abendessen",
           "concept": "eessaso",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2558,12 +2574,13 @@
       "question": "15",
       "name": "15",
       "label": "How would you rank your child in comparison to other children of the same age? My child …",
+      "label_de": "Wie würden Sie das Kind im Vergleich zu anderen Kindern gleichen Alters beurteilen?",
       "items": [
         {
-          "text_de": "Wie würden Sie das Kind im Vergleich zu anderen Kindern gleichen Alters beurteilen?",
-          "instruction_de": "Je weiter links Sie Ihr Kreuz machen, um so mehr trifft die linke Eigenschaft zu, je weiter rechts Sie Ihr Kreuz machen, um so mehr trifft die rechte Eigenschaft zu! ",
           "text": "How would you rank your child in comparison to other children of the same age? My child …",
+          "text_de": "Wie würden Sie das Kind im Vergleich zu anderen Kindern gleichen Alters beurteilen?",
           "instruction": "The further to the left you make the X, the more the characteristic on the left side applies. The further to the right you make the X, the more the characteristic on the right side applies.",
+          "instruction_de": "Je weiter links Sie Ihr Kreuz machen, um so mehr trifft die linke Eigenschaft zu, je weiter rechts Sie Ihr Kreuz machen, um so mehr trifft die rechte Eigenschaft zu! ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -2571,8 +2588,8 @@
         },
         {
           "item": "everg01",
-          "scale": "cat",
           "concept": "everg01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2639,8 +2656,8 @@
         },
         {
           "item": "everg02",
-          "scale": "cat",
           "concept": "everg02",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2707,8 +2724,8 @@
         },
         {
           "item": "everg03",
-          "scale": "cat",
           "concept": "everg03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2775,8 +2792,8 @@
         },
         {
           "item": "everg04",
-          "scale": "cat",
           "concept": "everg04",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2843,8 +2860,8 @@
         },
         {
           "item": "everg05",
-          "scale": "cat",
           "concept": "everg05",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2911,8 +2928,8 @@
         },
         {
           "item": "everg06",
-          "scale": "cat",
           "concept": "everg06",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2979,8 +2996,8 @@
         },
         {
           "item": "everg07",
-          "scale": "cat",
           "concept": "everg07",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3047,8 +3064,8 @@
         },
         {
           "item": "everg08",
-          "scale": "cat",
           "concept": "everg08",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3115,8 +3132,8 @@
         },
         {
           "item": "everg09",
-          "scale": "cat",
           "concept": "everg09",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3183,8 +3200,8 @@
         },
         {
           "item": "everg10",
-          "scale": "cat",
           "concept": "everg10",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3258,12 +3275,13 @@
       "question": "16",
       "name": "16",
       "label": "Has your child been diagnosed by a doctor as having one of the following health conditions or impairments?",
+      "label_de": "Ist im Rahmen einer ärztlichen Untersuchung bei ihrem Kind einmal eine der folgenden Erkrankungen oder Störungen festgestellt worden?",
       "items": [
         {
-          "text_de": "Ist im Rahmen einer ärztlichen Untersuchung bei ihrem Kind einmal eine der folgenden Erkrankungen oder Störungen festgestellt worden?",
-          "instruction_de": "Bitte alles Zutreffende angeben!",
           "text": "Has your child been diagnosed by a doctor as having one of the following health conditions or impairments?",
+          "text_de": "Ist im Rahmen einer ärztlichen Untersuchung bei ihrem Kind einmal eine der folgenden Erkrankungen oder Störungen festgestellt worden?",
           "instruction": "Please state all that apply!",
+          "instruction_de": "Bitte alles Zutreffende angeben!",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -3271,82 +3289,82 @@
         },
         {
           "item": "estor1",
-          "text_de": "Atemwegserkrankungen (Asthma, Bronchitis oder Ãhnliches)",
           "text": "Respiratory disease (asthma, bronchitis or similar)",
-          "scale": "bin",
+          "text_de": "Atemwegserkrankungen (Asthma, Bronchitis oder Ãhnliches)",
           "concept": "estor1",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "estor15",
-          "text_de": "Allergien",
           "text": "Allergies",
-          "scale": "bin",
+          "text_de": "Allergien",
           "concept": "estor15",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "estor3",
-          "text_de": "Neurodermitis",
           "text": "Neurodermatitis",
-          "scale": "bin",
+          "text_de": "Neurodermitis",
           "concept": "estor3",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "estor4",
-          "text_de": "Fehlsichtigkeit (z.B. Kurz- bzw. Weitsichtigkeit, Schielen)",
           "text": "Vision impairment (e.g., far-sightedness, near-sightedness, crossed eyes)",
-          "scale": "bin",
+          "text_de": "Fehlsichtigkeit (z.B. Kurz- bzw. Weitsichtigkeit, Schielen)",
           "concept": "estor4",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "estor5",
-          "text_de": "Ernährungsstörungen",
           "text": "Nutritional disorder",
-          "scale": "bin",
+          "text_de": "Ernährungsstörungen",
           "concept": "estor5",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "estor6",
-          "text_de": "Störungen der Motorik, des Bewegungsapparates",
           "text": "Motor impairment (disorder of the locomotor apparatus)",
-          "scale": "bin",
+          "text_de": "Störungen der Motorik, des Bewegungsapparates",
           "concept": "estor6",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "estor7",
-          "text_de": "Sonstige Störungen / Behinderungen",
           "text": "Other impairment or disorder",
-          "scale": "bin",
+          "text_de": "Sonstige Störungen / Behinderungen",
           "concept": "estor7",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "estor9",
-          "text_de": "Nein, nichts davon",
           "text": "No, none of the above",
-          "scale": "bin",
+          "text_de": "Nein, nichts davon",
           "concept": "estor9",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "estor8",
-          "text_de": "[Sonstige Störungen / Behinderungen] und zwar:",
           "text": "Other impairment or disorder",
-          "scale": "chr",
+          "text_de": "[Sonstige Störungen / Behinderungen] und zwar:",
           "concept": "estor8",
+          "scale": "chr",
           "sn": 9,
           "number": ""
         },
@@ -3366,13 +3384,14 @@
       "question": "17",
       "name": "17",
       "label": "How would you describe your child's current state of health?",
+      "label_de": "Wie würden Sie den allgemeinen Gesundheitszustand des Kindes beschreiben?",
       "items": [
         {
           "item": "eges01",
-          "text_de": "Wie würden Sie den allgemeinen Gesundheitszustand des Kindes beschreiben?",
           "text": "How would you describe your child's current state of health?",
-          "scale": "cat",
+          "text_de": "Wie würden Sie den allgemeinen Gesundheitszustand des Kindes beschreiben?",
           "concept": "eges01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3416,13 +3435,14 @@
       "question": "18",
       "name": "18",
       "label": "Did your child experience health problems in the last 12 months that necessitated a hospital stay?",
+      "label_de": "Gab es bei dem Kind in den letzten 12 Monaten gesundheitliche Probleme, die einen Krankenhausaufenthalt notwendig machten? ",
       "items": [
         {
           "item": "eges1",
-          "text_de": "Gab es bei dem Kind in den letzten 12 Monaten gesundheitliche Probleme, die einen Krankenhausaufenthalt notwendig machten? ",
           "text": "Did your child experience health problems in the last 12 months that necessitated a hospital stay?",
-          "scale": "cat",
+          "text_de": "Gab es bei dem Kind in den letzten 12 Monaten gesundheitliche Probleme, die einen Krankenhausaufenthalt notwendig machten? ",
           "concept": "eges1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3444,10 +3464,10 @@
         },
         {
           "item": "eges2",
-          "text_de": "[Ja] und zwar ... Tage",
           "text": "[Yes] … days",
-          "scale": "int",
+          "text_de": "[Ja] und zwar ... Tage",
           "concept": "eges2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
@@ -3467,13 +3487,14 @@
       "question": "19",
       "name": "19",
       "label": "Did you have to go to or call a doctor in the last 3 months because of your child's health problems?",
+      "label_de": "Mussten Sie in den letzten 3 Monaten wegen gesundheitlicher Probleme des Kindes einen Arzt aufsuchen oder rufen?",
       "items": [
         {
           "item": "earz1",
-          "text_de": "Mussten Sie in den letzten 3 Monaten wegen gesundheitlicher Probleme des Kindes einen Arzt aufsuchen oder rufen?",
           "text": "Did you have to go to or call a doctor in the last 3 months because of your child's health problems?",
-          "scale": "cat",
+          "text_de": "Mussten Sie in den letzten 3 Monaten wegen gesundheitlicher Probleme des Kindes einen Arzt aufsuchen oder rufen?",
           "concept": "earz1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3495,10 +3516,10 @@
         },
         {
           "item": "earz2",
-          "text_de": "[Ja] und zwar ... mal",
           "text": "[Yes] … times",
-          "scale": "int",
+          "text_de": "[Ja] und zwar ... mal",
           "concept": "earz2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
@@ -3518,10 +3539,11 @@
       "question": "20",
       "name": "20",
       "label": "Now to the subject circle of friend. How many close friends has you child? Can be children and adults",
+      "label_de": "Nun zum Thema Freundes- und Bekanntenkreis: Sagen Sie uns bitte zunächst, wie viele enge Freunde hat das Kind? Es kann sich sowohl um Kinder als auch um Erwachsene handeln. ",
       "items": [
         {
-          "text_de": "Nun zum Thema Freundes- und Bekanntenkreis: Sagen Sie uns bitte zunächst, wie viele enge Freunde hat das Kind? Es kann sich sowohl um Kinder als auch um Erwachsene handeln. ",
           "text": "Now to the subject circle of friend. How many close friends has you child? Can be children and adults",
+          "text_de": "Nun zum Thema Freundes- und Bekanntenkreis: Sagen Sie uns bitte zunächst, wie viele enge Freunde hat das Kind? Es kann sich sowohl um Kinder als auch um Erwachsene handeln. ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -3529,10 +3551,10 @@
         },
         {
           "item": "efreu",
-          "text_de": "Anzahl Kinder",
           "text": "Number children:",
-          "scale": "int",
+          "text_de": "Anzahl Kinder",
           "concept": "efreu",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
@@ -3545,10 +3567,10 @@
         },
         {
           "item": "efreua",
-          "text_de": "Anzahl Erwachsene",
           "text": "Number adults:",
-          "scale": "int",
+          "text_de": "Anzahl Erwachsene",
           "concept": "efreua",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
@@ -3568,12 +3590,13 @@
       "question": "21",
       "name": "21",
       "label": "To what extent do you agree with the following statements about your child? For each answer, think about your child’s behavior in the last six months. ",
+      "label_de": "Im Folgenden haben wir eine Reihe von Aussagen aufgelistet: Inwieweit treffen diese Aussagen auf das Kind zu oder nicht zu? Bitte berücksichtigen Sie bei der Antwort das Verhalten des Kindes in den letzten sechs Monaten.",
       "items": [
         {
-          "text_de": "Im Folgenden haben wir eine Reihe von Aussagen aufgelistet: Inwieweit treffen diese Aussagen auf das Kind zu oder nicht zu? Bitte berücksichtigen Sie bei der Antwort das Verhalten des Kindes in den letzten sechs Monaten.",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "text": "To what extent do you agree with the following statements about your child? For each answer, think about your child’s behavior in the last six months. ",
+          "text_de": "Im Folgenden haben wir eine Reihe von Aussagen aufgelistet: Inwieweit treffen diese Aussagen auf das Kind zu oder nicht zu? Bitte berücksichtigen Sie bei der Antwort das Verhalten des Kindes in den letzten sechs Monaten.",
           "instruction": "Please answer on a scale from 1 to 7, where 1 means “does not apply at all” and 7 means “applies completely”",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -3581,18 +3604,18 @@
         },
         {
           "item": "6",
-          "text_de": "Das Kind ...",
           "text": "The child ...¦",
+          "text_de": "Das Kind ...",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "ever01",
-          "text_de": "ist rücksichtsvoll",
           "text": "is thoughtful",
-          "scale": "cat",
+          "text_de": "ist rücksichtsvoll",
           "concept": "ever01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3639,10 +3662,10 @@
         },
         {
           "item": "ever02",
-          "text_de": "ist unruhig, überaktiv, kann nicht lange stillsitzen ",
           "text": "is restless, hyperactive, can not sit still long",
-          "scale": "cat",
+          "text_de": "ist unruhig, überaktiv, kann nicht lange stillsitzen ",
           "concept": "ever02",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3689,10 +3712,10 @@
         },
         {
           "item": "ever03",
-          "text_de": "teilt gerne mit anderen Kindern",
           "text": "likes to share with other children",
-          "scale": "cat",
+          "text_de": "teilt gerne mit anderen Kindern",
           "concept": "ever03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3739,10 +3762,10 @@
         },
         {
           "item": "ever04",
-          "text_de": "hat oft Wutanfälle, ist aufbrausend ",
           "text": "often has tantrums, is short-tempered",
-          "scale": "cat",
+          "text_de": "hat oft Wutanfälle, ist aufbrausend ",
           "concept": "ever04",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3789,10 +3812,10 @@
         },
         {
           "item": "ever05",
-          "text_de": "ist ein Einzelgänger, spielt meist alleine ",
           "text": "is a loner, usually plays alone",
-          "scale": "cat",
+          "text_de": "ist ein Einzelgänger, spielt meist alleine ",
           "concept": "ever05",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3839,10 +3862,10 @@
         },
         {
           "item": "ever06",
-          "text_de": "ist hilfsbereit, wenn andere verletzt, krank oder betrübt sind ",
           "text": "is helpful when others are hurt, sick, or sad",
-          "scale": "cat",
+          "text_de": "ist hilfsbereit, wenn andere verletzt, krank oder betrübt sind ",
           "concept": "ever06",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3889,10 +3912,10 @@
         },
         {
           "item": "ever07",
-          "text_de": "ist ständig zappelig",
           "text": "is always fidgety",
-          "scale": "cat",
+          "text_de": "ist ständig zappelig",
           "concept": "ever07",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3939,10 +3962,10 @@
         },
         {
           "item": "ever08",
-          "text_de": "streitet sich oft mit anderen Kindern oder schikaniert sie",
           "text": "often fights with or picks on other children",
-          "scale": "cat",
+          "text_de": "streitet sich oft mit anderen Kindern oder schikaniert sie",
           "concept": "ever08",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3989,10 +4012,10 @@
         },
         {
           "item": "ever09",
-          "text_de": "ist oft unglücklich oder niedergeschlagen, weint häufig ",
           "text": "is often unhappy or downcast, cries a lot",
-          "scale": "cat",
+          "text_de": "ist oft unglücklich oder niedergeschlagen, weint häufig ",
           "concept": "ever09",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4039,10 +4062,10 @@
         },
         {
           "item": "ever10",
-          "text_de": "ist im Allgemeinen bei anderen Kindern beliebt",
           "text": "is generally well-liked by other children",
-          "scale": "cat",
+          "text_de": "ist im Allgemeinen bei anderen Kindern beliebt",
           "concept": "ever10",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4089,10 +4112,10 @@
         },
         {
           "item": "ever11",
-          "text_de": "ist leicht ablenkbar, unkonzentriert ",
           "text": "is easily distracted, unfocused",
-          "scale": "cat",
+          "text_de": "ist leicht ablenkbar, unkonzentriert ",
           "concept": "ever11",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4139,10 +4162,10 @@
         },
         {
           "item": "ever12",
-          "text_de": "ist nervös oder anklammernd in neuen Situationen, verliert leicht das Selbstvertrauen ",
           "text": "is nervous or clingy in new situations, easily loses self-confidence",
-          "scale": "cat",
+          "text_de": "ist nervös oder anklammernd in neuen Situationen, verliert leicht das Selbstvertrauen ",
           "concept": "ever12",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4189,10 +4212,10 @@
         },
         {
           "item": "ever13",
-          "text_de": "wird von anderen gehänselt oder schikaniert.",
           "text": "is often teased or picked on by others",
-          "scale": "cat",
+          "text_de": "wird von anderen gehänselt oder schikaniert.",
           "concept": "ever13",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4239,10 +4262,10 @@
         },
         {
           "item": "ever14",
-          "text_de": "hilft anderen oft freiwillig (Eltern, Lehrern, anderen Kindern) ",
           "text": "often helps others of his/her own accord (parents, teachers, other children)",
-          "scale": "cat",
+          "text_de": "hilft anderen oft freiwillig (Eltern, Lehrern, anderen Kindern) ",
           "concept": "ever14",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4289,10 +4312,10 @@
         },
         {
           "item": "ever15",
-          "text_de": "kommt besser mit Erwachsenen aus als mit anderen Kindern.",
           "text": "gets along better with adults than with children",
-          "scale": "cat",
+          "text_de": "kommt besser mit Erwachsenen aus als mit anderen Kindern.",
           "concept": "ever15",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4339,10 +4362,10 @@
         },
         {
           "item": "ever16",
-          "text_de": "hat viele Ãngste, fürchtet sich leicht.",
           "text": "has a lot of fears, gets scared easily",
-          "scale": "cat",
+          "text_de": "hat viele Ãngste, fürchtet sich leicht.",
           "concept": "ever16",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4389,10 +4412,10 @@
         },
         {
           "item": "ever17",
-          "text_de": "führt Aufgaben zu Ende, kann sich lange konzentrieren ",
           "text": "finishes what he/she starts, can concentrate for a long time",
-          "scale": "cat",
+          "text_de": "führt Aufgaben zu Ende, kann sich lange konzentrieren ",
           "concept": "ever17",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4439,10 +4462,10 @@
         },
         {
           "item": "ever25",
-          "text_de": "denkt nach bevor es handelt",
           "text": "thinks before acting",
-          "scale": "cat",
+          "text_de": "denkt nach bevor es handelt",
           "concept": "ever25",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4496,13 +4519,14 @@
       "question": "22",
       "name": "22",
       "label": "Are you the child's main caregiver?",
+      "label_de": "Sind Sie selbst die Hauptbetreuungsperson des Kindes?",
       "items": [
         {
           "item": "ehbet",
-          "text_de": "Sind Sie selbst die Hauptbetreuungsperson des Kindes?",
           "text": "Are you the child's main caregiver?",
-          "scale": "cat",
+          "text_de": "Sind Sie selbst die Hauptbetreuungsperson des Kindes?",
           "concept": "ehbet",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4536,83 +4560,84 @@
       "question": "23",
       "name": "23",
       "label": "If you think about a normal week, is there anybody else who regularly spends time looking after your child? If so, who is it and how many hours a week do they spend looking after the child?",
+      "label_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen bzw. Einrichtungen sind das und wie viele Stunden pro Woche ÃƒÂ¼bernehmen sie die Betreuung? ",
       "items": [
         {
           "item": "0",
-          "text_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen bzw. Einrichtungen sind das und wie viele Stunden pro Woche ÃƒÂ¼bernehmen sie die Betreuung? ",
           "text": "If you think about a normal week, is there anybody else who regularly spends time looking after your child? If so, who is it and how many hours a week do they spend looking after the child?",
+          "text_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen bzw. Einrichtungen sind das und wie viele Stunden pro Woche ÃƒÂ¼bernehmen sie die Betreuung? ",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "1",
-          "text_de": "Folgende Personen:",
           "text": "Following persons:",
+          "text_de": "Folgende Personen:",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "esit1",
-          "text_de": "(Ehe-) Partner/-in.",
           "text": "Spouse / partner",
-          "scale": "bin",
+          "text_de": "(Ehe-) Partner/-in.",
           "concept": "esit1",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "esit2",
-          "text_de": "Vater / Mutter des Kindes, der / die außerhalb des Haushalts lebt ",
           "text": "Child/ father/ mother (living outside the household)",
-          "scale": "bin",
+          "text_de": "Vater / Mutter des Kindes, der / die außerhalb des Haushalts lebt ",
           "concept": "esit2",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "esit3",
-          "text_de": "Großeltern des Kindes",
           "text": "Child's grandparents",
-          "scale": "bin",
+          "text_de": "Großeltern des Kindes",
           "concept": "esit3",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "esit4",
-          "text_de": "Ãltere Geschwister des Kindes",
           "text": "Older siblings",
-          "scale": "bin",
+          "text_de": "Ãltere Geschwister des Kindes",
           "concept": "esit4",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "esit5",
-          "text_de": "Andere Verwandte",
           "text": "Other relatives",
-          "scale": "bin",
+          "text_de": "Andere Verwandte",
           "concept": "esit5",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "esit7",
-          "text_de": "Kinderfrau, Au-pair ",
           "text": "Childcare provide, au-pair",
-          "scale": "bin",
+          "text_de": "Kinderfrau, Au-pair ",
           "concept": "esit7",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "esit9",
-          "text_de": "Andere (z.B. Babysitter, Eltern von Freunden des Kindes, Freunde oder Nachbarn) ",
           "text": "Other (babysitter, parents of the child's friends, friends or neighbors)",
-          "scale": "bin",
+          "text_de": "Andere (z.B. Babysitter, Eltern von Freunden des Kindes, Freunde oder Nachbarn) ",
           "concept": "esit9",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
@@ -4625,54 +4650,54 @@
         },
         {
           "item": "3",
-          "text_de": "Folgende Einrichtungen / Organisationen:",
           "text": "Following institutions / organizations",
+          "text_de": "Folgende Einrichtungen / Organisationen:",
           "scale": "txt",
           "sn": 10,
           "number": ""
         },
         {
           "item": "esit10",
-          "text_de": "Schule (Unterricht, AGs, frei betreute Zeit) ",
           "text": "School (classes, clubs, after-school groups)",
-          "scale": "bin",
+          "text_de": "Schule (Unterricht, AGs, frei betreute Zeit) ",
           "concept": "esit10",
+          "scale": "bin",
           "sn": 11,
           "number": ""
         },
         {
           "item": "esit11",
-          "text_de": "Hort (Schulhort oder andere hortähnliche Einrichtungen)",
           "text": "After-school center",
-          "scale": "bin",
+          "text_de": "Hort (Schulhort oder andere hortähnliche Einrichtungen)",
           "concept": "esit11",
+          "scale": "bin",
           "sn": 12,
           "number": ""
         },
         {
           "item": "esit12",
-          "text_de": "Soziale Einrichtungen, Zentren, Freizeitorganisationen ",
           "text": "Social service organization",
-          "scale": "bin",
+          "text_de": "Soziale Einrichtungen, Zentren, Freizeitorganisationen ",
           "concept": "esit12",
+          "scale": "bin",
           "sn": 13,
           "number": ""
         },
         {
           "item": "esitnoe",
-          "text_de": "Nein, keine dieser Einrichtung",
           "text": "No, nobody",
-          "scale": "bin",
+          "text_de": "Nein, keine dieser Einrichtung",
           "concept": "esitnoe",
+          "scale": "bin",
           "sn": 14,
           "number": ""
         },
         {
           "item": "esitnop",
-          "text_de": "Nein, keine dieser Personen",
           "text": "No, nobody",
-          "scale": "bin",
+          "text_de": "Nein, keine dieser Personen",
           "concept": "esitnop",
+          "scale": "bin",
           "sn": 15,
           "number": ""
         },
@@ -4685,10 +4710,10 @@
         },
         {
           "item": "estd1",
-          "text_de": "Stunden [(Ehe-) Partner/-in]",
           "text": "Hours [spouse / partner]",
-          "scale": "int",
+          "text_de": "Stunden [(Ehe-) Partner/-in]",
           "concept": "estd1",
+          "scale": "int",
           "sn": 17,
           "number": ""
         },
@@ -4701,10 +4726,10 @@
         },
         {
           "item": "estd2",
-          "text_de": "Stunden [Vater / Mutter des Kindes, der / die außerhalb des Haushalts lebt]",
           "text": "Hours [father / mother]",
-          "scale": "int",
+          "text_de": "Stunden [Vater / Mutter des Kindes, der / die außerhalb des Haushalts lebt]",
           "concept": "estd2",
+          "scale": "int",
           "sn": 19,
           "number": ""
         },
@@ -4717,10 +4742,10 @@
         },
         {
           "item": "estd3",
-          "text_de": "Stunden [Großeltern des Kindes]",
           "text": "Hours [grandparents]",
-          "scale": "int",
+          "text_de": "Stunden [Großeltern des Kindes]",
           "concept": "estd3",
+          "scale": "int",
           "sn": 21,
           "number": ""
         },
@@ -4733,10 +4758,10 @@
         },
         {
           "item": "estd4",
-          "text_de": "Stunden [Ãltere Geschwister des Kindes]",
           "text": "Hours [siblings]",
-          "scale": "int",
+          "text_de": "Stunden [Ãltere Geschwister des Kindes]",
           "concept": "estd4",
+          "scale": "int",
           "sn": 23,
           "number": ""
         },
@@ -4749,10 +4774,10 @@
         },
         {
           "item": "estd5",
-          "text_de": "Stunden [Andere Verwandte]",
           "text": "Hours [other relatives]",
-          "scale": "int",
+          "text_de": "Stunden [Andere Verwandte]",
           "concept": "estd5",
+          "scale": "int",
           "sn": 25,
           "number": ""
         },
@@ -4765,10 +4790,10 @@
         },
         {
           "item": "estd7",
-          "text_de": "Stunden [Kinderfrau, Au-pair] ",
           "text": "Hours [childcare provider / au pair]",
-          "scale": "int",
+          "text_de": "Stunden [Kinderfrau, Au-pair] ",
           "concept": "estd7",
+          "scale": "int",
           "sn": 27,
           "number": ""
         },
@@ -4781,10 +4806,10 @@
         },
         {
           "item": "estd9",
-          "text_de": "Stunden [Andere (z.B. Babysitter, Eltern von Freunden des Kindes, Freunde oder Nachbarn)] ",
           "text": "Hours [other]",
-          "scale": "int",
+          "text_de": "Stunden [Andere (z.B. Babysitter, Eltern von Freunden des Kindes, Freunde oder Nachbarn)] ",
           "concept": "estd9",
+          "scale": "int",
           "sn": 29,
           "number": ""
         },
@@ -4797,10 +4822,10 @@
         },
         {
           "item": "estd10",
-          "text_de": "Stunden [Schule (Unterricht, AGs, frei betreute Zeit)] ",
           "text": "Hours [school]",
-          "scale": "int",
+          "text_de": "Stunden [Schule (Unterricht, AGs, frei betreute Zeit)] ",
           "concept": "estd10",
+          "scale": "int",
           "sn": 31,
           "number": ""
         },
@@ -4813,10 +4838,10 @@
         },
         {
           "item": "estd11",
-          "text_de": "Stunden [Hort (Schulhort oder andere hortähnliche Einrichtungen)]",
           "text": "Hours [after-school daycare center]",
-          "scale": "int",
+          "text_de": "Stunden [Hort (Schulhort oder andere hortähnliche Einrichtungen)]",
           "concept": "estd11",
+          "scale": "int",
           "sn": 33,
           "number": ""
         },
@@ -4829,10 +4854,10 @@
         },
         {
           "item": "estd12",
-          "text_de": "Stunden [Soziale Einrichtungen, Zentren, Freizeitorganisationen] ",
           "text": "Hours [social service organization, centers, recreational organizations]",
-          "scale": "int",
+          "text_de": "Stunden [Soziale Einrichtungen, Zentren, Freizeitorganisationen] ",
           "concept": "estd12",
+          "scale": "int",
           "sn": 35,
           "number": ""
         },
@@ -4852,14 +4877,15 @@
       "question": "24",
       "name": "24",
       "label": "Gets your child pocket money?",
+      "label_de": "Erhält das Kind Taschengeld?",
       "items": [
         {
           "item": "etg1",
-          "text_de": "Erhält das Kind Taschengeld?",
           "text": "Gets your child pocket money?",
-          "scale": "cat",
-          "concept": "etg1",
+          "text_de": "Erhält das Kind Taschengeld?",
           "goto": "2 @ letzte Seite",
+          "concept": "etg1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4888,10 +4914,11 @@
       "question": "25",
       "name": "25",
       "label": "How much allowance does your child get?",
+      "label_de": "Wie viel Taschengeld erhält das Kind?",
       "items": [
         {
-          "text_de": "Wie viel Taschengeld erhält das Kind?",
           "text": "How much allowance does your child get?",
+          "text_de": "Wie viel Taschengeld erhält das Kind?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -4899,10 +4926,10 @@
         },
         {
           "item": "etg2",
-          "text_de": "pro Woche ... Euro oder",
           "text": "Euros per week",
-          "scale": "int",
+          "text_de": "pro Woche ... Euro oder",
           "concept": "etg2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
@@ -4915,10 +4942,10 @@
         },
         {
           "item": "etg3",
-          "text_de": "pro Monat ... Euro",
           "text": "Euros per month",
-          "scale": "int",
+          "text_de": "pro Monat ... Euro",
           "concept": "etg3",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
@@ -4937,12 +4964,14 @@
     "26": {
       "question": "26",
       "name": "26",
+      "label": "",
+      "label_de": "Auf welchem Gerät haben Sie die Befragung durchgeführt?",
       "items": [
         {
           "item": "zgeraet",
           "text_de": "Auf welchem Gerät haben Sie die Befragung durchgeführt?",
-          "scale": "cat",
           "concept": "zgeraet",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4971,15 +5000,15 @@
         {
           "item": "zgeraetx",
           "text_de": "[Sonstiges] und zwar",
-          "scale": "chr",
           "concept": "zgeraetx",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "zuseragent",
-          "scale": "cat",
           "concept": "zuseragent",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5002,10 +5031,11 @@
       "question": "A",
       "name": "A",
       "label": "What date do we have today?",
+      "label_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
       "items": [
         {
-          "text_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
           "text": "What date do we have today?",
+          "text_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -5013,37 +5043,37 @@
         },
         {
           "item": "datt",
-          "text_de": "Tag",
           "text": "Day",
-          "scale": "int",
+          "text_de": "Tag",
           "concept": "datt",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "datm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "datm",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "datst",
-          "text_de": "Stunde",
           "text": "Hour",
-          "scale": "int",
+          "text_de": "Stunde",
           "concept": "datst",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "datmi",
-          "text_de": "Minute",
           "text": "Minute",
-          "scale": "int",
+          "text_de": "Minute",
           "concept": "datmi",
+          "scale": "int",
           "sn": 4,
           "number": ""
         }
@@ -5056,13 +5086,14 @@
       "question": "B",
       "name": "B",
       "label": "How was the interview conducted?",
+      "label_de": "Wie wurde die Befragung durchgeführt?",
       "items": [
         {
           "item": "form",
-          "text_de": "Wie wurde die Befragung durchgeführt?",
           "text": "How was the interview conducted?",
-          "scale": "cat",
+          "text_de": "Wie wurde die Befragung durchgeführt?",
           "concept": "form",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5097,10 +5128,11 @@
       "question": "C",
       "name": "C",
       "label": "Duration of the interview:",
+      "label_de": "Interviewdauer",
       "items": [
         {
-          "text_de": "Interviewdauer",
           "text": "Duration of the interview:",
+          "text_de": "Interviewdauer",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -5108,21 +5140,21 @@
         },
         {
           "item": "dauer1",
-          "text_de": "Das mündliche (Teil-)Interview dauerte ... Minuten",
           "text": "The oral (complete or partial) interview lasted minutes",
-          "scale": "int",
+          "text_de": "Das mündliche (Teil-)Interview dauerte ... Minuten",
           "concept": "dauer1",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "dauer2",
-          "text_de": "Befragter brauchte zum Selbstausfüllen ... Minuten",
-          "instruction_de": "(bitte erfragen)",
           "text": "The respondent needed minutes to complete the questionnaire",
+          "text_de": "Befragter brauchte zum Selbstausfüllen ... Minuten",
           "instruction": "(Please ask)",
-          "scale": "int",
+          "instruction_de": "(bitte erfragen)",
           "concept": "dauer2",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -5135,13 +5167,14 @@
       "question": "D",
       "name": "D",
       "label": "Other notes:",
+      "label_de": "sonstige Hinweise:",
       "items": [
         {
           "item": "etext",
-          "text_de": "sonstige Hinweise:",
           "text": "Other notes:",
-          "scale": "chr",
+          "text_de": "sonstige Hinweise:",
           "concept": "etext",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -5154,10 +5187,11 @@
       "question": "IN",
       "name": "IN",
       "label": "Interviewer:",
+      "label_de": "Interviewer:",
       "items": [
         {
-          "text_de": "Interviewer:",
           "text": "Interviewer:",
+          "text_de": "Interviewer:",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -5165,43 +5199,43 @@
         },
         {
           "item": "listnr",
-          "text_de": "Listen-Nr.",
           "text": "listno.",
-          "scale": "int",
+          "text_de": "Listen-Nr.",
           "concept": "listnr",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "lfdnr",
-          "text_de": "Lfd-Nr.",
           "text": "lfd.no.",
-          "scale": "int",
+          "text_de": "Lfd-Nr.",
           "concept": "lfdnr",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "intnr",
-          "text_de": "Abrechnungsnummer",
           "text": "Account number",
-          "scale": "int",
+          "text_de": "Abrechnungsnummer",
           "concept": "intnr",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "55",
-          "text_de": "Ich bestätige die korrekte Durchführung des Interviews:",
           "text": "I confirm the proper execution of the interview.",
+          "text_de": "Ich bestätige die korrekte Durchführung des Interviews:",
           "scale": "txt",
           "sn": 4,
           "number": ""
         },
         {
           "item": "66",
-          "text_de": "Unterschrift des Interviewers",
           "text": "Interviewer's signature",
+          "text_de": "Unterschrift des Interviewers",
           "scale": "txt",
           "sn": 5,
           "number": ""

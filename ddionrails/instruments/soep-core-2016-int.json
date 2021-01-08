@@ -13,11 +13,12 @@
       "question": "0_0",
       "name": "0_0",
       "label": "Living in Germany: Now it‘s your turn.",
+      "label_de": "Leben in Deutschland: Jetzt sind Sie mal dran!",
       "items": [
         {
           "item": "0",
-          "text_de": "Leben in Deutschland: Jetzt sind Sie mal dran!",
           "text": "Living in Germany: Now it‘s your turn.",
+          "text_de": "Leben in Deutschland: Jetzt sind Sie mal dran!",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -31,11 +32,12 @@
       "question": "0_1",
       "name": "0_1",
       "label": "Unless otherwise stated, the following questions relate to „Living in Germany“, including the partial studies „Families in Germany“ and the innovative study.",
+      "label_de": "Die folgenden Fragen beziehen sich, falls nicht anders vermerkt, auf Leben in Deutschland inklusive der teilstudien Familien in Deutschland und innovationserhebung.",
       "items": [
         {
           "item": "1",
-          "text_de": "Die folgenden Fragen beziehen sich, falls nicht anders vermerkt, auf Leben in Deutschland inklusive der teilstudien Familien in Deutschland und innovationserhebung.",
           "text": "Unless otherwise stated, the following questions relate to „Living in Germany“, including the partial studies „Families in Germany“ and the innovative study.",
+          "text_de": "Die folgenden Fragen beziehen sich, falls nicht anders vermerkt, auf Leben in Deutschland inklusive der teilstudien Familien in Deutschland und innovationserhebung.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -49,12 +51,13 @@
       "question": "1",
       "name": "1",
       "label": "There are different reasons to work as an interviewer. How important are the following statements for you?",
+      "label_de": "Es gibt ja unterschiedliche Beweggründe als Interviewer zu arbeiten: Wie wichtig sind Ihnen die folgenden Punkte?",
       "items": [
         {
-          "text_de": "Es gibt ja unterschiedliche Beweggründe als Interviewer zu arbeiten: Wie wichtig sind Ihnen die folgenden Punkte?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht wichtig. Der Wert 7 bedeutet: sehr wichtig. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "text": "There are different reasons to work as an interviewer. How important are the following statements for you?",
+          "text_de": "Es gibt ja unterschiedliche Beweggründe als Interviewer zu arbeiten: Wie wichtig sind Ihnen die folgenden Punkte?",
           "instruction": "Please answer on a scale from 0 to 7, where 0 means not important at all and 7 means very important.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht wichtig. Der Wert 7 bedeutet: sehr wichtig. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -62,8 +65,8 @@
         },
         {
           "item": "igru01",
-          "text_de": "Verdienst",
           "text": "Earning",
+          "text_de": "Verdienst",
           "scale": "cat",
           "answers": [
             {
@@ -107,8 +110,8 @@
         },
         {
           "item": "igru02",
-          "text_de": "Interessante Tätigkeit",
           "text": "Interesting job",
+          "text_de": "Interessante Tätigkeit",
           "scale": "cat",
           "answers": [
             {
@@ -152,8 +155,8 @@
         },
         {
           "item": "igru03",
-          "text_de": "Freie Arbeitszeiteinteilung",
           "text": "Flexible schedule",
+          "text_de": "Freie Arbeitszeiteinteilung",
           "scale": "cat",
           "answers": [
             {
@@ -197,8 +200,8 @@
         },
         {
           "item": "igru04",
-          "text_de": "Gelegenheit unter die Leute zu kommen",
           "text": "Opportunity to be together with people",
+          "text_de": "Gelegenheit unter die Leute zu kommen",
           "scale": "cat",
           "answers": [
             {
@@ -242,8 +245,8 @@
         },
         {
           "item": "igru05",
-          "text_de": "Einblicke in andere soziale Lebensumstände",
           "text": "Get an insight into other life circumstances",
+          "text_de": "Einblicke in andere soziale Lebensumstände",
           "scale": "cat",
           "answers": [
             {
@@ -287,8 +290,8 @@
         },
         {
           "item": "igru06",
-          "text_de": "Nutzen für Politik und Wirtschaft",
           "text": "Benefit for politics and economy",
+          "text_de": "Nutzen für Politik und Wirtschaft",
           "scale": "cat",
           "answers": [
             {
@@ -332,8 +335,8 @@
         },
         {
           "item": "igru07",
-          "text_de": "Mitwirkung an wissenschaftlichem Forschen",
           "text": "Contribute in scientific research",
+          "text_de": "Mitwirkung an wissenschaftlichem Forschen",
           "scale": "cat",
           "answers": [
             {
@@ -384,21 +387,22 @@
       "question": "2",
       "name": "2",
       "label": "And to what extent are or have these expectations been fulfilled, especially by LIVING IN GERMANY?",
+      "label_de": "Und inwieweit werden oder wurden diese Erwartungen speziell bei LEBEN IN DEUTSCHLAND erfüllt?",
       "items": [
         {
           "item": "2",
-          "text_de": "Und inwieweit werden oder wurden diese Erwartungen speziell bei LEBEN IN DEUTSCHLAND erfüllt?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht erfüllt. Der Wert 7 bedeutet: voll erfüllt. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "text": "And to what extent are or have these expectations been fulfilled, especially by LIVING IN GERMANY?",
+          "text_de": "Und inwieweit werden oder wurden diese Erwartungen speziell bei LEBEN IN DEUTSCHLAND erfüllt?",
           "instruction": "Please answer using the following scale. The value 1 means: not fulfilled at all. The value 7 means: completely fulfilled. With the values between 1 and 7 you can gradate your opinion.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht erfüllt. Der Wert 7 bedeutet: voll erfüllt. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ierf08",
-          "text_de": "Verdienst",
           "text": "Earnings",
+          "text_de": "Verdienst",
           "scale": "cat",
           "answers": [
             {
@@ -442,8 +446,8 @@
         },
         {
           "item": "ierf09",
-          "text_de": "Interessante Tätigkeit",
           "text": "Interesting activity",
+          "text_de": "Interessante Tätigkeit",
           "scale": "cat",
           "answers": [
             {
@@ -487,8 +491,8 @@
         },
         {
           "item": "ierf10",
-          "text_de": "Freie Arbeitszeiteinteilung",
           "text": "Free allocation of working hours",
+          "text_de": "Freie Arbeitszeiteinteilung",
           "scale": "cat",
           "answers": [
             {
@@ -532,8 +536,8 @@
         },
         {
           "item": "ierf11",
-          "text_de": "Gelegenheit unter die Leute zu kommen",
           "text": "Opportunity to get around people",
+          "text_de": "Gelegenheit unter die Leute zu kommen",
           "scale": "cat",
           "answers": [
             {
@@ -577,8 +581,8 @@
         },
         {
           "item": "ierf12",
-          "text_de": "Einblicke in andere soziale Lebensumstände",
           "text": "Insights into other social life circumstances",
+          "text_de": "Einblicke in andere soziale Lebensumstände",
           "scale": "cat",
           "answers": [
             {
@@ -622,8 +626,8 @@
         },
         {
           "item": "ierf13",
-          "text_de": "Nutzen für Politik und Wirtschaft",
           "text": "Benefits for politics and business",
+          "text_de": "Nutzen für Politik und Wirtschaft",
           "scale": "cat",
           "answers": [
             {
@@ -667,8 +671,8 @@
         },
         {
           "item": "ierf14",
-          "text_de": "Mitwirkung an wissenschaftlichem Forschen",
           "text": "Participation in scientific research",
+          "text_de": "Mitwirkung an wissenschaftlichem Forschen",
           "scale": "cat",
           "answers": [
             {
@@ -719,21 +723,22 @@
       "question": "3",
       "name": "3",
       "label": "The survey LIVING IN GERMANY involves people from very different social backgrounds. What is your experience: How willingly or unwillingly do the following people participate in LIVING IN GERMANY?",
+      "label_de": "An der Umfrage LEBEN IN DEUTSCHLAND nehmen Menschen mit sehr unterschiedlichem sozialen Hintergrund Teil. Wie ist Ihre Erfahrung: Wie gerne oder ungern machen die folgenden Personen bei LEBEN IN DEUTSCHLAND mit?",
       "items": [
         {
           "item": "3",
-          "text_de": "An der Umfrage LEBEN IN DEUTSCHLAND nehmen Menschen mit sehr unterschiedlichem sozialen Hintergrund Teil. Wie ist Ihre Erfahrung: Wie gerne oder ungern machen die folgenden Personen bei LEBEN IN DEUTSCHLAND mit?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala, wobei „1“ überhaupt nicht gerne und „7“ sehr gerne bedeutet.",
           "text": "The survey LIVING IN GERMANY involves people from very different social backgrounds. What is your experience: How willingly or unwillingly do the following people participate in LIVING IN GERMANY?",
+          "text_de": "An der Umfrage LEBEN IN DEUTSCHLAND nehmen Menschen mit sehr unterschiedlichem sozialen Hintergrund Teil. Wie ist Ihre Erfahrung: Wie gerne oder ungern machen die folgenden Personen bei LEBEN IN DEUTSCHLAND mit?",
           "instruction": "Please answer with the following scale, where \"1\" means very unwilling and \"7\" very willing.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala, wobei „1“ überhaupt nicht gerne und „7“ sehr gerne bedeutet.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "itebe01",
-          "text_de": "Männer",
           "text": "men",
+          "text_de": "Männer",
           "scale": "cat",
           "answers": [
             {
@@ -777,8 +782,8 @@
         },
         {
           "item": "itebe02",
-          "text_de": "Frauen",
           "text": "women",
+          "text_de": "Frauen",
           "scale": "cat",
           "answers": [
             {
@@ -822,8 +827,8 @@
         },
         {
           "item": "itebe03",
-          "text_de": "Ältere Befragte",
           "text": "Older respondents",
+          "text_de": "Ältere Befragte",
           "scale": "cat",
           "answers": [
             {
@@ -867,8 +872,8 @@
         },
         {
           "item": "itebe04",
-          "text_de": "Befragte mittleren Alters",
           "text": "Middle-aged respondents",
+          "text_de": "Befragte mittleren Alters",
           "scale": "cat",
           "answers": [
             {
@@ -912,8 +917,8 @@
         },
         {
           "item": "itebe05",
-          "text_de": "Jüngere Befragte",
           "text": "Younger respondents",
+          "text_de": "Jüngere Befragte",
           "scale": "cat",
           "answers": [
             {
@@ -957,8 +962,8 @@
         },
         {
           "item": "itebe14",
-          "text_de": "Befragte mit ausländischer Herkunft und guten Deutschkenntnissen",
           "text": "Respondents with foreign origin and good German language skills",
+          "text_de": "Befragte mit ausländischer Herkunft und guten Deutschkenntnissen",
           "scale": "cat",
           "answers": [
             {
@@ -1002,8 +1007,8 @@
         },
         {
           "item": "itebe13",
-          "text_de": "Befragte mit ausländischer Herkunft und schlechten Deutschkenntnissen",
           "text": "Survey participants with foreign origin and poor German language skills",
+          "text_de": "Befragte mit ausländischer Herkunft und schlechten Deutschkenntnissen",
           "scale": "cat",
           "answers": [
             {
@@ -1047,8 +1052,8 @@
         },
         {
           "item": "itebe07",
-          "text_de": "Arbeitslose Befragte",
           "text": "Unemployed respondents",
+          "text_de": "Arbeitslose Befragte",
           "scale": "cat",
           "answers": [
             {
@@ -1092,8 +1097,8 @@
         },
         {
           "item": "itebe08",
-          "text_de": "Personen mit einfacher Bildung",
           "text": "Persons with simple education",
+          "text_de": "Personen mit einfacher Bildung",
           "scale": "cat",
           "answers": [
             {
@@ -1137,8 +1142,8 @@
         },
         {
           "item": "itebe09",
-          "text_de": "Personen mit höherer Bildung",
           "text": "Persons with higher education",
+          "text_de": "Personen mit höherer Bildung",
           "scale": "cat",
           "answers": [
             {
@@ -1182,8 +1187,8 @@
         },
         {
           "item": "itebe10",
-          "text_de": "Personen aus unteren Einkommensschichten",
           "text": "Persons from lower income groups",
+          "text_de": "Personen aus unteren Einkommensschichten",
           "scale": "cat",
           "answers": [
             {
@@ -1227,8 +1232,8 @@
         },
         {
           "item": "itebe11",
-          "text_de": "Personen aus oberen Einkommensschichten",
           "text": "Persons from upper income groups",
+          "text_de": "Personen aus oberen Einkommensschichten",
           "scale": "cat",
           "answers": [
             {
@@ -1279,11 +1284,12 @@
       "question": "4",
       "name": "4",
       "label": "When you think of last year, did you participate in a Living in Germany training course in 2015?",
+      "label_de": "Wenn sie an letztes Jahr denken: Haben sie 2015 an einer Schulung für LEBEN In DEUTSCHLAND teilgenommen?",
       "items": [
         {
           "item": "ibschul1",
-          "text_de": "Wenn sie an letztes Jahr denken: Haben sie 2015 an einer Schulung für LEBEN In DEUTSCHLAND teilgenommen?",
           "text": "When you think of last year, did you participate in a Living in Germany training course in 2015?",
+          "text_de": "Wenn sie an letztes Jahr denken: Haben sie 2015 an einer Schulung für LEBEN In DEUTSCHLAND teilgenommen?",
           "scale": "cat",
           "answers": [
             {
@@ -1314,19 +1320,20 @@
       "question": "5",
       "name": "5",
       "label": "And how do you rate the event in terms of:",
+      "label_de": "Und wie beurteilen Sie die Veranstaltung in Bezug auf:",
       "items": [
         {
           "item": "4",
-          "text_de": "Und wie beurteilen Sie die Veranstaltung in Bezug auf:",
           "text": "And how do you rate the event in terms of:",
+          "text_de": "Und wie beurteilen Sie die Veranstaltung in Bezug auf:",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibseval01",
-          "text_de": "Die Austauschmöglichkeit mit Interviewerkollegen/innen",
           "text": "The opportunity to exchange ideas with fellow interviewers",
+          "text_de": "Die Austauschmöglichkeit mit Interviewerkollegen/innen",
           "scale": "cat",
           "answers": [
             {
@@ -1370,8 +1377,8 @@
         },
         {
           "item": "ibseval02",
-          "text_de": "Die Austauschmöglichkeit mit den Studienverantwortlichen bei TNS Infratest",
           "text": "The opportunity to exchange information with those responsible for studies at TNS Infratest",
+          "text_de": "Die Austauschmöglichkeit mit den Studienverantwortlichen bei TNS Infratest",
           "scale": "cat",
           "answers": [
             {
@@ -1422,13 +1429,14 @@
       "question": "6",
       "name": "6",
       "label": "How useful was this training for working on LIVING IN GERMANY in 2015?",
+      "label_de": "Wie nützlich war diese Schulung für die Bearbeitung von LEBEN IN DEUTSCHLAND in 2015?",
       "items": [
         {
           "item": "ibschul2",
-          "text_de": "Wie nützlich war diese Schulung für die Bearbeitung von LEBEN IN DEUTSCHLAND in 2015?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht nützlich. Der Wert 7 bedeutet: sehr nützlich.",
           "text": "How useful was this training for working on LIVING IN GERMANY in 2015?",
+          "text_de": "Wie nützlich war diese Schulung für die Bearbeitung von LEBEN IN DEUTSCHLAND in 2015?",
           "instruction": "Please answer using the following scale. The value 1 means: not useful at all. The value 7 means: very useful.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht nützlich. Der Wert 7 bedeutet: sehr nützlich.",
           "scale": "cat",
           "answers": [
             {
@@ -1479,19 +1487,20 @@
       "question": "0_2",
       "name": "0_2",
       "label": "Only for CAPI interviewers: Electronic address log in \"My Infratest\".",
+      "label_de": "Nur an CAPI-Interviewer: Elektronisches Adressenprotkoll in \"Mein Infratest\"",
       "items": [
         {
           "item": "5",
-          "text_de": "Nur an CAPI-Interviewer: Elektronisches Adressenprotkoll in \"Mein Infratest\"",
           "text": "Only for CAPI interviewers: Electronic address log in \"My Infratest\".",
+          "text_de": "Nur an CAPI-Interviewer: Elektronisches Adressenprotkoll in \"Mein Infratest\"",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "6",
-          "text_de": "Im Folgenden geht es um das elektronische Adressenprotokoll in \"Mein Infratest\". damit gemeint ist - die Kontakterfassung, - die Ausfallerfassung, - die Haushaltszusammensetzung",
           "text": "In the following it is about the electronic address protocol in \"My Infratest\". meaning - the contact capture, - the failure capture, - the household composition",
+          "text_de": "Im Folgenden geht es um das elektronische Adressenprotokoll in \"Mein Infratest\". damit gemeint ist - die Kontakterfassung, - die Ausfallerfassung, - die Haushaltszusammensetzung",
           "scale": "txt",
           "sn": 1,
           "number": ""
@@ -1505,13 +1514,14 @@
       "question": "7",
       "name": "7",
       "label": "How well do you cope with the electronic address protocol in \"My Infratest\"? ",
+      "label_de": "Wie gut kommen Sie mit dem elektronischen Adressenprotokoll in \"Mein Infratest\" zurecht? ",
       "items": [
         {
           "item": "ibeapro1",
-          "text_de": "Wie gut kommen Sie mit dem elektronischen Adressenprotokoll in \"Mein Infratest\" zurecht? ",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht gut. Der Wert 7 bedeutet: sehr gut.",
           "text": "How well do you cope with the electronic address protocol in \"My Infratest\"? ",
+          "text_de": "Wie gut kommen Sie mit dem elektronischen Adressenprotokoll in \"Mein Infratest\" zurecht? ",
           "instruction": "Please answer using the following scale. The value 1 means: not good at all. The value 7 means: very good.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht gut. Der Wert 7 bedeutet: sehr gut.",
           "scale": "cat",
           "answers": [
             {
@@ -1562,11 +1572,12 @@
       "question": "8",
       "name": "8",
       "label": "What is missing from the electronic address protocol in \"My Infratest\" or what would make processing easier for you?",
+      "label_de": "Was vermissen Sie beim elektronischen Adressenprotokoll in \"Mein Infratest\" bzw. was würde Ihnen die Bearbeitung erleichtern?",
       "items": [
         {
           "item": "ibeaprox",
-          "text_de": "Was vermissen Sie beim elektronischen Adressenprotokoll in \"Mein Infratest\" bzw. was würde Ihnen die Bearbeitung erleichtern?",
           "text": "What is missing from the electronic address protocol in \"My Infratest\" or what would make processing easier for you?",
+          "text_de": "Was vermissen Sie beim elektronischen Adressenprotokoll in \"Mein Infratest\" bzw. was würde Ihnen die Bearbeitung erleichtern?",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -1580,11 +1591,12 @@
       "question": "0_3",
       "name": "0_3",
       "label": "CAPI interviewers only: Supplementary sheet \"Supportive household information“",
+      "label_de": "Nur an CAPI-Interviewer: Zusatzblatt \"Unterstützende Haushaltsinformationen\"",
       "items": [
         {
           "item": "7",
-          "text_de": "Nur an CAPI-Interviewer: Zusatzblatt \"Unterstützende Haushaltsinformationen\"",
           "text": "CAPI interviewers only: Supplementary sheet \"Supportive household information“",
+          "text_de": "Nur an CAPI-Interviewer: Zusatzblatt \"Unterstützende Haushaltsinformationen\"",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1598,11 +1610,12 @@
       "question": "9",
       "name": "9",
       "label": "Do you use the supplementary sheets with supporting household information when processing your households?",
+      "label_de": "Verwenden Sie die Zusatzblätter mit unterstützenden Haushaltsinformationen bei der Bearbeitung ihrer Haushalte?",
       "items": [
         {
           "item": "ibhinfo1",
-          "text_de": "Verwenden Sie die Zusatzblätter mit unterstützenden Haushaltsinformationen bei der Bearbeitung ihrer Haushalte?",
           "text": "Do you use the supplementary sheets with supporting household information when processing your households?",
+          "text_de": "Verwenden Sie die Zusatzblätter mit unterstützenden Haushaltsinformationen bei der Bearbeitung ihrer Haushalte?",
           "scale": "cat",
           "answers": [
             {
@@ -1621,8 +1634,8 @@
         },
         {
           "item": "ibhinfx1",
-          "text_de": "[nein] weil:",
           "text": "[no] because:",
+          "text_de": "[nein] weil:",
           "scale": "chr",
           "sn": 1,
           "number": ""
@@ -1636,13 +1649,14 @@
       "question": "10",
       "name": "10",
       "label": "How useful are the supplementary pages with supporting household information for interviews?",
+      "label_de": "Wie nützlich sind die Zusatzblätter mit unterstützenden Haushaltsinformationen beim Interview?",
       "items": [
         {
           "item": "ibhinfo2",
-          "text_de": "Wie nützlich sind die Zusatzblätter mit unterstützenden Haushaltsinformationen beim Interview?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht nützlich. Der Wert 7 bedeutet: sehr nützlich.",
           "text": "How useful are the supplementary pages with supporting household information for interviews?",
+          "text_de": "Wie nützlich sind die Zusatzblätter mit unterstützenden Haushaltsinformationen beim Interview?",
           "instruction": "Please answer using the following scale. The value 1 means: not useful at all. The value 7 means: very useful.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht nützlich. Der Wert 7 bedeutet: sehr nützlich.",
           "scale": "cat",
           "answers": [
             {
@@ -1693,11 +1707,12 @@
       "question": "11",
       "name": "11",
       "label": "We know that many of you would like to have the complete address printed on the supporting household information. Unfortunately, we cannot comply with this request for data protection reasons. What else can we improve in the future?",
+      "label_de": "Wir wissen, dass viele von Ihnen gerne die komplette Adresse auf den unterstützenden Haushaltsinformationen eingedruckt haben möchten. Diesem Wunsch können wir leider aus Datenschützgründen nicht entsprechen. Was können wir darüber hinaus künftig verbessern?",
       "items": [
         {
           "item": "ibhinfx2",
-          "text_de": "Wir wissen, dass viele von Ihnen gerne die komplette Adresse auf den unterstützenden Haushaltsinformationen eingedruckt haben möchten. Diesem Wunsch können wir leider aus Datenschützgründen nicht entsprechen. Was können wir darüber hinaus künftig verbessern?",
           "text": "We know that many of you would like to have the complete address printed on the supporting household information. Unfortunately, we cannot comply with this request for data protection reasons. What else can we improve in the future?",
+          "text_de": "Wir wissen, dass viele von Ihnen gerne die komplette Adresse auf den unterstützenden Haushaltsinformationen eingedruckt haben möchten. Diesem Wunsch können wir leider aus Datenschützgründen nicht entsprechen. Was können wir darüber hinaus künftig verbessern?",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -1711,11 +1726,12 @@
       "question": "0_4",
       "name": "0_4",
       "label": "Again to all: Interviewer manual",
+      "label_de": "Wieder an alle: Interviewerhandbuch",
       "items": [
         {
           "item": "8",
-          "text_de": "Wieder an alle: Interviewerhandbuch",
           "text": "Again to all: Interviewer manual",
+          "text_de": "Wieder an alle: Interviewerhandbuch",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1729,11 +1745,12 @@
       "question": "12",
       "name": "12",
       "label": "Are you familiarizing yourself with the interviewer's manual in preparation for our study?",
+      "label_de": "Machen sie sich in Vorbereitung auf unsere Studie mit dem Interviewerhandbuch vertraut?",
       "items": [
         {
           "item": "ibintb1",
-          "text_de": "Machen sie sich in Vorbereitung auf unsere Studie mit dem Interviewerhandbuch vertraut?",
           "text": "Are you familiarizing yourself with the interviewer's manual in preparation for our study?",
+          "text_de": "Machen sie sich in Vorbereitung auf unsere Studie mit dem Interviewerhandbuch vertraut?",
           "scale": "cat",
           "answers": [
             {
@@ -1752,8 +1769,8 @@
         },
         {
           "item": "ibintbx1",
-          "text_de": "[nein] weil:",
           "text": "[no] because:",
+          "text_de": "[nein] weil:",
           "scale": "chr",
           "sn": 1,
           "number": ""
@@ -1767,11 +1784,12 @@
       "question": "13",
       "name": "13",
       "label": "Do you read the entire interviewer's manual or individual chapters?",
+      "label_de": "Lesen Sie das ganze Interviewerhandbuch oder einzelne Kapitel?",
       "items": [
         {
           "item": "ibintb2",
-          "text_de": "Lesen Sie das ganze Interviewerhandbuch oder einzelne Kapitel?",
           "text": "Do you read the entire interviewer's manual or individual chapters?",
+          "text_de": "Lesen Sie das ganze Interviewerhandbuch oder einzelne Kapitel?",
           "scale": "cat",
           "answers": [
             {
@@ -1797,21 +1815,22 @@
       "question": "14",
       "name": "14",
       "label": "How important are the following chapters to you?",
+      "label_de": "Wie wichtig sind Ihnen folgende Kapitel bei der Bearbeitung?",
       "items": [
         {
           "item": "9",
-          "text_de": "Wie wichtig sind Ihnen folgende Kapitel bei der Bearbeitung?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: sehr wichtig. Der Wert 7 bedeutet: unwichtig. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "text": "How important are the following chapters to you?",
+          "text_de": "Wie wichtig sind Ihnen folgende Kapitel bei der Bearbeitung?",
           "instruction": "Please answer using the following scale. The value 1 means: very important. The value 7 means: unimportant. With the values between 1 and 7 you can gradate your opinion.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: sehr wichtig. Der Wert 7 bedeutet: unwichtig. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibintb3",
-          "text_de": "Kapitel 2: Überblick",
           "text": "Chapter 2: Overview",
+          "text_de": "Kapitel 2: Überblick",
           "scale": "cat",
           "answers": [
             {
@@ -1855,8 +1874,8 @@
         },
         {
           "item": "ibintb4",
-          "text_de": "Kapitel 3: PAPI - Feldunterlagen",
           "text": "Chapter 3: PAPI - Field documents",
+          "text_de": "Kapitel 3: PAPI - Feldunterlagen",
           "scale": "cat",
           "answers": [
             {
@@ -1900,8 +1919,8 @@
         },
         {
           "item": "ibintb5",
-          "text_de": "Kapitel 4: CAPI - Feldunterlagen",
           "text": "Chapter 4: CAPI - Field documentation",
+          "text_de": "Kapitel 4: CAPI - Feldunterlagen",
           "scale": "cat",
           "answers": [
             {
@@ -1945,8 +1964,8 @@
         },
         {
           "item": "ibintb6",
-          "text_de": "Kapitel 5: Die Fragebogen - Ein Überblick",
           "text": "Chapter 5: The Questionnaires - An Overview",
+          "text_de": "Kapitel 5: Die Fragebogen - Ein Überblick",
           "scale": "cat",
           "answers": [
             {
@@ -1990,8 +2009,8 @@
         },
         {
           "item": "ibintb7",
-          "text_de": "Glossar für Fachausdrücke",
           "text": "Glossary of technical terms",
+          "text_de": "Glossar für Fachausdrücke",
           "scale": "cat",
           "answers": [
             {
@@ -2042,13 +2061,14 @@
       "question": "15",
       "name": "15",
       "label": "How useful is the Interviewer's Guide to editing for you?",
+      "label_de": "Wie nützlich ist für Sie das Interviewerhandbuch bei der Bearbeitung?",
       "items": [
         {
           "item": "ibintb8",
-          "text_de": "Wie nützlich ist für Sie das Interviewerhandbuch bei der Bearbeitung?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht nützlich. Der Wert 7 bedeutet: sehr nützlich.",
           "text": "How useful is the Interviewer's Guide to editing for you?",
+          "text_de": "Wie nützlich ist für Sie das Interviewerhandbuch bei der Bearbeitung?",
           "instruction": "Please answer using the following scale. The value 1 means: not useful at all. The value 7 means: very useful.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht nützlich. Der Wert 7 bedeutet: sehr nützlich.",
           "scale": "cat",
           "answers": [
             {
@@ -2099,11 +2119,12 @@
       "question": "16",
       "name": "16",
       "label": "What additional information would you like to see in the manual?",
+      "label_de": "Welche zusätzlichen Informationen hätten Sie noch gerne im Handbuch?",
       "items": [
         {
           "item": "ibintbx2",
-          "text_de": "Welche zusätzlichen Informationen hätten Sie noch gerne im Handbuch?",
           "text": "What additional information would you like to see in the manual?",
+          "text_de": "Welche zusätzlichen Informationen hätten Sie noch gerne im Handbuch?",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -2117,11 +2138,12 @@
       "question": "0_5",
       "name": "0_5",
       "label": "Interviewer's Guide",
+      "label_de": "Intervieweranleitung",
       "items": [
         {
           "item": "10",
-          "text_de": "Intervieweranleitung",
           "text": "Interviewer's Guide",
+          "text_de": "Intervieweranleitung",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2135,11 +2157,12 @@
       "question": "17",
       "name": "17",
       "label": "Do you familiarise yourself with the current interviewer's manual in preparation for our study?",
+      "label_de": "Machen Sie sich in der Vorbereitung auf unsere Studie mit der aktuellen Intervieweranleitung vertraut?",
       "items": [
         {
           "item": "ibinta1",
-          "text_de": "Machen Sie sich in der Vorbereitung auf unsere Studie mit der aktuellen Intervieweranleitung vertraut?",
           "text": "Do you familiarise yourself with the current interviewer's manual in preparation for our study?",
+          "text_de": "Machen Sie sich in der Vorbereitung auf unsere Studie mit der aktuellen Intervieweranleitung vertraut?",
           "scale": "cat",
           "answers": [
             {
@@ -2158,8 +2181,8 @@
         },
         {
           "item": "ibintax1",
-          "text_de": "[nein] weil:",
           "text": "[no] because:",
+          "text_de": "[nein] weil:",
           "scale": "chr",
           "sn": 1,
           "number": ""
@@ -2173,11 +2196,12 @@
       "question": "18",
       "name": "18",
       "label": "How useful is the interviewer's guide for you overall?",
+      "label_de": "Wie nützlich ist für Sie insgesamt die Intervieweranleitung?",
       "items": [
         {
           "item": "ibinta2",
-          "text_de": "Wie nützlich ist für Sie insgesamt die Intervieweranleitung?",
           "text": "How useful is the interviewer's guide for you overall?",
+          "text_de": "Wie nützlich ist für Sie insgesamt die Intervieweranleitung?",
           "scale": "cat",
           "answers": [
             {
@@ -2228,11 +2252,12 @@
       "question": "19",
       "name": "19",
       "label": "What additional information would you like to have in the interview guide?",
+      "label_de": "Welche Informationen hätten Sie gerne zusätzlich in der Intervieweranleitung?",
       "items": [
         {
           "item": "ibinta3",
-          "text_de": "Welche Informationen hätten Sie gerne zusätzlich in der Intervieweranleitung?",
           "text": "What additional information would you like to have in the interview guide?",
+          "text_de": "Welche Informationen hätten Sie gerne zusätzlich in der Intervieweranleitung?",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -2246,11 +2271,12 @@
       "question": "0_6",
       "name": "0_6",
       "label": "Translation aids",
+      "label_de": "Übersetzungshilfen",
       "items": [
         {
           "item": "11",
-          "text_de": "Übersetzungshilfen",
           "text": "Translation aids",
+          "text_de": "Übersetzungshilfen",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2264,11 +2290,12 @@
       "question": "20",
       "name": "20",
       "label": "Do you also interview people with language problems at LIVING IN GERMANY?",
+      "label_de": "Befragen sie bei LEBEN IN DEUTSCHLAND auch Personen mit Sprachproblemen?",
       "items": [
         {
           "item": "ibuhi1",
-          "text_de": "Befragen sie bei LEBEN IN DEUTSCHLAND auch Personen mit Sprachproblemen?",
           "text": "Do you also interview people with language problems at LIVING IN GERMANY?",
+          "text_de": "Befragen sie bei LEBEN IN DEUTSCHLAND auch Personen mit Sprachproblemen?",
           "scale": "cat",
           "answers": [
             {
@@ -2294,11 +2321,12 @@
       "question": "21",
       "name": "21",
       "label": "How often do you use translation aids?",
+      "label_de": "Wie häufig verwenden Sie Übersetzungshilfen?",
       "items": [
         {
           "item": "ibuhi2",
-          "text_de": "Wie häufig verwenden Sie Übersetzungshilfen?",
           "text": "How often do you use translation aids?",
+          "text_de": "Wie häufig verwenden Sie Übersetzungshilfen?",
           "scale": "cat",
           "answers": [
             {
@@ -2329,13 +2357,14 @@
       "question": "22",
       "name": "22",
       "label": "How do you cope with the translation aids?",
+      "label_de": "Wie kommen Sie mit den Übersetzungshilfen zurecht?",
       "items": [
         {
           "item": "ibuhi3",
-          "text_de": "Wie kommen Sie mit den Übersetzungshilfen zurecht?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht gut. Der Wert 7 bedeutet: sehr gut.",
           "text": "How do you cope with the translation aids?",
+          "text_de": "Wie kommen Sie mit den Übersetzungshilfen zurecht?",
           "instruction": "Please answer using the following scale. Value 1 means: not good at all. The value 7 means: very good.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht gut. Der Wert 7 bedeutet: sehr gut.",
           "scale": "cat",
           "answers": [
             {
@@ -2386,13 +2415,14 @@
       "question": "23",
       "name": "23",
       "label": "How do the target persons cope with the translation aids?",
+      "label_de": "Wie kommen die Zielpersonen mit den Übersetzungshilfen zurecht?",
       "items": [
         {
           "item": "ibuhi4",
-          "text_de": "Wie kommen die Zielpersonen mit den Übersetzungshilfen zurecht?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht gut. Der Wert 7 bedeutet: sehr gut.",
           "text": "How do the target persons cope with the translation aids?",
+          "text_de": "Wie kommen die Zielpersonen mit den Übersetzungshilfen zurecht?",
           "instruction": "Please answer using the following scale. The value 1 means: not good at all. The value 7 means: very good.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: überhaupt nicht gut. Der Wert 7 bedeutet: sehr gut.",
           "scale": "cat",
           "answers": [
             {
@@ -2443,11 +2473,12 @@
       "question": "24",
       "name": "24",
       "label": "What can we improve with the translation aids?",
+      "label_de": "Was können wir an den Übersetzungshilfen verbessern?",
       "items": [
         {
           "item": "ibuhix1",
-          "text_de": "Was können wir an den Übersetzungshilfen verbessern?",
           "text": "What can we improve with the translation aids?",
+          "text_de": "Was können wir an den Übersetzungshilfen verbessern?",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -2461,11 +2492,12 @@
       "question": "25",
       "name": "25",
       "label": "How do you deal with language problems?",
+      "label_de": "Wie behelfen Sie sich dann bei Sprachproblemen?",
       "items": [
         {
           "item": "ibuhix2",
-          "text_de": "Wie behelfen Sie sich dann bei Sprachproblemen?",
           "text": "How do you deal with language problems?",
+          "text_de": "Wie behelfen Sie sich dann bei Sprachproblemen?",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -2479,29 +2511,30 @@
       "question": "26",
       "name": "26",
       "label": "What kind of personality are you?",
+      "label_de": "Was für eine Persönlichkeit sind Sie?",
       "items": [
         {
           "item": "12",
-          "text_de": "Was für eine Persönlichkeit sind Sie?",
           "text": "What kind of personality are you?",
+          "text_de": "Was für eine Persönlichkeit sind Sie?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "13",
-          "text_de": "Im Folgenden sind unterschiedliche Eigenschaften genannt, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persönlich voll zutreffen und andere überhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden.",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "text": "The following are different characteristics that a person can have. Probably some characteristics will apply to you personally completely and others not at all. With others again, you may be undecided.",
+          "text_de": "Im Folgenden sind unterschiedliche Eigenschaften genannt, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persönlich voll zutreffen und andere überhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden.",
           "instruction": "Please answer using the following scale. The value 1 means: does not apply at all. A value of 7 means: applies absolutely. With the values between 1 and 7 you can gradate your opinion.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "iego01",
-          "text_de": "gründlich arbeitet",
           "text": "works thoroughly",
+          "text_de": "gründlich arbeitet",
           "scale": "cat",
           "answers": [
             {
@@ -2545,8 +2578,8 @@
         },
         {
           "item": "iego02",
-          "text_de": "kommunikativ, gesprächig ist",
           "text": "communicative, talkative",
+          "text_de": "kommunikativ, gesprächig ist",
           "scale": "cat",
           "answers": [
             {
@@ -2590,8 +2623,8 @@
         },
         {
           "item": "iego03",
-          "text_de": "manchmal etwas grob zu anderen ist",
           "text": "is sometimes a little rough with others",
+          "text_de": "manchmal etwas grob zu anderen ist",
           "scale": "cat",
           "answers": [
             {
@@ -2635,8 +2668,8 @@
         },
         {
           "item": "iego04",
-          "text_de": "originell ist, neue Ideen einbringt",
           "text": "is original, brings in new ideas",
+          "text_de": "originell ist, neue Ideen einbringt",
           "scale": "cat",
           "answers": [
             {
@@ -2680,8 +2713,8 @@
         },
         {
           "item": "iego05",
-          "text_de": "sich oft Sorgen macht",
           "text": "is often worried",
+          "text_de": "sich oft Sorgen macht",
           "scale": "cat",
           "answers": [
             {
@@ -2725,8 +2758,8 @@
         },
         {
           "item": "iego06",
-          "text_de": "verzeihen kann",
           "text": "can forgive",
+          "text_de": "verzeihen kann",
           "scale": "cat",
           "answers": [
             {
@@ -2770,8 +2803,8 @@
         },
         {
           "item": "iego07",
-          "text_de": "eher faul ist",
           "text": "is rather lazy",
+          "text_de": "eher faul ist",
           "scale": "cat",
           "answers": [
             {
@@ -2815,8 +2848,8 @@
         },
         {
           "item": "iego08",
-          "text_de": "aus sich herausgehen kann, gesellig ist",
           "text": "can come out of himself, is sociable",
+          "text_de": "aus sich herausgehen kann, gesellig ist",
           "scale": "cat",
           "answers": [
             {
@@ -2860,8 +2893,8 @@
         },
         {
           "item": "iego09",
-          "text_de": "künstlerische, ästhetische Erfahrungen schätzt",
           "text": "appreciates artistic, aesthetic experiences",
+          "text_de": "künstlerische, ästhetische Erfahrungen schätzt",
           "scale": "cat",
           "answers": [
             {
@@ -2905,8 +2938,8 @@
         },
         {
           "item": "iego10",
-          "text_de": "leicht nervös wird",
           "text": "get a little nervous",
+          "text_de": "leicht nervös wird",
           "scale": "cat",
           "answers": [
             {
@@ -2950,8 +2983,8 @@
         },
         {
           "item": "iego11",
-          "text_de": "Aufgaben wirksam und effizient erledigt",
           "text": "complete tasks effectively and efficiently",
+          "text_de": "Aufgaben wirksam und effizient erledigt",
           "scale": "cat",
           "answers": [
             {
@@ -2995,8 +3028,8 @@
         },
         {
           "item": "iego12",
-          "text_de": "zurückhaltend ist",
           "text": "is reticent",
+          "text_de": "zurückhaltend ist",
           "scale": "cat",
           "answers": [
             {
@@ -3040,8 +3073,8 @@
         },
         {
           "item": "iego13",
-          "text_de": "rücksichtsvoll und freundlich mit anderen umgeht",
           "text": "treat others with respect and kindness",
+          "text_de": "rücksichtsvoll und freundlich mit anderen umgeht",
           "scale": "cat",
           "answers": [
             {
@@ -3085,8 +3118,8 @@
         },
         {
           "item": "iego14",
-          "text_de": "eine lebhafte Phantasie, Vorstellungen hat",
           "text": "a vivid imagination, has ideas",
+          "text_de": "eine lebhafte Phantasie, Vorstellungen hat",
           "scale": "cat",
           "answers": [
             {
@@ -3130,8 +3163,8 @@
         },
         {
           "item": "iego15",
-          "text_de": "entspannt ist, mit Stress gut umgehen kann",
           "text": "is relaxed, can cope well with stress",
+          "text_de": "entspannt ist, mit Stress gut umgehen kann",
           "scale": "cat",
           "answers": [
             {
@@ -3175,8 +3208,8 @@
         },
         {
           "item": "iego17",
-          "text_de": "bestimmend ist",
           "text": "is decisive",
+          "text_de": "bestimmend ist",
           "scale": "cat",
           "answers": [
             {
@@ -3220,8 +3253,8 @@
         },
         {
           "item": "iego18",
-          "text_de": "mit anderen mitfühlt",
           "text": "empathize with others",
+          "text_de": "mit anderen mitfühlt",
           "scale": "cat",
           "answers": [
             {
@@ -3265,8 +3298,8 @@
         },
         {
           "item": "iego19",
-          "text_de": "sich meist durchsetzt",
           "text": "is the most widely accepted",
+          "text_de": "sich meist durchsetzt",
           "scale": "cat",
           "answers": [
             {
@@ -3310,8 +3343,8 @@
         },
         {
           "item": "iego20",
-          "text_de": "verständnisvoll für die Sorgen anderer ist",
           "text": "is understanding for the concerns of others",
+          "text_de": "verständnisvoll für die Sorgen anderer ist",
           "scale": "cat",
           "answers": [
             {
@@ -3355,8 +3388,8 @@
         },
         {
           "item": "iego21",
-          "text_de": "weniger auffällt",
           "text": "less conspicuous",
+          "text_de": "weniger auffällt",
           "scale": "cat",
           "answers": [
             {
@@ -3400,8 +3433,8 @@
         },
         {
           "item": "iego22",
-          "text_de": "eher kalt und gefühllos ist",
           "text": "is rather cold and unfeeling",
+          "text_de": "eher kalt und gefühllos ist",
           "scale": "cat",
           "answers": [
             {
@@ -3452,11 +3485,12 @@
       "question": "0_7",
       "name": "0_7",
       "label": "Attitudes and opinions",
+      "label_de": "Einstellungen und Meinungen",
       "items": [
         {
           "item": "14",
-          "text_de": "Einstellungen und Meinungen",
           "text": "Attitudes and opinions",
+          "text_de": "Einstellungen und Meinungen",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3470,11 +3504,12 @@
       "question": "27",
       "name": "27",
       "label": "Generally speaking, how interested are you in politics?",
+      "label_de": "Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?",
       "items": [
         {
           "item": "ipol1",
-          "text_de": "Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?",
           "text": "Generally speaking, how interested are you in politics?",
+          "text_de": "Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?",
           "scale": "cat",
           "answers": [
             {
@@ -3510,11 +3545,12 @@
       "question": "28",
       "name": "28",
       "label": "Many people in Germany sympathise with one party in the long term, even if they occasionally vote for another party or are not eligible to vote. Do you sympathise with a particular party?",
+      "label_de": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten Partei zu, obwohl sie auch ab und zu eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
       "items": [
         {
           "item": "ipol2",
-          "text_de": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten Partei zu, obwohl sie auch ab und zu eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
           "text": "Many people in Germany sympathise with one party in the long term, even if they occasionally vote for another party or are not eligible to vote. Do you sympathise with a particular party?",
+          "text_de": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten Partei zu, obwohl sie auch ab und zu eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
           "scale": "cat",
           "answers": [
             {
@@ -3540,11 +3576,12 @@
       "question": "29",
       "name": "29",
       "label": "Which party do you tend to?",
+      "label_de": "Welcher Partei neigen Sie zu?",
       "items": [
         {
           "item": "ipol3",
-          "text_de": "Welcher Partei neigen Sie zu?",
           "text": "Which party do you tend to?",
+          "text_de": "Welcher Partei neigen Sie zu?",
           "scale": "cat",
           "answers": [
             {
@@ -3598,8 +3635,8 @@
         },
         {
           "item": "ipolso",
-          "text_de": "[Andere] und zwar:",
           "text": "[Others] and that is:",
+          "text_de": "[Andere] und zwar:",
           "scale": "chr",
           "sn": 1,
           "number": ""
@@ -3613,11 +3650,12 @@
       "question": "30",
       "name": "30",
       "label": "And how strongly do you tend towards this party?",
+      "label_de": "Und wie stark neigen Sie dieser Partei zu?",
       "items": [
         {
           "item": "ipol4",
-          "text_de": "Und wie stark neigen Sie dieser Partei zu?",
           "text": "And how strongly do you tend towards this party?",
+          "text_de": "Und wie stark neigen Sie dieser Partei zu?",
           "scale": "cat",
           "answers": [
             {
@@ -3658,19 +3696,20 @@
       "question": "31",
       "name": "31",
       "label": "What about the following areas - are you worried?",
+      "label_de": "Wie ist es mit den folgenden Gebieten – machen Sie sich da Sorgen?",
       "items": [
         {
           "item": "15",
-          "text_de": "Wie ist es mit den folgenden Gebieten – machen Sie sich da Sorgen?",
           "text": "What about the following areas - are you worried?",
+          "text_de": "Wie ist es mit den folgenden Gebieten – machen Sie sich da Sorgen?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "isor01",
-          "text_de": "Um die allgemeine wirtschaftliche Entwicklung?",
           "text": "The general economic development?",
+          "text_de": "Um die allgemeine wirtschaftliche Entwicklung?",
           "scale": "cat",
           "answers": [
             {
@@ -3694,8 +3733,8 @@
         },
         {
           "item": "isor02",
-          "text_de": "Um Ihre eigene wirtschaftliche Situation?",
           "text": "Your own economic situation?",
+          "text_de": "Um Ihre eigene wirtschaftliche Situation?",
           "scale": "cat",
           "answers": [
             {
@@ -3719,8 +3758,8 @@
         },
         {
           "item": "isor21",
-          "text_de": "Um Ihre eigene Altersversorgung",
           "text": "Your own pension plan",
+          "text_de": "Um Ihre eigene Altersversorgung",
           "scale": "cat",
           "answers": [
             {
@@ -3744,8 +3783,8 @@
         },
         {
           "item": "isor03",
-          "text_de": "Um Ihre Gesundheit?",
           "text": "Your health?",
+          "text_de": "Um Ihre Gesundheit?",
           "scale": "cat",
           "answers": [
             {
@@ -3769,8 +3808,8 @@
         },
         {
           "item": "isor04",
-          "text_de": "Um den Schutz der Umwelt?",
           "text": "Protection of the environment?",
+          "text_de": "Um den Schutz der Umwelt?",
           "scale": "cat",
           "answers": [
             {
@@ -3794,8 +3833,8 @@
         },
         {
           "item": "isor12",
-          "text_de": "Um die Folgen des Klimawandels",
           "text": "The consequences of climate change",
+          "text_de": "Um die Folgen des Klimawandels",
           "scale": "cat",
           "answers": [
             {
@@ -3819,8 +3858,8 @@
         },
         {
           "item": "isor05",
-          "text_de": "Um die Erhaltung des Friedens?",
           "text": "Preservation of peace?",
+          "text_de": "Um die Erhaltung des Friedens?",
           "scale": "cat",
           "answers": [
             {
@@ -3844,8 +3883,8 @@
         },
         {
           "item": "isor06",
-          "text_de": "Über die Entwicklung der Kriminalität in Deutschland?",
           "text": "On the development of crime in Germany?",
+          "text_de": "Über die Entwicklung der Kriminalität in Deutschland?",
           "scale": "cat",
           "answers": [
             {
@@ -3869,8 +3908,8 @@
         },
         {
           "item": "isor22",
-          "text_de": "Um den sozialen Zusammenhalt der Gesellschaft",
           "text": "The social cohesion of society",
+          "text_de": "Um den sozialen Zusammenhalt der Gesellschaft",
           "scale": "cat",
           "answers": [
             {
@@ -3894,8 +3933,8 @@
         },
         {
           "item": "isor08",
-          "text_de": "Über die Zuwanderung nach Deutschland?",
           "text": "About immigration to Germany?",
+          "text_de": "Über die Zuwanderung nach Deutschland?",
           "scale": "cat",
           "answers": [
             {
@@ -3919,8 +3958,8 @@
         },
         {
           "item": "isor09",
-          "text_de": "Über Ausländerfeindlichkeit und Fremdenhass in Deutschland?",
           "text": "About xenophobia and xenophobia in Germany?",
+          "text_de": "Über Ausländerfeindlichkeit und Fremdenhass in Deutschland?",
           "scale": "cat",
           "answers": [
             {
@@ -3944,8 +3983,8 @@
         },
         {
           "item": "isor10",
-          "text_de": "Nur wenn Sie erwerbstätig sind: Um die Sicherheit Ihres Arbeitsplatzes?",
           "text": "Only if you are gainfully employed: The security of your job?",
+          "text_de": "Nur wenn Sie erwerbstätig sind: Um die Sicherheit Ihres Arbeitsplatzes?",
           "scale": "cat",
           "answers": [
             {
@@ -3969,8 +4008,8 @@
         },
         {
           "item": "isorso",
-          "text_de": "Oder was sonst macht Ihnen Sorgen?",
           "text": "Or what else worries you?",
+          "text_de": "Oder was sonst macht Ihnen Sorgen?",
           "scale": "chr",
           "sn": 13,
           "number": ""
@@ -3984,11 +4023,12 @@
       "question": "32",
       "name": "32",
       "label": "How would you describe your health at present?",
+      "label_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
       "items": [
         {
           "item": "iges",
-          "text_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
           "text": "How would you describe your health at present?",
+          "text_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
           "scale": "cat",
           "answers": [
             {
@@ -4029,13 +4069,14 @@
       "question": "33",
       "name": "33",
       "label": "How satisfied are you with your life, all things considered?",
+      "label_de": "Manche Menschen sind mit ihrem Leben eher zufrieden, andere dagegen eher unzufrieden. Wie ist das mit Ihnen? Wie zufrieden sind Sie gegenwärtig, alles in allem, mit Ihrem Leben?",
       "items": [
         {
           "item": "izule",
-          "text_de": "Manche Menschen sind mit ihrem Leben eher zufrieden, andere dagegen eher unzufrieden. Wie ist das mit Ihnen? Wie zufrieden sind Sie gegenwärtig, alles in allem, mit Ihrem Leben?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala, bei der \"0\" ganz und gar unzufrieden, \"10\" ganz und gar zufrieden bedeutet.",
           "text": "How satisfied are you with your life, all things considered?",
+          "text_de": "Manche Menschen sind mit ihrem Leben eher zufrieden, andere dagegen eher unzufrieden. Wie ist das mit Ihnen? Wie zufrieden sind Sie gegenwärtig, alles in allem, mit Ihrem Leben?",
           "instruction": "Please answer using the following scale, where \"0\" means completely dissatisfied, \"10\" completely satisfied.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala, bei der \"0\" ganz und gar unzufrieden, \"10\" ganz und gar zufrieden bedeutet.",
           "scale": "cat",
           "answers": [
             {
@@ -4106,11 +4147,12 @@
       "question": "0_8",
       "name": "0_8",
       "label": "Wishes - suggestions - criticism",
+      "label_de": "Wünsche – Anregungen - Kritik",
       "items": [
         {
           "item": "16",
-          "text_de": "Wünsche – Anregungen - Kritik",
           "text": "Wishes - suggestions - criticism",
+          "text_de": "Wünsche – Anregungen - Kritik",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4124,11 +4166,12 @@
       "question": "34",
       "name": "34",
       "label": "Do you have any comments?",
+      "label_de": "Haben Sie noch Anmerkungen?",
       "items": [
         {
           "item": "ibwunsch",
-          "text_de": "Haben Sie noch Anmerkungen?",
           "text": "Do you have any comments?",
+          "text_de": "Haben Sie noch Anmerkungen?",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -4142,11 +4185,12 @@
       "question": "A",
       "name": "A",
       "label": "What is the date today?",
+      "label_de": "Welches Datum haben wir heute?",
       "items": [
         {
           "item": "17",
-          "text_de": "Welches Datum haben wir heute?",
           "text": "What is the date today?",
+          "text_de": "Welches Datum haben wir heute?",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4160,11 +4204,12 @@
       "question": "B",
       "name": "B",
       "label": "Day",
+      "label_de": "Tag",
       "items": [
         {
           "item": "18",
-          "text_de": "Tag",
           "text": "Day",
+          "text_de": "Tag",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -4178,11 +4223,12 @@
       "question": "C",
       "name": "C",
       "label": "Month",
+      "label_de": "Monat",
       "items": [
         {
           "item": "19",
-          "text_de": "Monat",
           "text": "Month",
+          "text_de": "Monat",
           "scale": "int",
           "sn": 0,
           "number": ""
@@ -4196,11 +4242,12 @@
       "question": "0_9",
       "name": "0_9",
       "label": "Thank you for your cooperation!",
+      "label_de": "Vielen Dank für Ihre Mitarbeit!",
       "items": [
         {
           "item": "20",
-          "text_de": "Vielen Dank für Ihre Mitarbeit!",
           "text": "Thank you for your cooperation!",
+          "text_de": "Vielen Dank für Ihre Mitarbeit!",
           "scale": "txt",
           "sn": 0,
           "number": ""

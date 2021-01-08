@@ -14,11 +14,12 @@
       "question": "H1v",
       "name": "H1v",
       "label": "The first questions are about your household. When we ask questions about your household or persons in your household, this could mean you alone if you live alone in an apartment or an accommodation unit. However it can also mean the other people living there who together make up a household. As rule these are family members living together.",
+      "label_de": "Zunächst geht es um Ihren Haushalt. Wenn wir Fragen zu Ihrem Haushalt oder zu Personen in Ihrem Haushalt stellen, können damit Sie alleine gemeint sein, wenn Sie alleine in einer Wohnung oder Wohneinheit leben. Es kann aber auch die Gemeinschaft gemeint sein, die zusammen einen Haushalt bildet. In der Regel sind das zusammenlebende Familienangehörige.",
       "items": [
         {
           "item": "1",
-          "text_de": "Zunächst geht es um Ihren Haushalt. Wenn wir Fragen zu Ihrem Haushalt oder zu Personen in Ihrem Haushalt stellen, können damit Sie alleine gemeint sein, wenn Sie alleine in einer Wohnung oder Wohneinheit leben. Es kann aber auch die Gemeinschaft gemeint sein, die zusammen einen Haushalt bildet. In der Regel sind das zusammenlebende Familienangehörige.",
           "text": "The first questions are about your household. When we ask questions about your household or persons in your household, this could mean you alone if you live alone in an apartment or an accommodation unit. However it can also mean the other people living there who together make up a household. As rule these are family members living together.",
+          "text_de": "Zunächst geht es um Ihren Haushalt. Wenn wir Fragen zu Ihrem Haushalt oder zu Personen in Ihrem Haushalt stellen, können damit Sie alleine gemeint sein, wenn Sie alleine in einer Wohnung oder Wohneinheit leben. Es kann aber auch die Gemeinschaft gemeint sein, die zusammen einen Haushalt bildet. In der Regel sind das zusammenlebende Familienangehörige.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -32,14 +33,15 @@
       "question": "H1",
       "name": "H1",
       "label": "In what type of accommodation does the interviewee live?",
+      "label_de": "In welcher Art von Unterkunft wohnt die Befragungsperson?",
       "items": [
         {
           "item": "hwunt",
-          "text_de": "In welcher Art von Unterkunft wohnt die Befragungsperson?",
           "text": "In what type of accommodation does the interviewee live?",
-          "scale": "cat",
-          "concept": "hwunt",
+          "text_de": "In welcher Art von Unterkunft wohnt die Befragungsperson?",
           "goto": "1@Hy27v; 2@H2",
+          "concept": "hwunt",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -64,13 +66,14 @@
       "question": "H2",
       "name": "H2",
       "label": "Are there further apartments in this building in which refugees live?",
+      "label_de": "Gibt es in diesem Haus noch weitere Wohnungen, in denen geflüchtete Personen wohnen?",
       "items": [
         {
           "item": "hhwflt",
-          "text_de": "Gibt es in diesem Haus noch weitere Wohnungen, in denen geflüchtete Personen wohnen?",
           "text": "Are there further apartments in this building in which refugees live?",
-          "scale": "cat",
+          "text_de": "Gibt es in diesem Haus noch weitere Wohnungen, in denen geflüchtete Personen wohnen?",
           "concept": "hhwflt",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -100,11 +103,12 @@
       "question": "Hy2_1v",
       "name": "Hy2_1v",
       "label": "To answer this questionnaire, the study Life in Germany, it is important to clarify\nwhether there has been a change in the housing situation since the last survey of the household\nor if everything stayed the same.\nThe following question is about the household composition, so whether it is\nsame people in the same apartment.",
+      "label_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.\nBei der folgenden Frage geht es um die Haushaltszusammensetzung, also ob es sich um\ndieselben Personen in derselben Wohnung handelt.",
       "items": [
         {
           "item": "1",
-          "text_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.\nBei der folgenden Frage geht es um die Haushaltszusammensetzung, also ob es sich um\ndieselben Personen in derselben Wohnung handelt.",
           "text": "To answer this questionnaire, the study Life in Germany, it is important to clarify\nwhether there has been a change in the housing situation since the last survey of the household\nor if everything stayed the same.\nThe following question is about the household composition, so whether it is\nsame people in the same apartment.",
+          "text_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.\nBei der folgenden Frage geht es um die Haushaltszusammensetzung, also ob es sich um\ndieselben Personen in derselben Wohnung handelt.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -118,14 +122,15 @@
       "question": "Hy2_1",
       "name": "Hy2_1",
       "label": "What apply to the housing situation of the household since the last questionnaire for this study?",
+      "label_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
       "items": [
         {
           "item": "hwsit",
-          "text_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
           "text": "What apply to the housing situation of the household since the last questionnaire for this study?",
-          "scale": "cat",
-          "concept": "hwsit",
+          "text_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
           "goto": "1@Hy6; 2@Hy6; 3@Hy2_2; 4@Hy2_2",
+          "concept": "hwsit",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -160,30 +165,31 @@
       "question": "Hy2_2",
       "name": "Hy2_2",
       "label": "When was this change to move to a new home or the move one or more participants of this study?",
+      "label_de": "Wann war diese Veränderung, also der Umzug des Haushalts beziehungsweise\nder Zuzug eines oder mehrerer Teilnehmer dieser Studie?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wann war diese Veränderung, also der Umzug des Haushalts beziehungsweise\nder Zuzug eines oder mehrerer Teilnehmer dieser Studie?",
           "text": "When was this change to move to a new home or the move one or more participants of this study?",
+          "text_de": "Wann war diese Veränderung, also der Umzug des Haushalts beziehungsweise\nder Zuzug eines oder mehrerer Teilnehmer dieser Studie?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hwj",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "hwj",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hwm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "hwm",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -196,14 +202,15 @@
       "question": "Hx26_1",
       "name": "Hx26_1",
       "label": "Is the dwelling, that you live in, our first private dwelling in Germany?",
+      "label_de": "Ist die Wohnung, in der Sie jetzt wohnen, Ihre erste private Wohnung in Deutschland?",
       "items": [
         {
           "item": "hprwhg",
-          "text_de": "Ist die Wohnung, in der Sie jetzt wohnen, Ihre erste private Wohnung in Deutschland?",
           "text": "Is the dwelling, that you live in, our first private dwelling in Germany?",
-          "scale": "cat",
-          "concept": "hprwhg",
+          "text_de": "Ist die Wohnung, in der Sie jetzt wohnen, Ihre erste private Wohnung in Deutschland?",
           "goto": "1@Hy26_5; -1@Hy26_5; 2@Hy26_1;",
+          "concept": "hprwhg",
+          "scale": "cat",
           "description": "Neu? \n  ",
           "answers": [
             {
@@ -229,95 +236,96 @@
       "question": "Hy26_1",
       "name": "Hy26_1",
       "label": "What were the most important reasons that led to this change, that is, to your move to a new home or out of an existing household? ",
+      "label_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
       "items": [
         {
           "item": "1",
-          "text_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
           "text": "What were the most important reasons that led to this change, that is, to your move to a new home or out of an existing household? ",
+          "text_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "humz01",
-          "text_de": "Kündigung durch den Vermieter",
           "text": "Notice given by the previous landlord",
-          "scale": "bin",
+          "text_de": "Kündigung durch den Vermieter",
           "concept": "humz01",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "humz18",
-          "text_de": "Unsicherheiten im Mietverhältnis durch neuen Eigentümer / Vermieter",
           "text": "Uncertainties about the rental agreement due to new owner / landlord",
-          "scale": "bin",
+          "text_de": "Unsicherheiten im Mietverhältnis durch neuen Eigentümer / Vermieter",
           "concept": "humz18",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "humz07",
-          "text_de": "Fortzug aus dem Elternhaus",
           "text": "Moved out of parents home",
-          "scale": "bin",
+          "text_de": "Fortzug aus dem Elternhaus",
           "concept": "humz07",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "humz04",
-          "text_de": "Berufliche Gründe",
           "text": "Work reasons",
-          "scale": "bin",
+          "text_de": "Berufliche Gründe",
           "concept": "humz04",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "humzfg",
-          "text_de": "Familiäre Gründe",
           "text": "Familiar reasons",
-          "scale": "bin",
+          "text_de": "Familiäre Gründe",
           "concept": "humzfg",
+          "scale": "bin",
           "description": "Neu?",
           "sn": 5,
           "number": ""
         },
         {
           "item": "humzww",
-          "text_de": "Wohnungsgröße und Wohnkosten",
           "text": "Apartment size and housing cost",
-          "scale": "bin",
+          "text_de": "Wohnungsgröße und Wohnkosten",
           "concept": "humzww",
+          "scale": "bin",
           "description": "Neu?",
           "sn": 6,
           "number": ""
         },
         {
           "item": "humz22",
-          "text_de": "Aufforderung durch Behörde, den Wohnsitz zu verlagern",
           "text": "Request by the authority to relocate the domicile",
-          "scale": "bin",
+          "text_de": "Aufforderung durch Behörde, den Wohnsitz zu verlagern",
           "concept": "humz22",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "humz15",
-          "text_de": "Sonstige Gründe",
           "text": "Other reasons",
-          "scale": "bin",
+          "text_de": "Sonstige Gründe",
           "concept": "humz15",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "humzso",
-          "text_de": "Sonstige Gründe (offene Angabe)",
           "text": "Other reasons (open offer)",
-          "scale": "chr",
+          "text_de": "Sonstige Gründe (offene Angabe)",
           "concept": "humzso",
+          "scale": "chr",
           "sn": 9,
           "number": ""
         }
@@ -330,30 +338,31 @@
       "question": "Hx26_2",
       "name": "Hx26_2",
       "label": "In which town in Germany have you have your first private dwelling? If there is more than one town with the same name, please also state the name of the nearest city.",
+      "label_de": "In welchem Ort in Deutschland hatten Sie Ihre erste private Wohnung?\nBitte nennen Sie bei Orten, die es mehrmals gibt bzw. bei kleinen Orten auch den Namen\nder nahegelegenen Stadt.",
       "items": [
         {
           "item": "1",
-          "text_de": "In welchem Ort in Deutschland hatten Sie Ihre erste private Wohnung?\nBitte nennen Sie bei Orten, die es mehrmals gibt bzw. bei kleinen Orten auch den Namen\nder nahegelegenen Stadt.",
           "text": "In which town in Germany have you have your first private dwelling? If there is more than one town with the same name, please also state the name of the nearest city.",
+          "text_de": "In welchem Ort in Deutschland hatten Sie Ihre erste private Wohnung?\nBitte nennen Sie bei Orten, die es mehrmals gibt bzw. bei kleinen Orten auch den Namen\nder nahegelegenen Stadt.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hprort1",
-          "text_de": "Ort:",
           "text": "Location:",
-          "scale": "chr",
+          "text_de": "Ort:",
           "concept": "hprort1",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hprort2",
-          "text_de": "Bei:",
           "text": "Near:",
-          "scale": "chr",
+          "text_de": "Bei:",
           "concept": "hprort2",
+          "scale": "chr",
           "sn": 2,
           "number": ""
         }
@@ -366,13 +375,14 @@
       "question": "Hx26_3",
       "name": "Hx26_3",
       "label": "In which federal state is this location?",
+      "label_de": "In welchem Bundesland liegt dieser Ort?",
       "items": [
         {
           "item": "hbula",
-          "text_de": "In welchem Bundesland liegt dieser Ort?",
           "text": "In which federal state is this location?",
-          "scale": "cat",
+          "text_de": "In welchem Bundesland liegt dieser Ort?",
           "concept": "hbula",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -467,30 +477,31 @@
       "question": "Hx26_4",
       "name": "Hx26_4",
       "label": "When did you move to your first private dwelling in Germany?",
+      "label_de": "Wann sind Sie in diese erste private Wohnung in Deutschland eingezogen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wann sind Sie in diese erste private Wohnung in Deutschland eingezogen?",
           "text": "When did you move to your first private dwelling in Germany?",
+          "text_de": "Wann sind Sie in diese erste private Wohnung in Deutschland eingezogen?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hprwj",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "hprwj",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hprwm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "hprwm",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -503,13 +514,14 @@
       "question": "Hy26_5",
       "name": "Hy26_5",
       "label": "What was your main reason for choosing this town as your first home in Germany?",
+      "label_de": "Was war der Hauptgrund dafür, dass Sie in diesem Ort Ihre erste Wohnung hatten?",
       "items": [
         {
           "item": "hprumz",
-          "text_de": "Was war der Hauptgrund dafür, dass Sie in diesem Ort Ihre erste Wohnung hatten?",
           "text": "What was your main reason for choosing this town as your first home in Germany?",
-          "scale": "cat",
+          "text_de": "Was war der Hauptgrund dafür, dass Sie in diesem Ort Ihre erste Wohnung hatten?",
           "concept": "hprumz",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -559,21 +571,22 @@
       "question": "Hy26_6",
       "name": "Hy26_6",
       "label": "How often have you been moved since the last questionnaire?",
+      "label_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
           "text": "How often have you been moved since the last questionnaire?",
+          "text_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "humzanz",
-          "text_de": "Anzahl Umzüge",
           "text": "Number of movements",
-          "scale": "int",
+          "text_de": "Anzahl Umzüge",
           "concept": "humzanz",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -586,11 +599,12 @@
       "question": "Hy4v",
       "name": "Hy4v",
       "label": "Now about actually dwelling",
+      "label_de": "Jetzt geht es um die aktuelle Wohnung.",
       "items": [
         {
           "item": "1",
-          "text_de": "Jetzt geht es um die aktuelle Wohnung.",
           "text": "Now about actually dwelling",
+          "text_de": "Jetzt geht es um die aktuelle Wohnung.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -604,13 +618,14 @@
       "question": "H4",
       "name": "H4",
       "label": "Did you move into an existing household or did you establish a new household?",
+      "label_de": "Sind Sie in einen bereits bestehenden Haushalt zugezogen oder haben Sie einen neuen Haushalt gegründet?",
       "items": [
         {
           "item": "hhneug",
-          "text_de": "Sind Sie in einen bereits bestehenden Haushalt zugezogen oder haben Sie einen neuen Haushalt gegründet?",
           "text": "Did you move into an existing household or did you establish a new household?",
-          "scale": "cat",
+          "text_de": "Sind Sie in einen bereits bestehenden Haushalt zugezogen oder haben Sie einen neuen Haushalt gegründet?",
           "concept": "hhneug",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -635,13 +650,14 @@
       "question": "H5",
       "name": "H5",
       "label": "How did you find this apartment?",
+      "label_de": "Wie haben Sie diese Wohnung gefunden?",
       "items": [
         {
           "item": "hwfund",
-          "text_de": "Wie haben Sie diese Wohnung gefunden?",
           "text": "How did you find this apartment?",
-          "scale": "cat",
+          "text_de": "Wie haben Sie diese Wohnung gefunden?",
           "concept": "hwfund",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -686,13 +702,14 @@
       "question": "Hy5_1",
       "name": "Hy5_1",
       "label": "How would you describe your neighborhood?",
+      "label_de": "Wie würden Sie die Wohngegend hier beschreiben?",
       "items": [
         {
           "item": "hwohn08",
-          "text_de": "Wie würden Sie die Wohngegend hier beschreiben?",
           "text": "How would you describe your neighborhood?",
-          "scale": "cat",
+          "text_de": "Wie würden Sie die Wohngegend hier beschreiben?",
           "concept": "hwohn08",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -732,13 +749,14 @@
       "question": "Hy5_2",
       "name": "Hy5_2",
       "label": "What kind of building do you live in?",
+      "label_de": "Was ist das für ein Haustyp, in dem Sie hier wohnen?",
       "items": [
         {
           "item": "hhtyp",
-          "text_de": "Was ist das für ein Haustyp, in dem Sie hier wohnen?",
           "text": "What kind of building do you live in?",
-          "scale": "cat",
+          "text_de": "Was ist das für ein Haustyp, in dem Sie hier wohnen?",
           "concept": "hhtyp",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -788,13 +806,14 @@
       "question": "H18",
       "name": "H18",
       "label": "Was this apartment fully furnished by you or was it already partly or fully furnished before you moved in?",
+      "label_de": "Wurde diese Wohnung von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
       "items": [
         {
           "item": "hwmoeb",
-          "text_de": "Wurde diese Wohnung von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
           "text": "Was this apartment fully furnished by you or was it already partly or fully furnished before you moved in?",
-          "scale": "cat",
+          "text_de": "Wurde diese Wohnung von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
           "concept": "hwmoeb",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -824,13 +843,14 @@
       "question": "Hy6",
       "name": "Hy6",
       "label": "Has the size of your dwelling changed within the last year, e.g., due to remodeling or changes in usage?",
+      "label_de": "Hat sich innerhalb des letzten Jahres an der Größe Ihrer Wohnung etwas verändert,\nz.B. durch Umbauten oder veränderte Nutzung?",
       "items": [
         {
           "item": "humb",
-          "text_de": "Hat sich innerhalb des letzten Jahres an der Größe Ihrer Wohnung etwas verändert,\nz.B. durch Umbauten oder veränderte Nutzung?",
           "text": "Has the size of your dwelling changed within the last year, e.g., due to remodeling or changes in usage?",
-          "scale": "cat",
+          "text_de": "Hat sich innerhalb des letzten Jahres an der Größe Ihrer Wohnung etwas verändert,\nz.B. durch Umbauten oder veränderte Nutzung?",
           "concept": "humb",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -855,21 +875,22 @@
       "question": "H6",
       "name": "H6",
       "label": "How large is the total living space in this flat?",
+      "label_de": "Wie groß ist die Wohnfläche dieser Wohnung insgesamt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie groß ist die Wohnfläche dieser Wohnung insgesamt?",
           "text": "How large is the total living space in this flat?",
+          "text_de": "Wie groß ist die Wohnfläche dieser Wohnung insgesamt?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hqm",
-          "text_de": "qm",
           "text": "sqm",
-          "scale": "int",
+          "text_de": "qm",
           "concept": "hqm",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -882,23 +903,24 @@
       "question": "H7",
       "name": "H7",
       "label": "And how many rooms are in the apartment?",
+      "label_de": "Und wie viele Räume hat Ihre Wohnung?",
       "items": [
         {
           "item": "1",
-          "text_de": "Und wie viele Räume hat Ihre Wohnung?",
-          "instruction_de": "Gemeint sind Räume ab 6 qm, ohne Küche und ohne Bad.",
           "text": "And how many rooms are in the apartment?",
+          "text_de": "Und wie viele Räume hat Ihre Wohnung?",
           "instruction": "This means rooms over 6m2 in size, excluding the kitchen and bathroo",
+          "instruction_de": "Gemeint sind Räume ab 6 qm, ohne Küche und ohne Bad.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hraum",
-          "text_de": "Räume",
           "text": "Rooms",
-          "scale": "int",
+          "text_de": "Räume",
           "concept": "hraum",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -911,13 +933,14 @@
       "question": "H8",
       "name": "H8",
       "label": "How do you rate the size of the apartment overall? For your household is it…",
+      "label_de": "Wie beurteilen Sie insgesamt die Größe Ihrer Wohnung? Ist sie für Ihren Haushalt …",
       "items": [
         {
           "item": "hgr",
-          "text_de": "Wie beurteilen Sie insgesamt die Größe Ihrer Wohnung? Ist sie für Ihren Haushalt …",
           "text": "How do you rate the size of the apartment overall? For your household is it…",
-          "scale": "cat",
+          "text_de": "Wie beurteilen Sie insgesamt die Größe Ihrer Wohnung? Ist sie für Ihren Haushalt …",
           "concept": "hgr",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -957,11 +980,12 @@
       "question": "H9v",
       "name": "H9v",
       "label": "Now there are a few questions about how your apartment is furnished.",
+      "label_de": "Jetzt kommen ein paar Fragen darüber, wie Ihre Wohnung ausgestattet ist.",
       "items": [
         {
           "item": "1",
-          "text_de": "Jetzt kommen ein paar Fragen darüber, wie Ihre Wohnung ausgestattet ist.",
           "text": "Now there are a few questions about how your apartment is furnished.",
+          "text_de": "Jetzt kommen ein paar Fragen darüber, wie Ihre Wohnung ausgestattet ist.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -975,13 +999,14 @@
       "question": "H9",
       "name": "H9",
       "label": "Is your apartment suitably furnished for elderly or disabled persons?",
+      "label_de": "Gehört zu Ihrer Wohnung eine altengerechte, barrierefreie Wohnausstattung?",
       "items": [
         {
           "item": "hwohn24",
-          "text_de": "Gehört zu Ihrer Wohnung eine altengerechte, barrierefreie Wohnausstattung?",
           "text": "Is your apartment suitably furnished for elderly or disabled persons?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine altengerechte, barrierefreie Wohnausstattung?",
           "concept": "hwohn24",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1006,13 +1031,14 @@
       "question": "H10",
       "name": "H10",
       "label": "Does your apartment have underfloor heating (full or partial)?",
+      "label_de": "Gehört zu Ihrer Wohnung eine Fußbodenheizung (ganz oder teilweise)?",
       "items": [
         {
           "item": "hwohn21",
-          "text_de": "Gehört zu Ihrer Wohnung eine Fußbodenheizung (ganz oder teilweise)?",
           "text": "Does your apartment have underfloor heating (full or partial)?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine Fußbodenheizung (ganz oder teilweise)?",
           "concept": "hwohn21",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1037,13 +1063,14 @@
       "question": "H11",
       "name": "H11",
       "label": "Does your apartment have a balcony or a terrace?",
+      "label_de": "Gehört zu Ihrer Wohnung ein Balkon oder eine Terrasse?",
       "items": [
         {
           "item": "hwohn15",
-          "text_de": "Gehört zu Ihrer Wohnung ein Balkon oder eine Terrasse?",
           "text": "Does your apartment have a balcony or a terrace?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung ein Balkon oder eine Terrasse?",
           "concept": "hwohn15",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1068,13 +1095,14 @@
       "question": "H12",
       "name": "H12",
       "label": "Does your apartment have its own garden or use of a garden?",
+      "label_de": "Gehört zu Ihrer Wohnung ein eigener Garten oder Gartenbenutzung?",
       "items": [
         {
           "item": "hwohn17",
-          "text_de": "Gehört zu Ihrer Wohnung ein eigener Garten oder Gartenbenutzung?",
           "text": "Does your apartment have its own garden or use of a garden?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung ein eigener Garten oder Gartenbenutzung?",
           "concept": "hwohn17",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1099,13 +1127,14 @@
       "question": "H13",
       "name": "H13",
       "label": "Does your apartment have an alarm system?",
+      "label_de": "Gehört zu Ihrer Wohnung eine Alarmanlage?",
       "items": [
         {
           "item": "hwohn18",
-          "text_de": "Gehört zu Ihrer Wohnung eine Alarmanlage?",
           "text": "Does your apartment have an alarm system?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine Alarmanlage?",
           "concept": "hwohn18",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1130,13 +1159,14 @@
       "question": "H14",
       "name": "H14",
       "label": "Does your apartment have central heating or a heating system covering one floor?",
+      "label_de": "Gehört zu Ihrer Wohnung eine Zentralheizung oder Etagenheizung?",
       "items": [
         {
           "item": "hwohn29",
-          "text_de": "Gehört zu Ihrer Wohnung eine Zentralheizung oder Etagenheizung?",
           "text": "Does your apartment have central heating or a heating system covering one floor?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine Zentralheizung oder Etagenheizung?",
           "concept": "hwohn29",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1161,13 +1191,14 @@
       "question": "H15",
       "name": "H15",
       "label": "Does your apartment have a lift in the building?",
+      "label_de": "Gehört zu Ihrer Wohnung ein Aufzug / Fahrstuhl im Haus?",
       "items": [
         {
           "item": "hwohn23",
-          "text_de": "Gehört zu Ihrer Wohnung ein Aufzug / Fahrstuhl im Haus?",
           "text": "Does your apartment have a lift in the building?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung ein Aufzug / Fahrstuhl im Haus?",
           "concept": "hwohn23",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1192,13 +1223,14 @@
       "question": "H16",
       "name": "H16",
       "label": "Does your apartment have a cellar/storerooms?",
+      "label_de": "Gehört zu Ihrer Wohnung ein Keller / Abstellräume?",
       "items": [
         {
           "item": "hwohn16",
-          "text_de": "Gehört zu Ihrer Wohnung ein Keller / Abstellräume?",
           "text": "Does your apartment have a cellar/storerooms?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung ein Keller / Abstellräume?",
           "concept": "hwohn16",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1223,13 +1255,14 @@
       "question": "H17",
       "name": "H17",
       "label": "Does your apartment have a garage/parking space?",
+      "label_de": "Gehört zu Ihrer Wohnung eine Garage / ein Stellplatz?",
       "items": [
         {
           "item": "hwohn28",
-          "text_de": "Gehört zu Ihrer Wohnung eine Garage / ein Stellplatz?",
           "text": "Does your apartment have a garage/parking space?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine Garage / ein Stellplatz?",
           "concept": "hwohn28",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1254,14 +1287,15 @@
       "question": "H19",
       "name": "H19",
       "label": "Does your household have one or more telephone landlines?",
+      "label_de": "Gibt es in Ihrem Haushalt einen oder mehrere Telefon-Festnetzanschlüsse?",
       "items": [
         {
           "item": "htel3",
-          "text_de": "Gibt es in Ihrem Haushalt einen oder mehrere Telefon-Festnetzanschlüsse?",
           "text": "Does your household have one or more telephone landlines?",
-          "scale": "cat",
-          "concept": "htel3",
+          "text_de": "Gibt es in Ihrem Haushalt einen oder mehrere Telefon-Festnetzanschlüsse?",
           "goto": "1@H20; 2@Hx21;-1@Hx21",
+          "concept": "htel3",
+          "scale": "cat",
           "description": "K.A. --> go to Hx21\n  ",
           "answers": [
             {
@@ -1287,21 +1321,22 @@
       "question": "H20",
       "name": "H20",
       "label": "Does your household have one or more telephone landlines?",
+      "label_de": "Unter wie vielen Festnetznummern ist Ihr Haushalt telefonisch erreichbar?",
       "items": [
         {
           "item": "1",
-          "text_de": "Unter wie vielen Festnetznummern ist Ihr Haushalt telefonisch erreichbar?",
           "text": "Does your household have one or more telephone landlines?",
+          "text_de": "Unter wie vielen Festnetznummern ist Ihr Haushalt telefonisch erreichbar?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "htel1",
-          "text_de": "Anzahl Festnetznummern",
           "text": "Number of landline numbers",
-          "scale": "int",
+          "text_de": "Anzahl Festnetznummern",
           "concept": "htel1",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -1314,14 +1349,15 @@
       "question": "Hx21",
       "name": "Hx21",
       "label": "Are there one or more mobile phones in your household which are also used?",
+      "label_de": "Gibt es in Ihrem Haushalt ein oder mehrere Mobiltelefone (Handys) oder Smartphones, die auch genutzt werden?",
       "items": [
         {
           "item": "hmob3",
-          "text_de": "Gibt es in Ihrem Haushalt ein oder mehrere Mobiltelefone (Handys) oder Smartphones, die auch genutzt werden?",
           "text": "Are there one or more mobile phones in your household which are also used?",
-          "scale": "cat",
-          "concept": "hmob3",
+          "text_de": "Gibt es in Ihrem Haushalt ein oder mehrere Mobiltelefone (Handys) oder Smartphones, die auch genutzt werden?",
           "goto": "1@Hx22; 2@H23; -1@H23",
+          "concept": "hmob3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1346,31 +1382,32 @@
       "question": "Hx22",
       "name": "Hx22",
       "label": "Does your household have one or more telephone landlines?",
+      "label_de": "Wie viele einfache Mobiltelefone (Handys) und wie viele Smartphones, gibt es in Ihrem Haushalt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele einfache Mobiltelefone (Handys) und wie viele Smartphones, gibt es in Ihrem Haushalt?",
           "text": "Does your household have one or more telephone landlines?",
+          "text_de": "Wie viele einfache Mobiltelefone (Handys) und wie viele Smartphones, gibt es in Ihrem Haushalt?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hmobh",
-          "text_de": "Anzahl einfache Mobiltelefone (Handys)",
           "text": "Number of mobile phones use",
-          "scale": "int",
+          "text_de": "Anzahl einfache Mobiltelefone (Handys)",
           "concept": "hmobh",
+          "scale": "int",
           "description": "Früher: hmob1",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hmobs",
-          "text_de": "Anzahl Smartphones",
           "text": "number of smart phones",
-          "scale": "int",
+          "text_de": "Anzahl Smartphones",
           "concept": "hmobs",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -1383,14 +1420,15 @@
       "question": "H23",
       "name": "H23",
       "label": "Does your household have an internet connection?",
+      "label_de": "Gibt es in Ihrem Haushalt einen Internetanschluss?",
       "items": [
         {
           "item": "hnet3",
-          "text_de": "Gibt es in Ihrem Haushalt einen Internetanschluss?",
           "text": "Does your household have an internet connection?",
-          "scale": "cat",
-          "concept": "hnet3",
+          "text_de": "Gibt es in Ihrem Haushalt einen Internetanschluss?",
           "goto": "1@H24; 2@Hy24_1; -1@Hy24_1",
+          "concept": "hnet3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1415,21 +1453,22 @@
       "question": "H24",
       "name": "H24",
       "label": "How many members of the household use this internet connection?",
+      "label_de": "Wie viele Haushaltsmitglieder nutzen diesen Internetanschluss?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Haushaltsmitglieder nutzen diesen Internetanschluss?",
           "text": "How many members of the household use this internet connection?",
+          "text_de": "Wie viele Haushaltsmitglieder nutzen diesen Internetanschluss?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hnet1",
-          "text_de": "Anzahl Internetnutzer im Haushalt",
           "text": "Number of internet users in the household",
-          "scale": "int",
+          "text_de": "Anzahl Internetnutzer im Haushalt",
           "concept": "hnet1",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -1442,14 +1481,15 @@
       "question": "Hy24_1",
       "name": "Hy24_1",
       "label": "The next questions deal with the costs of living in your dwelling. First the question: Are you the main tenant, subletter, or owner?",
+      "label_de": "Die folgenden Fragen beziehen sich auf die Kosten des Wohnens. Zunächst die Frage: Bewohnen Sie diese Wohnung als Hauptmieter, Untermieter oder Eigentümer?",
       "items": [
         {
           "item": "hm01",
-          "text_de": "Die folgenden Fragen beziehen sich auf die Kosten des Wohnens. Zunächst die Frage: Bewohnen Sie diese Wohnung als Hauptmieter, Untermieter oder Eigentümer?",
           "text": "The next questions deal with the costs of living in your dwelling. First the question: Are you the main tenant, subletter, or owner?",
-          "scale": "cat",
-          "concept": "hm01",
+          "text_de": "Die folgenden Fragen beziehen sich auf die Kosten des Wohnens. Zunächst die Frage: Bewohnen Sie diese Wohnung als Hauptmieter, Untermieter oder Eigentümer?",
           "goto": "1@Hy24_2; 2@Hy24_2; 3@H38",
+          "concept": "hm01",
+          "scale": "cat",
           "number": "23",
           "answers": [
             {
@@ -1479,13 +1519,14 @@
       "question": "Hy24_2",
       "name": "Hy24_2",
       "label": "Is it a social housing with residence permit?",
+      "label_de": "Handelt es sich um eine Sozialwohnung mit Wohnberechtigungsschein?",
       "items": [
         {
           "item": "hm03a",
-          "text_de": "Handelt es sich um eine Sozialwohnung mit Wohnberechtigungsschein?",
           "text": "Is it a social housing with residence permit?",
-          "scale": "cat",
+          "text_de": "Handelt es sich um eine Sozialwohnung mit Wohnberechtigungsschein?",
           "concept": "hm03a",
+          "scale": "cat",
           "description": "ähnlich hm03",
           "answers": [
             {
@@ -1511,15 +1552,16 @@
       "question": "Hy24_3",
       "name": "Hy24_3",
       "label": "Is the dwelling being provided to you at reduced rent by the owner, for example, your employer or a relative, or in exchange for building maintenance / janitorial work",
+      "label_de": "Handelt es sich um eine vom Eigentümer verbilligt überlassene Wohnung, \nz.B. vom Arbeitgeber oder wegen Hauswartstätigkeiten oder von Verwandten ?",
       "items": [
         {
           "item": "hm02",
-          "text_de": "Handelt es sich um eine vom Eigentümer verbilligt überlassene Wohnung, \nz.B. vom Arbeitgeber oder wegen Hauswartstätigkeiten oder von Verwandten ?",
-          "instruction_de": "Hier ist auch Wohnrecht oder Nießbrauch gemeint.",
           "text": "Is the dwelling being provided to you at reduced rent by the owner, for example, your employer or a relative, or in exchange for building maintenance / janitorial work",
+          "text_de": "Handelt es sich um eine vom Eigentümer verbilligt überlassene Wohnung, \nz.B. vom Arbeitgeber oder wegen Hauswartstätigkeiten oder von Verwandten ?",
           "instruction": "Also include right of abode and usufruct.",
-          "scale": "cat",
+          "instruction_de": "Hier ist auch Wohnrecht oder Nießbrauch gemeint.",
           "concept": "hm02",
+          "scale": "cat",
           "number": "32",
           "answers": [
             {
@@ -1544,13 +1586,14 @@
       "question": "Hy24_4",
       "name": "Hy24_4",
       "label": "Who is the owner of the dwelling?",
+      "label_de": "Wer oder welche Institution ist der Eigentümer der Wohnung?",
       "items": [
         {
           "item": "hm13",
-          "text_de": "Wer oder welche Institution ist der Eigentümer der Wohnung?",
           "text": "Who is the owner of the dwelling?",
-          "scale": "cat",
+          "text_de": "Wer oder welche Institution ist der Eigentümer der Wohnung?",
           "concept": "hm13",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1595,14 +1638,15 @@
       "question": "H25",
       "name": "H25",
       "label": "Do you or does another member of the household pay the rent or is it paid directly by a state agency?",
+      "label_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied die Miete oder wird diese direkt von einer staatlichen Stelle übernommen?",
       "items": [
         {
           "item": "hmietk",
-          "text_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied die Miete oder wird diese direkt von einer staatlichen Stelle übernommen?",
           "text": "Do you or does another member of the household pay the rent or is it paid directly by a state agency?",
-          "scale": "cat",
-          "concept": "hmietk",
+          "text_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied die Miete oder wird diese direkt von einer staatlichen Stelle übernommen?",
           "goto": "1@H26; 2@H26; 3@H38; -1@H38",
+          "concept": "hmietk",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1632,31 +1676,32 @@
       "question": "H26",
       "name": "H26",
       "label": "How much is the monthly rent at present?",
+      "label_de": "Wie hoch ist derzeit die monatliche Miete?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist derzeit die monatliche Miete?",
           "text": "How much is the monthly rent at present?",
-          "scale": "txt",
+          "text_de": "Wie hoch ist derzeit die monatliche Miete?",
           "goto": "1@H38; 2@H38; -1@H38",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hmke",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hmke",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hmkewn",
-          "text_de": "Weiß nicht",
           "text": "Do not know",
-          "scale": "bin",
+          "text_de": "Weiß nicht",
           "concept": "hmkewn",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         }
@@ -1669,11 +1714,12 @@
       "question": "Hy27v",
       "name": "Hy27v",
       "label": "To answer this questionnaire, the study Life in Germany, it is important to clarify\nwhether there has been a change in the housing situation since the last survey of the household\nor if everything stayed the same.\nThe following question is about the household composition, so whether it is\nsame people in the same apartment.",
+      "label_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.\nBei der folgenden Frage geht es um die Haushaltszusammensetzung, also ob es sich um\ndieselben Personen in derselben Wohnung handelt.",
       "items": [
         {
           "item": "1",
-          "text_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.\nBei der folgenden Frage geht es um die Haushaltszusammensetzung, also ob es sich um\ndieselben Personen in derselben Wohnung handelt.",
           "text": "To answer this questionnaire, the study Life in Germany, it is important to clarify\nwhether there has been a change in the housing situation since the last survey of the household\nor if everything stayed the same.\nThe following question is about the household composition, so whether it is\nsame people in the same apartment.",
+          "text_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.\nBei der folgenden Frage geht es um die Haushaltszusammensetzung, also ob es sich um\ndieselben Personen in derselben Wohnung handelt.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -1687,14 +1733,15 @@
       "question": "Hy27",
       "name": "Hy27",
       "label": "What apply to the housing situation of the household since the last questionnaire for this study?",
+      "label_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
       "items": [
         {
           "item": "hgsit",
-          "text_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
           "text": "What apply to the housing situation of the household since the last questionnaire for this study?",
-          "scale": "cat",
-          "concept": "hgsit",
+          "text_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
           "goto": "1@H30; 2@Hy28_1; 3@H27",
+          "concept": "hgsit",
+          "scale": "cat",
           "description": "Neu, basierend auf hwsit",
           "answers": [
             {
@@ -1725,13 +1772,14 @@
       "question": "H27",
       "name": "H27",
       "label": "What kind of shared accommodation is it?",
+      "label_de": "Was für eine Gemeinschaftsunterkunft ist das?",
       "items": [
         {
           "item": "hgunt",
-          "text_de": "Was für eine Gemeinschaftsunterkunft ist das?",
           "text": "What kind of shared accommodation is it?",
-          "scale": "cat",
+          "text_de": "Was für eine Gemeinschaftsunterkunft ist das?",
           "concept": "hgunt",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1761,30 +1809,31 @@
       "question": "H28",
       "name": "H28",
       "label": "When did you move into this shared accommodation?",
+      "label_de": "Wann sind Sie in diese Gemeinschaftsunterkunft eingezogen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wann sind Sie in diese Gemeinschaftsunterkunft eingezogen?",
           "text": "When did you move into this shared accommodation?",
+          "text_de": "Wann sind Sie in diese Gemeinschaftsunterkunft eingezogen?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hguntwj",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "hguntwj",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hguntwm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "hguntwm",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -1797,57 +1846,58 @@
       "question": "Hy28_1",
       "name": "Hy28_1",
       "label": "What were the most important reasons that led to this change, that is, to your move to a new home or out of an existing household? ",
+      "label_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
       "items": [
         {
           "item": "1",
-          "text_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
           "text": "What were the most important reasons that led to this change, that is, to your move to a new home or out of an existing household? ",
+          "text_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hgumz1",
-          "text_de": "Schließung, Renovierung, Umbau der Gemeinschaftsunterkunft",
           "text": "Closure, renovation, reconstruction of the communal housing",
-          "scale": "bin",
+          "text_de": "Schließung, Renovierung, Umbau der Gemeinschaftsunterkunft",
           "concept": "hgumz1",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hgumz2",
-          "text_de": "Aufforderung durch Behörde, den Wohnsitz zu verlagern",
           "text": "Request by the authority to relocate the domicile",
-          "scale": "bin",
+          "text_de": "Aufforderung durch Behörde, den Wohnsitz zu verlagern",
           "concept": "hgumz2",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hgumz3",
-          "text_de": "Aufforderung durch Behörde, wegen anderer Gründe ",
           "text": "Request by the authority, because of other reasons",
-          "scale": "bin",
+          "text_de": "Aufforderung durch Behörde, wegen anderer Gründe ",
           "concept": "hgumz3",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "hgumz4",
-          "text_de": "Familiäre Gründe",
           "text": "Familiar reasons",
-          "scale": "bin",
+          "text_de": "Familiäre Gründe",
           "concept": "hgumz4",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "hgumz5",
-          "text_de": "Sonstige Gründe",
           "text": "Other reasons",
-          "scale": "bin",
+          "text_de": "Sonstige Gründe",
           "concept": "hgumz5",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         }
@@ -1860,21 +1910,22 @@
       "question": "Hy28_2",
       "name": "Hy28_2",
       "label": "How often have you been moved since the last questionnaire?",
+      "label_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
           "text": "How often have you been moved since the last questionnaire?",
+          "text_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hgumzanz",
-          "text_de": "Anzahl Umzüge",
           "text": "Number of movements",
-          "scale": "int",
+          "text_de": "Anzahl Umzüge",
           "concept": "hgumzanz",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -1887,13 +1938,14 @@
       "question": "H29",
       "name": "H29",
       "label": "Is there a self-contained unit available for you personally or your family?",
+      "label_de": "Steht Ihnen persönlich oder Ihrer Familie eine abgeschlossene Wohneinheit zur Verfügung?",
       "items": [
         {
           "item": "hweab",
-          "text_de": "Steht Ihnen persönlich oder Ihrer Familie eine abgeschlossene Wohneinheit zur Verfügung?",
           "text": "Is there a self-contained unit available for you personally or your family?",
-          "scale": "cat",
+          "text_de": "Steht Ihnen persönlich oder Ihrer Familie eine abgeschlossene Wohneinheit zur Verfügung?",
           "concept": "hweab",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1918,21 +1970,22 @@
       "question": "H30",
       "name": "H30",
       "label": "How many people in total share your unit?",
+      "label_de": "Wie viele Personen teilen sich Ihre Wohneinheit insgesamt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Personen teilen sich Ihre Wohneinheit insgesamt?",
           "text": "How many people in total share your unit?",
+          "text_de": "Wie viele Personen teilen sich Ihre Wohneinheit insgesamt?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hweper",
-          "text_de": "Personen",
           "text": "Persons",
-          "scale": "int",
+          "text_de": "Personen",
           "concept": "hweper",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -1945,21 +1998,22 @@
       "question": "H31",
       "name": "H31",
       "label": "Approximately how large is the living area of this unit in total?",
+      "label_de": "Wie groß ist die Wohnfläche dieser Wohneinheit in etwa insgesamt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie groß ist die Wohnfläche dieser Wohneinheit in etwa insgesamt?",
           "text": "Approximately how large is the living area of this unit in total?",
+          "text_de": "Wie groß ist die Wohnfläche dieser Wohneinheit in etwa insgesamt?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hweqm",
-          "text_de": "qm",
           "text": "m2",
-          "scale": "int",
+          "text_de": "qm",
           "concept": "hweqm",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -1972,13 +2026,14 @@
       "question": "H32",
       "name": "H32",
       "label": "Did you fully furnish this unit yourself or was it already partially or fully furnished before you moved in?",
+      "label_de": "Wurde diese Wohneinheit von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
       "items": [
         {
           "item": "hwemoeb",
-          "text_de": "Wurde diese Wohneinheit von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
           "text": "Did you fully furnish this unit yourself or was it already partially or fully furnished before you moved in?",
-          "scale": "cat",
+          "text_de": "Wurde diese Wohneinheit von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
           "concept": "hwemoeb",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2008,40 +2063,41 @@
       "question": "Hx33",
       "name": "Hx33",
       "label": "Do you or other persons in your household own at least one mobile phone?",
+      "label_de": "Besitzen Sie oder andere Personen in Ihrem Haushalt mindestens ein Mobiltelefon (Handy) oder ein Smartphone?",
       "items": [
         {
           "item": "1",
-          "text_de": "Besitzen Sie oder andere Personen in Ihrem Haushalt mindestens ein Mobiltelefon (Handy) oder ein Smartphone?",
           "text": "Do you or other persons in your household own at least one mobile phone?",
-          "scale": "txt",
+          "text_de": "Besitzen Sie oder andere Personen in Ihrem Haushalt mindestens ein Mobiltelefon (Handy) oder ein Smartphone?",
           "concept": "hwemob",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hwemobh",
-          "text_de": "Ja, einfaches Mobiltelefon (Handy)",
           "text": "Yes, number of mobile phones use",
-          "scale": "bin",
+          "text_de": "Ja, einfaches Mobiltelefon (Handy)",
           "concept": "hwemobh",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hwemobs",
-          "text_de": "Ja, Smartphone",
           "text": "[Yes] smart phone",
-          "scale": "bin",
+          "text_de": "Ja, Smartphone",
           "concept": "hwemobs",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hwemobno",
-          "text_de": "Nein, nichts davon",
           "text": "No, no none of theses",
-          "scale": "bin",
+          "text_de": "Nein, nichts davon",
           "concept": "hwemobno",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         }
@@ -2054,13 +2110,14 @@
       "question": "H34",
       "name": "H34",
       "label": "Does your accommodation have an internet connection (including WLAN) which you can use?",
+      "label_de": "Gibt es in Ihrer Unterkunft einen Internetanschluss (inklusive WLAN), den Sie nutzen können?",
       "items": [
         {
           "item": "hwenet",
-          "text_de": "Gibt es in Ihrer Unterkunft einen Internetanschluss (inklusive WLAN), den Sie nutzen können?",
           "text": "Does your accommodation have an internet connection (including WLAN) which you can use?",
-          "scale": "cat",
+          "text_de": "Gibt es in Ihrer Unterkunft einen Internetanschluss (inklusive WLAN), den Sie nutzen können?",
           "concept": "hwenet",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2085,13 +2142,14 @@
       "question": "H35",
       "name": "H35",
       "label": "Do you or does another member of the household pay rent for your accommodation?",
+      "label_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied Miete für Ihre Unterkunft?",
       "items": [
         {
           "item": "hwemk",
-          "text_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied Miete für Ihre Unterkunft?",
           "text": "Do you or does another member of the household pay rent for your accommodation?",
-          "scale": "cat",
+          "text_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied Miete für Ihre Unterkunft?",
           "concept": "hwemk",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2116,30 +2174,31 @@
       "question": "H36",
       "name": "H36",
       "label": "How much is the monthly rent at present?",
+      "label_de": "Wie hoch ist derzeit die monatliche Miete?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist derzeit die monatliche Miete?",
           "text": "How much is the monthly rent at present?",
+          "text_de": "Wie hoch ist derzeit die monatliche Miete?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hwemke",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hwemke",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hwemkwn",
-          "text_de": "Weiß nicht",
           "text": "Do not know",
-          "scale": "bin",
+          "text_de": "Weiß nicht",
           "concept": "hwemkewn",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         }
@@ -2152,13 +2211,14 @@
       "question": "H37",
       "name": "H37",
       "label": "What about crime? How safe is it in your accommodation?",
+      "label_de": "Wie ist es mit Kriminalität? Wie sicher ist es in Ihrer Unterkunft?",
       "items": [
         {
           "item": "hkrimunt",
-          "text_de": "Wie ist es mit Kriminalität? Wie sicher ist es in Ihrer Unterkunft?",
           "text": "What about crime? How safe is it in your accommodation?",
-          "scale": "cat",
+          "text_de": "Wie ist es mit Kriminalität? Wie sicher ist es in Ihrer Unterkunft?",
           "concept": "hkrimunt",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2193,13 +2253,14 @@
       "question": "H38",
       "name": "H38",
       "label": "And what about crime? How safe is your neighborhood?",
+      "label_de": "Wie ist es mit Kriminalität? Wie sicher ist Ihr Wohngebiet?",
       "items": [
         {
           "item": "hkrim",
-          "text_de": "Wie ist es mit Kriminalität? Wie sicher ist Ihr Wohngebiet?",
           "text": "And what about crime? How safe is your neighborhood?",
-          "scale": "cat",
+          "text_de": "Wie ist es mit Kriminalität? Wie sicher ist Ihr Wohngebiet?",
           "concept": "hkrim",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2234,14 +2295,15 @@
       "question": "Hx38",
       "name": "Hx38",
       "label": "Are you allowed because of legal regulations / restrictions currently only in a certain place\nor a particular federal state or can you choose your place of residence yourself?",
+      "label_de": "Dürfen Sie wegen rechtlichen Vorschriften / Einschränkungen aktuell nur in einem bestimmten Ort\noder einem bestimmten Bundesland wohnen oder können Sie Ihren Wohnort selbst wählen?",
       "items": [
         {
           "item": "hortw",
-          "text_de": "Dürfen Sie wegen rechtlichen Vorschriften / Einschränkungen aktuell nur in einem bestimmten Ort\noder einem bestimmten Bundesland wohnen oder können Sie Ihren Wohnort selbst wählen?",
           "text": "Are you allowed because of legal regulations / restrictions currently only in a certain place\nor a particular federal state or can you choose your place of residence yourself?",
-          "scale": "cat",
-          "concept": "hortw",
+          "text_de": "Dürfen Sie wegen rechtlichen Vorschriften / Einschränkungen aktuell nur in einem bestimmten Ort\noder einem bestimmten Bundesland wohnen oder können Sie Ihren Wohnort selbst wählen?",
           "goto": "1@Hy38_1, 2@Hy38_1; 3@Hy38_4; -1@Hy38_4",
+          "concept": "hortw",
+          "scale": "cat",
           "description": "Neu?",
           "answers": [
             {
@@ -2272,13 +2334,14 @@
       "question": "Hy38_1",
       "name": "Hy38_1",
       "label": "How satisfied are you with the choice of location or the federal state you have been assigned?",
+      "label_de": "Wie zufrieden sind Sie mit der Auswahl des Ortes beziehungsweise des Bundeslandes dem\nSie zugewiesen wurden?",
       "items": [
         {
           "item": "hortzuf",
-          "text_de": "Wie zufrieden sind Sie mit der Auswahl des Ortes beziehungsweise des Bundeslandes dem\nSie zugewiesen wurden?",
           "text": "How satisfied are you with the choice of location or the federal state you have been assigned?",
-          "scale": "cat",
+          "text_de": "Wie zufrieden sind Sie mit der Auswahl des Ortes beziehungsweise des Bundeslandes dem\nSie zugewiesen wurden?",
           "concept": "hortzuf",
+          "scale": "cat",
           "description": "Neu?",
           "answers": [
             {
@@ -2349,13 +2412,14 @@
       "question": "Hy38_2",
       "name": "Hy38_2",
       "label": "How important is it for you to choose the housing place?",
+      "label_de": "Wie wichtig ist es Ihnen, den Wohnort frei wählen zu können?",
       "items": [
         {
           "item": "hortww",
-          "text_de": "Wie wichtig ist es Ihnen, den Wohnort frei wählen zu können?",
           "text": "How important is it for you to choose the housing place?",
-          "scale": "cat",
+          "text_de": "Wie wichtig ist es Ihnen, den Wohnort frei wählen zu können?",
           "concept": "hortww",
+          "scale": "cat",
           "description": "Neu?",
           "answers": [
             {
@@ -2391,13 +2455,14 @@
       "question": "Hy38_3",
       "name": "Hy38_3",
       "label": "How likely it is, that you move to another town as soon as you can decide freely?",
+      "label_de": "Wie wahrscheinlich ist es, dass Sie in eine andere Stadt ziehen, sobald Sie frei entscheiden können ?",
       "items": [
         {
           "item": "humzw",
-          "text_de": "Wie wahrscheinlich ist es, dass Sie in eine andere Stadt ziehen, sobald Sie frei entscheiden können ?",
           "text": "How likely it is, that you move to another town as soon as you can decide freely?",
-          "scale": "cat",
+          "text_de": "Wie wahrscheinlich ist es, dass Sie in eine andere Stadt ziehen, sobald Sie frei entscheiden können ?",
           "concept": "humzw",
+          "scale": "cat",
           "description": "Neu?",
           "answers": [
             {
@@ -2468,14 +2533,15 @@
       "question": "Hy38_4",
       "name": "Hy38_4",
       "label": "Are you looking for an apartment right now?",
+      "label_de": "Sind Sie gerade auf der Suche nach einer Wohnung?",
       "items": [
         {
           "item": "hsuch1",
-          "text_de": "Sind Sie gerade auf der Suche nach einer Wohnung?",
           "text": "Are you looking for an apartment right now?",
-          "scale": "cat",
-          "concept": "hsuch1",
+          "text_de": "Sind Sie gerade auf der Suche nach einer Wohnung?",
           "goto": "1@Hy38_5; 2@H39v; -1@H39v",
+          "concept": "hsuch1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2500,68 +2566,69 @@
       "question": "Hy38_5",
       "name": "Hy38_5",
       "label": "Which of the following methods and services have you used to look for a dwelling?",
+      "label_de": "Welche der folgenden Möglichkeiten haben Sie bisher genutzt, um eine Wohnung zu finden?",
       "items": [
         {
           "item": "1",
-          "text_de": "Welche der folgenden Möglichkeiten haben Sie bisher genutzt, um eine Wohnung zu finden?",
-          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "text": "Which of the following methods and services have you used to look for a dwelling?",
+          "text_de": "Welche der folgenden Möglichkeiten haben Sie bisher genutzt, um eine Wohnung zu finden?",
           "instruction": "Please indicate all that apply",
+          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hsuch21",
-          "text_de": "Über Zeitungsanzeigen, Anzeigen im Internet",
           "text": "via newspaper advertisements, advertisements on the internet",
-          "scale": "bin",
+          "text_de": "Über Zeitungsanzeigen, Anzeigen im Internet",
           "concept": "hsuch21",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hsuch22",
-          "text_de": "Über eine staatliche Vermittlung",
           "text": "through a state agency",
-          "scale": "bin",
+          "text_de": "Über eine staatliche Vermittlung",
           "concept": "hsuch22",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hsuch23",
-          "text_de": "Über Hilfsorganisationen wie AWO, Caritas, Rotes Kreuz",
           "text": "via aid organisations such as AWO, Caritas, Red Cross",
-          "scale": "bin",
+          "text_de": "Über Hilfsorganisationen wie AWO, Caritas, Rotes Kreuz",
           "concept": "hsuch23",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "hsuch24",
-          "text_de": "Über Verwandte",
           "text": "via relatives",
-          "scale": "bin",
+          "text_de": "Über Verwandte",
           "concept": "hsuch24",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "hsuch25",
-          "text_de": "Über Freunde/Bekannte",
           "text": "via friends/acquaintances",
-          "scale": "bin",
+          "text_de": "Über Freunde/Bekannte",
           "concept": "hsuch25",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "hsuch26",
-          "text_de": "Sonstiges",
           "text": "Elsewhere",
-          "scale": "bin",
+          "text_de": "Sonstiges",
           "concept": "hsuch26",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         }
@@ -2574,13 +2641,14 @@
       "question": "Hy38_6",
       "name": "Hy38_6",
       "label": "No details",
+      "label_de": "keine Angabe",
       "items": [
         {
           "item": "hsuchka",
-          "text_de": "keine Angabe",
           "text": "No details",
-          "scale": "bin",
+          "text_de": "keine Angabe",
           "concept": "hsuchka",
+          "scale": "bin",
           "sn": 0,
           "number": ""
         }
@@ -2593,11 +2661,12 @@
       "question": "H39v",
       "name": "H39v",
       "label": "We would now like to know whether you or another member of the household is currently receiving any one the following state benefits.",
+      "label_de": "Jetzt geht es darum, ob Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen erhält.",
       "items": [
         {
           "item": "1",
-          "text_de": "Jetzt geht es darum, ob Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen erhält.",
           "text": "We would now like to know whether you or another member of the household is currently receiving any one the following state benefits.",
+          "text_de": "Jetzt geht es darum, ob Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen erhält.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -2611,41 +2680,42 @@
       "question": "Hy39",
       "name": "Hy39",
       "label": "Are you or another member of the household currently receiving benefits after that?\nAsylum Seekers Benefit Act (AsylbLG) or did you receive this benefit in the last calendar year?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Leistungen nach dem\nAsylbewerberleistungsgesetz (AsylbLG) oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
       "items": [
         {
           "item": "1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Leistungen nach dem\nAsylbewerberleistungsgesetz (AsylbLG) oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "text": "Are you or another member of the household currently receiving benefits after that?\nAsylum Seekers Benefit Act (AsylbLG) or did you receive this benefit in the last calendar year?",
-          "scale": "txt",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Leistungen nach dem\nAsylbewerberleistungsgesetz (AsylbLG) oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "goto": "1@Hy40_1; 2@Hy40_3; 3@Hy41; -1@Hy41",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hab1",
-          "text_de": "Ja, im letzten Kalenderjahr",
           "text": "Yes, in the last calendar year",
-          "scale": "bin",
+          "text_de": "Ja, im letzten Kalenderjahr",
           "concept": "hab1",
+          "scale": "bin",
           "description": "Neu, basierend auf hasylg",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hab2",
-          "text_de": "Ja, derzeit",
           "text": "Yes, currently",
-          "scale": "bin",
+          "text_de": "Ja, derzeit",
           "concept": "hab2",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "habno",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "habno",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         }
@@ -2658,21 +2728,22 @@
       "question": "Hy40_1",
       "name": "Hy40_1",
       "label": "How many months do you, or your household, have in the last calendar year benefits\naccording to the Asylum Seekers Benefits Act (AsylbLG)",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Leistungen\nnach dem Asylbewerberleistungsgesetz (AsylbLG) erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Leistungen\nnach dem Asylbewerberleistungsgesetz (AsylbLG) erhalten?",
           "text": "How many months do you, or your household, have in the last calendar year benefits\naccording to the Asylum Seekers Benefits Act (AsylbLG)",
+          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Leistungen\nnach dem Asylbewerberleistungsgesetz (AsylbLG) erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlab1",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlab1",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -2685,22 +2756,23 @@
       "question": "Hy40_2",
       "name": "Hy40_2",
       "label": "What is the amount currently received per month by you or your household under the Asylum Seeker's Benefit Act (AsylbLG)?",
+      "label_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) im letzten Kalenderjahr durchschnittlich pro Monat erhalten haben?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) im letzten Kalenderjahr durchschnittlich pro Monat erhalten haben?",
           "text": "What is the amount currently received per month by you or your household under the Asylum Seeker's Benefit Act (AsylbLG)?",
-          "scale": "txt",
+          "text_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) im letzten Kalenderjahr durchschnittlich pro Monat erhalten haben?",
           "goto": "Hy39:hab1=1@Hy41",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlab2",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlab2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -2713,21 +2785,22 @@
       "question": "Hy40_3",
       "name": "Hy40_3",
       "label": "What is the amount you, or your household, according to the Asylbewerberleistungsgesetz\n(AsylbLG) currently received per month?",
+      "label_de": "Wie hoch ist der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) derzeit pro Monat erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) derzeit pro Monat erhalten?",
           "text": "What is the amount you, or your household, according to the Asylbewerberleistungsgesetz\n(AsylbLG) currently received per month?",
+          "text_de": "Wie hoch ist der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) derzeit pro Monat erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdabe",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdabe",
+          "scale": "int",
           "description": "Neu, basierend auf hasylg",
           "sn": 1,
           "number": ""
@@ -2741,42 +2814,43 @@
       "question": "Hy41",
       "name": "Hy41",
       "label": "Are you or another household member currently receiving child benefit or receiving this benefit?\nlast calendar year?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Kindergeld oder erhielten Sie diese Leistung im\nletzten Kalenderjahr?",
       "items": [
         {
           "item": "1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Kindergeld oder erhielten Sie diese Leistung im\nletzten Kalenderjahr?",
           "text": "Are you or another household member currently receiving child benefit or receiving this benefit?\nlast calendar year?",
-          "scale": "txt",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Kindergeld oder erhielten Sie diese Leistung im\nletzten Kalenderjahr?",
           "goto": "1@Hy42_1; 2@Hy42_9; 3@Hy48; -1@Hy48",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hkg1",
-          "text_de": "Ja, im letzten Kalenderjahr",
           "text": "Yes, in the last calendar year",
-          "scale": "bin",
+          "text_de": "Ja, im letzten Kalenderjahr",
           "concept": "hkg1",
+          "scale": "bin",
           "description": "Neu, basierend auf hdkg1",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hkg2",
-          "text_de": "Ja, derzeit",
           "text": "Yes, currently",
-          "scale": "bin",
+          "text_de": "Ja, derzeit",
           "concept": "hkg2",
+          "scale": "bin",
           "description": "Neu, basierend auf hdkg1",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hkgno",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "hkgno",
+          "scale": "bin",
           "description": "Neu, basierend auf hdkg1",
           "sn": 3,
           "number": ""
@@ -2790,21 +2864,22 @@
       "question": "Hy42_1",
       "name": "Hy42_1",
       "label": "How many months did you, or your household, receive child benefit in the last calendar year?",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Kindergeld erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Kindergeld erhalten?",
           "text": "How many months did you, or your household, receive child benefit in the last calendar year?",
+          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Kindergeld erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlkg2",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlkg2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -2817,21 +2892,22 @@
       "question": "Hy42_2",
       "name": "Hy42_2",
       "label": "How many child benefit have you or your household received in the last calendar year averagely per month?",
+      "label_de": "Wie viel Kindergeld haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\ndurchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Kindergeld haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\ndurchschnittlich pro Monat erhalten?",
           "text": "How many child benefit have you or your household received in the last calendar year averagely per month?",
+          "text_de": "Wie viel Kindergeld haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\ndurchschnittlich pro Monat erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlkg3",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlkg3",
+          "scale": "int",
           "description": "Neu, basierend auf hdkg2",
           "sn": 1,
           "number": ""
@@ -2845,14 +2921,15 @@
       "question": "Hy42_3",
       "name": "Hy42_3",
       "label": "Are you or is another member of the household receiving child benefit supplements (benefit for low-wage earners applied for in addition to the child benefit)?",
+      "label_de": "Haben Sie oder ein anderes Haushaltsmitglied im letzten Kalenderjahr Kindergeldzuschlag (zusätzlich\nzum Kindergeld beantragte Leistung für Geringverdiener) erhalten?",
       "items": [
         {
           "item": "hlkz1",
-          "text_de": "Haben Sie oder ein anderes Haushaltsmitglied im letzten Kalenderjahr Kindergeldzuschlag (zusätzlich\nzum Kindergeld beantragte Leistung für Geringverdiener) erhalten?",
           "text": "Are you or is another member of the household receiving child benefit supplements (benefit for low-wage earners applied for in addition to the child benefit)?",
-          "scale": "cat",
-          "concept": "hlkz1",
+          "text_de": "Haben Sie oder ein anderes Haushaltsmitglied im letzten Kalenderjahr Kindergeldzuschlag (zusätzlich\nzum Kindergeld beantragte Leistung für Geringverdiener) erhalten?",
           "goto": "1@Hy42_4; 2@Hy42_6; -1@Hy42_6",
+          "concept": "hlkz1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2877,21 +2954,22 @@
       "question": "Hy42_4",
       "name": "Hy42_4",
       "label": "How many months have you or your household in the last calendar year\nChild benefit supplement received?",
+      "label_de": "Wie viele Monate haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\nKindergeldzuschlag erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\nKindergeldzuschlag erhalten?",
           "text": "How many months have you or your household in the last calendar year\nChild benefit supplement received?",
+          "text_de": "Wie viele Monate haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\nKindergeldzuschlag erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlkz2",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlkz2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -2904,11 +2982,12 @@
       "question": "Hy42_5",
       "name": "Hy42_5",
       "label": "How much child allowance do you or your household have in the last calendar year?\naverage per month received?",
+      "label_de": "Wie viel Kindergeldzuschlag haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\ndurchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Kindergeldzuschlag haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\ndurchschnittlich pro Monat erhalten?",
           "text": "How much child allowance do you or your household have in the last calendar year?\naverage per month received?",
+          "text_de": "Wie viel Kindergeldzuschlag haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\ndurchschnittlich pro Monat erhalten?",
           "scale": "txt",
           "description": "Neu, basierend auf hdkz2",
           "sn": 0,
@@ -2916,10 +2995,10 @@
         },
         {
           "item": "hlkz3",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlkz3",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -2932,14 +3011,15 @@
       "question": "Hy42_6",
       "name": "Hy42_6",
       "label": "Did you or one of the members of your family receive any of the following benefits last year?",
+      "label_de": "Haben Sie oder ein anderes Haushaltsmitglied im letzten Kalenderjahr für eines oder mehrere Kinder\nLeistungen aus dem Bildungspaket erhalten?",
       "items": [
         {
           "item": "hlbp1",
-          "text_de": "Haben Sie oder ein anderes Haushaltsmitglied im letzten Kalenderjahr für eines oder mehrere Kinder\nLeistungen aus dem Bildungspaket erhalten?",
           "text": "Did you or one of the members of your family receive any of the following benefits last year?",
-          "scale": "cat",
-          "concept": "hlbp1",
+          "text_de": "Haben Sie oder ein anderes Haushaltsmitglied im letzten Kalenderjahr für eines oder mehrere Kinder\nLeistungen aus dem Bildungspaket erhalten?",
           "goto": "1@Hy42_7; 2@Hy42_9; -1@Hy42_9",
+          "concept": "hlbp1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2964,21 +3044,22 @@
       "question": "Hy42_7",
       "name": "Hy42_7",
       "label": "How many months have you or your household in the last calendar year\nReceive benefits from the education package?",
+      "label_de": "Wie viele Monate haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\nLeistungen aus dem Bildungspaket erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\nLeistungen aus dem Bildungspaket erhalten?",
           "text": "How many months have you or your household in the last calendar year\nReceive benefits from the education package?",
+          "text_de": "Wie viele Monate haben Sie beziehungsweise Ihr Haushalt im letzten Kalenderjahr\nLeistungen aus dem Bildungspaket erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlbp2",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlbp2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -2991,23 +3072,24 @@
       "question": "Hy42_8",
       "name": "Hy42_8",
       "label": "What was the amount of the benefit from the education package you, or your household,\nin the last calendar year, averaged per month?",
+      "label_de": "Wie hoch war der Betrag der Leistung aus dem Bildungspaket, den Sie, beziehungsweise Ihr Haushalt,\nim letzten Kalenderjahr, durchschnittlich pro Monat erhalten haben?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch war der Betrag der Leistung aus dem Bildungspaket, den Sie, beziehungsweise Ihr Haushalt,\nim letzten Kalenderjahr, durchschnittlich pro Monat erhalten haben?",
           "text": "What was the amount of the benefit from the education package you, or your household,\nin the last calendar year, averaged per month?",
-          "scale": "txt",
+          "text_de": "Wie hoch war der Betrag der Leistung aus dem Bildungspaket, den Sie, beziehungsweise Ihr Haushalt,\nim letzten Kalenderjahr, durchschnittlich pro Monat erhalten haben?",
           "goto": "Hy41:hkg1=1@Hy48",
+          "scale": "txt",
           "description": "\n  ",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlbp3",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlbp3",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3020,23 +3102,24 @@
       "question": "Hy42_9",
       "name": "Hy42_9",
       "label": "How much child benefit are you or your household currently receiving per month?",
+      "label_de": "Wie viel Kindergeld erhalten Sie beziehungsweise Ihr Haushalt derzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Kindergeld erhalten Sie beziehungsweise Ihr Haushalt derzeit pro Monat?",
-          "instruction_de": "Gegebenenfalls ohne Zuschlag.",
           "text": "How much child benefit are you or your household currently receiving per month?",
+          "text_de": "Wie viel Kindergeld erhalten Sie beziehungsweise Ihr Haushalt derzeit pro Monat?",
           "instruction": "Where applicable excluding supplements.",
+          "instruction_de": "Gegebenenfalls ohne Zuschlag.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdkg2",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdkg2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3049,21 +3132,22 @@
       "question": "Hy42_10",
       "name": "Hy42_10",
       "label": "For how many children are you or is your household receiving child benefit?",
+      "label_de": "Für wie viele Kinder erhalten Sie beziehungsweise Ihr Haushalt Kindergeld?",
       "items": [
         {
           "item": "1",
-          "text_de": "Für wie viele Kinder erhalten Sie beziehungsweise Ihr Haushalt Kindergeld?",
           "text": "For how many children are you or is your household receiving child benefit?",
+          "text_de": "Für wie viele Kinder erhalten Sie beziehungsweise Ihr Haushalt Kindergeld?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdkg3",
-          "text_de": "Anzahl Kinder",
           "text": "Number of children",
-          "scale": "int",
+          "text_de": "Anzahl Kinder",
           "concept": "hdkg3",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3076,14 +3160,15 @@
       "question": "Hy42_11",
       "name": "Hy42_11",
       "label": "Are you or is another member of the household receiving child benefit supplements (benefit for low-wage earners applied for in addition to the child benefit)?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied Kindergeldzuschlag (zusätzlich zum Kindergeld beantragte Leistung für Geringverdiener)?",
       "items": [
         {
           "item": "hdkz1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied Kindergeldzuschlag (zusätzlich zum Kindergeld beantragte Leistung für Geringverdiener)?",
           "text": "Are you or is another member of the household receiving child benefit supplements (benefit for low-wage earners applied for in addition to the child benefit)?",
-          "scale": "cat",
-          "concept": "hdkz1",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied Kindergeldzuschlag (zusätzlich zum Kindergeld beantragte Leistung für Geringverdiener)?",
           "goto": "1@Hy42_12; 2@Hy48, -1@Hy48",
+          "concept": "hdkz1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3108,21 +3193,22 @@
       "question": "Hy42_12",
       "name": "Hy42_12",
       "label": "How much child benefit supplement are you or is your household currently receiving per month?",
+      "label_de": "Wie viel Kindergeldzuschlag erhalten Sie beziehungsweise Ihr Haushalt derzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Kindergeldzuschlag erhalten Sie beziehungsweise Ihr Haushalt derzeit pro Monat?",
           "text": "How much child benefit supplement are you or is your household currently receiving per month?",
+          "text_de": "Wie viel Kindergeldzuschlag erhalten Sie beziehungsweise Ihr Haushalt derzeit pro Monat?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdkz2",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdkz2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3135,14 +3221,15 @@
       "question": "Hy42_13",
       "name": "Hy42_13",
       "label": "Did you or one of the members of your family receive any of the following benefits last year?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit für eines oder mehrere Kinder Leistungen aus dem Bildungspaket?",
       "items": [
         {
           "item": "hdbp1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit für eines oder mehrere Kinder Leistungen aus dem Bildungspaket?",
           "text": "Did you or one of the members of your family receive any of the following benefits last year?",
-          "scale": "cat",
-          "concept": "hdbp1",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit für eines oder mehrere Kinder Leistungen aus dem Bildungspaket?",
           "goto": "1@Hy42_14; 2@Hy48; -1@Hy48",
+          "concept": "hdbp1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3167,21 +3254,22 @@
       "question": "Hy42_14",
       "name": "Hy42_14",
       "label": "What is the current amount of education package for your household per month?",
+      "label_de": "Wie hoch ist der Betrag der Leistung aus dem Bildungspaket für Ihren Haushalt derzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist der Betrag der Leistung aus dem Bildungspaket für Ihren Haushalt derzeit pro Monat?",
           "text": "What is the current amount of education package for your household per month?",
+          "text_de": "Wie hoch ist der Betrag der Leistung aus dem Bildungspaket für Ihren Haushalt derzeit pro Monat?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdbp2",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdbp2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3194,44 +3282,45 @@
       "question": "Hy48",
       "name": "Hy48",
       "label": "Are you or another household member currently receiving Unemployment Benefit II (Hartz IV)\nSocial money and accommodation costs or did you receive this benefit in the last calendar year?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Arbeitslosengeld II (Hartz IV) einschließlich\nSozialgeld und Unterkunftskosten oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
       "items": [
         {
           "item": "1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Arbeitslosengeld II (Hartz IV) einschließlich\nSozialgeld und Unterkunftskosten oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
-          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "text": "Are you or another household member currently receiving Unemployment Benefit II (Hartz IV)\nSocial money and accommodation costs or did you receive this benefit in the last calendar year?",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Arbeitslosengeld II (Hartz IV) einschließlich\nSozialgeld und Unterkunftskosten oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "instruction": "Please indicate all that apply",
-          "scale": "txt",
+          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "goto": "1@Hy48_1; 2@Hy49;  3@Hy50; -1@Hy50",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hag1",
-          "text_de": "Ja, im letzten Kalenderjahr",
           "text": "Yes, in the last calendar year",
-          "scale": "bin",
+          "text_de": "Ja, im letzten Kalenderjahr",
           "concept": "hag1",
+          "scale": "bin",
           "description": "neu, basierend auf hdag1",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hag2",
-          "text_de": "Ja, derzeit",
           "text": "Yes, currently",
-          "scale": "bin",
+          "text_de": "Ja, derzeit",
           "concept": "hag2",
+          "scale": "bin",
           "description": "neu, basierend auf hdag1",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hagno",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "hagno",
+          "scale": "bin",
           "description": "neu, basierend auf hdag1",
           "sn": 3,
           "number": ""
@@ -3245,21 +3334,22 @@
       "question": "Hy48_1",
       "name": "Hy48_1",
       "label": "How many months do you, or your household, have in the last calendar year\nUnemployment Benefit II (Hartz IV) including social benefits and accommodation costs received?",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\nArbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\nArbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten erhalten?",
           "text": "How many months do you, or your household, have in the last calendar year\nUnemployment Benefit II (Hartz IV) including social benefits and accommodation costs received?",
+          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\nArbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlag2",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlag2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3272,22 +3362,23 @@
       "question": "Hy48_2",
       "name": "Hy48_2",
       "label": "What was the amount of unemployment benefit II (Hartz IV) including social benefits and\nAccommodation costs you, or your household, in the last calendar year on average per\nHave received month?",
+      "label_de": "Wie hoch war der Betrag beim Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und\nUnterkunftskosten, den Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr durchschnittlich pro\nMonat erhalten haben?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch war der Betrag beim Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und\nUnterkunftskosten, den Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr durchschnittlich pro\nMonat erhalten haben?",
           "text": "What was the amount of unemployment benefit II (Hartz IV) including social benefits and\nAccommodation costs you, or your household, in the last calendar year on average per\nHave received month?",
-          "scale": "txt",
+          "text_de": "Wie hoch war der Betrag beim Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und\nUnterkunftskosten, den Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr durchschnittlich pro\nMonat erhalten haben?",
           "goto": "Hy48:hag1=1@Hy50",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlag3",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlag3",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3300,22 +3391,23 @@
       "question": "Hy49",
       "name": "Hy49",
       "label": "How much unemployment benefit II (Hartz IV) are you or is your household currently receiving per month?",
+      "label_de": "Wie viel Arbeitslosengeld II (Hartz IV) erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Arbeitslosengeld II (Hartz IV) erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
           "text": "How much unemployment benefit II (Hartz IV) are you or is your household currently receiving per month?",
-          "scale": "txt",
+          "text_de": "Wie viel Arbeitslosengeld II (Hartz IV) erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
           "goto": "Hy48:hag1=1@Hy50",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdag2",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdag2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3328,42 +3420,43 @@
       "question": "Hy50",
       "name": "Hy50",
       "label": "Are you or another household member currently receiving long-term care benefits or did you receive this benefit in the last calendar year?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Leistungen der Pflegeversicherung oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
       "items": [
         {
           "item": "1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Leistungen der Pflegeversicherung oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "text": "Are you or another household member currently receiving long-term care benefits or did you receive this benefit in the last calendar year?",
-          "scale": "txt",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Leistungen der Pflegeversicherung oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "goto": "1@Hy50_1; 2@Hy51; 3@Hy52; -1@Hy52",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hpg1",
-          "text_de": "Ja, im letzten Kalenderjahr",
           "text": "Yes, in the last calendar year",
-          "scale": "bin",
+          "text_de": "Ja, im letzten Kalenderjahr",
           "concept": "hpg1",
+          "scale": "bin",
           "description": "neu, basierend auf hdpg1",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hpg2",
-          "text_de": "Ja, derzeit",
           "text": "Yes, currently",
-          "scale": "bin",
+          "text_de": "Ja, derzeit",
           "concept": "hpg2",
+          "scale": "bin",
           "description": "neu, basierend auf hdpg1",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hpgno",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "hpgno",
+          "scale": "bin",
           "description": "neu, basierend auf hdpg1",
           "sn": 3,
           "number": ""
@@ -3377,21 +3470,22 @@
       "question": "Hy50_1",
       "name": "Hy50_1",
       "label": "How many months did you, or your household, receive care insurance benefits in the last calendar year?",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Leistungen der Pflegeversicherung erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Leistungen der Pflegeversicherung erhalten?",
           "text": "How many months did you, or your household, receive care insurance benefits in the last calendar year?",
+          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Leistungen der Pflegeversicherung erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlpg2",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlpg2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3404,22 +3498,23 @@
       "question": "Hy50_2",
       "name": "Hy50_2",
       "label": "What is the amount currently received per month by you or your household under the Asylum Seeker's Benefit Act (AsylbLG)?",
+      "label_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung im letzten\nKalenderjahr durchschnittlich pro Monat erhalten haben?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung im letzten\nKalenderjahr durchschnittlich pro Monat erhalten haben?",
           "text": "What is the amount currently received per month by you or your household under the Asylum Seeker's Benefit Act (AsylbLG)?",
-          "scale": "txt",
+          "text_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung im letzten\nKalenderjahr durchschnittlich pro Monat erhalten haben?",
           "goto": "Hy50:hlpg2=1@Hy52",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlpg3",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlpg3",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3432,21 +3527,22 @@
       "question": "Hy51",
       "name": "Hy51",
       "label": "How much are you or is your household currently receiving per month from the nursing care insurance?",
+      "label_de": "Wie hoch ist der Betrag der Leistung, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung derzeit pro Monat erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist der Betrag der Leistung, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung derzeit pro Monat erhalten?",
           "text": "How much are you or is your household currently receiving per month from the nursing care insurance?",
+          "text_de": "Wie hoch ist der Betrag der Leistung, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung derzeit pro Monat erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdpg2",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdpg2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3459,42 +3555,43 @@
       "question": "Hy52",
       "name": "Hy52",
       "label": "Currently, or another household member, get ongoing help / living help\nin special situations or did you receive this benefit in the last calendar year?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit laufende Hilfe zum Lebensunterhalt / Hilfe\nin besonderen Lebenslagen oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
       "items": [
         {
           "item": "1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit laufende Hilfe zum Lebensunterhalt / Hilfe\nin besonderen Lebenslagen oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "text": "Currently, or another household member, get ongoing help / living help\nin special situations or did you receive this benefit in the last calendar year?",
-          "scale": "txt",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit laufende Hilfe zum Lebensunterhalt / Hilfe\nin besonderen Lebenslagen oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "goto": "1@Hy52_1; 2@Hy53; 3@Hy54; -1@Hy54",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hsh1",
-          "text_de": "Ja, im letzten Kalenderjahr",
           "text": "Yes, in the last calendar year",
-          "scale": "bin",
+          "text_de": "Ja, im letzten Kalenderjahr",
           "concept": "hsh1",
+          "scale": "bin",
           "description": "neu, basierend auf hdsh1",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hsh2",
-          "text_de": "Ja, derzeit",
           "text": "Yes, currently",
-          "scale": "bin",
+          "text_de": "Ja, derzeit",
           "concept": "hsh2",
+          "scale": "bin",
           "description": "neu, basierend auf hdsh1",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hshno",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "hshno",
+          "scale": "bin",
           "description": "neu, basierend auf hdsh1",
           "sn": 3,
           "number": ""
@@ -3508,21 +3605,22 @@
       "question": "Hy52_1",
       "name": "Hy52_1",
       "label": "How many months have you or your household received in then last calendar year",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr laufende Hilfe zum\nLebensunterhalt / Hilfe in besonderen Lebenslagen erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr laufende Hilfe zum\nLebensunterhalt / Hilfe in besonderen Lebenslagen erhalten?",
           "text": "How many months have you or your household received in then last calendar year",
+          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr laufende Hilfe zum\nLebensunterhalt / Hilfe in besonderen Lebenslagen erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlsh2",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlsh2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3535,22 +3633,23 @@
       "question": "Hy52_2",
       "name": "Hy52_2",
       "label": "Are you or is another household member receiving regular subsistence allowance/assistance in special situations?",
+      "label_de": "Wie viel laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen haben Sie,\nbeziehungsweise Ihr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen haben Sie,\nbeziehungsweise Ihr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
           "text": "Are you or is another household member receiving regular subsistence allowance/assistance in special situations?",
-          "scale": "txt",
+          "text_de": "Wie viel laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen haben Sie,\nbeziehungsweise Ihr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
           "goto": "Hy52:hsh1=1@Hy54",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlsh3",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlsh3",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3563,23 +3662,24 @@
       "question": "Hy53",
       "name": "Hy53",
       "label": "Are you or is another household member receiving regular subsistence allowance/assistance in special situations?",
+      "label_de": "Wie viel Laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen erhalten Sie,\nbeziehungsweise Ihr Haushalt, derzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen erhalten Sie,\nbeziehungsweise Ihr Haushalt, derzeit pro Monat?",
-          "instruction_de": "Gegebenenfalls mit Unterkunftskosten.",
           "text": "Are you or is another household member receiving regular subsistence allowance/assistance in special situations?",
+          "text_de": "Wie viel Laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen erhalten Sie,\nbeziehungsweise Ihr Haushalt, derzeit pro Monat?",
           "instruction": "With accommodation costs if appropriate.",
+          "instruction_de": "Gegebenenfalls mit Unterkunftskosten.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdsh2",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdsh2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3592,44 +3692,45 @@
       "question": "Hy54",
       "name": "Hy54",
       "label": "Currently, or another household member, get basic protection in old age and at\nReduced earning capacity or did you receive this benefit in the last calendar year?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Grundsicherung im Alter und bei\nErwerbsminderung oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
       "items": [
         {
           "item": "1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Grundsicherung im Alter und bei\nErwerbsminderung oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
-          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "text": "Currently, or another household member, get basic protection in old age and at\nReduced earning capacity or did you receive this benefit in the last calendar year?",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Grundsicherung im Alter und bei\nErwerbsminderung oder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "instruction": "Please indicate all that apply",
-          "scale": "txt",
+          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "goto": "1@Hy54_1; 2@Hy55; 3@Hy56; -1@Hy56",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hgs1",
-          "text_de": "Ja, im letzten Kalenderjahr",
           "text": "Yes, in the last calendar year",
-          "scale": "bin",
+          "text_de": "Ja, im letzten Kalenderjahr",
           "concept": "hgs1",
+          "scale": "bin",
           "description": "neu, basierend auf hdgs1",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hgs2",
-          "text_de": "Ja, derzeit",
           "text": "Yes, currently",
-          "scale": "bin",
+          "text_de": "Ja, derzeit",
           "concept": "hgs2",
+          "scale": "bin",
           "description": "neu, basierend auf hdgs1",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hgsno",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "hgsno",
+          "scale": "bin",
           "description": "neu, basierend auf hdgs1",
           "sn": 3,
           "number": ""
@@ -3643,21 +3744,22 @@
       "question": "Hy54_1",
       "name": "Hy54_1",
       "label": "How many months do you, or your household, have basic security in the last calendar year?\nAge and reduced earning capacity?",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Grundsicherung im\nAlter und bei Erwerbsminderung erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Grundsicherung im\nAlter und bei Erwerbsminderung erhalten?",
           "text": "How many months do you, or your household, have basic security in the last calendar year?\nAge and reduced earning capacity?",
+          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr Grundsicherung im\nAlter und bei Erwerbsminderung erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlgs2",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlgs2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3670,22 +3772,23 @@
       "question": "Hy54_2",
       "name": "Hy54_2",
       "label": "Are you or is another household member receiving regular subsistence allowance/assistance in special situations?",
+      "label_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung haben Sie, beziehungsweise\nIhr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung haben Sie, beziehungsweise\nIhr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
           "text": "Are you or is another household member receiving regular subsistence allowance/assistance in special situations?",
-          "scale": "txt",
+          "text_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung haben Sie, beziehungsweise\nIhr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
           "goto": "Hy54:hgs1=1@Hy56",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlgs3",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlgs3",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3698,23 +3801,24 @@
       "question": "Hy55",
       "name": "Hy55",
       "label": "How much basic subsistence income for the elderly and for those with reduced earning capacity are you is or your household currently receiving per month?",
+      "label_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
-          "instruction_de": "Gegebenenfalls mit Unterkunftskosten.",
           "text": "How much basic subsistence income for the elderly and for those with reduced earning capacity are you is or your household currently receiving per month?",
+          "text_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
           "instruction": "With accommodation costs if appropriate.",
+          "instruction_de": "Gegebenenfalls mit Unterkunftskosten.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdgs2",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdgs2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3727,44 +3831,45 @@
       "question": "Hy56",
       "name": "Hy56",
       "label": "Are you or another member of the household currently receiving housing allowances (rent and load subsidy)?\nor did you receive this benefit in the last calendar year?",
+      "label_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Wohngeld (Miet- und Lastenzuschuss)\noder erhielten Sie diese Leistung im letzten Kalenderjahr?",
       "items": [
         {
           "item": "1",
-          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Wohngeld (Miet- und Lastenzuschuss)\noder erhielten Sie diese Leistung im letzten Kalenderjahr?",
-          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "text": "Are you or another member of the household currently receiving housing allowances (rent and load subsidy)?\nor did you receive this benefit in the last calendar year?",
+          "text_de": "Erhalten Sie oder ein anderes Haushaltsmitglied derzeit Wohngeld (Miet- und Lastenzuschuss)\noder erhielten Sie diese Leistung im letzten Kalenderjahr?",
           "instruction": "Please indicate all that apply",
-          "scale": "txt",
+          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "goto": "1@Hy56_1; 2@Hy57; 3@Hx58; -1@Hx58",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hwg1",
-          "text_de": "Ja, im letzten Kalenderjahr",
           "text": "Yes, in the last calendar year",
-          "scale": "bin",
+          "text_de": "Ja, im letzten Kalenderjahr",
           "concept": "hwg1",
+          "scale": "bin",
           "description": "neu, basierend auf hdwg1",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hwg2",
-          "text_de": "Ja, derzeit",
           "text": "Yes, currently",
-          "scale": "bin",
+          "text_de": "Ja, derzeit",
           "concept": "hwg2",
+          "scale": "bin",
           "description": "neu, basierend auf hdwg1",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hwgno",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "hwgno",
+          "scale": "bin",
           "description": "neu, basierend auf hdwg1",
           "sn": 3,
           "number": ""
@@ -3778,21 +3883,22 @@
       "question": "Hy56_1",
       "name": "Hy56_1",
       "label": "How many months do you, or your household, have in the last calendar year\nHousing benefit (rent and load subsidy) received?",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\nWohngeld (Miet- und Lastenzuschuss) erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\nWohngeld (Miet- und Lastenzuschuss) erhalten?",
           "text": "How many months do you, or your household, have in the last calendar year\nHousing benefit (rent and load subsidy) received?",
+          "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im letzten Kalenderjahr\nWohngeld (Miet- und Lastenzuschuss) erhalten?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlwg2",
-          "text_de": "Anzahl Monate",
           "text": "Number of months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "hlwg2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3805,22 +3911,23 @@
       "question": "Hy56_2",
       "name": "Hy56_2",
       "label": "How much are you or another household member receiving currently in the last calendar year per month is housing allowance (Rent and Expenses benefit)?",
+      "label_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) haben Sie, beziehungsweise\nIhr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) haben Sie, beziehungsweise\nIhr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
           "text": "How much are you or another household member receiving currently in the last calendar year per month is housing allowance (Rent and Expenses benefit)?",
-          "scale": "txt",
+          "text_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) haben Sie, beziehungsweise\nIhr Haushalt, im letzten Kalenderjahr durchschnittlich pro Monat erhalten?",
           "goto": "Hy56:hwg1=1@Hx58",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hlwg3",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hlwg3",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3833,23 +3940,24 @@
       "question": "Hy57",
       "name": "Hy57",
       "label": "How much housing benefit (rent or charge subsidy) are you or is your household currently receiving per month?",
+      "label_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
-          "instruction_de": "Falls nicht in den Unterkunftskosten von ALG II, Laufender Hilfe zum Lebensunterhalt,\nGrundsicherung im Alter enthalten.",
           "text": "How much housing benefit (rent or charge subsidy) are you or is your household currently receiving per month?",
+          "text_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
           "instruction": "If not included in accommodation expenses under unemployment benefit II / monthly subsistence... / basic income support for the elderly",
+          "instruction_de": "Falls nicht in den Unterkunftskosten von ALG II, Laufender Hilfe zum Lebensunterhalt,\nGrundsicherung im Alter enthalten.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hdwg2",
-          "text_de": "Euro",
           "text": "Euro",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdwg2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3862,23 +3970,24 @@
       "question": "Hx58",
       "name": "Hx58",
       "label": "Taking all income together, how much is the current monthly net household income of all members of the household?",
+      "label_de": "Wie hoch ist das monatliche Haushaltsnettoeinkommen aller Haushaltsmitglieder heute, wenn man alle Einkünfte und Sozialleistungen zusammenrechnet?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist das monatliche Haushaltsnettoeinkommen aller Haushaltsmitglieder heute, wenn man alle Einkünfte und Sozialleistungen zusammenrechnet?",
-          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "text": "Taking all income together, how much is the current monthly net household income of all members of the household?",
+          "text_de": "Wie hoch ist das monatliche Haushaltsnettoeinkommen aller Haushaltsmitglieder heute, wenn man alle Einkünfte und Sozialleistungen zusammenrechnet?",
           "instruction": "If you don't know the exact amount, please state an approximate figure.",
+          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hnetto",
-          "text_de": "Euro im Monat",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro im Monat",
           "concept": "hnetto",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -3891,16 +4000,17 @@
       "question": "Hy58_1",
       "name": "Hy58_1",
       "label": "Are you or is someone in your household currently paying back loans and interest on loans that you took out for large purchases or other expenditures?",
+      "label_de": "Müssen Sie oder ein anderes Haushaltsmitglied derzeit Rückzahlungen und Zinsen für Kredite leisten, die Sie für Anschaffungen oder sonstige Ausgaben aufgenommen haben?",
       "items": [
         {
           "item": "hkred1",
-          "text_de": "Müssen Sie oder ein anderes Haushaltsmitglied derzeit Rückzahlungen und Zinsen für Kredite leisten, die Sie für Anschaffungen oder sonstige Ausgaben aufgenommen haben?",
-          "instruction_de": "Nicht gemeint sind hier Tilgung und Zinsen für Hypotheken oder Bauspardarlehen,\ndie Sie oben schon angegeben haben.",
           "text": "Are you or is someone in your household currently paying back loans and interest on loans that you took out for large purchases or other expenditures?",
+          "text_de": "Müssen Sie oder ein anderes Haushaltsmitglied derzeit Rückzahlungen und Zinsen für Kredite leisten, die Sie für Anschaffungen oder sonstige Ausgaben aufgenommen haben?",
           "instruction": "Please do not include loan, mortgage, or interest payments stated in answer to previous questions.",
-          "scale": "cat",
-          "concept": "hkred1",
+          "instruction_de": "Nicht gemeint sind hier Tilgung und Zinsen für Hypotheken oder Bauspardarlehen,\ndie Sie oben schon angegeben haben.",
           "goto": "1@Hy58_2; 2@H59; -1@H59",
+          "concept": "hkred1",
+          "scale": "cat",
           "description": "\n",
           "answers": [
             {
@@ -3926,13 +4036,14 @@
       "question": "Hy58_2",
       "name": "Hy58_2",
       "label": "How much do you pay per month on these loans?",
+      "label_de": "Wie hoch ist der monatliche Betrag den Sie für die Rückzahlung dieser Kredite (einschließlich Zinsen) verwenden müssen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist der monatliche Betrag den Sie für die Rückzahlung dieser Kredite (einschließlich Zinsen) verwenden müssen?",
-          "instruction_de": "Falls nicht genau bekannt: bitte schätzen!",
           "text": "How much do you pay per month on these loans?",
+          "text_de": "Wie hoch ist der monatliche Betrag den Sie für die Rückzahlung dieser Kredite (einschließlich Zinsen) verwenden müssen?",
           "instruction": "If you don't know the exact amount, please estimate!",
+          "instruction_de": "Falls nicht genau bekannt: bitte schätzen!",
           "scale": "txt",
           "description": "\n",
           "sn": 0,
@@ -3940,10 +4051,10 @@
         },
         {
           "item": "hkred2",
-          "text_de": "Kredit-Rückzahlung (einschließlich Zinsen)  ...  Euro pro Monat",
           "text": "Loan repayment (including interest payments) … euros per month",
-          "scale": "int",
+          "text_de": "Kredit-Rückzahlung (einschließlich Zinsen)  ...  Euro pro Monat",
           "concept": "hkred2",
+          "scale": "int",
           "number": "42",
           "sn": 1
         }
@@ -3956,14 +4067,15 @@
       "question": "H59",
       "name": "H59",
       "label": "In the last month, were the amounts of your household's income and expenses the same, or was income higher than expenses or were expenses higher than income?",
+      "label_de": "Waren die Einnahmen und die Ausgaben Ihres Haushalts im letzten Monat gleich hoch, oder waren die\nEinnahmen höher als die Ausgaben, oder waren die Ausgaben höher als die Einnahmen?",
       "items": [
         {
           "item": "hspar3",
-          "text_de": "Waren die Einnahmen und die Ausgaben Ihres Haushalts im letzten Monat gleich hoch, oder waren die\nEinnahmen höher als die Ausgaben, oder waren die Ausgaben höher als die Einnahmen?",
           "text": "In the last month, were the amounts of your household's income and expenses the same, or was income higher than expenses or were expenses higher than income?",
-          "scale": "cat",
-          "concept": "hspar3",
+          "text_de": "Waren die Einnahmen und die Ausgaben Ihres Haushalts im letzten Monat gleich hoch, oder waren die\nEinnahmen höher als die Ausgaben, oder waren die Ausgaben höher als die Einnahmen?",
           "goto": "1@H60; 2@H61; 3@Hx63; -1@Hx63",
+          "concept": "hspar3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3993,24 +4105,25 @@
       "question": "H60",
       "name": "H60",
       "label": "How much were you or your household able to save last month?",
+      "label_de": "Wie hoch war der Betrag, den Sie beziehungsweise Ihr Haushalt im letzten Monat sparen konnten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch war der Betrag, den Sie beziehungsweise Ihr Haushalt im letzten Monat sparen konnten?",
-          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "text": "How much were you or your household able to save last month?",
+          "text_de": "Wie hoch war der Betrag, den Sie beziehungsweise Ihr Haushalt im letzten Monat sparen konnten?",
           "instruction": "If you don't know the exact amount, please state an approximate figure.",
-          "scale": "txt",
+          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "goto": "ALL@Hx63",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hspar4",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hspar4",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -4023,23 +4136,24 @@
       "question": "H61",
       "name": "H61",
       "label": "How much was the shortfall during the past month?",
+      "label_de": "Wie hoch war der Fehlbetrag im letzten Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch war der Fehlbetrag im letzten Monat?",
-          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "text": "How much was the shortfall during the past month?",
+          "text_de": "Wie hoch war der Fehlbetrag im letzten Monat?",
           "instruction": "If you don't know the exact amount, please state an approximate figure.",
+          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hspar6",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hspar6",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -4052,50 +4166,51 @@
       "question": "H62",
       "name": "H62",
       "label": "How did you or household make up for the shortfall?",
+      "label_de": "Wie haben Sie beziehungsweise Ihr Haushalt den Fehlbetrag ausgeglichen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie haben Sie beziehungsweise Ihr Haushalt den Fehlbetrag ausgeglichen?",
-          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "text": "How did you or household make up for the shortfall?",
+          "text_de": "Wie haben Sie beziehungsweise Ihr Haushalt den Fehlbetrag ausgeglichen?",
           "instruction": "Please indicate all that apply.",
+          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hspar801",
-          "text_de": "Aufnahme eines Kredits",
           "text": "Took out a loan",
-          "scale": "bin",
+          "text_de": "Aufnahme eines Kredits",
           "concept": "hspar801",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hspar802",
-          "text_de": "Geld von Freunden, Verwandten oder Bekannten geliehen",
           "text": "Borrowed money from friends, relatives or aquaintances",
-          "scale": "bin",
+          "text_de": "Geld von Freunden, Verwandten oder Bekannten geliehen",
           "concept": "hspar802",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hspar803",
-          "text_de": "Verbrauch vorhandener Ersparnisse",
           "text": "Used existing savings",
-          "scale": "bin",
+          "text_de": "Verbrauch vorhandener Ersparnisse",
           "concept": "hspar803",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "hspar804",
-          "text_de": "Weiß nicht",
           "text": "Don't know",
-          "scale": "bin",
+          "text_de": "Weiß nicht",
           "concept": "hspar804",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         }
@@ -4108,14 +4223,15 @@
       "question": "Hx63",
       "name": "Hx63",
       "label": "Do you or does another person in your household have a bank account?",
+      "label_de": "Verfügen Sie oder eine andere Person in Ihrem Haushalt über ein Bankkonto in Deutschland?",
       "items": [
         {
           "item": "hbko",
-          "text_de": "Verfügen Sie oder eine andere Person in Ihrem Haushalt über ein Bankkonto in Deutschland?",
           "text": "Do you or does another person in your household have a bank account?",
-          "scale": "cat",
-          "concept": "hbko",
+          "text_de": "Verfügen Sie oder eine andere Person in Ihrem Haushalt über ein Bankkonto in Deutschland?",
           "goto": "1@H64; 2@H65; -1@H65",
+          "concept": "hbko",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4140,32 +4256,33 @@
       "question": "H64",
       "name": "H64",
       "label": "Since when have you or has another person in your household had a bank account in Germany?",
+      "label_de": "Seit wann verfügen Sie oder eine andere Person in Ihrem Haushalt über ein Bankkonto in Deutschland?",
       "items": [
         {
           "item": "1",
-          "text_de": "Seit wann verfügen Sie oder eine andere Person in Ihrem Haushalt über ein Bankkonto in Deutschland?",
-          "instruction_de": "Wenn mehrere Personen in Ihrem Haushalt über ein Bankkonto verfügen, ist das Erste gemeint.",
           "text": "Since when have you or has another person in your household had a bank account in Germany?",
+          "text_de": "Seit wann verfügen Sie oder eine andere Person in Ihrem Haushalt über ein Bankkonto in Deutschland?",
           "instruction": "If several people in your household have a bank account, the first person is meant.",
+          "instruction_de": "Wenn mehrere Personen in Ihrem Haushalt über ein Bankkonto verfügen, ist das Erste gemeint.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hbkoj",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "hbkoj",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hbkom",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "hbkom",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -4178,13 +4295,14 @@
       "question": "H65",
       "name": "H65",
       "label": "To what extent do you or does your household cover your requirements for food and other items of everyday use through contributions in kind received from other people?",
+      "label_de": "In welchem Umfang decken Sie, beziehungsweise Ihr Haushalt, Ihren Bedarf an Lebensmitteln und\nanderen Dingen des täglichen Bedarfs über Sachleistungen, die Sie von Dritten bekommen?",
       "items": [
         {
           "item": "hlmsach",
-          "text_de": "In welchem Umfang decken Sie, beziehungsweise Ihr Haushalt, Ihren Bedarf an Lebensmitteln und\nanderen Dingen des täglichen Bedarfs über Sachleistungen, die Sie von Dritten bekommen?",
           "text": "To what extent do you or does your household cover your requirements for food and other items of everyday use through contributions in kind received from other people?",
-          "scale": "cat",
+          "text_de": "In welchem Umfang decken Sie, beziehungsweise Ihr Haushalt, Ihren Bedarf an Lebensmitteln und\nanderen Dingen des täglichen Bedarfs über Sachleistungen, die Sie von Dritten bekommen?",
           "concept": "hlmsach",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4224,13 +4342,14 @@
       "question": "H66",
       "name": "H66",
       "label": "To what extent do you or does your household use coupons to obtain food and other items of everyday use?",
+      "label_de": "In welchem Umfang nutzen Sie, beziehungsweise Ihr Haushalt, Gutscheine, um sich mit Lebensmitteln\nund Dingen des täglichen Bedarfs zu versorgen?",
       "items": [
         {
           "item": "hlmgut",
-          "text_de": "In welchem Umfang nutzen Sie, beziehungsweise Ihr Haushalt, Gutscheine, um sich mit Lebensmitteln\nund Dingen des täglichen Bedarfs zu versorgen?",
           "text": "To what extent do you or does your household use coupons to obtain food and other items of everyday use?",
-          "scale": "cat",
+          "text_de": "In welchem Umfang nutzen Sie, beziehungsweise Ihr Haushalt, Gutscheine, um sich mit Lebensmitteln\nund Dingen des täglichen Bedarfs zu versorgen?",
           "concept": "hlmgut",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4270,11 +4389,12 @@
       "question": "H68v",
       "name": "H68v",
       "label": "Which of the following points apply to your household?",
+      "label_de": "Welche der folgenden Punkte treffen auf Ihren Haushalt zu?",
       "items": [
         {
           "item": "1",
-          "text_de": "Welche der folgenden Punkte treffen auf Ihren Haushalt zu?",
           "text": "Which of the following points apply to your household?",
+          "text_de": "Welche der folgenden Punkte treffen auf Ihren Haushalt zu?",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4288,13 +4408,14 @@
       "question": "Hy68_1",
       "name": "Hy68_1",
       "label": "There are one or more cars in the household.",
+      "label_de": "Es gibt ein oder mehrere Autos im Haushalt.",
       "items": [
         {
           "item": "1",
-          "text_de": "Es gibt ein oder mehrere Autos im Haushalt.",
           "text": "There are one or more cars in the household.",
-          "scale": "cat",
+          "text_de": "Es gibt ein oder mehrere Autos im Haushalt.",
           "concept": "hh03 & hh03a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4324,13 +4445,14 @@
       "question": "Hy68",
       "name": "Hy68",
       "label": "The household has financial reserves for emergencies.",
+      "label_de": "Der Haushalt hat finanzielle Rücklagen für Notfälle.",
       "items": [
         {
           "item": "1",
-          "text_de": "Der Haushalt hat finanzielle Rücklagen für Notfälle.",
           "text": "The household has financial reserves for emergencies.",
-          "scale": "cat",
+          "text_de": "Der Haushalt hat finanzielle Rücklagen für Notfälle.",
           "concept": "hh07 & hh07a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4360,13 +4482,14 @@
       "question": "Hy68_2",
       "name": "Hy68_2",
       "label": "I/we go away on vacation at least one week a year",
+      "label_de": "Jedes Jahr wird eine mindestens einwöchige Urlaubsreise gemacht.",
       "items": [
         {
           "item": "1",
-          "text_de": "Jedes Jahr wird eine mindestens einwöchige Urlaubsreise gemacht.",
           "text": "I/we go away on vacation at least one week a year",
-          "scale": "cat",
+          "text_de": "Jedes Jahr wird eine mindestens einwöchige Urlaubsreise gemacht.",
           "concept": "hh08 & hh08a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4396,13 +4519,14 @@
       "question": "Hy69",
       "name": "Hy69",
       "label": "Friends are invited for a meal at least once per month.",
+      "label_de": "Mindestens einmal im Monat werden Freunde zum Essen eingeladen.",
       "items": [
         {
           "item": "1",
-          "text_de": "Mindestens einmal im Monat werden Freunde zum Essen eingeladen.",
           "text": "Friends are invited for a meal at least once per month.",
-          "scale": "cat",
+          "text_de": "Mindestens einmal im Monat werden Freunde zum Essen eingeladen.",
           "concept": "hh09 & hh09a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4432,13 +4556,14 @@
       "question": "Hy70",
       "name": "Hy70",
       "label": "A hot meal with meat, fish or poultry is eaten at least every two days.",
+      "label_de": "Mindestens alle zwei Tage wird eine warme Mahlzeit mit Fleisch, Fisch oder Geflügel gegessen.",
       "items": [
         {
           "item": "1",
-          "text_de": "Mindestens alle zwei Tage wird eine warme Mahlzeit mit Fleisch, Fisch oder Geflügel gegessen.",
           "text": "A hot meal with meat, fish or poultry is eaten at least every two days.",
-          "scale": "cat",
+          "text_de": "Mindestens alle zwei Tage wird eine warme Mahlzeit mit Fleisch, Fisch oder Geflügel gegessen.",
           "concept": "hh10 & hh10a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4468,13 +4593,14 @@
       "question": "Hy71",
       "name": "Hy71",
       "label": "At least once per month a leisure activity is pursued, such as going to the cinema, a concert, sporting event or similar.",
+      "label_de": "Mindestens einmal im Monat wird einer Freizeitbeschäftigung wie Kino, Konzertbesuch, Sportveranstaltung oder Ähnlichem nachgegangen",
       "items": [
         {
           "item": "1",
-          "text_de": "Mindestens einmal im Monat wird einer Freizeitbeschäftigung wie Kino, Konzertbesuch, Sportveranstaltung oder Ähnlichem nachgegangen",
           "text": "At least once per month a leisure activity is pursued, such as going to the cinema, a concert, sporting event or similar.",
-          "scale": "cat",
+          "text_de": "Mindestens einmal im Monat wird einer Freizeitbeschäftigung wie Kino, Konzertbesuch, Sportveranstaltung oder Ähnlichem nachgegangen",
           "concept": "hh14 6 hh14a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4504,13 +4630,14 @@
       "question": "Hy72",
       "name": "Hy72",
       "label": "Worn-out furniture is renewed, even if it is still functional.",
+      "label_de": "Abgenutzte Möbel, auch wenn sie noch funktionsfähig sind, werden durch neue ersetzt.",
       "items": [
         {
           "item": "1",
-          "text_de": "Abgenutzte Möbel, auch wenn sie noch funktionsfähig sind, werden durch neue ersetzt.",
           "text": "Worn-out furniture is renewed, even if it is still functional.",
-          "scale": "cat",
+          "text_de": "Abgenutzte Möbel, auch wenn sie noch funktionsfähig sind, werden durch neue ersetzt.",
           "concept": "hh04 & hh04a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4540,13 +4667,14 @@
       "question": "Hy73",
       "name": "Hy73",
       "label": "Worn-out clothing is replaced with new clothing.",
+      "label_de": "Abgetragene Kleidungsstücke werden durch neue ersetzt.",
       "items": [
         {
           "item": "1",
-          "text_de": "Abgetragene Kleidungsstücke werden durch neue ersetzt.",
           "text": "Worn-out clothing is replaced with new clothing.",
-          "scale": "cat",
+          "text_de": "Abgetragene Kleidungsstücke werden durch neue ersetzt.",
           "concept": "hh15 & hh15a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4576,13 +4704,14 @@
       "question": "Hy74",
       "name": "Hy74",
       "label": "During the cold months the apartment is always warmly heated.",
+      "label_de": "Die Wohnung wird in kalten Monaten angenehm warm beheizt.",
       "items": [
         {
           "item": "1",
-          "text_de": "Die Wohnung wird in kalten Monaten angenehm warm beheizt.",
           "text": "During the cold months the apartment is always warmly heated.",
-          "scale": "cat",
+          "text_de": "Die Wohnung wird in kalten Monaten angenehm warm beheizt.",
           "concept": "hh16 & hh16a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4612,13 +4741,14 @@
       "question": "Hy75",
       "name": "Hy75",
       "label": "Everyone in the household has a small sum available for personal use each week.",
+      "label_de": "Jeder im Haushalt hat wöchentlich einen kleinen Betrag für sich ganz persönlich zur Verfügung.",
       "items": [
         {
           "item": "1",
-          "text_de": "Jeder im Haushalt hat wöchentlich einen kleinen Betrag für sich ganz persönlich zur Verfügung.",
           "text": "Everyone in the household has a small sum available for personal use each week.",
-          "scale": "cat",
+          "text_de": "Jeder im Haushalt hat wöchentlich einen kleinen Betrag für sich ganz persönlich zur Verfügung.",
           "concept": "hh17 & hh17a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4648,13 +4778,14 @@
       "question": "Hy76",
       "name": "Hy76",
       "label": "Everyone in the household owns at least two pairs of outdoor shoes in the right size (including an all-weather pair)",
+      "label_de": "Jeder im Haushalt besitzt mindestens zwei Paar Straßenschuhe in passender Größe (einschließlich Allwetterpaar).",
       "items": [
         {
           "item": "1",
-          "text_de": "Jeder im Haushalt besitzt mindestens zwei Paar Straßenschuhe in passender Größe (einschließlich Allwetterpaar).",
           "text": "Everyone in the household owns at least two pairs of outdoor shoes in the right size (including an all-weather pair)",
-          "scale": "cat",
+          "text_de": "Jeder im Haushalt besitzt mindestens zwei Paar Straßenschuhe in passender Größe (einschließlich Allwetterpaar).",
           "concept": "hh18 & hh18a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4684,14 +4815,15 @@
       "question": "Hy77",
       "name": "Hy77",
       "label": "Does someone in your household need care or assistance on a constant basis due to age, sickness, or medical treatment?",
+      "label_de": "Gibt es in Ihrem Haushalt jemand, der aus Alters- oder Krankheitsgründen oder wegen einer Behinderung dauernd hilfe- oder pflegebedürftig ist?",
       "items": [
         {
           "item": "hpfleg",
-          "text_de": "Gibt es in Ihrem Haushalt jemand, der aus Alters- oder Krankheitsgründen oder wegen einer Behinderung dauernd hilfe- oder pflegebedürftig ist?",
           "text": "Does someone in your household need care or assistance on a constant basis due to age, sickness, or medical treatment?",
-          "scale": "cat",
-          "concept": "hpfleg",
+          "text_de": "Gibt es in Ihrem Haushalt jemand, der aus Alters- oder Krankheitsgründen oder wegen einer Behinderung dauernd hilfe- oder pflegebedürftig ist?",
           "goto": "1@Hy78; 2@Hy81; -1@Hy81",
+          "concept": "hpfleg",
+          "scale": "cat",
           "description": "\n",
           "number": "62",
           "answers": [
@@ -4717,21 +4849,22 @@
       "question": "Hy78",
       "name": "Hy78",
       "label": "How many people in need of care are there in your household?",
+      "label_de": "Wie viele pflegebedürftige Personen gibt es in Ihrem Haushalt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele pflegebedürftige Personen gibt es in Ihrem Haushalt?",
           "text": "How many people in need of care are there in your household?",
+          "text_de": "Wie viele pflegebedürftige Personen gibt es in Ihrem Haushalt?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hpflanz",
-          "text_de": "Anzahl pflegebedürftige Person(en)",
           "text": "number of person(s) in need of care",
-          "scale": "int",
+          "text_de": "Anzahl pflegebedürftige Person(en)",
           "concept": "hpflanz",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -4744,23 +4877,24 @@
       "question": "Hy79",
       "name": "Hy79",
       "label": "Which person in household is this?",
+      "label_de": "Welche Person im Haushalt ist das?",
       "items": [
         {
           "item": "1",
-          "text_de": "Welche Person im Haushalt ist das?",
-          "instruction_de": "Falls es mehr als eine hilfebedürftige Person im Haushalt gibt, geht es hier\num diejenige, die stärker hilfebedürftig ist.",
           "text": "Which person in household is this?",
+          "text_de": "Welche Person im Haushalt ist das?",
           "instruction": "Please state the person's first name. If there is more than one person in need of care, please give the name of the person who needs more help.",
+          "instruction_de": "Falls es mehr als eine hilfebedürftige Person im Haushalt gibt, geht es hier\num diejenige, die stärker hilfebedürftig ist.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hpnam",
-          "text_de": "Vorname der hilfebedürftigen Person.",
           "text": "First name of the helpful person",
-          "scale": "txt",
+          "text_de": "Vorname der hilfebedürftigen Person.",
           "concept": "hpnam",
+          "scale": "txt",
           "sn": 1,
           "number": ""
         }
@@ -4773,13 +4907,14 @@
       "question": "Hy80",
       "name": "Hy80",
       "label": "For which of the following activities did the person needed assistance in?",
+      "label_de": "Bei welchen der folgenden Tätigkeiten braucht diese Person Hilfe?",
       "items": [
         {
           "item": "1",
-          "text_de": "Bei welchen der folgenden Tätigkeiten braucht diese Person Hilfe?",
-          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "text": "For which of the following activities did the person needed assistance in?",
+          "text_de": "Bei welchen der folgenden Tätigkeiten braucht diese Person Hilfe?",
           "instruction": "Please indicate all that apply",
+          "instruction_de": "Bitte geben Sie alles zutreffende an!",
           "scale": "txt",
           "description": "Scripter notes: Name der Person aus Hy79 wird eingeblendet \n  ",
           "sn": 0,
@@ -4787,37 +4922,37 @@
         },
         {
           "item": "hhil1",
-          "text_de": "Bei Besorgungen und Erledigungen außer Haus",
           "text": "Errands outside the home",
-          "scale": "bin",
+          "text_de": "Bei Besorgungen und Erledigungen außer Haus",
           "concept": "hhil1",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "hhil2",
-          "text_de": "Bei Haushaltsführung, Versorgung mit Mahlzeiten und Getränken",
           "text": "Running the household, preparing meals and drinks",
-          "scale": "bin",
+          "text_de": "Bei Haushaltsführung, Versorgung mit Mahlzeiten und Getränken",
           "concept": "hhil2",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "hhil3",
-          "text_de": "Bei einfacheren Pflegetätigkeiten, z.B. Hilfe beim An- und\nAuskleiden, Waschen, Kämmen und Rasieren",
           "text": "minor care, such as help with getting dressed,\nwashing up, combing hair, shaving",
-          "scale": "bin",
+          "text_de": "Bei einfacheren Pflegetätigkeiten, z.B. Hilfe beim An- und\nAuskleiden, Waschen, Kämmen und Rasieren",
           "concept": "hhil3",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "hhil4",
-          "text_de": "Bei schwierigeren Pflegetätigkeiten,\nzum Beispiel Hilfe beim Umbetten, Stuhlgang usw.",
           "text": "Major care, such as getting in and out of bed, bowel movements",
-          "scale": "bin",
+          "text_de": "Bei schwierigeren Pflegetätigkeiten,\nzum Beispiel Hilfe beim Umbetten, Stuhlgang usw.",
           "concept": "hhil4",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         }
@@ -4830,14 +4965,15 @@
       "question": "Hy81",
       "name": "Hy81",
       "label": "Do you speak German or another language in your household?",
+      "label_de": "Wird in Ihrem Haushalt vorwiegend Deutsch gesprochen oder eine andere Sprache?",
       "items": [
         {
           "item": "hhsp",
-          "text_de": "Wird in Ihrem Haushalt vorwiegend Deutsch gesprochen oder eine andere Sprache?",
           "text": "Do you speak German or another language in your household?",
-          "scale": "cat",
-          "concept": "hhspd & hhspa",
+          "text_de": "Wird in Ihrem Haushalt vorwiegend Deutsch gesprochen oder eine andere Sprache?",
           "goto": "2@Hy82; 1@I1v; -1@I1v",
+          "concept": "hhspd & hhspa",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4862,13 +4998,14 @@
       "question": "Hy82",
       "name": "Hy82",
       "label": "Which language do you speak mainly in your household?",
+      "label_de": "Welche Sprache wird in Ihrem Haushalt vorwiegend gesprochen?",
       "items": [
         {
           "item": "hfspr",
-          "text_de": "Welche Sprache wird in Ihrem Haushalt vorwiegend gesprochen?",
           "text": "Which language do you speak mainly in your household?",
-          "scale": "cat",
+          "text_de": "Welche Sprache wird in Ihrem Haushalt vorwiegend gesprochen?",
           "concept": "hfspr",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5061,10 +5198,10 @@
         },
         {
           "item": "hfsprso",
-          "text_de": "Andere Sprache, und zwar",
           "text": "Other language, namely:",
-          "scale": "chr",
+          "text_de": "Andere Sprache, und zwar",
           "concept": "hfsprso",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         }
@@ -5077,11 +5214,12 @@
       "question": "l1v",
       "name": "l1v",
       "label": "Many thanks for taking part in this interview. To conclude the interview properly, the interviewer must now answer a few questions. These questions are designed to help us understand the information in the interview better. And we shall also use them to establish whether, in certain areas, we can do anything even better in future surveys.",
+      "label_de": "Vielen Dank für Ihre Teilnahme an diesem Interview.\n\nZum ordnungsgemäßen Abschluss des Interviews muss jetzt der Interviewer / die Interviewerin noch wenige Fragen beantworten. Diese Fragen sollen uns einerseits helfen, die Angaben im Interview besser zu verstehen, andererseits versuchen wir damit auch in bestimmten Bereichen zu erkennen, ob wir in zukünftigen Befragungen etwas besser machen können.",
       "items": [
         {
           "item": "1",
-          "text_de": "Vielen Dank für Ihre Teilnahme an diesem Interview.\n\nZum ordnungsgemäßen Abschluss des Interviews muss jetzt der Interviewer / die Interviewerin noch wenige Fragen beantworten. Diese Fragen sollen uns einerseits helfen, die Angaben im Interview besser zu verstehen, andererseits versuchen wir damit auch in bestimmten Bereichen zu erkennen, ob wir in zukünftigen Befragungen etwas besser machen können.",
           "text": "Many thanks for taking part in this interview. To conclude the interview properly, the interviewer must now answer a few questions. These questions are designed to help us understand the information in the interview better. And we shall also use them to establish whether, in certain areas, we can do anything even better in future surveys.",
+          "text_de": "Vielen Dank für Ihre Teilnahme an diesem Interview.\n\nZum ordnungsgemäßen Abschluss des Interviews muss jetzt der Interviewer / die Interviewerin noch wenige Fragen beantworten. Diese Fragen sollen uns einerseits helfen, die Angaben im Interview besser zu verstehen, andererseits versuchen wir damit auch in bestimmten Bereichen zu erkennen, ob wir in zukünftigen Befragungen etwas besser machen können.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -5095,13 +5233,14 @@
       "question": "I1",
       "name": "I1",
       "label": "How well did it go interviewing the respondent in German?",
+      "label_de": "Wie gut konnten Sie mit dem/der Befragten das Interview in deutscher Sprache durchführen?",
       "items": [
         {
           "item": "i1",
-          "text_de": "Wie gut konnten Sie mit dem/der Befragten das Interview in deutscher Sprache durchführen?",
           "text": "How well did it go interviewing the respondent in German?",
-          "scale": "cat",
+          "text_de": "Wie gut konnten Sie mit dem/der Befragten das Interview in deutscher Sprache durchführen?",
           "concept": "i1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5141,14 +5280,15 @@
       "question": "I2",
       "name": "I2",
       "label": "How often did you use the written translations in this interview?",
+      "label_de": "Wie häufig wurden in diesem Interview die übersetzten Texte verwendet?",
       "items": [
         {
           "item": "i2",
-          "text_de": "Wie häufig wurden in diesem Interview die übersetzten Texte verwendet?",
           "text": "How often did you use the written translations in this interview?",
-          "scale": "cat",
-          "concept": "i2",
+          "text_de": "Wie häufig wurden in diesem Interview die übersetzten Texte verwendet?",
           "goto": "5@I4",
+          "concept": "i2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5188,13 +5328,14 @@
       "question": "I3",
       "name": "I3",
       "label": "How helpful were the written translations in this interview?",
+      "label_de": "Wie hilfreich waren in diesem Interview die übersetzten Texte?",
       "items": [
         {
           "item": "i3",
-          "text_de": "Wie hilfreich waren in diesem Interview die übersetzten Texte?",
           "text": "How helpful were the written translations in this interview?",
-          "scale": "cat",
+          "text_de": "Wie hilfreich waren in diesem Interview die übersetzten Texte?",
           "concept": "i3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5229,14 +5370,15 @@
       "question": "I4",
       "name": "I4",
       "label": "How often did you use the audio files in this interview?",
+      "label_de": "Wie häufig wurden in diesem Interview die Audiodateien verwendet?",
       "items": [
         {
           "item": "i4",
-          "text_de": "Wie häufig wurden in diesem Interview die Audiodateien verwendet?",
           "text": "How often did you use the audio files in this interview?",
-          "scale": "cat",
-          "concept": "i4",
+          "text_de": "Wie häufig wurden in diesem Interview die Audiodateien verwendet?",
           "goto": "5@I6",
+          "concept": "i4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5276,13 +5418,14 @@
       "question": "I5",
       "name": "I5",
       "label": "How helpful were the audio files in this interview?",
+      "label_de": "Wie hilfreich waren in diesem Interview die Audiodateien?",
       "items": [
         {
           "item": "i5",
-          "text_de": "Wie hilfreich waren in diesem Interview die Audiodateien?",
           "text": "How helpful were the audio files in this interview?",
-          "scale": "cat",
+          "text_de": "Wie hilfreich waren in diesem Interview die Audiodateien?",
           "concept": "i5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5317,16 +5460,17 @@
       "question": "I6",
       "name": "I6",
       "label": "Did other people help in translating questions due to language difficulties?",
+      "label_de": "Haben wegen Sprachschwierigkeiten andere Personen bei der Übersetzung der Fragen geholfen?",
       "items": [
         {
           "item": "i6",
-          "text_de": "Haben wegen Sprachschwierigkeiten andere Personen bei der Übersetzung der Fragen geholfen?",
-          "instruction_de": "Bei mehreren, geben Sie bitte die Person an, die überwiegend geholfen hat.",
           "text": "Did other people help in translating questions due to language difficulties?",
+          "text_de": "Haben wegen Sprachschwierigkeiten andere Personen bei der Übersetzung der Fragen geholfen?",
           "instruction": "If more than one person helped, please answer for the one who helped the most.",
-          "scale": "cat",
-          "concept": "i6",
+          "instruction_de": "Bei mehreren, geben Sie bitte die Person an, die überwiegend geholfen hat.",
           "goto": "1@I7; 2@I10; 3@I13",
+          "concept": "i6",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5356,13 +5500,14 @@
       "question": "I7",
       "name": "I7",
       "label": "What language did the interpreter translate into?",
+      "label_de": "In welche Sprache hat der Dolmetscher übersetzt?",
       "items": [
         {
           "item": "i7",
-          "text_de": "In welche Sprache hat der Dolmetscher übersetzt?",
           "text": "What language did the interpreter translate into?",
-          "scale": "chr",
+          "text_de": "In welche Sprache hat der Dolmetscher übersetzt?",
           "concept": "i7",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -5375,13 +5520,14 @@
       "question": "I8",
       "name": "I8",
       "label": "Approximately how old is the interpreter?",
+      "label_de": "Wie alt ist der Dolmetscher etwa?",
       "items": [
         {
           "item": "i8",
-          "text_de": "Wie alt ist der Dolmetscher etwa?",
           "text": "Approximately how old is the interpreter?",
-          "scale": "cat",
+          "text_de": "Wie alt ist der Dolmetscher etwa?",
           "concept": "i8",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5411,14 +5557,15 @@
       "question": "I9",
       "name": "I9",
       "label": "Is the interpreter male or female?",
+      "label_de": "Ist der Dolmetscher männlich oder weiblich?",
       "items": [
         {
           "item": "i9",
-          "text_de": "Ist der Dolmetscher männlich oder weiblich?",
           "text": "Is the interpreter male or female?",
-          "scale": "cat",
-          "concept": "i9",
+          "text_de": "Ist der Dolmetscher männlich oder weiblich?",
           "goto": "ALL@I13",
+          "concept": "i9",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5443,13 +5590,14 @@
       "question": "I10",
       "name": "I10",
       "label": "What language did the other person translate into?",
+      "label_de": "In welche Sprache hat die andere Person übersetzt?",
       "items": [
         {
           "item": "i10",
-          "text_de": "In welche Sprache hat die andere Person übersetzt?",
           "text": "What language did the other person translate into?",
-          "scale": "chr",
+          "text_de": "In welche Sprache hat die andere Person übersetzt?",
           "concept": "i10",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -5462,13 +5610,14 @@
       "question": "I11",
       "name": "I11",
       "label": "Approximately how old is the other person?",
+      "label_de": "Wie alt ist die andere Person etwa?",
       "items": [
         {
           "item": "i11",
-          "text_de": "Wie alt ist die andere Person etwa?",
           "text": "Approximately how old is the other person?",
-          "scale": "cat",
+          "text_de": "Wie alt ist die andere Person etwa?",
           "concept": "i11",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5498,14 +5647,15 @@
       "question": "I12",
       "name": "I12",
       "label": "Is the other person male or female?",
+      "label_de": "Ist die andere Person männlich oder weiblich?",
       "items": [
         {
           "item": "i12",
-          "text_de": "Ist die andere Person männlich oder weiblich?",
           "text": "Is the other person male or female?",
-          "scale": "cat",
-          "concept": "i12",
+          "text_de": "Ist die andere Person männlich oder weiblich?",
           "goto": "ALL@I13",
+          "concept": "i12",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5530,44 +5680,45 @@
       "question": "I13",
       "name": "I13",
       "label": "Were other people present when the questionnaire was being completed aside from the interviewer?",
+      "label_de": "Waren beim Ausfüllen des Fragebogens, außer dem Interviewer, noch weitere Personen anwesend?",
       "items": [
         {
           "item": "1",
-          "text_de": "Waren beim Ausfüllen des Fragebogens, außer dem Interviewer, noch weitere Personen anwesend?",
-          "instruction_de": "Hier nicht gemeint ist gegebenenfalls der Dolmetscher oder die andere Person, die beim Übersetzen geholfen hat.\n\nBitte geben Sie alles Zutreffende an.",
           "text": "Were other people present when the questionnaire was being completed aside from the interviewer?",
+          "text_de": "Waren beim Ausfüllen des Fragebogens, außer dem Interviewer, noch weitere Personen anwesend?",
           "instruction": "Here we are not referring to the interpreter or any other people who may have helped in translating. Please select all that apply.",
-          "scale": "txt",
+          "instruction_de": "Hier nicht gemeint ist gegebenenfalls der Dolmetscher oder die andere Person, die beim Übersetzen geholfen hat.\n\nBitte geben Sie alles Zutreffende an.",
           "goto": "3@I15",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "i131",
-          "text_de": "Ja, Partner / Partnerin",
           "text": "Yes, spouse / partner",
-          "scale": "bin",
+          "text_de": "Ja, Partner / Partnerin",
           "concept": "i131",
+          "scale": "bin",
           "description": "neu, basierend auf i13",
           "sn": 1,
           "number": ""
         },
         {
           "item": "i132",
-          "text_de": "Ja, andere Person",
           "text": "Yes, another person",
-          "scale": "bin",
+          "text_de": "Ja, andere Person",
           "concept": "i132",
+          "scale": "bin",
           "description": "neu, basierend auf i13",
           "sn": 2,
           "number": ""
         },
         {
           "item": "i133",
-          "text_de": "Nein, niemand",
           "text": "No, nobody",
-          "scale": "bin",
+          "text_de": "Nein, niemand",
           "concept": "i133",
+          "scale": "bin",
           "description": "neu, basierend auf i13",
           "sn": 3,
           "number": ""
@@ -5581,13 +5732,14 @@
       "question": "I14",
       "name": "I14",
       "label": "Did the other person or people have any unavoidable influence on the interview?",
+      "label_de": "Hat es durch die andere Person bzw. die anderen Personen unvermeidbaren Einfluss auf das Interview gegeben?",
       "items": [
         {
           "item": "i14",
-          "text_de": "Hat es durch die andere Person bzw. die anderen Personen unvermeidbaren Einfluss auf das Interview gegeben?",
           "text": "Did the other person or people have any unavoidable influence on the interview?",
-          "scale": "cat",
+          "text_de": "Hat es durch die andere Person bzw. die anderen Personen unvermeidbaren Einfluss auf das Interview gegeben?",
           "concept": "i14",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5612,13 +5764,14 @@
       "question": "I15",
       "name": "I15",
       "label": "Aside from linguistic difficulties or the presence of other people, other things can have an effect on an interview. Examples include questions dealing with sensitive issues, questions that do not reflect respondents’ life realities, or a respondent’s general lack of trust in the confidentiality of their answers. How closely do you as an interviewer think the responses given in this interview reflect reality?",
+      "label_de": "Außer Sprachschwierigkeiten oder Anwesenheit anderer Personen, kann es viele weitere Einflussmöglichkeiten auf ein Interview geben.\nBeispiele dafür wären sensible Fragen, die Befragten finden sich in den Fragen nicht wieder oder fehlendes Vertrauen in den Datenschutz etc.\nWie realitätsnah oder -fern würden Sie aus Ihrer Erfahrung als Interviewer die Beantwortung der Fragen in dem eben geführten Interview einschätzen?",
       "items": [
         {
           "item": "i15",
-          "text_de": "Außer Sprachschwierigkeiten oder Anwesenheit anderer Personen, kann es viele weitere Einflussmöglichkeiten auf ein Interview geben.\nBeispiele dafür wären sensible Fragen, die Befragten finden sich in den Fragen nicht wieder oder fehlendes Vertrauen in den Datenschutz etc.\nWie realitätsnah oder -fern würden Sie aus Ihrer Erfahrung als Interviewer die Beantwortung der Fragen in dem eben geführten Interview einschätzen?",
           "text": "Aside from linguistic difficulties or the presence of other people, other things can have an effect on an interview. Examples include questions dealing with sensitive issues, questions that do not reflect respondents’ life realities, or a respondent’s general lack of trust in the confidentiality of their answers. How closely do you as an interviewer think the responses given in this interview reflect reality?",
-          "scale": "cat",
+          "text_de": "Außer Sprachschwierigkeiten oder Anwesenheit anderer Personen, kann es viele weitere Einflussmöglichkeiten auf ein Interview geben.\nBeispiele dafür wären sensible Fragen, die Befragten finden sich in den Fragen nicht wieder oder fehlendes Vertrauen in den Datenschutz etc.\nWie realitätsnah oder -fern würden Sie aus Ihrer Erfahrung als Interviewer die Beantwortung der Fragen in dem eben geführten Interview einschätzen?",
           "concept": "i15",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5653,13 +5806,14 @@
       "question": "I16",
       "name": "I16",
       "label": "Is there any other important information that you would like to add about this interview?",
+      "label_de": "Gibt es noch wichtige Hinweise zu diesem Interview?",
       "items": [
         {
           "item": "i16",
-          "text_de": "Gibt es noch wichtige Hinweise zu diesem Interview?",
           "text": "Is there any other important information that you would like to add about this interview?",
-          "scale": "chr",
+          "text_de": "Gibt es noch wichtige Hinweise zu diesem Interview?",
           "concept": "i16",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }

@@ -13,12 +13,14 @@
     "para1": {
       "question": "para1",
       "name": "para1",
+      "label": "",
+      "label_de": "Erhebungsjahr",
       "items": [
         {
           "item": "jahr",
           "text_de": "Erhebungsjahr",
-          "scale": "int",
           "concept": "jahr",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "jahr",
           "sn": 0,
@@ -32,12 +34,14 @@
     "para2": {
       "question": "para2",
       "name": "para2",
+      "label": "",
+      "label_de": "Ursprungsstichprobe",
       "items": [
         {
           "item": "stichu",
           "text_de": "Ursprungsstichprobe",
-          "scale": "cat",
           "concept": "stichu",
+          "scale": "cat",
           "dataset": "H19_M345",
           "var_fix": "stichu",
           "answers": [
@@ -65,12 +69,14 @@
     "para3": {
       "question": "para3",
       "name": "para3",
+      "label": "",
+      "label_de": "Haushaltsnummer",
       "items": [
         {
           "item": "hnr",
           "text_de": "Haushaltsnummer",
-          "scale": "int",
           "concept": "hnr",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hnr",
           "sn": 0,
@@ -84,12 +90,14 @@
     "para4": {
       "question": "para4",
       "name": "para4",
+      "label": "",
+      "label_de": "Lfd. Personennummer",
       "items": [
         {
           "item": "pnr",
           "text_de": "Lfd. Personennummer",
-          "scale": "int",
           "concept": "pnr",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "pnr",
           "sn": 0,
@@ -103,12 +111,14 @@
     "para5": {
       "question": "para5",
       "name": "para5",
+      "label": "",
+      "label_de": "Vorname",
       "items": [
         {
           "item": "name",
           "text_de": "Vorname",
-          "scale": "chr",
           "concept": "name",
+          "scale": "chr",
           "dataset": "H19_M345",
           "var_fix": "name",
           "sn": 0,
@@ -122,12 +132,14 @@
     "Q002": {
       "question": "Q002",
       "name": "Q002",
+      "label": "",
+      "label_de": "Welche Sprachversion soll verwendet werden?",
       "items": [
         {
           "item": "hspvers",
           "text_de": "Welche Sprachversion soll verwendet werden?",
-          "scale": "cat",
           "concept": "hspvers",
+          "scale": "cat",
           "number": "Q002",
           "dataset": "H19_M345",
           "var_fix": "hspvers",
@@ -171,6 +183,8 @@
     "Q003": {
       "question": "Q003",
       "name": "Q003",
+      "label": "",
+      "label_de": "Ich bestätige, dass die ausgewählte Befragungsperson erklärt hat, das Datenschutzblatt gelesen zu haben. Er/Sie hat sodann in die Erhebung und den Umgang mit den Daten und deren Löschung gemäß dem Inhalt des Datenschutzblattes eingewilligt.",
       "items": [
         {
           "item": "1",
@@ -188,11 +202,12 @@
       "question": "Q004",
       "name": "Q004",
       "label": "The first questions are about your household. When we ask questions about your household or persons in your household, this could mean you alone if you live alone in an apartment or an accommodation unit. However it can also mean the other people living there who together make up a household. As rule these are family members living together.",
+      "label_de": "Zunächst geht es um Ihren Haushalt. Wenn wir Fragen zu Ihrem Haushalt oder zu Personen in Ihrem Haushalt stellen, können damit Sie alleine gemeint sein, wenn Sie alleine in einer Wohnung oder Wohneinheit leben. Es kann aber auch die Gemeinschaft gemeint sein, die zusammen einen Haushalt bildet. In der Regel sind das zusammenlebende Familienangehörige.",
       "items": [
         {
           "item": "1",
-          "text_de": "Zunächst geht es um Ihren Haushalt. Wenn wir Fragen zu Ihrem Haushalt oder zu Personen in Ihrem Haushalt stellen, können damit Sie alleine gemeint sein, wenn Sie alleine in einer Wohnung oder Wohneinheit leben. Es kann aber auch die Gemeinschaft gemeint sein, die zusammen einen Haushalt bildet. In der Regel sind das zusammenlebende Familienangehörige.",
           "text": "The first questions are about your household. When we ask questions about your household or persons in your household, this could mean you alone if you live alone in an apartment or an accommodation unit. However it can also mean the other people living there who together make up a household. As rule these are family members living together.",
+          "text_de": "Zunächst geht es um Ihren Haushalt. Wenn wir Fragen zu Ihrem Haushalt oder zu Personen in Ihrem Haushalt stellen, können damit Sie alleine gemeint sein, wenn Sie alleine in einer Wohnung oder Wohneinheit leben. Es kann aber auch die Gemeinschaft gemeint sein, die zusammen einen Haushalt bildet. In der Regel sind das zusammenlebende Familienangehörige.",
           "scale": "txt",
           "number": "Q004",
           "sn": 0
@@ -206,14 +221,15 @@
       "question": "Q005",
       "name": "Q005",
       "label": "In what type of accommodation does the interviewee live?",
+      "label_de": "In welcher Art von Unterkunft wohnt die Befragungsperson?",
       "items": [
         {
           "item": "hwunt",
-          "text_de": "In welcher Art von Unterkunft wohnt die Befragungsperson?",
           "text": "In what type of accommodation does the interviewee live?",
-          "scale": "cat",
-          "concept": "hwunt",
+          "text_de": "In welcher Art von Unterkunft wohnt die Befragungsperson?",
           "goto": "1@Q045,2@Q007",
+          "concept": "hwunt",
+          "scale": "cat",
           "description": "Antwortkategorien verändert;  Goto verändert",
           "number": "Q005",
           "dataset": "H19_M345",
@@ -243,12 +259,14 @@
     "Q006": {
       "question": "Q006",
       "name": "Q006",
+      "label": "",
+      "label_de": "Um was für eine Unterkunft handelt es sich?",
       "items": [
         {
           "item": "hwhart",
           "text_de": "Um was für eine Unterkunft handelt es sich?",
-          "scale": "cat",
           "concept": "hwhart",
+          "scale": "cat",
           "description": "Neu (aus HH Hauptsoep)",
           "number": "Q005a",
           "dataset": "H19_M345",
@@ -285,6 +303,8 @@
     "B001": {
       "question": "B001",
       "name": "B001",
+      "label": "",
+      "label_de": "Fragen zur Privatunterkunft",
       "items": [
         {
           "item": "1",
@@ -302,13 +322,14 @@
       "question": "Q007",
       "name": "Q007",
       "label": "Are there further apartments in this building in which refugees live?",
+      "label_de": "Gibt es in diesem Haus noch weitere Wohnungen, in denen geflüchtete Personen wohnen?",
       "items": [
         {
           "item": "hhwflt",
-          "text_de": "Gibt es in diesem Haus noch weitere Wohnungen, in denen geflüchtete Personen wohnen?",
           "text": "Are there further apartments in this building in which refugees live?",
-          "scale": "cat",
+          "text_de": "Gibt es in diesem Haus noch weitere Wohnungen, in denen geflüchtete Personen wohnen?",
           "concept": "hhwflt",
+          "scale": "cat",
           "number": "Q006",
           "dataset": "H19_M345",
           "var_fix": "hhwflt",
@@ -343,6 +364,8 @@
     "Q008": {
       "question": "Q008",
       "name": "Q008",
+      "label": "",
+      "label_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.\n\nBei der folgenden Frage geht es um die Haushaltszusammensetzung, also ob es sich um\ndieselben Personen in derselben Wohnung handelt.",
       "items": [
         {
           "item": "1",
@@ -359,13 +382,15 @@
     "Q009": {
       "question": "Q009",
       "name": "Q009",
+      "label": "",
+      "label_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
       "items": [
         {
           "item": "hwsit1",
           "text_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
           "instruction_de": "Die letzte Befragung war am [Datum]",
-          "scale": "cat",
           "concept": "hwsit1",
+          "scale": "cat",
           "description": "Instruction neu eingefügt",
           "number": "Q008a",
           "dataset": "H19_M345",
@@ -390,14 +415,16 @@
     "Q010": {
       "question": "Q010",
       "name": "Q010",
+      "label": "",
+      "label_de": "Ist es noch dieselbe Haushaltszusammensetzung wie bei der letzten Befragung?",
       "items": [
         {
           "item": "hwsit2",
           "text_de": "Ist es noch dieselbe Haushaltszusammensetzung wie bei der letzten Befragung?",
-          "scale": "cat",
+          "goto": "1,2@Q020",
           "concept": "hwsit2",
           "filter": "Q009;hwsit1=1",
-          "goto": "1,2@Q020",
+          "scale": "cat",
           "number": "Q008b",
           "dataset": "H19_M345",
           "var_fix": "hwsit2",
@@ -421,13 +448,15 @@
     "Q011": {
       "question": "Q011",
       "name": "Q011",
+      "label": "",
+      "label_de": "Warum befindet sich der Haushalt jetzt in dieser Wohnung, unter dieser Adresse?",
       "items": [
         {
           "item": "hwsit3",
           "text_de": "Warum befindet sich der Haushalt jetzt in dieser Wohnung, unter dieser Adresse?",
-          "scale": "cat",
           "concept": "hwsit3",
           "filter": "Q009;hwsit1=2",
+          "scale": "cat",
           "number": "Q008c",
           "dataset": "H19_M345",
           "var_fix": "hwsit3",
@@ -451,20 +480,22 @@
     "Q012": {
       "question": "Q012",
       "name": "Q012",
+      "label": "",
+      "label_de": "Wann war diese Veränderung, also der Umzug des Haushalts beziehungsweise\nder Zuzug eines oder mehrerer Teilnehmer dieser Studie?",
       "items": [
         {
           "item": "1",
           "text_de": "Wann war diese Veränderung, also der Umzug des Haushalts beziehungsweise\nder Zuzug eines oder mehrerer Teilnehmer dieser Studie?",
-          "scale": "txt",
           "filter": "Q011;hwsit3=1,2",
+          "scale": "txt",
           "number": "Q009",
           "sn": 0
         },
         {
           "item": "hwj",
           "text_de": "Jahr",
-          "scale": "int",
           "concept": "hwj",
+          "scale": "int",
           "number": "Q009",
           "dataset": "H19_M345",
           "var_fix": "hwj",
@@ -473,8 +504,8 @@
         {
           "item": "hwm",
           "text_de": "Monat",
-          "scale": "int",
           "concept": "hwm",
+          "scale": "int",
           "number": "Q009",
           "dataset": "H19_M345",
           "var_fix": "hwm",
@@ -483,8 +514,8 @@
         {
           "item": "hwjka",
           "text_de": "Keine Angabe",
-          "scale": "bin",
           "concept": "hwjka",
+          "scale": "bin",
           "number": "Q009",
           "answers": [
             {
@@ -502,6 +533,8 @@
     "Q013": {
       "question": "Q013",
       "name": "Q013",
+      "label": "",
+      "label_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
       "items": [
         {
           "item": "1",
@@ -515,8 +548,8 @@
         {
           "item": "humz01",
           "text_de": "Kündigung durch den Vermieter",
-          "scale": "bin",
           "concept": "humz01",
+          "scale": "bin",
           "number": "Q011",
           "dataset": "H19_M345",
           "var_fix": "humz01",
@@ -525,8 +558,8 @@
         {
           "item": "humz18",
           "text_de": "Unsicherheiten im Mietverhältnis durch neuen Eigentümer / Vermieter",
-          "scale": "bin",
           "concept": "humz18",
+          "scale": "bin",
           "number": "Q011",
           "dataset": "H19_M345",
           "var_fix": "humz18",
@@ -535,8 +568,8 @@
         {
           "item": "humz07",
           "text_de": "Fortzug aus dem Elternhaus",
-          "scale": "bin",
           "concept": "humz07",
+          "scale": "bin",
           "number": "Q011",
           "dataset": "H19_M345",
           "var_fix": "humz07",
@@ -545,8 +578,8 @@
         {
           "item": "humz04",
           "text_de": "Berufliche Gründe",
-          "scale": "bin",
           "concept": "humz04",
+          "scale": "bin",
           "number": "Q011",
           "dataset": "H19_M345",
           "var_fix": "humz04",
@@ -555,8 +588,8 @@
         {
           "item": "humzfg",
           "text_de": "Familiäre Gründe",
-          "scale": "bin",
           "concept": "humzfg",
+          "scale": "bin",
           "number": "Q011",
           "dataset": "H19_M345",
           "var_fix": "humzfg",
@@ -565,8 +598,8 @@
         {
           "item": "humzww",
           "text_de": "Wohnungsgröße und Wohnkosten",
-          "scale": "bin",
           "concept": "humzww",
+          "scale": "bin",
           "number": "Q011",
           "dataset": "H19_M345",
           "var_fix": "humzww",
@@ -575,8 +608,8 @@
         {
           "item": "humz22",
           "text_de": "Aufforderung durch Behörde, den Wohnsitz zu verlagern",
-          "scale": "bin",
           "concept": "humz22",
+          "scale": "bin",
           "number": "Q011",
           "dataset": "H19_M345",
           "var_fix": "humz22",
@@ -585,8 +618,8 @@
         {
           "item": "humz15",
           "text_de": "Sonstige Gründe",
-          "scale": "bin",
           "concept": "humz15",
+          "scale": "bin",
           "number": "Q011",
           "dataset": "H19_M345",
           "var_fix": "humz15",
@@ -613,6 +646,8 @@
     "Q014": {
       "question": "Q014",
       "name": "Q014",
+      "label": "",
+      "label_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
       "items": [
         {
           "item": "1",
@@ -624,8 +659,8 @@
         {
           "item": "humzanz",
           "text_de": "Anzahl Umzüge",
-          "scale": "int",
           "concept": "humzanz",
+          "scale": "int",
           "number": "Q016",
           "dataset": "H19_M345",
           "var_fix": "humzanz",
@@ -652,6 +687,8 @@
     "Q015": {
       "question": "Q015",
       "name": "Q015",
+      "label": "",
+      "label_de": "Jetzt geht es um die aktuelle Wohnung.",
       "items": [
         {
           "item": "1",
@@ -669,13 +706,14 @@
       "question": "Q016",
       "name": "Q016",
       "label": "How did you find this apartment?",
+      "label_de": "Wie haben Sie diese Wohnung gefunden?",
       "items": [
         {
           "item": "hwfund",
-          "text_de": "Wie haben Sie diese Wohnung gefunden?",
           "text": "How did you find this apartment?",
-          "scale": "cat",
+          "text_de": "Wie haben Sie diese Wohnung gefunden?",
           "concept": "hwfund",
+          "scale": "cat",
           "number": "Q018",
           "dataset": "H19_M345",
           "var_fix": "hwfund",
@@ -726,13 +764,14 @@
       "question": "Q017",
       "name": "Q017",
       "label": "How would you describe your neighborhood?",
+      "label_de": "Wie würden Sie die Wohngegend hier beschreiben?",
       "items": [
         {
           "item": "hwohn08",
-          "text_de": "Wie würden Sie die Wohngegend hier beschreiben?",
           "text": "How would you describe your neighborhood?",
-          "scale": "cat",
+          "text_de": "Wie würden Sie die Wohngegend hier beschreiben?",
           "concept": "hwohn08",
+          "scale": "cat",
           "number": "Q019",
           "dataset": "H19_M345",
           "var_fix": "hwohn08",
@@ -777,12 +816,14 @@
     "Q018": {
       "question": "Q018",
       "name": "Q018",
+      "label": "",
+      "label_de": "Was ist das für ein Haustyp, in dem Sie hier wohnen?",
       "items": [
         {
           "item": "hhtyp",
           "text_de": "Was ist das für ein Haustyp, in dem Sie hier wohnen?",
-          "scale": "cat",
           "concept": "hhtyp",
+          "scale": "cat",
           "number": "Q020",
           "dataset": "H19_M345",
           "var_fix": "hhtyp",
@@ -831,13 +872,14 @@
       "question": "Q019",
       "name": "Q019",
       "label": "Was this apartment fully furnished by you or was it already partly or fully furnished before you moved in?",
+      "label_de": "Wurde diese Wohnung von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
       "items": [
         {
           "item": "hwmoeb",
-          "text_de": "Wurde diese Wohnung von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
           "text": "Was this apartment fully furnished by you or was it already partly or fully furnished before you moved in?",
-          "scale": "cat",
+          "text_de": "Wurde diese Wohnung von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
           "concept": "hwmoeb",
+          "scale": "cat",
           "number": "Q021",
           "dataset": "H19_M345",
           "var_fix": "hwmoeb",
@@ -873,14 +915,15 @@
       "question": "Q020",
       "name": "Q020",
       "label": "Has the size of your dwelling changed within the last year, e.g., due to remodeling or changes in usage?",
+      "label_de": "Hat sich innerhalb des letzten Jahres an der Größe Ihrer Wohnung etwas verändert,\nz.B. durch Umbauten oder veränderte Nutzung?",
       "items": [
         {
           "item": "humb",
-          "text_de": "Hat sich innerhalb des letzten Jahres an der Größe Ihrer Wohnung etwas verändert,\nz.B. durch Umbauten oder veränderte Nutzung?",
           "text": "Has the size of your dwelling changed within the last year, e.g., due to remodeling or changes in usage?",
-          "scale": "cat",
+          "text_de": "Hat sich innerhalb des letzten Jahres an der Größe Ihrer Wohnung etwas verändert,\nz.B. durch Umbauten oder veränderte Nutzung?",
           "concept": "humb",
           "filter": "Hinweis: Ab hier wieder an alle in Privatunterkünften",
+          "scale": "cat",
           "number": "Q022",
           "dataset": "H19_M345",
           "var_fix": "humb",
@@ -911,21 +954,22 @@
       "question": "Q021",
       "name": "Q021",
       "label": "How large is the total living space in this flat?",
+      "label_de": "Wie groß ist die Wohnfläche dieser Wohnung insgesamt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie groß ist die Wohnfläche dieser Wohnung insgesamt?",
           "text": "How large is the total living space in this flat?",
+          "text_de": "Wie groß ist die Wohnfläche dieser Wohnung insgesamt?",
           "scale": "txt",
           "number": "Q023",
           "sn": 0
         },
         {
           "item": "hqm",
-          "text_de": "qm",
           "text": "qm",
-          "scale": "int",
+          "text_de": "qm",
           "concept": "hqm",
+          "scale": "int",
           "number": "Q023",
           "dataset": "H19_M345",
           "var_fix": "hqm",
@@ -953,23 +997,24 @@
       "question": "Q022",
       "name": "Q022",
       "label": "And how many rooms are in the apartment?",
+      "label_de": "Und wie viele Räume hat Ihre Wohnung?",
       "items": [
         {
           "item": "1",
-          "text_de": "Und wie viele Räume hat Ihre Wohnung?",
-          "instruction_de": "Gemeint sind Räume ab 6 qm, ohne Küche und ohne Bad.",
           "text": "And how many rooms are in the apartment?",
+          "text_de": "Und wie viele Räume hat Ihre Wohnung?",
           "instruction": "This means rooms over 6m2 in size, excluding the kitchen and bathroo",
+          "instruction_de": "Gemeint sind Räume ab 6 qm, ohne Küche und ohne Bad.",
           "scale": "txt",
           "number": "Q024",
           "sn": 0
         },
         {
           "item": "hraum",
-          "text_de": "Räume",
           "text": "Rooms",
-          "scale": "int",
+          "text_de": "Räume",
           "concept": "hraum",
+          "scale": "int",
           "number": "Q024",
           "dataset": "H19_M345",
           "var_fix": "hraum",
@@ -997,13 +1042,14 @@
       "question": "Q023",
       "name": "Q023",
       "label": "How do you rate the size of the apartment overall? For your household is it…",
+      "label_de": "Wie beurteilen Sie insgesamt die Größe Ihrer Wohnung?\n\nIst sie für Ihren Haushalt …",
       "items": [
         {
           "item": "hgr",
-          "text_de": "Wie beurteilen Sie insgesamt die Größe Ihrer Wohnung?\n\nIst sie für Ihren Haushalt …",
           "text": "How do you rate the size of the apartment overall? For your household is it…",
-          "scale": "cat",
+          "text_de": "Wie beurteilen Sie insgesamt die Größe Ihrer Wohnung?\n\nIst sie für Ihren Haushalt …",
           "concept": "hgr",
+          "scale": "cat",
           "number": "Q025",
           "dataset": "H19_M345",
           "var_fix": "hgr",
@@ -1049,11 +1095,12 @@
       "question": "Q024",
       "name": "Q024",
       "label": "Now there are a few questions about how your apartment is furnished.",
+      "label_de": "Jetzt kommen ein paar Fragen darüber, wie Ihre Wohnung ausgestattet ist.",
       "items": [
         {
           "item": "1",
-          "text_de": "Jetzt kommen ein paar Fragen darüber, wie Ihre Wohnung ausgestattet ist.",
           "text": "Now there are a few questions about how your apartment is furnished.",
+          "text_de": "Jetzt kommen ein paar Fragen darüber, wie Ihre Wohnung ausgestattet ist.",
           "scale": "txt",
           "number": "Q026",
           "sn": 0
@@ -1067,13 +1114,14 @@
       "question": "Q025",
       "name": "Q025",
       "label": "Is your apartment suitably furnished for elderly or disabled persons?",
+      "label_de": "Gehört zu Ihrer Wohnung eine altengerechte, barrierefreie Wohnausstattung?",
       "items": [
         {
           "item": "hwohn24",
-          "text_de": "Gehört zu Ihrer Wohnung eine altengerechte, barrierefreie Wohnausstattung?",
           "text": "Is your apartment suitably furnished for elderly or disabled persons?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine altengerechte, barrierefreie Wohnausstattung?",
           "concept": "hwohn24",
+          "scale": "cat",
           "number": "Q027",
           "dataset": "H19_M345",
           "var_fix": "hwohn24",
@@ -1104,13 +1152,14 @@
       "question": "Q026",
       "name": "Q026",
       "label": "Does your apartment have underfloor heating (full or partial)?",
+      "label_de": "Gehört zu Ihrer Wohnung eine Fußbodenheizung (ganz oder teilweise)?",
       "items": [
         {
           "item": "hwohn21",
-          "text_de": "Gehört zu Ihrer Wohnung eine Fußbodenheizung (ganz oder teilweise)?",
           "text": "Does your apartment have underfloor heating (full or partial)?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine Fußbodenheizung (ganz oder teilweise)?",
           "concept": "hwohn21",
+          "scale": "cat",
           "number": "Q028",
           "dataset": "H19_M345",
           "var_fix": "hwohn21",
@@ -1141,13 +1190,14 @@
       "question": "Q027",
       "name": "Q027",
       "label": "Does your apartment have a balcony or a terrace?",
+      "label_de": "Gehört zu Ihrer Wohnung ein Balkon oder eine Terrasse?",
       "items": [
         {
           "item": "hwohn15",
-          "text_de": "Gehört zu Ihrer Wohnung ein Balkon oder eine Terrasse?",
           "text": "Does your apartment have a balcony or a terrace?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung ein Balkon oder eine Terrasse?",
           "concept": "hwohn15",
+          "scale": "cat",
           "number": "Q029",
           "dataset": "H19_M345",
           "var_fix": "hwohn15",
@@ -1178,13 +1228,14 @@
       "question": "Q028",
       "name": "Q028",
       "label": "Does your apartment have its own garden or use of a garden?",
+      "label_de": "Gehört zu Ihrer Wohnung ein eigener Garten oder Gartenbenutzung?",
       "items": [
         {
           "item": "hwohn17",
-          "text_de": "Gehört zu Ihrer Wohnung ein eigener Garten oder Gartenbenutzung?",
           "text": "Does your apartment have its own garden or use of a garden?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung ein eigener Garten oder Gartenbenutzung?",
           "concept": "hwohn17",
+          "scale": "cat",
           "number": "Q030",
           "dataset": "H19_M345",
           "var_fix": "hwohn17",
@@ -1215,13 +1266,14 @@
       "question": "Q029",
       "name": "Q029",
       "label": "Does your apartment have an alarm system?",
+      "label_de": "Gehört zu Ihrer Wohnung eine Alarmanlage?",
       "items": [
         {
           "item": "hwohn18",
-          "text_de": "Gehört zu Ihrer Wohnung eine Alarmanlage?",
           "text": "Does your apartment have an alarm system?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine Alarmanlage?",
           "concept": "hwohn18",
+          "scale": "cat",
           "number": "Q031",
           "dataset": "H19_M345",
           "var_fix": "hwohn18",
@@ -1252,13 +1304,14 @@
       "question": "Q030",
       "name": "Q030",
       "label": "Does your apartment have central heating or a heating system covering one floor?",
+      "label_de": "Gehört zu Ihrer Wohnung eine Zentralheizung oder Etagenheizung?",
       "items": [
         {
           "item": "hwohn29",
-          "text_de": "Gehört zu Ihrer Wohnung eine Zentralheizung oder Etagenheizung?",
           "text": "Does your apartment have central heating or a heating system covering one floor?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine Zentralheizung oder Etagenheizung?",
           "concept": "hwohn29",
+          "scale": "cat",
           "number": "Q032",
           "dataset": "H19_M345",
           "var_fix": "hwohn29",
@@ -1289,13 +1342,14 @@
       "question": "Q031",
       "name": "Q031",
       "label": "Does your apartment have a lift in the building?",
+      "label_de": "Gehört zu Ihrer Wohnung ein Aufzug / Fahrstuhl im Haus?",
       "items": [
         {
           "item": "hwohn23",
-          "text_de": "Gehört zu Ihrer Wohnung ein Aufzug / Fahrstuhl im Haus?",
           "text": "Does your apartment have a lift in the building?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung ein Aufzug / Fahrstuhl im Haus?",
           "concept": "hwohn23",
+          "scale": "cat",
           "number": "Q033",
           "dataset": "H19_M345",
           "var_fix": "hwohn23",
@@ -1326,13 +1380,14 @@
       "question": "Q032",
       "name": "Q032",
       "label": "Does your apartment have a cellar/storerooms?",
+      "label_de": "Gehört zu Ihrer Wohnung ein Keller / Abstellräume?",
       "items": [
         {
           "item": "hwohn16",
-          "text_de": "Gehört zu Ihrer Wohnung ein Keller / Abstellräume?",
           "text": "Does your apartment have a cellar/storerooms?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung ein Keller / Abstellräume?",
           "concept": "hwohn16",
+          "scale": "cat",
           "number": "Q034",
           "dataset": "H19_M345",
           "var_fix": "hwohn16",
@@ -1363,13 +1418,14 @@
       "question": "Q033",
       "name": "Q033",
       "label": "Does your apartment have a garage/parking space?",
+      "label_de": "Gehört zu Ihrer Wohnung eine Garage / ein Stellplatz?",
       "items": [
         {
           "item": "hwohn28",
-          "text_de": "Gehört zu Ihrer Wohnung eine Garage / ein Stellplatz?",
           "text": "Does your apartment have a garage/parking space?",
-          "scale": "cat",
+          "text_de": "Gehört zu Ihrer Wohnung eine Garage / ein Stellplatz?",
           "concept": "hwohn28",
+          "scale": "cat",
           "number": "Q035",
           "dataset": "H19_M345",
           "var_fix": "hwohn28",
@@ -1400,14 +1456,15 @@
       "question": "Q034",
       "name": "Q034",
       "label": "Does your household have one or more telephone landlines?",
+      "label_de": "Gibt es in Ihrem Haushalt einen oder mehrere Telefon-Festnetzanschlüsse?",
       "items": [
         {
           "item": "htel3",
-          "text_de": "Gibt es in Ihrem Haushalt einen oder mehrere Telefon-Festnetzanschlüsse?",
           "text": "Does your household have one or more telephone landlines?",
-          "scale": "cat",
-          "concept": "htel3",
+          "text_de": "Gibt es in Ihrem Haushalt einen oder mehrere Telefon-Festnetzanschlüsse?",
           "goto": "2,-1@Q036",
+          "concept": "htel3",
+          "scale": "cat",
           "number": "Q036",
           "dataset": "H19_M345",
           "var_fix": "htel3",
@@ -1438,21 +1495,22 @@
       "question": "Q035",
       "name": "Q035",
       "label": "Does your household have one or more telephone landlines?",
+      "label_de": "Unter wie vielen Festnetznummern ist Ihr Haushalt telefonisch erreichbar?",
       "items": [
         {
           "item": "1",
-          "text_de": "Unter wie vielen Festnetznummern ist Ihr Haushalt telefonisch erreichbar?",
           "text": "Does your household have one or more telephone landlines?",
+          "text_de": "Unter wie vielen Festnetznummern ist Ihr Haushalt telefonisch erreichbar?",
           "scale": "txt",
           "number": "Q037",
           "sn": 0
         },
         {
           "item": "htel1",
-          "text_de": "Anzahl Festnetznummern",
           "text": "Number of landline numbers",
-          "scale": "int",
+          "text_de": "Anzahl Festnetznummern",
           "concept": "htel1",
+          "scale": "int",
           "number": "Q037",
           "dataset": "H19_M345",
           "var_fix": "htel1",
@@ -1479,13 +1537,15 @@
     "Q036": {
       "question": "Q036",
       "name": "Q036",
+      "label": "",
+      "label_de": "Gibt es in Ihrem Haushalt ein oder mehrere Mobiltelefone (Handys) oder Smartphones, die auch genutzt werden?",
       "items": [
         {
           "item": "hmob3",
           "text_de": "Gibt es in Ihrem Haushalt ein oder mehrere Mobiltelefone (Handys) oder Smartphones, die auch genutzt werden?",
-          "scale": "cat",
-          "concept": "hmob3",
           "goto": "2,-1@Q038",
+          "concept": "hmob3",
+          "scale": "cat",
           "number": "Q038",
           "dataset": "H19_M345",
           "var_fix": "hmob3",
@@ -1516,22 +1576,23 @@
       "question": "Q037",
       "name": "Q037",
       "label": "Does your household have one or more telephone landlines?",
+      "label_de": "Wie viele einfache Mobiltelefone (Handys) und wie viele Smartphones, gibt es in Ihrem Haushalt?",
       "items": [
         {
           "item": "1",
+          "text": "Does your household have one or more telephone landlines?",
           "text_de": "Wie viele einfache Mobiltelefone (Handys) und wie viele Smartphones, gibt es in Ihrem Haushalt?",
           "instruction_de": "Falls nicht zutreffend, bitte \"0\" eintragen.",
-          "text": "Does your household have one or more telephone landlines?",
           "scale": "txt",
           "number": "Q039",
           "sn": 0
         },
         {
           "item": "hmobh",
-          "text_de": "Anzahl einfache Mobiltelefone (Handys)",
           "text": "Number of mobile phones use",
-          "scale": "int",
+          "text_de": "Anzahl einfache Mobiltelefone (Handys)",
           "concept": "hmobh",
+          "scale": "int",
           "number": "Q039",
           "dataset": "H19_M345",
           "var_fix": "hmobh",
@@ -1540,8 +1601,8 @@
         {
           "item": "hmobs",
           "text_de": "Anzahl Smartphones",
-          "scale": "int",
           "concept": "hmobs",
+          "scale": "int",
           "number": "Q039",
           "dataset": "H19_M345",
           "var_fix": "hmobs",
@@ -1569,14 +1630,15 @@
       "question": "Q038",
       "name": "Q038",
       "label": "Does your household have an internet connection?",
+      "label_de": "Gibt es in Ihrem Haushalt einen Internetanschluss?",
       "items": [
         {
           "item": "hh11",
-          "text_de": "Gibt es in Ihrem Haushalt einen Internetanschluss?",
           "text": "Does your household have an internet connection?",
-          "scale": "cat",
-          "concept": "hnet3",
+          "text_de": "Gibt es in Ihrem Haushalt einen Internetanschluss?",
           "goto": "2,-1@Q040",
+          "concept": "hnet3",
+          "scale": "cat",
           "description": "Var_fix verändert, analog zu Haupt Soep für Integration ",
           "number": "Q040",
           "dataset": "H19_M345",
@@ -1608,21 +1670,22 @@
       "question": "Q039",
       "name": "Q039",
       "label": "How many members of the household use this internet connection?",
+      "label_de": "Wie viele Haushaltsmitglieder nutzen diesen Internetanschluss?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Haushaltsmitglieder nutzen diesen Internetanschluss?",
           "text": "How many members of the household use this internet connection?",
+          "text_de": "Wie viele Haushaltsmitglieder nutzen diesen Internetanschluss?",
           "scale": "txt",
           "number": "Q041",
           "sn": 0
         },
         {
           "item": "hnet1",
-          "text_de": "Anzahl Internetnutzer im Haushalt",
           "text": "Number of internet users in the household",
-          "scale": "int",
+          "text_de": "Anzahl Internetnutzer im Haushalt",
           "concept": "hnet1",
+          "scale": "int",
           "number": "Q041",
           "dataset": "H19_M345",
           "var_fix": "hnet1",
@@ -1650,15 +1713,16 @@
       "question": "Q040",
       "name": "Q040",
       "label": "The next questions deal with the costs of living in your dwelling. First the question: Are you the main tenant, subletter, or owner?",
+      "label_de": "Die folgenden Fragen beziehen sich auf die Kosten des Wohnens. Zunächst die Frage: Bewohnen Sie diese Wohnung als Hauptmieter, Untermieter eines Hauptmieters oder als Eigentümer?",
       "items": [
         {
           "item": "hm01",
+          "text": "The next questions deal with the costs of living in your dwelling. First the question: Are you the main tenant, subletter, or owner?",
           "text_de": "Die folgenden Fragen beziehen sich auf die Kosten des Wohnens. Zunächst die Frage: Bewohnen Sie diese Wohnung als Hauptmieter, Untermieter eines Hauptmieters oder als Eigentümer?",
           "instruction_de": "Mietfreies Wohnrecht oder Nießbrauch tragen Sie bitte bei Hauptmieter ein.",
-          "text": "The next questions deal with the costs of living in your dwelling. First the question: Are you the main tenant, subletter, or owner?",
-          "scale": "cat",
-          "concept": "hm01",
           "goto": "3@Q060",
+          "concept": "hm01",
+          "scale": "cat",
           "number": "Q042",
           "dataset": "H19_M345",
           "var_fix": "hm01",
@@ -1689,12 +1753,14 @@
     "Q041": {
       "question": "Q041",
       "name": "Q041",
+      "label": "",
+      "label_de": "Handelt es sich um eine Sozialwohnung mit Wohnberechtigungsschein?",
       "items": [
         {
           "item": "hm03a",
           "text_de": "Handelt es sich um eine Sozialwohnung mit Wohnberechtigungsschein?",
-          "scale": "cat",
           "concept": "hm03a",
+          "scale": "cat",
           "number": "Q043",
           "dataset": "H19_M345",
           "var_fix": "hm03a",
@@ -1725,15 +1791,16 @@
       "question": "Q042",
       "name": "Q042",
       "label": "Is the dwelling being provided to you at reduced rent by the owner, for example, your employer or a relative, or in exchange for building maintenance / janitorial work",
+      "label_de": "Handelt es sich um eine vom Eigentümer verbilligt überlassene Wohnung, \nz.B. vom Arbeitgeber oder wegen Hauswartstätigkeiten oder von Verwandten?",
       "items": [
         {
           "item": "hm02",
-          "text_de": "Handelt es sich um eine vom Eigentümer verbilligt überlassene Wohnung, \nz.B. vom Arbeitgeber oder wegen Hauswartstätigkeiten oder von Verwandten?",
-          "instruction_de": "Hier ist auch Wohnrecht oder Nießbrauch gemeint.",
           "text": "Is the dwelling being provided to you at reduced rent by the owner, for example, your employer or a relative, or in exchange for building maintenance / janitorial work",
+          "text_de": "Handelt es sich um eine vom Eigentümer verbilligt überlassene Wohnung, \nz.B. vom Arbeitgeber oder wegen Hauswartstätigkeiten oder von Verwandten?",
           "instruction": "Also include right of abode and usufruct.",
-          "scale": "cat",
+          "instruction_de": "Hier ist auch Wohnrecht oder Nießbrauch gemeint.",
           "concept": "hm02",
+          "scale": "cat",
           "number": "Q044",
           "dataset": "H19_M345",
           "var_fix": "hm02",
@@ -1764,14 +1831,15 @@
       "question": "Q043",
       "name": "Q043",
       "label": "Do you or does another member of the household pay the rent or is it paid directly by a state agency?",
+      "label_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied die Miete oder wird diese direkt von einer staatlichen Stelle übernommen?",
       "items": [
         {
           "item": "hmietk",
-          "text_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied die Miete oder wird diese direkt von einer staatlichen Stelle übernommen?",
           "text": "Do you or does another member of the household pay the rent or is it paid directly by a state agency?",
-          "scale": "cat",
-          "concept": "hmietk",
+          "text_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied die Miete oder wird diese direkt von einer staatlichen Stelle übernommen?",
           "goto": "3,-1@Q060",
+          "concept": "hmietk",
+          "scale": "cat",
           "number": "Q046",
           "dataset": "H19_M345",
           "var_fix": "hmietk",
@@ -1807,21 +1875,22 @@
       "question": "Q044",
       "name": "Q044",
       "label": "How much is the monthly rent at present?",
+      "label_de": "Wie hoch ist derzeit die monatliche Miete?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist derzeit die monatliche Miete?",
           "text": "How much is the monthly rent at present?",
+          "text_de": "Wie hoch ist derzeit die monatliche Miete?",
           "scale": "txt",
           "number": "Q047",
           "sn": 0
         },
         {
           "item": "hm04",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hmke",
+          "scale": "int",
           "description": "Var_fix verändert, analog zu Haupt Soep für Integration. ",
           "number": "Q047",
           "dataset": "H19_M345",
@@ -1855,12 +1924,14 @@
     "B002": {
       "question": "B002",
       "name": "B002",
+      "label": "",
+      "label_de": "Fragen zur Gemeinschaftsunterkunft",
       "items": [
         {
           "item": "1",
           "text_de": "Fragen zur Gemeinschaftsunterkunft",
-          "scale": "txt",
           "filter": "Q005;hwunt=1",
+          "scale": "txt",
           "number": "B005",
           "sn": 0
         }
@@ -1872,12 +1943,14 @@
     "Q045": {
       "question": "Q045",
       "name": "Q045",
+      "label": "",
+      "label_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.",
       "items": [
         {
           "item": "1",
           "text_de": "Für die Beantwortung dieses Fragebogens, der Studie Leben in Deutschland, ist es wichtig zu klären,\nob sich seit der letzten Befragung des Haushalts eine Veränderung der Wohnsituation ergeben hat\noder ob alles gleich geblieben ist.",
-          "scale": "txt",
           "filter": "Q005;hwunt=1",
+          "scale": "txt",
           "number": "Q049",
           "sn": 0
         }
@@ -1889,15 +1962,17 @@
     "Q046": {
       "question": "Q046",
       "name": "Q046",
+      "label": "",
+      "label_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
       "items": [
         {
           "item": "hgsit",
           "text_de": "Was trifft auf die Wohnsituation Ihres Haushalts seit der letzten Befragung für diese Studie zu?",
           "instruction_de": "Die letzte Befragung war am [Datum]",
-          "scale": "cat",
+          "goto": "1@Q052,2@Q049,3@Q047",
           "concept": "hgsit",
           "filter": "Q005;hwunt=1",
-          "goto": "1@Q052,2@Q049,3@Q047",
+          "scale": "cat",
           "description": "Instruction hinzugefügt; Eingangsfilter hinzugefügt",
           "number": "Q050",
           "dataset": "H19_M345",
@@ -1927,14 +2002,15 @@
       "question": "Q047",
       "name": "Q047",
       "label": "What kind of shared accommodation is it?",
+      "label_de": "Was für eine Gemeinschaftsunterkunft ist das?",
       "items": [
         {
           "item": "hgunt",
-          "text_de": "Was für eine Gemeinschaftsunterkunft ist das?",
           "text": "What kind of shared accommodation is it?",
-          "scale": "cat",
+          "text_de": "Was für eine Gemeinschaftsunterkunft ist das?",
           "concept": "hgunt",
           "filter": "Q046;hgsit=3",
+          "scale": "cat",
           "number": "Q051",
           "dataset": "H19_M345",
           "var_fix": "hgunt",
@@ -1970,22 +2046,23 @@
       "question": "Q048",
       "name": "Q048",
       "label": "When did you move into this shared accommodation?",
+      "label_de": "Wann sind Sie in diese Gemeinschaftsunterkunft eingezogen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wann sind Sie in diese Gemeinschaftsunterkunft eingezogen?",
           "text": "When did you move into this shared accommodation?",
-          "scale": "txt",
+          "text_de": "Wann sind Sie in diese Gemeinschaftsunterkunft eingezogen?",
           "filter": "Q046;hgsit=3",
+          "scale": "txt",
           "number": "Q052",
           "sn": 0
         },
         {
           "item": "hguntwj",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "hguntwj",
+          "scale": "int",
           "number": "Q052",
           "dataset": "H19_M345",
           "var_fix": "hguntwj",
@@ -1993,10 +2070,10 @@
         },
         {
           "item": "hguntwm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "hguntwm",
+          "scale": "int",
           "number": "Q052",
           "dataset": "H19_M345",
           "var_fix": "hguntwm",
@@ -2005,8 +2082,8 @@
         {
           "item": "hguntwjka",
           "text_de": "Keine Angabe",
-          "scale": "bin",
           "concept": "hguntwjka",
+          "scale": "bin",
           "number": "Q052",
           "answers": [
             {
@@ -2024,21 +2101,23 @@
     "Q049": {
       "question": "Q049",
       "name": "Q049",
+      "label": "",
+      "label_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
       "items": [
         {
           "item": "1",
           "text_de": "Was waren die wichtigsten Gründe für diese Veränderung, also den Umzug oder den Auszug?",
           "instruction_de": "Bitte geben Sie alles Zutreffende an!",
-          "scale": "txt",
           "filter": "Q005;hwunt=1",
+          "scale": "txt",
           "number": "Q053",
           "sn": 0
         },
         {
           "item": "hgumz1",
           "text_de": "Schließung, Renovierung, Umbau der Gemeinschaftsunterkunft",
-          "scale": "bin",
           "concept": "hgumz1",
+          "scale": "bin",
           "number": "Q053",
           "dataset": "H19_M345",
           "var_fix": "hgumz1",
@@ -2047,8 +2126,8 @@
         {
           "item": "hgumz2",
           "text_de": "Aufforderung durch Behörde, den Wohnsitz zu verlagern",
-          "scale": "bin",
           "concept": "hgumz2",
+          "scale": "bin",
           "number": "Q053",
           "dataset": "H19_M345",
           "var_fix": "hgumz2",
@@ -2057,8 +2136,8 @@
         {
           "item": "hgumz3",
           "text_de": "Aufforderung durch Behörde, wegen anderer Gründe ",
-          "scale": "bin",
           "concept": "hgumz3",
+          "scale": "bin",
           "number": "Q053",
           "dataset": "H19_M345",
           "var_fix": "hgumz3",
@@ -2067,8 +2146,8 @@
         {
           "item": "hgumz4",
           "text_de": "Familiäre Gründe",
-          "scale": "bin",
           "concept": "hgumz4",
+          "scale": "bin",
           "number": "Q053",
           "dataset": "H19_M345",
           "var_fix": "hgumz4",
@@ -2077,8 +2156,8 @@
         {
           "item": "hgumz5",
           "text_de": "Sonstige Gründe",
-          "scale": "bin",
           "concept": "hgumz5",
+          "scale": "bin",
           "number": "Q053",
           "dataset": "H19_M345",
           "var_fix": "hgumz5",
@@ -2105,20 +2184,22 @@
     "Q050": {
       "question": "Q050",
       "name": "Q050",
+      "label": "",
+      "label_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie oft sind Sie seit der letzten Befragung umgezogen?",
-          "scale": "txt",
           "filter": "Q005;hwunt=1",
+          "scale": "txt",
           "number": "Q054",
           "sn": 0
         },
         {
           "item": "hgumzanz",
           "text_de": "Anzahl Umzüge",
-          "scale": "int",
           "concept": "hgumzanz",
+          "scale": "int",
           "number": "Q054",
           "dataset": "H19_M345",
           "var_fix": "hgumzanz",
@@ -2146,15 +2227,16 @@
       "question": "Q051",
       "name": "Q051",
       "label": "Is there a self-contained unit available for you personally or your family?",
+      "label_de": "Steht Ihnen persönlich oder Ihrer Familie eine abgeschlossene Wohneinheit zur Verfügung?",
       "items": [
         {
           "item": "hweab",
-          "text_de": "Steht Ihnen persönlich oder Ihrer Familie eine abgeschlossene Wohneinheit zur Verfügung?",
           "text": "Is there a self-contained unit available for you personally or your family?",
-          "scale": "cat",
+          "text_de": "Steht Ihnen persönlich oder Ihrer Familie eine abgeschlossene Wohneinheit zur Verfügung?",
+          "goto": "2,-1@Q055",
           "concept": "hweab",
           "filter": "Q005;hwunt=1",
-          "goto": "2,-1@Q055",
+          "scale": "cat",
           "number": "Q055",
           "dataset": "H19_M345",
           "var_fix": "hweab",
@@ -2185,22 +2267,23 @@
       "question": "Q052",
       "name": "Q052",
       "label": "How many people in total share your unit?",
+      "label_de": "Wie viele Personen teilen sich Ihre Wohneinheit insgesamt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viele Personen teilen sich Ihre Wohneinheit insgesamt?",
           "text": "How many people in total share your unit?",
-          "scale": "txt",
+          "text_de": "Wie viele Personen teilen sich Ihre Wohneinheit insgesamt?",
           "filter": "Q005;hwunt=1",
+          "scale": "txt",
           "number": "Q056",
           "sn": 0
         },
         {
           "item": "hweper",
-          "text_de": "Personen",
           "text": "Persons",
-          "scale": "int",
+          "text_de": "Personen",
           "concept": "hweper",
+          "scale": "int",
           "number": "Q056",
           "dataset": "H19_M345",
           "var_fix": "hweper",
@@ -2228,22 +2311,23 @@
       "question": "Q053",
       "name": "Q053",
       "label": "Approximately how large is the living area of this unit in total?",
+      "label_de": "Wie groß ist die Wohnfläche dieser Wohneinheit in etwa insgesamt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie groß ist die Wohnfläche dieser Wohneinheit in etwa insgesamt?",
           "text": "Approximately how large is the living area of this unit in total?",
-          "scale": "txt",
+          "text_de": "Wie groß ist die Wohnfläche dieser Wohneinheit in etwa insgesamt?",
           "filter": "Q005;hwunt=1",
+          "scale": "txt",
           "number": "Q057",
           "sn": 0
         },
         {
           "item": "hweqm",
-          "text_de": "qm",
           "text": "m2",
-          "scale": "int",
+          "text_de": "qm",
           "concept": "hweqm",
+          "scale": "int",
           "number": "Q057",
           "dataset": "H19_M345",
           "var_fix": "hweqm",
@@ -2271,14 +2355,15 @@
       "question": "Q054",
       "name": "Q054",
       "label": "Did you fully furnish this unit yourself or was it already partially or fully furnished before you moved in?",
+      "label_de": "Wurde diese Wohneinheit von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
       "items": [
         {
           "item": "hwemoeb",
-          "text_de": "Wurde diese Wohneinheit von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
           "text": "Did you fully furnish this unit yourself or was it already partially or fully furnished before you moved in?",
-          "scale": "cat",
+          "text_de": "Wurde diese Wohneinheit von Ihnen komplett selbst eingerichtet oder war sie schon vor dem Einzug teilweise oder komplett möbliert?",
           "concept": "hwemoeb",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "number": "Q058",
           "dataset": "H19_M345",
           "var_fix": "hwemoeb",
@@ -2314,22 +2399,23 @@
       "question": "Q055",
       "name": "Q055",
       "label": "Do you or other persons in your household own at least one mobile phone?",
+      "label_de": "Besitzen Sie oder andere Personen in Ihrem Haushalt ein einfaches Mobiltelefon (Handy) oder ein Smartphone?",
       "items": [
         {
           "item": "1",
+          "text": "Do you or other persons in your household own at least one mobile phone?",
           "text_de": "Besitzen Sie oder andere Personen in Ihrem Haushalt ein einfaches Mobiltelefon (Handy) oder ein Smartphone?",
           "instruction_de": "Bitte geben Sie alles Zutreffende an!",
-          "text": "Do you or other persons in your household own at least one mobile phone?",
-          "scale": "txt",
           "filter": "Q005;hwunt=1",
+          "scale": "txt",
           "number": "Q059",
           "sn": 0
         },
         {
           "item": "hwemobh",
           "text_de": "Ja, einfaches Mobiltelefon (Handy)",
-          "scale": "bin",
           "concept": "hwemobh",
+          "scale": "bin",
           "number": "Q059",
           "dataset": "H19_M345",
           "var_fix": "hwemobh",
@@ -2338,8 +2424,8 @@
         {
           "item": "hwemobs",
           "text_de": "Ja, Smartphone",
-          "scale": "bin",
           "concept": "hwemobs",
+          "scale": "bin",
           "number": "Q059",
           "dataset": "H19_M345",
           "var_fix": "hwemobs",
@@ -2348,8 +2434,8 @@
         {
           "item": "hwemobno",
           "text_de": "Nein, nichts davon",
-          "scale": "bin",
           "concept": "hwemobno",
+          "scale": "bin",
           "number": "Q059",
           "dataset": "H19_M345",
           "var_fix": "hwemobno",
@@ -2377,14 +2463,15 @@
       "question": "Q056",
       "name": "Q056",
       "label": "Does your accommodation have an internet connection (including WLAN) which you can use?",
+      "label_de": "Gibt es in Ihrer Unterkunft einen Internetanschluss (inklusive WLAN), den Sie nutzen können?",
       "items": [
         {
           "item": "hwenet",
-          "text_de": "Gibt es in Ihrer Unterkunft einen Internetanschluss (inklusive WLAN), den Sie nutzen können?",
           "text": "Does your accommodation have an internet connection (including WLAN) which you can use?",
-          "scale": "cat",
+          "text_de": "Gibt es in Ihrer Unterkunft einen Internetanschluss (inklusive WLAN), den Sie nutzen können?",
           "concept": "hwenet",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "number": "Q060",
           "dataset": "H19_M345",
           "var_fix": "hwenet",
@@ -2415,15 +2502,16 @@
       "question": "Q057",
       "name": "Q057",
       "label": "Do you or does another member of the household pay rent for your accommodation?",
+      "label_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied Miete für Ihre Unterkunft?",
       "items": [
         {
           "item": "hwemk",
-          "text_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied Miete für Ihre Unterkunft?",
           "text": "Do you or does another member of the household pay rent for your accommodation?",
-          "scale": "cat",
+          "text_de": "Zahlen Sie selbst oder ein anderes Haushaltsmitglied Miete für Ihre Unterkunft?",
+          "goto": "2,-1@Q059",
           "concept": "hwemk",
           "filter": "Q005;hwunt=1",
-          "goto": "2,-1@Q059",
+          "scale": "cat",
           "number": "Q061",
           "dataset": "H19_M345",
           "var_fix": "hwemk",
@@ -2454,22 +2542,23 @@
       "question": "Q058",
       "name": "Q058",
       "label": "How much is the monthly rent at present?",
+      "label_de": "Wie hoch ist derzeit die monatliche Miete?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist derzeit die monatliche Miete?",
           "text": "How much is the monthly rent at present?",
-          "scale": "txt",
+          "text_de": "Wie hoch ist derzeit die monatliche Miete?",
           "filter": "Q057;hwemk=1",
+          "scale": "txt",
           "number": "Q062",
           "sn": 0
         },
         {
           "item": "hwemke",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hwemke",
+          "scale": "int",
           "number": "Q062",
           "dataset": "H19_M345",
           "var_fix": "hwemke",
@@ -2477,8 +2566,8 @@
         },
         {
           "item": "hwemkwn",
-          "scale": "cat",
           "concept": "hwemkwn",
+          "scale": "cat",
           "number": "Q062",
           "dataset": "H19_M345",
           "var_fix": "hwemkwn",
@@ -2503,14 +2592,15 @@
       "question": "Q059",
       "name": "Q059",
       "label": "What about crime? How safe is it in your accommodation?",
+      "label_de": "Wie ist es mit Kriminalität? Wie sicher ist es in Ihrer Unterkunft?",
       "items": [
         {
           "item": "hkrimunt",
-          "text_de": "Wie ist es mit Kriminalität? Wie sicher ist es in Ihrer Unterkunft?",
           "text": "What about crime? How safe is it in your accommodation?",
-          "scale": "cat",
+          "text_de": "Wie ist es mit Kriminalität? Wie sicher ist es in Ihrer Unterkunft?",
           "concept": "hkrimunt",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "dataset": "H19_M345",
           "var_fix": "hkrimunt",
           "answers": [
@@ -2550,6 +2640,8 @@
     "B003": {
       "question": "B003",
       "name": "B003",
+      "label": "",
+      "label_de": "Wohnen allgemein",
       "items": [
         {
           "item": "1",
@@ -2567,13 +2659,14 @@
       "question": "Q060",
       "name": "Q060",
       "label": "And what about crime? How safe is your neighborhood?",
+      "label_de": "Wie ist es mit Kriminalität? Wie sicher ist Ihr Wohngebiet?",
       "items": [
         {
           "item": "hkrim",
-          "text_de": "Wie ist es mit Kriminalität? Wie sicher ist Ihr Wohngebiet?",
           "text": "And what about crime? How safe is your neighborhood?",
-          "scale": "cat",
+          "text_de": "Wie ist es mit Kriminalität? Wie sicher ist Ihr Wohngebiet?",
           "concept": "hkrim",
+          "scale": "cat",
           "number": "Q064",
           "dataset": "H19_M345",
           "var_fix": "hkrim",
@@ -2613,12 +2706,14 @@
     "Q061": {
       "question": "Q061",
       "name": "Q061",
+      "label": "",
+      "label_de": "Dürfen Sie wegen rechtlichen Vorschriften / Einschränkungen aktuell nur in einem bestimmten Ort\noder einem bestimmten Bundesland wohnen oder können Sie Ihren Wohnort selbst wählen?",
       "items": [
         {
           "item": "hortw",
           "text_de": "Dürfen Sie wegen rechtlichen Vorschriften / Einschränkungen aktuell nur in einem bestimmten Ort\noder einem bestimmten Bundesland wohnen oder können Sie Ihren Wohnort selbst wählen?",
-          "scale": "cat",
           "concept": "hortw",
+          "scale": "cat",
           "number": "Q065",
           "dataset": "H19_M345",
           "var_fix": "hortw",
@@ -2650,13 +2745,15 @@
     "Q062": {
       "question": "Q062",
       "name": "Q062",
+      "label": "",
+      "label_de": "Sind Sie gerade auf der Suche nach einer Wohnung?",
       "items": [
         {
           "item": "hsuch1",
           "text_de": "Sind Sie gerade auf der Suche nach einer Wohnung?",
-          "scale": "cat",
-          "concept": "hsuch1",
           "goto": "2,-1@Q064",
+          "concept": "hsuch1",
+          "scale": "cat",
           "description": "Goto verändert",
           "number": "Q069",
           "dataset": "H19_M345",
@@ -2687,21 +2784,23 @@
     "Q063": {
       "question": "Q063",
       "name": "Q063",
+      "label": "",
+      "label_de": "Welche der folgenden Möglichkeiten haben Sie bisher genutzt, um eine Wohnung zu finden?",
       "items": [
         {
           "item": "1",
           "text_de": "Welche der folgenden Möglichkeiten haben Sie bisher genutzt, um eine Wohnung zu finden?",
           "instruction_de": "Bitte geben Sie alles Zutreffende an!",
-          "scale": "txt",
           "filter": "Q062;hsuch1=1",
+          "scale": "txt",
           "number": "Q070",
           "sn": 0
         },
         {
           "item": "hsuch21",
           "text_de": "Über Zeitungsanzeigen, Anzeigen im Internet",
-          "scale": "bin",
           "concept": "hsuch21",
+          "scale": "bin",
           "number": "Q070",
           "dataset": "H19_M345",
           "var_fix": "hsuch21",
@@ -2710,8 +2809,8 @@
         {
           "item": "hsuch22",
           "text_de": "Über eine staatliche Vermittlung",
-          "scale": "bin",
           "concept": "hsuch22",
+          "scale": "bin",
           "number": "Q070",
           "dataset": "H19_M345",
           "var_fix": "hsuch22",
@@ -2720,8 +2819,8 @@
         {
           "item": "hsuch23",
           "text_de": "Über Hilfsorganisationen wie AWO, Caritas, Rotes Kreuz",
-          "scale": "bin",
           "concept": "hsuch23",
+          "scale": "bin",
           "number": "Q070",
           "dataset": "H19_M345",
           "var_fix": "hsuch23",
@@ -2730,8 +2829,8 @@
         {
           "item": "hsuch24",
           "text_de": "Über Verwandte",
-          "scale": "bin",
           "concept": "hsuch24",
+          "scale": "bin",
           "number": "Q070",
           "dataset": "H19_M345",
           "var_fix": "hsuch24",
@@ -2740,8 +2839,8 @@
         {
           "item": "hsuch25",
           "text_de": "Über Freunde/Bekannte",
-          "scale": "bin",
           "concept": "hsuch25",
+          "scale": "bin",
           "number": "Q070",
           "dataset": "H19_M345",
           "var_fix": "hsuch25",
@@ -2750,8 +2849,8 @@
         {
           "item": "hsuch26",
           "text_de": "Sonstiges",
-          "scale": "bin",
           "concept": "hsuch26",
+          "scale": "bin",
           "number": "Q070",
           "dataset": "H19_M345",
           "var_fix": "hsuch26",
@@ -2760,8 +2859,8 @@
         {
           "item": "hsuchka",
           "text_de": "Keine Angabe",
-          "scale": "bin",
           "concept": "hsuchka",
+          "scale": "bin",
           "number": "Q070",
           "dataset": "H19_M345",
           "var_fix": "hsuchka",
@@ -2781,6 +2880,8 @@
     "B004": {
       "question": "B004",
       "name": "B004",
+      "label": "",
+      "label_de": "Staatliche Leistungen",
       "items": [
         {
           "item": "1",
@@ -2797,6 +2898,8 @@
     "Q064": {
       "question": "Q064",
       "name": "Q064",
+      "label": "",
+      "label_de": "Haben Sie oder ein anderes Haushaltsmitglied im Kalenderjahr 2018 eine der folgenden staatlichen Leistungen erhalten?",
       "items": [
         {
           "item": "0",
@@ -2810,9 +2913,9 @@
         {
           "item": "hlablg1",
           "text_de": "Leistungen nach dem Asylbewerberleistungsgesetz (AsylbLG)",
-          "scale": "cat",
-          "concept": "hlablg1",
           "goto": "1@Q065",
+          "concept": "hlablg1",
+          "scale": "cat",
           "description": "Var lt. Schema Hauptsoep angepasst",
           "number": "Q071a",
           "dataset": "H19_M345",
@@ -2838,9 +2941,9 @@
         {
           "item": "hlkg1",
           "text_de": "Kindergeld",
-          "scale": "cat",
-          "concept": "hlkg1",
           "goto": "1@Q067",
+          "concept": "hlkg1",
+          "scale": "cat",
           "number": "Q071a",
           "dataset": "H19_M345",
           "var_fix": "hlkg1",
@@ -2865,9 +2968,9 @@
         {
           "item": "hlkz1",
           "text_de": "Kindergeldzuschlag (zusätzlich zum Kindergeld beantragte Leistung für Geringverdiener). Hinweis: Hier nicht gemeint sind Leistungen aus dem Bildungspaket.",
-          "scale": "cat",
-          "concept": "hlkz1",
           "goto": "1@Q069",
+          "concept": "hlkz1",
+          "scale": "cat",
           "number": "Q071a",
           "dataset": "H19_M345",
           "var_fix": "hlkz1",
@@ -2892,9 +2995,9 @@
         {
           "item": "hlbp1",
           "text_de": "Leistungen aus dem Bildungspaket für eines oder mehrere Kinder",
-          "scale": "cat",
-          "concept": "hlbp1",
           "goto": "1@Q071",
+          "concept": "hlbp1",
+          "scale": "cat",
           "number": "Q071a",
           "dataset": "H19_M345",
           "var_fix": "hlbp1",
@@ -2919,9 +3022,9 @@
         {
           "item": "hlag1",
           "text_de": "Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten",
-          "scale": "cat",
-          "concept": "hlag1",
           "goto": "1@Q073",
+          "concept": "hlag1",
+          "scale": "cat",
           "number": "Q071a",
           "dataset": "H19_M345",
           "var_fix": "hlag1",
@@ -2946,9 +3049,9 @@
         {
           "item": "hlpg1",
           "text_de": "Leistungen der Pflegeversicherung",
-          "scale": "cat",
-          "concept": "hlpg1",
           "goto": "1@Q075",
+          "concept": "hlpg1",
+          "scale": "cat",
           "number": "Q071a",
           "dataset": "H19_M345",
           "var_fix": "hlpg1",
@@ -2973,9 +3076,9 @@
         {
           "item": "hlsh1",
           "text_de": "Laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen",
-          "scale": "cat",
-          "concept": "hlsh1",
           "goto": "1@Q077",
+          "concept": "hlsh1",
+          "scale": "cat",
           "number": "Q071a",
           "dataset": "H19_M345",
           "var_fix": "hlsh1",
@@ -3000,9 +3103,9 @@
         {
           "item": "hlgs1",
           "text_de": "Grundsicherung im Alter und bei Erwerbsminderung",
-          "scale": "cat",
-          "concept": "hlgs1",
           "goto": "1@Q079",
+          "concept": "hlgs1",
+          "scale": "cat",
           "number": "Q071a",
           "dataset": "H19_M345",
           "var_fix": "hlgs1",
@@ -3027,9 +3130,9 @@
         {
           "item": "hlwg1",
           "text_de": "Wohngeld (Miet- und Lastenzuschuss). Hinweis: Falls nicht in den Unterkunftskosten von ALG II, laufender Hilfe zum Lebensunterhalt, Grundsicherung im Alter enthalten.",
-          "scale": "cat",
-          "concept": "hlwg1",
           "goto": "1@Q081",
+          "concept": "hlwg1",
+          "scale": "cat",
           "number": "Q071a",
           "dataset": "H19_M345",
           "var_fix": "hlwg1",
@@ -3059,12 +3162,14 @@
     "Q065": {
       "question": "Q065",
       "name": "Q065",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 Leistungen\nnach dem Asylbewerberleistungsgesetz (AsylbLG) erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 Leistungen\nnach dem Asylbewerberleistungsgesetz (AsylbLG) erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlablg1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q073",
           "sn": 0
@@ -3072,8 +3177,8 @@
         {
           "item": "hlablg2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlablg2",
+          "scale": "int",
           "description": "Var lt. Schema Hauptsoep angepasst",
           "number": "Q073",
           "dataset": "H19_M345",
@@ -3101,12 +3206,14 @@
     "Q066": {
       "question": "Q066",
       "name": "Q066",
+      "label": "",
+      "label_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) im Kalenderjahr 2018 durchschnittlich pro Monat erhalten haben?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) im Kalenderjahr 2018 durchschnittlich pro Monat erhalten haben?",
-          "scale": "txt",
           "filter": "Q064;hlablg1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q074",
           "sn": 0
@@ -3114,8 +3221,8 @@
         {
           "item": "hlablg3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlablg3",
+          "scale": "int",
           "description": "Var lt. Schema Hauptsoep angepasst",
           "number": "Q074",
           "dataset": "H19_M345",
@@ -3143,12 +3250,14 @@
     "Q067": {
       "question": "Q067",
       "name": "Q067",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 Kindergeld erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 Kindergeld erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlkg1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q079",
           "sn": 0
@@ -3156,8 +3265,8 @@
         {
           "item": "hlkg2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlkg2",
+          "scale": "int",
           "number": "Q079",
           "dataset": "H19_M345",
           "var_fix": "hlkg2",
@@ -3184,13 +3293,15 @@
     "Q068": {
       "question": "Q068",
       "name": "Q068",
+      "label": "",
+      "label_de": "Wie viel Kindergeld haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\ndurchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel Kindergeld haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\ndurchschnittlich pro Monat erhalten?",
           "instruction_de": "Gegebenenfalls ohne Zuschlag.",
-          "scale": "txt",
           "filter": "Q064;hlkg1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q080",
           "sn": 0
@@ -3198,8 +3309,8 @@
         {
           "item": "hlkg3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlkg3",
+          "scale": "int",
           "number": "Q080",
           "dataset": "H19_M345",
           "var_fix": "hlkg3",
@@ -3226,12 +3337,14 @@
     "Q069": {
       "question": "Q069",
       "name": "Q069",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\nKindergeldzuschlag erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\nKindergeldzuschlag erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlkz1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q082",
           "sn": 0
@@ -3239,8 +3352,8 @@
         {
           "item": "hlkz2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlkz2",
+          "scale": "int",
           "number": "Q082",
           "dataset": "H19_M345",
           "var_fix": "hlkz2",
@@ -3267,12 +3380,14 @@
     "Q070": {
       "question": "Q070",
       "name": "Q070",
+      "label": "",
+      "label_de": "Wie viel Kindergeldzuschlag haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\ndurchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel Kindergeldzuschlag haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\ndurchschnittlich pro Monat erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlkz1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q083",
           "sn": 0
@@ -3280,8 +3395,8 @@
         {
           "item": "hlkz3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlkz3",
+          "scale": "int",
           "number": "Q083",
           "dataset": "H19_M345",
           "var_fix": "hlkz3",
@@ -3308,12 +3423,14 @@
     "Q071": {
       "question": "Q071",
       "name": "Q071",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\nLeistungen aus dem Bildungspaket erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\nLeistungen aus dem Bildungspaket erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlbp1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q085",
           "sn": 0
@@ -3321,8 +3438,8 @@
         {
           "item": "hlbp2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlbp2",
+          "scale": "int",
           "number": "Q085",
           "dataset": "H19_M345",
           "var_fix": "hlbp2",
@@ -3349,12 +3466,14 @@
     "Q072": {
       "question": "Q072",
       "name": "Q072",
+      "label": "",
+      "label_de": "Wie hoch war der Betrag der Leistung aus dem Bildungspaket, den Sie, beziehungsweise Ihr Haushalt,\nim Kalenderjahr 2018, durchschnittlich pro Monat erhalten haben?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie hoch war der Betrag der Leistung aus dem Bildungspaket, den Sie, beziehungsweise Ihr Haushalt,\nim Kalenderjahr 2018, durchschnittlich pro Monat erhalten haben?",
-          "scale": "txt",
           "filter": "Q064;hlbp1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q086",
           "sn": 0
@@ -3362,8 +3481,8 @@
         {
           "item": "hlbp3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlbp3",
+          "scale": "int",
           "number": "Q086",
           "dataset": "H19_M345",
           "var_fix": "hlbp3",
@@ -3390,12 +3509,14 @@
     "Q073": {
       "question": "Q073",
       "name": "Q073",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\nArbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\nArbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlag1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q094",
           "sn": 0
@@ -3403,8 +3524,8 @@
         {
           "item": "hlag2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlag2",
+          "scale": "int",
           "number": "Q094",
           "dataset": "H19_M345",
           "var_fix": "hlag2",
@@ -3431,12 +3552,14 @@
     "Q074": {
       "question": "Q074",
       "name": "Q074",
+      "label": "",
+      "label_de": "Wie hoch war der Betrag beim Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und\nUnterkunftskosten, den Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 durchschnittlich pro\nMonat erhalten haben?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie hoch war der Betrag beim Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und\nUnterkunftskosten, den Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 durchschnittlich pro\nMonat erhalten haben?",
-          "scale": "txt",
           "filter": "Q064;hlag1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q095",
           "sn": 0
@@ -3444,8 +3567,8 @@
         {
           "item": "hlag3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlag3",
+          "scale": "int",
           "number": "Q095",
           "dataset": "H19_M345",
           "var_fix": "hlag3",
@@ -3472,12 +3595,14 @@
     "Q075": {
       "question": "Q075",
       "name": "Q075",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 Leistungen der Pflegeversicherung erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 Leistungen der Pflegeversicherung erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlpg1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q100",
           "sn": 0
@@ -3485,8 +3610,8 @@
         {
           "item": "hlpg2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlpg2",
+          "scale": "int",
           "number": "Q100",
           "dataset": "H19_M345",
           "var_fix": "hlpg2",
@@ -3513,20 +3638,22 @@
     "Q076": {
       "question": "Q076",
       "name": "Q076",
+      "label": "",
+      "label_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung im letzten\nKalenderjahr durchschnittlich pro Monat erhalten haben?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie hoch war der Betrag, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung im letzten\nKalenderjahr durchschnittlich pro Monat erhalten haben?",
-          "scale": "txt",
           "filter": "Q064;hlpg1=1",
+          "scale": "txt",
           "number": "Q101",
           "sn": 0
         },
         {
           "item": "hlpg3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlpg3",
+          "scale": "int",
           "number": "Q101",
           "dataset": "H19_M345",
           "var_fix": "hlpg3",
@@ -3553,12 +3680,14 @@
     "Q077": {
       "question": "Q077",
       "name": "Q077",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 laufende Hilfe zum\nLebensunterhalt / Hilfe in besonderen Lebenslagen erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 laufende Hilfe zum\nLebensunterhalt / Hilfe in besonderen Lebenslagen erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlsh1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q104",
           "sn": 0
@@ -3566,8 +3695,8 @@
         {
           "item": "hlsh2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlsh2",
+          "scale": "int",
           "number": "Q104",
           "dataset": "H19_M345",
           "var_fix": "hlsh2",
@@ -3594,13 +3723,15 @@
     "Q078": {
       "question": "Q078",
       "name": "Q078",
+      "label": "",
+      "label_de": "Wie viel laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen haben Sie,\nbeziehungsweise Ihr Haushalt, im Kalenderjahr 2018 durchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen haben Sie,\nbeziehungsweise Ihr Haushalt, im Kalenderjahr 2018 durchschnittlich pro Monat erhalten?",
           "instruction_de": "Gegebenenfalls mit Unterkunftskosten.",
-          "scale": "txt",
           "filter": "Q064;hlsh1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q105",
           "sn": 0
@@ -3608,8 +3739,8 @@
         {
           "item": "hlsh3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlsh3",
+          "scale": "int",
           "number": "Q105",
           "dataset": "H19_M345",
           "var_fix": "hlsh3",
@@ -3636,12 +3767,14 @@
     "Q079": {
       "question": "Q079",
       "name": "Q079",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 Grundsicherung im\nAlter und bei Erwerbsminderung erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018 Grundsicherung im\nAlter und bei Erwerbsminderung erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlgs1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q108",
           "sn": 0
@@ -3649,8 +3782,8 @@
         {
           "item": "hlgs2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlgs2",
+          "scale": "int",
           "number": "Q108",
           "dataset": "H19_M345",
           "var_fix": "hlgs2",
@@ -3677,13 +3810,15 @@
     "Q080": {
       "question": "Q080",
       "name": "Q080",
+      "label": "",
+      "label_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung haben Sie, beziehungsweise\nIhr Haushalt, im Kalenderjahr 2018 durchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung haben Sie, beziehungsweise\nIhr Haushalt, im Kalenderjahr 2018 durchschnittlich pro Monat erhalten?",
           "instruction_de": "Gegebenenfalls mit Unterkunftskosten.",
-          "scale": "txt",
           "filter": "Q064;hlgs1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q109",
           "sn": 0
@@ -3691,8 +3826,8 @@
         {
           "item": "hlgs3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlgs3",
+          "scale": "int",
           "number": "Q109",
           "dataset": "H19_M345",
           "var_fix": "hlgs3",
@@ -3719,12 +3854,14 @@
     "Q081": {
       "question": "Q081",
       "name": "Q081",
+      "label": "",
+      "label_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\nWohngeld (Miet- und Lastenzuschuss) erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viele Monate haben Sie, beziehungsweise Ihr Haushalt, im Kalenderjahr 2018\nWohngeld (Miet- und Lastenzuschuss) erhalten?",
-          "scale": "txt",
           "filter": "Q064;hlwg1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q112",
           "sn": 0
@@ -3732,8 +3869,8 @@
         {
           "item": "hlwg2",
           "text_de": "Anzahl Monate",
-          "scale": "int",
           "concept": "hlwg2",
+          "scale": "int",
           "number": "Q112",
           "dataset": "H19_M345",
           "var_fix": "hlwg2",
@@ -3760,13 +3897,15 @@
     "Q082": {
       "question": "Q082",
       "name": "Q082",
+      "label": "",
+      "label_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) haben Sie, beziehungsweise\nIhr Haushalt, im Kalenderjahr 2018 durchschnittlich pro Monat erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) haben Sie, beziehungsweise\nIhr Haushalt, im Kalenderjahr 2018 durchschnittlich pro Monat erhalten?",
           "instruction_de": "Falls nicht in den Unterkunftskosten von ALG II, laufender Hilfe zum Lebensunterhalt, Grundsicherung im Alter enthalten.",
-          "scale": "txt",
           "filter": "Q064;hlwg1=1",
+          "scale": "txt",
           "description": "Jahreszahl angepasst",
           "number": "Q113",
           "sn": 0
@@ -3774,8 +3913,8 @@
         {
           "item": "hlwg3",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hlwg3",
+          "scale": "int",
           "number": "Q113",
           "dataset": "H19_M345",
           "var_fix": "hlwg3",
@@ -3802,6 +3941,8 @@
     "Q083": {
       "question": "Q083",
       "name": "Q083",
+      "label": "",
+      "label_de": "Und wie ist das heute? Erhalten Sie oder ein anderes Haushaltsmitglied derzeit eine der folgenden staatlichen Leistungen?",
       "items": [
         {
           "item": "0",
@@ -3815,9 +3956,9 @@
         {
           "item": "hdablg1",
           "text_de": "Leistungen nach dem Asylbewerberleistungsgesetz (AsylbLG)",
-          "scale": "cat",
-          "concept": "hdablg1",
           "goto": "1@Q084",
+          "concept": "hdablg1",
+          "scale": "cat",
           "description": "Var lt. Schema Hauptsoep angepasst",
           "number": "Q113b",
           "dataset": "H19_M345",
@@ -3843,9 +3984,9 @@
         {
           "item": "hdkg1",
           "text_de": "Kindergeld",
-          "scale": "cat",
-          "concept": "hdkg1",
           "goto": "1@Q085",
+          "concept": "hdkg1",
+          "scale": "cat",
           "description": "var lt. Hauptsoep angepasst",
           "number": "Q113b",
           "dataset": "H19_M345",
@@ -3871,9 +4012,9 @@
         {
           "item": "hdkz1",
           "text_de": "Kindergeldzuschlag (zusätzlich zum Kindergeld beantragte Leistung für Geringverdiener). Hinweis: Hier nicht gemeint sind Leistungen aus dem Bildungspaket.",
-          "scale": "cat",
-          "concept": "hdkz1",
           "goto": "1@Q087",
+          "concept": "hdkz1",
+          "scale": "cat",
           "number": "Q113b",
           "dataset": "H19_M345",
           "var_fix": "hdkz1",
@@ -3898,9 +4039,9 @@
         {
           "item": "hdbp1",
           "text_de": "Leistungen aus dem Bildungspaket für eines oder mehrere Kinder",
-          "scale": "cat",
-          "concept": "hdbp1",
           "goto": "1@Q088",
+          "concept": "hdbp1",
+          "scale": "cat",
           "number": "Q113b",
           "dataset": "H19_M345",
           "var_fix": "hdbp1",
@@ -3925,9 +4066,9 @@
         {
           "item": "hdag1",
           "text_de": "Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten",
-          "scale": "cat",
-          "concept": "hdag1",
           "goto": "1@Q089",
+          "concept": "hdag1",
+          "scale": "cat",
           "description": "var lt. Hauptsoep angepasst",
           "number": "Q113b",
           "dataset": "H19_M345",
@@ -3953,9 +4094,9 @@
         {
           "item": "hdpg1",
           "text_de": "Leistungen der Pflegeversicherung",
-          "scale": "cat",
-          "concept": "hdpg1",
           "goto": "1@Q090",
+          "concept": "hdpg1",
+          "scale": "cat",
           "description": "var lt. Hauptsoep angepasst",
           "number": "Q113b",
           "dataset": "H19_M345",
@@ -3981,9 +4122,9 @@
         {
           "item": "hdsh1",
           "text_de": "Laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen",
-          "scale": "cat",
-          "concept": "hdsh1",
           "goto": "1@Q091",
+          "concept": "hdsh1",
+          "scale": "cat",
           "description": "var lt. Hauptsoep angepasst",
           "number": "Q113b",
           "dataset": "H19_M345",
@@ -4009,9 +4150,9 @@
         {
           "item": "hdgs1",
           "text_de": "Grundsicherung im Alter und bei Erwerbsminderung",
-          "scale": "cat",
-          "concept": "hdgs1",
           "goto": "1@Q092",
+          "concept": "hdgs1",
+          "scale": "cat",
           "description": "var lt. Hauptsoep angepasst",
           "number": "Q113b",
           "dataset": "H19_M345",
@@ -4037,9 +4178,9 @@
         {
           "item": "hdwg1",
           "text_de": "Wohngeld (Miet- und Lastenzuschuss). Hinweis: Falls nicht in den Unterkunftskosten von ALG II, laufender Hilfe zum Lebensunterhalt, Grundsicherung im Alter enthalten.",
-          "scale": "cat",
-          "concept": "hdwg1",
           "goto": "1@Q093",
+          "concept": "hdwg1",
+          "scale": "cat",
           "description": "var lt. Hauptsoep angepasst",
           "number": "Q113b",
           "dataset": "H19_M345",
@@ -4070,20 +4211,22 @@
     "Q084": {
       "question": "Q084",
       "name": "Q084",
+      "label": "",
+      "label_de": "Wie hoch ist der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) derzeit pro Monat erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie hoch ist der Betrag, den Sie, beziehungsweise Ihr Haushalt, nach dem Asylbewerberleistungsgesetz\n(AsylbLG) derzeit pro Monat erhalten?",
-          "scale": "txt",
           "filter": "Q083;hdablg1=1",
+          "scale": "txt",
           "number": "Q075",
           "sn": 0
         },
         {
           "item": "hdablg2",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hdablg2",
+          "scale": "int",
           "description": "Var lt. Schema Hauptsoep angepasst",
           "number": "Q075",
           "dataset": "H19_M345",
@@ -4112,24 +4255,25 @@
       "question": "Q085",
       "name": "Q085",
       "label": "How much child benefit are you or your household currently receiving per month?",
+      "label_de": "Wie viel Kindergeld erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Kindergeld erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
-          "instruction_de": "Gegebenenfalls ohne Zuschlag.",
           "text": "How much child benefit are you or your household currently receiving per month?",
+          "text_de": "Wie viel Kindergeld erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
           "instruction": "Where applicable excluding supplements.",
-          "scale": "txt",
+          "instruction_de": "Gegebenenfalls ohne Zuschlag.",
           "filter": "Q083;hdkg1=1",
+          "scale": "txt",
           "number": "Q087",
           "sn": 0
         },
         {
           "item": "hdkg2",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdkg2",
+          "scale": "int",
           "number": "Q087",
           "dataset": "H19_M345",
           "var_fix": "hdkg2",
@@ -4157,22 +4301,23 @@
       "question": "Q086",
       "name": "Q086",
       "label": "For how many children are you or is your household receiving child benefit?",
+      "label_de": "Für wie viele Kinder erhalten Sie, beziehungsweise Ihr Haushalt, Kindergeld?",
       "items": [
         {
           "item": "1",
-          "text_de": "Für wie viele Kinder erhalten Sie, beziehungsweise Ihr Haushalt, Kindergeld?",
           "text": "For how many children are you or is your household receiving child benefit?",
-          "scale": "txt",
+          "text_de": "Für wie viele Kinder erhalten Sie, beziehungsweise Ihr Haushalt, Kindergeld?",
           "filter": "Q083;hdkg1=1",
+          "scale": "txt",
           "number": "Q088",
           "sn": 0
         },
         {
           "item": "hdkg3",
-          "text_de": "Anzahl Kinder",
           "text": "Number of children",
-          "scale": "int",
+          "text_de": "Anzahl Kinder",
           "concept": "hdkg3",
+          "scale": "int",
           "number": "Q088",
           "dataset": "H19_M345",
           "var_fix": "hdkg3",
@@ -4200,22 +4345,23 @@
       "question": "Q087",
       "name": "Q087",
       "label": "How much child benefit supplement are you or is your household currently receiving per month?",
+      "label_de": "Wie viel Kindergeldzuschlag erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel Kindergeldzuschlag erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
           "text": "How much child benefit supplement are you or is your household currently receiving per month?",
-          "scale": "txt",
+          "text_de": "Wie viel Kindergeldzuschlag erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
           "filter": "Q083;hdkz1=1",
+          "scale": "txt",
           "number": "Q090",
           "sn": 0
         },
         {
           "item": "hdkz2",
-          "text_de": "Euro",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro",
           "concept": "hdkz2",
+          "scale": "int",
           "number": "Q090",
           "dataset": "H19_M345",
           "var_fix": "hdkz2",
@@ -4242,20 +4388,22 @@
     "Q088": {
       "question": "Q088",
       "name": "Q088",
+      "label": "",
+      "label_de": "Wie hoch ist der Betrag der Leistung aus dem Bildungspaket für Ihren Haushalt derzeit pro Monat?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie hoch ist der Betrag der Leistung aus dem Bildungspaket für Ihren Haushalt derzeit pro Monat?",
-          "scale": "txt",
           "filter": "Q083;hdbp1=1",
+          "scale": "txt",
           "number": "Q092",
           "sn": 0
         },
         {
           "item": "hdbp2",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hdbp2",
+          "scale": "int",
           "number": "Q092",
           "dataset": "H19_M345",
           "var_fix": "hdbp2",
@@ -4282,20 +4430,22 @@
     "Q089": {
       "question": "Q089",
       "name": "Q089",
+      "label": "",
+      "label_de": "Wie viel Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel Arbeitslosengeld II (Hartz IV) einschließlich Sozialgeld und Unterkunftskosten erhalten Sie, beziehungsweise Ihr Haushalt, derzeit pro Monat?",
-          "scale": "txt",
           "filter": "Q083;hdag1=1",
+          "scale": "txt",
           "number": "Q096",
           "sn": 0
         },
         {
           "item": "hdag2",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hdag2",
+          "scale": "int",
           "number": "Q096",
           "dataset": "H19_M345",
           "var_fix": "hdag2",
@@ -4322,20 +4472,22 @@
     "Q090": {
       "question": "Q090",
       "name": "Q090",
+      "label": "",
+      "label_de": "Wie hoch ist der Betrag der Leistung, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung derzeit pro Monat erhalten?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie hoch ist der Betrag der Leistung, den Sie, beziehungsweise Ihr Haushalt, aus der Pflegeversicherung derzeit pro Monat erhalten?",
-          "scale": "txt",
           "filter": "Q083;hdpg1=1",
+          "scale": "txt",
           "number": "Q102",
           "sn": 0
         },
         {
           "item": "hdpg2",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hdpg2",
+          "scale": "int",
           "number": "Q102",
           "dataset": "H19_M345",
           "var_fix": "hdpg2",
@@ -4362,21 +4514,23 @@
     "Q091": {
       "question": "Q091",
       "name": "Q091",
+      "label": "",
+      "label_de": "Wie viel Laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen erhalten Sie,\nbeziehungsweise Ihr Haushalt, derzeit pro Monat?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel Laufende Hilfe zum Lebensunterhalt / Hilfe in besonderen Lebenslagen erhalten Sie,\nbeziehungsweise Ihr Haushalt, derzeit pro Monat?",
           "instruction_de": "Gegebenenfalls mit Unterkunftskosten.",
-          "scale": "txt",
           "filter": "Q083;hdsh1=1",
+          "scale": "txt",
           "number": "Q106",
           "sn": 0
         },
         {
           "item": "hdsh2",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hdsh2",
+          "scale": "int",
           "number": "Q106",
           "dataset": "H19_M345",
           "var_fix": "hdsh2",
@@ -4403,21 +4557,23 @@
     "Q092": {
       "question": "Q092",
       "name": "Q092",
+      "label": "",
+      "label_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel Grundsicherung im Alter und bei Erwerbsminderung erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
           "instruction_de": "Gegebenenfalls mit Unterkunftskosten.",
-          "scale": "txt",
           "filter": "Q083;hdgs1=1",
+          "scale": "txt",
           "number": "Q110",
           "sn": 0
         },
         {
           "item": "hdgs2",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hdgs2",
+          "scale": "int",
           "number": "Q110",
           "dataset": "H19_M345",
           "var_fix": "hdgs2",
@@ -4444,21 +4600,23 @@
     "Q093": {
       "question": "Q093",
       "name": "Q093",
+      "label": "",
+      "label_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
       "items": [
         {
           "item": "1",
           "text_de": "Wie viel Wohngeld (Miet- und Lastenzuschuss) erhalten Sie, beziehungsweise Ihr Haushalt,\nderzeit pro Monat?",
           "instruction_de": "Falls nicht in den Unterkunftskosten von ALG II, laufender Hilfe zum Lebensunterhalt,\nGrundsicherung im Alter enthalten.",
-          "scale": "txt",
           "filter": "Q083;hdwg1=1",
+          "scale": "txt",
           "number": "Q114",
           "sn": 0
         },
         {
           "item": "hdwg2",
           "text_de": "Euro",
-          "scale": "int",
           "concept": "hdwg2",
+          "scale": "int",
           "number": "Q114",
           "dataset": "H19_M345",
           "var_fix": "hdwg2",
@@ -4486,23 +4644,24 @@
       "question": "Q094",
       "name": "Q094",
       "label": "Taking all income together, how much is the current monthly net household income of all members of the household?",
+      "label_de": "Wie hoch ist das monatliche Haushaltsnettoeinkommen aller Haushaltsmitglieder heute, wenn man alle Einkünfte und Sozialleistungen zusammenrechnet?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist das monatliche Haushaltsnettoeinkommen aller Haushaltsmitglieder heute, wenn man alle Einkünfte und Sozialleistungen zusammenrechnet?",
-          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "text": "Taking all income together, how much is the current monthly net household income of all members of the household?",
+          "text_de": "Wie hoch ist das monatliche Haushaltsnettoeinkommen aller Haushaltsmitglieder heute, wenn man alle Einkünfte und Sozialleistungen zusammenrechnet?",
           "instruction": "If you don't know the exact amount, please state an approximate figure.",
+          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "scale": "txt",
           "number": "Q115",
           "sn": 0
         },
         {
           "item": "hnetto",
-          "text_de": "Euro im Monat",
           "text": "Euros",
-          "scale": "int",
+          "text_de": "Euro im Monat",
           "concept": "hnetto",
+          "scale": "int",
           "number": "Q115",
           "dataset": "H19_M345",
           "var_fix": "hnetto",
@@ -4529,6 +4688,8 @@
     "B005": {
       "question": "B005",
       "name": "B005",
+      "label": "",
+      "label_de": "Kredite",
       "items": [
         {
           "item": "1",
@@ -4546,16 +4707,17 @@
       "question": "Q095",
       "name": "Q095",
       "label": "Are you or is someone in your household currently paying back loans and interest on loans that you took out for large purchases or other expenditures?",
+      "label_de": "Müssen Sie oder ein anderes Haushaltsmitglied derzeit Rückzahlungen und Zinsen für Kredite leisten, die Sie für Anschaffungen oder sonstige Ausgaben aufgenommen haben?",
       "items": [
         {
           "item": "hkred1",
-          "text_de": "Müssen Sie oder ein anderes Haushaltsmitglied derzeit Rückzahlungen und Zinsen für Kredite leisten, die Sie für Anschaffungen oder sonstige Ausgaben aufgenommen haben?",
-          "instruction_de": "Nicht gemeint sind hier Tilgung und Zinsen für Hypotheken oder Bauspardarlehen.",
           "text": "Are you or is someone in your household currently paying back loans and interest on loans that you took out for large purchases or other expenditures?",
+          "text_de": "Müssen Sie oder ein anderes Haushaltsmitglied derzeit Rückzahlungen und Zinsen für Kredite leisten, die Sie für Anschaffungen oder sonstige Ausgaben aufgenommen haben?",
           "instruction": "Please do not include loan, mortgage, or interest payments stated in answer to previous questions.",
-          "scale": "cat",
-          "concept": "hkred1",
+          "instruction_de": "Nicht gemeint sind hier Tilgung und Zinsen für Hypotheken oder Bauspardarlehen.",
           "goto": "2,-1@Q097",
+          "concept": "hkred1",
+          "scale": "cat",
           "number": "Q116",
           "dataset": "H19_M345",
           "var_fix": "hkred1",
@@ -4586,23 +4748,24 @@
       "question": "Q096",
       "name": "Q096",
       "label": "How much do you pay per month on these loans?",
+      "label_de": "Wie hoch ist der monatliche Betrag den Sie für die Rückzahlung dieser Kredite (einschließlich Zinsen) verwenden müssen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie hoch ist der monatliche Betrag den Sie für die Rückzahlung dieser Kredite (einschließlich Zinsen) verwenden müssen?",
-          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "text": "How much do you pay per month on these loans?",
+          "text_de": "Wie hoch ist der monatliche Betrag den Sie für die Rückzahlung dieser Kredite (einschließlich Zinsen) verwenden müssen?",
           "instruction": "If you don't know the exact amount, please estimate!",
+          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "scale": "txt",
           "number": "Q117",
           "sn": 0
         },
         {
           "item": "hkred2",
-          "text_de": "Euro pro Monat",
           "text": "Loan repayment (including interest payments) … euros per month",
-          "scale": "int",
+          "text_de": "Euro pro Monat",
           "concept": "hkred2",
+          "scale": "int",
           "number": "Q117",
           "dataset": "H19_M345",
           "var_fix": "hkred2",
@@ -4629,6 +4792,8 @@
     "B006": {
       "question": "B006",
       "name": "B006",
+      "label": "",
+      "label_de": "Pflegebedürftige Person im Haushalt",
       "items": [
         {
           "item": "1",
@@ -4646,14 +4811,15 @@
       "question": "Q097",
       "name": "Q097",
       "label": "Does someone in your household need care or assistance on a constant basis due to age, sickness, or medical treatment?",
+      "label_de": "Gibt es in Ihrem Haushalt jemand, der aus Alters- oder Krankheitsgründen oder wegen einer Behinderung dauernd hilfe- oder pflegebedürftig ist?",
       "items": [
         {
           "item": "hpfleg",
-          "text_de": "Gibt es in Ihrem Haushalt jemand, der aus Alters- oder Krankheitsgründen oder wegen einer Behinderung dauernd hilfe- oder pflegebedürftig ist?",
           "text": "Does someone in your household need care or assistance on a constant basis due to age, sickness, or medical treatment?",
-          "scale": "cat",
-          "concept": "hpfleg",
+          "text_de": "Gibt es in Ihrem Haushalt jemand, der aus Alters- oder Krankheitsgründen oder wegen einer Behinderung dauernd hilfe- oder pflegebedürftig ist?",
           "goto": "2,-1@Q101",
+          "concept": "hpfleg",
+          "scale": "cat",
           "number": "Q138",
           "dataset": "H19_M345",
           "var_fix": "hpfleg",
@@ -4683,6 +4849,8 @@
     "Q098": {
       "question": "Q098",
       "name": "Q098",
+      "label": "",
+      "label_de": "Wie viele pflegebedürftige Personen gibt es in Ihrem Haushalt?",
       "items": [
         {
           "item": "1",
@@ -4694,8 +4862,8 @@
         {
           "item": "hpflanz",
           "text_de": "Anzahl pflegebedürftige Person(en)",
-          "scale": "int",
           "concept": "hpflanz",
+          "scale": "int",
           "number": "Q139",
           "dataset": "H19_M345",
           "var_fix": "hpflanz",
@@ -4722,6 +4890,8 @@
     "Q099": {
       "question": "Q099",
       "name": "Q099",
+      "label": "",
+      "label_de": "Welche Person im Haushalt ist das?",
       "items": [
         {
           "item": "1",
@@ -4734,8 +4904,8 @@
         {
           "item": "hpnam",
           "text_de": "Vorname der hilfebedürftigen Person",
-          "scale": "chr",
           "concept": "hpnam",
+          "scale": "chr",
           "number": "Q140",
           "dataset": "H19_M345",
           "var_fix": "hpnam",
@@ -4757,8 +4927,8 @@
         {
           "item": "hpnr",
           "text_de": "Personennr. der hilfebedürftigen Person",
-          "scale": "int",
           "concept": "hpnr",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hpnr",
           "sn": 3,
@@ -4772,6 +4942,8 @@
     "Q100": {
       "question": "Q100",
       "name": "Q100",
+      "label": "",
+      "label_de": "Bei welchen der folgenden Tätigkeiten braucht diese Person Hilfe?",
       "items": [
         {
           "item": "1",
@@ -4784,8 +4956,8 @@
         {
           "item": "hhil1",
           "text_de": "Bei Besorgungen und Erledigungen außer Haus",
-          "scale": "bin",
           "concept": "hhil1",
+          "scale": "bin",
           "number": "Q141",
           "dataset": "H19_M345",
           "var_fix": "hhil1",
@@ -4794,8 +4966,8 @@
         {
           "item": "hhil2",
           "text_de": "Bei Haushaltsführung, Versorgung mit Mahlzeiten und Getränken",
-          "scale": "bin",
           "concept": "hhil2",
+          "scale": "bin",
           "number": "Q141",
           "dataset": "H19_M345",
           "var_fix": "hhil2",
@@ -4804,8 +4976,8 @@
         {
           "item": "hhil3",
           "text_de": "Bei einfacheren Pflegetätigkeiten, z.B. Hilfe beim An- und\nAuskleiden, Waschen, Kämmen und Rasieren",
-          "scale": "bin",
           "concept": "hhil3",
+          "scale": "bin",
           "number": "Q141",
           "dataset": "H19_M345",
           "var_fix": "hhil3",
@@ -4814,8 +4986,8 @@
         {
           "item": "hhil4",
           "text_de": "Bei schwierigeren Pflegetätigkeiten,\nzum Beispiel Hilfe beim Umbetten, Stuhlgang usw.",
-          "scale": "bin",
           "concept": "hhil4",
+          "scale": "bin",
           "number": "Q141",
           "dataset": "H19_M345",
           "var_fix": "hhil4",
@@ -4844,6 +5016,8 @@
     "B007": {
       "question": "B007",
       "name": "B007",
+      "label": "",
+      "label_de": "Sprache im Haushalt",
       "items": [
         {
           "item": "1",
@@ -4860,13 +5034,15 @@
     "Q101": {
       "question": "Q101",
       "name": "Q101",
+      "label": "",
+      "label_de": "Wird in Ihrem Haushalt vorwiegend Deutsch gesprochen oder eine andere Sprache?",
       "items": [
         {
           "item": "hhsp",
           "text_de": "Wird in Ihrem Haushalt vorwiegend Deutsch gesprochen oder eine andere Sprache?",
-          "scale": "cat",
-          "concept": "hhsp",
           "goto": "1,-1@Q103",
+          "concept": "hhsp",
+          "scale": "cat",
           "number": "Q142",
           "dataset": "H19_M345",
           "var_fix": "hhsp",
@@ -4894,12 +5070,14 @@
     "Q102": {
       "question": "Q102",
       "name": "Q102",
+      "label": "",
+      "label_de": "Welche Sprache wird in Ihrem Haushalt vorwiegend gesprochen?",
       "items": [
         {
           "item": "hfspr",
           "text_de": "Welche Sprache wird in Ihrem Haushalt vorwiegend gesprochen?",
-          "scale": "cat",
           "concept": "hfspr",
+          "scale": "cat",
           "description": "Antworttext veränder nur noch „Andere Sprache“",
           "number": "Q143",
           "dataset": "H19_M345",
@@ -5063,8 +5241,8 @@
         {
           "item": "hfsprso",
           "text_de": "Andere Sprache, und zwar",
-          "scale": "chr",
           "concept": "hfsprso",
+          "scale": "chr",
           "number": "Q143",
           "dataset": "H19_M345",
           "var_fix": "hfsprso",
@@ -5078,6 +5256,8 @@
     "B008": {
       "question": "B008",
       "name": "B008",
+      "label": "",
+      "label_de": "Danke und Interviewerfragen",
       "items": [
         {
           "item": "1",
@@ -5095,11 +5275,12 @@
       "question": "Q103",
       "name": "Q103",
       "label": "Many thanks for taking part in this interview. To conclude the interview properly, the interviewer must now answer a few questions. These questions are designed to help us understand the information in the interview better. And we shall also use them to establish whether, in certain areas, we can do anything even better in future surveys.",
+      "label_de": "Vielen Dank für Ihre Teilnahme an diesem Interview.\n\nZum ordnungsgemäßen Abschluss des Interviews muss jetzt der Interviewer / die Interviewerin noch wenige Fragen beantworten. Diese Fragen sollen uns einerseits helfen, die Angaben im Interview besser zu verstehen, andererseits versuchen wir damit auch in bestimmten Bereichen zu erkennen, ob wir in zukünftigen Befragungen etwas besser machen können.",
       "items": [
         {
           "item": "1",
-          "text_de": "Vielen Dank für Ihre Teilnahme an diesem Interview.\n\nZum ordnungsgemäßen Abschluss des Interviews muss jetzt der Interviewer / die Interviewerin noch wenige Fragen beantworten. Diese Fragen sollen uns einerseits helfen, die Angaben im Interview besser zu verstehen, andererseits versuchen wir damit auch in bestimmten Bereichen zu erkennen, ob wir in zukünftigen Befragungen etwas besser machen können.",
           "text": "Many thanks for taking part in this interview. To conclude the interview properly, the interviewer must now answer a few questions. These questions are designed to help us understand the information in the interview better. And we shall also use them to establish whether, in certain areas, we can do anything even better in future surveys.",
+          "text_de": "Vielen Dank für Ihre Teilnahme an diesem Interview.\n\nZum ordnungsgemäßen Abschluss des Interviews muss jetzt der Interviewer / die Interviewerin noch wenige Fragen beantworten. Diese Fragen sollen uns einerseits helfen, die Angaben im Interview besser zu verstehen, andererseits versuchen wir damit auch in bestimmten Bereichen zu erkennen, ob wir in zukünftigen Befragungen etwas besser machen können.",
           "scale": "txt",
           "number": "Q144",
           "sn": 0
@@ -5113,13 +5294,14 @@
       "question": "Q104",
       "name": "Q104",
       "label": "How well did it go interviewing the respondent in German?",
+      "label_de": "Wie gut konnten Sie mit dem/der Befragten das Interview in deutscher Sprache durchführen?",
       "items": [
         {
           "item": "i1",
-          "text_de": "Wie gut konnten Sie mit dem/der Befragten das Interview in deutscher Sprache durchführen?",
           "text": "How well did it go interviewing the respondent in German?",
-          "scale": "cat",
+          "text_de": "Wie gut konnten Sie mit dem/der Befragten das Interview in deutscher Sprache durchführen?",
           "concept": "i1",
+          "scale": "cat",
           "number": "Q145",
           "dataset": "H19_M345",
           "var_fix": "i1",
@@ -5161,15 +5343,16 @@
       "question": "Q105",
       "name": "Q105",
       "label": "How often did you use the written translations in this interview?",
+      "label_de": "Wie häufig wurden in diesem Interview die übersetzten Texte verwendet?",
       "items": [
         {
           "item": "i2",
-          "text_de": "Wie häufig wurden in diesem Interview die übersetzten Texte verwendet?",
           "text": "How often did you use the written translations in this interview?",
-          "scale": "cat",
+          "text_de": "Wie häufig wurden in diesem Interview die übersetzten Texte verwendet?",
+          "goto": "5@Q107",
           "concept": "i2",
           "filter": "Q002;hspvers=1:6",
-          "goto": "5@Q107",
+          "scale": "cat",
           "number": "Q146",
           "dataset": "H19_M345",
           "var_fix": "i2",
@@ -5211,14 +5394,15 @@
       "question": "Q106",
       "name": "Q106",
       "label": "How helpful were the written translations in this interview?",
+      "label_de": "Wie hilfreich waren in diesem Interview die übersetzten Texte?",
       "items": [
         {
           "item": "i3",
-          "text_de": "Wie hilfreich waren in diesem Interview die übersetzten Texte?",
           "text": "How helpful were the written translations in this interview?",
-          "scale": "cat",
+          "text_de": "Wie hilfreich waren in diesem Interview die übersetzten Texte?",
           "concept": "i3",
           "filter": "Q105;i2=1:4",
+          "scale": "cat",
           "number": "Q147",
           "dataset": "H19_M345",
           "var_fix": "i3",
@@ -5255,16 +5439,17 @@
       "question": "Q107",
       "name": "Q107",
       "label": "Did other people help in translating questions due to language difficulties?",
+      "label_de": "Haben wegen Sprachschwierigkeiten andere Personen bei der Übersetzung der Fragen geholfen?",
       "items": [
         {
           "item": "i6",
-          "text_de": "Haben wegen Sprachschwierigkeiten andere Personen bei der Übersetzung der Fragen geholfen?",
-          "instruction_de": "Bei mehreren, geben Sie bitte die Person an, die überwiegend geholfen hat.",
           "text": "Did other people help in translating questions due to language difficulties?",
+          "text_de": "Haben wegen Sprachschwierigkeiten andere Personen bei der Übersetzung der Fragen geholfen?",
           "instruction": "If more than one person helped, please answer for the one who helped the most.",
-          "scale": "cat",
-          "concept": "i6",
+          "instruction_de": "Bei mehreren, geben Sie bitte die Person an, die überwiegend geholfen hat.",
           "goto": "2@Q111,3@Q114",
+          "concept": "i6",
+          "scale": "cat",
           "number": "Q148",
           "dataset": "H19_M345",
           "var_fix": "i6",
@@ -5296,13 +5481,14 @@
       "question": "Q108",
       "name": "Q108",
       "label": "What language did the interpreter translate into?",
+      "label_de": "In welche Sprache hat der Dolmetscher übersetzt?",
       "items": [
         {
           "item": "i7",
-          "text_de": "In welche Sprache hat der Dolmetscher übersetzt?",
           "text": "What language did the interpreter translate into?",
-          "scale": "chr",
+          "text_de": "In welche Sprache hat der Dolmetscher übersetzt?",
           "concept": "i7",
+          "scale": "chr",
           "number": "Q149",
           "dataset": "H19_M345",
           "var_fix": "i7",
@@ -5317,13 +5503,14 @@
       "question": "Q109",
       "name": "Q109",
       "label": "Approximately how old is the interpreter?",
+      "label_de": "Wie alt ist der Dolmetscher etwa?",
       "items": [
         {
           "item": "i8",
-          "text_de": "Wie alt ist der Dolmetscher etwa?",
           "text": "Approximately how old is the interpreter?",
-          "scale": "cat",
+          "text_de": "Wie alt ist der Dolmetscher etwa?",
           "concept": "i8",
+          "scale": "cat",
           "number": "Q150",
           "dataset": "H19_M345",
           "var_fix": "i8",
@@ -5355,14 +5542,15 @@
       "question": "Q110",
       "name": "Q110",
       "label": "Is the interpreter male or female?",
+      "label_de": "Ist der Dolmetscher männlich oder weiblich?",
       "items": [
         {
           "item": "i9",
-          "text_de": "Ist der Dolmetscher männlich oder weiblich?",
           "text": "Is the interpreter male or female?",
-          "scale": "cat",
-          "concept": "i9",
+          "text_de": "Ist der Dolmetscher männlich oder weiblich?",
           "goto": "ALL@Q114",
+          "concept": "i9",
+          "scale": "cat",
           "number": "Q151",
           "dataset": "H19_M345",
           "var_fix": "i9",
@@ -5389,13 +5577,14 @@
       "question": "Q111",
       "name": "Q111",
       "label": "What language did the other person translate into?",
+      "label_de": "In welche Sprache hat die andere Person übersetzt?",
       "items": [
         {
           "item": "i10",
-          "text_de": "In welche Sprache hat die andere Person übersetzt?",
           "text": "What language did the other person translate into?",
-          "scale": "chr",
+          "text_de": "In welche Sprache hat die andere Person übersetzt?",
           "concept": "i10",
+          "scale": "chr",
           "number": "Q152",
           "dataset": "H19_M345",
           "var_fix": "i10",
@@ -5410,13 +5599,14 @@
       "question": "Q112",
       "name": "Q112",
       "label": "Approximately how old is the other person?",
+      "label_de": "Wie alt ist die andere Person etwa?",
       "items": [
         {
           "item": "i11",
-          "text_de": "Wie alt ist die andere Person etwa?",
           "text": "Approximately how old is the other person?",
-          "scale": "cat",
+          "text_de": "Wie alt ist die andere Person etwa?",
           "concept": "i11",
+          "scale": "cat",
           "number": "Q153",
           "dataset": "H19_M345",
           "var_fix": "i11",
@@ -5448,13 +5638,14 @@
       "question": "Q113",
       "name": "Q113",
       "label": "Is the other person male or female?",
+      "label_de": "Ist die andere Person männlich oder weiblich?",
       "items": [
         {
           "item": "i12",
-          "text_de": "Ist die andere Person männlich oder weiblich?",
           "text": "Is the other person male or female?",
-          "scale": "cat",
+          "text_de": "Ist die andere Person männlich oder weiblich?",
           "concept": "i12",
+          "scale": "cat",
           "number": "Q154",
           "dataset": "H19_M345",
           "var_fix": "i12",
@@ -5481,13 +5672,14 @@
       "question": "Q114",
       "name": "Q114",
       "label": "Were other people present when the questionnaire was being completed aside from the interviewer?",
+      "label_de": "Waren beim Ausfüllen des Fragebogens, außer dem Interviewer, noch weitere Personen anwesend?",
       "items": [
         {
           "item": "1",
-          "text_de": "Waren beim Ausfüllen des Fragebogens, außer dem Interviewer, noch weitere Personen anwesend?",
-          "instruction_de": "Hier nicht gemeint ist gegebenenfalls der Dolmetscher oder die andere Person, die beim Übersetzen geholfen hat.\n\nBitte geben Sie alles Zutreffende an.",
           "text": "Were other people present when the questionnaire was being completed aside from the interviewer?",
+          "text_de": "Waren beim Ausfüllen des Fragebogens, außer dem Interviewer, noch weitere Personen anwesend?",
           "instruction": "Here we are not referring to the interpreter or any other people who may have helped in translating. Please select all that apply.",
+          "instruction_de": "Hier nicht gemeint ist gegebenenfalls der Dolmetscher oder die andere Person, die beim Übersetzen geholfen hat.\n\nBitte geben Sie alles Zutreffende an.",
           "scale": "txt",
           "number": "Q155",
           "sn": 0
@@ -5495,8 +5687,8 @@
         {
           "item": "i131",
           "text_de": "Ja, Partner / Partnerin",
-          "scale": "bin",
           "concept": "i131",
+          "scale": "bin",
           "number": "Q155",
           "dataset": "H19_M345",
           "var_fix": "i131",
@@ -5505,8 +5697,8 @@
         {
           "item": "i132",
           "text_de": "Ja, andere Person",
-          "scale": "bin",
           "concept": "i132",
+          "scale": "bin",
           "number": "Q155",
           "dataset": "H19_M345",
           "var_fix": "i132",
@@ -5515,9 +5707,9 @@
         {
           "item": "i133",
           "text_de": "Nein, niemand",
-          "scale": "bin",
-          "concept": "i133",
           "goto": "1@Q116",
+          "concept": "i133",
+          "scale": "bin",
           "number": "Q155",
           "dataset": "H19_M345",
           "var_fix": "i133",
@@ -5532,13 +5724,14 @@
       "question": "Q115",
       "name": "Q115",
       "label": "Did the other person or people have any unavoidable influence on the interview?",
+      "label_de": "Hat es durch die andere Person bzw. die anderen Personen unvermeidbaren Einfluss auf das Interview gegeben?",
       "items": [
         {
           "item": "i14",
-          "text_de": "Hat es durch die andere Person bzw. die anderen Personen unvermeidbaren Einfluss auf das Interview gegeben?",
           "text": "Did the other person or people have any unavoidable influence on the interview?",
-          "scale": "cat",
+          "text_de": "Hat es durch die andere Person bzw. die anderen Personen unvermeidbaren Einfluss auf das Interview gegeben?",
           "concept": "i14",
+          "scale": "cat",
           "number": "Q156",
           "dataset": "H19_M345",
           "var_fix": "i14",
@@ -5565,13 +5758,14 @@
       "question": "Q116",
       "name": "Q116",
       "label": "Aside from linguistic difficulties or the presence of other people, other things can have an effect on an interview. Examples include questions dealing with sensitive issues, questions that do not reflect respondents’ life realities, or a respondent’s general lack of trust in the confidentiality of their answers. How closely do you as an interviewer think the responses given in this interview reflect reality?",
+      "label_de": "Außer Sprachschwierigkeiten oder Anwesenheit anderer Personen, kann es viele weitere Einflussmöglichkeiten auf ein Interview geben.\n\nBeispiele dafür wären sensible Fragen, die Befragten finden sich in den Fragen nicht wieder oder fehlendes Vertrauen in den Datenschutz etc.\n\nWie realitätsnah oder -fern würden Sie aus Ihrer Erfahrung als Interviewer die Beantwortung der Fragen in dem eben geführten Interview einschätzen?",
       "items": [
         {
           "item": "i15",
-          "text_de": "Außer Sprachschwierigkeiten oder Anwesenheit anderer Personen, kann es viele weitere Einflussmöglichkeiten auf ein Interview geben.\n\nBeispiele dafür wären sensible Fragen, die Befragten finden sich in den Fragen nicht wieder oder fehlendes Vertrauen in den Datenschutz etc.\n\nWie realitätsnah oder -fern würden Sie aus Ihrer Erfahrung als Interviewer die Beantwortung der Fragen in dem eben geführten Interview einschätzen?",
           "text": "Aside from linguistic difficulties or the presence of other people, other things can have an effect on an interview. Examples include questions dealing with sensitive issues, questions that do not reflect respondents’ life realities, or a respondent’s general lack of trust in the confidentiality of their answers. How closely do you as an interviewer think the responses given in this interview reflect reality?",
-          "scale": "cat",
+          "text_de": "Außer Sprachschwierigkeiten oder Anwesenheit anderer Personen, kann es viele weitere Einflussmöglichkeiten auf ein Interview geben.\n\nBeispiele dafür wären sensible Fragen, die Befragten finden sich in den Fragen nicht wieder oder fehlendes Vertrauen in den Datenschutz etc.\n\nWie realitätsnah oder -fern würden Sie aus Ihrer Erfahrung als Interviewer die Beantwortung der Fragen in dem eben geführten Interview einschätzen?",
           "concept": "i15",
+          "scale": "cat",
           "number": "Q157",
           "dataset": "H19_M345",
           "var_fix": "i15",
@@ -5607,6 +5801,8 @@
     "B009": {
       "question": "B009",
       "name": "B009",
+      "label": "",
+      "label_de": "Wohnumfeldfragen bei Bewohnern einer Gemeinschaftsunterkunft",
       "items": [
         {
           "item": "1",
@@ -5623,12 +5819,14 @@
     "Q117": {
       "question": "Q117",
       "name": "Q117",
+      "label": "",
+      "label_de": "Bitte beantworten Sie folgende Wohnumfeldfragen zur Gemeinschaftsunterkunft, in der die gerade befragte Zielperson wohnt.",
       "items": [
         {
           "item": "1",
           "text_de": "Bitte beantworten Sie folgende Wohnumfeldfragen zur Gemeinschaftsunterkunft, in der die gerade befragte Zielperson wohnt.",
-          "scale": "txt",
           "filter": "Q005;hwunt=1",
+          "scale": "txt",
           "number": "Q158",
           "sn": 0
         }
@@ -5640,13 +5838,15 @@
     "Q118": {
       "question": "Q118",
       "name": "Q118",
+      "label": "",
+      "label_de": "Um was für eine Art von Gemeinschaftsunterkunft handelt es sich?",
       "items": [
         {
           "item": "iwu1",
           "text_de": "Um was für eine Art von Gemeinschaftsunterkunft handelt es sich?",
-          "scale": "cat",
           "concept": "iwu1",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "number": "Q159",
           "dataset": "H19_M345",
           "var_fix": "iwu1",
@@ -5682,13 +5882,15 @@
     "Q119": {
       "question": "Q119",
       "name": "Q119",
+      "label": "",
+      "label_de": "Wie würden Sie allgemein die Gemeinschaftsunterkunft beschreiben?",
       "items": [
         {
           "item": "iwu2",
           "text_de": "Wie würden Sie allgemein die Gemeinschaftsunterkunft beschreiben?",
-          "scale": "cat",
           "concept": "iwu2",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "number": "Q160",
           "dataset": "H19_M345",
           "var_fix": "iwu2",
@@ -5720,13 +5922,15 @@
     "Q120": {
       "question": "Q120",
       "name": "Q120",
+      "label": "",
+      "label_de": "Gibt es für diese Unterkunft einen Sicherheitsdienst?",
       "items": [
         {
           "item": "iwu3",
           "text_de": "Gibt es für diese Unterkunft einen Sicherheitsdienst?",
-          "scale": "cat",
           "concept": "iwu3",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "number": "Q161",
           "dataset": "H19_M345",
           "var_fix": "iwu3",
@@ -5754,13 +5958,15 @@
     "Q121": {
       "question": "Q121",
       "name": "Q121",
+      "label": "",
+      "label_de": "Zu welcher Gruppe gehört der Betreiber dieser Unterkunft? Bitte schätzen Sie.",
       "items": [
         {
           "item": "iwu4",
           "text_de": "Zu welcher Gruppe gehört der Betreiber dieser Unterkunft? Bitte schätzen Sie.",
-          "scale": "cat",
           "concept": "iwu4",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "number": "Q162",
           "dataset": "H19_M345",
           "var_fix": "iwu4",
@@ -5792,13 +5998,15 @@
     "Q122": {
       "question": "Q122",
       "name": "Q122",
+      "label": "",
+      "label_de": "Wie viele Personen wohnen derzeit in dieser Unterkunft? Bitte schätzen Sie.",
       "items": [
         {
           "item": "iwu5",
           "text_de": "Wie viele Personen wohnen derzeit in dieser Unterkunft? Bitte schätzen Sie.",
-          "scale": "cat",
           "concept": "iwu5",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "number": "Q163",
           "dataset": "H19_M345",
           "var_fix": "iwu5",
@@ -5846,13 +6054,15 @@
     "Q123": {
       "question": "Q123",
       "name": "Q123",
+      "label": "",
+      "label_de": "Wie würden Sie die Wohngegend hier beschreiben?",
       "items": [
         {
           "item": "iwu7",
           "text_de": "Wie würden Sie die Wohngegend hier beschreiben?",
-          "scale": "cat",
           "concept": "iwu7",
           "filter": "Q005;hwunt=1",
+          "scale": "cat",
           "number": "Q165",
           "dataset": "H19_M345",
           "var_fix": "iwu7",
@@ -5889,13 +6099,14 @@
       "question": "Q124",
       "name": "Q124",
       "label": "Is there any other important information that you would like to add about this interview?",
+      "label_de": "Gibt es noch wichtige Hinweise zu diesem Interview?",
       "items": [
         {
           "item": "i16",
-          "text_de": "Gibt es noch wichtige Hinweise zu diesem Interview?",
           "text": "Is there any other important information that you would like to add about this interview?",
-          "scale": "chr",
+          "text_de": "Gibt es noch wichtige Hinweise zu diesem Interview?",
           "concept": "i16",
+          "scale": "chr",
           "number": "Q166",
           "dataset": "H19_M345",
           "var_fix": "i16",
@@ -5909,12 +6120,14 @@
     "para6": {
       "question": "para6",
       "name": "para6",
+      "label": "",
+      "label_de": "Interviewtag",
       "items": [
         {
           "item": "hdatt",
           "text_de": "Interviewtag",
-          "scale": "int",
           "concept": "hdatt",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hdatt",
           "sn": 0,
@@ -5928,12 +6141,14 @@
     "para7": {
       "question": "para7",
       "name": "para7",
+      "label": "",
+      "label_de": "Interviewmonat",
       "items": [
         {
           "item": "hdatm",
           "text_de": "Interviewmonat",
-          "scale": "int",
           "concept": "hdatm",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hdatm",
           "sn": 0,
@@ -5947,12 +6162,14 @@
     "para8": {
       "question": "para8",
       "name": "para8",
+      "label": "",
+      "label_de": "Interviewjahr",
       "items": [
         {
           "item": "hdatj",
           "text_de": "Interviewjahr",
-          "scale": "int",
           "concept": "hdatj",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hdatj",
           "sn": 0,
@@ -5966,12 +6183,14 @@
     "para9": {
       "question": "para9",
       "name": "para9",
+      "label": "",
+      "label_de": "Interview beendet Uhrzeit (Stunde)",
       "items": [
         {
           "item": "hdatst",
           "text_de": "Interview beendet Uhrzeit (Stunde)",
-          "scale": "int",
           "concept": "hdatst",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hdatst",
           "sn": 0,
@@ -5985,12 +6204,14 @@
     "para10": {
       "question": "para10",
       "name": "para10",
+      "label": "",
+      "label_de": "Interview beendet Uhrzeit (Minuten)",
       "items": [
         {
           "item": "hdatmi",
           "text_de": "Interview beendet Uhrzeit (Minuten)",
-          "scale": "int",
           "concept": "hdatmi",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hdatmi",
           "sn": 0,
@@ -6004,12 +6225,14 @@
     "para11": {
       "question": "para11",
       "name": "para11",
+      "label": "",
+      "label_de": "Befragungsform",
       "items": [
         {
           "item": "hform",
           "text_de": "Befragungsform",
-          "scale": "chr",
           "concept": "hform",
+          "scale": "chr",
           "dataset": "H19_M345",
           "var_fix": "hform",
           "sn": 0,
@@ -6023,12 +6246,14 @@
     "para12": {
       "question": "para12",
       "name": "para12",
+      "label": "",
+      "label_de": "Interviewdauer mündlich",
       "items": [
         {
           "item": "hdauer1",
           "text_de": "Interviewdauer mündlich",
-          "scale": "int",
           "concept": "hdauer1",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hdauer1",
           "sn": 0,
@@ -6042,12 +6267,14 @@
     "para13": {
       "question": "para13",
       "name": "para13",
+      "label": "",
+      "label_de": "Interviewernummer",
       "items": [
         {
           "item": "hintnr",
           "text_de": "Interviewernummer",
-          "scale": "int",
           "concept": "hintnr",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "hintnr",
           "sn": 0,
@@ -6061,12 +6288,14 @@
     "para14": {
       "question": "para14",
       "name": "para14",
+      "label": "",
+      "label_de": "Urhaushaltsnummer",
       "items": [
         {
           "item": "urhh",
           "text_de": "Urhaushaltsnummer",
-          "scale": "int",
           "concept": "urhh",
+          "scale": "int",
           "dataset": "H19_M345",
           "var_fix": "urhh",
           "sn": 0,
