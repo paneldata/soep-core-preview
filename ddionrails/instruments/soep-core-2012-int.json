@@ -13,11 +13,12 @@
       "question": "0_0",
       "name": "0_0",
       "label": "Living in Germany: Now it‘s your turn.",
+      "label_de": "Leben in Deutschland: Jetzt sind Sie mal dran!",
       "items": [
         {
           "item": "0",
-          "text_de": "Leben in Deutschland: Jetzt sind Sie mal dran!",
           "text": "Living in Germany: Now it‘s your turn.",
+          "text_de": "Leben in Deutschland: Jetzt sind Sie mal dran!",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -31,11 +32,12 @@
       "question": "0_1",
       "name": "0_1",
       "label": "Unless otherwise stated, the following questions relate to „Living in Germany“, including the partial studies „Families in Germany“ and the innovation survey.",
+      "label_de": "Die folgenden Fragen beziehen sich, falls nicht anders vermerkt, auf Leben in Deutschland inklusive der Teilstudien Familien in Deutschland und Innovationserhebung.",
       "items": [
         {
           "item": "1",
-          "text_de": "Die folgenden Fragen beziehen sich, falls nicht anders vermerkt, auf Leben in Deutschland inklusive der Teilstudien Familien in Deutschland und Innovationserhebung.",
           "text": "Unless otherwise stated, the following questions relate to „Living in Germany“, including the partial studies „Families in Germany“ and the innovation survey.",
+          "text_de": "Die folgenden Fragen beziehen sich, falls nicht anders vermerkt, auf Leben in Deutschland inklusive der Teilstudien Familien in Deutschland und Innovationserhebung.",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -49,10 +51,11 @@
       "question": "1",
       "name": "1",
       "label": "There are different motives for working as an interviewer: How important are the following points to you?",
+      "label_de": "Es gibt ja unterschiedliche Beweggründe als Interviewer zu arbeiten: Wie wichtig sind Ihnen die folgenden Punkte?",
       "items": [
         {
-          "text_de": "Es gibt ja unterschiedliche Beweggründe als Interviewer zu arbeiten: Wie wichtig sind Ihnen die folgenden Punkte?",
           "text": "There are different motives for working as an interviewer: How important are the following points to you?",
+          "text_de": "Es gibt ja unterschiedliche Beweggründe als Interviewer zu arbeiten: Wie wichtig sind Ihnen die folgenden Punkte?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -60,8 +63,8 @@
         },
         {
           "item": "igru01",
-          "text_de": "Verdienst",
           "text": "Earnings",
+          "text_de": "Verdienst",
           "scale": "cat",
           "answers": [
             {
@@ -105,8 +108,8 @@
         },
         {
           "item": "igru02",
-          "text_de": "Interessante Tätigkeit",
           "text": "Interesting activity",
+          "text_de": "Interessante Tätigkeit",
           "scale": "cat",
           "answers": [
             {
@@ -150,8 +153,8 @@
         },
         {
           "item": "igru03",
-          "text_de": "Freie Arbeitszeiteinteilung",
           "text": "Free allocation of working hours",
+          "text_de": "Freie Arbeitszeiteinteilung",
           "scale": "cat",
           "answers": [
             {
@@ -195,8 +198,8 @@
         },
         {
           "item": "igru04",
-          "text_de": "Gelegenheit unter die Leute zu kommen",
           "text": "Opportunity to get around people",
+          "text_de": "Gelegenheit unter die Leute zu kommen",
           "scale": "cat",
           "answers": [
             {
@@ -240,8 +243,8 @@
         },
         {
           "item": "igru05",
-          "text_de": "Einblicke in andere soziale Lebensumstände",
           "text": "Insights into other social life circumstances",
+          "text_de": "Einblicke in andere soziale Lebensumstände",
           "scale": "cat",
           "answers": [
             {
@@ -285,8 +288,8 @@
         },
         {
           "item": "igru06",
-          "text_de": "Nutzen für Politik und Wirtschaft",
           "text": "Benefits for politics and business",
+          "text_de": "Nutzen für Politik und Wirtschaft",
           "scale": "cat",
           "answers": [
             {
@@ -330,8 +333,8 @@
         },
         {
           "item": "igru07",
-          "text_de": "Mitwirkung an wissenschaftlichem Forschen",
           "text": "Participation in scientific research",
+          "text_de": "Mitwirkung an wissenschaftlichem Forschen",
           "scale": "cat",
           "answers": [
             {
@@ -382,19 +385,20 @@
       "question": "2",
       "name": "2",
       "label": "How far does your work meet/met that expectations, regarding your work for „Living in Germany“?",
+      "label_de": "Und inwieweit werden oder wurden diese Erwartungen speziell bei LEBEN IN DEUTSCHLAND erfüllt?",
       "items": [
         {
           "item": "2",
-          "text_de": "Und inwieweit werden oder wurden diese Erwartungen speziell bei LEBEN IN DEUTSCHLAND erfüllt?",
           "text": "How far does your work meet/met that expectations, regarding your work for „Living in Germany“?",
+          "text_de": "Und inwieweit werden oder wurden diese Erwartungen speziell bei LEBEN IN DEUTSCHLAND erfüllt?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ierf08",
-          "text_de": "Verdienst",
           "text": "Earning",
+          "text_de": "Verdienst",
           "scale": "cat",
           "answers": [
             {
@@ -438,8 +442,8 @@
         },
         {
           "item": "ierf09",
-          "text_de": "Interessante Tätigkeit",
           "text": "Interesting job",
+          "text_de": "Interessante Tätigkeit",
           "scale": "cat",
           "answers": [
             {
@@ -483,8 +487,8 @@
         },
         {
           "item": "ierf10",
-          "text_de": "Freie Arbeitszeiteinteilung",
           "text": "Flexible schedule",
+          "text_de": "Freie Arbeitszeiteinteilung",
           "scale": "cat",
           "answers": [
             {
@@ -528,8 +532,8 @@
         },
         {
           "item": "ierf11",
-          "text_de": "Gelegenheit unter die Leute zu kommen",
           "text": "Opportunity to be together with people",
+          "text_de": "Gelegenheit unter die Leute zu kommen",
           "scale": "cat",
           "answers": [
             {
@@ -573,8 +577,8 @@
         },
         {
           "item": "ierf12",
-          "text_de": "Einblicke in andere soziale Lebensumstände",
           "text": "Get an insight into other life circumstances",
+          "text_de": "Einblicke in andere soziale Lebensumstände",
           "scale": "cat",
           "answers": [
             {
@@ -618,8 +622,8 @@
         },
         {
           "item": "ierf13",
-          "text_de": "Nutzen für Politik und Wirtschaft",
           "text": "Benefit for politics and economy",
+          "text_de": "Nutzen für Politik und Wirtschaft",
           "scale": "cat",
           "answers": [
             {
@@ -663,8 +667,8 @@
         },
         {
           "item": "ierf14",
-          "text_de": "Mitwirkung an wissenschaftlichem Forschen",
           "text": "Contribute in scientific research",
+          "text_de": "Mitwirkung an wissenschaftlichem Forschen",
           "scale": "cat",
           "answers": [
             {
@@ -715,19 +719,20 @@
       "question": "3",
       "name": "3",
       "label": "The survey LIVING IN GERMANY involves people from very different social backgrounds. What is your experience: How willingly or unwillingly do the following people participate in LIVING IN GERMANY?",
+      "label_de": "An der Umfrage LEBEN IN DEUTSCHLAND nehmen Menschen mit sehr unterschiedlichem sozialen Hintergrund Teil. Wie ist Ihre Erfahrung: Wie gerne oder ungern machen die folgenden Personen bei LEBEN IN DEUTSCHLAND mit?",
       "items": [
         {
           "item": "3",
-          "text_de": "An der Umfrage LEBEN IN DEUTSCHLAND nehmen Menschen mit sehr unterschiedlichem sozialen Hintergrund Teil. Wie ist Ihre Erfahrung: Wie gerne oder ungern machen die folgenden Personen bei LEBEN IN DEUTSCHLAND mit?",
           "text": "The survey LIVING IN GERMANY involves people from very different social backgrounds. What is your experience: How willingly or unwillingly do the following people participate in LIVING IN GERMANY?",
+          "text_de": "An der Umfrage LEBEN IN DEUTSCHLAND nehmen Menschen mit sehr unterschiedlichem sozialen Hintergrund Teil. Wie ist Ihre Erfahrung: Wie gerne oder ungern machen die folgenden Personen bei LEBEN IN DEUTSCHLAND mit?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "itebe01",
-          "text_de": "Männer",
           "text": "men",
+          "text_de": "Männer",
           "scale": "cat",
           "answers": [
             {
@@ -771,8 +776,8 @@
         },
         {
           "item": "itebe02",
-          "text_de": "Frauen",
           "text": "women",
+          "text_de": "Frauen",
           "scale": "cat",
           "answers": [
             {
@@ -816,8 +821,8 @@
         },
         {
           "item": "itebe03",
-          "text_de": "Ältere Befragte",
           "text": "Older respondents",
+          "text_de": "Ältere Befragte",
           "scale": "cat",
           "answers": [
             {
@@ -861,8 +866,8 @@
         },
         {
           "item": "itebe04",
-          "text_de": "Befragte mittleren Alters",
           "text": "Middle-aged respondents",
+          "text_de": "Befragte mittleren Alters",
           "scale": "cat",
           "answers": [
             {
@@ -906,8 +911,8 @@
         },
         {
           "item": "itebe05",
-          "text_de": "Jüngere Befragte",
           "text": "Younger respondents",
+          "text_de": "Jüngere Befragte",
           "scale": "cat",
           "answers": [
             {
@@ -951,8 +956,8 @@
         },
         {
           "item": "itebe06",
-          "text_de": "Befragte mit ausländischer Herkunft",
           "text": "Respondents of foreign origin",
+          "text_de": "Befragte mit ausländischer Herkunft",
           "scale": "cat",
           "answers": [
             {
@@ -996,8 +1001,8 @@
         },
         {
           "item": "itebe07",
-          "text_de": "Arbeitslose Befragte",
           "text": "Unemployed respondents",
+          "text_de": "Arbeitslose Befragte",
           "scale": "cat",
           "answers": [
             {
@@ -1041,8 +1046,8 @@
         },
         {
           "item": "itebe08",
-          "text_de": "Personen mit einfacher Bildung",
           "text": "Persons with simple education",
+          "text_de": "Personen mit einfacher Bildung",
           "scale": "cat",
           "answers": [
             {
@@ -1086,8 +1091,8 @@
         },
         {
           "item": "itebe09",
-          "text_de": "Personen mit höherer Bildung",
           "text": "Persons with higher education",
+          "text_de": "Personen mit höherer Bildung",
           "scale": "cat",
           "answers": [
             {
@@ -1131,8 +1136,8 @@
         },
         {
           "item": "itebe10",
-          "text_de": "Personen aus unteren Einkommensschichten",
           "text": "Persons from lower income groups",
+          "text_de": "Personen aus unteren Einkommensschichten",
           "scale": "cat",
           "answers": [
             {
@@ -1176,8 +1181,8 @@
         },
         {
           "item": "itebe11",
-          "text_de": "Personen aus oberen Einkommensschichten",
           "text": "Persons from upper income groups",
+          "text_de": "Personen aus oberen Einkommensschichten",
           "scale": "cat",
           "answers": [
             {
@@ -1228,11 +1233,12 @@
       "question": "4",
       "name": "4",
       "label": "In 2012, did you take part in a decentralised oral interview training course for the subprojects of the study Living in Germany?",
+      "label_de": "Haben Sie im Jahr 2012 an einer dezentral durchgeführten, mündlichen Interviewerschulung für die Teilprojekte der Studie Leben in Deutschland teilgenommen?",
       "items": [
         {
           "item": "ibschul",
-          "text_de": "Haben Sie im Jahr 2012 an einer dezentral durchgeführten, mündlichen Interviewerschulung für die Teilprojekte der Studie Leben in Deutschland teilgenommen?",
           "text": "In 2012, did you take part in a decentralised oral interview training course for the subprojects of the study Living in Germany?",
+          "text_de": "Haben Sie im Jahr 2012 an einer dezentral durchgeführten, mündlichen Interviewerschulung für die Teilprojekte der Studie Leben in Deutschland teilgenommen?",
           "scale": "cat",
           "answers": [
             {
@@ -1258,19 +1264,20 @@
       "question": "5",
       "name": "5",
       "label": "And how do you rate the event in relation to:",
+      "label_de": "Und wie beurteilen Sie die Veranstaltung in Bezug auf:",
       "items": [
         {
           "item": "4",
-          "text_de": "Und wie beurteilen Sie die Veranstaltung in Bezug auf:",
           "text": "And how do you rate the event in relation to:",
+          "text_de": "Und wie beurteilen Sie die Veranstaltung in Bezug auf:",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibseval01",
-          "text_de": "Die Austauschmöglichkeit mit Interviewerkollegen/innen",
           "text": "The opportunity to exchange ideas with fellow interviewers",
+          "text_de": "Die Austauschmöglichkeit mit Interviewerkollegen/innen",
           "scale": "cat",
           "answers": [
             {
@@ -1314,8 +1321,8 @@
         },
         {
           "item": "ibseval02",
-          "text_de": "Die Austauschmöglichkeit mit den Studienverantwortlichen bei TNS Infratest",
           "text": "The opportunity to exchange information with those responsible for studies at TNS Infratest",
+          "text_de": "Die Austauschmöglichkeit mit den Studienverantwortlichen bei TNS Infratest",
           "scale": "cat",
           "answers": [
             {
@@ -1359,8 +1366,8 @@
         },
         {
           "item": "ibseval03",
-          "text_de": "Den Einfluss auf die allgemeine Motivation für die Studie",
           "text": "The influence on the general motivation for the study",
+          "text_de": "Den Einfluss auf die allgemeine Motivation für die Studie",
           "scale": "cat",
           "answers": [
             {
@@ -1404,8 +1411,8 @@
         },
         {
           "item": "ibseval04",
-          "text_de": "Nur wenn während der Schulung Mitarbeiter des DIW anwesend waren: Die Austauschmöglichkeit mit den Studienverantwortlichen beim DIW Berlin",
           "text": "Only if DIW employees were present during the training: The opportunity to exchange ideas with those responsible for studies at DIW Berlin",
+          "text_de": "Nur wenn während der Schulung Mitarbeiter des DIW anwesend waren: Die Austauschmöglichkeit mit den Studienverantwortlichen beim DIW Berlin",
           "scale": "cat",
           "answers": [
             {
@@ -1456,11 +1463,12 @@
       "question": "6",
       "name": "6",
       "label": "Have you already used the means of cash payment of the survey participants within the scope of your interviewer activity at Living in Germany?",
+      "label_de": "Haben Sie im Rahmen Ihrer Interviewertätigkeit bei Leben in Deutschland schon das mittel der Bargeldhonorierung der Befragungsteilnehmer eingesetzt?",
       "items": [
         {
           "item": "ibbarhon",
-          "text_de": "Haben Sie im Rahmen Ihrer Interviewertätigkeit bei Leben in Deutschland schon das mittel der Bargeldhonorierung der Befragungsteilnehmer eingesetzt?",
           "text": "Have you already used the means of cash payment of the survey participants within the scope of your interviewer activity at Living in Germany?",
+          "text_de": "Haben Sie im Rahmen Ihrer Interviewertätigkeit bei Leben in Deutschland schon das mittel der Bargeldhonorierung der Befragungsteilnehmer eingesetzt?",
           "scale": "cat",
           "answers": [
             {
@@ -1486,11 +1494,12 @@
       "question": "7",
       "name": "7",
       "label": "Do you personally have the impression that cash incentive makes your work easier?",
+      "label_de": "Haben Sie persönlich den Eindruck, dass die Bargeldincentivierung ihre Arbeit erleichtert?",
       "items": [
         {
           "item": "ibbeval",
-          "text_de": "Haben Sie persönlich den Eindruck, dass die Bargeldincentivierung ihre Arbeit erleichtert?",
           "text": "Do you personally have the impression that cash incentive makes your work easier?",
+          "text_de": "Haben Sie persönlich den Eindruck, dass die Bargeldincentivierung ihre Arbeit erleichtert?",
           "scale": "cat",
           "answers": [
             {
@@ -1541,29 +1550,30 @@
       "question": "8",
       "name": "8",
       "label": "What kind of personality are you?",
+      "label_de": "Was für eine Persönlichkeit sind Sie?",
       "items": [
         {
           "item": "5",
-          "text_de": "Was für eine Persönlichkeit sind Sie?",
           "text": "What kind of personality are you?",
+          "text_de": "Was für eine Persönlichkeit sind Sie?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "6",
-          "text_de": "Im Folgenden sind unterschiedliche Eigenschaften genannt, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persönlich voll zutreffen und andere überhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden.",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "text": "The following are different characteristics that a person can have. Probably some characteristics will apply to you personally completely and others not at all. With others again, you may be undecided.",
+          "text_de": "Im Folgenden sind unterschiedliche Eigenschaften genannt, die eine Person haben kann. Wahrscheinlich werden einige Eigenschaften auf Sie persönlich voll zutreffen und andere überhaupt nicht. Bei wieder anderen sind Sie vielleicht unentschieden.",
           "instruction": "Please answer using the following scale. The value 1 means: does not apply at all. A value of 7 means: applies absolutely. With the values between 1 and 7 you can gradate your opinion.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 können Sie Ihre Meinung abstufen.",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "iego01",
-          "text_de": "gründlich arbeitet",
           "text": "works thoroughly",
+          "text_de": "gründlich arbeitet",
           "scale": "cat",
           "answers": [
             {
@@ -1607,8 +1617,8 @@
         },
         {
           "item": "iego02",
-          "text_de": "kommunikativ, gesprächig ist",
           "text": "communicative, talkative",
+          "text_de": "kommunikativ, gesprächig ist",
           "scale": "cat",
           "answers": [
             {
@@ -1652,8 +1662,8 @@
         },
         {
           "item": "iego03",
-          "text_de": "manchmal etwas grob zu anderen ist",
           "text": "is sometimes a little rough with others",
+          "text_de": "manchmal etwas grob zu anderen ist",
           "scale": "cat",
           "answers": [
             {
@@ -1697,8 +1707,8 @@
         },
         {
           "item": "iego04",
-          "text_de": "originell ist, neue Ideen einbringt",
           "text": "is original, brings in new ideas",
+          "text_de": "originell ist, neue Ideen einbringt",
           "scale": "cat",
           "answers": [
             {
@@ -1742,8 +1752,8 @@
         },
         {
           "item": "iego05",
-          "text_de": "sich oft Sorgen macht",
           "text": "is often worried",
+          "text_de": "sich oft Sorgen macht",
           "scale": "cat",
           "answers": [
             {
@@ -1787,8 +1797,8 @@
         },
         {
           "item": "iego06",
-          "text_de": "verzeihen kann",
           "text": "can forgive",
+          "text_de": "verzeihen kann",
           "scale": "cat",
           "answers": [
             {
@@ -1832,8 +1842,8 @@
         },
         {
           "item": "iego07",
-          "text_de": "eher faul ist",
           "text": "is rather lazy",
+          "text_de": "eher faul ist",
           "scale": "cat",
           "answers": [
             {
@@ -1877,8 +1887,8 @@
         },
         {
           "item": "iego08",
-          "text_de": "aus sich herausgehen kann, gesellig ist",
           "text": "can come out of himself, is sociable",
+          "text_de": "aus sich herausgehen kann, gesellig ist",
           "scale": "cat",
           "answers": [
             {
@@ -1922,8 +1932,8 @@
         },
         {
           "item": "iego09",
-          "text_de": "künstlerische, ästhetische Erfahrungen schätzt",
           "text": "appreciates artistic, aesthetic experiences",
+          "text_de": "künstlerische, ästhetische Erfahrungen schätzt",
           "scale": "cat",
           "answers": [
             {
@@ -1967,8 +1977,8 @@
         },
         {
           "item": "iego10",
-          "text_de": "leicht nervös wird",
           "text": "get a little nervous",
+          "text_de": "leicht nervös wird",
           "scale": "cat",
           "answers": [
             {
@@ -2012,8 +2022,8 @@
         },
         {
           "item": "iego11",
-          "text_de": "Aufgaben wirksam und effizient erledigt",
           "text": "complete tasks effectively and efficiently",
+          "text_de": "Aufgaben wirksam und effizient erledigt",
           "scale": "cat",
           "answers": [
             {
@@ -2057,8 +2067,8 @@
         },
         {
           "item": "iego12",
-          "text_de": "zurückhaltend ist",
           "text": "is reticent",
+          "text_de": "zurückhaltend ist",
           "scale": "cat",
           "answers": [
             {
@@ -2102,8 +2112,8 @@
         },
         {
           "item": "iego13",
-          "text_de": "rücksichtsvoll und freundlich mit anderen umgeht",
           "text": "treat others with respect and kindness",
+          "text_de": "rücksichtsvoll und freundlich mit anderen umgeht",
           "scale": "cat",
           "answers": [
             {
@@ -2147,8 +2157,8 @@
         },
         {
           "item": "iego14",
-          "text_de": "eine lebhafte Phantasie, Vorstellungen hat",
           "text": "a vivid imagination, has ideas",
+          "text_de": "eine lebhafte Phantasie, Vorstellungen hat",
           "scale": "cat",
           "answers": [
             {
@@ -2192,8 +2202,8 @@
         },
         {
           "item": "iego15",
-          "text_de": "entspannt ist, mit Stress gut umgehen kann",
           "text": "is relaxed, can cope well with stress",
+          "text_de": "entspannt ist, mit Stress gut umgehen kann",
           "scale": "cat",
           "answers": [
             {
@@ -2237,8 +2247,8 @@
         },
         {
           "item": "iego17",
-          "text_de": "bestimmend ist",
           "text": "is decisive",
+          "text_de": "bestimmend ist",
           "scale": "cat",
           "answers": [
             {
@@ -2282,8 +2292,8 @@
         },
         {
           "item": "iego18",
-          "text_de": "mit anderen mitfühlt",
           "text": "empathize with others",
+          "text_de": "mit anderen mitfühlt",
           "scale": "cat",
           "answers": [
             {
@@ -2327,8 +2337,8 @@
         },
         {
           "item": "iego19",
-          "text_de": "sich meist durchsetzt",
           "text": "is the most widely accepted",
+          "text_de": "sich meist durchsetzt",
           "scale": "cat",
           "answers": [
             {
@@ -2372,8 +2382,8 @@
         },
         {
           "item": "iego20",
-          "text_de": "verständnisvoll für die Sorgen anderer ist",
           "text": "is understanding for the concerns of others",
+          "text_de": "verständnisvoll für die Sorgen anderer ist",
           "scale": "cat",
           "answers": [
             {
@@ -2417,8 +2427,8 @@
         },
         {
           "item": "iego21",
-          "text_de": "weniger auffällt",
           "text": "less conspicuous",
+          "text_de": "weniger auffällt",
           "scale": "cat",
           "answers": [
             {
@@ -2462,8 +2472,8 @@
         },
         {
           "item": "iego22",
-          "text_de": "eher kalt und gefühllos ist",
           "text": "is rather cold and unfeeling",
+          "text_de": "eher kalt und gefühllos ist",
           "scale": "cat",
           "answers": [
             {
@@ -2514,11 +2524,12 @@
       "question": "9",
       "name": "9",
       "label": "If you think about the future: are you ...",
+      "label_de": "Wenn Sie an die Zukunft denken: sind Sie da ...",
       "items": [
         {
           "item": "ibopt",
-          "text_de": "Wenn Sie an die Zukunft denken: sind Sie da ...",
           "text": "If you think about the future: are you ...",
+          "text_de": "Wenn Sie an die Zukunft denken: sind Sie da ...",
           "scale": "cat",
           "answers": [
             {
@@ -2554,13 +2565,14 @@
       "question": "10",
       "name": "10",
       "label": "How do you see yourself: Are you generally willing to take risks, or do you try to avoid risks?",
+      "label_de": "Wie schätzen Sie sich persönlich ein: Sind Sie im Allgemeinen ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden?",
       "items": [
         {
           "item": "irisk",
-          "text_de": "Wie schätzen Sie sich persönlich ein: Sind Sie im Allgemeinen ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden?",
-          "instruction_de": "Bitte kreuzen Sie ein Kästchen auf der Skala an, wobei der Wert 0 bedeutet: \"gar nicht risikobereit\" und der Wert 10: \"sehr risikobereit\". Mit den Werten dazwischen können Sie Ihre Einschätzung abstufen.",
           "text": "How do you see yourself: Are you generally willing to take risks, or do you try to avoid risks?",
+          "text_de": "Wie schätzen Sie sich persönlich ein: Sind Sie im Allgemeinen ein risikobereiter Mensch oder versuchen Sie, Risiken zu vermeiden?",
           "instruction": "Please answer on a scale from 0 to 10, where 0 means risk-averse and 10 means risk-prone.",
+          "instruction_de": "Bitte kreuzen Sie ein Kästchen auf der Skala an, wobei der Wert 0 bedeutet: \"gar nicht risikobereit\" und der Wert 10: \"sehr risikobereit\". Mit den Werten dazwischen können Sie Ihre Einschätzung abstufen.",
           "scale": "cat",
           "answers": [
             {
@@ -2631,11 +2643,12 @@
       "question": "11",
       "name": "11",
       "label": "Do you think most people …",
+      "label_de": "Glauben Sie, dass die meisten Leute …",
       "items": [
         {
           "item": "ibez04",
-          "text_de": "Glauben Sie, dass die meisten Leute …",
           "text": "Do you think most people …",
+          "text_de": "Glauben Sie, dass die meisten Leute …",
           "scale": "cat",
           "answers": [
             {
@@ -2661,11 +2674,12 @@
       "question": "12",
       "name": "12",
       "label": "Do you think people most time …",
+      "label_de": "Würden Sie sagen, dass die Leute die meiste Zeit …",
       "items": [
         {
           "item": "ibez05",
-          "text_de": "Würden Sie sagen, dass die Leute die meiste Zeit …",
           "text": "Do you think people most time …",
+          "text_de": "Würden Sie sagen, dass die Leute die meiste Zeit …",
           "scale": "cat",
           "answers": [
             {
@@ -2691,21 +2705,22 @@
       "question": "13",
       "name": "13",
       "label": "How far do you agree with the following statements?",
+      "label_de": "Wie sehr stimmen Sie den folgenden Aussagen zu?",
       "items": [
         {
           "item": "7",
-          "text_de": "Wie sehr stimmen Sie den folgenden Aussagen zu?",
-          "instruction_de": "Kreuzen Sie bitte jeweils ein Kästchen an.",
           "text": "How far do you agree with the following statements?",
+          "text_de": "Wie sehr stimmen Sie den folgenden Aussagen zu?",
           "instruction": "Please state only one!",
+          "instruction_de": "Kreuzen Sie bitte jeweils ein Kästchen an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibez01",
-          "text_de": "Im Allgemeinen kann man den Menschen vertrauen",
           "text": "In general people are trustworthy.",
+          "text_de": "Im Allgemeinen kann man den Menschen vertrauen",
           "scale": "cat",
           "answers": [
             {
@@ -2734,8 +2749,8 @@
         },
         {
           "item": "ibez02",
-          "text_de": "Heutzutage kann man sich auf niemanden mehr verlassen",
           "text": "Today you can not count on anyone.",
+          "text_de": "Heutzutage kann man sich auf niemanden mehr verlassen",
           "scale": "cat",
           "answers": [
             {
@@ -2764,8 +2779,8 @@
         },
         {
           "item": "ibez03",
-          "text_de": "Wenn man mit Fremden zu tun hat, ist es besser vorsichtig zu sein, bevor man ihnen vertraut",
           "text": "If you have to deal with strangers, it is better to be cautious.",
+          "text_de": "Wenn man mit Fremden zu tun hat, ist es besser vorsichtig zu sein, bevor man ihnen vertraut",
           "scale": "cat",
           "answers": [
             {
@@ -2801,13 +2816,14 @@
       "question": "14",
       "name": "14",
       "label": "How do you see yourself: Are you rather impatient or very patient?",
+      "label_de": "Wie schätzen Sie sich persönlich ein: Sind Sie im Allgemeinen ein Mensch, der ungeduldig ist, oder der immer sehr viel Geduld aufbringt?",
       "items": [
         {
           "item": "iged",
-          "text_de": "Wie schätzen Sie sich persönlich ein: Sind Sie im Allgemeinen ein Mensch, der ungeduldig ist, oder der immer sehr viel Geduld aufbringt?",
-          "instruction_de": "Bitte kreuzen Sie ein Kästchen auf der Skala an, wobei der Wert 0 bedeutet: \"sehr ungeduldig\" und der Wert 10: \"sehr geduldig\". Mit den Werten dazwischen können Sie Ihre Einschätzung abstufen.",
           "text": "How do you see yourself: Are you rather impatient or very patient?",
+          "text_de": "Wie schätzen Sie sich persönlich ein: Sind Sie im Allgemeinen ein Mensch, der ungeduldig ist, oder der immer sehr viel Geduld aufbringt?",
           "instruction": "Please answer on a scale from 0 to 10, where 0 means very patient and 10 means very impatient.",
+          "instruction_de": "Bitte kreuzen Sie ein Kästchen auf der Skala an, wobei der Wert 0 bedeutet: \"sehr ungeduldig\" und der Wert 10: \"sehr geduldig\". Mit den Werten dazwischen können Sie Ihre Einschätzung abstufen.",
           "scale": "cat",
           "answers": [
             {
@@ -2878,19 +2894,20 @@
       "question": "15",
       "name": "15",
       "label": "The following statements characterise different attitudes. To what extent are those true for you?",
+      "label_de": "Im Folgenden geht es nochmals um menschliche Verhaltensweisen und Einstellungen. Was würden Sie sagen: Trifft der jeweilige Satz auf Sie persönlich zu?",
       "items": [
         {
           "item": "8",
-          "text_de": "Im Folgenden geht es nochmals um menschliche Verhaltensweisen und Einstellungen. Was würden Sie sagen: Trifft der jeweilige Satz auf Sie persönlich zu?",
           "text": "The following statements characterise different attitudes. To what extent are those true for you?",
+          "text_de": "Im Folgenden geht es nochmals um menschliche Verhaltensweisen und Einstellungen. Was würden Sie sagen: Trifft der jeweilige Satz auf Sie persönlich zu?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "iverh01",
-          "text_de": "Mein erster Eindruck von Menschen stellt sich gewöhnlich als richtig heraus",
           "text": "My first impression of people is usually correct",
+          "text_de": "Mein erster Eindruck von Menschen stellt sich gewöhnlich als richtig heraus",
           "scale": "cat",
           "answers": [
             {
@@ -2909,8 +2926,8 @@
         },
         {
           "item": "iverh02",
-          "text_de": "Ich bin mir oft unsicher in meinem Urteil.",
           "text": "I am often unsure in my judgement",
+          "text_de": "Ich bin mir oft unsicher in meinem Urteil.",
           "scale": "cat",
           "answers": [
             {
@@ -2929,8 +2946,8 @@
         },
         {
           "item": "iverh03",
-          "text_de": "Ich weiß immer genau, wieso ich etwas mag",
           "text": "I do exactly know why I like some things",
+          "text_de": "Ich weiß immer genau, wieso ich etwas mag",
           "scale": "cat",
           "answers": [
             {
@@ -2949,8 +2966,8 @@
         },
         {
           "item": "iverh04",
-          "text_de": "Ich habe schon mal zu viel Wechselgeld zurück bekommen und nichts gesagt",
           "text": "I once got too much change back and did not say anything",
+          "text_de": "Ich habe schon mal zu viel Wechselgeld zurück bekommen und nichts gesagt",
           "scale": "cat",
           "answers": [
             {
@@ -2969,8 +2986,8 @@
         },
         {
           "item": "iverh05",
-          "text_de": "Ich bin immer ehrlich zu anderen",
           "text": "I am always honest to others",
+          "text_de": "Ich bin immer ehrlich zu anderen",
           "scale": "cat",
           "answers": [
             {
@@ -2989,8 +3006,8 @@
         },
         {
           "item": "iverh06",
-          "text_de": "Ich habe gelegentlich mal jemanden ausgenutzt",
           "text": "From time to time I take advantage of someone",
+          "text_de": "Ich habe gelegentlich mal jemanden ausgenutzt",
           "scale": "cat",
           "answers": [
             {
@@ -3016,11 +3033,12 @@
       "question": "16",
       "name": "16",
       "label": "Generally speaking, how interested are you in politics?",
+      "label_de": "Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?",
       "items": [
         {
           "item": "ipol1",
-          "text_de": "Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?",
           "text": "Generally speaking, how interested are you in politics?",
+          "text_de": "Einmal ganz allgemein gesprochen: Wie stark interessieren Sie sich für Politik?",
           "scale": "cat",
           "answers": [
             {
@@ -3056,11 +3074,12 @@
       "question": "17",
       "name": "17",
       "label": "Many people in Germany sympathise with one party in the long term, even if they occasionally vote for another party or are not eligible to vote. Do you sympathise with a particular party?",
+      "label_de": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten Partei zu, obwohl sie auch ab und zu eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
       "items": [
         {
           "item": "ipol2",
-          "text_de": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten Partei zu, obwohl sie auch ab und zu eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
           "text": "Many people in Germany sympathise with one party in the long term, even if they occasionally vote for another party or are not eligible to vote. Do you sympathise with a particular party?",
+          "text_de": "Viele Leute in der Bundesrepublik neigen längere Zeit einer bestimmten Partei zu, obwohl sie auch ab und zu eine andere Partei wählen. Wie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
           "scale": "cat",
           "answers": [
             {
@@ -3086,11 +3105,12 @@
       "question": "18",
       "name": "18",
       "label": "Which party do you tend to?",
+      "label_de": "Welcher Partei neigen Sie zu?",
       "items": [
         {
           "item": "ipol3",
-          "text_de": "Welcher Partei neigen Sie zu?",
           "text": "Which party do you tend to?",
+          "text_de": "Welcher Partei neigen Sie zu?",
           "scale": "cat",
           "answers": [
             {
@@ -3144,16 +3164,16 @@
         },
         {
           "item": "ipolso",
-          "text_de": "[Andere] und zwar:",
           "text": "[Others]:",
+          "text_de": "[Andere] und zwar:",
           "scale": "chr",
           "sn": 1,
           "number": ""
         },
         {
           "item": "ipol4",
-          "text_de": "Und wie stark neigen Sie dieser Partei zu?",
           "text": "And how strongly do you tend to this party?",
+          "text_de": "Und wie stark neigen Sie dieser Partei zu?",
           "scale": "cat",
           "answers": [
             {
@@ -3194,19 +3214,20 @@
       "question": "19",
       "name": "19",
       "label": "What about the following areas - are you worried?",
+      "label_de": "Wie ist es mit den folgenden Gebieten – machen Sie sich da Sorgen?",
       "items": [
         {
           "item": "9",
-          "text_de": "Wie ist es mit den folgenden Gebieten – machen Sie sich da Sorgen?",
           "text": "What about the following areas - are you worried?",
+          "text_de": "Wie ist es mit den folgenden Gebieten – machen Sie sich da Sorgen?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "isor01",
-          "text_de": "Um die allgemeine wirtschaftliche Entwicklung?",
           "text": "General economic development?",
+          "text_de": "Um die allgemeine wirtschaftliche Entwicklung?",
           "scale": "cat",
           "answers": [
             {
@@ -3230,8 +3251,8 @@
         },
         {
           "item": "isor02",
-          "text_de": "Um Ihre eigene wirtschaftliche Situation?",
           "text": "About your own economic situation?",
+          "text_de": "Um Ihre eigene wirtschaftliche Situation?",
           "scale": "cat",
           "answers": [
             {
@@ -3255,8 +3276,8 @@
         },
         {
           "item": "isor11",
-          "text_de": "Um die Stabilität der Finanzmärkte",
           "text": "The stability of the financial markets",
+          "text_de": "Um die Stabilität der Finanzmärkte",
           "scale": "cat",
           "answers": [
             {
@@ -3280,8 +3301,8 @@
         },
         {
           "item": "isor03",
-          "text_de": "Um Ihre Gesundheit?",
           "text": "Your health?",
+          "text_de": "Um Ihre Gesundheit?",
           "scale": "cat",
           "answers": [
             {
@@ -3305,8 +3326,8 @@
         },
         {
           "item": "isor04",
-          "text_de": "Um den Schutz der Umwelt?",
           "text": "Protection of the environment?",
+          "text_de": "Um den Schutz der Umwelt?",
           "scale": "cat",
           "answers": [
             {
@@ -3330,8 +3351,8 @@
         },
         {
           "item": "isor12",
-          "text_de": "Um die Folgen des Klimawandels",
           "text": "The consequences of climate change?",
+          "text_de": "Um die Folgen des Klimawandels",
           "scale": "cat",
           "answers": [
             {
@@ -3355,8 +3376,8 @@
         },
         {
           "item": "isor05",
-          "text_de": "Um die Erhaltung des Friedens?",
           "text": "Preservation of peace?",
+          "text_de": "Um die Erhaltung des Friedens?",
           "scale": "cat",
           "answers": [
             {
@@ -3380,8 +3401,8 @@
         },
         {
           "item": "isor13",
-          "text_de": "Über den globalen Terrorismus",
           "text": "On global terrorism",
+          "text_de": "Über den globalen Terrorismus",
           "scale": "cat",
           "answers": [
             {
@@ -3405,8 +3426,8 @@
         },
         {
           "item": "isor06",
-          "text_de": "Über die Entwicklung der Kriminalität in Deutschland?",
           "text": "On the development of crime in Germany?",
+          "text_de": "Über die Entwicklung der Kriminalität in Deutschland?",
           "scale": "cat",
           "answers": [
             {
@@ -3430,8 +3451,8 @@
         },
         {
           "item": "isor08",
-          "text_de": "Über die Zuwanderung nach Deutschland?",
           "text": "About immigration to Germany?",
+          "text_de": "Über die Zuwanderung nach Deutschland?",
           "scale": "cat",
           "answers": [
             {
@@ -3455,8 +3476,8 @@
         },
         {
           "item": "isor09",
-          "text_de": "Über Ausländerfeindlichkeit und Fremdenhass in Deutschland?",
           "text": "On xenophobia and xenophobia in Germany?",
+          "text_de": "Über Ausländerfeindlichkeit und Fremdenhass in Deutschland?",
           "scale": "cat",
           "answers": [
             {
@@ -3480,8 +3501,8 @@
         },
         {
           "item": "isor14",
-          "text_de": "Um die Stabilität des Euro",
           "text": "The stability of the euro",
+          "text_de": "Um die Stabilität des Euro",
           "scale": "cat",
           "answers": [
             {
@@ -3505,8 +3526,8 @@
         },
         {
           "item": "isor10",
-          "text_de": "Nur wenn Sie erwerbstätig sind: Um die Sicherheit Ihres Arbeitsplatzes?",
           "text": "Only if you're employed: The security of your job?",
+          "text_de": "Nur wenn Sie erwerbstätig sind: Um die Sicherheit Ihres Arbeitsplatzes?",
           "scale": "cat",
           "answers": [
             {
@@ -3530,8 +3551,8 @@
         },
         {
           "item": "isorso",
-          "text_de": "Oder was sonst macht Ihnen Sorgen?",
           "text": "Or what else worries you?",
+          "text_de": "Oder was sonst macht Ihnen Sorgen?",
           "scale": "chr",
           "sn": 14,
           "number": ""
@@ -3545,11 +3566,12 @@
       "question": "0_2",
       "name": "0_2",
       "label": "Your education and employment",
+      "label_de": "Ihre Ausbildung und Erwerbstätigkeit",
       "items": [
         {
           "item": "10",
-          "text_de": "Ihre Ausbildung und Erwerbstätigkeit",
           "text": "Your education and employment",
+          "text_de": "Ihre Ausbildung und Erwerbstätigkeit",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -3563,11 +3585,12 @@
       "question": "20",
       "name": "20",
       "label": "What is your school leaving qualification?",
+      "label_de": "Welchen Schulabschluss haben Sie gemacht?",
       "items": [
         {
           "item": "ischabs",
-          "text_de": "Welchen Schulabschluss haben Sie gemacht?",
           "text": "What is your school leaving qualification?",
+          "text_de": "Welchen Schulabschluss haben Sie gemacht?",
           "scale": "cat",
           "answers": [
             {
@@ -3618,109 +3641,110 @@
       "question": "21",
       "name": "21",
       "label": "Are you currently working? What applies to you?",
+      "label_de": "Üben Sie derzeit eine Erwerbstätigkeit aus? Was trifft für Sie zu?",
       "items": [
         {
           "item": "11",
-          "text_de": "Üben Sie derzeit eine Erwerbstätigkeit aus? Was trifft für Sie zu?",
-          "instruction_de": "Mehrfachnennungen möglich!",
           "text": "Are you currently working? What applies to you?",
+          "text_de": "Üben Sie derzeit eine Erwerbstätigkeit aus? Was trifft für Sie zu?",
           "instruction": "Multiple answers possible!",
+          "instruction_de": "Mehrfachnennungen möglich!",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ierw01",
-          "text_de": "Voll erwerbstätig",
           "text": "Fully employed",
+          "text_de": "Voll erwerbstätig",
           "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "ierw02",
-          "text_de": "In Teilzeitbeschäftigung",
           "text": "Part-time employment",
+          "text_de": "In Teilzeitbeschäftigung",
           "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ierw03",
-          "text_de": "Geringfügig oder unregelmäßig erwerbstätig",
           "text": "Slightly or irregularly gainfully employed",
+          "text_de": "Geringfügig oder unregelmäßig erwerbstätig",
           "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "ierw04",
-          "text_de": "In betrieblicher Ausbildung / Lehre oder Umschulung",
           "text": "In in-company training / apprenticeship or retraining",
+          "text_de": "In betrieblicher Ausbildung / Lehre oder Umschulung",
           "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "ierw05",
-          "text_de": "Arbeitslos",
           "text": "Unemployed",
+          "text_de": "Arbeitslos",
           "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "ierw06",
-          "text_de": "In Altersteilzeit mit Arbeitszeit Null",
           "text": "In partial retirement with zero working time",
+          "text_de": "In Altersteilzeit mit Arbeitszeit Null",
           "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "ierw07",
-          "text_de": "In Rente / Pension",
           "text": "In retirement / pension",
+          "text_de": "In Rente / Pension",
           "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "ierw08",
-          "text_de": "Gesetzlich geregelte Elternzeit",
           "text": "Parental leave regulated by law",
+          "text_de": "Gesetzlich geregelte Elternzeit",
           "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "ierw09",
-          "text_de": "Hausfrau / Hausmann",
           "text": "housewife / househusband",
+          "text_de": "Hausfrau / Hausmann",
           "scale": "bin",
           "sn": 9,
           "number": ""
         },
         {
           "item": "ierw10",
-          "text_de": "Student",
           "text": "undergraduate",
+          "text_de": "Student",
           "scale": "bin",
           "sn": 10,
           "number": ""
         },
         {
           "item": "ierw11",
-          "text_de": "Sonstiges",
           "text": "Other",
+          "text_de": "Sonstiges",
           "scale": "bin",
           "sn": 11,
           "number": ""
         },
         {
           "item": "ierwso",
-          "text_de": "[sonstiges] und zwar:",
           "text": "and that is:",
+          "text_de": "[sonstiges] und zwar:",
           "scale": "chr",
           "sn": 12,
           "number": ""
@@ -3734,11 +3758,12 @@
       "question": "22",
       "name": "22",
       "label": "In which professional position are you currently employed, in addition to your interviewer activity?",
+      "label_de": "In welcher beruflichen Stellung sind Sie derzeit, neben Ihrer Interviewertätigkeit, beschäftigt?",
       "items": [
         {
           "item": "istell",
-          "text_de": "In welcher beruflichen Stellung sind Sie derzeit, neben Ihrer Interviewertätigkeit, beschäftigt?",
           "text": "In which professional position are you currently employed, in addition to your interviewer activity?",
+          "text_de": "In welcher beruflichen Stellung sind Sie derzeit, neben Ihrer Interviewertätigkeit, beschäftigt?",
           "scale": "cat",
           "answers": [
             {
@@ -3774,11 +3799,12 @@
       "question": "23",
       "name": "23",
       "label": "Is the company in which you work alongside your interviewer activity part of the public service?",
+      "label_de": "Gehört der Betrieb, in dem Sie neben Ihrer Interviewertätigkeit arbeiten, zum öffentlichen Dienst?",
       "items": [
         {
           "item": "ioed",
-          "text_de": "Gehört der Betrieb, in dem Sie neben Ihrer Interviewertätigkeit arbeiten, zum öffentlichen Dienst?",
           "text": "Is the company in which you work alongside your interviewer activity part of the public service?",
+          "text_de": "Gehört der Betrieb, in dem Sie neben Ihrer Interviewertätigkeit arbeiten, zum öffentlichen Dienst?",
           "scale": "cat",
           "answers": [
             {
@@ -3804,13 +3830,14 @@
       "question": "24",
       "name": "24",
       "label": "Apart from your work as an interviewer, what is your current occupation?",
+      "label_de": "Abgesehen von Ihrer Arbeit als Interviewer: Welche berufliche Tätigkeit üben Sie derzeit aus?",
       "items": [
         {
           "item": "iber",
-          "text_de": "Abgesehen von Ihrer Arbeit als Interviewer: Welche berufliche Tätigkeit üben Sie derzeit aus?",
-          "instruction_de": "Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht \"kaufmännische Angestellte\", sondern: \"Speditionskauffrau\", nicht \"Arbeiter\", sondern: \"Maschinenschlosser\". Wenn Sie Beamter sind, geben Sie bitte Ihre Amtsbezeichnung an, z.B. \"Polizeimeister\", oder \"Studienrat\". Wenn Sie Auszubildender sind, geben Sie bitte Ihren Ausbildungsberuf an.",
           "text": "Apart from your work as an interviewer, what is your current occupation?",
+          "text_de": "Abgesehen von Ihrer Arbeit als Interviewer: Welche berufliche Tätigkeit üben Sie derzeit aus?",
           "instruction": "Please enter the exact job description, e.g. not \"commercial employee\", but: \"forwarding merchant\", not \"worker\", but: \"machine fitter\". If you are a civil servant, please enter your official title, e.g. \"police master\" or \"student council\". If you are a trainee, please enter your occupation.",
+          "instruction_de": "Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht \"kaufmännische Angestellte\", sondern: \"Speditionskauffrau\", nicht \"Arbeiter\", sondern: \"Maschinenschlosser\". Wenn Sie Beamter sind, geben Sie bitte Ihre Amtsbezeichnung an, z.B. \"Polizeimeister\", oder \"Studienrat\". Wenn Sie Auszubildender sind, geben Sie bitte Ihren Ausbildungsberuf an.",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -3824,11 +3851,12 @@
       "question": "25",
       "name": "25",
       "label": "In which professional position were you last employed?",
+      "label_de": "In welcher beruflichen Stellung waren Sie zuletzt beschäftigt?",
       "items": [
         {
           "item": "iblstell",
-          "text_de": "In welcher beruflichen Stellung waren Sie zuletzt beschäftigt?",
           "text": "In which professional position were you last employed?",
+          "text_de": "In welcher beruflichen Stellung waren Sie zuletzt beschäftigt?",
           "scale": "cat",
           "answers": [
             {
@@ -3869,11 +3897,12 @@
       "question": "26",
       "name": "26",
       "label": "Was the company where you last worked part of the public service?",
+      "label_de": "Gehörte der Betrieb, in dem Sie zuletzt gearbeitet haben, zum öffentlichen Dienst?",
       "items": [
         {
           "item": "ibloed",
-          "text_de": "Gehörte der Betrieb, in dem Sie zuletzt gearbeitet haben, zum öffentlichen Dienst?",
           "text": "Was the company where you last worked part of the public service?",
+          "text_de": "Gehörte der Betrieb, in dem Sie zuletzt gearbeitet haben, zum öffentlichen Dienst?",
           "scale": "cat",
           "answers": [
             {
@@ -3899,13 +3928,14 @@
       "question": "27",
       "name": "27",
       "label": "Apart from your work as an interviewer, what was your last professional activity?",
+      "label_de": "Abgesehen von Ihrer Arbeit als Interviewer: Welche berufliche Tätigkeit haben Sie zuletzt ausgeübt?",
       "items": [
         {
           "item": "iblber",
-          "text_de": "Abgesehen von Ihrer Arbeit als Interviewer: Welche berufliche Tätigkeit haben Sie zuletzt ausgeübt?",
-          "instruction_de": "Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht \"kaufmännische Angestellte\", sondern: \"Speditionskauffrau\", nicht \"Arbeiter\", sondern: \"Maschinenschlosser\". Wenn Sie Beamter sind, geben Sie bitte Ihre Amtsbezeichnung an, z.B. \"Polizeimeister\", oder \"Studienrat\". Wenn Sie Auszubildender sind, geben Sie bitte Ihren Ausbildungsberuf an.",
           "text": "Apart from your work as an interviewer, what was your last professional activity?",
+          "text_de": "Abgesehen von Ihrer Arbeit als Interviewer: Welche berufliche Tätigkeit haben Sie zuletzt ausgeübt?",
           "instruction": "Please enter the exact job description, e.g. not \"commercial employee\", but: \"forwarding merchant\", not \"worker\", but: \"machine fitter\". If you are a civil servant, please enter your official title, e.g. \"police master\" or \"student council\". If you are a trainee, please enter your occupation.",
+          "instruction_de": "Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht \"kaufmännische Angestellte\", sondern: \"Speditionskauffrau\", nicht \"Arbeiter\", sondern: \"Maschinenschlosser\". Wenn Sie Beamter sind, geben Sie bitte Ihre Amtsbezeichnung an, z.B. \"Polizeimeister\", oder \"Studienrat\". Wenn Sie Auszubildender sind, geben Sie bitte Ihren Ausbildungsberuf an.",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -3919,51 +3949,52 @@
       "question": "28",
       "name": "28",
       "label": "How many hours a week do you work on average?",
+      "label_de": "Wie viele stunden in der Woche arbeiten Sie im Durchschnitt:",
       "items": [
         {
           "item": "12",
-          "text_de": "Wie viele stunden in der Woche arbeiten Sie im Durchschnitt:",
           "text": "How many hours a week do you work on average?",
+          "text_de": "Wie viele stunden in der Woche arbeiten Sie im Durchschnitt:",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibwsist01",
-          "text_de": "Als Interviewer für TNS Infratest insgesamt",
           "text": "As interviewer for TNS Infratest in total",
+          "text_de": "Als Interviewer für TNS Infratest insgesamt",
           "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "ibwsist02",
-          "text_de": "Davon: – Als Interviewer für Leben in Deutschland (ohne FID)",
           "text": "Of these: - As interviewer for „Living in Germany“ (without FID)",
+          "text_de": "Davon: – Als Interviewer für Leben in Deutschland (ohne FID)",
           "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ibwsist03",
-          "text_de": "[Davon:] – Als Interviewer für Familien in Deutschland",
           "text": "[Of these:] - As interviewer for „Families in Germany“",
+          "text_de": "[Davon:] – Als Interviewer für Familien in Deutschland",
           "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "ibwsist04",
-          "text_de": "Als Interviewer für andere Institute",
           "text": "As interviewer for other institutions",
+          "text_de": "Als Interviewer für andere Institute",
           "scale": "int",
           "sn": 4,
           "number": ""
         },
         {
           "item": "ibwsist05",
-          "text_de": "Im Rahmen meiner Erwerbstätigkeit neben der Interviewertätigkeit (falls vorhanden)",
           "text": "In the context of my gainful employment in addition to the interviewer activity (if available)",
+          "text_de": "Im Rahmen meiner Erwerbstätigkeit neben der Interviewertätigkeit (falls vorhanden)",
           "scale": "int",
           "sn": 5,
           "number": ""
@@ -3977,95 +4008,96 @@
       "question": "29",
       "name": "29",
       "label": "Do you also conduct surveys as part of other social science surveys?",
+      "label_de": "Führen Sie auch Befragungen im rahmen anderer sozialwissenschaftlicher Erhebungen durch?",
       "items": [
         {
           "item": "13",
-          "text_de": "Führen Sie auch Befragungen im rahmen anderer sozialwissenschaftlicher Erhebungen durch?",
-          "instruction_de": "Bitte alles Zutreffende ankreuzen.",
           "text": "Do you also conduct surveys as part of other social science surveys?",
+          "text_de": "Führen Sie auch Befragungen im rahmen anderer sozialwissenschaftlicher Erhebungen durch?",
           "instruction": "Please tick all that apply.",
+          "instruction_de": "Bitte alles Zutreffende ankreuzen.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibsozer01",
-          "text_de": "[Arbeite …] auch für PASS",
           "text": "[work ...] also for PASS",
+          "text_de": "[Arbeite …] auch für PASS",
           "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "ibsozer02",
-          "text_de": "[Arbeite …] auch für Beziehungen und Familienleben in Deutschland",
           "text": "[Work ...] also for Relationships and Family Life in Germany",
+          "text_de": "[Arbeite …] auch für Beziehungen und Familienleben in Deutschland",
           "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ibsozer03",
-          "text_de": "[Arbeite …] auch für ALLBUS",
           "text": "[Work ...] also for ALLBUS",
+          "text_de": "[Arbeite …] auch für ALLBUS",
           "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "ibsozer04",
-          "text_de": "[Arbeite …] auch für ESS",
           "text": "[Work...] also for ESS",
+          "text_de": "[Arbeite …] auch für ESS",
           "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "ibsozer05",
-          "text_de": "[Arbeite …] auch für SHARE",
           "text": "[Work ...] also for SHARE",
+          "text_de": "[Arbeite …] auch für SHARE",
           "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "ibsozer06",
-          "text_de": "[Arbeite …] auch für das IAB-Betriebspanel",
           "text": "[Work ...] also for the IAB Establishment Panel",
+          "text_de": "[Arbeite …] auch für das IAB-Betriebspanel",
           "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "ibsozer07",
-          "text_de": "[Arbeite …] auch für PIACC",
           "text": "[Work ...] also for PIACC",
+          "text_de": "[Arbeite …] auch für PIACC",
           "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "ibsozer08",
-          "text_de": "[Arbeite …] auch für NEPS",
           "text": "[Work ...] also for NEPS",
+          "text_de": "[Arbeite …] auch für NEPS",
           "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "ibsozerso",
-          "text_de": "[Arbeite …] auch für:",
           "text": "[Work...] Also for:",
+          "text_de": "[Arbeite …] auch für:",
           "scale": "chr",
           "sn": 9,
           "number": ""
         },
         {
           "item": "ibsozerno",
-          "text_de": "[Arbeite …]",
-          "instruction_de": "nicht für andere sozialwissenschaftliche Befragungen",
           "text": "[Work ...]",
+          "text_de": "[Arbeite …]",
           "instruction": "not for other social science surveys",
+          "instruction_de": "nicht für andere sozialwissenschaftliche Befragungen",
           "scale": "bin",
           "sn": 10,
           "number": ""
@@ -4079,35 +4111,36 @@
       "question": "30",
       "name": "30",
       "label": "And how many hours a week on average would you like to work?",
+      "label_de": "Und wieviele Stunden in der Woche würden Sie im Durchschnitt gerne arbeiten:",
       "items": [
         {
           "item": "14",
-          "text_de": "Und wieviele Stunden in der Woche würden Sie im Durchschnitt gerne arbeiten:",
           "text": "And how many hours a week on average would you like to work?",
+          "text_de": "Und wieviele Stunden in der Woche würden Sie im Durchschnitt gerne arbeiten:",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibwsist01",
-          "text_de": "Als Interviewer für TNS Infratest insgesamt",
           "text": "As an interviewer for TNS Infratest in total",
+          "text_de": "Als Interviewer für TNS Infratest insgesamt",
           "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "ibwsist02",
-          "text_de": "Davon: – Als Interviewer für Leben in Deutschland (ohne FID)",
           "text": "Of these: - As interviewer for „Living in Germany“ (without FID)",
+          "text_de": "Davon: – Als Interviewer für Leben in Deutschland (ohne FID)",
           "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ibwsist03",
-          "text_de": "[Davon:] – Als Interviewer für Familien in Deutschland",
           "text": "[Of these:] - As interviewer for „Families in Germany“",
+          "text_de": "[Davon:] – Als Interviewer für Familien in Deutschland",
           "scale": "int",
           "sn": 3,
           "number": ""
@@ -4121,11 +4154,12 @@
       "question": "0_3",
       "name": "0_3",
       "label": "Your living conditions",
+      "label_de": "Ihre Lebensumstände",
       "items": [
         {
           "item": "15",
-          "text_de": "Ihre Lebensumstände",
           "text": "Your living conditions",
+          "text_de": "Ihre Lebensumstände",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -4139,11 +4173,12 @@
       "question": "31",
       "name": "31",
       "label": "What is your marital status?",
+      "label_de": "Wie ist Ihr Familienstand?",
       "items": [
         {
           "item": "ifamst",
-          "text_de": "Wie ist Ihr Familienstand?",
           "text": "What is your marital status?",
+          "text_de": "Wie ist Ihr Familienstand?",
           "scale": "cat",
           "answers": [
             {
@@ -4184,35 +4219,36 @@
       "question": "32",
       "name": "32",
       "label": "In which country were you born?",
+      "label_de": "In welchem Land sind Sie geboren?",
       "items": [
         {
           "item": "16",
-          "text_de": "In welchem Land sind Sie geboren?",
           "text": "In which country were you born?",
+          "text_de": "In welchem Land sind Sie geboren?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ista1",
-          "text_de": "Deutschland",
           "text": "Germany",
+          "text_de": "Deutschland",
           "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "17",
-          "text_de": "Anderes Land",
           "text": "Other country",
+          "text_de": "Anderes Land",
           "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ista2",
-          "text_de": "[anderes] und zwar:",
           "text": "[Other] and that is:",
+          "text_de": "[anderes] und zwar:",
           "scale": "chr",
           "sn": 3,
           "number": ""
@@ -4226,35 +4262,36 @@
       "question": "33",
       "name": "33",
       "label": "In which country was your mother born?",
+      "label_de": "In welchem Land ist Ihre Mutter geboren?",
       "items": [
         {
           "item": "18",
-          "text_de": "In welchem Land ist Ihre Mutter geboren?",
           "text": "In which country was your mother born?",
+          "text_de": "In welchem Land ist Ihre Mutter geboren?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibstam1",
-          "text_de": "Deutschland",
           "text": "Germany",
+          "text_de": "Deutschland",
           "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "19",
-          "text_de": "Anderes Land",
           "text": "Other country",
+          "text_de": "Anderes Land",
           "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ibstam2",
-          "text_de": "[anderes] und zwar:",
           "text": "[Other] and that is:",
+          "text_de": "[anderes] und zwar:",
           "scale": "chr",
           "sn": 3,
           "number": ""
@@ -4268,35 +4305,36 @@
       "question": "34",
       "name": "34",
       "label": "In which country was your father born?",
+      "label_de": "In welchem Land ist Ihr Vater geboren?",
       "items": [
         {
           "item": "20",
-          "text_de": "In welchem Land ist Ihr Vater geboren?",
           "text": "In which country was your father born?",
+          "text_de": "In welchem Land ist Ihr Vater geboren?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ibstav1",
-          "text_de": "Deutschland",
           "text": "Germany",
+          "text_de": "Deutschland",
           "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "21",
-          "text_de": "Anderes Land",
           "text": "Other country",
+          "text_de": "Anderes Land",
           "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ibstav2",
-          "text_de": "[anderes] und zwar:",
           "text": "[Other] and that is:",
+          "text_de": "[anderes] und zwar:",
           "scale": "chr",
           "sn": 3,
           "number": ""
@@ -4310,11 +4348,12 @@
       "question": "35",
       "name": "35",
       "label": "Where did you live before German reunification in 1989?",
+      "label_de": "Wo haben Sie vor der deutschen Wiedervereinigung, also im Jahr 1989, gewohnt?",
       "items": [
         {
           "item": "iwied",
-          "text_de": "Wo haben Sie vor der deutschen Wiedervereinigung, also im Jahr 1989, gewohnt?",
           "text": "Where did you live before German reunification in 1989?",
+          "text_de": "Wo haben Sie vor der deutschen Wiedervereinigung, also im Jahr 1989, gewohnt?",
           "scale": "cat",
           "answers": [
             {
@@ -4345,117 +4384,118 @@
       "question": "36",
       "name": "36",
       "label": "In which of the following foreign languages can you communicate?",
+      "label_de": "In welcher der im Folgenden genannten Fremdsprachen können Sie sich verständigen?",
       "items": [
         {
           "item": "22",
-          "text_de": "In welcher der im Folgenden genannten Fremdsprachen können Sie sich verständigen?",
-          "instruction_de": "Bitte alles Zutreffende ankreuzen!",
           "text": "In which of the following foreign languages can you communicate?",
+          "text_de": "In welcher der im Folgenden genannten Fremdsprachen können Sie sich verständigen?",
           "instruction": "Please tick all that apply!",
+          "instruction_de": "Bitte alles Zutreffende ankreuzen!",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ispr01",
-          "text_de": "Englisch",
           "text": "English",
+          "text_de": "Englisch",
           "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "ispr02",
-          "text_de": "Französisch",
           "text": "French",
+          "text_de": "Französisch",
           "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ispr03",
-          "text_de": "Türkisch",
           "text": "Turkish",
+          "text_de": "Türkisch",
           "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "ispr04",
-          "text_de": "Italienisch",
           "text": "Italian",
+          "text_de": "Italienisch",
           "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "ispr05",
-          "text_de": "Spanisch",
           "text": "Spanish",
+          "text_de": "Spanisch",
           "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "ispr06",
-          "text_de": "Griechisch",
           "text": "Greek",
+          "text_de": "Griechisch",
           "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "ispr07",
-          "text_de": "Kroatisch/Serbisch/Bosnisch",
           "text": "Croatian/Serbian/Bosnian",
+          "text_de": "Kroatisch/Serbisch/Bosnisch",
           "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "ispr08",
-          "text_de": "Russisch",
           "text": "Russian",
+          "text_de": "Russisch",
           "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "ispr10",
-          "text_de": "Polnisch",
           "text": "Polish",
+          "text_de": "Polnisch",
           "scale": "bin",
           "sn": 9,
           "number": ""
         },
         {
           "item": "ispr09",
-          "text_de": "Sonstige",
           "text": "Other",
+          "text_de": "Sonstige",
           "scale": "bin",
           "sn": 10,
           "number": ""
         },
         {
           "item": "isprso",
-          "text_de": "[sonstige] und zwar",
           "text": "[other] namely",
+          "text_de": "[sonstige] und zwar",
           "scale": "chr",
           "sn": 11,
           "number": ""
         },
         {
           "item": "23",
-          "text_de": "Falls ja: Wie gut sprechen Sie diese Sprache?",
           "text": "If so, how well do you speak this language?",
+          "text_de": "Falls ja: Wie gut sprechen Sie diese Sprache?",
           "scale": "txt",
           "sn": 12,
           "number": ""
         },
         {
           "item": "ibspre01",
-          "text_de": "[Englisch]",
           "text": "[English]",
+          "text_de": "[Englisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4484,8 +4524,8 @@
         },
         {
           "item": "ibspre02",
-          "text_de": "[Französisch]",
           "text": "[French]",
+          "text_de": "[Französisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4514,8 +4554,8 @@
         },
         {
           "item": "ibspre03",
-          "text_de": "[Türkisch]",
           "text": "[Turkish]",
+          "text_de": "[Türkisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4544,8 +4584,8 @@
         },
         {
           "item": "ibspre04",
-          "text_de": "[Italienisch]",
           "text": "[Italian]",
+          "text_de": "[Italienisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4574,8 +4614,8 @@
         },
         {
           "item": "ibspre05",
-          "text_de": "[Spanisch]",
           "text": "[Spanish]",
+          "text_de": "[Spanisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4604,8 +4644,8 @@
         },
         {
           "item": "ibspre06",
-          "text_de": "[Griechisch]",
           "text": "[Greek]",
+          "text_de": "[Griechisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4634,8 +4674,8 @@
         },
         {
           "item": "ibspre07",
-          "text_de": "[Kroatisch/Serbisch/Bosnisch]",
           "text": "[Croatian/Serbian/Bosnian]",
+          "text_de": "[Kroatisch/Serbisch/Bosnisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4664,8 +4704,8 @@
         },
         {
           "item": "ibspre08",
-          "text_de": "[Russisch]",
           "text": "[Russian]",
+          "text_de": "[Russisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4694,8 +4734,8 @@
         },
         {
           "item": "ibspre10",
-          "text_de": "[Polnisch]",
           "text": "[Polish]",
+          "text_de": "[Polnisch]",
           "scale": "cat",
           "answers": [
             {
@@ -4724,8 +4764,8 @@
         },
         {
           "item": "ibspre09",
-          "text_de": "[Sonstige]",
           "text": "[Others]",
+          "text_de": "[Sonstige]",
           "scale": "cat",
           "answers": [
             {
@@ -4761,11 +4801,12 @@
       "question": "37",
       "name": "37",
       "label": "Do you belong to a church or a religious group? If yes, are you …",
+      "label_de": "Gehören Sie einer Kirche oder Religionsgemeinschaft an? Wenn ja, sind Sie ...",
       "items": [
         {
           "item": "irel",
-          "text_de": "Gehören Sie einer Kirche oder Religionsgemeinschaft an? Wenn ja, sind Sie ...",
           "text": "Do you belong to a church or a religious group? If yes, are you …",
+          "text_de": "Gehören Sie einer Kirche oder Religionsgemeinschaft an? Wenn ja, sind Sie ...",
           "scale": "cat",
           "answers": [
             {
@@ -4804,8 +4845,8 @@
         },
         {
           "item": "irelso",
-          "text_de": "[andere]:",
           "text": "[member of another religious group]:",
+          "text_de": "[andere]:",
           "scale": "chr",
           "sn": 1,
           "number": ""
@@ -4819,13 +4860,14 @@
       "question": "38",
       "name": "38",
       "label": "How satisfied are you with your life, all things considered?",
+      "label_de": "Manche Menschen sind mit ihrem Leben eher zufrieden, andere dagegen eher unzufrieden. Wie ist das mit Ihnen? Wie zufrieden sind Sie gegenwärtig, alles in allem, mit Ihrem Leben?",
       "items": [
         {
           "item": "izule",
-          "text_de": "Manche Menschen sind mit ihrem Leben eher zufrieden, andere dagegen eher unzufrieden. Wie ist das mit Ihnen? Wie zufrieden sind Sie gegenwärtig, alles in allem, mit Ihrem Leben?",
-          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala, bei der \"0\" ganz und gar unzufrieden, \"10\" ganz und gar zufrieden bedeutet.",
           "text": "How satisfied are you with your life, all things considered?",
+          "text_de": "Manche Menschen sind mit ihrem Leben eher zufrieden, andere dagegen eher unzufrieden. Wie ist das mit Ihnen? Wie zufrieden sind Sie gegenwärtig, alles in allem, mit Ihrem Leben?",
           "instruction": "Please answer using the following scale, where \"0\" means completely dissatisfied, \"10\" completely satisfied.",
+          "instruction_de": "Antworten Sie bitte anhand der folgenden Skala, bei der \"0\" ganz und gar unzufrieden, \"10\" ganz und gar zufrieden bedeutet.",
           "scale": "cat",
           "answers": [
             {
@@ -4896,11 +4938,12 @@
       "question": "39",
       "name": "39",
       "label": "How would you describe your health at present?",
+      "label_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
       "items": [
         {
           "item": "iges",
-          "text_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
           "text": "How would you describe your health at present?",
+          "text_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
           "scale": "cat",
           "answers": [
             {
@@ -4941,11 +4984,12 @@
       "question": "40",
       "name": "40",
       "label": "In conclusion a question regarding you work for „Living in Germany“: How many further years would you like to work for that survey?",
+      "label_de": "Zum Abschluss noch eine Frage, die Ihre Zukunft als Interviewer bei LEBEN IN DEUTSCHLAND betrifft: Wie viele Jahre würden Sie noch gerne als Interviewer für LEBEN IN DEUTSCHLAND arbeiten?",
       "items": [
         {
           "item": "izuk",
-          "text_de": "Zum Abschluss noch eine Frage, die Ihre Zukunft als Interviewer bei LEBEN IN DEUTSCHLAND betrifft: Wie viele Jahre würden Sie noch gerne als Interviewer für LEBEN IN DEUTSCHLAND arbeiten?",
           "text": "In conclusion a question regarding you work for „Living in Germany“: How many further years would you like to work for that survey?",
+          "text_de": "Zum Abschluss noch eine Frage, die Ihre Zukunft als Interviewer bei LEBEN IN DEUTSCHLAND betrifft: Wie viele Jahre würden Sie noch gerne als Interviewer für LEBEN IN DEUTSCHLAND arbeiten?",
           "scale": "cat",
           "answers": [
             {
@@ -4981,11 +5025,12 @@
       "question": "41",
       "name": "41",
       "label": "Do you have any comments?",
+      "label_de": "Haben Sie noch Anmerkungen?",
       "items": [
         {
           "item": "24",
-          "text_de": "Haben Sie noch Anmerkungen?",
           "text": "Do you have any comments?",
+          "text_de": "Haben Sie noch Anmerkungen?",
           "scale": "chr",
           "sn": 0,
           "number": ""
@@ -4999,11 +5044,12 @@
       "question": "0_4",
       "name": "0_4",
       "label": "Thank you for your cooperation!",
+      "label_de": "Vielen Dank für Ihre Mitarbeit!",
       "items": [
         {
           "item": "25",
-          "text_de": "Vielen Dank für Ihre Mitarbeit!",
           "text": "Thank you for your cooperation!",
+          "text_de": "Vielen Dank für Ihre Mitarbeit!",
           "scale": "txt",
           "sn": 0,
           "number": ""

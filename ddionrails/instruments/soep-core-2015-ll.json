@@ -14,10 +14,11 @@
       "question": "Intro",
       "name": "Intro",
       "label": "This questionnaire complements information of the green personal questionnaire. Attention: Youth, born 1997 need to complete the red youth questionnaire. Your participation is voluntary but the scientific relevance of this study depends crucially on the participation of every member of every household. Therefore we ask that: You allow our representative to carry out this interview, or you carefully fill out the questionnaire yourself.",
+      "label_de": "Dieser Fragebogen ergänzt die Angaben im grünen Personenfragebogen. Er enthält Informationen zur Person, die nur einmal erfragt werden.\n\nAchtung: Jugendliche, die 1998 geboren sind, erhalten stattdessen den roten Jugendfragebogen.\n\nIhre Mitarbeit ist freiwillig. Die wissenschaftliche Aussagekraft dieser Untersuchung hängt aber entscheidend von der Mitarbeit aller Personen ab.\n\nDarum bitten wir Sie herzlich,\n\n- unserem Mitarbeiter dieses Interview zu gewähren \n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
       "items": [
         {
-          "text_de": "Dieser Fragebogen ergänzt die Angaben im grünen Personenfragebogen. Er enthält Informationen zur Person, die nur einmal erfragt werden.\n\nAchtung: Jugendliche, die 1998 geboren sind, erhalten stattdessen den roten Jugendfragebogen.\n\nIhre Mitarbeit ist freiwillig. Die wissenschaftliche Aussagekraft dieser Untersuchung hängt aber entscheidend von der Mitarbeit aller Personen ab.\n\nDarum bitten wir Sie herzlich,\n\n- unserem Mitarbeiter dieses Interview zu gewähren \n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
           "text": "This questionnaire complements information of the green personal questionnaire. Attention: Youth, born 1997 need to complete the red youth questionnaire. Your participation is voluntary but the scientific relevance of this study depends crucially on the participation of every member of every household. Therefore we ask that: You allow our representative to carry out this interview, or you carefully fill out the questionnaire yourself.",
+          "text_de": "Dieser Fragebogen ergänzt die Angaben im grünen Personenfragebogen. Er enthält Informationen zur Person, die nur einmal erfragt werden.\n\nAchtung: Jugendliche, die 1998 geboren sind, erhalten stattdessen den roten Jugendfragebogen.\n\nIhre Mitarbeit ist freiwillig. Die wissenschaftliche Aussagekraft dieser Untersuchung hängt aber entscheidend von der Mitarbeit aller Personen ab.\n\nDarum bitten wir Sie herzlich,\n\n- unserem Mitarbeiter dieses Interview zu gewähren \n\n- oder den Fragebogen sorgfältig selbst auszufüllen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -32,41 +33,42 @@
       "question": "0",
       "name": "0",
       "label": "Before handing in the questionnaire, please enter in accordance with the address log:",
+      "label_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
       "items": [
         {
           "item": "1",
-          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
           "text": "Before handing in the questionnaire, please enter in accordance with the address log:",
+          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "hnr",
-          "text_de": "Nr. des Haushalts:",
           "text": "No. of household:",
-          "scale": "int",
+          "text_de": "Nr. des Haushalts:",
           "concept": "hnr",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "pnr",
-          "text_de": "Person Nr.:",
           "text": "Person No.:",
-          "scale": "int",
+          "text_de": "Person Nr.:",
           "concept": "pnr",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "name",
-          "text_de": "Vorname:",
-          "instruction_de": "Bitte in Druckbuchstaben",
           "text": "Prename:",
+          "text_de": "Vorname:",
           "instruction": "Please use block capitals",
-          "scale": "chr",
+          "instruction_de": "Bitte in Druckbuchstaben",
           "concept": "name",
+          "scale": "chr",
           "sn": 3,
           "number": ""
         }
@@ -79,10 +81,11 @@
       "question": "B1",
       "name": "B1",
       "label": "Citizenship and Origin",
+      "label_de": "Staatsangehörigkeit und Herkunft",
       "items": [
         {
-          "text_de": "Staatsangehörigkeit und Herkunft",
           "text": "Citizenship and Origin",
+          "text_de": "Staatsangehörigkeit und Herkunft",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -97,10 +100,11 @@
       "question": "1",
       "name": "1",
       "label": "What are your birth month and birth year?",
+      "label_de": "In welchem Jahr und in welchem Monat sind Sie geboren?",
       "items": [
         {
-          "text_de": "In welchem Jahr und in welchem Monat sind Sie geboren?",
           "text": "What are your birth month and birth year?",
+          "text_de": "In welchem Jahr und in welchem Monat sind Sie geboren?",
           "scale": "txt",
           "description": "Researcher Notes:\nMaximum: 1900\n",
           "number": "1",
@@ -109,19 +113,19 @@
         },
         {
           "item": "lgeb",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "lgeb",
+          "scale": "int",
           "number": "1",
           "sn": 1
         },
         {
           "item": "lgebmo",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "lgebmo",
+          "scale": "int",
           "number": "1",
           "sn": 2
         }
@@ -134,12 +138,13 @@
       "question": "2",
       "name": "2",
       "label": "Where were you born?",
+      "label_de": "In welchem Ort sind Sie geboren?\nBitte nennen Sie bei Orten, die es mehrmals gibt bzw. bei kleinen Orten den Namen der nahegelegenen Stadt mit. ",
       "items": [
         {
-          "text_de": "In welchem Ort sind Sie geboren?\nBitte nennen Sie bei Orten, die es mehrmals gibt bzw. bei kleinen Orten den Namen der nahegelegenen Stadt mit. ",
-          "instruction_de": "Tragen Sie bitte den Ortsnamen in das linke Feld und ggf. die Zusatzangabe in das rechte Feld.\nBitte verfahren Sie auch entsprechend bei Geburtsorten, die nicht in Deutschland liegen. Z. B. „Düsseldorf“, „Frankfurt an der Oder“, „Frankfurt am Main“ in das linke Feld und im Fall von „Roßdorf\nbei Schmalkalden“, tragen Sie „Roßdorf“ in das linke und „bei Schmalkalden“ in das rechte Feld ein.\nBitte verfahren Sie auch entsprechend bei Geburtsorten, die nicht in Deutschland liegen. ",
           "text": "Where were you born?",
+          "text_de": "In welchem Ort sind Sie geboren?\nBitte nennen Sie bei Orten, die es mehrmals gibt bzw. bei kleinen Orten den Namen der nahegelegenen Stadt mit. ",
           "instruction": "Please write the name of the town in the left blank and any additional information in the right blank. For example, write \"Düsseldorf,\" \"Frankfurt an der Oder,\" \"Frankfurt am Main,\" in the left blank and in the case of \"Roßdorf bei Schmalkalden,, write \"Roßdorf\" in the left and \"bei Schmalkalden\" in the right blank. Please do the same for birthplaces outside Germany.",
+          "instruction_de": "Tragen Sie bitte den Ortsnamen in das linke Feld und ggf. die Zusatzangabe in das rechte Feld.\nBitte verfahren Sie auch entsprechend bei Geburtsorten, die nicht in Deutschland liegen. Z. B. „Düsseldorf“, „Frankfurt an der Oder“, „Frankfurt am Main“ in das linke Feld und im Fall von „Roßdorf\nbei Schmalkalden“, tragen Sie „Roßdorf“ in das linke und „bei Schmalkalden“ in das rechte Feld ein.\nBitte verfahren Sie auch entsprechend bei Geburtsorten, die nicht in Deutschland liegen. ",
           "scale": "txt",
           "number": "2",
           "sn": 0,
@@ -147,21 +152,21 @@
         },
         {
           "item": "lgebort1",
-          "text_de": "Ort",
-          "instruction_de": "Bitte heutige, ggf. deutsche Bezeichnung eintragen! ",
           "text": "Place:",
+          "text_de": "Ort",
           "instruction": "Please state the present, if applicable German name:",
-          "scale": "chr",
+          "instruction_de": "Bitte heutige, ggf. deutsche Bezeichnung eintragen! ",
           "concept": "lgebort1",
+          "scale": "chr",
           "number": "2",
           "sn": 1
         },
         {
           "item": "lgebort2",
-          "text_de": "Zusatzangabe",
           "text": "additional entry:",
-          "scale": "chr",
+          "text_de": "Zusatzangabe",
           "concept": "lgebort2",
+          "scale": "chr",
           "number": "2",
           "sn": 2
         }
@@ -174,13 +179,14 @@
       "question": "3",
       "name": "3",
       "label": "Where is your birthplace located today?",
+      "label_de": "Wo liegt Ihr Geburtsort heute?",
       "items": [
         {
-          "text_de": "Wo liegt Ihr Geburtsort heute?",
           "text": "Where is your birthplace located today?",
-          "scale": "cat",
-          "concept": "lgebd",
+          "text_de": "Wo liegt Ihr Geburtsort heute?",
           "goto": "1 @ 14",
+          "concept": "lgebd",
+          "scale": "cat",
           "number": "3",
           "answers": [
             {
@@ -199,12 +205,12 @@
         },
         {
           "item": "lgebal",
-          "text_de": "[Außerhalb Deutschlands] und zwar:",
-          "instruction_de": "Bitte heutige Bezeichnung ggf. deutsche Bezeichnung  eintragen!",
           "text": "Outside of germany:",
+          "text_de": "[Außerhalb Deutschlands] und zwar:",
           "instruction": "Please give the current (if relevant, German) name!",
-          "scale": "chr",
+          "instruction_de": "Bitte heutige Bezeichnung ggf. deutsche Bezeichnung  eintragen!",
           "concept": "lgebal",
+          "scale": "chr",
           "number": "3",
           "sn": 1
         }
@@ -217,13 +223,14 @@
       "question": "4",
       "name": "4",
       "label": "Did you come due to flight or expulsion after the second world war until 1950 on the today's territory of Germany?",
+      "label_de": "Sind Sie aufgrund von Flucht oder Vertreibung nach dem zweiten Weltkrieg bis 1950 auf das heutige Gebiet Deutschlands gekommen?",
       "items": [
         {
-          "text_de": "Sind Sie aufgrund von Flucht oder Vertreibung nach dem zweiten Weltkrieg bis 1950 auf das heutige Gebiet Deutschlands gekommen?",
           "text": "Did you come due to flight or expulsion after the second world war until 1950 on the today's territory of Germany?",
-          "scale": "cat",
-          "concept": "lflucht",
+          "text_de": "Sind Sie aufgrund von Flucht oder Vertreibung nach dem zweiten Weltkrieg bis 1950 auf das heutige Gebiet Deutschlands gekommen?",
           "goto": "1 @ 20",
+          "concept": "lflucht",
+          "scale": "cat",
           "number": "4",
           "answers": [
             {
@@ -249,24 +256,25 @@
       "question": "5",
       "name": "5",
       "label": "When did you move to Germany?",
+      "label_de": "Wann sind Sie nach Deutschland zugezogen?",
       "items": [
         {
-          "text_de": "Wann sind Sie nach Deutschland zugezogen?",
-          "instruction_de": "Falls Sie mehrmals nach Deutschland zugezogen sind, beziehen Sie sich bitte auf den letzten Zuzug!\nDies gilt auch für die folgenden Fragen 6-13! ",
           "text": "When did you move to Germany?",
+          "text_de": "Wann sind Sie nach Deutschland zugezogen?",
           "instruction": "If you repeatedly moved to Germany, please refer to the last influx! The same applies to the following questions 6-13!",
-          "scale": "txt",
+          "instruction_de": "Falls Sie mehrmals nach Deutschland zugezogen sind, beziehen Sie sich bitte auf den letzten Zuzug!\nDies gilt auch für die folgenden Fragen 6-13! ",
           "filter": "4;lflucht = 2",
+          "scale": "txt",
           "number": "5",
           "sn": 0,
           "item": "root"
         },
         {
           "item": "lzug01",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "lzug01",
+          "scale": "int",
           "number": "5",
           "sn": 1
         }
@@ -279,12 +287,13 @@
       "question": "6",
       "name": "6",
       "label": "There are different judicial principles for moving in to Germany. Which of the following immigrant categories did you belong to when you moved to Germany?",
+      "label_de": "Für den Zuzug nach Deutschland gibt es unterschiedliche rechtliche Grundlagen.\nWie war das bei Ihnen, welchen Status haben Sie damals bei Ihrer Einreise nach Deutschland gehabt?",
       "items": [
         {
-          "text_de": "Für den Zuzug nach Deutschland gibt es unterschiedliche rechtliche Grundlagen.\nWie war das bei Ihnen, welchen Status haben Sie damals bei Ihrer Einreise nach Deutschland gehabt?",
           "text": "There are different judicial principles for moving in to Germany. Which of the following immigrant categories did you belong to when you moved to Germany?",
-          "scale": "cat",
+          "text_de": "Für den Zuzug nach Deutschland gibt es unterschiedliche rechtliche Grundlagen.\nWie war das bei Ihnen, welchen Status haben Sie damals bei Ihrer Einreise nach Deutschland gehabt?",
           "concept": "lzug02",
+          "scale": "cat",
           "description": "Routing:\n*IF [Q5000,1] **GOTO BLOCK 700 \n*IF [Q5000,2] *GOTO 8000 \n*IF [Q5000,3] *GOTO 8000\n",
           "number": "6",
           "answers": [
@@ -341,12 +350,13 @@
       "question": "6a",
       "name": "6a",
       "label": "Have you had a job commitment, so a contract of employment or a contract for self-employment in Germany before your immigration to Germany?",
+      "label_de": "Hatten Sie schon vor Ihrem Zuzug nach Deutschland eine Jobzusage, also ein Arbeitsvertrag oder einen Auftrag für eine selbständige Tätigkeit in Deutschland?",
       "items": [
         {
-          "text_de": "Hatten Sie schon vor Ihrem Zuzug nach Deutschland eine Jobzusage, also ein Arbeitsvertrag oder einen Auftrag für eine selbständige Tätigkeit in Deutschland?",
           "text": "Have you had a job commitment, so a contract of employment or a contract for self-employment in Germany before your immigration to Germany?",
-          "scale": "cat",
+          "text_de": "Hatten Sie schon vor Ihrem Zuzug nach Deutschland eine Jobzusage, also ein Arbeitsvertrag oder einen Auftrag für eine selbständige Tätigkeit in Deutschland?",
           "concept": "lzugarb",
+          "scale": "cat",
           "number": "6a",
           "answers": [
             {
@@ -372,12 +382,13 @@
       "question": "7",
       "name": "7",
       "label": "What is your current residence status?",
+      "label_de": "Welchen Aufenthaltsstatus haben Sie derzeit?",
       "items": [
         {
-          "text_de": "Welchen Aufenthaltsstatus haben Sie derzeit?",
           "text": "What is your current residence status?",
-          "scale": "cat",
+          "text_de": "Welchen Aufenthaltsstatus haben Sie derzeit?",
           "concept": "lstat",
+          "scale": "cat",
           "description": "Filter:\nASK ONLY IF Q500 : LZUG02=4,5\n",
           "number": "7",
           "answers": [
@@ -424,12 +435,13 @@
       "question": "8",
       "name": "8",
       "label": "Which of the following would best describe your living situation immediately after moving to Germany?",
+      "label_de": "Was beschreibt Ihre Wohnsituation unmittelbar nach dem Zuzug nach Deutschland am besten?",
       "items": [
         {
-          "text_de": "Was beschreibt Ihre Wohnsituation unmittelbar nach dem Zuzug nach Deutschland am besten?",
           "text": "Which of the following would best describe your living situation immediately after moving to Germany?",
-          "scale": "cat",
+          "text_de": "Was beschreibt Ihre Wohnsituation unmittelbar nach dem Zuzug nach Deutschland am besten?",
           "concept": "lzugw",
+          "scale": "cat",
           "number": "8",
           "answers": [
             {
@@ -460,12 +472,13 @@
       "question": "9",
       "name": "9",
       "label": "Which of the following reasons was the main reason for you to come to Germany?",
+      "label_de": "Welcher der folgenden Gründe war bei Ihnen der Hauptgrund nach Deutschland zu ziehen?",
       "items": [
         {
-          "text_de": "Welcher der folgenden Gründe war bei Ihnen der Hauptgrund nach Deutschland zu ziehen?",
           "text": "Which of the following reasons was the main reason for you to come to Germany?",
-          "scale": "cat",
+          "text_de": "Welcher der folgenden Gründe war bei Ihnen der Hauptgrund nach Deutschland zu ziehen?",
           "concept": "lzuggr",
+          "scale": "cat",
           "number": "9",
           "answers": [
             {
@@ -494,10 +507,10 @@
         },
         {
           "item": "lzuggrso",
-          "text_de": "[Sonstige Gründe] und zwar:",
           "text": "[Other reasons]:",
-          "scale": "chr",
+          "text_de": "[Sonstige Gründe] und zwar:",
           "concept": "lzuggrso",
+          "scale": "chr",
           "number": "9",
           "sn": 1
         }
@@ -510,12 +523,13 @@
       "question": "10",
       "name": "10",
       "label": "At your arrival, did you have any support of relatives or acquaintances who already lived in Germany?",
+      "label_de": "Hatten Sie bei Ihrem Zuzug nach Deutschland Unterstützung von Verwandten oder Bekannten, die bereits in Deutschland lebten? ",
       "items": [
         {
-          "text_de": "Hatten Sie bei Ihrem Zuzug nach Deutschland Unterstützung von Verwandten oder Bekannten, die bereits in Deutschland lebten? ",
-          "instruction_de": "Mehrfachnennungen möglich!",
           "text": "At your arrival, did you have any support of relatives or acquaintances who already lived in Germany?",
+          "text_de": "Hatten Sie bei Ihrem Zuzug nach Deutschland Unterstützung von Verwandten oder Bekannten, die bereits in Deutschland lebten? ",
           "instruction": "Multiple answers possible!",
+          "instruction_de": "Mehrfachnennungen möglich!",
           "scale": "txt",
           "number": "10",
           "sn": 0,
@@ -523,28 +537,28 @@
         },
         {
           "item": "lzugunt1",
-          "text_de": "Ja, von Verwandten ",
           "text": "Yes, by relatives",
-          "scale": "bin",
+          "text_de": "Ja, von Verwandten ",
           "concept": "lzugunt1",
+          "scale": "bin",
           "number": "10",
           "sn": 1
         },
         {
           "item": "lzugunt2",
-          "text_de": "Ja, von Bekannten ",
           "text": "Yes, by acquaintances",
-          "scale": "bin",
+          "text_de": "Ja, von Bekannten ",
           "concept": "lzugunt2",
+          "scale": "bin",
           "number": "10",
           "sn": 2
         },
         {
           "item": "lzugunt3",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "lzugunt3",
+          "scale": "bin",
           "number": "10",
           "sn": 3
         }
@@ -557,10 +571,11 @@
       "question": "11",
       "name": "11",
       "label": "The next question is about your knowledge of the German language.",
+      "label_de": "Bei der nächsten Frage geht es um Ihre Kenntnisse in der deutschen Sprache.",
       "items": [
         {
-          "text_de": "Bei der nächsten Frage geht es um Ihre Kenntnisse in der deutschen Sprache.",
           "text": "The next question is about your knowledge of the German language.",
+          "text_de": "Bei der nächsten Frage geht es um Ihre Kenntnisse in der deutschen Sprache.",
           "scale": "txt",
           "number": "11",
           "sn": 0,
@@ -568,10 +583,10 @@
         },
         {
           "item": "lspzug1",
-          "text_de": "[Sprechen] Wie gut konnten Sie vor Ihrem Zuzug nach Deutschland die deutsche Sprache ...",
           "text": "[Speak] How well could you speak German before you moved to Germany?",
-          "scale": "cat",
+          "text_de": "[Sprechen] Wie gut konnten Sie vor Ihrem Zuzug nach Deutschland die deutsche Sprache ...",
           "concept": "lspzug1",
+          "scale": "cat",
           "number": "11",
           "answers": [
             {
@@ -604,10 +619,10 @@
         },
         {
           "item": "lspzug2",
-          "text_de": "[Schreiben] Wie gut konnten Sie vor Ihrem Zuzug nach Deutschland die deutsche Sprache ...",
           "text": "How well could you write German before you moved to Germany?",
-          "scale": "cat",
+          "text_de": "[Schreiben] Wie gut konnten Sie vor Ihrem Zuzug nach Deutschland die deutsche Sprache ...",
           "concept": "lspzug2",
+          "scale": "cat",
           "number": "11",
           "answers": [
             {
@@ -640,10 +655,10 @@
         },
         {
           "item": "lspzug3",
-          "text_de": "[Lesen] Wie gut konnten Sie vor Ihrem Zuzug nach Deutschland die deutsche Sprache ...",
           "text": "How well could you read German before you moved to Germany?",
-          "scale": "cat",
+          "text_de": "[Lesen] Wie gut konnten Sie vor Ihrem Zuzug nach Deutschland die deutsche Sprache ...",
           "concept": "lspzug3",
+          "scale": "cat",
           "number": "11",
           "answers": [
             {
@@ -676,10 +691,10 @@
         },
         {
           "item": "lmusp2",
-          "text_de": "[Sprechen] Wie gut können Sie jetzt die deutsche Sprache ...",
           "text": "[Speak] How well is your German now??",
-          "scale": "cat",
+          "text_de": "[Sprechen] Wie gut können Sie jetzt die deutsche Sprache ...",
           "concept": "lmusp2",
+          "scale": "cat",
           "number": "11",
           "answers": [
             {
@@ -712,10 +727,10 @@
         },
         {
           "item": "lmusp3",
-          "text_de": "[Schreiben] Wie gut können Sie jetzt die deutsche Sprache ...",
           "text": "[write] How well is your german now??",
-          "scale": "cat",
+          "text_de": "[Schreiben] Wie gut können Sie jetzt die deutsche Sprache ...",
           "concept": "lmusp3",
+          "scale": "cat",
           "number": "11",
           "answers": [
             {
@@ -748,10 +763,10 @@
         },
         {
           "item": "lmusp6",
-          "text_de": "[Lesen] Wie gut können Sie jetzt die deutsche Sprache ...",
           "text": "[read] How well is your German now??",
-          "scale": "cat",
+          "text_de": "[Lesen] Wie gut können Sie jetzt die deutsche Sprache ...",
           "concept": "lmusp6",
+          "scale": "cat",
           "number": "11",
           "answers": [
             {
@@ -791,12 +806,13 @@
       "question": "12",
       "name": "12",
       "label": "Did you attend German language courses?",
+      "label_de": "Haben Sie Deutsch-Sprachkurse besucht?",
       "items": [
         {
-          "text_de": "Haben Sie Deutsch-Sprachkurse besucht?",
-          "instruction_de": "Mehrfachnennungen möglich!",
           "text": "Did you attend German language courses?",
+          "text_de": "Haben Sie Deutsch-Sprachkurse besucht?",
           "instruction": "Multiple answers possible!",
+          "instruction_de": "Mehrfachnennungen möglich!",
           "scale": "txt",
           "number": "12",
           "sn": 0,
@@ -804,28 +820,28 @@
         },
         {
           "item": "lspkurs1",
-          "text_de": "Ja, im Herkunftsland ",
           "text": "Yes, in the country of origin",
-          "scale": "bin",
+          "text_de": "Ja, im Herkunftsland ",
           "concept": "lspkurs1",
+          "scale": "bin",
           "number": "12",
           "sn": 1
         },
         {
           "item": "lspkurs2",
-          "text_de": "Ja, in Deutschland ",
           "text": "Yes, in Germany",
-          "scale": "bin",
+          "text_de": "Ja, in Deutschland ",
           "concept": "lspkurs2",
+          "scale": "bin",
           "number": "12",
           "sn": 2
         },
         {
           "item": "lspkurs3",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "lspkurs3",
+          "scale": "bin",
           "number": "12",
           "sn": 3
         }
@@ -838,10 +854,11 @@
       "question": "13",
       "name": "13",
       "label": "If you compare once: in which professional position were you working at your last job before your moved to Germany? And which professional position at your first job in Germany?",
+      "label_de": "Wenn Sie einmal vergleichen:\nIn welcher beruflichen Stellung waren Sie bei Ihrer letzten Stelle vor Ihrem Umzug nach Deutschland tätig? Und in welcher beruflichen Stellung waren Sie bei Ihrer ersten Stelle in Deutschland tätig? ",
       "items": [
         {
-          "text_de": "Wenn Sie einmal vergleichen:\nIn welcher beruflichen Stellung waren Sie bei Ihrer letzten Stelle vor Ihrem Umzug nach Deutschland tätig? Und in welcher beruflichen Stellung waren Sie bei Ihrer ersten Stelle in Deutschland tätig? ",
           "text": "If you compare once: in which professional position were you working at your last job before your moved to Germany? And which professional position at your first job in Germany?",
+          "text_de": "Wenn Sie einmal vergleichen:\nIn welcher beruflichen Stellung waren Sie bei Ihrer letzten Stelle vor Ihrem Umzug nach Deutschland tätig? Und in welcher beruflichen Stellung waren Sie bei Ihrer ersten Stelle in Deutschland tätig? ",
           "scale": "txt",
           "number": "13",
           "sn": 0,
@@ -849,10 +866,10 @@
         },
         {
           "item": "l1erw1",
-          "text_de": "Letzte Stelle vor dem Umzug nach Deutschland",
           "text": "Last post before moving to Germany",
-          "scale": "cat",
+          "text_de": "Letzte Stelle vor dem Umzug nach Deutschland",
           "concept": "l1erw1",
+          "scale": "cat",
           "number": "13",
           "answers": [
             {
@@ -900,10 +917,10 @@
         },
         {
           "item": "l1erw2",
-          "text_de": "Erste Stelle in Deutschland",
           "text": "First place in Germany",
-          "scale": "cat",
+          "text_de": "Erste Stelle in Deutschland",
           "concept": "l1erw2",
+          "scale": "cat",
           "number": "13",
           "answers": [
             {
@@ -958,13 +975,14 @@
       "question": "14",
       "name": "14",
       "label": "Do you have the german citizenship today?",
+      "label_de": "Haben Sie heute die deutsche Staatsangehörigkeit?",
       "items": [
         {
-          "text_de": "Haben Sie heute die deutsche Staatsangehörigkeit?",
           "text": "Do you have the german citizenship today?",
-          "scale": "cat",
-          "concept": "lsta3",
+          "text_de": "Haben Sie heute die deutsche Staatsangehörigkeit?",
           "goto": "2 @ 19",
+          "concept": "lsta3",
+          "scale": "cat",
           "number": "14",
           "answers": [
             {
@@ -990,13 +1008,14 @@
       "question": "15",
       "name": "15",
       "label": "Do you have a second citizenship in addition to your German?",
+      "label_de": "Haben Sie neben der deutschen eine zweite Staatsangehörigkeit?",
       "items": [
         {
-          "text_de": "Haben Sie neben der deutschen eine zweite Staatsangehörigkeit?",
           "text": "Do you have a second citizenship in addition to your German?",
-          "scale": "cat",
+          "text_de": "Haben Sie neben der deutschen eine zweite Staatsangehörigkeit?",
           "concept": "lsta4",
           "filter": "14;lsta3=1",
+          "scale": "cat",
           "number": "15",
           "answers": [
             {
@@ -1015,13 +1034,13 @@
         },
         {
           "item": "lsta4x",
-          "text_de": "[Ja] und zwar:",
-          "instruction_de": "Bitte eintragen",
           "text": "Yes:",
+          "text_de": "[Ja] und zwar:",
           "instruction": "Please enter",
-          "scale": "chr",
+          "instruction_de": "Bitte eintragen",
           "concept": "lsta4x",
           "filter": "15;lsta4=1",
+          "scale": "chr",
           "number": "15",
           "sn": 1
         }
@@ -1034,13 +1053,14 @@
       "question": "16",
       "name": "16",
       "label": "Have you had German citizenship since birth or did you acquire it at a later date?",
+      "label_de": "Haben Sie die deutsche Staatsangehörigkeit seit Geburt oder erst später erworben?",
       "items": [
         {
-          "text_de": "Haben Sie die deutsche Staatsangehörigkeit seit Geburt oder erst später erworben?",
           "text": "Have you had German citizenship since birth or did you acquire it at a later date?",
-          "scale": "cat",
-          "concept": "lsta5",
+          "text_de": "Haben Sie die deutsche Staatsangehörigkeit seit Geburt oder erst später erworben?",
           "goto": "1 @ 20",
+          "concept": "lsta5",
+          "scale": "cat",
           "number": "16",
           "answers": [
             {
@@ -1066,15 +1086,16 @@
       "question": "17",
       "name": "17",
       "label": "What citizenship did you have before?",
+      "label_de": "Welche Staatsangehörigkeit hatten Sie vorher?",
       "items": [
         {
-          "text_de": "Welche Staatsangehörigkeit hatten Sie vorher?",
-          "instruction_de": "Bitte eintragen!",
           "text": "What citizenship did you have before?",
+          "text_de": "Welche Staatsangehörigkeit hatten Sie vorher?",
           "instruction": "Please enter!",
-          "scale": "chr",
+          "instruction_de": "Bitte eintragen!",
           "concept": "lsta5x",
           "filter": "16;lsta5=2",
+          "scale": "chr",
           "number": "17",
           "sn": 0,
           "item": "root"
@@ -1088,22 +1109,23 @@
       "question": "18",
       "name": "18",
       "label": "And in what year did you acquire German citizenship?",
+      "label_de": "Und in welchem Jahr haben Sie die deutsche Staatsangehörigkeit erworben?",
       "items": [
         {
-          "text_de": "Und in welchem Jahr haben Sie die deutsche Staatsangehörigkeit erworben?",
           "text": "And in what year did you acquire German citizenship?",
-          "scale": "txt",
+          "text_de": "Und in welchem Jahr haben Sie die deutsche Staatsangehörigkeit erworben?",
           "goto": ">0 @ 20",
+          "scale": "txt",
           "number": "18",
           "sn": 0,
           "item": "root"
         },
         {
           "item": "lsta6",
-          "text_de": "Im Jahr",
           "text": "In year",
-          "scale": "int",
+          "text_de": "Im Jahr",
           "concept": "lsta6",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -1116,12 +1138,13 @@
       "question": "19",
       "name": "19",
       "label": "What is your citizenship?",
+      "label_de": "Welche Staatsangehörigkeit haben Sie?",
       "items": [
         {
-          "text_de": "Welche Staatsangehörigkeit haben Sie?",
           "text": "What is your citizenship?",
-          "scale": "chr",
+          "text_de": "Welche Staatsangehörigkeit haben Sie?",
           "concept": "lnat",
+          "scale": "chr",
           "number": "19",
           "sn": 0,
           "item": "root"
@@ -1135,12 +1158,13 @@
       "question": "20",
       "name": "20",
       "label": "Where did you live before German reunification, i.e. before 1989?",
+      "label_de": "Wo haben Sie vor der deutschen Wiedervereinigung, also vor 1989, gewohnt?",
       "items": [
         {
-          "text_de": "Wo haben Sie vor der deutschen Wiedervereinigung, also vor 1989, gewohnt?",
           "text": "Where did you live before German reunification, i.e. before 1989?",
-          "scale": "cat",
+          "text_de": "Wo haben Sie vor der deutschen Wiedervereinigung, also vor 1989, gewohnt?",
           "concept": "lwied",
+          "scale": "cat",
           "number": "20",
           "answers": [
             {
@@ -1176,10 +1200,11 @@
       "question": "21",
       "name": "21",
       "label": "To change the subject, how long have you lived in your current home?",
+      "label_de": "Nun noch etwas ganz anderes:\nSeit welchem Jahr leben Sie persönlich schon in dieser Wohnung?",
       "items": [
         {
-          "text_de": "Nun noch etwas ganz anderes:\nSeit welchem Jahr leben Sie persönlich schon in dieser Wohnung?",
           "text": "To change the subject, how long have you lived in your current home?",
+          "text_de": "Nun noch etwas ganz anderes:\nSeit welchem Jahr leben Sie persönlich schon in dieser Wohnung?",
           "scale": "txt",
           "number": "21",
           "sn": 0,
@@ -1187,12 +1212,12 @@
         },
         {
           "item": "lwohnj",
-          "text_de": "Seit ...",
-          "instruction_de": "(Jahr eintragen)",
           "text": "Since...",
+          "text_de": "Seit ...",
           "instruction": "(Enter year)",
-          "scale": "int",
+          "instruction_de": "(Jahr eintragen)",
           "concept": "lwohnj",
+          "scale": "int",
           "description": "Researcher Notes:\nMaximum: 2011\n",
           "number": "21",
           "sn": 1
@@ -1206,12 +1231,13 @@
       "question": "22",
       "name": "22",
       "label": "Except this apartment, so the apartment in which the survey budget lives, do you have another apartment, where you even live or spend your vacation in?",
+      "label_de": "Haben Sie außer dieser Wohnung, also die Wohnung in der der Befragungshaushalt lebt, noch eine andere Wohnung, in der Sie selbst auch wohnen oder Ihren Urlaub verbringen?",
       "items": [
         {
-          "text_de": "Haben Sie außer dieser Wohnung, also die Wohnung in der der Befragungshaushalt lebt, noch eine andere Wohnung, in der Sie selbst auch wohnen oder Ihren Urlaub verbringen?",
-          "instruction_de": "Mehrfachnennungen möglich!",
           "text": "Except this apartment, so the apartment in which the survey budget lives, do you have another apartment, where you even live or spend your vacation in?",
+          "text_de": "Haben Sie außer dieser Wohnung, also die Wohnung in der der Befragungshaushalt lebt, noch eine andere Wohnung, in der Sie selbst auch wohnen oder Ihren Urlaub verbringen?",
           "instruction": "Multiple answers possible!",
+          "instruction_de": "Mehrfachnennungen möglich!",
           "scale": "txt",
           "number": "22",
           "sn": 0,
@@ -1219,39 +1245,39 @@
         },
         {
           "item": "l2wohna",
-          "text_de": "Ja, in Deutschland ",
           "text": "In Germany",
-          "scale": "bin",
+          "text_de": "Ja, in Deutschland ",
           "concept": "l2wohna",
+          "scale": "bin",
           "number": "22",
           "sn": 1
         },
         {
           "item": "l2wohnb",
-          "text_de": "Ja, im Ausland",
           "text": "Yes, abroad ",
-          "scale": "bin",
+          "text_de": "Ja, im Ausland",
           "concept": "l2wohnb",
+          "scale": "bin",
           "description": "Filter:\nASK ONLY IF Q6901 : L2WOHN1=1\n",
           "number": "22",
           "sn": 2
         },
         {
           "item": "l2wohnc",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "l2wohnc",
+          "scale": "bin",
           "number": "22",
           "sn": 3
         },
         {
           "item": "l2wohn3",
-          "text_de": "Welche Wohnung benutzen Sie überwiegend?",
           "text": "Where do you reside most of the time?",
-          "scale": "cat",
+          "text_de": "Welche Wohnung benutzen Sie überwiegend?",
           "concept": "l2wohn3",
           "filter": "(22:l2ohna=1) | (22:l2wohnb=1)",
+          "scale": "cat",
           "description": "Filter:\nASK ONLY IF Q6901 : L2WOHN1=1\n",
           "number": "22",
           "answers": [
@@ -1282,10 +1308,11 @@
       "question": "B2",
       "name": "B2",
       "label": "Childhood and Parental Home",
+      "label_de": "Kindheit und Elternhaus",
       "items": [
         {
-          "text_de": "Kindheit und Elternhaus",
           "text": "Childhood and Parental Home",
+          "text_de": "Kindheit und Elternhaus",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -1300,12 +1327,13 @@
       "question": "23",
       "name": "23",
       "label": "Where did you spend the majority of your childhood up to the age of 15? Was it ...",
+      "label_de": "Wo haben Sie den größten Teil Ihrer Kindheit bis zum 15. Lebensjahr verbracht?\nWar das ...",
       "items": [
         {
-          "text_de": "Wo haben Sie den größten Teil Ihrer Kindheit bis zum 15. Lebensjahr verbracht?\nWar das ...",
           "text": "Where did you spend the majority of your childhood up to the age of 15? Was it ...",
-          "scale": "cat",
+          "text_de": "Wo haben Sie den größten Teil Ihrer Kindheit bis zum 15. Lebensjahr verbracht?\nWar das ...",
           "concept": "lkh01",
+          "scale": "cat",
           "number": "23",
           "answers": [
             {
@@ -1341,12 +1369,13 @@
       "question": "24",
       "name": "24",
       "label": "Do you still live in the same city or area today?",
+      "label_de": "Leben Sie heute noch in dieser Stadt oder dieser Gegend?",
       "items": [
         {
-          "text_de": "Leben Sie heute noch in dieser Stadt oder dieser Gegend?",
           "text": "Do you still live in the same city or area today?",
-          "scale": "cat",
+          "text_de": "Leben Sie heute noch in dieser Stadt oder dieser Gegend?",
           "concept": "lkh02",
+          "scale": "cat",
           "number": "24",
           "answers": [
             {
@@ -1377,12 +1406,13 @@
       "question": "25",
       "name": "25",
       "label": "How many years of your childhood (up to the age of 15) did you live with the following persons?",
+      "label_de": "Wie viele von Ihren ersten 15 Lebensjahren haben Sie bei der folgenden Personen gelebt?",
       "items": [
         {
-          "text_de": "Wie viele von Ihren ersten 15 Lebensjahren haben Sie bei der folgenden Personen gelebt?",
-          "instruction_de": "Bitte auf ganze Jahre runden! (Hinweis: Adoptiveltern gelten wie leibliche Eltern)",
           "text": "How many years of your childhood (up to the age of 15) did you live with the following persons?",
+          "text_de": "Wie viele von Ihren ersten 15 Lebensjahren haben Sie bei der folgenden Personen gelebt?",
           "instruction": "Please round off to the nearest full year! (Note: adoptive parents count as biological parents)",
+          "instruction_de": "Bitte auf ganze Jahre runden! (Hinweis: Adoptiveltern gelten wie leibliche Eltern)",
           "scale": "txt",
           "description": "Researcher Notes:\nAntworten: numerische Werte\n**Weitere Angabe in CAPI: Summe der Jahre (bitte prüfen!) > jedoch keine Variable\n**1 = LKH03\n**2 = LKH04\n**3 = LKH05\n**4 = LKH06\n**5 = LKH07\n**6 = LKH08\n**7 = LKH09\n**8 = LKH10\n",
           "number": "25",
@@ -1391,82 +1421,82 @@
         },
         {
           "item": "lkh03",
-          "text_de": "Bei Ihren beiden (leiblichen) Eltern … Jahre",
-          "instruction_de": "(Hinweis:\nAdoptiveltern gelten wie leibliche Eltern)",
           "text": "With both of your (biological) parents … years",
+          "text_de": "Bei Ihren beiden (leiblichen) Eltern … Jahre",
           "instruction": "(Note: adoptive parents apply as biological parents)",
-          "scale": "int",
+          "instruction_de": "(Hinweis:\nAdoptiveltern gelten wie leibliche Eltern)",
           "concept": "lkh03",
+          "scale": "int",
           "number": "25",
           "sn": 1
         },
         {
           "item": "lkh04",
-          "text_de": "Bei Ihrer Mutter allein (ohne Partner) … Jahre",
           "text": "With your mother without a (new) companion … years",
-          "scale": "int",
+          "text_de": "Bei Ihrer Mutter allein (ohne Partner) … Jahre",
           "concept": "lkh04",
+          "scale": "int",
           "number": "25",
           "sn": 2
         },
         {
           "item": "lkh05",
-          "text_de": "Bei Ihrer Mutter mit (neuem) Partner … Jahre",
           "text": "With your mother and her (new) companion … years",
-          "scale": "int",
+          "text_de": "Bei Ihrer Mutter mit (neuem) Partner … Jahre",
           "concept": "lkh05",
+          "scale": "int",
           "number": "25",
           "sn": 3
         },
         {
           "item": "lkh06",
-          "text_de": "Bei Ihrem Vater allein (ohne Partnerin) … Jahre",
           "text": "With your father without a (new) companion … years",
-          "scale": "int",
+          "text_de": "Bei Ihrem Vater allein (ohne Partnerin) … Jahre",
           "concept": "lkh06",
+          "scale": "int",
           "number": "25",
           "sn": 4
         },
         {
           "item": "lkh07",
-          "text_de": "Bei Ihrem Vater mit (neuer) Partnerin … Jahre",
           "text": "With your father and her (new) companion … years",
-          "scale": "int",
+          "text_de": "Bei Ihrem Vater mit (neuer) Partnerin … Jahre",
           "concept": "lkh07",
+          "scale": "int",
           "number": "25",
           "sn": 5
         },
         {
           "item": "lkh08",
-          "text_de": "Bei anderen Verwandten … Jahre",
           "text": "With other relatives … years",
-          "scale": "int",
+          "text_de": "Bei anderen Verwandten … Jahre",
           "concept": "lkh08",
+          "scale": "int",
           "number": "25",
           "sn": 6
         },
         {
           "item": "lkh09",
-          "text_de": "Bei Pflegeeltern … Jahre",
           "text": "With foster parents … years",
-          "scale": "int",
+          "text_de": "Bei Pflegeeltern … Jahre",
           "concept": "lkh09",
+          "scale": "int",
           "number": "25",
           "sn": 7
         },
         {
           "item": "lkh10",
-          "text_de": "Im Heim … Jahre",
           "text": "In an orphanage … years",
-          "scale": "int",
+          "text_de": "Im Heim … Jahre",
           "concept": "lkh10",
+          "scale": "int",
           "number": "25",
           "sn": 8
         },
         {
           "item": "9",
-          "text_de": "Summe der Jahre (bitte prüfen!)",
           "text": "Sum total of all years (please check!)",
+          "text_de": "Summe der Jahre (bitte prüfen!)",
           "scale": "txt",
           "number": "25",
           "sn": 9
@@ -1480,15 +1510,16 @@
       "question": "26",
       "name": "26",
       "label": "Does your mother and father live in this household?",
+      "label_de": "Leben Ihr Vater und Ihre Mutter hier im Haushalt?",
       "items": [
         {
-          "text_de": "Leben Ihr Vater und Ihre Mutter hier im Haushalt?",
-          "instruction_de": "[Nur der Vater / Nur die Mutter] Die folgenden Fragen 27–35 bitte nur für den Elternteil beantworten, der nicht hier im Haushalt lebt!;\n[Nein, beide nicht] Die folgenden Fragen 27–35 bitte getrennt für Vater und Mutter beantworten!",
           "text": "Does your mother and father live in this household?",
+          "text_de": "Leben Ihr Vater und Ihre Mutter hier im Haushalt?",
           "instruction": "[The father / mother only] Answer the following questions 27-35 only for the parent not living in the household. [No, both not] Please answer the following questions separately 27-35 for father and mother!",
-          "scale": "cat",
-          "concept": "lvm",
+          "instruction_de": "[Nur der Vater / Nur die Mutter] Die folgenden Fragen 27–35 bitte nur für den Elternteil beantworten, der nicht hier im Haushalt lebt!;\n[Nein, beide nicht] Die folgenden Fragen 27–35 bitte getrennt für Vater und Mutter beantworten!",
           "goto": "1 @ 36",
+          "concept": "lvm",
+          "scale": "cat",
           "description": "Researcher Notes:\nInstruktion:\n**if Q2100: LVM = 2,3 : Die folgenden Fragen 22-29 bitte nur für den Elternteil beantworten, der nicht im Haushalt lebt!\n**if Q2100: LVM = 4: Die folgenden Fragen 22-29 bitte getrennt für Vater und Mutter beantworten!\n\nRouting:\n*IF [Q21000,1] *GOTO 30000 \n*IF [Q21000,2] **GOTO BLOCK 2200 \n*IF [Q21000,3] **GOTO BLOCK 2200 \n*IF [Q21000,4] **GOTO BLOCK 2200\n",
           "number": "26",
           "answers": [
@@ -1525,10 +1556,11 @@
       "question": "27",
       "name": "27",
       "label": "Does your father / mother still live? If so, where does he / she live? If not, when did he / she die?",
+      "label_de": "Lebt Ihr Vater / Ihre Mutter noch? Wenn ja, wo? Wenn verstorben, wann?",
       "items": [
         {
-          "text_de": "Lebt Ihr Vater / Ihre Mutter noch? Wenn ja, wo? Wenn verstorben, wann?",
           "text": "Does your father / mother still live? If so, where does he / she live? If not, when did he / she die?",
+          "text_de": "Lebt Ihr Vater / Ihre Mutter noch? Wenn ja, wo? Wenn verstorben, wann?",
           "scale": "txt",
           "number": "27",
           "sn": 0,
@@ -1536,11 +1568,11 @@
         },
         {
           "item": "lv01",
-          "text_de": "Vater sofern nicht im Haushalt lebend",
           "text": "Father, if not living in the household",
-          "scale": "cat",
+          "text_de": "Vater sofern nicht im Haushalt lebend",
           "concept": "lv01",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Vater (lebendig)",
           "number": "27",
           "answers": [
@@ -1569,22 +1601,22 @@
         },
         {
           "item": "lv02",
-          "text_de": "[Vater] Ist verstorben, und zwar im Jahr:",
           "text": "[father] Is deceased: died in the year",
-          "scale": "int",
+          "text_de": "[Vater] Ist verstorben, und zwar im Jahr:",
           "concept": "lv02",
           "filter": "26;lvm=3 | 4",
+          "scale": "int",
           "description": "Vater Jahr Verstorben",
           "number": "27",
           "sn": 2
         },
         {
           "item": "lm01",
-          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "text": "Mother, if not living in the household",
-          "scale": "cat",
+          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "concept": "lm01",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Mutter (lebendig)",
           "number": "27",
           "answers": [
@@ -1613,11 +1645,11 @@
         },
         {
           "item": "lm02",
-          "text_de": "[Mutter] Ist verstorben, und zwar im Jahr:",
           "text": "[mother] Is deceased: died in the year",
-          "scale": "int",
+          "text_de": "[Mutter] Ist verstorben, und zwar im Jahr:",
           "concept": "lm02",
           "filter": "26;lvm=2 | 4",
+          "scale": "int",
           "description": "Mutter Jahr Verstorben",
           "number": "27",
           "sn": 4
@@ -1631,10 +1663,11 @@
       "question": "28",
       "name": "28",
       "label": "When was your father / mother born (year)?",
+      "label_de": "In welchem Jahr wurde Ihr Vater / Ihre Mutter geboren?",
       "items": [
         {
-          "text_de": "In welchem Jahr wurde Ihr Vater / Ihre Mutter geboren?",
           "text": "When was your father / mother born (year)?",
+          "text_de": "In welchem Jahr wurde Ihr Vater / Ihre Mutter geboren?",
           "scale": "txt",
           "number": "28",
           "sn": 0,
@@ -1642,22 +1675,22 @@
         },
         {
           "item": "lv03",
-          "text_de": "Vater sofern nicht im Haushalt lebend",
           "text": "Father, if not living in the household",
-          "scale": "int",
+          "text_de": "Vater sofern nicht im Haushalt lebend",
           "concept": "lv03",
           "filter": "26;lvm=3 | 4",
+          "scale": "int",
           "description": "Geburtsjahr Vater",
           "number": "28",
           "sn": 1
         },
         {
           "item": "lm03",
-          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "text": "Mother, if not living in the household",
-          "scale": "int",
+          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "concept": "lm03",
           "filter": "26;lvm=2 | 4",
+          "scale": "int",
           "description": "Geburtsjahr Mutter",
           "number": "28",
           "sn": 2
@@ -1671,10 +1704,11 @@
       "question": "29",
       "name": "29",
       "label": "Was your father / mother born in Germany?",
+      "label_de": "Ist Ihr Vater / Ihre Mutter in Deutschland geboren?",
       "items": [
         {
-          "text_de": "Ist Ihr Vater / Ihre Mutter in Deutschland geboren?",
           "text": "Was your father / mother born in Germany?",
+          "text_de": "Ist Ihr Vater / Ihre Mutter in Deutschland geboren?",
           "scale": "txt",
           "number": "29",
           "sn": 0,
@@ -1682,62 +1716,62 @@
         },
         {
           "item": "2",
-          "text_de": "Vater sofern nicht im Haushalt lebend",
           "text": "Father, if not living in the household",
-          "scale": "txt",
+          "text_de": "Vater sofern nicht im Haushalt lebend",
           "filter": "26;lvm=3 | 4",
+          "scale": "txt",
           "description": "Geburtsland Vater Deutschland",
           "number": "29",
           "sn": 1
         },
         {
           "item": "lv03a",
-          "text_de": "[Vater] Ja",
           "text": "Yes",
-          "scale": "bin",
+          "text_de": "[Vater] Ja",
           "concept": "lv03a",
           "filter": "26;lvm=3 | 4",
+          "scale": "bin",
           "number": "29",
           "sn": 2
         },
         {
           "item": "lv03b",
-          "text_de": "[Vater] Nein: Bitte Geburtsland angeben",
           "text": "[father] please state country of birth",
-          "scale": "chr",
+          "text_de": "[Vater] Nein: Bitte Geburtsland angeben",
           "concept": "lv03b",
           "filter": "26;lvm=3 | 4",
+          "scale": "chr",
           "description": "Geburtsland Vater",
           "number": "29",
           "sn": 3
         },
         {
           "item": "5",
-          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "text": "Mother, if not living in the household",
-          "scale": "txt",
+          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "filter": "26;lvm=2 | 4",
+          "scale": "txt",
           "description": "Geburtsland Mutter Deutschland",
           "number": "29",
           "sn": 4
         },
         {
           "item": "lm03a",
-          "text_de": "[Mutter] Ja",
           "text": "Yes",
-          "scale": "bin",
+          "text_de": "[Mutter] Ja",
           "concept": "lm03a",
           "filter": "26;lvm=2 | 4",
+          "scale": "bin",
           "number": "29",
           "sn": 5
         },
         {
           "item": "lm03b",
-          "text_de": "[Mutter] Nein: Bitte Geburtsland angeben",
           "text": "[mother] please state country of birth",
-          "scale": "chr",
+          "text_de": "[Mutter] Nein: Bitte Geburtsland angeben",
           "concept": "lm03b",
           "filter": "26;lvm=2 | 4",
+          "scale": "chr",
           "description": "Geburtsland Mutter",
           "number": "29",
           "sn": 6
@@ -1751,10 +1785,11 @@
       "question": "30",
       "name": "30",
       "label": "Does or did your father / mother have German citizenship?",
+      "label_de": "Hat (bzw. hatte) Ihr Vater / Ihre Mutter die deutsche Staatsbürgerschaft?",
       "items": [
         {
-          "text_de": "Hat (bzw. hatte) Ihr Vater / Ihre Mutter die deutsche Staatsbürgerschaft?",
           "text": "Does or did your father / mother have German citizenship?",
+          "text_de": "Hat (bzw. hatte) Ihr Vater / Ihre Mutter die deutsche Staatsbürgerschaft?",
           "scale": "txt",
           "number": "30",
           "sn": 0,
@@ -1762,11 +1797,11 @@
         },
         {
           "item": "lv04",
-          "text_de": "Vater sofern nicht im Haushalt lebend",
           "text": "Father, if not living in the household",
-          "scale": "cat",
+          "text_de": "Vater sofern nicht im Haushalt lebend",
           "concept": "lv04",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Staatsbürgerschaft Vater",
           "number": "30",
           "answers": [
@@ -1785,11 +1820,11 @@
         },
         {
           "item": "lm04",
-          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "text": "Mother, if not living in the household",
-          "scale": "cat",
+          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "concept": "lm04",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Staatsbürgerschaft Mutter",
           "number": "30",
           "answers": [
@@ -1815,10 +1850,11 @@
       "question": "31",
       "name": "31",
       "label": "What type of school-leaving certificate did your father / mother attain?",
+      "label_de": "Welchen Schulabschluss hat Ihr Vater / Ihre Mutter erworben?",
       "items": [
         {
-          "text_de": "Welchen Schulabschluss hat Ihr Vater / Ihre Mutter erworben?",
           "text": "What type of school-leaving certificate did your father / mother attain?",
+          "text_de": "Welchen Schulabschluss hat Ihr Vater / Ihre Mutter erworben?",
           "scale": "txt",
           "number": "31",
           "sn": 0,
@@ -1826,11 +1862,11 @@
         },
         {
           "item": "lv05",
-          "text_de": "Vater sofern nicht im Haushalt lebend",
           "text": "Father, if not living in the household",
-          "scale": "cat",
+          "text_de": "Vater sofern nicht im Haushalt lebend",
           "concept": "lv05",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Schulabschluss Vater",
           "number": "31",
           "answers": [
@@ -1869,11 +1905,11 @@
         },
         {
           "item": "lm05",
-          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "text": "Mother, if not living in the household",
-          "scale": "cat",
+          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "concept": "lm05",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Schulabschluss Mutter",
           "number": "31",
           "answers": [
@@ -1919,10 +1955,11 @@
       "question": "32",
       "name": "32",
       "label": "Did your father / mother complete vocational training or a university degree?",
+      "label_de": "Hat Ihr Vater / Ihre Mutter eine berufliche Ausbildung oder ein Studium abgeschlossen?",
       "items": [
         {
-          "text_de": "Hat Ihr Vater / Ihre Mutter eine berufliche Ausbildung oder ein Studium abgeschlossen?",
           "text": "Did your father / mother complete vocational training or a university degree?",
+          "text_de": "Hat Ihr Vater / Ihre Mutter eine berufliche Ausbildung oder ein Studium abgeschlossen?",
           "scale": "txt",
           "number": "32",
           "sn": 0,
@@ -1930,11 +1967,11 @@
         },
         {
           "item": "lv06",
-          "text_de": "Vater sofern nicht im Haushalt lebend",
           "text": "Father, if not living in the household",
-          "scale": "cat",
+          "text_de": "Vater sofern nicht im Haushalt lebend",
           "concept": "lv06",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Ausbildungsabschluss Vater",
           "number": "32",
           "answers": [
@@ -1963,11 +2000,11 @@
         },
         {
           "item": "lm06",
-          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "text": "Mother, if not living in the household",
-          "scale": "cat",
+          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "concept": "lm06",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Ausbildungsabschluss Mutter",
           "number": "32",
           "answers": [
@@ -2003,12 +2040,13 @@
       "question": "33",
       "name": "33",
       "label": "If applicable: What was your father’s / mother’s occupation when you were 15 years old?",
+      "label_de": "Falls zutreffend:\nWelche berufliche Tätigkeit übte Ihr Vater / Ihre Mutter aus, als Sie selbst 15 Jahre alt waren?",
       "items": [
         {
-          "text_de": "Falls zutreffend:\nWelche berufliche Tätigkeit übte Ihr Vater / Ihre Mutter aus, als Sie selbst 15 Jahre alt waren?",
-          "instruction_de": "Bitte genaue Berufsbezeichnung angeben.",
           "text": "If applicable: What was your father’s / mother’s occupation when you were 15 years old?",
+          "text_de": "Falls zutreffend:\nWelche berufliche Tätigkeit übte Ihr Vater / Ihre Mutter aus, als Sie selbst 15 Jahre alt waren?",
           "instruction": "Please specify exact job title.",
+          "instruction_de": "Bitte genaue Berufsbezeichnung angeben.",
           "scale": "txt",
           "number": "33",
           "sn": 0,
@@ -2016,22 +2054,22 @@
         },
         {
           "item": "lv07",
-          "text_de": "Vater",
           "text": "Father",
-          "scale": "chr",
+          "text_de": "Vater",
           "concept": "lv07",
           "filter": "26;lvm=3 | 4",
+          "scale": "chr",
           "description": "Berufstätigkeit Vater",
           "number": "33",
           "sn": 1
         },
         {
           "item": "lm07",
-          "text_de": "Mutter",
           "text": "Mother",
-          "scale": "chr",
+          "text_de": "Mutter",
           "concept": "lm07",
           "filter": "26;lvm=2 | 4",
+          "scale": "chr",
           "description": "Berufstätigkeit Mutter",
           "number": "33",
           "sn": 2
@@ -2045,10 +2083,11 @@
       "question": "34",
       "name": "34",
       "label": "Which of the following categories describes your father’s / mother’s occupational status when you were 15 years old?",
+      "label_de": "In welcher beruflichen Stellung war Ihr Vater / Ihre Mutter damals tätig, als Sie 15 Jahre alt waren?",
       "items": [
         {
-          "text_de": "In welcher beruflichen Stellung war Ihr Vater / Ihre Mutter damals tätig, als Sie 15 Jahre alt waren?",
           "text": "Which of the following categories describes your father’s / mother’s occupational status when you were 15 years old?",
+          "text_de": "In welcher beruflichen Stellung war Ihr Vater / Ihre Mutter damals tätig, als Sie 15 Jahre alt waren?",
           "scale": "txt",
           "number": "34",
           "sn": 0,
@@ -2056,20 +2095,20 @@
         },
         {
           "item": "1",
-          "text_de": "Vater sofern nicht im Haushalt lebend",
           "text": "Father, if not living in the household",
-          "scale": "txt",
+          "text_de": "Vater sofern nicht im Haushalt lebend",
           "filter": "26;lvm=3 | 4",
+          "scale": "txt",
           "number": "34",
           "sn": 1
         },
         {
           "item": "lv08",
-          "text_de": "[Vater] Arbeiter (auch in der Landwirtschaft)",
           "text": "[Father] Blue-collar worker (Arbeiter) (also in agriculture)",
-          "scale": "cat",
+          "text_de": "[Vater] Arbeiter (auch in der Landwirtschaft)",
           "concept": "lv08",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Berufliche Stellung Vater: Arbeiter",
           "number": "34",
           "answers": [
@@ -2103,11 +2142,11 @@
         },
         {
           "item": "lv09",
-          "text_de": "[Vater] Angestellte",
           "text": "[Father] White-collar worker (Angestellte)",
-          "scale": "cat",
+          "text_de": "[Vater] Angestellte",
           "concept": "lv09",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Berufliche Stellung Vater: Angestellte",
           "number": "34",
           "answers": [
@@ -2146,11 +2185,11 @@
         },
         {
           "item": "lv10",
-          "text_de": "[Vater] Beamte / Staatsverwaltung (einschl. Richter und Berufssoldaten)",
           "text": "[Father] Civil servant or public administration employee (including judges and professional soldiers)",
-          "scale": "cat",
+          "text_de": "[Vater] Beamte / Staatsverwaltung (einschl. Richter und Berufssoldaten)",
           "concept": "lv10",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Berufliche Stellung Vater: Beamte / Staatsverwaltung",
           "number": "34",
           "answers": [
@@ -2179,11 +2218,11 @@
         },
         {
           "item": "lv11",
-          "text_de": "[Vater] Selbstständige (einschl. mithelfender Familienangehöriger)",
           "text": "[Father] Self-employed (including family members working for the self-employed)",
-          "scale": "cat",
+          "text_de": "[Vater] Selbstständige (einschl. mithelfender Familienangehöriger)",
           "concept": "lv11",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Berufliche Stellung Vater: Selbständige",
           "number": "34",
           "answers": [
@@ -2227,11 +2266,11 @@
         },
         {
           "item": "lv12",
-          "text_de": "Ihr Vater ...",
           "text": "Your Father …",
-          "scale": "cat",
+          "text_de": "Ihr Vater ...",
           "concept": "lv12",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "berufl. Stellung Vater: Nicht Erwerbstätig / Verstorben",
           "number": "34",
           "answers": [
@@ -2250,20 +2289,20 @@
         },
         {
           "item": "7",
-          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "text": "Mother, if not living in the household",
-          "scale": "txt",
+          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "filter": "26;lvm=2 | 4",
+          "scale": "txt",
           "number": "34",
           "sn": 7
         },
         {
           "item": "lm08",
-          "text_de": "[Mutter] Arbeiter (auch in der Landwirtschaft)",
           "text": "[Mother] Blue-collar worker (Arbeiter) (also in agriculture)",
-          "scale": "cat",
+          "text_de": "[Mutter] Arbeiter (auch in der Landwirtschaft)",
           "concept": "lm08",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Berufliche Stellung Mutter: Arbeiter",
           "number": "34",
           "answers": [
@@ -2297,11 +2336,11 @@
         },
         {
           "item": "lm09",
-          "text_de": "[Mutter] Angestellte",
           "text": "[Mother] White-collar worker (Angestellte)",
-          "scale": "cat",
+          "text_de": "[Mutter] Angestellte",
           "concept": "lm09",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Berufliche Stellung Mutter: Angestellte",
           "number": "34",
           "answers": [
@@ -2340,11 +2379,11 @@
         },
         {
           "item": "lm10",
-          "text_de": "[Mutter] Beamte / Staatsverwaltung (einschl. Richter und Berufssoldaten)",
           "text": "[Mother] Civil servant or public administration employee (including judges and professional soldiers)",
-          "scale": "cat",
+          "text_de": "[Mutter] Beamte / Staatsverwaltung (einschl. Richter und Berufssoldaten)",
           "concept": "lm10",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Berufliche Stellung Mutter: Beamte / Staatsverwaltung",
           "number": "34",
           "answers": [
@@ -2373,11 +2412,11 @@
         },
         {
           "item": "lm11",
-          "text_de": "[Mutter] Selbstständige (einschl. mithelfender Familienangehöriger)",
           "text": "[Mother] Self-employed (including family members working for the self-employed)",
-          "scale": "cat",
+          "text_de": "[Mutter] Selbstständige (einschl. mithelfender Familienangehöriger)",
           "concept": "lm11",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Berufliche Stellung Mutter: Selbständige",
           "number": "34",
           "answers": [
@@ -2421,11 +2460,11 @@
         },
         {
           "item": "lm12",
-          "text_de": "Ihre Mutter ...",
           "text": "Your Mother …",
-          "scale": "cat",
+          "text_de": "Ihre Mutter ...",
           "concept": "lm12",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "berufl. Stellung Mutter: Nicht Erwerbstätig / Verstorben",
           "number": "34",
           "answers": [
@@ -2451,10 +2490,11 @@
       "question": "35",
       "name": "35",
       "label": "Does / did your father / mother belong to a church or religious group?",
+      "label_de": "Gehören bzw. gehörten Ihr Vater / Ihre Mutter einer Kirche oder Religionsgemeinschaft an?",
       "items": [
         {
-          "text_de": "Gehören bzw. gehörten Ihr Vater / Ihre Mutter einer Kirche oder Religionsgemeinschaft an?",
           "text": "Does / did your father / mother belong to a church or religious group?",
+          "text_de": "Gehören bzw. gehörten Ihr Vater / Ihre Mutter einer Kirche oder Religionsgemeinschaft an?",
           "scale": "txt",
           "number": "35",
           "sn": 0,
@@ -2462,11 +2502,11 @@
         },
         {
           "item": "lv13",
-          "text_de": "Vater sofern nicht im Haushalt lebend",
           "text": "Father, if not living in the living in the household",
-          "scale": "cat",
+          "text_de": "Vater sofern nicht im Haushalt lebend",
           "concept": "lv13",
           "filter": "26;lvm=3 | 4",
+          "scale": "cat",
           "description": "Religion Vater",
           "number": "35",
           "answers": [
@@ -2505,11 +2545,11 @@
         },
         {
           "item": "lm13",
-          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "text": "Mother, if not living in the household",
-          "scale": "cat",
+          "text_de": "Mutter sofern nicht im Haushalt lebend",
           "concept": "lm13",
           "filter": "26;lvm=2 | 4",
+          "scale": "cat",
           "description": "Religion Mutter",
           "number": "35",
           "answers": [
@@ -2555,10 +2595,11 @@
       "question": "B3",
       "name": "B3",
       "label": "If you think back ...",
+      "label_de": "Wenn Sie sich einmal zurückerinnern ...",
       "items": [
         {
-          "text_de": "Wenn Sie sich einmal zurückerinnern ...",
           "text": "If you think back ...",
+          "text_de": "Wenn Sie sich einmal zurückerinnern ...",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -2573,13 +2614,14 @@
       "question": "36",
       "name": "36",
       "label": "Have you regularly attended a kindergarten, a children's day center or a similar institution?",
+      "label_de": "Haben Sie regelmäßig einen Kindergarte, eine Kindertagsstätte oder eine ähnliche Einrichtung besucht?",
       "items": [
         {
           "item": "lkein",
-          "text_de": "Haben Sie regelmäßig einen Kindergarte, eine Kindertagsstätte oder eine ähnliche Einrichtung besucht?",
           "text": "Have you regularly attended a kindergarten, a children's day center or a similar institution?",
-          "scale": "cat",
+          "text_de": "Haben Sie regelmäßig einen Kindergarte, eine Kindertagsstätte oder eine ähnliche Einrichtung besucht?",
           "concept": "lkein",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2604,10 +2646,11 @@
       "question": "37",
       "name": "37",
       "label": "At what age did you start with the regular visit of this institution?",
+      "label_de": "In welchem Alter haben Sie mit dem regelmäßigen Besuch dieser Einrichtung begonnen?",
       "items": [
         {
-          "text_de": "In welchem Alter haben Sie mit dem regelmäßigen Besuch dieser Einrichtung begonnen?",
           "text": "At what age did you start with the regular visit of this institution?",
+          "text_de": "In welchem Alter haben Sie mit dem regelmäßigen Besuch dieser Einrichtung begonnen?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -2615,19 +2658,19 @@
         },
         {
           "item": "lkeinj",
-          "text_de": "Im Alter von ... Jahren",
           "text": "By the age of ...",
-          "scale": "int",
+          "text_de": "Im Alter von ... Jahren",
           "concept": "lkeinj",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "lkeinka",
-          "text_de": "Kann mich nicht erinnern",
           "text": "I can not remember",
-          "scale": "bin",
+          "text_de": "Kann mich nicht erinnern",
           "concept": "lkeinka",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         }
@@ -2640,13 +2683,14 @@
       "question": "38",
       "name": "38",
       "label": "How interested and involved were your parents in your grades and progress at school?",
+      "label_de": "Wie stark haben sich Ihre Eltern um Ihre Leistungen in der Schule gekümmert?",
       "items": [
         {
           "item": "lleist",
-          "text_de": "Wie stark haben sich Ihre Eltern um Ihre Leistungen in der Schule gekümmert?",
           "text": "How interested and involved were your parents in your grades and progress at school?",
-          "scale": "cat",
+          "text_de": "Wie stark haben sich Ihre Eltern um Ihre Leistungen in der Schule gekümmert?",
           "concept": "lleist",
+          "scale": "cat",
           "number": "36",
           "answers": [
             {
@@ -2681,10 +2725,11 @@
       "question": "39",
       "name": "39",
       "label": "Can you remember your last report card from school?\nWhat were your grades in the following three subjects?",
+      "label_de": "Können Sie sich an Ihr letztes Schulzeugnis erinnern?\nWelche Note hatten Sie in Ihrem letzten Zeugnis in den folgenden drei Fächern?",
       "items": [
         {
-          "text_de": "Können Sie sich an Ihr letztes Schulzeugnis erinnern?\nWelche Note hatten Sie in Ihrem letzten Zeugnis in den folgenden drei Fächern?",
           "text": "Can you remember your last report card from school?\nWhat were your grades in the following three subjects?",
+          "text_de": "Können Sie sich an Ihr letztes Schulzeugnis erinnern?\nWelche Note hatten Sie in Ihrem letzten Zeugnis in den folgenden drei Fächern?",
           "scale": "txt",
           "number": "37",
           "sn": 0,
@@ -2692,10 +2737,10 @@
         },
         {
           "item": "lsch1",
-          "text_de": "Deutsch",
           "text": "German",
-          "scale": "cat",
+          "text_de": "Deutsch",
           "concept": "lsch1",
+          "scale": "cat",
           "number": "37",
           "answers": [
             {
@@ -2738,10 +2783,10 @@
         },
         {
           "item": "lsch2",
-          "text_de": "Mathematik",
           "text": "Math",
-          "scale": "cat",
+          "text_de": "Mathematik",
           "concept": "lsch2",
+          "scale": "cat",
           "number": "37",
           "answers": [
             {
@@ -2784,10 +2829,10 @@
         },
         {
           "item": "lsch3",
-          "text_de": "Erste Fremdsprache",
           "text": "First foreign language",
-          "scale": "cat",
+          "text_de": "Erste Fremdsprache",
           "concept": "lsch3",
+          "scale": "cat",
           "number": "37",
           "answers": [
             {
@@ -2837,12 +2882,13 @@
       "question": "40",
       "name": "40",
       "label": "How often did you argue or fight with your parents when you were 15 years old?",
+      "label_de": "Als Sie etwas 15 Jahre alt waren:\nWie oft kam es damals vor, dass Sie mit Ihren Eltern Streit hatten?",
       "items": [
         {
-          "text_de": "Als Sie etwas 15 Jahre alt waren:\nWie oft kam es damals vor, dass Sie mit Ihren Eltern Streit hatten?",
-          "instruction_de": "Bitte ein Kreuz pro Zeile!",
           "text": "How often did you argue or fight with your parents when you were 15 years old?",
+          "text_de": "Als Sie etwas 15 Jahre alt waren:\nWie oft kam es damals vor, dass Sie mit Ihren Eltern Streit hatten?",
           "instruction": "Please make one X per row!",
+          "instruction_de": "Bitte ein Kreuz pro Zeile!",
           "scale": "txt",
           "description": "Researcher Notes:\nStatement 1 = LSTRV\n**Statement 2 = LSTRM\n",
           "number": "38",
@@ -2851,10 +2897,10 @@
         },
         {
           "item": "lstrv",
-          "text_de": "Mit meinem Vater",
           "text": "With my father",
-          "scale": "cat",
+          "text_de": "Mit meinem Vater",
           "concept": "lstrv",
+          "scale": "cat",
           "number": "38",
           "answers": [
             {
@@ -2892,10 +2938,10 @@
         },
         {
           "item": "lstrm",
-          "text_de": "Mit meiner Mutter",
           "text": "With my mother",
-          "scale": "cat",
+          "text_de": "Mit meiner Mutter",
           "concept": "lstrm",
+          "scale": "cat",
           "number": "38",
           "answers": [
             {
@@ -2940,12 +2986,13 @@
       "question": "41",
       "name": "41",
       "label": "Were you actively involved in musical activities growing up?\nFor example, did you sing or play a musical instrument?",
+      "label_de": "Haben Sie in Ihrer Jugend aktiv Musik gemacht, gemeint ist Gesang oder Spielen eines Musikinstruments?",
       "items": [
         {
-          "text_de": "Haben Sie in Ihrer Jugend aktiv Musik gemacht, gemeint ist Gesang oder Spielen eines Musikinstruments?",
           "text": "Were you actively involved in musical activities growing up?\nFor example, did you sing or play a musical instrument?",
-          "scale": "cat",
+          "text_de": "Haben Sie in Ihrer Jugend aktiv Musik gemacht, gemeint ist Gesang oder Spielen eines Musikinstruments?",
           "concept": "lmusi",
+          "scale": "cat",
           "number": "39",
           "answers": [
             {
@@ -2971,12 +3018,13 @@
       "question": "42",
       "name": "42",
       "label": "Were you involved in extracurricular sports in your youth?",
+      "label_de": "Haben Sie in Ihrer Jugend außerhalb der Schule Sport getrieben?",
       "items": [
         {
-          "text_de": "Haben Sie in Ihrer Jugend außerhalb der Schule Sport getrieben?",
           "text": "Were you involved in extracurricular sports in your youth?",
-          "scale": "cat",
+          "text_de": "Haben Sie in Ihrer Jugend außerhalb der Schule Sport getrieben?",
           "concept": "lsp1",
+          "scale": "cat",
           "description": "Routing:\n*IF [Q34000,2] **GOTO BLOCK 3700\n",
           "number": "40",
           "answers": [
@@ -3003,10 +3051,11 @@
       "question": "43",
       "name": "43",
       "label": "Which sports you played was most important to you?",
+      "label_de": "Was war für Sie die wichtigste Sportart, die Sie ausgeübt haben?",
       "items": [
         {
-          "text_de": "Was war für Sie die wichtigste Sportart, die Sie ausgeübt haben?",
           "text": "Which sports you played was most important to you?",
+          "text_de": "Was war für Sie die wichtigste Sportart, die Sie ausgeübt haben?",
           "scale": "txt",
           "description": "Sportart",
           "number": "41",
@@ -3015,10 +3064,10 @@
         },
         {
           "item": "lsp2",
-          "text_de": "Wichtigste Sportart:",
           "text": "Most important sports:",
-          "scale": "chr",
+          "text_de": "Wichtigste Sportart:",
           "concept": "lsp2",
+          "scale": "chr",
           "number": "41",
           "sn": 1
         }
@@ -3031,12 +3080,13 @@
       "question": "44",
       "name": "44",
       "label": "Did you play this sport competitively?",
+      "label_de": "Haben Sie in dieser Sportart auch an Wettkämpfen teilgenommen?",
       "items": [
         {
-          "text_de": "Haben Sie in dieser Sportart auch an Wettkämpfen teilgenommen?",
           "text": "Did you play this sport competitively?",
-          "scale": "cat",
+          "text_de": "Haben Sie in dieser Sportart auch an Wettkämpfen teilgenommen?",
           "concept": "lsp3",
+          "scale": "cat",
           "number": "42",
           "answers": [
             {
@@ -3062,10 +3112,11 @@
       "question": "B4",
       "name": "B4",
       "label": "When you were 15 years old ... and afterwards",
+      "label_de": "Als Sie 15 Jahre alt waren ... und danach",
       "items": [
         {
-          "text_de": "Als Sie 15 Jahre alt waren ... und danach",
           "text": "When you were 15 years old ... and afterwards",
+          "text_de": "Als Sie 15 Jahre alt waren ... und danach",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -3080,12 +3131,13 @@
       "question": "45",
       "name": "45",
       "label": "We would like to ask you now for some information about your personal history starting at age of 15. Please fill out the table below as follows:",
+      "label_de": "Wir bitten Sie nun um Angaben zu Ihrem eigenen Lebenslauf ab dem Alter von 15 Jahren.\n\nBitte füllen Sie das Schema wie folgt aus:",
       "items": [
         {
-          "text_de": "Wir bitten Sie nun um Angaben zu Ihrem eigenen Lebenslauf ab dem Alter von 15 Jahren.\n\nBitte füllen Sie das Schema wie folgt aus:",
-          "instruction_de": "1) Tragen Sie in die \ngroßen Kästchen das Jahr ein, in dem Sie 15 Jahre alt wurden, das Jahr, \nin dem sie 20 wurden, 25 wurden usw. bis zu Ihrem heutigen Lebensalter.\n\n2)\n Kreuzen Sie dann bitte in den Kästchen darunter an, wie Ihr Leben seit \ndem 15. Lebensjahr verlaufen ist, von wann bis wann Sie in der Schule \nwaren, in der Berufsausbildung waren, berufstätig waren usw.\nWichtig \nist, dass für alle Jahre Ihres Lebens bis heute bzw. bis zu Ihrem 65. \nLebensjahr etwas angekreuzt ist. Wenn in einem Jahr mehreres zutraf, \nkönnen Sie mehreres ankreuzen.",
           "text": "We would like to ask you now for some information about your personal history starting at age of 15. Please fill out the table below as follows:",
+          "text_de": "Wir bitten Sie nun um Angaben zu Ihrem eigenen Lebenslauf ab dem Alter von 15 Jahren.\n\nBitte füllen Sie das Schema wie folgt aus:",
           "instruction": "Please state what has happened in your life since you were 15—from when to when you were in school,\nin vocational training, employed, etc. It is important that you give some answer for every year of your life\nup to the present or up to the age of 65. If more than one answer applies in a particular year, please give\nmore than one answer.",
+          "instruction_de": "1) Tragen Sie in die \ngroßen Kästchen das Jahr ein, in dem Sie 15 Jahre alt wurden, das Jahr, \nin dem sie 20 wurden, 25 wurden usw. bis zu Ihrem heutigen Lebensalter.\n\n2)\n Kreuzen Sie dann bitte in den Kästchen darunter an, wie Ihr Leben seit \ndem 15. Lebensjahr verlaufen ist, von wann bis wann Sie in der Schule \nwaren, in der Berufsausbildung waren, berufstätig waren usw.\nWichtig \nist, dass für alle Jahre Ihres Lebens bis heute bzw. bis zu Ihrem 65. \nLebensjahr etwas angekreuzt ist. Wenn in einem Jahr mehreres zutraf, \nkönnen Sie mehreres ankreuzen.",
           "scale": "txt",
           "description": "Researcher Notes:\nEs handelt sich um numerische Werte.\n**\n**Statement 1 = LJ01\n**Statement 2 = LJ02\n**Statement 3 = LJ03\n**Statement 4 = LJ04\n**Statement 5 = LJ05\n**Statement 6 = LJ06\n**Statement 7 = LJ07\n**Statement 8 = LJ08\n**Statement 9 = LJ09\n",
           "number": "43",
@@ -3094,107 +3146,107 @@
         },
         {
           "item": "lj01",
-          "text_de": "[15] Jahr",
           "text": "Year at the age of 15",
-          "scale": "int",
+          "text_de": "[15] Jahr",
           "concept": "lj01",
+          "scale": "int",
           "number": "43",
           "sn": 1
         },
         {
           "item": "lj02",
-          "text_de": "[20] Jahr",
           "text": "Year at the age of 20",
-          "scale": "int",
+          "text_de": "[20] Jahr",
           "concept": "lj02",
+          "scale": "int",
           "number": "43",
           "sn": 2
         },
         {
           "item": "lj03",
-          "text_de": "[25] Jahr",
           "text": "Year at the age of 25",
-          "scale": "int",
+          "text_de": "[25] Jahr",
           "concept": "lj03",
+          "scale": "int",
           "number": "43",
           "sn": 3
         },
         {
           "item": "lj04",
-          "text_de": "[30] Jahr",
           "text": "Year at the age of 30",
-          "scale": "int",
+          "text_de": "[30] Jahr",
           "concept": "lj04",
+          "scale": "int",
           "number": "43",
           "sn": 4
         },
         {
           "item": "lj05",
-          "text_de": "[35] Jahr",
           "text": "Year at the age of 35",
-          "scale": "int",
+          "text_de": "[35] Jahr",
           "concept": "lj05",
+          "scale": "int",
           "number": "43",
           "sn": 5
         },
         {
           "item": "lj06",
-          "text_de": "[40] Jahr",
           "text": "Year at the age of 40",
-          "scale": "int",
+          "text_de": "[40] Jahr",
           "concept": "lj06",
+          "scale": "int",
           "number": "43",
           "sn": 6
         },
         {
           "item": "lj07",
-          "text_de": "[45] Jahr",
           "text": "Year at the age of 45",
-          "scale": "int",
+          "text_de": "[45] Jahr",
           "concept": "lj07",
+          "scale": "int",
           "number": "43",
           "sn": 7
         },
         {
           "item": "lj08",
-          "text_de": "[50] Jahr",
           "text": "Year at the age of 50",
-          "scale": "int",
+          "text_de": "[50] Jahr",
           "concept": "lj08",
+          "scale": "int",
           "number": "43",
           "sn": 8
         },
         {
           "item": "lj09",
-          "text_de": "[55] Jahr",
           "text": "Year at the age of 55",
-          "scale": "int",
+          "text_de": "[55] Jahr",
           "concept": "lj09",
+          "scale": "int",
           "number": "43",
           "sn": 9
         },
         {
           "item": "lj10",
-          "text_de": "[60] Jahr",
           "text": "Year at the age of 60",
-          "scale": "int",
+          "text_de": "[60] Jahr",
           "concept": "lj10",
+          "scale": "int",
           "number": "43",
           "sn": 10
         },
         {
           "item": "lj11",
-          "text_de": "[65] Jahr",
           "text": "Year at the age of 65",
-          "scale": "int",
+          "text_de": "[65] Jahr",
           "concept": "lj11",
+          "scale": "int",
           "number": "43",
           "sn": 11
         },
         {
           "item": "13",
-          "text_de": "Im Alter von … war ich:",
           "text": "At the age of ...  I was:",
+          "text_de": "Im Alter von … war ich:",
           "scale": "txt",
           "description": "Researcher Notes:\nStatement 1 = LKAL1\n**Statement 2 = LKAL2\n**Statement 3 = LKAL3\n**Statement 4 = LKAL4\n**Statement 5 = LKAL5\n**Statement 6 = LKAL6\n**Statement 7 = LKAL7\n**Statement 8 = LKAL8\n**Statement 9 = LKAL9\n",
           "number": "43",
@@ -3202,82 +3254,82 @@
         },
         {
           "item": "lkal1",
-          "text_de": "in Schule, Studium, Abendschule",
           "text": "attending school / university / evening school",
-          "scale": "chr",
+          "text_de": "in Schule, Studium, Abendschule",
           "concept": "lkal1",
+          "scale": "chr",
           "number": "43",
           "sn": 13
         },
         {
           "item": "lkal2",
-          "text_de": "in Lehre, Berufsausbildung, Fortbildung, Umschulung",
           "text": "completing an apprenticeship / vocational training / further education / retraining",
-          "scale": "chr",
+          "text_de": "in Lehre, Berufsausbildung, Fortbildung, Umschulung",
           "concept": "lkal2",
+          "scale": "chr",
           "number": "43",
           "sn": 14
         },
         {
           "item": "lkal3",
-          "text_de": "beim (freiwilligen) Wehrdienst / Zivildienst, freiwilliges soziales, ökologisches Jahr, Bundesfreiwilligendienst, im Krieg, in Gefangenschaft",
           "text": "in (voluntary) military/community service /  voluntary social / ecological year / federal volunteer service / at war / in captivity",
-          "scale": "chr",
+          "text_de": "beim (freiwilligen) Wehrdienst / Zivildienst, freiwilliges soziales, ökologisches Jahr, Bundesfreiwilligendienst, im Krieg, in Gefangenschaft",
           "concept": "lkal3",
+          "scale": "chr",
           "number": "43",
           "sn": 15
         },
         {
           "item": "lkal4",
-          "text_de": "voll berufstätig (einschl. Zeit- / Berufssoldat)",
           "text": "employed full-time (including regular / professional soldiers)",
-          "scale": "chr",
+          "text_de": "voll berufstätig (einschl. Zeit- / Berufssoldat)",
           "concept": "lkal4",
+          "scale": "chr",
           "number": "43",
           "sn": 16
         },
         {
           "item": "lkal5",
-          "text_de": "teilzeitbeschäftigt oder geringfügig erwerbstätig",
           "text": "employed part-time or marginally employed",
-          "scale": "chr",
+          "text_de": "teilzeitbeschäftigt oder geringfügig erwerbstätig",
           "concept": "lkal5",
+          "scale": "chr",
           "number": "43",
           "sn": 17
         },
         {
           "item": "lkal6",
-          "text_de": "arbeitslos",
           "text": "unemployed",
-          "scale": "chr",
+          "text_de": "arbeitslos",
           "concept": "lkal6",
+          "scale": "chr",
           "number": "43",
           "sn": 18
         },
         {
           "item": "lkal7",
-          "text_de": "Hausfrau / Hausmann",
           "text": "homemaker",
-          "scale": "chr",
+          "text_de": "Hausfrau / Hausmann",
           "concept": "lkal7",
+          "scale": "chr",
           "number": "43",
           "sn": 19
         },
         {
           "item": "lkal8",
-          "text_de": "im Ruhestand, Rentner / Pensionär (auch Vorruhestand)",
           "text": "Retired / in early retirement",
-          "scale": "chr",
+          "text_de": "im Ruhestand, Rentner / Pensionär (auch Vorruhestand)",
           "concept": "lkal8",
+          "scale": "chr",
           "number": "43",
           "sn": 20
         },
         {
           "item": "lkal9",
-          "text_de": "Sonstiges",
           "text": "other",
-          "scale": "chr",
+          "text_de": "Sonstiges",
           "concept": "lkal9",
+          "scale": "chr",
           "number": "43",
           "sn": 21
         }
@@ -3290,10 +3342,11 @@
       "question": "B5",
       "name": "B5",
       "label": "Your education",
+      "label_de": "Ihre Ausbildung",
       "items": [
         {
-          "text_de": "Ihre Ausbildung",
           "text": "Your education",
+          "text_de": "Ihre Ausbildung",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -3308,10 +3361,11 @@
       "question": "46",
       "name": "46",
       "label": "We now ask for details on some issues of your life history, which have to do with the training and the profession. First to the school:",
+      "label_de": "Wir bitten Sie nun um genauere Angaben zu einigen Punkten Ihres Lebensverlaufs, die mit der Ausbildung und dem Beruf zu tun haben. Zunächst zur Schule:",
       "items": [
         {
-          "text_de": "Wir bitten Sie nun um genauere Angaben zu einigen Punkten Ihres Lebensverlaufs, die mit der Ausbildung und dem Beruf zu tun haben. Zunächst zur Schule:",
           "text": "We now ask for details on some issues of your life history, which have to do with the training and the profession. First to the school:",
+          "text_de": "Wir bitten Sie nun um genauere Angaben zu einigen Punkten Ihres Lebensverlaufs, die mit der Ausbildung und dem Beruf zu tun haben. Zunächst zur Schule:",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -3319,28 +3373,28 @@
         },
         {
           "item": "2",
-          "text_de": "In welchem Jahr haben Sie zuletzt die Schule besucht?",
           "text": "What was the last year you attended school?",
+          "text_de": "In welchem Jahr haben Sie zuletzt die Schule besucht?",
           "scale": "txt",
           "number": "44",
           "sn": 1
         },
         {
           "item": "lsab1",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "lsab1",
+          "scale": "int",
           "description": "Researcher Notes:\nOption \"Jahr\" nicht zum ankreuzen, also kein Wert in den Daten vorhanden.\n\nRouting:\n*IF [Q38010,2] *GOTO 44000\n",
           "number": "44",
           "sn": 2
         },
         {
           "item": "lsab2",
-          "text_de": "Gehe noch zur Schule",
           "text": "I am still attending school",
-          "scale": "bin",
+          "text_de": "Gehe noch zur Schule",
           "concept": "lsab2",
+          "scale": "bin",
           "description": "Filter:\nASK ONLY IF Q3801 : LSAB2=1\n",
           "number": "44",
           "sn": 3
@@ -3354,12 +3408,13 @@
       "question": "47",
       "name": "47",
       "label": "Where did you last attend school? Was it...",
+      "label_de": "Wo haben Sie zuletzt die Schule besucht? War das ...",
       "items": [
         {
-          "text_de": "Wo haben Sie zuletzt die Schule besucht? War das ...",
           "text": "Where did you last attend school? Was it...",
-          "scale": "cat",
+          "text_de": "Wo haben Sie zuletzt die Schule besucht? War das ...",
           "concept": "lsab3",
+          "scale": "cat",
           "description": "Ort Schulausbildung",
           "number": "45",
           "answers": [
@@ -3391,10 +3446,11 @@
       "question": "48",
       "name": "48",
       "label": "How many years did you attend school?.",
+      "label_de": "Wie viele Jahre haben Sie die Schule besucht?",
       "items": [
         {
-          "text_de": "Wie viele Jahre haben Sie die Schule besucht?",
           "text": "How many years did you attend school?.",
+          "text_de": "Wie viele Jahre haben Sie die Schule besucht?",
           "scale": "txt",
           "description": "Researcher Notes:\nsinnvolles nummmerisches Maximum\n\nFilter:\nASK ONLY IF Q3900 : LSAB3=3\n",
           "number": "46",
@@ -3403,10 +3459,10 @@
         },
         {
           "item": "lsab4",
-          "text_de": "Jahre",
           "text": "Years",
-          "scale": "int",
+          "text_de": "Jahre",
           "concept": "lsab4",
+          "scale": "int",
           "number": "46",
           "sn": 1
         }
@@ -3419,12 +3475,13 @@
       "question": "49",
       "name": "49",
       "label": "What type of school-leaving certificate did you attain?",
+      "label_de": "Mit was für einem Abschluss haben Sie die Schule beendet?",
       "items": [
         {
-          "text_de": "Mit was für einem Abschluss haben Sie die Schule beendet?",
           "text": "What type of school-leaving certificate did you attain?",
-          "scale": "cat",
+          "text_de": "Mit was für einem Abschluss haben Sie die Schule beendet?",
           "concept": "lsab5",
+          "scale": "cat",
           "description": "Routing:\n*IF [Q41000,1] *GOTO 45000 \n*IF [Q41000,2] *GOTO 45000 \n*IF [Q41000,3] *GOTO 45000\n",
           "number": "47",
           "answers": [
@@ -3456,14 +3513,15 @@
       "question": "50",
       "name": "50",
       "label": "In which German federal state (Bundesland) did you last attend school?",
+      "label_de": "In welchem Bundesland haben Sie zuletzt die Schule besucht?",
       "items": [
         {
-          "text_de": "In welchem Bundesland haben Sie zuletzt die Schule besucht?",
-          "instruction_de": "(Bitte eintragen!)",
           "text": "In which German federal state (Bundesland) did you last attend school?",
+          "text_de": "In welchem Bundesland haben Sie zuletzt die Schule besucht?",
           "instruction": "(Please enter!)",
-          "scale": "chr",
+          "instruction_de": "(Bitte eintragen!)",
           "concept": "lsab6",
+          "scale": "chr",
           "description": "Researcher Notes:\nVariable LBUND wird generiert.\n",
           "number": "48",
           "sn": 0,
@@ -3478,12 +3536,13 @@
       "question": "51",
       "name": "51",
       "label": "What type of school-leaving certificate did you attain?",
+      "label_de": "Welchen Schulabschluss haben Sie gemacht?",
       "items": [
         {
-          "text_de": "Welchen Schulabschluss haben Sie gemacht?",
           "text": "What type of school-leaving certificate did you attain?",
-          "scale": "cat",
+          "text_de": "Welchen Schulabschluss haben Sie gemacht?",
           "concept": "lsab7",
+          "scale": "cat",
           "number": "49",
           "answers": [
             {
@@ -3522,20 +3581,20 @@
         },
         {
           "item": "lsab8",
-          "text_de": "[Schule ohne Abschluss verlassen] Bitte eintragen: zuletzt besuchte Schule",
           "text": "Please state: last school type attended",
-          "scale": "chr",
+          "text_de": "[Schule ohne Abschluss verlassen] Bitte eintragen: zuletzt besuchte Schule",
           "concept": "lsab8",
+          "scale": "chr",
           "description": "Letzte Schule (ohne Abschluss)",
           "number": "49",
           "sn": 1
         },
         {
           "item": "lsab9",
-          "text_de": "[Sonstiger Schulabschluss] Bitte eintragen: Art des Schulabschlusses",
           "text": "Please state: type of school-leaving certificate attained",
-          "scale": "chr",
+          "text_de": "[Sonstiger Schulabschluss] Bitte eintragen: Art des Schulabschlusses",
           "concept": "lsab9",
+          "scale": "chr",
           "description": "Sonst_Schulabschluss",
           "number": "49",
           "sn": 2
@@ -3549,12 +3608,13 @@
       "question": "52",
       "name": "52",
       "label": "If you think back to the last grade of school you attended: How many of your fellow students or their parents were not from Germany?",
+      "label_de": "Wenn Sie einmal an die Schulklasse denken, die Sie zuletzt besucht haben:\nWie viele Ihrer Mitschüler oder deren Eltern stammten nicht aus Deutschland?",
       "items": [
         {
-          "text_de": "Wenn Sie einmal an die Schulklasse denken, die Sie zuletzt besucht haben:\nWie viele Ihrer Mitschüler oder deren Eltern stammten nicht aus Deutschland?",
           "text": "If you think back to the last grade of school you attended: How many of your fellow students or their parents were not from Germany?",
-          "scale": "cat",
+          "text_de": "Wenn Sie einmal an die Schulklasse denken, die Sie zuletzt besucht haben:\nWie viele Ihrer Mitschüler oder deren Eltern stammten nicht aus Deutschland?",
           "concept": "lsab10",
+          "scale": "cat",
           "number": "50",
           "answers": [
             {
@@ -3600,12 +3660,13 @@
       "question": "53",
       "name": "53",
       "label": "Do you intend to attain a school-leaving certificate in the future?",
+      "label_de": "Streben Sie in Zukunft noch einen Schulabschluss an?",
       "items": [
         {
-          "text_de": "Streben Sie in Zukunft noch einen Schulabschluss an?",
           "text": "Do you intend to attain a school-leaving certificate in the future?",
-          "scale": "cat",
+          "text_de": "Streben Sie in Zukunft noch einen Schulabschluss an?",
           "concept": "lsab11",
+          "scale": "cat",
           "description": "Routing:\n*IF [Q45000,3] *GOTO 47000\n",
           "number": "51",
           "answers": [
@@ -3637,12 +3698,13 @@
       "question": "54",
       "name": "54",
       "label": "What is the highest degree you plan to attain?",
+      "label_de": "Welchen höchsten Schulabschluss streben Sie an?",
       "items": [
         {
-          "text_de": "Welchen höchsten Schulabschluss streben Sie an?",
           "text": "What is the highest degree you plan to attain?",
-          "scale": "cat",
+          "text_de": "Welchen höchsten Schulabschluss streben Sie an?",
           "concept": "lsab12",
+          "scale": "cat",
           "description": "Filter:\nASK ONLY IF Q4500 : LSAB11=1,2\n",
           "number": "52",
           "answers": [
@@ -3679,12 +3741,13 @@
       "question": "55",
       "name": "55",
       "label": "Have you completed vocational training or university studies in Germany?",
+      "label_de": "Haben Sie in Deutschland eine Berufsausbildung oder ein Studium abgeschlossen?",
       "items": [
         {
-          "text_de": "Haben Sie in Deutschland eine Berufsausbildung oder ein Studium abgeschlossen?",
           "text": "Have you completed vocational training or university studies in Germany?",
-          "scale": "cat",
+          "text_de": "Haben Sie in Deutschland eine Berufsausbildung oder ein Studium abgeschlossen?",
           "concept": "lab01",
+          "scale": "cat",
           "description": "Routing:\n*IF [Q47000,2] *GOTO 49000\n",
           "number": "53",
           "answers": [
@@ -3711,12 +3774,13 @@
       "question": "56",
       "name": "56",
       "label": "What type of vocational or university degree did you attain and when did you attain it?",
+      "label_de": "Was für ein Ausbildungs- oder Studienabschluss war das und in welchem Jahr haben Sie diesen Abschluss gemacht?",
       "items": [
         {
-          "text_de": "Was für ein Ausbildungs- oder Studienabschluss war das und in welchem Jahr haben Sie diesen Abschluss gemacht?",
-          "instruction_de": "Mehrfachnennungen möglich!",
           "text": "What type of vocational or university degree did you attain and when did you attain it?",
+          "text_de": "Was für ein Ausbildungs- oder Studienabschluss war das und in welchem Jahr haben Sie diesen Abschluss gemacht?",
           "instruction": "Multiple answers possible!",
+          "instruction_de": "Mehrfachnennungen möglich!",
           "scale": "txt",
           "description": "Art Berufsausbildungsabschluss",
           "number": "54",
@@ -3725,272 +3789,272 @@
         },
         {
           "item": "lab02",
-          "text_de": "Lehre, Facharbeiterabschluss",
           "text": "Apprenticeship (Lehre) / Vocational degree as skilled worker (Facharbeiterabschluss)",
-          "scale": "bin",
+          "text_de": "Lehre, Facharbeiterabschluss",
           "concept": "lab02",
+          "scale": "bin",
           "number": "54",
           "sn": 1
         },
         {
           "item": "lab03",
-          "text_de": "Berufsfachschule, Handelsschule, Schule des Gesundheitswesens",
           "text": "Full-time vocational school (Berufsfachschule) / commercial college (Handelsschule) / Health sector school (Schule des Gesundheitswesens)",
-          "scale": "bin",
+          "text_de": "Berufsfachschule, Handelsschule, Schule des Gesundheitswesens",
           "concept": "lab03",
+          "scale": "bin",
           "number": "54",
           "sn": 2
         },
         {
           "item": "lab04",
-          "text_de": "Fachschule, z.B. Meister-, Technikerabschluss",
           "text": "Higher level trade or technical school (e.g. Meisterschule,Technikerschule)",
-          "scale": "bin",
+          "text_de": "Fachschule, z.B. Meister-, Technikerabschluss",
           "concept": "lab04",
+          "scale": "bin",
           "number": "54",
           "sn": 3
         },
         {
           "item": "lab05",
-          "text_de": "Beamtenausbildung",
           "text": "Training for civil servants (Beamtenausbildung)",
-          "scale": "bin",
+          "text_de": "Beamtenausbildung",
           "concept": "lab05",
+          "scale": "bin",
           "number": "54",
           "sn": 4
         },
         {
           "item": "lab06",
-          "text_de": "Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)",
           "text": "Technical or professionally oriented college (Fachhochschule, Berufsakademie; formerly also engineer or teacher training)",
-          "scale": "bin",
+          "text_de": "Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)",
           "concept": "lab06",
+          "scale": "bin",
           "number": "54",
           "sn": 5
         },
         {
           "item": "lab07",
-          "text_de": "Universitäts-, Hochschulabschluss",
           "text": "University or university-level degree",
-          "scale": "bin",
+          "text_de": "Universitäts-, Hochschulabschluss",
           "concept": "lab07",
+          "scale": "bin",
           "number": "54",
           "sn": 6
         },
         {
           "item": "lab40",
-          "text_de": "Promotion",
           "text": "Doctoral studies (Promotion)",
-          "scale": "bin",
+          "text_de": "Promotion",
           "concept": "lab40",
+          "scale": "bin",
           "number": "54",
           "sn": 7
         },
         {
           "item": "lab08",
-          "text_de": "Sonstiger Abschluss",
           "text": "Other degree",
-          "scale": "bin",
+          "text_de": "Sonstiger Abschluss",
           "concept": "lab08",
+          "scale": "bin",
           "number": "54",
           "sn": 8
         },
         {
           "item": "lab02j",
-          "text_de": "[Lehre, Facharbeiterabschluss] Jahr:",
           "text": "[Apprenticeship  / Vocational degree as skilled worker] year:",
-          "scale": "int",
+          "text_de": "[Lehre, Facharbeiterabschluss] Jahr:",
           "concept": "lab02j",
+          "scale": "int",
           "description": "Jahr Abschluss: Lehre",
           "number": "54",
           "sn": 9
         },
         {
           "item": "lab03j",
-          "text_de": "[Berufsfachschule, Handelsschule, Schule des Gesundheitswesens] Jahr:",
           "text": "[Full-time vocational school  / commercial college  / Health sector school] year:",
-          "scale": "int",
+          "text_de": "[Berufsfachschule, Handelsschule, Schule des Gesundheitswesens] Jahr:",
           "concept": "lab03j",
+          "scale": "int",
           "description": "Jahr Abschluss: Berufsfachschule etc.",
           "number": "54",
           "sn": 10
         },
         {
           "item": "lab04j",
-          "text_de": "[Fachschule, z.B. Meister-, Technikerabschluss] Jahr:",
           "text": "[Higher level trade or technical school] year:",
-          "scale": "int",
+          "text_de": "[Fachschule, z.B. Meister-, Technikerabschluss] Jahr:",
           "concept": "lab04j",
+          "scale": "int",
           "description": "Jahr Abschluss: Fachschule",
           "number": "54",
           "sn": 11
         },
         {
           "item": "lab05j",
-          "text_de": "[Beamtenausbildung] Jahr:",
           "text": "[Training for civil servants] year:",
-          "scale": "int",
+          "text_de": "[Beamtenausbildung] Jahr:",
           "concept": "lab05j",
+          "scale": "int",
           "description": "Jahr Abschluss: Beamtenausbildung",
           "number": "54",
           "sn": 12
         },
         {
           "item": "lab06j",
-          "text_de": "[Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)] Jahr:",
           "text": "[Technical or professionally oriented college, formerly also engineer or teacher training)] year:",
-          "scale": "int",
+          "text_de": "[Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)] Jahr:",
           "concept": "lab06j",
+          "scale": "int",
           "description": "Jahr Abschluss: Fachhochschule etc.",
           "number": "54",
           "sn": 13
         },
         {
           "item": "lab07j",
-          "text_de": "[Universitäts-, Hochschulabschluss] Jahr:",
           "text": "[University or university-level degree] year:",
-          "scale": "int",
+          "text_de": "[Universitäts-, Hochschulabschluss] Jahr:",
           "concept": "lab07j",
+          "scale": "int",
           "description": "Jahr Abschluss: Universität",
           "number": "54",
           "sn": 14
         },
         {
           "item": "lab40j",
-          "text_de": "[Promotion] Jahr:",
           "text": "[Doctoral studies] year:",
-          "scale": "int",
+          "text_de": "[Promotion] Jahr:",
           "concept": "lab40j",
+          "scale": "int",
           "description": "Jahr Abschluss: Promotion",
           "number": "54",
           "sn": 15
         },
         {
           "item": "lab08j",
-          "text_de": "[Sonstiger Abschluss] Jahr:",
           "text": "[Other degree] year:",
-          "scale": "int",
+          "text_de": "[Sonstiger Abschluss] Jahr:",
           "concept": "lab08j",
+          "scale": "int",
           "description": "Jahr Abschluss: Sonstiger Abschluss",
           "number": "54",
           "sn": 16
         },
         {
           "item": "lab02x",
-          "text_de": "[Lehre, Facharbeiterabschluss] Bitte Ausbildungsberuf eintragen!",
           "text": "[Apprenticeship  / Vocational degree as skilled worker] Please state the occupation:",
-          "scale": "chr",
+          "text_de": "[Lehre, Facharbeiterabschluss] Bitte Ausbildungsberuf eintragen!",
           "concept": "lab02x",
+          "scale": "chr",
           "description": "Nennung Ausbildungsberuf: Lehre",
           "number": "54",
           "sn": 17
         },
         {
           "item": "lab03x",
-          "text_de": "[Berufsfachschule, Handelsschule, Schule des Gesundheitswesens] Bitte Ausbildungsberuf eintragen!",
           "text": "[Full-time vocational school  / commercial college  / Health sector school] Please state the occupation:",
-          "scale": "chr",
+          "text_de": "[Berufsfachschule, Handelsschule, Schule des Gesundheitswesens] Bitte Ausbildungsberuf eintragen!",
           "concept": "lab03x",
+          "scale": "chr",
           "description": "Nennung Ausbildungsberuf: Berufsfachschule etc.",
           "number": "54",
           "sn": 18
         },
         {
           "item": "lab04x",
-          "text_de": "[Fachschule, z.B. Meister-, Technikerabschluss] Bitte Ausbildungsberuf eintragen!",
           "text": "[Higher level trade or technical school] Please state the occupation:",
-          "scale": "chr",
+          "text_de": "[Fachschule, z.B. Meister-, Technikerabschluss] Bitte Ausbildungsberuf eintragen!",
           "concept": "lab04x",
+          "scale": "chr",
           "description": "Nennung Ausbildungsberuf: Fachschule",
           "number": "54",
           "sn": 19
         },
         {
           "item": "lab05x1",
-          "text_de": "[Beamtenausbildung] Bitte Ausbildungsberuf eintragen!",
           "text": "[Training for civil servants] Please state the occupation:",
-          "scale": "chr",
+          "text_de": "[Beamtenausbildung] Bitte Ausbildungsberuf eintragen!",
           "concept": "lab05x1",
+          "scale": "chr",
           "description": "Nennung Ausbildungsberuf: Beamtenausbildung",
           "number": "54",
           "sn": 20
         },
         {
           "item": "lab05x2",
-          "text_de": "[Beamtenausbildung] Bitte zusätzlich Laufbahn eintragen!",
           "text": "[Training for civil servants] Please state the career path:",
-          "scale": "chr",
+          "text_de": "[Beamtenausbildung] Bitte zusätzlich Laufbahn eintragen!",
           "concept": "lab05x2",
+          "scale": "chr",
           "description": "Nennung Laufbahn: Beamtenausbildung",
           "number": "54",
           "sn": 21
         },
         {
           "item": "lab06x1",
-          "text_de": "[Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)] Bitte Abschluss eintragen!",
           "text": "[Technical or professionally oriented college, formerly also engineer or teacher training)] Please state degree:",
-          "scale": "chr",
+          "text_de": "[Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)] Bitte Abschluss eintragen!",
           "concept": "lab06x1",
+          "scale": "chr",
           "description": "Nennung Abschluss: Fachhochschule",
           "number": "54",
           "sn": 22
         },
         {
           "item": "lab06x2",
-          "text_de": "[Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)] Bitte zusätzlich Fachrichtung eintragen!",
           "text": "[Technical or professionally oriented college, formerly also engineer or teacher training)] Please state subject(s):",
-          "scale": "chr",
+          "text_de": "[Fachhochschule, Berufsakademie (früher: auch Ingenieurschule, Lehrerbildung, DDR: Ingenieur- und Fachschulabschluss)] Bitte zusätzlich Fachrichtung eintragen!",
           "concept": "lab06x2",
+          "scale": "chr",
           "description": "Nennung Fachrichtung: Fachhochule etc.",
           "number": "54",
           "sn": 23
         },
         {
           "item": "lab07x1",
-          "text_de": "[Universitäts-, Hochschulabschluss] Bitte Abschluss eintragen!",
           "text": "[University or university-level degree] Please state degree:",
-          "scale": "chr",
+          "text_de": "[Universitäts-, Hochschulabschluss] Bitte Abschluss eintragen!",
           "concept": "lab07x1",
+          "scale": "chr",
           "description": "Nennung Abschluss: Universität",
           "number": "54",
           "sn": 24
         },
         {
           "item": "lab07x2",
-          "text_de": "[Universitäts-, Hochschulabschluss] Bitte zusätzlich Fachrichtung eintragen!",
           "text": "[University or university-level degree] Please state subject(s):",
-          "scale": "chr",
+          "text_de": "[Universitäts-, Hochschulabschluss] Bitte zusätzlich Fachrichtung eintragen!",
           "concept": "lab07x2",
+          "scale": "chr",
           "description": "Nennung Fachrichtung: Universität",
           "number": "54",
           "sn": 25
         },
         {
           "item": "lab40x1",
-          "text_de": "[Promotion] Bitte Abschluss eintragen!",
           "text": "[Doctoral studies] Please state degree:",
-          "scale": "chr",
+          "text_de": "[Promotion] Bitte Abschluss eintragen!",
           "concept": "lab40x1",
+          "scale": "chr",
           "description": "Nennung Abschluss: Promotion",
           "number": "54",
           "sn": 26
         },
         {
           "item": "lab40x2",
-          "text_de": "[Promotion] Bitte zusätzlich Fachrichtung eintragen!",
           "text": "[Doctoral studies] Please state subject(s):",
-          "scale": "chr",
+          "text_de": "[Promotion] Bitte zusätzlich Fachrichtung eintragen!",
           "concept": "lab40x2",
+          "scale": "chr",
           "description": "Nennung Fachrichtung: Promotion",
           "number": "54",
           "sn": 27
         },
         {
           "item": "lab08x",
-          "text_de": "[Sonstiger Abschluss] Bitte Abschluss eintragen!",
           "text": "[Other degree] Please state degree:",
-          "scale": "chr",
+          "text_de": "[Sonstiger Abschluss] Bitte Abschluss eintragen!",
           "concept": "lab08x",
+          "scale": "chr",
           "description": "Nennung Abschluss: Sonstiger Abschluss",
           "number": "54",
           "sn": 28
@@ -4004,12 +4068,13 @@
       "question": "57",
       "name": "57",
       "label": "Have you completed vocational training or university studies in another country\nthan Germany?",
+      "label_de": "Haben Sie in einem anderen Land als Deutschland eine berufliche Ausbildung oder ein Studium gemacht?",
       "items": [
         {
-          "text_de": "Haben Sie in einem anderen Land als Deutschland eine berufliche Ausbildung oder ein Studium gemacht?",
           "text": "Have you completed vocational training or university studies in another country\nthan Germany?",
-          "scale": "cat",
+          "text_de": "Haben Sie in einem anderen Land als Deutschland eine berufliche Ausbildung oder ein Studium gemacht?",
           "concept": "lab10",
+          "scale": "cat",
           "description": "Routing:\n*IF [Q49000,2] *GOTO 53000\n",
           "number": "55",
           "answers": [
@@ -4036,12 +4101,13 @@
       "question": "58",
       "name": "58",
       "label": "What kind of education or training was it?",
+      "label_de": "Was für eine Ausbildung war das?",
       "items": [
         {
-          "text_de": "Was für eine Ausbildung war das?",
-          "instruction_de": "Mehrfachnennungen möglich, die Fragen 59-61 beziehen sich dann auf den höchsten Abschluss.",
           "text": "What kind of education or training was it?",
+          "text_de": "Was für eine Ausbildung war das?",
           "instruction": "Multiple answers possible, the questions 59-61 refer to the highest degree.",
+          "instruction_de": "Mehrfachnennungen möglich, die Fragen 59-61 beziehen sich dann auf den höchsten Abschluss.",
           "scale": "txt",
           "description": "Art Berufsausbildungsabschluss Ausland",
           "number": "56",
@@ -4050,46 +4116,46 @@
         },
         {
           "item": "lab11",
-          "text_de": "Ich wurde in einem Betrieb angelernt",
           "text": "I received in-house training at a company",
-          "scale": "bin",
+          "text_de": "Ich wurde in einem Betrieb angelernt",
           "concept": "lab11",
+          "scale": "bin",
           "number": "56",
           "sn": 1
         },
         {
           "item": "lab12",
-          "text_de": "Ich habe in einem Betrieb eine längere Ausbildung gemacht",
           "text": "I completed an extended apprenticeship at a company",
-          "scale": "bin",
+          "text_de": "Ich habe in einem Betrieb eine längere Ausbildung gemacht",
           "concept": "lab12",
+          "scale": "bin",
           "number": "56",
           "sn": 2
         },
         {
           "item": "lab13",
-          "text_de": "Ich habe eine berufsbildende Schule besucht",
           "text": "I attended a vocational school",
-          "scale": "bin",
+          "text_de": "Ich habe eine berufsbildende Schule besucht",
           "concept": "lab13",
+          "scale": "bin",
           "number": "56",
           "sn": 3
         },
         {
           "item": "lab14",
-          "text_de": "Ich habe eine Hochschule besucht",
           "text": "I attended a university or higher educational institution",
-          "scale": "bin",
+          "text_de": "Ich habe eine Hochschule besucht",
           "concept": "lab14",
+          "scale": "bin",
           "number": "56",
           "sn": 4
         },
         {
           "item": "lab15",
-          "text_de": "Sonstiges",
           "text": "Other degree",
-          "scale": "bin",
+          "text_de": "Sonstiges",
           "concept": "lab15",
+          "scale": "bin",
           "number": "56",
           "sn": 5
         }
@@ -4102,10 +4168,11 @@
       "question": "59",
       "name": "59",
       "label": "When did you complete this education or training?",
+      "label_de": "In welchem Jahr haben Sie diese Ausbildung beendet?",
       "items": [
         {
-          "text_de": "In welchem Jahr haben Sie diese Ausbildung beendet?",
           "text": "When did you complete this education or training?",
+          "text_de": "In welchem Jahr haben Sie diese Ausbildung beendet?",
           "scale": "txt",
           "description": "Researcher Notes:\nMaximum: 2011\n",
           "number": "57",
@@ -4114,10 +4181,10 @@
         },
         {
           "item": "lab16",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "lab16",
+          "scale": "int",
           "number": "57",
           "sn": 1
         }
@@ -4130,12 +4197,13 @@
       "question": "60",
       "name": "60",
       "label": "Did you receive a transcript or certificate documenting the successful completion of this training or education?",
+      "label_de": "Haben Sie ein Zeugnis über den erfolgreichen Abschluss dieser Ausbildung erhalten?",
       "items": [
         {
-          "text_de": "Haben Sie ein Zeugnis über den erfolgreichen Abschluss dieser Ausbildung erhalten?",
           "text": "Did you receive a transcript or certificate documenting the successful completion of this training or education?",
-          "scale": "cat",
+          "text_de": "Haben Sie ein Zeugnis über den erfolgreichen Abschluss dieser Ausbildung erhalten?",
           "concept": "lab17",
+          "scale": "cat",
           "number": "58",
           "answers": [
             {
@@ -4161,12 +4229,13 @@
       "question": "61",
       "name": "61",
       "label": "Did you apply for a recognition of your degree in Germany?",
+      "label_de": "Haben Sie die Anerkennung Ihres Abschlusses in Deutschland beantragt?",
       "items": [
         {
-          "text_de": "Haben Sie die Anerkennung Ihres Abschlusses in Deutschland beantragt?",
           "text": "Did you apply for a recognition of your degree in Germany?",
-          "scale": "cat",
+          "text_de": "Haben Sie die Anerkennung Ihres Abschlusses in Deutschland beantragt?",
           "concept": "laner",
+          "scale": "cat",
           "number": "59",
           "answers": [
             {
@@ -4185,10 +4254,10 @@
         },
         {
           "item": "lanerab",
-          "text_de": "Und wurde Ihr Abschluss in Deutschland anerkannt?",
           "text": "Has this degree or certificate been recognized in Germany?",
-          "scale": "cat",
+          "text_de": "Und wurde Ihr Abschluss in Deutschland anerkannt?",
           "concept": "lanerab",
+          "scale": "cat",
           "number": "59",
           "answers": [
             {
@@ -4216,37 +4285,37 @@
         },
         {
           "item": "11",
-          "text_de": "Und wann haben Sie den Bescheid erhalten?",
           "text": "When did you receive the notification?",
-          "scale": "txt",
+          "text_de": "Und wann haben Sie den Bescheid erhalten?",
           "concept": "11",
+          "scale": "txt",
           "number": "59",
           "sn": 2
         },
         {
           "item": "lanerm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "lanerm",
+          "scale": "int",
           "number": "59",
           "sn": 3
         },
         {
           "item": "lanerj",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "lanerj",
+          "scale": "int",
           "number": "59",
           "sn": 4
         },
         {
           "item": "lanerno",
-          "text_de": "Warum haben Sie die Anerkennung Ihres Abschlusses nicht beantragt?",
           "text": "Why didn`t you apply for the recognition?",
-          "scale": "cat",
+          "text_de": "Warum haben Sie die Anerkennung Ihres Abschlusses nicht beantragt?",
           "concept": "lanerno",
+          "scale": "cat",
           "number": "59",
           "answers": [
             {
@@ -4296,12 +4365,13 @@
       "question": "62",
       "name": "62",
       "label": "Do you intend to complete vocational / occupational training or attain a university degree in the future?",
+      "label_de": "Streben Sie in Zukunft noch einen beruflichen Ausbildungsabschluss oder Hochschulabschluss an?",
       "items": [
         {
-          "text_de": "Streben Sie in Zukunft noch einen beruflichen Ausbildungsabschluss oder Hochschulabschluss an?",
           "text": "Do you intend to complete vocational / occupational training or attain a university degree in the future?",
-          "scale": "cat",
+          "text_de": "Streben Sie in Zukunft noch einen beruflichen Ausbildungsabschluss oder Hochschulabschluss an?",
           "concept": "lab19",
+          "scale": "cat",
           "description": "Routing:\n*IF [Q53000,3] **GOTO BLOCK 5\n",
           "number": "60",
           "answers": [
@@ -4326,10 +4396,10 @@
         },
         {
           "item": "33",
-          "text_de": "Welchen der folgenden Abschlüsse streben Sie an?",
-          "instruction_de": "Mehrfachnennungen möglich!",
           "text": "Which of the following degrees do you plan to attain?",
+          "text_de": "Welchen der folgenden Abschlüsse streben Sie an?",
           "instruction": "Multiple answers possible!",
+          "instruction_de": "Mehrfachnennungen möglich!",
           "scale": "txt",
           "description": "Researcher Notes:\nStatement 1 = LAB20\n**Statement 2 = LAB21\n**Statement 3 = LAB22\n**Statement 4 = LAB23\n**Statement 5 = LAB24\n**Statement 6 = LAB25\n**Statement 7 = LAB26\n**\n**Skala: \"Ja\" nicht im PAPI vorhanden, jedoch hat jede genannte Antwort den Code 1.\n",
           "number": "60",
@@ -4337,64 +4407,64 @@
         },
         {
           "item": "lab20",
-          "text_de": "Abschluss einer Lehre",
           "text": "Apprenticeship",
-          "scale": "bin",
+          "text_de": "Abschluss einer Lehre",
           "concept": "lab20",
+          "scale": "bin",
           "number": "60",
           "sn": 2
         },
         {
           "item": "lab21",
-          "text_de": "Berufsfachschule oder Schule des Gesundheitswesens",
           "text": "Full-time vocational school (Berufsfachschule) or health sector school (Schule des Gesundheitswesens)",
-          "scale": "bin",
+          "text_de": "Berufsfachschule oder Schule des Gesundheitswesens",
           "concept": "lab21",
+          "scale": "bin",
           "number": "60",
           "sn": 3
         },
         {
           "item": "lab22",
-          "text_de": "Fachschule (z.B. Meister-, Technikerschule)",
           "text": "Higher-level trade or technical school (Meisterschule, Technikerschule)",
-          "scale": "bin",
+          "text_de": "Fachschule (z.B. Meister-, Technikerschule)",
           "concept": "lab22",
+          "scale": "bin",
           "number": "60",
           "sn": 4
         },
         {
           "item": "lab23",
-          "text_de": "Beamtenausbildung",
           "text": "Training for civil servants (Beamtenausbildung)",
-          "scale": "bin",
+          "text_de": "Beamtenausbildung",
           "concept": "lab23",
+          "scale": "bin",
           "number": "60",
           "sn": 5
         },
         {
           "item": "lab24",
-          "text_de": "Duales Studium / Berufsakademie",
           "text": "Dual course of study / college of advanced vocational studies",
-          "scale": "bin",
+          "text_de": "Duales Studium / Berufsakademie",
           "concept": "lab24",
+          "scale": "bin",
           "number": "60",
           "sn": 6
         },
         {
           "item": "lab25",
-          "text_de": "Fachhochschule",
           "text": "Technical or professional college (Fachhochschule)",
-          "scale": "bin",
+          "text_de": "Fachhochschule",
           "concept": "lab25",
+          "scale": "bin",
           "number": "60",
           "sn": 7
         },
         {
           "item": "lab26",
-          "text_de": "Universität",
           "text": "University",
-          "scale": "bin",
+          "text_de": "Universität",
           "concept": "lab26",
+          "scale": "bin",
           "number": "60",
           "sn": 8
         }
@@ -4407,10 +4477,11 @@
       "question": "B6",
       "name": "B6",
       "label": "Employment",
+      "label_de": "Berufstätigkeit",
       "items": [
         {
-          "text_de": "Berufstätigkeit",
           "text": "Employment",
+          "text_de": "Berufstätigkeit",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -4425,12 +4496,13 @@
       "question": "63",
       "name": "63",
       "label": "If you already were employed: How old were you when you first started working?",
+      "label_de": "Wie alt waren Sie, als Sie erstmals eine berufliche Tätigkeit aufgenommen haben?",
       "items": [
         {
-          "text_de": "Wie alt waren Sie, als Sie erstmals eine berufliche Tätigkeit aufgenommen haben?",
-          "instruction_de": "Gemeint ist nicht die Berufsausbildung, sondern die erste Tätigkeit danach!",
           "text": "If you already were employed: How old were you when you first started working?",
+          "text_de": "Wie alt waren Sie, als Sie erstmals eine berufliche Tätigkeit aufgenommen haben?",
           "instruction": "We are not referring to vocational training but to your first job after you completed your training!",
+          "instruction_de": "Gemeint ist nicht die Berufsausbildung, sondern die erste Tätigkeit danach!",
           "scale": "txt",
           "number": "61",
           "sn": 0,
@@ -4438,20 +4510,20 @@
         },
         {
           "item": "l1erw",
-          "text_de": "Jahre alt",
           "text": "... years old",
-          "scale": "int",
+          "text_de": "Jahre alt",
           "concept": "l1erw",
+          "scale": "int",
           "description": "Researcher Notes:\nOption \"Alter\" nicht anzukreuzen, hat also keinen Wert in den Daten.\n\nRouting:\n*IF [Q55010,2] *GOTO 68000\n",
           "number": "61",
           "sn": 1
         },
         {
           "item": "l1no",
-          "text_de": "War noch nie berufstätig bzw. bin in erster betrieblicher Ausbildung",
           "text": "Have not yet held a job / have not yet completed in-service training",
-          "scale": "bin",
+          "text_de": "War noch nie berufstätig bzw. bin in erster betrieblicher Ausbildung",
           "concept": "l1no",
+          "scale": "bin",
           "description": "Filter:\nASK ONLY IF Q5501 : L1NO=1\n",
           "number": "61",
           "sn": 2
@@ -4465,12 +4537,13 @@
       "question": "64",
       "name": "64",
       "label": "Are you still doing the same job ?",
+      "label_de": "Üben Sie heute noch dieselbe berufliche Tätigkeit aus?",
       "items": [
         {
-          "text_de": "Üben Sie heute noch dieselbe berufliche Tätigkeit aus?",
           "text": "Are you still doing the same job ?",
-          "scale": "cat",
+          "text_de": "Üben Sie heute noch dieselbe berufliche Tätigkeit aus?",
           "concept": "l1erwt",
+          "scale": "cat",
           "number": "62",
           "answers": [
             {
@@ -4496,12 +4569,13 @@
       "question": "65",
       "name": "65",
       "label": "Are you still in the same working position when you first startet?",
+      "label_de": "Sind Sie heute noch in derselben beruflichen Stellung tätig, wie bei Ihrer ersten Tätigkeit?",
       "items": [
         {
-          "text_de": "Sind Sie heute noch in derselben beruflichen Stellung tätig, wie bei Ihrer ersten Tätigkeit?",
           "text": "Are you still in the same working position when you first startet?",
-          "scale": "cat",
+          "text_de": "Sind Sie heute noch in derselben beruflichen Stellung tätig, wie bei Ihrer ersten Tätigkeit?",
           "concept": "l1erwst",
+          "scale": "cat",
           "number": "63",
           "answers": [
             {
@@ -4527,14 +4601,15 @@
       "question": "66",
       "name": "66",
       "label": "Are you still working for the same employer?",
+      "label_de": "Sind Sie heute noch beim selben Arbeitgeber beschäftigt, wie bei Ihrer ersten beruflichen Tätigkeit? ",
       "items": [
         {
-          "text_de": "Sind Sie heute noch beim selben Arbeitgeber beschäftigt, wie bei Ihrer ersten beruflichen Tätigkeit? ",
-          "instruction_de": "Falls Sie selbständig sind: haben Sie noch den gleichen Betrieb/die gleiche Selbständigkeit wie damals?",
           "text": "Are you still working for the same employer?",
+          "text_de": "Sind Sie heute noch beim selben Arbeitgeber beschäftigt, wie bei Ihrer ersten beruflichen Tätigkeit? ",
           "instruction": "If you are self-employed. Do you still have the same company / the same self-employment as then?",
-          "scale": "cat",
+          "instruction_de": "Falls Sie selbständig sind: haben Sie noch den gleichen Betrieb/die gleiche Selbständigkeit wie damals?",
           "concept": "l1erwag",
+          "scale": "cat",
           "number": "64",
           "answers": [
             {
@@ -4560,10 +4635,11 @@
       "question": "67",
       "name": "67",
       "label": "What occupational status did you have at that time (in your first job)?",
+      "label_de": "In welcher beruflichen Stellung waren Sie damals in Ihrer ersten Tätigkeit beschäftigt?",
       "items": [
         {
-          "text_de": "In welcher beruflichen Stellung waren Sie damals in Ihrer ersten Tätigkeit beschäftigt?",
           "text": "What occupational status did you have at that time (in your first job)?",
+          "text_de": "In welcher beruflichen Stellung waren Sie damals in Ihrer ersten Tätigkeit beschäftigt?",
           "scale": "txt",
           "description": "Berufliche Stellung (1. Job)",
           "number": "65",
@@ -4572,10 +4648,10 @@
         },
         {
           "item": "l1arb",
-          "text_de": "Arbeiter \n(auch in der Landwirtschaft)",
           "text": "Blue-collar worker (Arbeiter) (also in agriculture)",
-          "scale": "cat",
+          "text_de": "Arbeiter \n(auch in der Landwirtschaft)",
           "concept": "l1arb",
+          "scale": "cat",
           "number": "65",
           "answers": [
             {
@@ -4598,18 +4674,18 @@
         },
         {
           "item": "2",
-          "text_de": "Selbstständige \n(einschl. mithelfender Familienangehöriger)",
           "text": "Self-employed (including family members working for the self-employed)",
+          "text_de": "Selbstständige \n(einschl. mithelfender Familienangehöriger)",
           "scale": "txt",
           "number": "65",
           "sn": 2
         },
         {
           "item": "l1sst1",
-          "text_de": "Selbstständige Landwirte",
           "text": "Self-employed farmer",
-          "scale": "cat",
+          "text_de": "Selbstständige Landwirte",
           "concept": "l1sst1",
+          "scale": "cat",
           "number": "65",
           "answers": [
             {
@@ -4632,10 +4708,10 @@
         },
         {
           "item": "l1sst2",
-          "text_de": "Freie Berufe, selbstständige Akademiker",
           "text": "Freelance professional, selfemployed academic (selbständiger Akademiker)",
-          "scale": "cat",
+          "text_de": "Freie Berufe, selbstständige Akademiker",
           "concept": "l1sst2",
+          "scale": "cat",
           "number": "65",
           "answers": [
             {
@@ -4658,10 +4734,10 @@
         },
         {
           "item": "l1sst3",
-          "text_de": "Sonstige Selbstständige",
           "text": "Other self-employed",
-          "scale": "cat",
+          "text_de": "Sonstige Selbstständige",
           "concept": "l1sst3",
+          "scale": "cat",
           "number": "65",
           "answers": [
             {
@@ -4684,19 +4760,19 @@
         },
         {
           "item": "l1sst4",
-          "text_de": "Mithelfende Familienangehörige",
           "text": "Family member working for self-employed relative",
-          "scale": "bin",
+          "text_de": "Mithelfende Familienangehörige",
           "concept": "l1sst4",
+          "scale": "bin",
           "number": "65",
           "sn": 6
         },
         {
           "item": "l1ang",
-          "text_de": "Angestellte",
           "text": "White-collar worker (Angestellte)",
-          "scale": "cat",
+          "text_de": "Angestellte",
           "concept": "l1ang",
+          "scale": "cat",
           "number": "65",
           "answers": [
             {
@@ -4724,10 +4800,10 @@
         },
         {
           "item": "l1amt",
-          "text_de": "Beamte / Staatsverwaltung (einschl. Richter und Berufssoldaten)",
           "text": "Civil servant or public administration employee (including judges and professional soldiers)",
-          "scale": "cat",
+          "text_de": "Beamte / Staatsverwaltung (einschl. Richter und Berufssoldaten)",
           "concept": "l1amt",
+          "scale": "cat",
           "number": "65",
           "answers": [
             {
@@ -4762,14 +4838,15 @@
       "question": "68",
       "name": "68",
       "label": "What was your job title at that time (in your first job)?",
+      "label_de": "Welche berufliche Tätigkeit haben Sie damals, in Ihrer ersten Stelle, ausgeübt?",
       "items": [
         {
-          "text_de": "Welche berufliche Tätigkeit haben Sie damals, in Ihrer ersten Stelle, ausgeübt?",
-          "instruction_de": "Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht „kaufmännischer Angestellter“, sondern: „Speditionskaufmann“, nicht „Arbeiter“, sondern: „Maschinenschlosser“.\n\nBitte in Druckbuchstaben eintragen!",
           "text": "What was your job title at that time (in your first job)?",
+          "text_de": "Welche berufliche Tätigkeit haben Sie damals, in Ihrer ersten Stelle, ausgeübt?",
           "instruction": "Please state the specific job title. For example, do not write \"clerk\" but rather \"shipping clerk\", not \"blue-collar worker\" but rather \"machine metalworker\".",
-          "scale": "chr",
+          "instruction_de": "Bitte geben Sie die genaue Tätigkeitsbezeichnung an, also z.B. nicht „kaufmännischer Angestellter“, sondern: „Speditionskaufmann“, nicht „Arbeiter“, sondern: „Maschinenschlosser“.\n\nBitte in Druckbuchstaben eintragen!",
           "concept": "l1ber",
+          "scale": "chr",
           "number": "66",
           "sn": 0,
           "item": "root"
@@ -4783,12 +4860,13 @@
       "question": "69",
       "name": "69",
       "label": "What kind of training is usually required for this kind of work?",
+      "label_de": "Welche Art von Ausbildung war für diese Tätigkeit in der Regel erforderlich?",
       "items": [
         {
-          "text_de": "Welche Art von Ausbildung war für diese Tätigkeit in der Regel erforderlich?",
           "text": "What kind of training is usually required for this kind of work?",
-          "scale": "cat",
+          "text_de": "Welche Art von Ausbildung war für diese Tätigkeit in der Regel erforderlich?",
           "concept": "l1aus",
+          "scale": "cat",
           "number": "67",
           "answers": [
             {
@@ -4824,12 +4902,13 @@
       "question": "70",
       "name": "70",
       "label": "Was the company you worked for at that time part of the public sector or public administration?",
+      "label_de": "Gehörte der Betrieb, in dem Sie damals arbeiteten, zum öffentlichen Dienst bzw. zur Staatsverwaltung?",
       "items": [
         {
-          "text_de": "Gehörte der Betrieb, in dem Sie damals arbeiteten, zum öffentlichen Dienst bzw. zur Staatsverwaltung?",
           "text": "Was the company you worked for at that time part of the public sector or public administration?",
-          "scale": "cat",
+          "text_de": "Gehörte der Betrieb, in dem Sie damals arbeiteten, zum öffentlichen Dienst bzw. zur Staatsverwaltung?",
           "concept": "l1oed",
+          "scale": "cat",
           "number": "68",
           "answers": [
             {
@@ -4855,14 +4934,15 @@
       "question": "71",
       "name": "71",
       "label": "What sector of business or industry was your company or institution active in for the most part?",
+      "label_de": "In welchem Wirtschaftszweig / welcher Branche / welchem Dienstleistungsbereich war das Unternehmen bzw. die Einrichtung überwiegend tätig?",
       "items": [
         {
-          "text_de": "In welchem Wirtschaftszweig / welcher Branche / welchem Dienstleistungsbereich war das Unternehmen bzw. die Einrichtung überwiegend tätig?",
-          "instruction_de": "Bitte geben Sie die genaue Berufsbezeichnung an, z.B. nicht „Industrie“, sondern „Elektroindustrie“, nicht „Handel“, sondern „Einzelhandel“, nicht „öffentlicher Dienst“, sondern „Krankenhaus“.\n\nBitte in Druckbuchstaben eintragen!",
           "text": "What sector of business or industry was your company or institution active in for the most part?",
+          "text_de": "In welchem Wirtschaftszweig / welcher Branche / welchem Dienstleistungsbereich war das Unternehmen bzw. die Einrichtung überwiegend tätig?",
           "instruction": "Please state the correct job title e.g. not \"industry\" but \"electronic industry\", not \"trade\" but \"retail trade\", not \"public service\", but \"hospital\". Please write in block letters. ",
-          "scale": "chr",
+          "instruction_de": "Bitte geben Sie die genaue Berufsbezeichnung an, z.B. nicht „Industrie“, sondern „Elektroindustrie“, nicht „Handel“, sondern „Einzelhandel“, nicht „öffentlicher Dienst“, sondern „Krankenhaus“.\n\nBitte in Druckbuchstaben eintragen!",
           "concept": "l1bra",
+          "scale": "chr",
           "number": "69",
           "sn": 0,
           "item": "root"
@@ -4876,12 +4956,13 @@
       "question": "72",
       "name": "72",
       "label": "Have you changed your occupation one or more times since then, such that the type of work you do has changed significantly?",
+      "label_de": "Haben Sie seitdem ein- oder mehrmals den Beruf gewechselt, so dass sich die Art Ihrer Tätigkeit grundlegend geändert hat?",
       "items": [
         {
-          "text_de": "Haben Sie seitdem ein- oder mehrmals den Beruf gewechselt, so dass sich die Art Ihrer Tätigkeit grundlegend geändert hat?",
           "text": "Have you changed your occupation one or more times since then, such that the type of work you do has changed significantly?",
-          "scale": "cat",
+          "text_de": "Haben Sie seitdem ein- oder mehrmals den Beruf gewechselt, so dass sich die Art Ihrer Tätigkeit grundlegend geändert hat?",
           "concept": "lwexl1",
+          "scale": "cat",
           "number": "70",
           "answers": [
             {
@@ -4905,8 +4986,8 @@
         },
         {
           "item": "1",
-          "text_de": "In welchem Jahr sind Sie dann in den Beruf gewechselt, den Sie heute ausüben bzw. zuletzt ausgeübt haben?",
           "text": "When did you change to your current occupation or to the occupation that you worked in at your last job?",
+          "text_de": "In welchem Jahr sind Sie dann in den Beruf gewechselt, den Sie heute ausüben bzw. zuletzt ausgeübt haben?",
           "scale": "txt",
           "description": "Researcher Notes:\nMaximum: 2011\n\nFilter:\nASK ONLY IF Q6101 : LWEXL1=1,2\n",
           "number": "70",
@@ -4914,10 +4995,10 @@
         },
         {
           "item": "lwexl2",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "lwexl2",
+          "scale": "int",
           "number": "70",
           "sn": 2
         }
@@ -4930,12 +5011,13 @@
       "question": "73",
       "name": "73",
       "label": "Are you gainfully employed at the present time?",
+      "label_de": "Sind Sie derzeit erwerbstätig?",
       "items": [
         {
-          "text_de": "Sind Sie derzeit erwerbstätig?",
           "text": "Are you gainfully employed at the present time?",
-          "scale": "cat",
+          "text_de": "Sind Sie derzeit erwerbstätig?",
           "concept": "lerw",
+          "scale": "cat",
           "description": "Routing:\n*IF [Q62000,1] *GOTO 68000\n",
           "number": "71",
           "answers": [
@@ -4962,10 +5044,11 @@
       "question": "74",
       "name": "74",
       "label": "When was the last year in which you were gainfully employed?",
+      "label_de": "In welchem Jahr sind Sie zuletzt erwerbstätig gewesen?",
       "items": [
         {
-          "text_de": "In welchem Jahr sind Sie zuletzt erwerbstätig gewesen?",
           "text": "When was the last year in which you were gainfully employed?",
+          "text_de": "In welchem Jahr sind Sie zuletzt erwerbstätig gewesen?",
           "scale": "txt",
           "description": "Jahr (letzter Job)",
           "number": "72",
@@ -4974,10 +5057,10 @@
         },
         {
           "item": "lend",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "lend",
+          "scale": "int",
           "number": "72",
           "sn": 1
         }
@@ -4990,12 +5073,13 @@
       "question": "75",
       "name": "75",
       "label": "Were you last employed full-time, part-time, or marginally in your last job?",
+      "label_de": "Waren Sie zuletzt voll berufstätig, teilzeitbeschäftigt oder geringfügig bzw. unregelmäßig beschäftigt?",
       "items": [
         {
-          "text_de": "Waren Sie zuletzt voll berufstätig, teilzeitbeschäftigt oder geringfügig bzw. unregelmäßig beschäftigt?",
           "text": "Were you last employed full-time, part-time, or marginally in your last job?",
-          "scale": "cat",
+          "text_de": "Waren Sie zuletzt voll berufstätig, teilzeitbeschäftigt oder geringfügig bzw. unregelmäßig beschäftigt?",
           "concept": "lstd",
+          "scale": "cat",
           "number": "73",
           "answers": [
             {
@@ -5026,12 +5110,13 @@
       "question": "76",
       "name": "76",
       "label": "Was the company where you held your last job part of the public sector or public administration?",
+      "label_de": "Gehörte der Betrieb, in dem Sie zuletzt arbeiteten, zum öffentlichen Dienst bzw. zur Staatsverwaltung?",
       "items": [
         {
-          "text_de": "Gehörte der Betrieb, in dem Sie zuletzt arbeiteten, zum öffentlichen Dienst bzw. zur Staatsverwaltung?",
           "text": "Was the company where you held your last job part of the public sector or public administration?",
-          "scale": "cat",
+          "text_de": "Gehörte der Betrieb, in dem Sie zuletzt arbeiteten, zum öffentlichen Dienst bzw. zur Staatsverwaltung?",
           "concept": "loed",
+          "scale": "cat",
           "number": "74",
           "answers": [
             {
@@ -5057,14 +5142,15 @@
       "question": "77",
       "name": "77",
       "label": "What sector of business or industry was your company or institution active in for the most part?",
+      "label_de": "In welchem Wirtschaftszweig / welcher Branche / welchem Dienstleistungsbereich war das Unternehmen bzw. die Einrichtung überwiegend tätig?",
       "items": [
         {
-          "text_de": "In welchem Wirtschaftszweig / welcher Branche / welchem Dienstleistungsbereich war das Unternehmen bzw. die Einrichtung überwiegend tätig?",
-          "instruction_de": "Bitte geben Sie die genaue Berufsbezeichnung an, z.B. nicht „Industrie“, sondern „Elektroindustrie“, nicht „Handel“, sondern „Einzelhandel“, nicht „öffentlicher Dienst“, sondern „Krankenhaus“.\n\nBitte in Druckbuchstaben eintragen!",
           "text": "What sector of business or industry was your company or institution active in for the most part?",
+          "text_de": "In welchem Wirtschaftszweig / welcher Branche / welchem Dienstleistungsbereich war das Unternehmen bzw. die Einrichtung überwiegend tätig?",
           "instruction": "Please state the correct job title e.g. not \"Industry\" but \"electronic Industry\", not \"trade\" but \"retail trade\", not \"public service\", but \"hospital\". Please write in block letters. ",
-          "scale": "chr",
+          "instruction_de": "Bitte geben Sie die genaue Berufsbezeichnung an, z.B. nicht „Industrie“, sondern „Elektroindustrie“, nicht „Handel“, sondern „Einzelhandel“, nicht „öffentlicher Dienst“, sondern „Krankenhaus“.\n\nBitte in Druckbuchstaben eintragen!",
           "concept": "lbra",
+          "scale": "chr",
           "number": "75",
           "sn": 0,
           "item": "root"
@@ -5078,12 +5164,13 @@
       "question": "78",
       "name": "78",
       "label": "What was your occupational status in your last job?",
+      "label_de": "In welcher beruflichen Stellung waren Sie zuletzt beschäftigt?",
       "items": [
         {
-          "text_de": "In welcher beruflichen Stellung waren Sie zuletzt beschäftigt?",
-          "instruction_de": "Wenn Sie mehr als eine berufliche Tätigkeit ausübten, beantworten Sie die folgenden Fragen bitte nur für Ihre damalige berufliche Haupttätigkeit!",
           "text": "What was your occupational status in your last job?",
+          "text_de": "In welcher beruflichen Stellung waren Sie zuletzt beschäftigt?",
           "instruction": "If you had more than a professional activity, answer the following questions only for your time main occupation!",
+          "instruction_de": "Wenn Sie mehr als eine berufliche Tätigkeit ausübten, beantworten Sie die folgenden Fragen bitte nur für Ihre damalige berufliche Haupttätigkeit!",
           "scale": "txt",
           "description": "Researcher Notes:\nFrage so in CAPI nicht vorhanden.\n**1 = wird gefiltert zu LARB\n**2 = wird gefiltert zu LANG\n**3 = wird gefiltert zu LSST X\n**4 = wird gefiltert zu LAMT\n**5 = wird gefiltert zu LAZUBI\n**6 = LBERKA\n",
           "number": "76",
@@ -5092,10 +5179,10 @@
         },
         {
           "item": "larb",
-          "text_de": "Arbeiter  (auch in der Landwirtschaft)",
           "text": "Blue-collar worker (Arbeiter) (also in agriculture)",
-          "scale": "cat",
+          "text_de": "Arbeiter  (auch in der Landwirtschaft)",
           "concept": "larb",
+          "scale": "cat",
           "description": "Filter:\nASK ONLY IF Q6701 : L XXX Dummy=1\n",
           "number": "76",
           "answers": [
@@ -5129,8 +5216,8 @@
         },
         {
           "item": "2",
-          "text_de": "Selbstständige  (einschl. mithelfender Familienangehöriger)",
           "text": "Self-employed (including family members working for the self-employed)",
+          "text_de": "Selbstständige  (einschl. mithelfender Familienangehöriger)",
           "scale": "txt",
           "description": "Researcher Notes:\nStatement 1 = LSST1\n**Statement 2 = LSST2\n**Statement 3 = LSST3\n**Statement 4 = LSST4\n**\n**Mithelfende Familienangehörige: nur Single Coded\n\nFilter:\nASK ONLY IF Q6701 : L XXX Dummy=3\n",
           "number": "76",
@@ -5138,10 +5225,10 @@
         },
         {
           "item": "lsst1",
-          "text_de": "Selbstständige Landwirte",
           "text": "Self-employed farmer",
-          "scale": "cat",
+          "text_de": "Selbstständige Landwirte",
           "concept": "lsst1",
+          "scale": "cat",
           "number": "76",
           "answers": [
             {
@@ -5164,10 +5251,10 @@
         },
         {
           "item": "lsst2",
-          "text_de": "Freie Berufe, selbstständige Akademiker",
           "text": "Freelance professional, selfemployed academic (selbständiger Akademiker)",
-          "scale": "cat",
+          "text_de": "Freie Berufe, selbstständige Akademiker",
           "concept": "lsst2",
+          "scale": "cat",
           "number": "76",
           "answers": [
             {
@@ -5190,10 +5277,10 @@
         },
         {
           "item": "lsst3",
-          "text_de": "Sonstige Selbstständige",
           "text": "Other self-employed",
-          "scale": "cat",
+          "text_de": "Sonstige Selbstständige",
           "concept": "lsst3",
+          "scale": "cat",
           "number": "76",
           "answers": [
             {
@@ -5216,8 +5303,8 @@
         },
         {
           "item": "lsst4",
-          "scale": "cat",
           "concept": "lsst4",
+          "scale": "cat",
           "number": "76",
           "answers": [
             {
@@ -5230,10 +5317,10 @@
         },
         {
           "item": "lazubi",
-          "text_de": "Auszubildende / Praktikanten",
           "text": "Apprentice / trainee / intern",
-          "scale": "cat",
+          "text_de": "Auszubildende / Praktikanten",
           "concept": "lazubi",
+          "scale": "cat",
           "description": "Filter:\nASK ONLY IF Q6701 : L XXX Dummy=5\n",
           "number": "76",
           "answers": [
@@ -5252,10 +5339,10 @@
         },
         {
           "item": "lang",
-          "text_de": "Angestellte",
           "text": "White-collar worker (Angestellte)",
-          "scale": "cat",
+          "text_de": "Angestellte",
           "concept": "lang",
+          "scale": "cat",
           "description": "Filter:\nASK ONLY IF Q6701 : L XXX Dummy=2\n",
           "number": "76",
           "answers": [
@@ -5294,10 +5381,10 @@
         },
         {
           "item": "lamt",
-          "text_de": "Beamte / Staatsverwaltung (einschl. Richter und Berufssoldaten)",
           "text": "Civil servant or public administration employee (including judges and professional soldiers)",
-          "scale": "cat",
+          "text_de": "Beamte / Staatsverwaltung (einschl. Richter und Berufssoldaten)",
           "concept": "lamt",
+          "scale": "cat",
           "description": "Filter:\nASK ONLY IF Q6701 : L XXX Dummy=4\n",
           "number": "76",
           "answers": [
@@ -5333,10 +5420,11 @@
       "question": "79",
       "name": "79",
       "label": "Have you performed any of the following voluntary services?",
+      "label_de": "Haben Sie einen der folgend genannten freiwilligen Dienste abgeleistet?",
       "items": [
         {
-          "text_de": "Haben Sie einen der folgend genannten freiwilligen Dienste abgeleistet?",
           "text": "Have you performed any of the following voluntary services?",
+          "text_de": "Haben Sie einen der folgend genannten freiwilligen Dienste abgeleistet?",
           "scale": "txt",
           "number": "77",
           "sn": 0,
@@ -5344,44 +5432,44 @@
         },
         {
           "item": "lfsj",
-          "text_de": "Freiwilliges soziales/ökologisches Jahr",
           "text": "Voluntary social/ecological year (freiwilliges soziales/ökologisches Jahr)..",
-          "scale": "bin",
+          "text_de": "Freiwilliges soziales/ökologisches Jahr",
           "concept": "lfsj",
+          "scale": "bin",
           "number": "77",
           "sn": 1
         },
         {
           "item": "lfrei1",
-          "text_de": "Bundesfreiwilligendienst",
           "text": "Federal volunteer service (Bundesfreiwilligendienst)",
-          "scale": "bin",
+          "text_de": "Bundesfreiwilligendienst",
           "concept": "lfrei1",
+          "scale": "bin",
           "number": "77",
           "sn": 2
         },
         {
           "item": "lfrei2",
-          "text_de": "Freiwilligen Wehrdienst",
           "text": "Voluntary military service (Freiwilligen Wehrdienst)",
-          "scale": "bin",
+          "text_de": "Freiwilligen Wehrdienst",
           "concept": "lfrei2",
+          "scale": "bin",
           "number": "77",
           "sn": 3
         },
         {
           "item": "lfreino",
-          "text_de": "Keinen dieser freiwilligen Dienste abgeleistet",
           "text": "Performed none of these voluntary services",
-          "scale": "bin",
+          "text_de": "Keinen dieser freiwilligen Dienste abgeleistet",
           "concept": "lfreino",
+          "scale": "bin",
           "number": "77",
           "sn": 4
         },
         {
           "item": "5",
-          "text_de": "[Bundesfreiwilligendienst] Wie lange?",
           "text": "[Federal volunteer service] How long?",
+          "text_de": "[Bundesfreiwilligendienst] Wie lange?",
           "scale": "txt",
           "description": "Dauer Bundesfreiwilligendienst [Monate]",
           "number": "77",
@@ -5389,17 +5477,17 @@
         },
         {
           "item": "lfrei1mo",
-          "text_de": "Anzahl Monate",
           "text": "Months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "lfrei1mo",
+          "scale": "int",
           "number": "77",
           "sn": 6
         },
         {
           "item": "7",
-          "text_de": "[Freiwilligen Wehrdienst] Wie lange?",
           "text": "[Voluntary military service] How long?",
+          "text_de": "[Freiwilligen Wehrdienst] Wie lange?",
           "scale": "txt",
           "description": "Dauer Freiwilliger Wehrdienst [Monate]",
           "number": "77",
@@ -5407,10 +5495,10 @@
         },
         {
           "item": "lfrei2mo",
-          "text_de": "Anzahl Monate",
           "text": "Months",
-          "scale": "int",
+          "text_de": "Anzahl Monate",
           "concept": "lfrei2mo",
+          "scale": "int",
           "number": "77",
           "sn": 8
         }
@@ -5423,10 +5511,11 @@
       "question": "80",
       "name": "80",
       "label": "Did you do compulsory military service or community service in place of military service?",
+      "label_de": "Nur an Männer die 1992 oder früher geboren wurden:  \nHaben Sie Wehr- oder Zivildienst geleistet?",
       "items": [
         {
-          "text_de": "Nur an Männer die 1992 oder früher geboren wurden:  \nHaben Sie Wehr- oder Zivildienst geleistet?",
           "text": "Did you do compulsory military service or community service in place of military service?",
+          "text_de": "Nur an Männer die 1992 oder früher geboren wurden:  \nHaben Sie Wehr- oder Zivildienst geleistet?",
           "scale": "txt",
           "description": "Researcher Notes:\nProgrammierung: Fragen nur an Männer die 1992 oder früher geboren sind!\n",
           "number": "78",
@@ -5435,10 +5524,10 @@
         },
         {
           "item": "lwehr2",
-          "text_de": "Ja, …",
           "text": "Yes, ...",
-          "scale": "cat",
+          "text_de": "Ja, …",
           "concept": "lwehr2",
+          "scale": "cat",
           "description": "Form Wehr-, Zivildienst",
           "number": "78",
           "answers": [
@@ -5467,10 +5556,10 @@
         },
         {
           "item": "lwehr3",
-          "text_de": "Nein, …",
           "text": "No, ...",
-          "scale": "cat",
+          "text_de": "Nein, …",
           "concept": "lwehr3",
+          "scale": "cat",
           "description": "Gründe kein Wehr- und Zivieldienst",
           "number": "78",
           "answers": [
@@ -5501,12 +5590,13 @@
       "question": "81",
       "name": "81",
       "label": "Do you have or had any siblings?",
+      "label_de": "Haben oder hatten Sie Geschwister?",
       "items": [
         {
-          "text_de": "Haben oder hatten Sie Geschwister?",
-          "instruction_de": "Gemeint sind leibliche, Halb-, Stief- und Adoptivgeschwister.\nGeben Sie uns bitte für jedes Ihrer Geschwister folgende Angaben (maximal zehn Geschwister).\nBitte beginnen Sie mit dem ältesten Geschwisterteil und fahren dem Alter nach fort, bis zum Jüngsten.\nGeben Sie bitte auch an, ob Sie Ihre gesamte Kindheit - also bis zu Ihrem 15. Lebensjahr - mit dem jeweiligen Geschwister gemeinsam gelebt haben. ",
           "text": "Do you have or had any siblings?",
+          "text_de": "Haben oder hatten Sie Geschwister?",
           "instruction": "We are referring here to biological siblings, half-siblings, step-siblings, and adoptive siblings.\nPlease provide the following information for each of your siblings (maximum of 10), from oldest to youngest. Please also state whether you lived with each sibling for your entire childhood, that is, up to the age of 15.",
+          "instruction_de": "Gemeint sind leibliche, Halb-, Stief- und Adoptivgeschwister.\nGeben Sie uns bitte für jedes Ihrer Geschwister folgende Angaben (maximal zehn Geschwister).\nBitte beginnen Sie mit dem ältesten Geschwisterteil und fahren dem Alter nach fort, bis zum Jüngsten.\nGeben Sie bitte auch an, ob Sie Ihre gesamte Kindheit - also bis zu Ihrem 15. Lebensjahr - mit dem jeweiligen Geschwister gemeinsam gelebt haben. ",
           "scale": "txt",
           "number": "79",
           "sn": 0,
@@ -5514,46 +5604,46 @@
         },
         {
           "item": "lbsanz",
-          "text_de": "Ja, und zwar … Geschwister",
           "text": "Yes ... siblings",
-          "scale": "int",
+          "text_de": "Ja, und zwar … Geschwister",
           "concept": "lbsanz",
+          "scale": "int",
           "number": "79",
           "sn": 1
         },
         {
           "item": "lbsno",
-          "text_de": "Nein",
           "text": "No",
-          "scale": "bin",
+          "text_de": "Nein",
           "concept": "lbsno",
+          "scale": "bin",
           "number": "79",
           "sn": 2
         },
         {
           "item": "lbsj1",
-          "text_de": "Geburtsjahr",
           "text": "Birthyear",
-          "scale": "int",
+          "text_de": "Geburtsjahr",
           "concept": "lbsj1",
+          "scale": "int",
           "number": "79",
           "sn": 3
         },
         {
           "item": "lbsmo1",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "lbsmo1",
+          "scale": "int",
           "number": "79",
           "sn": 4
         },
         {
           "item": "lbssex1",
-          "text_de": "Geschlecht",
           "text": "Sex",
-          "scale": "cat",
+          "text_de": "Geschlecht",
           "concept": "lbssex1",
+          "scale": "cat",
           "number": "79",
           "answers": [
             {
@@ -5571,10 +5661,10 @@
         },
         {
           "item": "lbsart1",
-          "text_de": "Art des Geschwisters",
           "text": "Type of sibling",
-          "scale": "cat",
+          "text_de": "Art des Geschwisters",
           "concept": "lbsart1",
+          "scale": "cat",
           "number": "79",
           "answers": [
             {
@@ -5612,27 +5702,27 @@
         },
         {
           "item": "79.1",
-          "text_de": "Gesamte Kindheit – bis zu Ihrem 15. Lebensjahr zusammen gelebt?",
           "text": "Did you live together throughout your entire childhood?",
+          "text_de": "Gesamte Kindheit – bis zu Ihrem 15. Lebensjahr zusammen gelebt?",
           "scale": "txt",
           "number": "79",
           "sn": 7
         },
         {
           "item": "lbs15j1",
-          "text_de": "Ja",
           "text": "Yes",
-          "scale": "bin",
+          "text_de": "Ja",
           "concept": "lbs15j1",
+          "scale": "bin",
           "number": "79",
           "sn": 8
         },
         {
           "item": "lbs15n1",
-          "text_de": "Nein, nur: … Jahre",
           "text": "No, only ... years",
-          "scale": "int",
+          "text_de": "Nein, nur: … Jahre",
           "concept": "lbs15n1",
+          "scale": "int",
           "number": "79",
           "sn": 9
         }
@@ -5645,12 +5735,13 @@
       "question": "82",
       "name": "82",
       "label": "Do you have or had children? If so, how much?",
+      "label_de": "Haben oder hatten sie Kinder? Wenn ja, wie viele?",
       "items": [
         {
-          "text_de": "Haben oder hatten sie Kinder? Wenn ja, wie viele?",
-          "instruction_de": "Gemeint sind leibliche oder adoptierte Kinder (nicht Pflege- oder Stiefkinder).",
           "text": "Do you have or had children? If so, how much?",
+          "text_de": "Haben oder hatten sie Kinder? Wenn ja, wie viele?",
           "instruction": "We mean you own children or adopted children ( not stepchildren or fosterchildren)",
+          "instruction_de": "Gemeint sind leibliche oder adoptierte Kinder (nicht Pflege- oder Stiefkinder).",
           "scale": "txt",
           "number": "80",
           "sn": 0,
@@ -5658,39 +5749,39 @@
         },
         {
           "item": "lkind",
-          "text_de": "Ja, und zwar … Kinder:",
           "text": "Yes ... children",
-          "scale": "int",
+          "text_de": "Ja, und zwar … Kinder:",
           "concept": "lkind",
+          "scale": "int",
           "description": "Researcher Notes:\nOption \"Ja\" nicht zum ankreuzen, es findet sich also kein Wert dafür in den Daten.\n\nRouting:\n*IF [Q70010,2] *GOTO 71000\n",
           "number": "80",
           "sn": 1
         },
         {
           "item": "lkno",
-          "text_de": "Nein, hatte nie Kinder",
           "text": "No, I never had any kids",
-          "scale": "bin",
+          "text_de": "Nein, hatte nie Kinder",
           "concept": "lkno",
+          "scale": "bin",
           "description": "Researcher Notes:\nsinnvolles numerischer Maximum\n\nFilter:\nASK ONLY IF Q7001 : LKNO=1\n",
           "number": "80",
           "sn": 2
         },
         {
           "item": "lkgeb1",
-          "text_de": "Geburtsjahr",
           "text": "Year of birth",
-          "scale": "int",
+          "text_de": "Geburtsjahr",
           "concept": "lkgeb1",
+          "scale": "int",
           "number": "80",
           "sn": 3
         },
         {
           "item": "lksex1",
-          "text_de": "Geschlecht",
           "text": "Gender",
-          "scale": "cat",
+          "text_de": "Geschlecht",
           "concept": "lksex1",
+          "scale": "cat",
           "number": "80",
           "answers": [
             {
@@ -5708,10 +5799,10 @@
         },
         {
           "item": "lkwo1",
-          "text_de": "Wo lebt das Kind heute?",
           "text": "Where does the child live today?",
-          "scale": "cat",
+          "text_de": "Wo lebt das Kind heute?",
           "concept": "lkwo1",
+          "scale": "cat",
           "number": "80",
           "answers": [
             {
@@ -5756,12 +5847,13 @@
       "question": "83",
       "name": "83",
       "label": "The following is about partnership and marriage. The questions are always asked in terms of the relationship, regardless of whether you got married in this relationship or not. Whether you have been married in the particular relationship or not will be clarified in subsequent questions. The questions are about both, the current relationship, as well as former relationships. We begin with the current relationship and then ask you retrospectively about the steady relationships you had before.Concerning the previous relations, we speak of a steady relationship if it lasted six months or longer.",
+      "label_de": "Im Folgenden geht es um Partnerschaft und Ehe / eingetragene gleichgeschlechtliche Partnerschaft. \nDie Fragen werden immer in Bezug auf die Beziehung gestellt, unabhängig davon, ob Sie in dieser Beziehung geheiratet haben oder nicht. Bei den Fragen geht es sowohl um die aktuelle Beziehung, als auch um frühere Beziehungen. Wir beginnen mit der aktuellen Beziehung und fragen dann rückblickend nach den festen Beziehungen, die Sie vorher hatten. Bei den früheren Beziehungen sprechen wir dann von fester Beziehung, wenn diese sechs Monate oder länger andauerte. ",
       "items": [
         {
-          "text_de": "Im Folgenden geht es um Partnerschaft und Ehe / eingetragene gleichgeschlechtliche Partnerschaft. \nDie Fragen werden immer in Bezug auf die Beziehung gestellt, unabhängig davon, ob Sie in dieser Beziehung geheiratet haben oder nicht. Bei den Fragen geht es sowohl um die aktuelle Beziehung, als auch um frühere Beziehungen. Wir beginnen mit der aktuellen Beziehung und fragen dann rückblickend nach den festen Beziehungen, die Sie vorher hatten. Bei den früheren Beziehungen sprechen wir dann von fester Beziehung, wenn diese sechs Monate oder länger andauerte. ",
-          "instruction_de": "Wenn wir hier von Ehe oder Heirat sprechen, ist immer auch\n eingetragene gleichgeschlechtliche Partnerschaft gemeint! \nGehen Sie die Spalten der Reihe nach von oben nach unten durch - also erst A von 1 bis 6, \ndann B von 1 bis 6 usw. Wenn Sie etwas überspringen können, wird dies durch einen Pfeil und der Stelle angezeigt, an der Sie bitte weiter machen. Z.B. bedeutet B5, weiter mit Spalte B, 5. Frage! ",
           "text": "The following is about partnership and marriage. The questions are always asked in terms of the relationship, regardless of whether you got married in this relationship or not. Whether you have been married in the particular relationship or not will be clarified in subsequent questions. The questions are about both, the current relationship, as well as former relationships. We begin with the current relationship and then ask you retrospectively about the steady relationships you had before.Concerning the previous relations, we speak of a steady relationship if it lasted six months or longer.",
+          "text_de": "Im Folgenden geht es um Partnerschaft und Ehe / eingetragene gleichgeschlechtliche Partnerschaft. \nDie Fragen werden immer in Bezug auf die Beziehung gestellt, unabhängig davon, ob Sie in dieser Beziehung geheiratet haben oder nicht. Bei den Fragen geht es sowohl um die aktuelle Beziehung, als auch um frühere Beziehungen. Wir beginnen mit der aktuellen Beziehung und fragen dann rückblickend nach den festen Beziehungen, die Sie vorher hatten. Bei den früheren Beziehungen sprechen wir dann von fester Beziehung, wenn diese sechs Monate oder länger andauerte. ",
           "instruction": "If we are talking about matrimony or marriage, it is always meant registered same-sex partnership! Go through the columns sequentially from top to bottom - so first A from 1 to 6, then B from 1 to 6, etc. If you can skip something, this will be shown by an arrow and the place where you please keep go on. For example, B5, means continue with column B, 5th issue!",
+          "instruction_de": "Wenn wir hier von Ehe oder Heirat sprechen, ist immer auch\n eingetragene gleichgeschlechtliche Partnerschaft gemeint! \nGehen Sie die Spalten der Reihe nach von oben nach unten durch - also erst A von 1 bis 6, \ndann B von 1 bis 6 usw. Wenn Sie etwas überspringen können, wird dies durch einen Pfeil und der Stelle angezeigt, an der Sie bitte weiter machen. Z.B. bedeutet B5, weiter mit Spalte B, 5. Frage! ",
           "scale": "txt",
           "number": "81",
           "sn": 0,
@@ -5769,10 +5861,10 @@
         },
         {
           "item": "lp1a",
-          "text_de": "A \nHaben Sie derzeit eine feste Beziehung?",
           "text": "A Do you currently have a fixed relationship?",
-          "scale": "cat",
+          "text_de": "A \nHaben Sie derzeit eine feste Beziehung?",
           "concept": "lp1a",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -5790,105 +5882,105 @@
         },
         {
           "item": "81a1",
-          "text_de": "[A] 1. Die Beziehung …",
           "text": "[A] 1. The relationship...",
+          "text_de": "[A] 1. Die Beziehung …",
           "scale": "txt",
           "number": "81",
           "sn": 2
         },
         {
           "item": "lpja",
-          "text_de": "[A] – begann im Jahr",
           "text": "[A] 1. Began in the year",
-          "scale": "int",
+          "text_de": "[A] – begann im Jahr",
           "concept": "lpja",
+          "scale": "int",
           "number": "81",
           "sn": 3
         },
         {
           "item": "81a3",
-          "text_de": "[A] 3. Wohnen / Wohnten Sie zusammen?",
           "text": "[A] 3. Do or did you live together?",
+          "text_de": "[A] 3. Wohnen / Wohnten Sie zusammen?",
           "scale": "txt",
           "number": "81",
           "sn": 4
         },
         {
           "item": "lp2a",
-          "text_de": "[A] 3. Nein",
           "text": "[A] 3. No",
-          "scale": "bin",
+          "text_de": "[A] 3. Nein",
           "concept": "lp2a",
+          "scale": "bin",
           "number": "81",
           "sn": 5
         },
         {
           "item": "lpleb1a",
-          "text_de": "[A] 3. Ja, zusammengezogen im Jahr",
           "text": "[A] 3. Yes, moved together in the year",
-          "scale": "int",
+          "text_de": "[A] 3. Ja, zusammengezogen im Jahr",
           "concept": "lpleb1a",
+          "scale": "int",
           "number": "81",
           "sn": 6
         },
         {
           "item": "81a5",
-          "text_de": "[A] 4. Wohnen Sie noch zusammen?",
           "text": "[A] 4. Do you still live together?",
+          "text_de": "[A] 4. Wohnen Sie noch zusammen?",
           "scale": "txt",
           "number": "81",
           "sn": 7
         },
         {
           "item": "lpleb5a",
-          "text_de": "[A] 4. Ja",
           "text": "[A] 4. Yes",
-          "scale": "bin",
+          "text_de": "[A] 4. Ja",
           "concept": "lpleb5a",
+          "scale": "bin",
           "number": "81",
           "sn": 8
         },
         {
           "item": "lpleb3a",
-          "text_de": "[A] 4. Nein, Ende des gemeinsamen Wohnens im Jahr",
           "text": "[A] 4. No, end of living together in the year",
-          "scale": "int",
+          "text_de": "[A] 4. Nein, Ende des gemeinsamen Wohnens im Jahr",
           "concept": "lpleb3a",
+          "scale": "int",
           "number": "81",
           "sn": 9
         },
         {
           "item": "81a6",
-          "text_de": "[A] 5. Sind / Waren Sie in dieser Beziehung verheiratet?",
           "text": "[A] 5. Are / were you married in this relationship?",
+          "text_de": "[A] 5. Sind / Waren Sie in dieser Beziehung verheiratet?",
           "scale": "txt",
           "number": "81",
           "sn": 10
         },
         {
           "item": "lehea",
-          "text_de": "[A] 5. Nein",
           "text": "[A] 5. No",
-          "scale": "bin",
+          "text_de": "[A] 5. Nein",
           "concept": "lehea",
+          "scale": "bin",
           "number": "81",
           "sn": 11
         },
         {
           "item": "lehe1a",
-          "text_de": "[A] 5. Ja, wir haben geheiratet im Jahr",
           "text": "[A] 5. Yes, we have married in the year",
-          "scale": "int",
+          "text_de": "[A] 5. Ja, wir haben geheiratet im Jahr",
           "concept": "lehe1a",
+          "scale": "int",
           "number": "81",
           "sn": 12
         },
         {
           "item": "lehe2a",
-          "text_de": "[A] 6. Besteht diese Ehe noch?",
           "text": "[A] 6. Does this marriage still exist?",
-          "scale": "cat",
+          "text_de": "[A] 6. Besteht diese Ehe noch?",
           "concept": "lehe2a",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -5906,19 +5998,19 @@
         },
         {
           "item": "lehe3a",
-          "text_de": "[A] 6. Nein, die Ehe endete im Jahr",
           "text": "[A] 6. No, the marriage ended in the year",
-          "scale": "int",
+          "text_de": "[A] 6. Nein, die Ehe endete im Jahr",
           "concept": "lehe3a",
+          "scale": "int",
           "number": "81",
           "sn": 14
         },
         {
           "item": "lp1b",
-          "text_de": "B \nHatten Sie davor eine feste Beziehung?",
           "text": "B Have you had a stable relationship before?",
-          "scale": "cat",
+          "text_de": "B \nHatten Sie davor eine feste Beziehung?",
           "concept": "lp1b",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -5936,44 +6028,44 @@
         },
         {
           "item": "81b1",
-          "text_de": "[B] 1. Die Beziehung …",
           "text": "[B] 1. The relationship...",
+          "text_de": "[B] 1. Die Beziehung …",
           "scale": "txt",
           "number": "81",
           "sn": 16
         },
         {
           "item": "lpjb",
-          "text_de": "[B] – begann im Jahr",
           "text": "[B] 1. Began in the year",
-          "scale": "int",
+          "text_de": "[B] – begann im Jahr",
           "concept": "lpjb",
+          "scale": "int",
           "number": "81",
           "sn": 17
         },
         {
           "item": "81b2",
-          "text_de": "[B] 2. Die Beziehung",
           "text": "[B] 2. The relationship",
+          "text_de": "[B] 2. Die Beziehung",
           "scale": "txt",
           "number": "81",
           "sn": 18
         },
         {
           "item": "lpend1b",
-          "text_de": "[B] – endete im Jahr",
           "text": "[B] 2. Ended in the year",
-          "scale": "int",
+          "text_de": "[B] – endete im Jahr",
           "concept": "lpend1b",
+          "scale": "int",
           "number": "81",
           "sn": 19
         },
         {
           "item": "lpend2b",
-          "text_de": "[B] – und endete durch",
           "text": "[B] 2. And ended by",
-          "scale": "cat",
+          "text_de": "[B] – und endete durch",
           "concept": "lpend2b",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -5991,88 +6083,88 @@
         },
         {
           "item": "81b3",
-          "text_de": "[B] 3. Wohnen / Wohnten Sie zusammen?",
           "text": "[B] 3. Do or did you live together?",
+          "text_de": "[B] 3. Wohnen / Wohnten Sie zusammen?",
           "scale": "txt",
           "number": "81",
           "sn": 21
         },
         {
           "item": "lp2b",
-          "text_de": "[B] 3. Nein",
           "text": "[B] 3. No",
-          "scale": "bin",
+          "text_de": "[B] 3. Nein",
           "concept": "lp2b",
+          "scale": "bin",
           "number": "81",
           "sn": 22
         },
         {
           "item": "lpleb1b",
-          "text_de": "[B] 3. Ja, zusammengezogen im Jahr",
           "text": "[B] 3. Yes, moved together in the year",
-          "scale": "int",
+          "text_de": "[B] 3. Ja, zusammengezogen im Jahr",
           "concept": "lpleb1b",
+          "scale": "int",
           "number": "81",
           "sn": 23
         },
         {
           "item": "81b4",
-          "text_de": "[B] 4. Wohnen Sie noch zusammen?",
           "text": "[B] 4. Do you still live together?",
+          "text_de": "[B] 4. Wohnen Sie noch zusammen?",
           "scale": "txt",
           "number": "81",
           "sn": 24
         },
         {
           "item": "lpleb5b",
-          "text_de": "[B] 4. Ja",
           "text": "[B] 4. Yes",
-          "scale": "bin",
+          "text_de": "[B] 4. Ja",
           "concept": "lpleb5b",
+          "scale": "bin",
           "number": "81",
           "sn": 25
         },
         {
           "item": "lpleb3b",
-          "text_de": "[B] 4. Nein, Ende des gemeinsamen Wohnens im Jahr",
           "text": "[B] 4. No, end of living together in the year",
-          "scale": "int",
+          "text_de": "[B] 4. Nein, Ende des gemeinsamen Wohnens im Jahr",
           "concept": "lpleb3b",
+          "scale": "int",
           "number": "81",
           "sn": 26
         },
         {
           "item": "81b5",
-          "text_de": "[B] 5. Sind / Waren Sie in dieser Beziehung verheiratet?",
           "text": "[B] 5. Are / were you married in this relationship?",
+          "text_de": "[B] 5. Sind / Waren Sie in dieser Beziehung verheiratet?",
           "scale": "txt",
           "number": "81",
           "sn": 27
         },
         {
           "item": "leheb",
-          "text_de": "[B] 5. Nein",
           "text": "[B] 5. No",
-          "scale": "bin",
+          "text_de": "[B] 5. Nein",
           "concept": "leheb",
+          "scale": "bin",
           "number": "81",
           "sn": 28
         },
         {
           "item": "lehe1b",
-          "text_de": "[B] 5. Ja, wir haben geheiratet im Jahr",
           "text": "[B] 5. Yes, we married in the year",
-          "scale": "int",
+          "text_de": "[B] 5. Ja, wir haben geheiratet im Jahr",
           "concept": "lehe1b",
+          "scale": "int",
           "number": "81",
           "sn": 29
         },
         {
           "item": "lehe2b",
-          "text_de": "[B] 6. Besteht diese Ehe noch?",
           "text": "[B] 6. Does this marriage still exist?",
-          "scale": "cat",
+          "text_de": "[B] 6. Besteht diese Ehe noch?",
           "concept": "lehe2b",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -6095,19 +6187,19 @@
         },
         {
           "item": "lehe3b",
-          "text_de": "[B] 6. Nein, die Ehe endete im Jahr",
           "text": "[B] 6. No, the marriage ended in the year",
-          "scale": "int",
+          "text_de": "[B] 6. Nein, die Ehe endete im Jahr",
           "concept": "lehe3b",
+          "scale": "int",
           "number": "81",
           "sn": 31
         },
         {
           "item": "lp1c",
-          "text_de": "C \nHatten Sie davor eine feste Beziehung?",
           "text": "[C] Did you have a stable relationship before?",
-          "scale": "cat",
+          "text_de": "C \nHatten Sie davor eine feste Beziehung?",
           "concept": "lp1c",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -6125,44 +6217,44 @@
         },
         {
           "item": "81c1",
-          "text_de": "[C] 1. Die Beziehung …",
           "text": "[C] 1. The relationship...",
+          "text_de": "[C] 1. Die Beziehung …",
           "scale": "txt",
           "number": "81",
           "sn": 33
         },
         {
           "item": "lpjc",
-          "text_de": "[C] – begann im Jahr",
           "text": "[C] 1. Began in the year",
-          "scale": "int",
+          "text_de": "[C] – begann im Jahr",
           "concept": "lpjc",
+          "scale": "int",
           "number": "81",
           "sn": 34
         },
         {
           "item": "81c2",
-          "text_de": "[C] 2. Die Beziehung",
           "text": "[C] 2. The relationship",
+          "text_de": "[C] 2. Die Beziehung",
           "scale": "txt",
           "number": "81",
           "sn": 35
         },
         {
           "item": "lpend1c",
-          "text_de": "[C] – endete im Jahr",
           "text": "[C] 2. Ended in the year",
-          "scale": "int",
+          "text_de": "[C] – endete im Jahr",
           "concept": "lpend1c",
+          "scale": "int",
           "number": "81",
           "sn": 36
         },
         {
           "item": "lpend2c",
-          "text_de": "[C] – und endete durch",
           "text": "[C] 2. And ended by",
-          "scale": "cat",
+          "text_de": "[C] – und endete durch",
           "concept": "lpend2c",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -6180,88 +6272,88 @@
         },
         {
           "item": "81c3",
-          "text_de": "[C] 3. Wohnen / Wohnten Sie zusammen?",
           "text": "[C] 3. Do or did you live together?",
+          "text_de": "[C] 3. Wohnen / Wohnten Sie zusammen?",
           "scale": "txt",
           "number": "81",
           "sn": 38
         },
         {
           "item": "lp2c",
-          "text_de": "[C] 3. Nein",
           "text": "[C] 3. No",
-          "scale": "bin",
+          "text_de": "[C] 3. Nein",
           "concept": "lp2c",
+          "scale": "bin",
           "number": "81",
           "sn": 39
         },
         {
           "item": "lpleb1c",
-          "text_de": "[C] 3. Ja, zusammengezogen im Jahr",
           "text": "[B] 3. Yes, moved together in the year",
-          "scale": "int",
+          "text_de": "[C] 3. Ja, zusammengezogen im Jahr",
           "concept": "lpleb1c",
+          "scale": "int",
           "number": "81",
           "sn": 40
         },
         {
           "item": "81c4",
-          "text_de": "[C] 4. Wohnen Sie noch zusammen?",
           "text": "[C] 4. Do you still live together?",
+          "text_de": "[C] 4. Wohnen Sie noch zusammen?",
           "scale": "txt",
           "number": "81",
           "sn": 41
         },
         {
           "item": "lpleb5c",
-          "text_de": "[C] 4. Ja",
           "text": "[C] 4. Yes",
-          "scale": "bin",
+          "text_de": "[C] 4. Ja",
           "concept": "lpleb5c",
+          "scale": "bin",
           "number": "81",
           "sn": 42
         },
         {
           "item": "lpleb3c",
-          "text_de": "[C] 4. Nein, Ende des gemeinsamen Wohnens im Jahr",
           "text": "[C] 4. No, end of living together in the year",
-          "scale": "int",
+          "text_de": "[C] 4. Nein, Ende des gemeinsamen Wohnens im Jahr",
           "concept": "lpleb3c",
+          "scale": "int",
           "number": "81",
           "sn": 43
         },
         {
           "item": "81c5",
-          "text_de": "[C] 5. Sind / Waren Sie in dieser Beziehung verheiratet?",
           "text": "[C] 5. Are / were you married in this relationship?",
+          "text_de": "[C] 5. Sind / Waren Sie in dieser Beziehung verheiratet?",
           "scale": "txt",
           "number": "81",
           "sn": 44
         },
         {
           "item": "lehec",
-          "text_de": "[C] 5. Nein",
           "text": "[C] 5. No",
-          "scale": "bin",
+          "text_de": "[C] 5. Nein",
           "concept": "lehec",
+          "scale": "bin",
           "number": "81",
           "sn": 45
         },
         {
           "item": "lehe1c",
-          "text_de": "[C] 5. Ja, wir haben geheiratet im Jahr",
           "text": "[C] 5. Yes, we married in the year",
-          "scale": "int",
+          "text_de": "[C] 5. Ja, wir haben geheiratet im Jahr",
           "concept": "lehe1c",
+          "scale": "int",
           "number": "81",
           "sn": 46
         },
         {
           "item": "lehe2c",
-          "text_de": "[C] 6. Besteht diese Ehe noch?",
           "text": "[C] 6. Does this marriage still exist?",
-          "scale": "cat",
+          "text_de": "[C] 6. Besteht diese Ehe noch?",
           "concept": "lehe2c",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -6284,19 +6376,19 @@
         },
         {
           "item": "lehe3c",
-          "text_de": "[C] 6. Nein, die Ehe endete im Jahr",
           "text": "[C] 6. No, the marriage ended in the year",
-          "scale": "int",
+          "text_de": "[C] 6. Nein, die Ehe endete im Jahr",
           "concept": "lehe3c",
+          "scale": "int",
           "number": "81",
           "sn": 48
         },
         {
           "item": "lp1d",
-          "text_de": "D\nHatten Sie davor eine feste Beziehung?",
           "text": "[D] Did you have a relationship before?",
-          "scale": "cat",
+          "text_de": "D\nHatten Sie davor eine feste Beziehung?",
           "concept": "lp1d",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -6314,44 +6406,44 @@
         },
         {
           "item": "81d1",
-          "text_de": "[D] 1. Die Beziehung …",
           "text": "[D] 1. The relationship ...",
+          "text_de": "[D] 1. Die Beziehung …",
           "scale": "txt",
           "number": "81",
           "sn": 50
         },
         {
           "item": "lpjd",
-          "text_de": "[D] – begann im Jahr",
           "text": "[D] 1. Began in the year",
-          "scale": "int",
+          "text_de": "[D] – begann im Jahr",
           "concept": "lpjd",
+          "scale": "int",
           "number": "81",
           "sn": 51
         },
         {
           "item": "81d2",
-          "text_de": "[D] 2. Die Beziehung",
           "text": "[D] 2. The relationship",
+          "text_de": "[D] 2. Die Beziehung",
           "scale": "txt",
           "number": "81",
           "sn": 52
         },
         {
           "item": "lpend1d",
-          "text_de": "[D] 2. endete im Jahr",
           "text": "[D] 2. Ended in the year",
-          "scale": "int",
+          "text_de": "[D] 2. endete im Jahr",
           "concept": "lpend1d",
+          "scale": "int",
           "number": "81",
           "sn": 53
         },
         {
           "item": "lpend2d",
-          "text_de": "[D] 2. und endete durch",
           "text": "[D] 2. And ended by",
-          "scale": "cat",
+          "text_de": "[D] 2. und endete durch",
           "concept": "lpend2d",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -6369,88 +6461,88 @@
         },
         {
           "item": "81d3",
-          "text_de": "[D] 3. Wohnen / Wohnten Sie zusammen?",
           "text": "[D] 3. Do or did you live together?",
+          "text_de": "[D] 3. Wohnen / Wohnten Sie zusammen?",
           "scale": "txt",
           "number": "81",
           "sn": 55
         },
         {
           "item": "lp2d",
-          "text_de": "[D] 3. Nein",
           "text": "[D] 3. No",
-          "scale": "bin",
+          "text_de": "[D] 3. Nein",
           "concept": "lp2d",
+          "scale": "bin",
           "number": "81",
           "sn": 56
         },
         {
           "item": "lpleb1d",
-          "text_de": "[D] 3. Ja, zusammengezogen im Jahr",
           "text": "[D] 3. Yes, moved together in the year",
-          "scale": "int",
+          "text_de": "[D] 3. Ja, zusammengezogen im Jahr",
           "concept": "lpleb1d",
+          "scale": "int",
           "number": "81",
           "sn": 57
         },
         {
           "item": "81d4",
-          "text_de": "[D] 4. Wohnen Sie noch zusammen?",
           "text": "[D] 4. Do you still live together?",
+          "text_de": "[D] 4. Wohnen Sie noch zusammen?",
           "scale": "txt",
           "number": "81",
           "sn": 58
         },
         {
           "item": "lpleb5d",
-          "text_de": "[D] 4. Ja",
           "text": "[D] 4. Yes",
-          "scale": "bin",
+          "text_de": "[D] 4. Ja",
           "concept": "lpleb5d",
+          "scale": "bin",
           "number": "81",
           "sn": 59
         },
         {
           "item": "lpleb3d",
-          "text_de": "[D] 4. Nein, Ende des gemeinsamen Wohnens im Jahr",
           "text": "[D] 4. No, end of living together in the year",
-          "scale": "int",
+          "text_de": "[D] 4. Nein, Ende des gemeinsamen Wohnens im Jahr",
           "concept": "lpleb3d",
+          "scale": "int",
           "number": "81",
           "sn": 60
         },
         {
           "item": "81d5",
-          "text_de": "[D] 5. Sind / Waren Sie in dieser Beziehung verheiratet?",
           "text": "[D] 5. Are / were you married in this relationship?",
+          "text_de": "[D] 5. Sind / Waren Sie in dieser Beziehung verheiratet?",
           "scale": "txt",
           "number": "81",
           "sn": 61
         },
         {
           "item": "lehed",
-          "text_de": "[D] 5. Nein",
           "text": "[D] 5. No",
-          "scale": "bin",
+          "text_de": "[D] 5. Nein",
           "concept": "lehed",
+          "scale": "bin",
           "number": "81",
           "sn": 62
         },
         {
           "item": "lehe1d",
-          "text_de": "[D] 5. Ja, wir haben geheiratet im Jahr",
           "text": "[D] 5. Yes, we married in the year",
-          "scale": "int",
+          "text_de": "[D] 5. Ja, wir haben geheiratet im Jahr",
           "concept": "lehe1d",
+          "scale": "int",
           "number": "81",
           "sn": 63
         },
         {
           "item": "lehe2d",
-          "text_de": "[D] 6. Besteht diese Ehe noch?",
           "text": "[D] 6. Does this marriage still exist?",
-          "scale": "cat",
+          "text_de": "[D] 6. Besteht diese Ehe noch?",
           "concept": "lehe2d",
+          "scale": "cat",
           "number": "81",
           "answers": [
             {
@@ -6473,10 +6565,10 @@
         },
         {
           "item": "lehe3d",
-          "text_de": "[D] 6. Nein, die Ehe endete im Jahr",
           "text": "[D] 6. No, the marriage ended in the year",
-          "scale": "int",
+          "text_de": "[D] 6. Nein, die Ehe endete im Jahr",
           "concept": "lehe3d",
+          "scale": "int",
           "number": "81",
           "sn": 65
         }
@@ -6489,10 +6581,11 @@
       "question": "B7",
       "name": "B7",
       "label": "Realisation of the interview",
+      "label_de": "Durchführung des Interviews",
       "items": [
         {
-          "text_de": "Durchführung des Interviews",
           "text": "Realisation of the interview",
+          "text_de": "Durchführung des Interviews",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -6507,10 +6600,11 @@
       "question": "A",
       "name": "A",
       "label": "What date do we have today and at which time have you finished your survey?",
+      "label_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
       "items": [
         {
-          "text_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
           "text": "What date do we have today and at which time have you finished your survey?",
+          "text_de": "Welches Datum haben wir heute und um wie viel Uhr haben Sie den Fragebogen beendet?",
           "scale": "txt",
           "number": "A",
           "sn": 0,
@@ -6518,37 +6612,37 @@
         },
         {
           "item": "ldatt",
-          "text_de": "Tag",
           "text": "Day",
-          "scale": "int",
+          "text_de": "Tag",
           "concept": "ldatt",
+          "scale": "int",
           "number": "A",
           "sn": 1
         },
         {
           "item": "ldatm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "ldatm",
+          "scale": "int",
           "number": "A",
           "sn": 2
         },
         {
           "item": "ldatst",
-          "text_de": "Stunde",
           "text": "Hour",
-          "scale": "int",
+          "text_de": "Stunde",
           "concept": "ldatst",
+          "scale": "int",
           "number": "A",
           "sn": 3
         },
         {
           "item": "ldatmi",
-          "text_de": "Minute",
           "text": "Minute",
-          "scale": "int",
+          "text_de": "Minute",
           "concept": "ldatmi",
+          "scale": "int",
           "number": "A",
           "sn": 4
         }
@@ -6561,12 +6655,13 @@
       "question": "B",
       "name": "B",
       "label": "How was the interview conducted?",
+      "label_de": "Wie wurde die Befragung durchgeführt?",
       "items": [
         {
-          "text_de": "Wie wurde die Befragung durchgeführt?",
           "text": "How was the interview conducted?",
-          "scale": "cat",
+          "text_de": "Wie wurde die Befragung durchgeführt?",
           "concept": "lform",
+          "scale": "cat",
           "number": "B",
           "answers": [
             {
@@ -6602,10 +6697,11 @@
       "question": "C",
       "name": "C",
       "label": "Duration of the interview:",
+      "label_de": "Interviewdauer:",
       "items": [
         {
-          "text_de": "Interviewdauer:",
           "text": "Duration of the interview:",
+          "text_de": "Interviewdauer:",
           "scale": "txt",
           "number": "C",
           "sn": 0,
@@ -6613,21 +6709,21 @@
         },
         {
           "item": "ldauer1",
-          "text_de": "Das mündliche (Teil-)Interview dauerte … Minuten",
           "text": "The oral (complete or partial) interview lasted … minutes",
-          "scale": "int",
+          "text_de": "Das mündliche (Teil-)Interview dauerte … Minuten",
           "concept": "ldauer1",
+          "scale": "int",
           "number": "C",
           "sn": 1
         },
         {
           "item": "ldauer2",
-          "text_de": "Befragter brauchte zum Selbstausfüllen … Minuten",
-          "instruction_de": "(bitte erfragen)",
           "text": "Length in minutes written interview",
+          "text_de": "Befragter brauchte zum Selbstausfüllen … Minuten",
           "instruction": "please enter:",
-          "scale": "int",
+          "instruction_de": "(bitte erfragen)",
           "concept": "ldauer2",
+          "scale": "int",
           "number": "C",
           "sn": 2
         }
@@ -6640,12 +6736,13 @@
       "question": "D",
       "name": "D",
       "label": "Other notes:",
+      "label_de": "Sonstige Hinweise:",
       "items": [
         {
-          "text_de": "Sonstige Hinweise:",
           "text": "Other notes:",
-          "scale": "chr",
+          "text_de": "Sonstige Hinweise:",
           "concept": "ltext",
+          "scale": "chr",
           "number": "D",
           "sn": 0,
           "item": "root"
@@ -6659,10 +6756,11 @@
       "question": "INT",
       "name": "INT",
       "label": "Thank you for your participation!",
+      "label_de": "Vielen Dank für Ihre Mitarbeit!",
       "items": [
         {
-          "text_de": "Vielen Dank für Ihre Mitarbeit!",
           "text": "Thank you for your participation!",
+          "text_de": "Vielen Dank für Ihre Mitarbeit!",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -6670,28 +6768,28 @@
         },
         {
           "item": "listnr",
-          "text_de": "Listen-Nr.",
           "text": "List. No.",
-          "scale": "int",
+          "text_de": "Listen-Nr.",
           "concept": "listnr",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "lfdnr",
-          "text_de": "Lfd. Nr.",
           "text": "Lfd. No.",
-          "scale": "int",
+          "text_de": "Lfd. Nr.",
           "concept": "lfdnr",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "lintnr",
-          "text_de": "Abrechnungs-Nummer",
           "text": "Deduction No.",
-          "scale": "int",
+          "text_de": "Abrechnungs-Nummer",
           "concept": "lintnr",
+          "scale": "int",
           "sn": 3,
           "number": ""
         }

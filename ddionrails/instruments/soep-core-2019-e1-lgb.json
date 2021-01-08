@@ -13,6 +13,8 @@
     "0": {
       "question": "0",
       "name": "0",
+      "label": "",
+      "label_de": "Für das „Leben in Deutschland“ ist die nachwachsende Generation besonders wichtig. In diesem kurzen Fragebogen geht es um Kinder, die im Jahr 2018 oder 2019 geboren wurden. Unsere Fragen beziehen sich auf Ihre persönlichen Erfahrungen und die Entwicklung des Kindes. Da es auch um die Schwangerschaft und die Geburt des Kindes geht, werden die Fragen in der Regel von der leiblichen Mutter beantwortet. Der Fragebogen kann aber in Ausnahmefällen auch von einer anderen Bezugsperson des Kindes ausgefüllt werden.\nIhre Mitarbeit ist freiwillig.\nWir bitten Sie aber herzlich,\n- unserem Mitarbeiter / unserer Mitarbeiterin die Fragen zu beantworten \n- oder den Fragebogen sorgfältig selbst auszufüllen.",
       "items": [
         {
           "item": "1",
@@ -24,32 +26,32 @@
         {
           "item": "2",
           "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
-          "scale": "txt",
           "concept": "1",
+          "scale": "txt",
           "number": "0",
           "sn": 1
         },
         {
           "item": "hnr",
           "text_de": "Nr. des Haushalts:",
-          "scale": "int",
           "concept": "hnr",
+          "scale": "int",
           "number": "0",
           "sn": 2
         },
         {
           "item": "mname",
           "text_de": "Vorname der Befragungsperson:",
-          "scale": "chr",
           "concept": "mname",
+          "scale": "chr",
           "number": "0",
           "sn": 3
         },
         {
           "item": "mpnr",
           "text_de": "Personen Nr.:",
-          "scale": "int",
           "concept": "mpnr",
+          "scale": "int",
           "number": "0",
           "sn": 4
         }
@@ -62,32 +64,33 @@
       "question": "1",
       "name": "1",
       "label": "What’s your newborn child’s name?",
+      "label_de": "Wie heißt das neugeborenes Kind?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie heißt das neugeborenes Kind?",
           "text": "What’s your newborn child’s name?",
+          "text_de": "Wie heißt das neugeborenes Kind?",
           "scale": "txt",
           "number": "1",
           "sn": 0
         },
         {
           "item": "aname",
-          "text_de": "Vorname des Kindes",
-          "instruction_de": "Bitte in Druckbuchstaben",
           "text": "Child’s first name",
+          "text_de": "Vorname des Kindes",
           "instruction": "Please print in capital letters.",
-          "scale": "chr",
+          "instruction_de": "Bitte in Druckbuchstaben",
           "concept": "aname",
+          "scale": "chr",
           "number": "1",
           "sn": 1
         },
         {
           "item": "apnr",
-          "text_de": "Personen Nr.",
           "text": "Person ID",
-          "scale": "int",
+          "text_de": "Personen Nr.",
           "concept": "apnr",
+          "scale": "int",
           "number": "1",
           "sn": 2
         }
@@ -99,6 +102,8 @@
     "2": {
       "question": "2",
       "name": "2",
+      "label": "",
+      "label_de": "Geburtsdatum und Geschlecht Ihres Kindes",
       "items": [
         {
           "item": "1",
@@ -110,24 +115,24 @@
         {
           "item": "agebt",
           "text_de": "Tag",
-          "scale": "int",
           "concept": "agebt",
+          "scale": "int",
           "number": "2",
           "sn": 1
         },
         {
           "item": "agebm",
           "text_de": "Monat",
-          "scale": "int",
           "concept": "agebm",
+          "scale": "int",
           "number": "2",
           "sn": 2
         },
         {
           "item": "agebj",
           "text_de": "…",
-          "scale": "cat",
           "concept": "agebj",
+          "scale": "cat",
           "number": "2",
           "answers": [
             {
@@ -148,8 +153,8 @@
         {
           "item": "asex",
           "text_de": "…",
-          "scale": "cat",
           "concept": "asex",
+          "scale": "cat",
           "number": "2",
           "answers": [
             {
@@ -179,13 +184,15 @@
     "3": {
       "question": "3",
       "name": "3",
+      "label": "",
+      "label_de": "In welcher Beziehung stehen Sie zu diesem Kind: sind Sie …?",
       "items": [
         {
           "item": "abez",
           "text_de": "In welcher Beziehung stehen Sie zu diesem Kind: sind Sie …?",
-          "scale": "cat",
-          "concept": "abez",
           "goto": "1@4;2,3@7;4:7@9",
+          "concept": "abez",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -227,6 +234,8 @@
     "4": {
       "question": "4",
       "name": "4",
+      "label": "",
+      "label_de": "Wie war Ihr körperliches und seelisches Befinden im letzten Drittel der Schwangerschaft\nund in den ersten drei Monaten nach der Geburt?",
       "items": [
         {
           "item": "1",
@@ -238,8 +247,8 @@
         {
           "item": "abef1",
           "text_de": "[Körperliches Befinden] Im letzten Drittel der Schwangerschaft",
-          "scale": "cat",
           "concept": "abef1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -272,8 +281,8 @@
         {
           "item": "abef2",
           "text_de": "[Körperliches Befinden] In den ersten drei Monaten nach der Geburt",
-          "scale": "cat",
           "concept": "abef2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -306,8 +315,8 @@
         {
           "item": "abef3",
           "text_de": "[Seelisches / Psychisches Befinden] Im letzten Drittel der Schwangerschaft",
-          "scale": "cat",
           "concept": "abef3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -340,8 +349,8 @@
         {
           "item": "abef4",
           "text_de": "[Seelisches / Psychisches Befinden] In den ersten drei Monaten nach der Geburt",
-          "scale": "cat",
           "concept": "abef4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -379,6 +388,8 @@
     "5": {
       "question": "5",
       "name": "5",
+      "label": "",
+      "label_de": "Um Ihr wievieltes leibliches Kind handelt es sich bei dem Neugeborenen?",
       "items": [
         {
           "item": "1",
@@ -390,8 +401,8 @@
         {
           "item": "aanz",
           "text_de": "Es ist das … te Kind.",
-          "scale": "int",
           "concept": "aanz",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -403,12 +414,14 @@
     "6": {
       "question": "6",
       "name": "6",
+      "label": "",
+      "label_de": "Lebt der leibliche Vater des Kindes hier im Haushalt?",
       "items": [
         {
           "item": "avat",
           "text_de": "Lebt der leibliche Vater des Kindes hier im Haushalt?",
-          "scale": "cat",
           "concept": "avat",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -436,12 +449,14 @@
     "7": {
       "question": "7",
       "name": "7",
+      "label": "",
+      "label_de": "War die Schwangerschaft / die Elternschaft eher ungeplant oder eher geplant?",
       "items": [
         {
           "item": "aplan",
           "text_de": "War die Schwangerschaft / die Elternschaft eher ungeplant oder eher geplant?",
-          "scale": "cat",
           "concept": "aplan",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -467,13 +482,15 @@
     "8": {
       "question": "8",
       "name": "8",
+      "label": "",
+      "label_de": "Wie wurde die Schwangerschaft herbeigeführt?",
       "items": [
         {
           "item": "aweg",
           "text_de": "Wie wurde die Schwangerschaft herbeigeführt?",
-          "scale": "cat",
           "concept": "aweg",
           "filter": "aplan=2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -503,12 +520,14 @@
     "9": {
       "question": "9",
       "name": "9",
+      "label": "",
+      "label_de": "An welchem Ort fand die Entbindung statt?",
       "items": [
         {
           "item": "aent",
           "text_de": "An welchem Ort fand die Entbindung statt?",
-          "scale": "cat",
           "concept": "aent",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -533,9 +552,9 @@
         {
           "item": "aent1",
           "text_de": "War es eine Entbindung mit Kaiserschnitt?",
-          "scale": "cat",
           "concept": "aent1",
           "filter": "aent=2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -563,6 +582,8 @@
     "10": {
       "question": "10",
       "name": "10",
+      "label": "",
+      "label_de": "In der wievielten Schwangerschaftswoche wurde das Kind geboren?",
       "items": [
         {
           "item": "1",
@@ -574,8 +595,8 @@
         {
           "item": "awoch",
           "text_de": "In der … ten Woche",
-          "scale": "int",
           "concept": "awoch",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -587,6 +608,8 @@
     "11": {
       "question": "11",
       "name": "11",
+      "label": "",
+      "label_de": "Wie groß und schwer war das Kind zum Zeitpunkt der Geburt?",
       "items": [
         {
           "item": "1",
@@ -598,26 +621,26 @@
         {
           "item": "agew",
           "text_de": "Geburtsgewicht in Gramm",
-          "scale": "int",
           "concept": "agew",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "agro",
-          "text_de": "Körpergröße in cm",
           "text": "Height in centimeters",
-          "scale": "int",
+          "text_de": "Körpergröße in cm",
           "concept": "agro",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "akop",
-          "text_de": "Kopfumfang in cm",
           "text": "Head circumference in centimeters",
-          "scale": "int",
+          "text_de": "Kopfumfang in cm",
           "concept": "akop",
+          "scale": "int",
           "sn": 3,
           "number": ""
         }
@@ -630,13 +653,14 @@
       "question": "12",
       "name": "12",
       "label": "Did you breastfeed your baby?",
+      "label_de": "Wurde das Kind gestillt, und wenn ja, wie lange?",
       "items": [
         {
           "item": "astil1",
-          "text_de": "Wurde das Kind gestillt, und wenn ja, wie lange?",
           "text": "Did you breastfeed your baby?",
-          "scale": "cat",
+          "text_de": "Wurde das Kind gestillt, und wenn ja, wie lange?",
           "concept": "astil1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -660,10 +684,10 @@
         },
         {
           "item": "astil2",
-          "text_de": "Wurde länger gestillt und zwar ... Monate",
           "text": "breastfed for a longer period: … months",
-          "scale": "int",
+          "text_de": "Wurde länger gestillt und zwar ... Monate",
           "concept": "astil2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -676,13 +700,14 @@
       "question": "13",
       "name": "13",
       "label": "During the first three months after your baby’s birth, did your child experience health problems that necessitated a hospital stay?",
+      "label_de": "Gab es bei dem Kind in den ersten drei Monaten nach der Geburt ernste gesundheitliche Probleme, die einen Krankenhausaufenthalt notwendig machten?",
       "items": [
         {
           "item": "ages1",
-          "text_de": "Gab es bei dem Kind in den ersten drei Monaten nach der Geburt ernste gesundheitliche Probleme, die einen Krankenhausaufenthalt notwendig machten?",
           "text": "During the first three months after your baby’s birth, did your child experience health problems that necessitated a hospital stay?",
-          "scale": "cat",
+          "text_de": "Gab es bei dem Kind in den ersten drei Monaten nach der Geburt ernste gesundheitliche Probleme, die einen Krankenhausaufenthalt notwendig machten?",
           "concept": "ages1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -704,11 +729,11 @@
         },
         {
           "item": "ages2",
-          "text_de": "[Ja] und zwar...Tage",
           "text": "[Yes]: … days",
-          "scale": "int",
+          "text_de": "[Ja] und zwar...Tage",
           "concept": "ages2",
           "filter": "ages1=1",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -721,30 +746,31 @@
       "question": "14",
       "name": "14",
       "label": "After giving birth, the mother receives a “child health record” for medical check-ups (referred to as “U2” for the second check-up, “U3” for the third, etc.). Which was your child’s last check-up?",
+      "label_de": "Nach der Geburt erhält man ein „Kinder-Untersuchungsheft“ für ärztliche Vorsorgeuntersuchungen (U2, U3, usw.). Welche war die letzte durchgeführte Untersuchung bei Ihrem Kind? ",
       "items": [
         {
           "item": "1",
-          "text_de": "Nach der Geburt erhält man ein „Kinder-Untersuchungsheft“ für ärztliche Vorsorgeuntersuchungen (U2, U3, usw.). Welche war die letzte durchgeführte Untersuchung bei Ihrem Kind? ",
           "text": "After giving birth, the mother receives a “child health record” for medical check-ups (referred to as “U2” for the second check-up, “U3” for the third, etc.). Which was your child’s last check-up?",
+          "text_de": "Nach der Geburt erhält man ein „Kinder-Untersuchungsheft“ für ärztliche Vorsorgeuntersuchungen (U2, U3, usw.). Welche war die letzte durchgeführte Untersuchung bei Ihrem Kind? ",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "aunt",
-          "text_de": "„U“",
           "text": "“U”",
-          "scale": "int",
+          "text_de": "„U“",
           "concept": "aunt",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "auntno",
-          "text_de": "Es wurde keine dieser Untersuchungen durchgeführt",
           "text": "None of these check-ups where conducted",
-          "scale": "bin",
+          "text_de": "Es wurde keine dieser Untersuchungen durchgeführt",
           "concept": "auntno",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         }
@@ -757,14 +783,15 @@
       "question": "15",
       "name": "15",
       "label": "Has your child been diagnosed with any delays, disorders, or disabilities?",
+      "label_de": "Wurden bei dem Kind Anhaltspunkte für Verzögerungen, Störungen oder Behinderungen festgestellt? ",
       "items": [
         {
           "item": "astor",
-          "text_de": "Wurden bei dem Kind Anhaltspunkte für Verzögerungen, Störungen oder Behinderungen festgestellt? ",
           "text": "Has your child been diagnosed with any delays, disorders, or disabilities?",
-          "scale": "cat",
-          "concept": "astor",
+          "text_de": "Wurden bei dem Kind Anhaltspunkte für Verzögerungen, Störungen oder Behinderungen festgestellt? ",
           "goto": "3@17",
+          "concept": "astor",
+          "scale": "cat",
           "description": "1",
           "answers": [
             {
@@ -799,96 +826,97 @@
       "question": "16",
       "name": "16",
       "label": "Has your child been diagnosed with any of the following developmental delays, disorders, or disabilities? ",
+      "label_de": "Welche der im Folgenden genannten Verzögerungen, Störungen oder Behinderungen wurden bei dem Kind festgestellt?",
       "items": [
         {
           "item": "1",
-          "text_de": "Welche der im Folgenden genannten Verzögerungen, Störungen oder Behinderungen wurden bei dem Kind festgestellt?",
-          "instruction_de": "Bitte alles Zutreffende angeben.",
           "text": "Has your child been diagnosed with any of the following developmental delays, disorders, or disabilities? ",
+          "text_de": "Welche der im Folgenden genannten Verzögerungen, Störungen oder Behinderungen wurden bei dem Kind festgestellt?",
           "instruction": "Please mark all that apply.",
-          "scale": "txt",
+          "instruction_de": "Bitte alles Zutreffende angeben.",
           "filter": "15;astor=1,2",
+          "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "astor1",
-          "text_de": "Wahrnehmung (Sehen, Hören) ",
           "text": "sensory (sight, hearing)",
-          "scale": "bin",
+          "text_de": "Wahrnehmung (Sehen, Hören) ",
           "concept": "astor1",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "astor2",
-          "text_de": "Motorik (Greifen, Krabbeln, Laufen)",
           "text": "motor functions (grasping, crawling, walking)",
-          "scale": "bin",
+          "text_de": "Motorik (Greifen, Krabbeln, Laufen)",
           "concept": "astor2",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "astor3",
-          "text_de": "Neurologische Störung (Krämpfe u.ä)",
           "text": "neurological disorders (including cramps)",
-          "scale": "bin",
+          "text_de": "Neurologische Störung (Krämpfe u.ä)",
           "concept": "astor3",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "astor4",
-          "text_de": "Sprache (Lautbildung, Spracherwerbsstörung)",
           "text": "speech (pronunciation, speech acquisition disorders)",
-          "scale": "bin",
+          "text_de": "Sprache (Lautbildung, Spracherwerbsstörung)",
           "concept": "astor4",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "astor5",
-          "text_de": "Regulation (untröstbares Schreien, dauerhafte Schlaf- oder Essstörung) ",
           "text": "regulatory system (inconsolable crying, ongoing sleeping or eating disorders)",
-          "scale": "bin",
+          "text_de": "Regulation (untröstbares Schreien, dauerhafte Schlaf- oder Essstörung) ",
           "concept": "astor5",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "astor6",
-          "text_de": "Chronische Krankheit",
           "text": "chronic illness",
-          "scale": "bin",
+          "text_de": "Chronische Krankheit",
           "concept": "astor6",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "astor7",
-          "text_de": "Körperliche Behinderung",
           "text": "physical disability",
-          "scale": "bin",
+          "text_de": "Körperliche Behinderung",
           "concept": "astor7",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "astor8",
-          "text_de": "Geistige Behinderung",
           "text": "mental disability",
-          "scale": "bin",
+          "text_de": "Geistige Behinderung",
           "concept": "astor8",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "astor9",
-          "text_de": "Sonstiges",
           "text": "other",
-          "scale": "bin",
+          "text_de": "Sonstiges",
           "concept": "astor9",
+          "scale": "bin",
           "sn": 9,
           "number": ""
         }
@@ -901,21 +929,22 @@
       "question": "17",
       "name": "17",
       "label": "Life changes after the birth of a child. You experience new things and start to have new expectations for the future. To what extent do you agree with the following statements?",
+      "label_de": "Bedingt durch die Geburt eines Kindes verändern sich ja die Lebensumstände. Man macht neue Erfahrungen und entwickelt neue Erwartungen an die Zukunft. \nInwieweit stimmen Sie den folgenden Aussagen zu?",
       "items": [
         {
           "item": "1",
-          "text_de": "Bedingt durch die Geburt eines Kindes verändern sich ja die Lebensumstände. Man macht neue Erfahrungen und entwickelt neue Erwartungen an die Zukunft. \nInwieweit stimmen Sie den folgenden Aussagen zu?",
           "text": "Life changes after the birth of a child. You experience new things and start to have new expectations for the future. To what extent do you agree with the following statements?",
+          "text_de": "Bedingt durch die Geburt eines Kindes verändern sich ja die Lebensumstände. Man macht neue Erfahrungen und entwickelt neue Erwartungen an die Zukunft. \nInwieweit stimmen Sie den folgenden Aussagen zu?",
           "scale": "txt",
           "number": "15",
           "sn": 0
         },
         {
           "item": "aver1",
-          "text_de": "Meine Lebensumstände haben sich sehr stark verändert",
           "text": "My life has changed significantly",
-          "scale": "cat",
+          "text_de": "Meine Lebensumstände haben sich sehr stark verändert",
           "concept": "aver1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -947,10 +976,10 @@
         },
         {
           "item": "aver2",
-          "text_de": "Das Aufziehen des Kindes bereitet mir Glück und Freude",
           "text": "It gives me pleasure and happiness to raise my child",
-          "scale": "cat",
+          "text_de": "Das Aufziehen des Kindes bereitet mir Glück und Freude",
           "concept": "aver2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -982,10 +1011,10 @@
         },
         {
           "item": "aver3",
-          "text_de": "Ich bin oft am Ende meiner Kräfte",
           "text": "I often feel like I’m running out of energy",
-          "scale": "cat",
+          "text_de": "Ich bin oft am Ende meiner Kräfte",
           "concept": "aver3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1017,10 +1046,10 @@
         },
         {
           "item": "aver4",
-          "text_de": "Meine Elternrolle ist für mich sehr befriedigend",
           "text": "I am satisfied with my role as a mother",
-          "scale": "cat",
+          "text_de": "Meine Elternrolle ist für mich sehr befriedigend",
           "concept": "aver4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1052,10 +1081,10 @@
         },
         {
           "item": "aver5",
-          "text_de": "Ich fühle mich den neuen Aufgaben und Anforderungen oft nicht gewachsen",
           "text": "I often do not feel up to the new tasks and demands of being a mother",
-          "scale": "cat",
+          "text_de": "Ich fühle mich den neuen Aufgaben und Anforderungen oft nicht gewachsen",
           "concept": "aver5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1087,10 +1116,10 @@
         },
         {
           "item": "aver6",
-          "text_de": "Ich lerne über das Kind auch andere Menschen kennen und knüpfe neue Kontakte",
           "text": "I am meeting new people and making new contacts through my child",
-          "scale": "cat",
+          "text_de": "Ich lerne über das Kind auch andere Menschen kennen und knüpfe neue Kontakte",
           "concept": "aver6",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1122,10 +1151,10 @@
         },
         {
           "item": "aver7",
-          "text_de": "Ich leide darunter, auf meine Elternrolle eingeschränkt zu sein ",
           "text": "I am suffering from being restricted to my role as a mother",
-          "scale": "cat",
+          "text_de": "Ich leide darunter, auf meine Elternrolle eingeschränkt zu sein ",
           "concept": "aver7",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1157,10 +1186,10 @@
         },
         {
           "item": "aver8",
-          "text_de": "Dem Kind viel Zärtlichkeit zu geben, ist mir sehr wichtig ",
           "text": "It’s important to me to show my child plenty of affection",
-          "scale": "cat",
+          "text_de": "Dem Kind viel Zärtlichkeit zu geben, ist mir sehr wichtig ",
           "concept": "aver8",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1192,10 +1221,10 @@
         },
         {
           "item": "aver9",
-          "text_de": "Die Gesundheit meines Kindes macht mir Sorgen",
           "text": "I’m worried about my child’s health",
-          "scale": "cat",
+          "text_de": "Die Gesundheit meines Kindes macht mir Sorgen",
           "concept": "aver9",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1234,13 +1263,14 @@
       "question": "18",
       "name": "18",
       "label": "Are you the child’s main caregiver?",
+      "label_de": "Sind Sie selbst die Hauptbetreuungsperson des Kindes?",
       "items": [
         {
           "item": "abet1",
-          "text_de": "Sind Sie selbst die Hauptbetreuungsperson des Kindes?",
           "text": "Are you the child’s main caregiver?",
-          "scale": "cat",
+          "text_de": "Sind Sie selbst die Hauptbetreuungsperson des Kindes?",
           "concept": "abet1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1269,13 +1299,14 @@
       "question": "19",
       "name": "19",
       "label": "How much do you feel your partner helps you in looking after the child?",
+      "label_de": "Wie stark fühlen Sie sich von Ihrem Partner / Ihrer Partnerin bei der Betreuung des Kindes unterstützt?",
       "items": [
         {
           "item": "aunt2",
-          "text_de": "Wie stark fühlen Sie sich von Ihrem Partner / Ihrer Partnerin bei der Betreuung des Kindes unterstützt?",
           "text": "How much do you feel your partner helps you in looking after the child?",
-          "scale": "cat",
+          "text_de": "Wie stark fühlen Sie sich von Ihrem Partner / Ihrer Partnerin bei der Betreuung des Kindes unterstützt?",
           "concept": "aunt2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1319,163 +1350,164 @@
       "question": "20",
       "name": "20",
       "label": "If you think about a normal week, is there anybody else who regularly spends time looking after your child? If so, who is it and how many hours a week do they spend looking after the child?",
+      "label_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen oder Einrichtungen sind das und wie viele Stunden pro Woche übernehmen sie die Betreuung?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen oder Einrichtungen sind das und wie viele Stunden pro Woche übernehmen sie die Betreuung?",
           "text": "If you think about a normal week, is there anybody else who regularly spends time looking after your child? If so, who is it and how many hours a week do they spend looking after the child?",
+          "text_de": "Wenn Sie einmal an eine normale Woche denken: Gibt es außer Ihnen andere Personen oder Einrichtungen, die die Betreuung des Kindes zeitweise übernehmen? Wenn ja, welche Personen oder Einrichtungen sind das und wie viele Stunden pro Woche übernehmen sie die Betreuung?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "asit1",
-          "text_de": "Ihr Partner / Ihre Partnerin",
           "text": "Spouse / partner",
-          "scale": "bin",
+          "text_de": "Ihr Partner / Ihre Partnerin",
           "concept": "asit1",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "asit8",
           "text_de": "Vater / Mutter des Kindes\n(falls er nicht Ihr Partner / sie nicht Ihre Partnerin ist) ....…",
-          "scale": "bin",
           "concept": "asit8",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "asit2",
-          "text_de": "Großeltern des Kindes",
           "text": "Grandparents of the child",
-          "scale": "bin",
+          "text_de": "Großeltern des Kindes",
           "concept": "asit2",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "asit3",
-          "text_de": "Ältere Geschwister des Kindes",
           "text": "Older siblings",
-          "scale": "bin",
+          "text_de": "Ältere Geschwister des Kindes",
           "concept": "asit3",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "asit4",
-          "text_de": "Andere Verwandte",
           "text": "Other relatives",
-          "scale": "bin",
+          "text_de": "Andere Verwandte",
           "concept": "asit4",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "asit5",
-          "text_de": "Tagesmutter",
           "text": "Paid caregiver (outside the home)",
-          "scale": "bin",
+          "text_de": "Tagesmutter",
           "concept": "asit5",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "asit6",
-          "text_de": "Krippe",
           "text": "Nursery school (child care center)",
-          "scale": "bin",
+          "text_de": "Krippe",
           "concept": "asit6",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "asit7",
-          "text_de": "Andere (z.B. Babysitter, Nachbarn)",
           "text": "Other (e.g., babysitter, neighbor)",
-          "scale": "bin",
+          "text_de": "Andere (z.B. Babysitter, Nachbarn)",
           "concept": "asit7",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "asitno",
-          "text_de": "Nein, Niemand",
           "text": "No, nobody",
-          "scale": "bin",
+          "text_de": "Nein, Niemand",
           "concept": "asitno",
+          "scale": "bin",
           "sn": 9,
           "number": ""
         },
         {
           "item": "astd1",
-          "text_de": "Stunden [Ihr Partner / Ihre Partnerin]",
           "text": "Hours [spouse / partner]",
-          "scale": "int",
+          "text_de": "Stunden [Ihr Partner / Ihre Partnerin]",
           "concept": "astd1",
+          "scale": "int",
           "sn": 10,
           "number": ""
         },
         {
           "item": "astd8",
           "text_de": "Stunden [Vater / Mutter des Kindes\n(falls er nicht Ihr Partner / sie nicht Ihre Partnerin ist)]",
-          "scale": "int",
           "concept": "astd8",
+          "scale": "int",
           "sn": 11,
           "number": ""
         },
         {
           "item": "astd2",
-          "text_de": "Stunden [Großeltern des Kindes]",
           "text": "Hours [grandparents]",
-          "scale": "int",
+          "text_de": "Stunden [Großeltern des Kindes]",
           "concept": "astd2",
+          "scale": "int",
           "sn": 12,
           "number": ""
         },
         {
           "item": "astd3",
-          "text_de": "Stunden [Ältere Geschwister des Kindes]",
           "text": "Hours [siblings]",
-          "scale": "int",
+          "text_de": "Stunden [Ältere Geschwister des Kindes]",
           "concept": "astd3",
+          "scale": "int",
           "sn": 13,
           "number": ""
         },
         {
           "item": "astd4",
-          "text_de": "Stunden [Andere Verwandte]",
           "text": "Hours [other relatives]",
-          "scale": "int",
+          "text_de": "Stunden [Andere Verwandte]",
           "concept": "astd4",
+          "scale": "int",
           "sn": 14,
           "number": ""
         },
         {
           "item": "astd5",
-          "text_de": "Stunden [Tagesmutter]",
           "text": "Hours [family daycare provider]",
-          "scale": "int",
+          "text_de": "Stunden [Tagesmutter]",
           "concept": "astd5",
+          "scale": "int",
           "sn": 15,
           "number": ""
         },
         {
           "item": "astd6",
-          "text_de": "Stunden [Krippe]",
           "text": "Hours [nursery school]",
-          "scale": "int",
+          "text_de": "Stunden [Krippe]",
           "concept": "astd6",
+          "scale": "int",
           "sn": 16,
           "number": ""
         },
         {
           "item": "astd7",
-          "text_de": "Stunden [Andere (z.B. Babysitter, Nachbarn)]",
           "text": "Hours [other]",
-          "scale": "int",
+          "text_de": "Stunden [Andere (z.B. Babysitter, Nachbarn)]",
           "concept": "astd7",
+          "scale": "int",
           "sn": 17,
           "number": ""
         }
@@ -1488,21 +1520,22 @@
       "question": "21",
       "name": "21",
       "label": "What’s your current impression of your child? To what extent do you agree with the following statements?",
+      "label_de": "Wie sehen Sie das Kind heute? Inwieweit treffen folgende Aussagen zu?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie sehen Sie das Kind heute? Inwieweit treffen folgende Aussagen zu?",
           "text": "What’s your current impression of your child? To what extent do you agree with the following statements?",
+          "text_de": "Wie sehen Sie das Kind heute? Inwieweit treffen folgende Aussagen zu?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "aakt1",
-          "text_de": "Das Kind ist meist fröhlich und zufrieden",
           "text": "The child is generally cheerful and happy",
-          "scale": "cat",
+          "text_de": "Das Kind ist meist fröhlich und zufrieden",
           "concept": "aakt1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1534,10 +1567,10 @@
         },
         {
           "item": "aakt2",
-          "text_de": "Das Kind ist leicht erregbar und weint häufig",
           "text": "The child is easily irritated and cries a lot",
-          "scale": "cat",
+          "text_de": "Das Kind ist leicht erregbar und weint häufig",
           "concept": "aakt2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1569,10 +1602,10 @@
         },
         {
           "item": "aakt3",
-          "text_de": "Das Kind ist schwer zu trösten",
           "text": "The child is difficult to comfort when upset",
-          "scale": "cat",
+          "text_de": "Das Kind ist schwer zu trösten",
           "concept": "aakt3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1604,10 +1637,10 @@
         },
         {
           "item": "aakt4",
-          "text_de": "Das Kind ist neugierig und aktiv",
           "text": "The child is curious and active",
-          "scale": "cat",
+          "text_de": "Das Kind ist neugierig und aktiv",
           "concept": "aakt4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1639,10 +1672,10 @@
         },
         {
           "item": "aakt5",
-          "text_de": "Das Kind ist eher zurückhaltend",
           "text": "The child tends to be shy",
-          "scale": "cat",
+          "text_de": "Das Kind ist eher zurückhaltend",
           "concept": "aakt5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1680,6 +1713,8 @@
     "A": {
       "question": "A",
       "name": "A",
+      "label": "",
+      "label_de": "Wann waren Sie mit dem Ausfüllen des Fragebogens fertig?",
       "items": [
         {
           "item": "1",
@@ -1691,16 +1726,16 @@
         {
           "item": "form",
           "text_de": "Befragungsform",
-          "scale": "int",
           "concept": "form",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "text",
           "text_de": "Sonstige Hinweise",
-          "scale": "chr",
           "concept": "text",
+          "scale": "chr",
           "sn": 2,
           "number": ""
         },
@@ -1713,19 +1748,19 @@
         },
         {
           "item": "datt",
-          "text_de": "Tag",
           "text": "Day",
-          "scale": "int",
+          "text_de": "Tag",
           "concept": "datt",
+          "scale": "int",
           "number": "A",
           "sn": 4
         },
         {
           "item": "datm",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "datm",
+          "scale": "int",
           "number": "A",
           "sn": 5
         },
@@ -1738,19 +1773,19 @@
         },
         {
           "item": "datst",
-          "text_de": "Stunde",
           "text": "Hour",
-          "scale": "int",
+          "text_de": "Stunde",
           "concept": "datst",
+          "scale": "int",
           "number": "A",
           "sn": 7
         },
         {
           "item": "datmi",
-          "text_de": "Minute",
           "text": "Minute",
-          "scale": "int",
+          "text_de": "Minute",
           "concept": "datmi",
+          "scale": "int",
           "number": "A",
           "sn": 8
         }
@@ -1763,39 +1798,40 @@
       "question": "Int",
       "name": "Int",
       "label": "Interviewer:",
+      "label_de": "Interviewer:",
       "items": [
         {
           "item": "1",
-          "text_de": "Interviewer:",
           "text": "Interviewer:",
+          "text_de": "Interviewer:",
           "scale": "txt",
           "number": "Int",
           "sn": 0
         },
         {
           "item": "listnr",
-          "text_de": "Listen-Nr.",
           "text": "List-number",
-          "scale": "int",
+          "text_de": "Listen-Nr.",
           "concept": "listnr",
+          "scale": "int",
           "number": "Int",
           "sn": 1
         },
         {
           "item": "lfdnr",
-          "text_de": "Lfd. Nr.",
           "text": "Lfd ID",
-          "scale": "int",
+          "text_de": "Lfd. Nr.",
           "concept": "lfdnr",
+          "scale": "int",
           "number": "Int",
           "sn": 2
         },
         {
           "item": "intnr",
-          "text_de": "Abrechnungs-Nummer",
           "text": "Account number:",
-          "scale": "int",
+          "text_de": "Abrechnungs-Nummer",
           "concept": "intnr",
+          "scale": "int",
           "number": "Int",
           "sn": 3
         }
@@ -1808,11 +1844,12 @@
       "question": "22",
       "name": "22",
       "label": "Interviewer signature",
+      "label_de": "Unterschrift des Interviewers",
       "items": [
         {
           "item": "3",
-          "text_de": "Unterschrift des Interviewers",
           "text": "Interviewer signature",
+          "text_de": "Unterschrift des Interviewers",
           "scale": "txt",
           "sn": 0,
           "number": ""

@@ -14,11 +14,12 @@
       "question": "Intro1",
       "name": "Intro1",
       "label": "This questionnaire is for young people in the household born in 2003.\n\nYour cooperation is voluntary. However, the scientific significance of this study depends crucially on the cooperation of all persons in all households.\n\nTherefore we cordially ask all students of this age group\n\n- To give our employee this interview\n\n- or to fill out the questionnaire carefully\n",
+      "label_de": "Dieser Fragebogen richtet sich an junge Personen im Haushalt, die 2003 geboren sind.\n\nDeine Mitarbeit ist freiwillig. Die wissenschaftliche Aussagekraft dieser Untersuchung hängt aber entscheidend von der Mitarbeit aller Personen in allen Haushalten ab.\n\nDarum bitten wir alle Schülerinnen und Schüler dieser Altersgruppe herzlich,\n\n– unserem Mitarbeiter dieses Interview zu gewähren\n\n– oder den Fragebogen sorgfältig selbst auszufüllen\n",
       "items": [
         {
           "item": "1",
-          "text_de": "Dieser Fragebogen richtet sich an junge Personen im Haushalt, die 2003 geboren sind.\n\nDeine Mitarbeit ist freiwillig. Die wissenschaftliche Aussagekraft dieser Untersuchung hängt aber entscheidend von der Mitarbeit aller Personen in allen Haushalten ab.\n\nDarum bitten wir alle Schülerinnen und Schüler dieser Altersgruppe herzlich,\n\n– unserem Mitarbeiter dieses Interview zu gewähren\n\n– oder den Fragebogen sorgfältig selbst auszufüllen\n",
           "text": "This questionnaire is for young people in the household born in 2003.\n\nYour cooperation is voluntary. However, the scientific significance of this study depends crucially on the cooperation of all persons in all households.\n\nTherefore we cordially ask all students of this age group\n\n- To give our employee this interview\n\n- or to fill out the questionnaire carefully\n",
+          "text_de": "Dieser Fragebogen richtet sich an junge Personen im Haushalt, die 2003 geboren sind.\n\nDeine Mitarbeit ist freiwillig. Die wissenschaftliche Aussagekraft dieser Untersuchung hängt aber entscheidend von der Mitarbeit aller Personen in allen Haushalten ab.\n\nDarum bitten wir alle Schülerinnen und Schüler dieser Altersgruppe herzlich,\n\n– unserem Mitarbeiter dieses Interview zu gewähren\n\n– oder den Fragebogen sorgfältig selbst auszufüllen\n",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -32,13 +33,14 @@
       "question": "Intro2",
       "name": "Intro2",
       "label": "At first we kindly ask you, as parents or legal guardians to give your permission to the survey of your child, who is stated below.",
+      "label_de": "Zunächst bitten wir Sie als Eltern/Erziehungsberechtigte, Ihr Einverständnis zur Befragung Ihres unten genannten Kindes zu erteilen.",
       "items": [
         {
           "item": "1",
-          "text_de": "Zunächst bitten wir Sie als Eltern/Erziehungsberechtigte, Ihr Einverständnis zur Befragung Ihres unten genannten Kindes zu erteilen.",
-          "instruction_de": "Der Interviewer / die Interviewerin wird am Ende des Fragebogens bestätigen, dass er / sie erst mit der Befragung begonnen hat, nachdem Sie Ihr Einverständnis dazu erteilt haben!\n\nSollte die Befragung ohne Interviewer durchgeführt werden, erteilen Sie Ihr Einverständnis durch die Ãœbergabe des Fragebogens an Ihr Kind!\n\nDer Schülerin / dem Schüler sollte aber die Gelegenheit gegeben werden, die Fragen ohne Einflußnahme der Eltern zu beantworten! ",
           "text": "At first we kindly ask you, as parents or legal guardians to give your permission to the survey of your child, who is stated below.",
+          "text_de": "Zunächst bitten wir Sie als Eltern/Erziehungsberechtigte, Ihr Einverständnis zur Befragung Ihres unten genannten Kindes zu erteilen.",
           "instruction": "In the end of the questionnaire the interviewer will confirm that the interview wasn’t started until you gave your approval!\n\nShould the survey be exercised in the absence of an interviewer, you give your approval by handing out the questionnaire to your child!\n\nThe student should be given the possibility to answer the questions without any influence of his/her parents!",
+          "instruction_de": "Der Interviewer / die Interviewerin wird am Ende des Fragebogens bestätigen, dass er / sie erst mit der Befragung begonnen hat, nachdem Sie Ihr Einverständnis dazu erteilt haben!\n\nSollte die Befragung ohne Interviewer durchgeführt werden, erteilen Sie Ihr Einverständnis durch die Ãœbergabe des Fragebogens an Ihr Kind!\n\nDer Schülerin / dem Schüler sollte aber die Gelegenheit gegeben werden, die Fragen ohne Einflußnahme der Eltern zu beantworten! ",
           "scale": "txt",
           "sn": 0,
           "number": ""
@@ -52,10 +54,11 @@
       "question": "0",
       "name": "0",
       "label": "Before handing in the questionnaire, please enter in accordance with the address log:",
+      "label_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
       "items": [
         {
-          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
           "text": "Before handing in the questionnaire, please enter in accordance with the address log:",
+          "text_de": "Bitte vor Übergabe unbedingt eintragen lt. Adressenprotokoll:",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -63,74 +66,74 @@
         },
         {
           "item": "hnr",
-          "text_de": "Nr. des Haushalts:",
           "text": "Household number",
-          "scale": "int",
+          "text_de": "Nr. des Haushalts:",
           "concept": "hnr",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "pnr",
-          "text_de": "Person Nr.:",
           "text": "Person number:",
-          "scale": "int",
+          "text_de": "Person Nr.:",
           "concept": "pnr",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "name",
-          "text_de": "Vorname der Schülerin/des Schülers",
-          "instruction_de": "Bitte in Druckbuchstaben",
           "text": "Student's first name",
+          "text_de": "Vorname der Schülerin/des Schülers",
           "instruction": "Please use capital letters.",
-          "scale": "chr",
+          "instruction_de": "Bitte in Druckbuchstaben",
           "concept": "name",
+          "scale": "chr",
           "sn": 3,
           "number": ""
         },
         {
           "item": "2",
-          "text_de": "Geburtsdatum und Geschlecht der Schülerin/des Schülers:",
           "text": "Student's year and month of birth",
+          "text_de": "Geburtsdatum und Geschlecht der Schülerin/des Schülers:",
           "scale": "txt",
           "sn": 4,
           "number": ""
         },
         {
           "item": "fgebta",
-          "text_de": "Tag",
           "text": "Day",
-          "scale": "int",
+          "text_de": "Tag",
           "concept": "fgebta",
+          "scale": "int",
           "sn": 5,
           "number": ""
         },
         {
           "item": "fgebmo",
-          "text_de": "Monat",
           "text": "Month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "fgebmo",
+          "scale": "int",
           "sn": 6,
           "number": ""
         },
         {
           "item": "fgeb",
-          "text_de": "Jahr",
           "text": "Year",
-          "scale": "int",
+          "text_de": "Jahr",
           "concept": "fgeb",
+          "scale": "int",
           "sn": 7,
           "number": ""
         },
         {
           "item": "fsex",
-          "text_de": "(Geschlecht)",
           "text": "(Sex)",
-          "scale": "cat",
+          "text_de": "(Geschlecht)",
           "concept": "fsex",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -155,10 +158,11 @@
       "question": "B1",
       "name": "B1",
       "label": "First a few questions about yourself",
+      "label_de": "Erst mal ein paar Fragen zu Dir selbst",
       "items": [
         {
-          "text_de": "Erst mal ein paar Fragen zu Dir selbst",
           "text": "First a few questions about yourself",
+          "text_de": "Erst mal ein paar Fragen zu Dir selbst",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -173,10 +177,11 @@
       "question": "1",
       "name": "1",
       "label": "We'll start with some statements beginning with phrases like “I am” or “I have” or “I try”. You might think a statement is completely true of you (“completely true of me”) or that it isn't true of you at all (“not true of me at all”). It might also be partially true of you.\n\nPlease answer all the questions as well as you can, even if you're not sure or if the question seems strange to you.",
+      "label_de": "Als Erstes kommen ein paar Aussagen die zum Beispiel mit:\n\n„Ich bin ...“, „Ich habe ...“ oder „Ich versuche ...” anfangen und bei denen Du denken kannst, dass es bei Dir genau so ist - also, dass es „voll zutrifft“ oder dass es bei Dir gar nicht so ist - also, „gar nicht zutrifft“ oder dass es nur „zum Teil zutrifft“.\n\nBeantworte bitte alle Fragen so gut Du kannst, selbst wenn Du Dir nicht ganz sicher bist oder Dir eine Frage merkwürdig vorkommt. ",
       "items": [
         {
-          "text_de": "Als Erstes kommen ein paar Aussagen die zum Beispiel mit:\n\n„Ich bin ...“, „Ich habe ...“ oder „Ich versuche ...” anfangen und bei denen Du denken kannst, dass es bei Dir genau so ist - also, dass es „voll zutrifft“ oder dass es bei Dir gar nicht so ist - also, „gar nicht zutrifft“ oder dass es nur „zum Teil zutrifft“.\n\nBeantworte bitte alle Fragen so gut Du kannst, selbst wenn Du Dir nicht ganz sicher bist oder Dir eine Frage merkwürdig vorkommt. ",
           "text": "We'll start with some statements beginning with phrases like “I am” or “I have” or “I try”. You might think a statement is completely true of you (“completely true of me”) or that it isn't true of you at all (“not true of me at all”). It might also be partially true of you.\n\nPlease answer all the questions as well as you can, even if you're not sure or if the question seems strange to you.",
+          "text_de": "Als Erstes kommen ein paar Aussagen die zum Beispiel mit:\n\n„Ich bin ...“, „Ich habe ...“ oder „Ich versuche ...” anfangen und bei denen Du denken kannst, dass es bei Dir genau so ist - also, dass es „voll zutrifft“ oder dass es bei Dir gar nicht so ist - also, „gar nicht zutrifft“ oder dass es nur „zum Teil zutrifft“.\n\nBeantworte bitte alle Fragen so gut Du kannst, selbst wenn Du Dir nicht ganz sicher bist oder Dir eine Frage merkwürdig vorkommt. ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -184,10 +189,10 @@
         },
         {
           "item": "fbhv01",
-          "text_de": "Ich versuche, nett zu anderen Menschen zu sein, ihre Gefühle sind mir wichtig ",
           "text": "I try to be nice to others. Their feelings are important to me.",
-          "scale": "cat",
+          "text_de": "Ich versuche, nett zu anderen Menschen zu sein, ihre Gefühle sind mir wichtig ",
           "concept": "fbhv01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -210,10 +215,10 @@
         },
         {
           "item": "fbhv02",
-          "text_de": "Ich bin oft unruhig, ich kann nicht lange stillsitzen ",
           "text": "I'm often restless and can’t sit still for long.",
-          "scale": "cat",
+          "text_de": "Ich bin oft unruhig, ich kann nicht lange stillsitzen ",
           "concept": "fbhv02",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -236,10 +241,10 @@
         },
         {
           "item": "fbhv03",
-          "text_de": "Ich habe häufig Kopfschmerzen oder Bauchschmerzen oder mir wird oft schlecht",
           "text": "I often have headaches or stomach aches or feel nauseous.",
-          "scale": "cat",
+          "text_de": "Ich habe häufig Kopfschmerzen oder Bauchschmerzen oder mir wird oft schlecht",
           "concept": "fbhv03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -262,10 +267,10 @@
         },
         {
           "item": "fbhv04",
-          "text_de": "Ich teile gerne mit anderen",
           "text": "I like to share with others",
-          "scale": "cat",
+          "text_de": "Ich teile gerne mit anderen",
           "concept": "fbhv04",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -288,10 +293,10 @@
         },
         {
           "item": "fbhv05",
-          "text_de": "Ich werde leicht wütend; ich verliere oft meine Beherrschung",
           "text": "I'm easily irritated and often lose my temper.",
-          "scale": "cat",
+          "text_de": "Ich werde leicht wütend; ich verliere oft meine Beherrschung",
           "concept": "fbhv05",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -314,10 +319,10 @@
         },
         {
           "item": "fbhv06",
-          "text_de": "Ich bin meistens für mich allein; ich beschäftige mich lieber mit mir selbst",
           "text": "I spend most of my time alone",
-          "scale": "cat",
+          "text_de": "Ich bin meistens für mich allein; ich beschäftige mich lieber mit mir selbst",
           "concept": "fbhv06",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -340,10 +345,10 @@
         },
         {
           "item": "fbhv07",
-          "text_de": "Normalerweise tue ich, was man mir sagt",
           "text": "I usually do what I'm told.",
-          "scale": "cat",
+          "text_de": "Normalerweise tue ich, was man mir sagt",
           "concept": "fbhv07",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -366,10 +371,10 @@
         },
         {
           "item": "fbhv08",
-          "text_de": "Ich mache mir häufig Sorgen",
           "text": "I worry a lot.",
-          "scale": "cat",
+          "text_de": "Ich mache mir häufig Sorgen",
           "concept": "fbhv08",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -392,10 +397,10 @@
         },
         {
           "item": "fbhv09",
-          "text_de": "Ich bin hilfsbereit, wenn andere verletzt, krank oder traurig sind ",
           "text": "I'm ready to help when others are hurt, sick, or sad.",
-          "scale": "cat",
+          "text_de": "Ich bin hilfsbereit, wenn andere verletzt, krank oder traurig sind ",
           "concept": "fbhv09",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -418,10 +423,10 @@
         },
         {
           "item": "fbhv10",
-          "text_de": "Ich bin dauernd in Bewegung und zappelig",
           "text": "I'm always moving and fidgeting.",
-          "scale": "cat",
+          "text_de": "Ich bin dauernd in Bewegung und zappelig",
           "concept": "fbhv10",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -444,10 +449,10 @@
         },
         {
           "item": "fbhv11",
-          "text_de": "Ich habe einen oder mehrere gute Freunde oder Freundinnen",
           "text": "I have one or several close friends",
-          "scale": "cat",
+          "text_de": "Ich habe einen oder mehrere gute Freunde oder Freundinnen",
           "concept": "fbhv11",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -470,10 +475,10 @@
         },
         {
           "item": "fbhv12",
-          "text_de": "Ich schlage mich häufig mit anderen",
           "text": "I often get into fights.",
-          "scale": "cat",
+          "text_de": "Ich schlage mich häufig mit anderen",
           "concept": "fbhv12",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -496,10 +501,10 @@
         },
         {
           "item": "fbhv13",
-          "text_de": "Ich kann andere zwingen zu tun, was ich will ",
           "text": "I can force other people to do what I want.",
-          "scale": "cat",
+          "text_de": "Ich kann andere zwingen zu tun, was ich will ",
           "concept": "fbhv13",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -522,10 +527,10 @@
         },
         {
           "item": "fbhv14",
-          "text_de": "Ich bin oft unglücklich oder niedergeschlagen; ich muss häufig weinen",
           "text": "I'm often unhappy or down. I cry a lot.",
-          "scale": "cat",
+          "text_de": "Ich bin oft unglücklich oder niedergeschlagen; ich muss häufig weinen",
           "concept": "fbhv14",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -548,10 +553,10 @@
         },
         {
           "item": "fbhv15",
-          "text_de": "Im Allgemeinen bin ich bei Gleichaltrigen beliebt",
           "text": "I'm generally popular among kids my age.",
-          "scale": "cat",
+          "text_de": "Im Allgemeinen bin ich bei Gleichaltrigen beliebt",
           "concept": "fbhv15",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -574,10 +579,10 @@
         },
         {
           "item": "fbhv16",
-          "text_de": "Ich lasse mich leicht ablenken; ich finde es schwer, mich zu konzentrieren ",
           "text": "I'm easily distracted and have a hard time concentrating.",
-          "scale": "cat",
+          "text_de": "Ich lasse mich leicht ablenken; ich finde es schwer, mich zu konzentrieren ",
           "concept": "fbhv16",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -600,10 +605,10 @@
         },
         {
           "item": "fbhv17",
-          "text_de": "Neue Situationen machen mich nervös; ich verliere leicht das Selbstvertrauen",
           "text": "In new situations I get nervous and easily lose my self-confidence.",
-          "scale": "cat",
+          "text_de": "Neue Situationen machen mich nervös; ich verliere leicht das Selbstvertrauen",
           "concept": "fbhv17",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -626,10 +631,10 @@
         },
         {
           "item": "fbhv18",
-          "text_de": "Ich bin nett zu jüngeren Kindern.",
           "text": "I'm nice to younger children",
-          "scale": "cat",
+          "text_de": "Ich bin nett zu jüngeren Kindern.",
           "concept": "fbhv18",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -652,10 +657,10 @@
         },
         {
           "item": "fbhv19",
-          "text_de": "Andere behaupten oft, dass ich lüge oder mogle ",
           "text": "Others often say that I lie or cheat.",
-          "scale": "cat",
+          "text_de": "Andere behaupten oft, dass ich lüge oder mogle ",
           "concept": "fbhv19",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -678,10 +683,10 @@
         },
         {
           "item": "fbhv20",
-          "text_de": "Ich werde von anderen gehänselt oder schikaniert",
           "text": "I'm often teased or picked on by others.",
-          "scale": "cat",
+          "text_de": "Ich werde von anderen gehänselt oder schikaniert",
           "concept": "fbhv20",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -704,10 +709,10 @@
         },
         {
           "item": "fbhv21",
-          "text_de": "Ich helfe anderen oft freiwillig (Eltern, Lehrern oder Gleichaltrigen).",
           "text": "I often help others of my own accord (parents, teachers, other children)",
-          "scale": "cat",
+          "text_de": "Ich helfe anderen oft freiwillig (Eltern, Lehrern oder Gleichaltrigen).",
           "concept": "fbhv21",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -730,10 +735,10 @@
         },
         {
           "item": "fbhv22",
-          "text_de": "Ich denke nach, bevor ich etwas tue ",
           "text": "I think before acting.",
-          "scale": "cat",
+          "text_de": "Ich denke nach, bevor ich etwas tue ",
           "concept": "fbhv22",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -756,10 +761,10 @@
         },
         {
           "item": "fbhv23",
-          "text_de": "Ich nehme Dinge, die mir nicht gehören (von zu Hause, in der Schule oder anderswo) ",
           "text": "I take things that don't belong to me (at home, in school, or elsewhere).",
-          "scale": "cat",
+          "text_de": "Ich nehme Dinge, die mir nicht gehören (von zu Hause, in der Schule oder anderswo) ",
           "concept": "fbhv23",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -782,10 +787,10 @@
         },
         {
           "item": "fbhv24",
-          "text_de": "Ich komme besser mit Erwachsenen aus als mit Gleichaltrigen",
           "text": "I get along better with adults than with kids my own age.",
-          "scale": "cat",
+          "text_de": "Ich komme besser mit Erwachsenen aus als mit Gleichaltrigen",
           "concept": "fbhv24",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -808,10 +813,10 @@
         },
         {
           "item": "fbhv25",
-          "text_de": "Ich habe viele Ãngste; ich fürchte mich leicht",
           "text": "I have a lot of fears and get scared easily.",
-          "scale": "cat",
+          "text_de": "Ich habe viele Ãngste; ich fürchte mich leicht",
           "concept": "fbhv25",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -834,10 +839,10 @@
         },
         {
           "item": "fbhv26",
-          "text_de": "Was ich angefangen habe, mache ich zu Ende; ich kann mich lange genug konzentrieren ",
           "text": "I finish what I start, I can concentrate for a long time",
-          "scale": "cat",
+          "text_de": "Was ich angefangen habe, mache ich zu Ende; ich kann mich lange genug konzentrieren ",
           "concept": "fbhv26",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -867,10 +872,11 @@
       "question": "B2",
       "name": "B2",
       "label": "Now to you and your school",
+      "label_de": "Jetzt zu Dir und Deiner Schule",
       "items": [
         {
-          "text_de": "Jetzt zu Dir und Deiner Schule",
           "text": "Now to you and your school",
+          "text_de": "Jetzt zu Dir und Deiner Schule",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -885,10 +891,11 @@
       "question": "2",
       "name": "2",
       "label": "What grade are you in right now?",
+      "label_de": "In der wievielten Klasse bist Du gerade?",
       "items": [
         {
-          "text_de": "In der wievielten Klasse bist Du gerade?",
           "text": "What grade are you in right now?",
+          "text_de": "In der wievielten Klasse bist Du gerade?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -896,10 +903,10 @@
         },
         {
           "item": "fkl",
-          "text_de": "In der ... Klasse",
           "text": "In the ... grade.",
-          "scale": "int",
+          "text_de": "In der ... Klasse",
           "concept": "fkl",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -912,10 +919,11 @@
       "question": "3",
       "name": "3",
       "label": "How many students are there in total in your grade?",
+      "label_de": "Wie viele Schüler sind ingesamt in Deiner Schulklasse?",
       "items": [
         {
-          "text_de": "Wie viele Schüler sind ingesamt in Deiner Schulklasse?",
           "text": "How many students are there in total in your grade?",
+          "text_de": "Wie viele Schüler sind ingesamt in Deiner Schulklasse?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -923,10 +931,10 @@
         },
         {
           "item": "fklanz",
-          "text_de": "Schüler insgesamt",
           "text": "Total number of students",
-          "scale": "int",
+          "text_de": "Schüler insgesamt",
           "concept": "fklanz",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -939,10 +947,11 @@
       "question": "4",
       "name": "4",
       "label": "And how many of these students are not from Germany or have parents who aren't from Germany?",
+      "label_de": "Und wie viele von diesen Schülern stammen nicht aus Deutschland oder haben Eltern, die nicht aus Deutschland stammen? ",
       "items": [
         {
-          "text_de": "Und wie viele von diesen Schülern stammen nicht aus Deutschland oder haben Eltern, die nicht aus Deutschland stammen? ",
           "text": "And how many of these students are not from Germany or have parents who aren't from Germany?",
+          "text_de": "Und wie viele von diesen Schülern stammen nicht aus Deutschland oder haben Eltern, die nicht aus Deutschland stammen? ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -950,17 +959,17 @@
         },
         {
           "item": "fklaus1",
-          "text_de": "Schüler",
           "text": "Students",
-          "scale": "int",
+          "text_de": "Schüler",
           "concept": "fklaus1",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "fklaus2",
-          "scale": "cat",
           "concept": "fklaus2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -985,10 +994,11 @@
       "question": "5",
       "name": "5",
       "label": "Do you think that the teachers…",
+      "label_de": "Hast Du das Gefühl, dass die Lehrer... ",
       "items": [
         {
-          "text_de": "Hast Du das Gefühl, dass die Lehrer... ",
           "text": "Do you think that the teachers…",
+          "text_de": "Hast Du das Gefühl, dass die Lehrer... ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -996,10 +1006,10 @@
         },
         {
           "item": "flehr01",
-          "text_de": "Dich seltener aufrufen als Deine Mitschüler?",
           "text": "call on you less often than your classmates?",
-          "scale": "cat",
+          "text_de": "Dich seltener aufrufen als Deine Mitschüler?",
           "concept": "flehr01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1017,10 +1027,10 @@
         },
         {
           "item": "flehr02",
-          "text_de": "Dich strenger benoten als Deine Mitschüler?",
           "text": "grade your work more strictly than your classmates' work?",
-          "scale": "cat",
+          "text_de": "Dich strenger benoten als Deine Mitschüler?",
           "concept": "flehr02",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1038,10 +1048,10 @@
         },
         {
           "item": "flehr03",
-          "text_de": "Dich öfter ermahnen als Deine Mitschüler?",
           "text": "reprimand you more often than your classmates?",
-          "scale": "cat",
+          "text_de": "Dich öfter ermahnen als Deine Mitschüler?",
           "concept": "flehr03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1059,10 +1069,10 @@
         },
         {
           "item": "flehr04",
-          "text_de": "denken, dass Du weniger klug bist als Deine Mitschüler? ",
           "text": "think that you are not as smart as your classmates?",
-          "scale": "cat",
+          "text_de": "denken, dass Du weniger klug bist als Deine Mitschüler? ",
           "concept": "flehr04",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1087,10 +1097,11 @@
       "question": "6",
       "name": "6",
       "label": "What was your grade in the following three subjects on your last report card?",
+      "label_de": "Welche Noten hattest Du in Deinem letzten Zeugnis in den folgenden drei Fächern?",
       "items": [
         {
-          "text_de": "Welche Noten hattest Du in Deinem letzten Zeugnis in den folgenden drei Fächern?",
           "text": "What was your grade in the following three subjects on your last report card?",
+          "text_de": "Welche Noten hattest Du in Deinem letzten Zeugnis in den folgenden drei Fächern?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -1098,45 +1109,45 @@
         },
         {
           "item": "3",
-          "text_de": "Schulnote von 1 - 6",
           "text": "Grading scale from 1 to 6",
+          "text_de": "Schulnote von 1 - 6",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "fnot1",
-          "text_de": "Deutsch",
           "text": "German",
-          "scale": "int",
+          "text_de": "Deutsch",
           "concept": "fnot1",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "fnot2",
-          "text_de": "Mathematik",
           "text": "Mathematics",
-          "scale": "int",
+          "text_de": "Mathematik",
           "concept": "fnot2",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "fnot4",
-          "text_de": "Erste Fremdsprache",
           "text": "First foreign language",
-          "scale": "int",
+          "text_de": "Erste Fremdsprache",
           "concept": "fnot4",
+          "scale": "int",
           "sn": 4,
           "number": ""
         },
         {
           "item": "fnotno",
-          "text_de": "Trifft nicht zu, hatte keine Schulnoten im letzten Zeugnis",
           "text": "Does not apply, no grades on report card",
-          "scale": "bin",
+          "text_de": "Trifft nicht zu, hatte keine Schulnoten im letzten Zeugnis",
           "concept": "fnotno",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         }
@@ -1149,13 +1160,14 @@
       "question": "7",
       "name": "7",
       "label": "What type of secondary school do you want to graduate from—that is, what school-leaving certificate do you want to obtain?",
+      "label_de": "Welchen Schulabschluss willst Du persönlich einmal erreichen?",
       "items": [
         {
           "item": "fschabe",
-          "text_de": "Welchen Schulabschluss willst Du persönlich einmal erreichen?",
           "text": "What type of secondary school do you want to graduate from—that is, what school-leaving certificate do you want to obtain?",
-          "scale": "cat",
+          "text_de": "Welchen Schulabschluss willst Du persönlich einmal erreichen?",
           "concept": "fschabe",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1185,13 +1197,14 @@
       "question": "8",
       "name": "8",
       "label": "How important is it to you that you graduate from this type of secondary school and obtain the respective school-leaving certificate?",
+      "label_de": "Wie wichtig ist es Dir, diesen Schulabschluss zu erreichen? ",
       "items": [
         {
           "item": "fschabw",
-          "text_de": "Wie wichtig ist es Dir, diesen Schulabschluss zu erreichen? ",
           "text": "How important is it to you that you graduate from this type of secondary school and obtain the respective school-leaving certificate?",
-          "scale": "cat",
+          "text_de": "Wie wichtig ist es Dir, diesen Schulabschluss zu erreichen? ",
           "concept": "fschabw",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1226,13 +1239,14 @@
       "question": "9",
       "name": "9",
       "label": "And what type of secondary school do you think you will graduate from and obtain the respective school-leaving certificate?",
+      "label_de": "Und was denkst Du, welchen Schulabschluss wirst Du tatsächlich einmal erreichen? ",
       "items": [
         {
           "item": "fschabt",
-          "text_de": "Und was denkst Du, welchen Schulabschluss wirst Du tatsächlich einmal erreichen? ",
           "text": "And what type of secondary school do you think you will graduate from and obtain the respective school-leaving certificate?",
-          "scale": "cat",
+          "text_de": "Und was denkst Du, welchen Schulabschluss wirst Du tatsächlich einmal erreichen? ",
           "concept": "fschabt",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1267,31 +1281,32 @@
       "question": "10",
       "name": "10",
       "label": "We'd like to know a little about your three best friends who you see on a regular basis and who are around the same age as you are.",
+      "label_de": "Und wie ist das bei Deinen drei besten Freunden oder Freundinnen, mit denen Du Dich regelmäßig triffst und die ungefähr in Deinem Alter sind?",
       "items": [
         {
           "item": "1",
-          "text_de": "Und wie ist das bei Deinen drei besten Freunden oder Freundinnen, mit denen Du Dich regelmäßig triffst und die ungefähr in Deinem Alter sind?",
-          "instruction_de": "Wenn Du Dir bei den Antworten nicht sicher bist, gib an, was Du denkst.\nWenn Du keine drei Freunde hast, gib es für ein oder zwei an.",
           "text": "We'd like to know a little about your three best friends who you see on a regular basis and who are around the same age as you are.",
+          "text_de": "Und wie ist das bei Deinen drei besten Freunden oder Freundinnen, mit denen Du Dich regelmäßig triffst und die ungefähr in Deinem Alter sind?",
           "instruction": "If you're not sure about your answers, please state what you think. If you don't have three friends, answer for one or two.",
+          "instruction_de": "Wenn Du Dir bei den Antworten nicht sicher bist, gib an, was Du denkst.\nWenn Du keine drei Freunde hast, gib es für ein oder zwei an.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "2",
-          "text_de": "Welchen Schulabschluss wollen Deine drei besten Freunde oder Freundinnen erreichen?",
           "text": "What type of secondary school do they want to graduate from and obtain the respective school-leaving certificate?",
+          "text_de": "Welchen Schulabschluss wollen Deine drei besten Freunde oder Freundinnen erreichen?",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "fsfrs1",
-          "text_de": "1. Freund oder Freundin",
           "text": "1st friend",
-          "scale": "cat",
+          "text_de": "1. Freund oder Freundin",
           "concept": "fsfrs1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1319,10 +1334,10 @@
         },
         {
           "item": "fsfrs2",
-          "text_de": "2. Freund oder Freundin",
           "text": "2nd friend",
-          "scale": "cat",
+          "text_de": "2. Freund oder Freundin",
           "concept": "fsfrs2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1350,10 +1365,10 @@
         },
         {
           "item": "fsfrs3",
-          "text_de": "3. Freund oder Freundin",
           "text": "3rd friend",
-          "scale": "cat",
+          "text_de": "3. Freund oder Freundin",
           "concept": "fsfrs3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1388,12 +1403,13 @@
       "question": "11",
       "name": "11",
       "label": "Think about your class schedule. For each weekday, please state what time school starts and ends. Please also state how often you go to school on Saturdays.",
+      "label_de": "Denk mal an Deinen Stundenplan. Kannst Du bitte für jeden Wochentag angeben, um wie viel Uhr die Schule beginnt und wann sie zu Ende ist. Gib bitte auch an, wie oft Du am Samstag Schule hast. ",
       "items": [
         {
-          "text_de": "Denk mal an Deinen Stundenplan. Kannst Du bitte für jeden Wochentag angeben, um wie viel Uhr die Schule beginnt und wann sie zu Ende ist. Gib bitte auch an, wie oft Du am Samstag Schule hast. ",
-          "instruction_de": "Gemeint ist nur die Schule, also Unterricht, AGs, frei betreute Zeit, Mittagessen. Die Zeit im Hort, falls Du dort hingehst, hier bitte nicht mit angeben! ",
           "text": "Think about your class schedule. For each weekday, please state what time school starts and ends. Please also state how often you go to school on Saturdays.",
+          "text_de": "Denk mal an Deinen Stundenplan. Kannst Du bitte für jeden Wochentag angeben, um wie viel Uhr die Schule beginnt und wann sie zu Ende ist. Gib bitte auch an, wie oft Du am Samstag Schule hast. ",
           "instruction": "This question only concerncs school time (classes, project groups, other time in school under supervision, lunch). Please don’t indicate time in the after-school care club (German: “Hort”) here.",
+          "instruction_de": "Gemeint ist nur die Schule, also Unterricht, AGs, frei betreute Zeit, Mittagessen. Die Zeit im Hort, falls Du dort hingehst, hier bitte nicht mit angeben! ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -1401,282 +1417,282 @@
         },
         {
           "item": "4",
-          "text_de": "Uhrzeit",
           "text": "Time of day",
+          "text_de": "Uhrzeit",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "5",
-          "text_de": "Montag:",
           "text": "Monday:",
+          "text_de": "Montag:",
           "scale": "txt",
           "sn": 2,
           "number": ""
         },
         {
           "item": "sstpa01",
-          "text_de": "[Montag – Beginn] Stunde",
           "text": "[Monday – start] hour",
-          "scale": "int",
+          "text_de": "[Montag – Beginn] Stunde",
           "concept": "sstpa01",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "fstpa02",
-          "text_de": "[Montag – Beginn] Minute",
           "text": "[Monday – start] minute",
-          "scale": "int",
+          "text_de": "[Montag – Beginn] Minute",
           "concept": "fstpa02",
+          "scale": "int",
           "sn": 4,
           "number": ""
         },
         {
           "item": "fstpb01",
-          "text_de": "[Montag – Ende] Stunde",
           "text": "[Monday – end] hour",
-          "scale": "int",
+          "text_de": "[Montag – Ende] Stunde",
           "concept": "fstpb01",
+          "scale": "int",
           "sn": 5,
           "number": ""
         },
         {
           "item": "fstpb02",
-          "text_de": "[Montag – Ende] Minute",
           "text": "[Monday – end] minute",
-          "scale": "int",
+          "text_de": "[Montag – Ende] Minute",
           "concept": "fstpb02",
+          "scale": "int",
           "sn": 6,
           "number": ""
         },
         {
           "item": "6",
-          "text_de": "Dienstag:",
           "text": "Tuesday:",
+          "text_de": "Dienstag:",
           "scale": "txt",
           "sn": 7,
           "number": ""
         },
         {
           "item": "fstpa03",
-          "text_de": "[Dienstag – Beginn] Stunde",
           "text": "[Tuesday – start] hour",
-          "scale": "int",
+          "text_de": "[Dienstag – Beginn] Stunde",
           "concept": "fstpa03",
+          "scale": "int",
           "sn": 8,
           "number": ""
         },
         {
           "item": "fstpa04",
-          "text_de": "[Dienstag – Beginn] Minute",
           "text": "[Tuesday – start] minute",
-          "scale": "int",
+          "text_de": "[Dienstag – Beginn] Minute",
           "concept": "fstpa04",
+          "scale": "int",
           "sn": 9,
           "number": ""
         },
         {
           "item": "fstpb03",
-          "text_de": "[Dienstag – Ende] Stunde",
           "text": "[Tuesday – end] hour",
-          "scale": "int",
+          "text_de": "[Dienstag – Ende] Stunde",
           "concept": "fstpb03",
+          "scale": "int",
           "sn": 10,
           "number": ""
         },
         {
           "item": "fstpb04",
-          "text_de": "[Dienstag – Ende] Minute",
           "text": "[Tuesday – end] minute",
-          "scale": "int",
+          "text_de": "[Dienstag – Ende] Minute",
           "concept": "fstpb04",
+          "scale": "int",
           "sn": 11,
           "number": ""
         },
         {
           "item": "7",
-          "text_de": "Mittwoch:",
           "text": "Wednesday:",
+          "text_de": "Mittwoch:",
           "scale": "txt",
           "sn": 12,
           "number": ""
         },
         {
           "item": "fstpa05",
-          "text_de": "[Mittwoch – Beginn] Stunde",
           "text": "[Wednesday – start] hour",
-          "scale": "int",
+          "text_de": "[Mittwoch – Beginn] Stunde",
           "concept": "fstpa05",
+          "scale": "int",
           "sn": 13,
           "number": ""
         },
         {
           "item": "fstpa06",
-          "text_de": "[Mittwoch – Beginn] Minute",
           "text": "[Wednesday – start] minute",
-          "scale": "int",
+          "text_de": "[Mittwoch – Beginn] Minute",
           "concept": "fstpa06",
+          "scale": "int",
           "sn": 14,
           "number": ""
         },
         {
           "item": "fstpb05",
-          "text_de": "[Mittwoch – Ende] Stunde",
           "text": "[Wednesday – end] hour",
-          "scale": "int",
+          "text_de": "[Mittwoch – Ende] Stunde",
           "concept": "fstpb05",
+          "scale": "int",
           "sn": 15,
           "number": ""
         },
         {
           "item": "fstpb06",
-          "text_de": "[Mittwoch – Ende] Minute",
           "text": "[Wednesday – end] minute",
-          "scale": "int",
+          "text_de": "[Mittwoch – Ende] Minute",
           "concept": "fstpb06",
+          "scale": "int",
           "sn": 16,
           "number": ""
         },
         {
           "item": "8",
-          "text_de": "Donnerstag:",
           "text": "Thursday:",
+          "text_de": "Donnerstag:",
           "scale": "txt",
           "sn": 17,
           "number": ""
         },
         {
           "item": "fstpa07",
-          "text_de": "[Donnerstag – Beginn] Stunde",
           "text": "[Thursday – start] hour",
-          "scale": "int",
+          "text_de": "[Donnerstag – Beginn] Stunde",
           "concept": "fstpa07",
+          "scale": "int",
           "sn": 18,
           "number": ""
         },
         {
           "item": "fstpa08",
-          "text_de": "[Donnerstag – Beginn] Minute",
           "text": "[Thursday – start] minute",
-          "scale": "int",
+          "text_de": "[Donnerstag – Beginn] Minute",
           "concept": "fstpa08",
+          "scale": "int",
           "sn": 19,
           "number": ""
         },
         {
           "item": "fstpb07",
-          "text_de": "[Donnerstag – Ende] Stunde",
           "text": "[Thursday – end] hour",
-          "scale": "int",
+          "text_de": "[Donnerstag – Ende] Stunde",
           "concept": "fstpb07",
+          "scale": "int",
           "sn": 20,
           "number": ""
         },
         {
           "item": "fstpb08",
-          "text_de": "[Donnerstag – Ende] Minute",
           "text": "[Thursday – end] minute",
-          "scale": "int",
+          "text_de": "[Donnerstag – Ende] Minute",
           "concept": "fstpb08",
+          "scale": "int",
           "sn": 21,
           "number": ""
         },
         {
           "item": "9",
-          "text_de": "Freitag:",
           "text": "Friday:",
+          "text_de": "Freitag:",
           "scale": "txt",
           "sn": 22,
           "number": ""
         },
         {
           "item": "fstpa09",
-          "text_de": "[Freitag – Beginn] Stunde",
           "text": "[Friday – start] hour",
-          "scale": "int",
+          "text_de": "[Freitag – Beginn] Stunde",
           "concept": "fstpa09",
+          "scale": "int",
           "sn": 23,
           "number": ""
         },
         {
           "item": "fstpa10",
-          "text_de": "[Freitag – Beginn] Minute",
           "text": "[Friday – start] minute",
-          "scale": "int",
+          "text_de": "[Freitag – Beginn] Minute",
           "concept": "fstpa10",
+          "scale": "int",
           "sn": 24,
           "number": ""
         },
         {
           "item": "fstpb09",
-          "text_de": "[Freitag – Ende] Stunde",
           "text": "[Friday – end] hour",
-          "scale": "int",
+          "text_de": "[Freitag – Ende] Stunde",
           "concept": "fstpb09",
+          "scale": "int",
           "sn": 25,
           "number": ""
         },
         {
           "item": "fstpb10",
-          "text_de": "[Freitag – Ende] Minute",
           "text": "[Friday – end] minute",
-          "scale": "int",
+          "text_de": "[Freitag – Ende] Minute",
           "concept": "fstpb10",
+          "scale": "int",
           "sn": 26,
           "number": ""
         },
         {
           "item": "10",
-          "text_de": "Samstag:",
           "text": "Saturday:",
+          "text_de": "Samstag:",
           "scale": "txt",
           "sn": 27,
           "number": ""
         },
         {
           "item": "fstpa11",
-          "text_de": "[Samstag – Beginn] Stunde",
           "text": "[Saturday – start] hour",
-          "scale": "int",
+          "text_de": "[Samstag – Beginn] Stunde",
           "concept": "fstpa11",
+          "scale": "int",
           "sn": 28,
           "number": ""
         },
         {
           "item": "fstpa12",
-          "text_de": "[Samstag – Beginn] Minute",
           "text": "[Saturday – start] minute",
-          "scale": "int",
+          "text_de": "[Samstag – Beginn] Minute",
           "concept": "fstpa12",
+          "scale": "int",
           "sn": 29,
           "number": ""
         },
         {
           "item": "fstpb11",
-          "text_de": "[Samstag – Ende] Stunde",
           "text": "[Saturday – end] hour",
-          "scale": "int",
+          "text_de": "[Samstag – Ende] Stunde",
           "concept": "fstpb11",
+          "scale": "int",
           "sn": 30,
           "number": ""
         },
         {
           "item": "fstpb12",
-          "text_de": "[Samstag – Ende] Minute",
           "text": "[Saturday – end] minute",
-          "scale": "int",
+          "text_de": "[Samstag – Ende] Minute",
           "concept": "fstpb12",
+          "scale": "int",
           "sn": 31,
           "number": ""
         },
         {
           "item": "fstpanz",
-          "text_de": "[Samstag]",
           "text": "[Saturday]",
-          "scale": "cat",
+          "text_de": "[Samstag]",
           "concept": "fstpanz",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1711,15 +1727,16 @@
       "question": "12",
       "name": "12",
       "label": "How much time do you usually spend doing homework and studying for school?",
+      "label_de": "Wie viel Zeit verwendest Du normalerweise für Deine Hausaufgaben und das Lernen für die Schule?",
       "items": [
         {
           "item": "fhaus2",
-          "text_de": "Wie viel Zeit verwendest Du normalerweise für Deine Hausaufgaben und das Lernen für die Schule?",
-          "instruction_de": "Bitte nur eine Antwort ankreuzen!",
           "text": "How much time do you usually spend doing homework and studying for school?",
+          "text_de": "Wie viel Zeit verwendest Du normalerweise für Deine Hausaufgaben und das Lernen für die Schule?",
           "instruction": "Please choose just one answer!",
-          "scale": "cat",
+          "instruction_de": "Bitte nur eine Antwort ankreuzen!",
           "concept": "fhaus2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1764,10 +1781,11 @@
       "question": "13",
       "name": "13",
       "label": "How often do the following people help you with your homework and studying for school?",
+      "label_de": "Wie oft helfen Dir die folgenden Personen bei den Hausaufgaben oder dem Lernen für die Schule?",
       "items": [
         {
-          "text_de": "Wie oft helfen Dir die folgenden Personen bei den Hausaufgaben oder dem Lernen für die Schule?",
           "text": "How often do the following people help you with your homework and studying for school?",
+          "text_de": "Wie oft helfen Dir die folgenden Personen bei den Hausaufgaben oder dem Lernen für die Schule?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -1775,10 +1793,10 @@
         },
         {
           "item": "fhaus3",
-          "text_de": "Mutter",
           "text": "Mother",
-          "scale": "cat",
+          "text_de": "Mutter",
           "concept": "fhaus3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1816,10 +1834,10 @@
         },
         {
           "item": "fhaus4",
-          "text_de": "Vater",
           "text": "Father",
-          "scale": "cat",
+          "text_de": "Vater",
           "concept": "fhaus4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1857,10 +1875,10 @@
         },
         {
           "item": "fhaus5",
-          "text_de": "Großeltern",
           "text": "Grandparents",
-          "scale": "cat",
+          "text_de": "Großeltern",
           "concept": "fhaus5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1898,10 +1916,10 @@
         },
         {
           "item": "fhaus6",
-          "text_de": "Geschwister",
           "text": "Siblings",
-          "scale": "cat",
+          "text_de": "Geschwister",
           "concept": "fhaus6",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1939,10 +1957,10 @@
         },
         {
           "item": "fhaus7",
-          "text_de": "Freundinnen und Freunde oder Mitschülerinnen und Mitschüler",
           "text": "Friends or classmates",
-          "scale": "cat",
+          "text_de": "Freundinnen und Freunde oder Mitschülerinnen und Mitschüler",
           "concept": "fhaus7",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -1980,10 +1998,10 @@
         },
         {
           "item": "fhaus8",
-          "text_de": "Nachhilfelehrerin oder Nachhilfelehrer",
           "text": "Private tutor/teacher",
-          "scale": "cat",
+          "text_de": "Nachhilfelehrerin oder Nachhilfelehrer",
           "concept": "fhaus8",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2021,10 +2039,10 @@
         },
         {
           "item": "fhaus9",
-          "text_de": "Hausaufgabenbetreuung (z.B. in der Schule, Jugendzentrum oder Gemeindetreff)",
           "text": "Someone who helps students with their homework (for example, a teacher in study hall or someone who works in a youth center or civic center)",
-          "scale": "cat",
+          "text_de": "Hausaufgabenbetreuung (z.B. in der Schule, Jugendzentrum oder Gemeindetreff)",
           "concept": "fhaus9",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2069,104 +2087,105 @@
       "question": "14",
       "name": "14",
       "label": "In addition to the normal lessons, there are other ways in school\nto get involved. In your school days - earlier or now - have one or more\nengaged in the following areas?",
+      "label_de": "Neben dem normalen Unterricht gibt es ja auch andere Möglichkeiten, sich in der Schule zu engagieren, also sich aktiv an etwas zu beteiligen.\nEngagierst Du Dich derzeit in einem oder mehreren der folgenden Bereiche?",
       "items": [
         {
           "item": "1",
-          "text_de": "Neben dem normalen Unterricht gibt es ja auch andere Möglichkeiten, sich in der Schule zu engagieren, also sich aktiv an etwas zu beteiligen.\nEngagierst Du Dich derzeit in einem oder mehreren der folgenden Bereiche?",
-          "instruction_de": "Bitte alles Zutreffende ankreuzen!",
           "text": "In addition to the normal lessons, there are other ways in school\nto get involved. In your school days - earlier or now - have one or more\nengaged in the following areas?",
+          "text_de": "Neben dem normalen Unterricht gibt es ja auch andere Möglichkeiten, sich in der Schule zu engagieren, also sich aktiv an etwas zu beteiligen.\nEngagierst Du Dich derzeit in einem oder mehreren der folgenden Bereiche?",
           "instruction": "Please mark all that apply!",
+          "instruction_de": "Bitte alles Zutreffende ankreuzen!",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "jeng1",
-          "text_de": "als Klassensprecher",
           "text": "Class representative",
-          "scale": "bin",
+          "text_de": "als Klassensprecher",
           "concept": "jeng1",
+          "scale": "bin",
           "sn": 1,
           "number": ""
         },
         {
           "item": "feng2",
-          "text_de": "als Schulsprecher",
           "text": "Student body president",
-          "scale": "bin",
+          "text_de": "als Schulsprecher",
           "concept": "feng2",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         },
         {
           "item": "feng9",
-          "text_de": "als Schulsanitäter",
           "text": "School orderly",
-          "scale": "bin",
+          "text_de": "als Schulsanitäter",
           "concept": "feng9",
+          "scale": "bin",
           "sn": 3,
           "number": ""
         },
         {
           "item": "feng3",
-          "text_de": "beim Erstellen einer Schülerzeitung",
           "text": "Involved with school newspaper",
-          "scale": "bin",
+          "text_de": "beim Erstellen einer Schülerzeitung",
           "concept": "feng3",
+          "scale": "bin",
           "sn": 4,
           "number": ""
         },
         {
           "item": "feng4",
-          "text_de": "in Theatergruppe / Tanzgruppe",
           "text": "Belong to theater, dance group",
-          "scale": "bin",
+          "text_de": "in Theatergruppe / Tanzgruppe",
           "concept": "feng4",
+          "scale": "bin",
           "sn": 5,
           "number": ""
         },
         {
           "item": "feng5",
-          "text_de": "in Chor / Orchester / Musikgruppe",
           "text": "Belong to choir, orchestra, music group",
-          "scale": "bin",
+          "text_de": "in Chor / Orchester / Musikgruppe",
           "concept": "feng5",
+          "scale": "bin",
           "sn": 6,
           "number": ""
         },
         {
           "item": "feng6",
-          "text_de": "in freiwilliger Sport-AG",
           "text": "Belong to volunteer sport group",
-          "scale": "bin",
+          "text_de": "in freiwilliger Sport-AG",
           "concept": "feng6",
+          "scale": "bin",
           "sn": 7,
           "number": ""
         },
         {
           "item": "feng7",
-          "text_de": "in sonstiger AG oder Neigungsgruppe",
           "text": "Other kind of school group",
-          "scale": "bin",
+          "text_de": "in sonstiger AG oder Neigungsgruppe",
           "concept": "feng7",
+          "scale": "bin",
           "sn": 8,
           "number": ""
         },
         {
           "item": "feng7a",
-          "text_de": "(sonstige AG) und zwar:",
           "text": "Other:",
-          "scale": "chr",
+          "text_de": "(sonstige AG) und zwar:",
           "concept": "feng7a",
+          "scale": "chr",
           "sn": 9,
           "number": ""
         },
         {
           "item": "feng8",
-          "text_de": "Nein, nichts davon",
           "text": "No, no none of theses",
-          "scale": "bin",
+          "text_de": "Nein, nichts davon",
           "concept": "feng8",
+          "scale": "bin",
           "sn": 10,
           "number": ""
         }
@@ -2179,10 +2198,11 @@
       "question": "15",
       "name": "15",
       "label": "How often do you take part in the following recreational activities?",
+      "label_de": "Wie oft machst Du die folgenden Dinge in Deiner Freizeit?",
       "items": [
         {
-          "text_de": "Wie oft machst Du die folgenden Dinge in Deiner Freizeit?",
           "text": "How often do you take part in the following recreational activities?",
+          "text_de": "Wie oft machst Du die folgenden Dinge in Deiner Freizeit?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -2190,10 +2210,10 @@
         },
         {
           "item": "sfz01",
-          "text_de": "Fernsehen / DVD / Internet-Streams (z.B. YouTube)",
           "text": "Watching TV / DVD / Internet-Streams (e.g. YouTube)",
-          "scale": "cat",
+          "text_de": "Fernsehen / DVD / Internet-Streams (z.B. YouTube)",
           "concept": "sfz01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2226,10 +2246,10 @@
         },
         {
           "item": "ffz02",
-          "text_de": "Computer- / Online- / Konsolen- oder Smartphonespiele",
           "text": "Playing computer / online / console or smart phone games",
-          "scale": "cat",
+          "text_de": "Computer- / Online- / Konsolen- oder Smartphonespiele",
           "concept": "ffz02",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2262,10 +2282,10 @@
         },
         {
           "item": "ffz21",
-          "text_de": "Nutzen sozialer Online-Netzwerke",
           "text": "Using online social media",
-          "scale": "cat",
+          "text_de": "Nutzen sozialer Online-Netzwerke",
           "concept": "ffz21",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2298,10 +2318,10 @@
         },
         {
           "item": "ffz22",
-          "text_de": "Telefonieren (einschließlich Skypen o.ä.)",
           "text": "Talking on the phone, including Skype etc.",
-          "scale": "cat",
+          "text_de": "Telefonieren (einschließlich Skypen o.ä.)",
           "concept": "ffz22",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2334,10 +2354,10 @@
         },
         {
           "item": "ffz23",
-          "text_de": "Austausch per SMS oder Messenger",
           "text": "Texting (sending and receiving text messages)",
-          "scale": "cat",
+          "text_de": "Austausch per SMS oder Messenger",
           "concept": "ffz23",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2370,10 +2390,10 @@
         },
         {
           "item": "ffz14",
-          "text_de": "Sonstiges Surfen im Internet",
           "text": "Other surfing on the Internet",
-          "scale": "cat",
+          "text_de": "Sonstiges Surfen im Internet",
           "concept": "ffz14",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2406,10 +2426,10 @@
         },
         {
           "item": "ffz03",
-          "text_de": "Musik hören",
           "text": "Listen to music",
-          "scale": "cat",
+          "text_de": "Musik hören",
           "concept": "ffz03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2442,10 +2462,10 @@
         },
         {
           "item": "ffz04",
-          "text_de": "Musik machen",
           "text": "Make music",
-          "scale": "cat",
+          "text_de": "Musik machen",
           "concept": "ffz04",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2478,10 +2498,10 @@
         },
         {
           "item": "ffz05",
-          "text_de": "Sport treiben",
           "text": "Do sports",
-          "scale": "cat",
+          "text_de": "Sport treiben",
           "concept": "ffz05",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2514,10 +2534,10 @@
         },
         {
           "item": "ffz17",
-          "text_de": "Mit der Familie etwas unternehmen z.B. Ausflüge oder Ähnliches",
           "text": "Doing something together with the whole family",
-          "scale": "cat",
+          "text_de": "Mit der Familie etwas unternehmen z.B. Ausflüge oder Ähnliches",
           "concept": "ffz17",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2550,10 +2570,10 @@
         },
         {
           "item": "ffz19",
-          "text_de": "Mit Freunden zusammen sein",
           "text": "Spending time with friends",
-          "scale": "cat",
+          "text_de": "Mit Freunden zusammen sein",
           "concept": "ffz19",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2586,10 +2606,10 @@
         },
         {
           "item": "ffz06",
-          "text_de": "Tanz, Theater oder Ähnliches",
           "text": "Dance, theater, etc.",
-          "scale": "cat",
+          "text_de": "Tanz, Theater oder Ähnliches",
           "concept": "ffz06",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2622,10 +2642,10 @@
         },
         {
           "item": "ffz07",
-          "text_de": "Technisches Werken und Arbeiten",
           "text": "Technical and construction projects",
-          "scale": "cat",
+          "text_de": "Technisches Werken und Arbeiten",
           "concept": "ffz07",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2658,10 +2678,10 @@
         },
         {
           "item": "ffz18",
-          "text_de": "Malen und Basteln",
           "text": "Painting and crafting",
-          "scale": "cat",
+          "text_de": "Malen und Basteln",
           "concept": "ffz18",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2694,10 +2714,10 @@
         },
         {
           "item": "ffz08",
-          "text_de": "Lesen",
           "text": "Reading",
-          "scale": "cat",
+          "text_de": "Lesen",
           "concept": "ffz08",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2730,10 +2750,10 @@
         },
         {
           "item": "ffz10",
-          "text_de": "Einfach nichts tun / abhängen / träumen",
           "text": "Doing nothing / laze around / dreaming",
-          "scale": "cat",
+          "text_de": "Einfach nichts tun / abhängen / träumen",
           "concept": "ffz10",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2766,10 +2786,10 @@
         },
         {
           "item": "ffz16",
-          "text_de": "Zur Kirche gehen, religiöse Veranstaltungen besuchen",
           "text": "Going to church, religious events",
-          "scale": "cat",
+          "text_de": "Zur Kirche gehen, religiöse Veranstaltungen besuchen",
           "concept": "ffz16",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2802,10 +2822,10 @@
         },
         {
           "item": "ffz20",
-          "text_de": "In eine Jugendgruppe gehen (z.B. Pfadfinder, kirchliche Gruppen, Umweltgruppen)",
           "text": "Youth groups (for example, Pathfinders, church youth groups, environmental groups, etc.)",
-          "scale": "cat",
+          "text_de": "In eine Jugendgruppe gehen (z.B. Pfadfinder, kirchliche Gruppen, Umweltgruppen)",
           "concept": "ffz20",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2838,10 +2858,10 @@
         },
         {
           "item": "ffz25",
-          "text_de": "Sozial engagieren / Hilfsprojekte unterstützen",
           "text": "Social commitment / Supporting aid projects",
-          "scale": "cat",
+          "text_de": "Sozial engagieren / Hilfsprojekte unterstützen",
           "concept": "ffz25",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2874,10 +2894,10 @@
         },
         {
           "item": "ffz24",
-          "text_de": "Um ein Haustier / Tiere kümmern",
           "text": "Taking care of a pet / animals",
-          "scale": "cat",
+          "text_de": "Um ein Haustier / Tiere kümmern",
           "concept": "ffz24",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -2917,144 +2937,145 @@
       "question": "16",
       "name": "16",
       "label": "How long do you spend an average of each day doing the following activities?",
+      "label_de": "Wie lange beschäftigst Du Dich durchschnittlich pro Tag mit folgenden Aktivitäten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie lange beschäftigst Du Dich durchschnittlich pro Tag mit folgenden Aktivitäten?",
-          "instruction_de": "Bitte unterscheide dabei Tage an denen Du Schule hast und Tage am Wochenende.\nWenn Du es nicht genau nicht weißt, kannst Du es auch ungefähr angeben.\nBitte \"0\" eintragen, wenn etwas nicht zutrifft.",
           "text": "How long do you spend an average of each day doing the following activities?",
+          "text_de": "Wie lange beschäftigst Du Dich durchschnittlich pro Tag mit folgenden Aktivitäten?",
           "instruction": "Please differentiate between days when you have school and days at the weekend.\nIf you do not know it, you can give it approximately.\nPlease enter \"0\" if something is wrong.",
+          "instruction_de": "Bitte unterscheide dabei Tage an denen Du Schule hast und Tage am Wochenende.\nWenn Du es nicht genau nicht weißt, kannst Du es auch ungefähr angeben.\nBitte \"0\" eintragen, wenn etwas nicht zutrifft.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "2",
-          "text_de": "Fernsehen / DVD / Internet-Streams (z.B. YouTube)",
           "text": "Watching TV / DVD / Internet-Streams (e.g. YouTube)",
+          "text_de": "Fernsehen / DVD / Internet-Streams (z.B. YouTube)",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "ftstd1",
-          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "text": "During one school week hours per day",
-          "scale": "int",
+          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "concept": "ftstd1",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "wstd1",
-          "text_de": "Am Wochenende Stunden pro Tag",
           "text": "At the weekend hours per day",
-          "scale": "int",
+          "text_de": "Am Wochenende Stunden pro Tag",
           "concept": "wstd1",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "3",
-          "text_de": "Computer- / Online- / Konsolen- oder Smartphonespiele",
           "text": "Playing computer / online / console or smart phone games",
+          "text_de": "Computer- / Online- / Konsolen- oder Smartphonespiele",
           "scale": "txt",
           "sn": 4,
           "number": ""
         },
         {
           "item": "ftstd2",
-          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "text": "During one school week hours per day",
-          "scale": "int",
+          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "concept": "ftstd2",
+          "scale": "int",
           "sn": 5,
           "number": ""
         },
         {
           "item": "wstd2",
-          "text_de": "Am Wochenende Stunden pro Tag",
           "text": "At the weekend hours per day",
-          "scale": "int",
+          "text_de": "Am Wochenende Stunden pro Tag",
           "concept": "wstd2",
+          "scale": "int",
           "sn": 6,
           "number": ""
         },
         {
           "item": "4",
-          "text_de": "Nutzen sozialer Online-Netzwerke / Sonstiges Surfen im Internet",
           "text": "Using social online-network / other surfing on the internet",
+          "text_de": "Nutzen sozialer Online-Netzwerke / Sonstiges Surfen im Internet",
           "scale": "txt",
           "sn": 7,
           "number": ""
         },
         {
           "item": "ftstd3",
-          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "text": "During one school week hours per day",
-          "scale": "int",
+          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "concept": "ftstd3",
+          "scale": "int",
           "sn": 8,
           "number": ""
         },
         {
           "item": "wstd3",
-          "text_de": "Am Wochenende Stunden pro Tag",
           "text": "At the weekend hours per day",
-          "scale": "int",
+          "text_de": "Am Wochenende Stunden pro Tag",
           "concept": "wstd3",
+          "scale": "int",
           "sn": 9,
           "number": ""
         },
         {
           "item": "5",
-          "text_de": "Musik machen",
           "text": "Make music",
+          "text_de": "Musik machen",
           "scale": "txt",
           "sn": 10,
           "number": ""
         },
         {
           "item": "ftstd4",
-          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "text": "During one school week hours per day",
-          "scale": "int",
+          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "concept": "ftstd4",
+          "scale": "int",
           "sn": 11,
           "number": ""
         },
         {
           "item": "wstd4",
-          "text_de": "Am Wochenende Stunden pro Tag",
           "text": "At the weekend hours per day",
-          "scale": "int",
+          "text_de": "Am Wochenende Stunden pro Tag",
           "concept": "wstd4",
+          "scale": "int",
           "sn": 12,
           "number": ""
         },
         {
           "item": "6",
-          "text_de": "Sport treiben",
           "text": "Do sports",
+          "text_de": "Sport treiben",
           "scale": "txt",
           "sn": 13,
           "number": ""
         },
         {
           "item": "ftstd5",
-          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "text": "During one school week hours per day",
-          "scale": "int",
+          "text_de": "Während einer Schulwoche Stunden pro Tag",
           "concept": "ftstd5",
+          "scale": "int",
           "sn": 14,
           "number": ""
         },
         {
           "item": "wstd5",
-          "text_de": "Am Wochenende Stunden pro Tag",
           "text": "At the weekend hours per day",
-          "scale": "int",
+          "text_de": "Am Wochenende Stunden pro Tag",
           "concept": "wstd5",
+          "scale": "int",
           "sn": 15,
           "number": ""
         }
@@ -3067,21 +3088,22 @@
       "question": "17",
       "name": "17",
       "label": "Until when do your parents allow you on evening",
+      "label_de": "Bis wann erlauben Dir Deine Eltern an Abenden …",
       "items": [
         {
           "item": "1",
-          "text_de": "Bis wann erlauben Dir Deine Eltern an Abenden …",
           "text": "Until when do your parents allow you on evening",
+          "text_de": "Bis wann erlauben Dir Deine Eltern an Abenden …",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ferl1",
-          "text_de": "vor Schultagen alleine unterwegs zu sein",
           "text": "to be on your own before school days",
-          "scale": "cat",
+          "text_de": "vor Schultagen alleine unterwegs zu sein",
           "concept": "ferl1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3134,10 +3156,10 @@
         },
         {
           "item": "ferl2",
-          "text_de": "vor schulfreien Tagen alleine unterwegs zu sein",
           "text": "to travel alone before school holidays",
-          "scale": "cat",
+          "text_de": "vor schulfreien Tagen alleine unterwegs zu sein",
           "concept": "ferl2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3190,10 +3212,10 @@
         },
         {
           "item": "ferl3",
-          "text_de": "vor Schultagen zuhause aufzubleiben",
           "text": "to stay up at home before school days",
-          "scale": "cat",
+          "text_de": "vor Schultagen zuhause aufzubleiben",
           "concept": "ferl3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3246,10 +3268,10 @@
         },
         {
           "item": "ferl4",
-          "text_de": "vor schulfreien Tagen zuhause aufzubleiben",
           "text": "to stay home before school holidays",
-          "scale": "cat",
+          "text_de": "vor schulfreien Tagen zuhause aufzubleiben",
           "concept": "ferl4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3309,39 +3331,40 @@
       "question": "18",
       "name": "18",
       "label": "What of the following things have you ever done without your parents?",
+      "label_de": "Was von den folgenden Dingen hast Du schon mal ohne Deine Eltern gemacht?",
       "items": [
         {
           "item": "1",
-          "text_de": "Was von den folgenden Dingen hast Du schon mal ohne Deine Eltern gemacht?",
-          "instruction_de": "Sag bitte bei jeder Tätigkeit ob Du sie mit Erwachsenen, zum Beispiel Onkel/Tante, Großeltern, Eltern von Freunden, Ferienfreizeitbetreuer gemacht hast und ob du sie schon ohne Erwachsenen, also ganz alleine oder nur mit Freunden oder noch nicht erwachsenen Geschwistern gemacht hast",
           "text": "What of the following things have you ever done without your parents?",
+          "text_de": "Was von den folgenden Dingen hast Du schon mal ohne Deine Eltern gemacht?",
           "instruction": "Say, in every activity you have with adults, for example, uncle / aunt, grandparents, parents of friends, holiday leisure workers, and you have already done without adults, all alone or with unmarried siblings",
+          "instruction_de": "Sag bitte bei jeder Tätigkeit ob Du sie mit Erwachsenen, zum Beispiel Onkel/Tante, Großeltern, Eltern von Freunden, Ferienfreizeitbetreuer gemacht hast und ob du sie schon ohne Erwachsenen, also ganz alleine oder nur mit Freunden oder noch nicht erwachsenen Geschwistern gemacht hast",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "2",
-          "text_de": "Ohne Eltern…",
           "text": "Without parents...",
+          "text_de": "Ohne Eltern…",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "3",
-          "text_de": "Mit Erwachsenen",
           "text": "With adults",
+          "text_de": "Mit Erwachsenen",
           "scale": "txt",
           "sn": 2,
           "number": ""
         },
         {
           "item": "fmelt1",
-          "text_de": "Urlaub gemacht",
           "text": "holidays",
-          "scale": "cat",
+          "text_de": "Urlaub gemacht",
           "concept": "fmelt1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3359,10 +3382,10 @@
         },
         {
           "item": "fmelt2",
-          "text_de": "eine Zug- oder Flugreise gemacht",
           "text": "made a train or plane trip",
-          "scale": "cat",
+          "text_de": "eine Zug- oder Flugreise gemacht",
           "concept": "fmelt2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3380,10 +3403,10 @@
         },
         {
           "item": "fmelt3",
-          "text_de": "zum Arzt gegangen",
           "text": "went to the doctor",
-          "scale": "cat",
+          "text_de": "zum Arzt gegangen",
           "concept": "fmelt3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3401,10 +3424,10 @@
         },
         {
           "item": "fmelt4",
-          "text_de": "Kleidung für Dich gekauft",
           "text": "Clothes bought for you",
-          "scale": "cat",
+          "text_de": "Kleidung für Dich gekauft",
           "concept": "fmelt4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3422,10 +3445,10 @@
         },
         {
           "item": "fmelt5",
-          "text_de": "selbst gekocht oder gebacken",
           "text": "even cooked or baked",
-          "scale": "cat",
+          "text_de": "selbst gekocht oder gebacken",
           "concept": "fmelt5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3443,10 +3466,10 @@
         },
         {
           "item": "fmelt6",
-          "text_de": "im Laden etwas umgetauscht",
           "text": "in the store something exchanged",
-          "scale": "cat",
+          "text_de": "im Laden etwas umgetauscht",
           "concept": "fmelt6",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3464,10 +3487,10 @@
         },
         {
           "item": "fmelt7",
-          "text_de": "ins Kino gegangen",
           "text": "went to the cinema",
-          "scale": "cat",
+          "text_de": "ins Kino gegangen",
           "concept": "fmelt7",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3485,10 +3508,10 @@
         },
         {
           "item": "fmelt8",
-          "text_de": "Alkohol getrunken",
           "text": "drunk alcohol",
-          "scale": "cat",
+          "text_de": "Alkohol getrunken",
           "concept": "fmelt8",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3506,10 +3529,10 @@
         },
         {
           "item": "fmelt9",
-          "text_de": "Zigaretten geraucht",
           "text": "Cigarettes smoked",
-          "scale": "cat",
+          "text_de": "Zigaretten geraucht",
           "concept": "fmelt9",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3527,10 +3550,10 @@
         },
         {
           "item": "fmelt10",
-          "text_de": "Wasserpfeife / Shisha geraucht",
           "text": "Hookah / Shisha smoked",
-          "scale": "cat",
+          "text_de": "Wasserpfeife / Shisha geraucht",
           "concept": "fmelt10",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3548,18 +3571,18 @@
         },
         {
           "item": "4",
-          "text_de": "Ohne Erwachsenen",
           "text": "Without adults",
+          "text_de": "Ohne Erwachsenen",
           "scale": "txt",
           "sn": 13,
           "number": ""
         },
         {
           "item": "foelt1",
-          "text_de": "Urlaub gemacht",
           "text": "holidays made",
-          "scale": "cat",
+          "text_de": "Urlaub gemacht",
           "concept": "foelt1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3577,10 +3600,10 @@
         },
         {
           "item": "foelt2",
-          "text_de": "eine Zug- oder Flugreise gemacht",
           "text": "made a train or plane trip",
-          "scale": "cat",
+          "text_de": "eine Zug- oder Flugreise gemacht",
           "concept": "foelt2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3598,10 +3621,10 @@
         },
         {
           "item": "foelt3",
-          "text_de": "zum Arzt gegangen",
           "text": "went to the doctor",
-          "scale": "cat",
+          "text_de": "zum Arzt gegangen",
           "concept": "foelt3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3619,10 +3642,10 @@
         },
         {
           "item": "foelt4",
-          "text_de": "Kleidung für Dich gekauft",
           "text": "Clothes bought for you",
-          "scale": "cat",
+          "text_de": "Kleidung für Dich gekauft",
           "concept": "foelt4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3640,10 +3663,10 @@
         },
         {
           "item": "foelt5",
-          "text_de": "selbst gekocht oder gebacken",
           "text": "even cooked or baked",
-          "scale": "cat",
+          "text_de": "selbst gekocht oder gebacken",
           "concept": "foelt5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3661,10 +3684,10 @@
         },
         {
           "item": "foelt6",
-          "text_de": "im Laden etwas umgetauscht",
           "text": "in the store something exchanged",
-          "scale": "cat",
+          "text_de": "im Laden etwas umgetauscht",
           "concept": "foelt6",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3682,10 +3705,10 @@
         },
         {
           "item": "foelt7",
-          "text_de": "ins Kino gegangen",
           "text": "went to the cinema",
-          "scale": "cat",
+          "text_de": "ins Kino gegangen",
           "concept": "foelt7",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3703,10 +3726,10 @@
         },
         {
           "item": "foelt8",
-          "text_de": "Alkohol getrunken",
           "text": "Drunk alcohol",
-          "scale": "cat",
+          "text_de": "Alkohol getrunken",
           "concept": "foelt8",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3724,10 +3747,10 @@
         },
         {
           "item": "foelt9",
-          "text_de": "Zigaretten geraucht",
           "text": "Cigarettes smoked",
-          "scale": "cat",
+          "text_de": "Zigaretten geraucht",
           "concept": "foelt9",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3745,10 +3768,10 @@
         },
         {
           "item": "foelt10",
-          "text_de": "Wasserpfeife / Shisha geraucht",
           "text": "Hookah / Shisha smoked",
-          "scale": "cat",
+          "text_de": "Wasserpfeife / Shisha geraucht",
           "concept": "foelt10",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3773,13 +3796,14 @@
       "question": "19",
       "name": "19",
       "label": "How often do your parents try to have a say in who you spend your time with or who your friends are?",
+      "label_de": "Wie oft mischen sich Deine Eltern dabei ein, mit wem Du Deine Zeit verbringst beziehungsweise wer Deine Freunde sind? ",
       "items": [
         {
           "item": "ffrelt",
-          "text_de": "Wie oft mischen sich Deine Eltern dabei ein, mit wem Du Deine Zeit verbringst beziehungsweise wer Deine Freunde sind? ",
           "text": "How often do your parents try to have a say in who you spend your time with or who your friends are?",
-          "scale": "cat",
+          "text_de": "Wie oft mischen sich Deine Eltern dabei ein, mit wem Du Deine Zeit verbringst beziehungsweise wer Deine Freunde sind? ",
           "concept": "ffrelt",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3819,12 +3843,13 @@
       "question": "20",
       "name": "20",
       "label": "The next question is about how your friends, siblings, and parents behave towards you.",
+      "label_de": "Bei der nächsten Frage geht es darum, wie sich Deine Freunde, Deine Geschwister und Deine Eltern Dir gegenüber verhalten.",
       "items": [
         {
-          "text_de": "Bei der nächsten Frage geht es darum, wie sich Deine Freunde, Deine Geschwister und Deine Eltern Dir gegenüber verhalten.",
-          "instruction_de": "Wenn es eine Person für Dich nicht gibt, z.B. wenn Du keine Geschwister hast, gib bitte „Personen sind nicht vorhanden“ an.",
           "text": "The next question is about how your friends, siblings, and parents behave towards you.",
+          "text_de": "Bei der nächsten Frage geht es darum, wie sich Deine Freunde, Deine Geschwister und Deine Eltern Dir gegenüber verhalten.",
           "instruction": "If you don't have anyone in a particular category (for example, if you don't have any siblings), please select „Persons are not available“.",
+          "instruction_de": "Wenn es eine Person für Dich nicht gibt, z.B. wenn Du keine Geschwister hast, gib bitte „Personen sind nicht vorhanden“ an.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -3832,18 +3857,18 @@
         },
         {
           "item": "28",
-          "text_de": "Wie oft wendest Du Dich an folgende Personen, wenn Du Sorgen hast? ",
           "text": "How often do you turn to the following people when you're worried about something?",
+          "text_de": "Wie oft wendest Du Dich an folgende Personen, wenn Du Sorgen hast? ",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "fvsor1",
-          "text_de": "Freunde",
           "text": "Friends",
-          "scale": "cat",
+          "text_de": "Freunde",
           "concept": "fvsor1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3881,10 +3906,10 @@
         },
         {
           "item": "fvsor2",
-          "text_de": "Geschwister",
           "text": "Siblings",
-          "scale": "cat",
+          "text_de": "Geschwister",
           "concept": "fvsor2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3922,10 +3947,10 @@
         },
         {
           "item": "fvsor3",
-          "text_de": "Mutter",
           "text": "Mother",
-          "scale": "cat",
+          "text_de": "Mutter",
           "concept": "fvsor3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -3963,10 +3988,10 @@
         },
         {
           "item": "fvsor4",
-          "text_de": "Vater",
           "text": "Father",
-          "scale": "cat",
+          "text_de": "Vater",
           "concept": "fvsor4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4004,10 +4029,10 @@
         },
         {
           "item": "fvsor5",
-          "text_de": "Großeltern",
           "text": "Grandparents",
-          "scale": "cat",
+          "text_de": "Großeltern",
           "concept": "fvsor5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4045,18 +4070,18 @@
         },
         {
           "item": "29",
-          "text_de": "Wie oft bestärken Dich oder helfen Dir folgende Personen, wenn Dir etwas wichtig ist? ",
           "text": "How often do the following people encourage or help you when something is important to you?",
+          "text_de": "Wie oft bestärken Dich oder helfen Dir folgende Personen, wenn Dir etwas wichtig ist? ",
           "scale": "txt",
           "sn": 7,
           "number": ""
         },
         {
           "item": "fvwich1",
-          "text_de": "Freunde",
           "text": "Friends",
-          "scale": "cat",
+          "text_de": "Freunde",
           "concept": "fvwich1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4094,10 +4119,10 @@
         },
         {
           "item": "fvwich2",
-          "text_de": "Geschwister",
           "text": "Siblings",
-          "scale": "cat",
+          "text_de": "Geschwister",
           "concept": "fvwich2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4135,10 +4160,10 @@
         },
         {
           "item": "fvwich3",
-          "text_de": "Mutter",
           "text": "Mother",
-          "scale": "cat",
+          "text_de": "Mutter",
           "concept": "fvwich3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4176,10 +4201,10 @@
         },
         {
           "item": "fvwich4",
-          "text_de": "Vater",
           "text": "Father",
-          "scale": "cat",
+          "text_de": "Vater",
           "concept": "fvwich4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4217,10 +4242,10 @@
         },
         {
           "item": "fvwich5",
-          "text_de": "Großeltern",
           "text": "Grandparents",
-          "scale": "cat",
+          "text_de": "Großeltern",
           "concept": "fvwich5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4258,18 +4283,18 @@
         },
         {
           "item": "30",
-          "text_de": "Wie oft kommandieren Dich folgende Personen herum?",
           "text": "How often do the following people order you around?",
+          "text_de": "Wie oft kommandieren Dich folgende Personen herum?",
           "scale": "txt",
           "sn": 13,
           "number": ""
         },
         {
           "item": "fvkom1",
-          "text_de": "Freunde",
           "text": "Friends",
-          "scale": "cat",
+          "text_de": "Freunde",
           "concept": "fvkom1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4307,10 +4332,10 @@
         },
         {
           "item": "fvkom2",
-          "text_de": "Geschwister",
           "text": "Siblings",
-          "scale": "cat",
+          "text_de": "Geschwister",
           "concept": "fvkom2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4348,10 +4373,10 @@
         },
         {
           "item": "fvkom3",
-          "text_de": "Mutter",
           "text": "Mother",
-          "scale": "cat",
+          "text_de": "Mutter",
           "concept": "fvkom3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4389,10 +4414,10 @@
         },
         {
           "item": "fvkom4",
-          "text_de": "Vater",
           "text": "Father",
-          "scale": "cat",
+          "text_de": "Vater",
           "concept": "fvkom4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4430,10 +4455,10 @@
         },
         {
           "item": "fvkom5",
-          "text_de": "Großeltern",
           "text": "Grandparents",
-          "scale": "cat",
+          "text_de": "Großeltern",
           "concept": "fvkom5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4471,18 +4496,18 @@
         },
         {
           "item": "31",
-          "text_de": "Wie oft sagen Dir folgende Personen, dass es wichtig ist, dass Du in der Schule gut bist, viel lernst? ",
           "text": "How often do the following people tell you it's important to do well in school and to study a lot?",
+          "text_de": "Wie oft sagen Dir folgende Personen, dass es wichtig ist, dass Du in der Schule gut bist, viel lernst? ",
           "scale": "txt",
           "sn": 19,
           "number": ""
         },
         {
           "item": "fvlob1",
-          "text_de": "Freunde",
           "text": "Friends",
-          "scale": "cat",
+          "text_de": "Freunde",
           "concept": "fvlob1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4520,10 +4545,10 @@
         },
         {
           "item": "fvlob2",
-          "text_de": "Geschwister",
           "text": "Siblings",
-          "scale": "cat",
+          "text_de": "Geschwister",
           "concept": "fvlob2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4561,10 +4586,10 @@
         },
         {
           "item": "fvlob3",
-          "text_de": "Mutter",
           "text": "Mother",
-          "scale": "cat",
+          "text_de": "Mutter",
           "concept": "fvlob3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4602,10 +4627,10 @@
         },
         {
           "item": "fvlob4",
-          "text_de": "Vater",
           "text": "Father",
-          "scale": "cat",
+          "text_de": "Vater",
           "concept": "fvlob4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4643,10 +4668,10 @@
         },
         {
           "item": "fvlob5",
-          "text_de": "Großeltern",
           "text": "Grandparents",
-          "scale": "cat",
+          "text_de": "Großeltern",
           "concept": "fvlob5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4684,18 +4709,18 @@
         },
         {
           "item": "32",
-          "text_de": "Wie oft kommt es vor, dass Du Dich mit folgenden Personen streitest? ",
           "text": "How often do you argue with the following people?",
+          "text_de": "Wie oft kommt es vor, dass Du Dich mit folgenden Personen streitest? ",
           "scale": "txt",
           "sn": 25,
           "number": ""
         },
         {
           "item": "fstr6",
-          "text_de": "Freunde",
           "text": "Friends",
-          "scale": "cat",
+          "text_de": "Freunde",
           "concept": "fstr6",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4733,10 +4758,10 @@
         },
         {
           "item": "fstr3",
-          "text_de": "Geschwister",
           "text": "Siblings",
-          "scale": "cat",
+          "text_de": "Geschwister",
           "concept": "fstr3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4774,10 +4799,10 @@
         },
         {
           "item": "fstr2",
-          "text_de": "Mutter",
           "text": "Mother",
-          "scale": "cat",
+          "text_de": "Mutter",
           "concept": "fstr2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4815,10 +4840,10 @@
         },
         {
           "item": "fstr1",
-          "text_de": "Vater",
           "text": "Father",
-          "scale": "cat",
+          "text_de": "Vater",
           "concept": "fstr1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4856,10 +4881,10 @@
         },
         {
           "item": "fstr7",
-          "text_de": "Großeltern",
           "text": "Grandparents",
-          "scale": "cat",
+          "text_de": "Großeltern",
           "concept": "fstr7",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4904,10 +4929,11 @@
       "question": "21",
       "name": "21",
       "label": "How many close friends do you have?",
+      "label_de": "Wie viele enge Freunde hast Du?",
       "items": [
         {
-          "text_de": "Wie viele enge Freunde hast Du?",
           "text": "How many close friends do you have?",
+          "text_de": "Wie viele enge Freunde hast Du?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -4915,10 +4941,10 @@
         },
         {
           "item": "fbez06",
-          "text_de": "Freunde",
           "text": "Friends",
-          "scale": "int",
+          "text_de": "Freunde",
           "concept": "fbez06",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -4931,21 +4957,22 @@
       "question": "22",
       "name": "22",
       "label": "How important are the following people to you?",
+      "label_de": "Wie wichtig sind für Ihr Leben derzeit folgende Menschen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie wichtig sind für Ihr Leben derzeit folgende Menschen?",
           "text": "How important are the following people to you?",
+          "text_de": "Wie wichtig sind für Ihr Leben derzeit folgende Menschen?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "fwich1",
-          "text_de": "Mein Vater",
           "text": "My father",
-          "scale": "cat",
+          "text_de": "Mein Vater",
           "concept": "fwich1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -4978,10 +5005,10 @@
         },
         {
           "item": "fwich2",
-          "text_de": "Meine Mutter",
           "text": "My mother",
-          "scale": "cat",
+          "text_de": "Meine Mutter",
           "concept": "fwich2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5014,10 +5041,10 @@
         },
         {
           "item": "fwich3",
-          "text_de": "Mein Bruder / meine Schwester",
           "text": "My brother / my sister",
-          "scale": "cat",
+          "text_de": "Mein Bruder / meine Schwester",
           "concept": "fwich3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5050,10 +5077,10 @@
         },
         {
           "item": "fwich4",
-          "text_de": "Eine andere verwandte Person",
           "text": "Another relative",
-          "scale": "cat",
+          "text_de": "Eine andere verwandte Person",
           "concept": "fwich4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5086,10 +5113,10 @@
         },
         {
           "item": "fwich5",
-          "text_de": "Meine feste Freundin / mein fester Freund",
           "text": "My boyfriend / girlfriend",
-          "scale": "cat",
+          "text_de": "Meine feste Freundin / mein fester Freund",
           "concept": "fwich5",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5122,10 +5149,10 @@
         },
         {
           "item": "fwich6",
-          "text_de": "Mein bester Freund / meine beste Freundin",
           "text": "My best friend",
-          "scale": "cat",
+          "text_de": "Mein bester Freund / meine beste Freundin",
           "concept": "fwich6",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5158,10 +5185,10 @@
         },
         {
           "item": "fwich8",
-          "text_de": "Meine Clique / Gruppe, der ich angehöre",
           "text": "My clique / group of friends",
-          "scale": "cat",
+          "text_de": "Meine Clique / Gruppe, der ich angehöre",
           "concept": "fwich8",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5194,10 +5221,10 @@
         },
         {
           "item": "fwich7",
-          "text_de": "Ein Lehrer / eine Lehrerin",
           "text": "A teacher",
-          "scale": "cat",
+          "text_de": "Ein Lehrer / eine Lehrerin",
           "concept": "fwich7",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5230,10 +5257,10 @@
         },
         {
           "item": "fwich9",
-          "text_de": "Eine sonstige Person",
           "text": "Another person",
-          "scale": "cat",
+          "text_de": "Eine sonstige Person",
           "concept": "fwich9",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5266,10 +5293,10 @@
         },
         {
           "item": "twichso",
-          "text_de": "(sonstige Person)",
           "text": "Another person",
-          "scale": "chr",
+          "text_de": "(sonstige Person)",
           "concept": "twichso",
+          "scale": "chr",
           "sn": 10,
           "number": ""
         }
@@ -5282,13 +5309,14 @@
       "question": "23",
       "name": "23",
       "label": "Do all the people living in this household speak German to you or is there any other language?",
+      "label_de": "Sprechen alle, die hier im Haushalt wohnen, nur Deutsch mit Dir oder auch in einer anderen Sprache? ",
       "items": [
         {
           "item": "fdtsch1",
-          "text_de": "Sprechen alle, die hier im Haushalt wohnen, nur Deutsch mit Dir oder auch in einer anderen Sprache? ",
           "text": "Do all the people living in this household speak German to you or is there any other language?",
-          "scale": "cat",
+          "text_de": "Sprechen alle, die hier im Haushalt wohnen, nur Deutsch mit Dir oder auch in einer anderen Sprache? ",
           "concept": "fdtsch1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5311,10 +5339,10 @@
         },
         {
           "item": "fdtsch2",
-          "text_de": "[Auch/Nur in anderer Sprache] und zwar:",
           "text": "[Also/only other language]:",
-          "scale": "chr",
+          "text_de": "[Auch/Nur in anderer Sprache] und zwar:",
           "concept": "fdtsch2",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         }
@@ -5327,11 +5355,12 @@
       "question": "24",
       "name": "24",
       "label": "How is it today? Do you get pocket money or a regular financial support from your parents or other relatives?",
+      "label_de": "Erhalten Sie Taschengeld oder einen regelmäßigen Zuschuss von Ihren Eltern oder anderen Verwandten?",
       "items": [
         {
           "item": "1",
-          "text_de": "Erhalten Sie Taschengeld oder einen regelmäßigen Zuschuss von Ihren Eltern oder anderen Verwandten?",
           "text": "How is it today? Do you get pocket money or a regular financial support from your parents or other relatives?",
+          "text_de": "Erhalten Sie Taschengeld oder einen regelmäßigen Zuschuss von Ihren Eltern oder anderen Verwandten?",
           "scale": "cat",
           "answers": [
             {
@@ -5357,38 +5386,39 @@
       "question": "25",
       "name": "25",
       "label": "How much pocket money/allowance do you get per week / per month?",
+      "label_de": "Wieviel Taschengeld oder Zuschuss erhalten Sie regelmäßig pro Woche oder pro Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wieviel Taschengeld oder Zuschuss erhalten Sie regelmäßig pro Woche oder pro Monat?",
           "text": "How much pocket money/allowance do you get per week / per month?",
+          "text_de": "Wieviel Taschengeld oder Zuschuss erhalten Sie regelmäßig pro Woche oder pro Monat?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "ftg2",
-          "text_de": "Pro Woche ...Euro",
           "text": "… euros per week",
-          "scale": "int",
+          "text_de": "Pro Woche ...Euro",
           "concept": "ftg2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "2",
-          "text_de": "oder",
           "text": "or",
+          "text_de": "oder",
           "scale": "txt",
           "sn": 2,
           "number": ""
         },
         {
           "item": "ftg3",
-          "text_de": "Pro Monat … Euro",
           "text": "Per month … euros.",
-          "scale": "int",
+          "text_de": "Pro Monat … Euro",
           "concept": "ftg3",
+          "scale": "int",
           "sn": 3,
           "number": ""
         }
@@ -5401,11 +5431,12 @@
       "question": "26",
       "name": "26",
       "label": "Are you able to save some money regularly (for vacations, larger purchases, etc.) ",
+      "label_de": "Können Sie gelegentlich oder regelmäßig etwas Geld sparen, \nz.B. für eigene Anschaffungen oder Reisen?",
       "items": [
         {
           "item": "1",
-          "text_de": "Können Sie gelegentlich oder regelmäßig etwas Geld sparen, \nz.B. für eigene Anschaffungen oder Reisen?",
           "text": "Are you able to save some money regularly (for vacations, larger purchases, etc.) ",
+          "text_de": "Können Sie gelegentlich oder regelmäßig etwas Geld sparen, \nz.B. für eigene Anschaffungen oder Reisen?",
           "scale": "cat",
           "answers": [
             {
@@ -5436,30 +5467,31 @@
       "question": "27",
       "name": "27",
       "label": "How much do you save per month approximately?",
+      "label_de": "Wie viel sparen Sie ungefähr im Monat?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wie viel sparen Sie ungefähr im Monat?",
           "text": "How much do you save per month approximately?",
+          "text_de": "Wie viel sparen Sie ungefähr im Monat?",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "fspar2",
-          "text_de": "Ungefähr … Euro pro Monat",
           "text": "About … euros per month",
-          "scale": "int",
+          "text_de": "Ungefähr … Euro pro Monat",
           "concept": "fspar2",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "fspar3",
-          "text_de": "Nicht zu sagen, ganz unregelmäßig",
           "text": "Can not say, it is very irregular",
-          "scale": "bin",
+          "text_de": "Nicht zu sagen, ganz unregelmäßig",
           "concept": "fspar3",
+          "scale": "bin",
           "sn": 2,
           "number": ""
         }
@@ -5472,10 +5504,11 @@
       "question": "28",
       "name": "28",
       "label": "Are the following devices available at your home for you to use? If so, please state whether they're yours or whether you share them with other family members.",
+      "label_de": "Kannst Du bei Dir zu Hause folgende Geräte nutzen? Wenn Ja, gib auch an, ob Du diese Geräte für Dich allein hast oder ob Du sie gemeinsam mit anderen Familienangehörigen nutzt. ",
       "items": [
         {
-          "text_de": "Kannst Du bei Dir zu Hause folgende Geräte nutzen? Wenn Ja, gib auch an, ob Du diese Geräte für Dich allein hast oder ob Du sie gemeinsam mit anderen Familienangehörigen nutzt. ",
           "text": "Are the following devices available at your home for you to use? If so, please state whether they're yours or whether you share them with other family members.",
+          "text_de": "Kannst Du bei Dir zu Hause folgende Geräte nutzen? Wenn Ja, gib auch an, ob Du diese Geräte für Dich allein hast oder ob Du sie gemeinsam mit anderen Familienangehörigen nutzt. ",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -5483,10 +5516,10 @@
         },
         {
           "item": "fzhg1",
-          "text_de": "Tablet",
           "text": "Tablet computer",
-          "scale": "cat",
+          "text_de": "Tablet",
           "concept": "fzhg1",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -5504,10 +5537,10 @@
         },
         {
           "item": "fzhg2",
-          "text_de": "Computer / Laptop",
           "text": "Computer / laptop",
-          "scale": "cat",
+          "text_de": "Computer / Laptop",
           "concept": "fzhg2",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -5525,10 +5558,10 @@
         },
         {
           "item": "fzhg3",
-          "text_de": "(Spiele-)Konsole",
           "text": "(Games) console",
-          "scale": "cat",
+          "text_de": "(Spiele-)Konsole",
           "concept": "fzhg3",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -5546,10 +5579,10 @@
         },
         {
           "item": "fzhg4",
-          "text_de": "Smartphone",
           "text": "Smart phone",
-          "scale": "cat",
+          "text_de": "Smartphone",
           "concept": "fzhg4",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -5567,10 +5600,10 @@
         },
         {
           "item": "fzhg5",
-          "text_de": "Ein anderes Handy",
           "text": "Another type of mobile phone",
-          "scale": "cat",
+          "text_de": "Ein anderes Handy",
           "concept": "fzhg5",
+          "scale": "cat",
           "answers": [
             {
               "value": 2,
@@ -5588,10 +5621,10 @@
         },
         {
           "item": "fzhg1a",
-          "text_de": "Tablet",
           "text": "Tablet computer",
-          "scale": "cat",
+          "text_de": "Tablet",
           "concept": "fzhg1a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5609,10 +5642,10 @@
         },
         {
           "item": "fzhg2a",
-          "text_de": "Computer / Laptop",
           "text": "Computer / laptop",
-          "scale": "cat",
+          "text_de": "Computer / Laptop",
           "concept": "fzhg2a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5630,10 +5663,10 @@
         },
         {
           "item": "fzhg3a",
-          "text_de": "(Spiele-)Konsole",
           "text": "(Games) console",
-          "scale": "cat",
+          "text_de": "(Spiele-)Konsole",
           "concept": "fzhg3a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5651,10 +5684,10 @@
         },
         {
           "item": "fzhg4a",
-          "text_de": "Smartphone",
           "text": "Smart phone",
-          "scale": "cat",
+          "text_de": "Smartphone",
           "concept": "fzhg4a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5672,10 +5705,10 @@
         },
         {
           "item": "fzhg5a",
-          "text_de": "Ein anderes Handy",
           "text": "Another type of mobile phone",
-          "scale": "cat",
+          "text_de": "Ein anderes Handy",
           "concept": "fzhg5a",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5700,13 +5733,14 @@
       "question": "29",
       "name": "29",
       "label": "Generally speaking, how interested are you in politics?",
+      "label_de": "Einmal ganz allgemein gesprochen:\nWie stark interessieren Sie sich für Politik?",
       "items": [
         {
           "item": "fpol1",
-          "text_de": "Einmal ganz allgemein gesprochen:\nWie stark interessieren Sie sich für Politik?",
           "text": "Generally speaking, how interested are you in politics?",
-          "scale": "cat",
+          "text_de": "Einmal ganz allgemein gesprochen:\nWie stark interessieren Sie sich für Politik?",
           "concept": "fpol1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5741,13 +5775,14 @@
       "question": "30",
       "name": "30",
       "label": "Many people in Germany lean towards one political party in the long term, even if they occasionally vote for another party or are not eligible to vote. Do you lean towards a particular political party?",
+      "label_de": "Viele Leute neigen längere Zeit einer bestimmten Partei zu, obwohl sie ab und zu eine andere Partei wählen.\nWie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
       "items": [
         {
           "item": "fpol2",
-          "text_de": "Viele Leute neigen längere Zeit einer bestimmten Partei zu, obwohl sie ab und zu eine andere Partei wählen.\nWie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
           "text": "Many people in Germany lean towards one political party in the long term, even if they occasionally vote for another party or are not eligible to vote. Do you lean towards a particular political party?",
-          "scale": "cat",
+          "text_de": "Viele Leute neigen längere Zeit einer bestimmten Partei zu, obwohl sie ab und zu eine andere Partei wählen.\nWie ist das bei Ihnen: Neigen Sie einer bestimmten Partei in Deutschland zu?",
           "concept": "fpol2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5772,13 +5807,14 @@
       "question": "31",
       "name": "31",
       "label": "Which party do you lean towards?",
+      "label_de": "Welcher Partei neigen Sie zu?",
       "items": [
         {
           "item": "fpol3",
-          "text_de": "Welcher Partei neigen Sie zu?",
           "text": "Which party do you lean towards?",
-          "scale": "cat",
+          "text_de": "Welcher Partei neigen Sie zu?",
           "concept": "fpol3",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5836,10 +5872,10 @@
         },
         {
           "item": "fpolso",
-          "text_de": "[Andere] und zwar:",
           "text": "[Other] Please state: …",
-          "scale": "chr",
+          "text_de": "[Andere] und zwar:",
           "concept": "fpolso",
+          "scale": "chr",
           "sn": 1,
           "number": ""
         }
@@ -5852,13 +5888,14 @@
       "question": "32",
       "name": "32",
       "label": "And to what extent do you lean towards this party?",
+      "label_de": "Und wie stark neigen Sie dieser Partei zu?",
       "items": [
         {
           "item": "jpol4",
-          "text_de": "Und wie stark neigen Sie dieser Partei zu?",
           "text": "And to what extent do you lean towards this party?",
-          "scale": "cat",
+          "text_de": "Und wie stark neigen Sie dieser Partei zu?",
           "concept": "jpol4",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5898,31 +5935,32 @@
       "question": "33",
       "name": "33",
       "label": "People can have many different qualities—some are listed below. You will probably think that some of these are completely true of you whereas others are not at all. And with some of them, you might not be sure. ",
+      "label_de": "Es gibt unterschiedliche Eigenschaften, die Menschen haben können. Wir haben hier einige davon aufgelistet. Wahrscheinlich wirst Du Dir bei manchen dieser Eigenschaften denken, dass sie voll auf Dich zutreffen. Andere werden wahrscheinlich überhaupt nicht auf Dich zutreffen. Und bei wieder anderen bist Du Dir vielleicht nicht sicher, ob sie auf Dich zutreffen oder nicht. ",
       "items": [
         {
           "item": "1",
-          "text_de": "Es gibt unterschiedliche Eigenschaften, die Menschen haben können. Wir haben hier einige davon aufgelistet. Wahrscheinlich wirst Du Dir bei manchen dieser Eigenschaften denken, dass sie voll auf Dich zutreffen. Andere werden wahrscheinlich überhaupt nicht auf Dich zutreffen. Und bei wieder anderen bist Du Dir vielleicht nicht sicher, ob sie auf Dich zutreffen oder nicht. ",
-          "instruction_de": "Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 kannst Du Deine Meinung abstufen.",
           "text": "People can have many different qualities—some are listed below. You will probably think that some of these are completely true of you whereas others are not at all. And with some of them, you might not be sure. ",
+          "text_de": "Es gibt unterschiedliche Eigenschaften, die Menschen haben können. Wir haben hier einige davon aufgelistet. Wahrscheinlich wirst Du Dir bei manchen dieser Eigenschaften denken, dass sie voll auf Dich zutreffen. Andere werden wahrscheinlich überhaupt nicht auf Dich zutreffen. Und bei wieder anderen bist Du Dir vielleicht nicht sicher, ob sie auf Dich zutreffen oder nicht. ",
           "instruction": "Please answer on a scale from 1 to 7, where 1 means „not true of me at all“, and 7 means „completely true of me“. ",
+          "instruction_de": "Antworte bitte anhand der folgenden Skala. Der Wert 1 bedeutet: trifft überhaupt nicht zu. Der Wert 7 bedeutet: trifft voll zu. Mit den Werten zwischen 1 und 7 kannst Du Deine Meinung abstufen.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "2",
-          "text_de": "Ich bin jemand, der ... ",
           "text": "I am someone who ...",
+          "text_de": "Ich bin jemand, der ... ",
           "scale": "txt",
           "sn": 1,
           "number": ""
         },
         {
           "item": "fego01",
-          "text_de": "gründlich arbeitet",
           "text": "a thorough worker",
-          "scale": "cat",
+          "text_de": "gründlich arbeitet",
           "concept": "fego01",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -5965,10 +6003,10 @@
         },
         {
           "item": "fego02",
-          "text_de": "kommunikativ, gesprächig ist ",
           "text": "communicative and talkative",
-          "scale": "cat",
+          "text_de": "kommunikativ, gesprächig ist ",
           "concept": "fego02",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6011,10 +6049,10 @@
         },
         {
           "item": "fego03",
-          "text_de": "manchmal etwas grob zu anderen ist",
           "text": "sometimes a bit rude to others",
-          "scale": "cat",
+          "text_de": "manchmal etwas grob zu anderen ist",
           "concept": "fego03",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6057,10 +6095,10 @@
         },
         {
           "item": "fego04",
-          "text_de": "originell ist, neue Ideen einbringt ",
           "text": "original, someone who comes up with new ideas",
-          "scale": "cat",
+          "text_de": "originell ist, neue Ideen einbringt ",
           "concept": "fego04",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6103,10 +6141,10 @@
         },
         {
           "item": "fego05",
-          "text_de": "sich oft Sorgen macht",
           "text": "a worrier",
-          "scale": "cat",
+          "text_de": "sich oft Sorgen macht",
           "concept": "fego05",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6149,10 +6187,10 @@
         },
         {
           "item": "fego06",
-          "text_de": "verzeihen kann; das heißt, ich nehme Entschuldigungen schnell an ",
           "text": "can forgive; that is, I accept apologies quickly",
-          "scale": "cat",
+          "text_de": "verzeihen kann; das heißt, ich nehme Entschuldigungen schnell an ",
           "concept": "fego06",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6195,10 +6233,10 @@
         },
         {
           "item": "fego07",
-          "text_de": "eher faul ist",
           "text": "somewhat lazy",
-          "scale": "cat",
+          "text_de": "eher faul ist",
           "concept": "fego07",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6241,10 +6279,10 @@
         },
         {
           "item": "fego08",
-          "text_de": "aus sich herausgehen kann, gesellig ist ",
           "text": "outgoing, sociable",
-          "scale": "cat",
+          "text_de": "aus sich herausgehen kann, gesellig ist ",
           "concept": "fego08",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6287,10 +6325,10 @@
         },
         {
           "item": "fego09",
-          "text_de": "künstlerische, ästhetische Erfahrungen schätzt; das heißt, ich male gerne oder mache Musik, gehe gerne ins Theater oder ins Museum ",
           "text": "someone who values artistic, aesthetic experiences",
-          "scale": "cat",
+          "text_de": "künstlerische, ästhetische Erfahrungen schätzt; das heißt, ich male gerne oder mache Musik, gehe gerne ins Theater oder ins Museum ",
           "concept": "fego09",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6333,10 +6371,10 @@
         },
         {
           "item": "fego10",
-          "text_de": "leicht nervös wird",
           "text": "become easily nervous",
-          "scale": "cat",
+          "text_de": "leicht nervös wird",
           "concept": "fego10",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6379,10 +6417,10 @@
         },
         {
           "item": "fego11",
-          "text_de": "Aufgaben wirksam und effizient erledigt",
           "text": "Effective and efficient in completing tasks",
-          "scale": "cat",
+          "text_de": "Aufgaben wirksam und effizient erledigt",
           "concept": "fego11",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6425,10 +6463,10 @@
         },
         {
           "item": "fego12",
-          "text_de": "zurückhaltend ist",
           "text": "being reserved",
-          "scale": "cat",
+          "text_de": "zurückhaltend ist",
           "concept": "fego12",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6471,10 +6509,10 @@
         },
         {
           "item": "fego13",
-          "text_de": "rücksichtsvoll und freundlich mit anderen umgeht",
           "text": "considerate and kind to others",
-          "scale": "cat",
+          "text_de": "rücksichtsvoll und freundlich mit anderen umgeht",
           "concept": "fego13",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6517,10 +6555,10 @@
         },
         {
           "item": "fego14",
-          "text_de": "eine lebhafte Phantasie, Vorstellungen hat; das heißt, ich kann mir gut Dinge vorstellen und träume gern ",
           "text": "has a lively imagination, ideas; that is, I can well imagine things and dream",
-          "scale": "cat",
+          "text_de": "eine lebhafte Phantasie, Vorstellungen hat; das heißt, ich kann mir gut Dinge vorstellen und träume gern ",
           "concept": "fego14",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6563,10 +6601,10 @@
         },
         {
           "item": "fego15",
-          "text_de": "entspannt ist, mit Stress gut umgehen kann ",
           "text": "relaxed, able to deal with stress",
-          "scale": "cat",
+          "text_de": "entspannt ist, mit Stress gut umgehen kann ",
           "concept": "fego15",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6609,10 +6647,10 @@
         },
         {
           "item": "fego16",
-          "text_de": "wissbegierig ist",
           "text": "eager for knowledge",
-          "scale": "cat",
+          "text_de": "wissbegierig ist",
           "concept": "fego16",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6655,10 +6693,10 @@
         },
         {
           "item": "fego17",
-          "text_de": "eine positive Einstellung zu sich selbst hat",
           "text": "someone with a positive attitude toward myself",
-          "scale": "cat",
+          "text_de": "eine positive Einstellung zu sich selbst hat",
           "concept": "fego17",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6701,10 +6739,10 @@
         },
         {
           "item": "fego18",
-          "text_de": "leicht auf etwas verzichten kann, wenn er auf etwas Besonderes sparen will",
           "text": "able to do without certain things if I want to save money for something special.",
-          "scale": "cat",
+          "text_de": "leicht auf etwas verzichten kann, wenn er auf etwas Besonderes sparen will",
           "concept": "fego18",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6747,10 +6785,10 @@
         },
         {
           "item": "fego19",
-          "text_de": "lieber heute seinen Spaß haben will und dabei nicht an morgen denkt",
           "text": "someone who would rather have fun today than think about tomorrow.",
-          "scale": "cat",
+          "text_de": "lieber heute seinen Spaß haben will und dabei nicht an morgen denkt",
           "concept": "fego19",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6793,10 +6831,10 @@
         },
         {
           "item": "fego20",
-          "text_de": "versucht, auch ganz schwierige Aufgaben zu lösen ",
           "text": "trying to solve even very difficult tasks",
-          "scale": "cat",
+          "text_de": "versucht, auch ganz schwierige Aufgaben zu lösen ",
           "concept": "fego20",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6846,13 +6884,14 @@
       "question": "34",
       "name": "34",
       "label": "How would you describe your current health?",
+      "label_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
       "items": [
         {
           "item": "fges",
-          "text_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
           "text": "How would you describe your current health?",
-          "scale": "cat",
+          "text_de": "Wie würden Sie Ihren gegenwärtigen Gesundheitszustand beschreiben?",
           "concept": "fges",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -6892,23 +6931,24 @@
       "question": "35",
       "name": "35",
       "label": "How tall are you? (cm)",
+      "label_de": "Was ist Ihre Körpergröße in cm?",
       "items": [
         {
           "item": "1",
-          "text_de": "Was ist Ihre Körpergröße in cm?",
-          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "text": "How tall are you? (cm)",
+          "text_de": "Was ist Ihre Körpergröße in cm?",
           "instruction": "If you don't know, please estimate.",
+          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "fgr",
-          "text_de": "cm",
           "text": "cm",
-          "scale": "int",
+          "text_de": "cm",
           "concept": "fgr",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -6921,23 +6961,24 @@
       "question": "36",
       "name": "36",
       "label": "How many kilograms do you currently weigh?",
+      "label_de": "Wieviel Kilogramm wiegen Sie gegenwärtig?",
       "items": [
         {
           "item": "1",
-          "text_de": "Wieviel Kilogramm wiegen Sie gegenwärtig?",
-          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "text": "How many kilograms do you currently weigh?",
+          "text_de": "Wieviel Kilogramm wiegen Sie gegenwärtig?",
           "instruction": "If you don't know the exact amount, please state an approximate figure.",
+          "instruction_de": "Wenn Sie es nicht genau wissen, schätzen Sie bitte.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "fkilo",
-          "text_de": "kg",
           "text": "kg",
-          "scale": "int",
+          "text_de": "kg",
           "concept": "fkilo",
+          "scale": "int",
           "sn": 1,
           "number": ""
         }
@@ -6950,12 +6991,13 @@
       "question": "37",
       "name": "37",
       "label": "Are you generally a person who is willing to take risks or do you try to avoid taking risks?",
+      "label_de": "Wie schätzt Du Dich persönlich ein: Bist Du ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? ",
       "items": [
         {
-          "text_de": "Wie schätzt Du Dich persönlich ein: Bist Du ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? ",
-          "instruction_de": "Antworte bitte anhand der folgenden Skala. Der Wert 0 bedeutet: gar nicht risikobereit. Der Wert 10 bedeutet: sehr risikobereit. Mit den Werten zwischen 0 und 10 kannst Du Deine Einschätzung abstufen.",
           "text": "Are you generally a person who is willing to take risks or do you try to avoid taking risks?",
+          "text_de": "Wie schätzt Du Dich persönlich ein: Bist Du ein risikobereiter Mensch oder versuchst Du, Risiken zu vermeiden? ",
           "instruction": "Please tick a box on the scale, where the value 0 means not at all willing to take risks and the value 10 means very willing to take risks",
+          "instruction_de": "Antworte bitte anhand der folgenden Skala. Der Wert 0 bedeutet: gar nicht risikobereit. Der Wert 10 bedeutet: sehr risikobereit. Mit den Werten zwischen 0 und 10 kannst Du Deine Einschätzung abstufen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -6963,8 +7005,8 @@
         },
         {
           "item": "frisk",
-          "scale": "cat",
           "concept": "frisk",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -7034,23 +7076,24 @@
       "question": "38",
       "name": "38",
       "label": "The following statements indicate various attitudes to life and to the future.\nTo what extent do you agree with the individual statements ?",
+      "label_de": "Die folgenden zwei Aussagen beschreiben mögliche Einstellungen zum Leben und zur Zukunft.\nIn welchem Maße stimmst Du persönlich diesen Aussagen zu?",
       "items": [
         {
           "item": "1",
-          "text_de": "Die folgenden zwei Aussagen beschreiben mögliche Einstellungen zum Leben und zur Zukunft.\nIn welchem Maße stimmst Du persönlich diesen Aussagen zu?",
-          "instruction_de": "Antworte bitte anhand einer Skala\nDer Wert 1 bedeutet: stimme überhaupt nicht zu, der Wert 7 bedeutet: stimme voll zu.",
           "text": "The following statements indicate various attitudes to life and to the future.\nTo what extent do you agree with the individual statements ?",
+          "text_de": "Die folgenden zwei Aussagen beschreiben mögliche Einstellungen zum Leben und zur Zukunft.\nIn welchem Maße stimmst Du persönlich diesen Aussagen zu?",
           "instruction": "Please answer according to the following scale: \nThe value 1 means: \"not at all agree\"\nthe value 7 means: \"agree completely\"",
+          "instruction_de": "Antworte bitte anhand einer Skala\nDer Wert 1 bedeutet: stimme überhaupt nicht zu, der Wert 7 bedeutet: stimme voll zu.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "flebz1",
-          "text_de": "Was man im Leben erreicht, ist in erster Linie\neine Frage von Schicksal oder Glück",
           "text": "Success in life is due to fate or destiny.",
-          "scale": "cat",
+          "text_de": "Was man im Leben erreicht, ist in erster Linie\neine Frage von Schicksal oder Glück",
           "concept": "flebz1",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -7093,10 +7136,10 @@
         },
         {
           "item": "flebz2",
-          "text_de": "Erfolg muss man sich hart erarbeiten",
           "text": "You have to work hard to succeed",
-          "scale": "cat",
+          "text_de": "Erfolg muss man sich hart erarbeiten",
           "concept": "flebz2",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -7146,12 +7189,13 @@
       "question": "39",
       "name": "39",
       "label": "In conclusion, we would like to ask you how satisfied you are with your life in general. ",
+      "label_de": "Zum Schluss möchten wir Dich noch nach Deiner Zufriedenheit mit Deinem Leben insgesamt fragen.",
       "items": [
         {
-          "text_de": "Zum Schluss möchten wir Dich noch nach Deiner Zufriedenheit mit Deinem Leben insgesamt fragen.",
-          "instruction_de": "Antworte bitte anhand der folgenden Skala. Der Wert 0 bedeutet: ganz und gar unzufrieden. Der Wert 10 bedeutet: ganz und gar zufrieden. Mit den Werten zwischen 0 und 10 kannst Du Deine Einschätzung abstufen.",
           "text": "In conclusion, we would like to ask you how satisfied you are with your life in general. ",
+          "text_de": "Zum Schluss möchten wir Dich noch nach Deiner Zufriedenheit mit Deinem Leben insgesamt fragen.",
           "instruction": "Please give you answer on the basis of the following scale. The value 0 means „completely dissatisfied“. The value 10 means „„completely satisfied“. By means of the values between 0 and 10 you can rate your answer between the two extremes.",
+          "instruction_de": "Antworte bitte anhand der folgenden Skala. Der Wert 0 bedeutet: ganz und gar unzufrieden. Der Wert 10 bedeutet: ganz und gar zufrieden. Mit den Werten zwischen 0 und 10 kannst Du Deine Einschätzung abstufen.",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -7159,10 +7203,10 @@
         },
         {
           "item": "fzule1",
-          "text_de": "Wie zufrieden bist Du gegenwärtig, alles in allem, mit Deinem Leben? ",
           "text": "How satisfied are you with your life?",
-          "scale": "cat",
+          "text_de": "Wie zufrieden bist Du gegenwärtig, alles in allem, mit Deinem Leben? ",
           "concept": "fzule1",
+          "scale": "cat",
           "answers": [
             {
               "value": 0,
@@ -7232,10 +7276,11 @@
       "question": "B5",
       "name": "B5",
       "label": "Realisation of the interview",
+      "label_de": "Durchführung des Interviews",
       "items": [
         {
-          "text_de": "Durchführung des Interviews",
           "text": "Realisation of the interview",
+          "text_de": "Durchführung des Interviews",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -7250,10 +7295,11 @@
       "question": "A",
       "name": "A",
       "label": "What is the date today and what time did you finish filling out the questionnaire?",
+      "label_de": "Welches Datum haben wir heute und um wie viel Uhr wurde der Fragebogen beendet?",
       "items": [
         {
-          "text_de": "Welches Datum haben wir heute und um wie viel Uhr wurde der Fragebogen beendet?",
           "text": "What is the date today and what time did you finish filling out the questionnaire?",
+          "text_de": "Welches Datum haben wir heute und um wie viel Uhr wurde der Fragebogen beendet?",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -7261,37 +7307,37 @@
         },
         {
           "item": "datt",
-          "text_de": "Tag",
           "text": "day",
-          "scale": "int",
+          "text_de": "Tag",
           "concept": "datt",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "datm",
-          "text_de": "Monat",
           "text": "month",
-          "scale": "int",
+          "text_de": "Monat",
           "concept": "datm",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "datst",
-          "text_de": "Stunde",
           "text": "hour",
-          "scale": "int",
+          "text_de": "Stunde",
           "concept": "datst",
+          "scale": "int",
           "sn": 3,
           "number": ""
         },
         {
           "item": "datmi",
-          "text_de": "Minute",
           "text": "minute",
-          "scale": "int",
+          "text_de": "Minute",
           "concept": "datmi",
+          "scale": "int",
           "sn": 4,
           "number": ""
         }
@@ -7304,13 +7350,14 @@
       "question": "B",
       "name": "B",
       "label": "How was the interview conducted?",
+      "label_de": "Wie wurde die Befragung durchgeführt?",
       "items": [
         {
           "item": "form",
-          "text_de": "Wie wurde die Befragung durchgeführt?",
           "text": "How was the interview conducted?",
-          "scale": "cat",
+          "text_de": "Wie wurde die Befragung durchgeführt?",
           "concept": "form",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -7345,10 +7392,11 @@
       "question": "C",
       "name": "C",
       "label": "Duration of the interview",
+      "label_de": "Interviewdauer:",
       "items": [
         {
-          "text_de": "Interviewdauer:",
           "text": "Duration of the interview",
+          "text_de": "Interviewdauer:",
           "scale": "txt",
           "sn": 0,
           "item": "root",
@@ -7356,19 +7404,19 @@
         },
         {
           "item": "dauer1",
-          "text_de": "Das mündliche (Teil-)Interview dauerte ... Minuten",
           "text": "The oral (complete or partial) interview lasted … minutes",
-          "scale": "int",
+          "text_de": "Das mündliche (Teil-)Interview dauerte ... Minuten",
           "concept": "dauer1",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "dauer2",
-          "text_de": "Befragter brauchte zum Selbstausfüllen ... Minuten",
           "text": "The respondent needed … minutes to complete the questionnaire",
-          "scale": "int",
+          "text_de": "Befragter brauchte zum Selbstausfüllen ... Minuten",
           "concept": "dauer2",
+          "scale": "int",
           "sn": 2,
           "number": ""
         }
@@ -7381,13 +7429,14 @@
       "question": "D",
       "name": "D",
       "label": "Were other persons present while filling out the questionnaire?",
+      "label_de": "Waren beim Ausfüllen des Fragebogens weitere Personen anwesend?",
       "items": [
         {
           "item": "anw",
-          "text_de": "Waren beim Ausfüllen des Fragebogens weitere Personen anwesend?",
           "text": "Were other persons present while filling out the questionnaire?",
-          "scale": "cat",
+          "text_de": "Waren beim Ausfüllen des Fragebogens weitere Personen anwesend?",
           "concept": "anw",
+          "scale": "cat",
           "answers": [
             {
               "value": 1,
@@ -7417,13 +7466,14 @@
       "question": "E",
       "name": "E",
       "label": "Other notes:",
+      "label_de": "Sonstige Hinweise:",
       "items": [
         {
           "item": "text",
-          "text_de": "Sonstige Hinweise:",
           "text": "Other notes:",
-          "scale": "chr",
+          "text_de": "Sonstige Hinweise:",
           "concept": "text",
+          "scale": "chr",
           "sn": 0,
           "number": ""
         }
@@ -7436,39 +7486,40 @@
       "question": "IN",
       "name": "IN",
       "label": "I confirm that this interview was carried out correctly. The child's parents / legal guardians gave their consent to the interview with the child.",
+      "label_de": "Ich bestätige die korrekte Durchführung des Interviews. Die Eltern / Erziehungsberechtigten des Kindes haben ihr Einverständnis zur Befragung ihres Kindes erteilt.",
       "items": [
         {
           "item": "37",
-          "text_de": "Ich bestätige die korrekte Durchführung des Interviews. Die Eltern / Erziehungsberechtigten des Kindes haben ihr Einverständnis zur Befragung ihres Kindes erteilt.",
           "text": "I confirm that this interview was carried out correctly. The child's parents / legal guardians gave their consent to the interview with the child.",
+          "text_de": "Ich bestätige die korrekte Durchführung des Interviews. Die Eltern / Erziehungsberechtigten des Kindes haben ihr Einverständnis zur Befragung ihres Kindes erteilt.",
           "scale": "txt",
           "sn": 0,
           "number": ""
         },
         {
           "item": "lisnr",
-          "text_de": "Listen-Nr.",
           "text": "List ID:",
-          "scale": "int",
+          "text_de": "Listen-Nr.",
           "concept": "lisnr",
+          "scale": "int",
           "sn": 1,
           "number": ""
         },
         {
           "item": "lfdnr",
-          "text_de": "Lfd-Nr",
           "text": "Consecutive number",
-          "scale": "int",
+          "text_de": "Lfd-Nr",
           "concept": "lfdnr",
+          "scale": "int",
           "sn": 2,
           "number": ""
         },
         {
           "item": "intnr",
-          "text_de": "Abrechnungs-Nummer",
           "text": "account number",
-          "scale": "int",
+          "text_de": "Abrechnungs-Nummer",
           "concept": "intnr",
+          "scale": "int",
           "sn": 3,
           "number": ""
         }
